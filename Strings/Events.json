@@ -29,13 +29,13 @@
         "HaveBabyAnswer_No": "Not now...",
         "HavePlayerBabyQuestion": "Do you want to have a baby with {0}?",
         "HavePlayerBabyQuestion_Adoption": "Do you want to adopt a baby with {0}?",
-        "SpouseFlowerDanceAccept_Shane": "เต้นรำเหรอ? กับผม. ตกลง... ปล่อยให้ผม ลองซ้",
-        "SpouseFlowerDanceAccept_Emily": "อยู่แล้วสิ ที่รัก, ฉันรอ",
+        "SpouseFlowerDanceAccept_Shane": "เต้นรำเหรอ? กับผม. ตกลง... ปล่อยให้ผม ลองซ้อมเต้น สักสองสามรอบ ก่อนนะ......",
+        "SpouseFlowerDanceAccept_Emily": "อยู่แล้วสิ ที่รัก, ฉันรอคอยสิ่งนี้ มาเสมอเลย!$h",
         "AnimalBirth": "During the night, {0} gave birth to a baby {1}.",
         "AnimalNamingTitle": "Name your new baby {0}:",
         "SoundInTheNight_UFO": "A strange sound was heard in the night...",
-        "SoundInTheNight_Meteorite": "ขอขอบคุณที่สนับสนุน ModTH เรื่อยมา ทางเราจึงขอมอบ 'อุก",
-        "SoundInTheNight_Earthquake": "สินค้าจาก ModTH: ทางเราขอมอบ 'อุกกาบาต' 1 ลูก ให้ท่าน เพื่",
+        "SoundInTheNight_Meteorite": "ขอขอบคุณที่สนับสนุน ModTH เรื่อยมา ทางเราจึงขอมอบ 'อุกกาบาต' 1 ลูกให้ท่าน ไว้ใช้งานในฟาร์ม...",
+        "SoundInTheNight_Earthquake": "สินค้าจาก ModTH: ทางเราขอมอบ 'อุกกาบาต' 1 ลูก ให้ท่าน เพื่อขอบคุณ ที่สนับสนุน ModTH เสมอมา",
         "BeachNightMarket_NowOpen": "The Night Market is now open."
     }
 }

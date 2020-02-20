@@ -31,10 +31,10 @@
         "RandomNegativeFoodAdjective_Polite": "...interesting#...unusual#...different#...unconventional",
         "RandomNegativeFoodAdjective": "nasty#gross#disgusting#despicable#revolting#sickening#awful#repulsive#nauseating#foul#horrendous#putrid",
         "RandomSlightlyPositiveFoodAdjective": "decent#good#edible",
-        "ChildTerm_Male": "ช",
-        "ChildTerm_Female": "ห",
-        "QuestionDialogue_Yes": "แน",
-        "QuestionDialogue_No": "ไ",
+        "ChildTerm_Male": "ชาย",
+        "ChildTerm_Female": "หญิง",
+        "QuestionDialogue_Yes": "แน่นอน",
+        "QuestionDialogue_No": "ไม่",
         "GenericPlayerTerm": "farmer"
     }
 }
