@@ -1,0 +1,41 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "abigail_videogames": "อึ๊กก... ทำยังไงฉันก็ผ่านด่านแรก ของเกม 'Journey of the Prairie King' ไม่ได้",
+        "haley_photo": "%Haley ยุ่งอยู่กับการถ่ายภาพ มากเกิน",
+        "harvey_radio": "%Harvey ดูเหมือนกำลังย",
+        "harvey_examine_left": "เอาหล่ะอยู่นิ่งๆ นะ... แ",
+        "alex_lift_weights": "ฮึบบ... อย่า",
+        "robin_dance": "%Robin กำลังยุ่ง",
+        "demetrius_dance": "%Demetrius กำลังยุ่งอย",
+        "demetrius_read": "พวกเราซึ่งอยู่ใน Stardew Valley ถูกแยกออกออกจากโลกภายนอกอย่างสิ้นเช",
+        "emily_exercise": "การออกกำลังกาย มั",
+        "robin_exercise": "แขนของฉันมันแข็งแรงแล้ว... *แฮ่ก*... แต่ขาข",
+        "caroline_exercise": "อย่ามองนะ! ตอนนี้ฉันหน้าแดง ",
+        "shane_work": "%Shane กำลังตั้งใจทำงานอยู่ ดูเหมือนว",
+        "marnie_exercise": "%Marnie ส่งยิ้มมาให้คุณ ผ่านใบหน้าท",
+        "jodi_exercise": "อึ๊ก... หายใจเข้า.... อึ๊ก.... หา",
+        "vincent_read_right": "ครู Penny บอกว่า ผมต้องอ่านหนังสือเล่ม",
+        "penny_wave_left": "แม้เมืองนี้มันปลอดภัย แต่ยังไงฉันก็",
+        "sam_guitar": "%Sam กำลังยุ่งอยู่กั",
+        "sam_gameboy": "แปบนึงนะ... ขอฉันผ่านด",
+        "sam_skateboarding": "%Sam กำลังลองทำการ",
+        "sam_pool": "$c .5#ฮืมม... ถ้าฉันแทงให้ลูกนี้ หมุนไปข้างหน้านิดนึง บางทีฉันอาจจะ...$7#$e#*เ",
+        "sam_work": "%Sam กำลังทำงานแข่งกับเวลาอยู่... ไม่ไปร"
+    }
+}

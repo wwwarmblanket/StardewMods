@@ -1,0 +1,57 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "Dance Of The Moonlight Jellies",
+        "conditions": "Beach/2200 2400",
+        "set-up": "ocean/-1000 -1000/farmer 38 3 2/changeToTemporaryMap Beach-Jellies/loadActors Set-Up/advancedMove Vincent true 0 12 3 3000 2 0 1 3000 0 -12 -2 0 3 3000/advancedMove Jas true 0 2 3 5000 0 -2 3 5000/advancedMove Clint false 2 50000 -2 0 3 500 2 1000 3 1000 1 0 2 1000/advancedMove Harvey True 0 -12 -10 0 0 6 2 25000 0 -6 10 0 0 12 2 25000/viewport 38 2 clamp true/pause 1000/playerControl jellies",
+        "mainEvent": "pause 500/globalFade/viewport -1000 -1000/changeLocation Beach/warp farmer1 28 36/warp spouse 29 36/faceDirection spouse 2/warp farmer2 29 35/warp farmer3 34 36/warp farmer4 35 36/faceDirection farmer1 2/faceDirection farmer2 2/faceDirection farmer3 2/faceDirection farmer4 2/specificTemporarySprite candleBoat/viewport 26 36 true/pause 2000/move Lewis 0 1 2/move Lewis -2 0 3/pause 400/showFrame Lewis 16 true/animate Lewis false false 200 25 16 17 17/pause 800/playSound parry/specificTemporarySprite candleBoatMove/pause 500/showFrame Lewis 0 true/animate Lewis false false 200 25 12/pause 400/faceDirection Lewis 2/pause 6000/specificTemporarySprite moonlightJellies/pause 10000/playMusic moonlightJellies/pause 30000/viewport move -1 0 8000/pause 10000/viewport move 1 0 20000/pause 18000/globalFade/viewport -1000 -1000/pause 2000/playMusic none/pause 1000/message \"ช่วงเวลาดีๆ ของฤดูร้อนกำลังผ่านไป, และตอนนี้... กระพรุนแสงจันทร์ กำลังลอยผ่านไปสู่จุดหมาย ที่ไม่มีใครรู้.\"/pause 1000/end",
+        "Leah_spouse": "เฮ้ ฉันเคยมาดูมันแล้ว เมื่อฤดูร้อนก่อนๆนี้  ฉันจะมาพบเธออี",
+        "Abigail": "ช่างเป็นประสบการณ์ อันน่าตื่นเต้นที่หา",
+        "Robin": "*หาว*... นี่มันเลยเวลานอน ของฉันมาแล้วนะ$s#$e#เฮ้ เห็นกระทงนั่นม",
+        "Demetrius": "'กระพรุนแสงจันทร์'... เป็นสายพันธุ์ที่น่าทึ่งดีนะ เราโชคดีมาก ที่พวกมันผ่านมาที่นี่ในการ เดินทางไกลไปทางใต้#$e#ไม่",
+        "Maru": "ดูเหมือนอากาศ จะเริ่มหนาวแล้วนะ ฉันว่าฤดูใบไม้ร่",
+        "Sebastian": "ฉันว่าฉันเห็น บางอย่างขยับในนั้นนะ... บางอย่างที่มันใหญ่ บางอย่างที่มันลึกลับ#$e",
+        "Pierre": "ชู่วว... พรุ่งนี้เข้ามาเอา เมล็ดพันธุ์ฤดูใบไม้",
+        "Caroline": "แสงเทียนพวกนี้ ช่างดูโรแมนติคเสียจ",
+        "Linus": "เดี๋ยวฉันค่อย ๆ ย่องไปแอบดู ตอนที่แมงกระพรุนลอยมา แล้วกันนะ... ฉัน",
+        "Alex": "ไม่อยากเชื่อเลยว่า หน้าร้อนกำลังจะหมดไป... เหมือนเพ",
+        "George": "อะไรกัน ทำไมถึงมองฉัน ด้วยสายตาแบบนั้น? เธอคิดว่าฉันแก่เกินกว่า ",
+        "Evelyn": "ฉันยังจำได้ว่า เคยเห็นแมงกระพรุนพวกนี้ เมื่อตอนที่ยังเป็นเด็ก ฉันกระโดดไปมา ด้วยความสนุกเมื่อพวกมันมาถึง!#$e#แต่นั่นก",
+        "Lewis": "สวัสดียามดึก @ พวกแมงกระพรุนแสงจันทร์ กำลังใกล้เข้ามาแล้วหละ... ฉันเห็นตัวนึงเรืองแสงอยู่ลิบ ๆ นู่นแหนะ#$b#เดี๋ยวพอเราปล่อย เรือแสงเที",
+        "Clint": "คืนนี้ฉันสวมรองเท้าคู่เก่ง มาด้วยล่ะ... แต่ไ",
+        "Emily": "มองดูสิที่ทะเล ที่ไร้ซึ่งจุดสิ้นสุดนั่น ใต้น้ำลึก มีสัตว์ทะเลหลากหลายชนิด กำลังเคลื่อนที่ ใต",
+        "Penny": "ชีวิตของแมงกระพรุน นี่ช่างง่ายดายดีจัง... เพียงแค่ปล่อยให้ค",
+        "Pam": "อย่าไปบอก Gus นะ แต่ฉันผิดหวังนิดหน่อยนะเนี่ย ที่คื",
+        "Haley": "ฉันน่าจะเอากล้องมาด้วยนะเนี่ย! ช",
+        "Jodi": "ตรงนั้นน่ะ! ฉันเห็นอะไรบางอย่าง เรืองแสงด้วย!#$b#",
+        "Kent": "สวัสดีตอนเย็น @ หวังว่าเธอจะหาเวลาพักผ่อน ได้",
+        "Sam": "ฉันว่าพวกมัน อาจจะมีพิษร้ายแรงนะ?#$e#แบบนี้คงผลัก Sebastian ลงน้",
+        "Leah": "เฮ้ ฉันเคยมาดูมันแล้ว เมื่อฤด",
+        "Shane": "พวกแมงกระพรุน เคยมาที่นี่เมื่อปีที่แล้ว และพวกมันก็จะกลับมาอีก ในอีกในปีหน",
+        "Marnie": "เหมือนคนจะเยอะเกินไป สำหรับท่าที่เป็นไม้เก่าๆนะ! ฉันจะอย",
+        "Elliott": "ถ้าเราทำให้มหาสมุทรเกิดมลพิษ แมงกระพรุนก็จะสูญพันธ์ มันพร้อมที่จะเกิดขึ้นตลอด#$e#น่าละอา",
+        "Gus": "'แมงกระพรุนแสงจันทร์'... ฉันสงสัยจังว่ามันรสชาติยังไง?$h#$b#แน่นอน! ฉันย",
+        "Dwarf": "มีฝนตกงั้นเหรอ? *เฮือก*#$e#ฝน.... นี่อาจเป็น ตำนานสำหรับพวกเราเลย พวกเราบางคน อยู่มาโดยไ",
+        "Wizard": "หาข้าเจอได้ยังไงกันเนี่ย? ข้าว่าข้าหาที่ซ่อนดีแล้วนะ#$b#บางทีเจ้าอาจจะมี ญาณทิพย์ก็ได้#$e#ข้ามาที่นี่เพื่อสังเกต Lunaloos... หรือที่พวกเจ้าเรียกกันว่า 'กระพรุนแสงจัน",
+        "Harvey": "ดีแล้วที่ฤดูร้อนกำลังจะผ่านไป เอาจริงๆนะ ผมรู้สึกมีความสุขมากท",
+        "Sandy": "ฉันได้ยินว่าที่นั่นฝนตกล่ะ นั่นใช่เหตุผล ที่คุณมาที่นี่มั้ย?$h#$e#จริงๆแล้ว ",
+        "Jas": "หนูหวังว่าพวกมันจะออกลูกเย",
+        "Vincent": "ผมอยากเห็นแมงกะพรุนสีเขียวจัง เพรา",
+        "Willy": "พวกปลากลางคืนส่วนใหญ่ มักจะกลัวแสงนะ... แต่เจ้าพวกนี้ มั"
+    }
+}

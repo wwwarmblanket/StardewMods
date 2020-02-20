@@ -1,0 +1,22 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "38/f Penny 2500/t 1900 2400/n pennySpa": "echos/-1000 -1000/farmer 13 23 2 Penny 9 29 1/swimming farmer/swimming Penny/showFrame Penny 31/viewport 13 27 true/pause 2000/playSound slosh/move farmer 0 6 3/positionOffset farmer 0 16/pause 700/speak Penny \"เธออยู่นี่เอง... ฉันกังวลอยู่เลยว่าเธอ ไม่ได้รับโน๊ตของฉันรึเปล่า$6\"/playSound slosh/move Penny 1 0 1/pause 1500/faceDirection Penny 0/speak Penny \"ดูเหมือน เราจะอยู่ด้วยกันตามลำพัง แล้วนะ$8\"/pause 800/speak Penny \"น้ำกำลังอุ่นพอดีเลย หลังจากผ่านความหนาวจาก ข้างนอกนั้น ว่ามั้ย?$6\"/faceDirection farmer 0/pause 1300/faceDirection Penny 1/pause 500/playSound slosh/move Penny 1 0 1/faceDirection farmer 3/speak Penny \"$q -1 null#รู้ไหม ทำไมฉันถึงเรียกเธออกมาคืนนี้?$8#$r -1 0 event_pool1#เธอมีบางอย่างจะบอกฉัน#$r -1 0 event_pool2#ฉันไม่รู้เหมือนกัน#$r -1 0 event_pool3#คุณอยากจะดูฉันในชุดอาบน้ำ\"/faceDirection Penny 3/pause 800/faceDirection Penny 1/speak Penny \"อืมม ฉันจะพูดยังไงดีล่ะ...$8\"/pause 1000/playSound slosh/move Penny 1 0 1/pause 500/speak Penny \"ฉันหมายความว่า ที่ฉันจะบอกเธอคือ... ความรู้สึกของฉัน$8#$b#ฉันไม่สามารถหยุดคิดเรื่อง เธอได้...$8#$b#ฉันไม่เคยรู้สึกแบบนี้ กับใครมาก่อน.$8\"/speak Penny \"$q -1 null#...$8#$r -1 0 event_pool4#ฉันก็รู้สึกเหมือนกับเธอ นั้นแหละ#$r -1 -1500 event_pool5#โทษทีนะ ฉันไม่ได้ชอบเธอ...\"/fork pennyHeartbroken/pause 1000/showFrame Penny 32/pause 200/playSound slosh/positionOffset Penny 2 0/pause 50/positionOffset Penny 2 0/pause 50/positionOffset Penny 2 0/pause 50/positionOffset Penny 2 0/positionOffset farmer -2 0/pause 50/positionOffset Penny 2 0/positionOffset farmer -2 0/pause 50/eyes 1 -10000/positionOffset Penny 2 0/positionOffset farmer -2 2/pause 50/positionOffset Penny 2 0/positionOffset farmer -2 0/pause 50/positionOffset Penny 2 0/positionOffset farmer -2 0/pause 50/positionOffset Penny 2 0/positionOffset farmer -2 0/pause 50/positionOffset Penny 2 0/positionOffset farmer -2 0/specificTemporarySprite heart 13 29/pause 1200/globalFade/viewport -1000 -1000/pause 2000/stopSwimming farmer/stopSwimming Penny/end warpOut",
+        "pennyHeartbroken": "move Penny 0 -2 0/faceDirection farmer 0/shake Penny 5000/globalFade/viewport -1000 -1000/stopSwimming farmer/stopSwimming Penny/end warpOut"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "558291/y 3/H": "grandpas_theme/-2000 -1000/farmer 13 23 2/broadcastEvent/addTemporaryActor Grandpa 1 1 -100 -100 2 true/specificTemporarySprite grandpaSpirit/viewport -1000 -1000 true/pause 10000/speak Grandpa \"ถึงหลานชาย...^ถึงหลานสาวที่น่ารัก...#$b#ครั้งสุดท้ายที่พวกเราได้คุยกัน มันก็นานมากแล้ว ตอนนั้นหลานยังเด็ก...ยังจำได้ไหม?^ครั้งสุดท้ายที่พวกเราได้คุยกัน มันก็นานมากแล้ว ตอนนั้นหลานยังเด็ก...ยังจำได้ไหม?#$b#แต่มันก็นานมากตอนที่หลานมา!#$b#คิดว่าหลานอาจจะลืมตาไป แล้วก็ได้ แต่ตายังอยู่ที่นี่#$b#อย่างที่หลานเห็น...ร่างกายของปู่เริ่มแย่แล้ว แต่หัวใจของปู่จะยังคงอยู่ที่  Stardew Valley.\"/specificTemporarySprite grandpaNight/pause 4000/speak Grandpa \"หลานเคยอยู่ที่นี่ 2 ปี...\"/grandpaEvaluation/pause 3000/speak Grandpa \"ตอนนี้, อนาคตของ %farm จะอยู่ในมือของหลาน#$b#ขอให้โชคดี!\"/pause 1000/globalFade/removeTemporarySprites/playMusic none/pause 1000/end bed",
+        "558292/e 321777/t 600 620/H": "grandpas_theme/-2000 -1000/farmer 13 23 2/broadcastEvent/addTemporaryActor Grandpa 1 1 -100 -100 2 true/skippable/specificTemporarySprite grandpaSpirit/viewport -1000 -1000 true/pause 10000/speak Grandpa \"ถึงหลานชายตัวน้อย...^ถึงหลานสาวที่น่ารัก...#$b#ปู่ดีใจที่หลานเรียกหา ครั้งสุดท้ายที่พบกัน ปู่...อาจจะทำรุนแรงเกินไปหน่อย#$b#ยกโทษให้ปู่ด้วย. หลานเป็นคนขยัน และปู่ก็ภูมิใจในตัวของหลาน\"/specificTemporarySprite grandpaNight/pause 4000/speak Grandpa \"จะคอยดูตลอดไป...\"/grandpaEvaluation2/pause 3000/globalFade/removeTemporarySprites/playMusic none/pause 1000/end bed"
+    }
+}

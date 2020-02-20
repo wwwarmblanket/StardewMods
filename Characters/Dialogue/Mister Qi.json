@@ -1,0 +1,27 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "Mon": "พยายามต่อไป เจ้าหนู ฉันคิดว่าเธอจะโด่งดังได้#$e#ถามได",
+        "Tue": "ฉันรู้ว่าเธอจะมาที่นี้สักวัน แน่นอนว่า ฉันทำให้มันยากหน่อย เพื่อให้",
+        "Wed": "ตอนแรกฉันก็เกิดมา เป็นแค่เด็กธรรมดา แต่ฉันได้ตัดสินใจ ตั้งแต",
+        "Thu": "เฮ้ อย่าบอกใครนะเกี่ยวกับที่นี้ โอเคร? ฉันอยากให้มัน... พิเศษ#$e#เธอจะเก็บความลับ ให้ก",
+        "Fri": "อย่าหยุดที่จะหา ความสมบูรณ์แบบ#$e#อย่าได้หยุด กับสิ่งที่ยังไม่เป",
+        "Sat": "หยุดพักตอนที่เธอ",
+        "Sun": "ตั้งใจต่อไป แล้วสักวันเธอคง จะไ"
+    }
+}
