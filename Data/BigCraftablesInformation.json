@@ -113,7 +113,7 @@
         "112": "Dried Sunflowers/0/-300/Crafting -9/A vibrant home decoration./true/true/0/Dried Sunflowers",
         "113": "Rarecrow/0/-300/Crafting -9/Collect them all! (2 of 8)/true/true/0/Rarecrow",
         "114": "Charcoal Kiln/0/-300/Crafting -9/Turns 10 pieces of wood into one piece of coal./true/true/0/Charcoal Kiln",
-        "116": "Stardew Hero Trophy/0/-300/Crafting -9/The most prestigious award a Stardew Valley resident could recieve!/true/true/0/Stardew Hero Trophy",
+        "116": "Stardew Hero Trophy/0/-300/Crafting -9/The most prestigious award a Stardew Valley resident could receive!/true/true/0/Stardew Hero Trophy",
         "117": "Soda Machine/0/-300/Crafting -9/Keeps pumping out the good stuff./true/true/0/Soda Machine",
         "118": "Barrel/0/-300/Crafting -9/.../true/true/0/Barrel",
         "119": "Crate/0/-300/Crafting -9/.../true/true/0/Crate",
@@ -154,12 +154,18 @@
         "162": "??Foroguemon??/0/-300/Crafting -9/??Foroguemon??/true/true/0/??Foroguemon??",
         "163": "Cask/0/-300/Crafting -9/Use in the cellar to age products like wine and cheese./true/true/0/Cask",
         "164": "Solid Gold Lewis/0/-300/Crafting -9/Mayor's secret project./true/true/0/Solid Gold Lewis",
-        "165": "Auto-Grabber/0/-300/Crafting -9/Automatically harvests from your animals each morning. Works on cows, sheep, and goats./true/true/0/Auto-Grabber",
+        "165": "Auto-Grabber/0/-300/Crafting -9/Automatically harvests from your animals each morning. Must be placed inside a coop or barn./true/true/0/Auto-Grabber",
+        "167": "Deluxe Scarecrow/50/-300/Crafting -9/Prevents crows from attacking your crops. Has a large radius (about 16 \"tiles\")./true/true/0/Deluxe Scarecrow",
         "184": "Seasonal Plant/50/-300/Crafting -9/An ornamental plant that changes with each season. It doesn't need to be watered./true/true/0/Seasonal Plant",
         "188": "Seasonal Plant/50/-300/Crafting -9/An ornamental plant that changes with each season. It doesn't need to be watered./true/true/0/Seasonal Plant",
         "192": "Seasonal Plant/50/-300/Crafting -9/An ornamental plant that changes with each season. It doesn't need to be watered./true/true/0/Seasonal Plant",
         "196": "Seasonal Plant/50/-300/Crafting -9/An ornamental plant that changes with each season. It doesn't need to be watered./true/true/0/Seasonal Plant",
         "200": "Seasonal Plant/200/-300/Crafting -9/An ornamental plant that changes with each season. It doesn't need to be watered./true/true/0/Seasonal Plant",
-        "204": "Seasonal Plant/50/-300/Crafting -9/An ornamental plant that changes with each season. It doesn't need to be watered./true/true/0/Seasonal Plant"
+        "204": "Seasonal Plant/50/-300/Crafting -9/An ornamental plant that changes with each season. It doesn't need to be watered./true/true/0/Seasonal Plant",
+        "208": "Workbench/1500/-300/Crafting -9/When crafting here, you'll have access to materials in any adjacent chests./true/true/0/Workbench",
+        "209": "Mini-Jukebox/1500/-300/Crafting -9/Allows you to play your favorite tunes./true/true/0/Mini-Jukebox",
+        "211": "Wood Chipper/500/-300/Crafting -9/Insert a piece of hardwood to break it down into regular wood./true/true/0/Wood Chipper",
+        "216": "Mini-Fridge/1500/-300/Crafting -9/Allows you to store additional ingredients for cooking./true/true/0/Mini-Fridge",
+        "219": "Cursed P.K. Arcade System/0/-300/Crafting -9/Something's not right with this Prairie King Arcade System.../true/true/0/Cursed P.K. Arcade System"
     }
 }

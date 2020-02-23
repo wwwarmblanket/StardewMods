@@ -227,6 +227,8 @@
         "1290": "Mineral Dog Jacket/Mineral Dog Jacket/(แจ็คเก็ตมิเนอรัลด๊อก) มันอัดแน่นไปด้วยแร่ธาตุจากมหาสมุทร./292/-1/50/0 50 200/false/Shirt",
         "1997": "Magic Sprinkle Shirt/Magic Sprinkle Shirt/(เมจิกสปริงเคิลส์เชิ้ต) เสื้อเชิ้ตที่ถูกโรยไปด้วยพริสมาติก./272/-1/50/0 50 200/false/Shirt/Prismatic",
         "1998": "Prismatic Shirt/Prismatic Shirt/(เสื้อพริสมาติก) มันระยิบระยับไปด้วย พลังงานของพริสมาติก. มีแขนสีเข้ม./289/-1/50/0 50 200/false/Shirt/Prismatic",
-        "1999": "Prismatic Shirt/Prismatic Shirt/(เสื้อพริสมาติก) มันระยิบระยับไปด้วย พลังงานของพริสมาติก. มีแขนสีขาว./288/-1/50/0 50 200/false/Shirt/Prismatic"
+        "1999": "Prismatic Shirt/Prismatic Shirt/(เสื้อพริสมาติก) มันระยิบระยับไปด้วย พลังงานของพริสมาติก. มีแขนสีขาว./288/-1/50/0 50 200/false/Shirt/Prismatic",
+        "-1": "Pants/Pants/A wearable pair of pants./0/-1/50/255 235 203/true/Pants",
+        "-2": "Shirt/Shirt/A wearable shirt./0/-1/50/255 255 255/false/Shirt"
     }
 }
