@@ -16,7 +16,7 @@
         }
     ],
     "content": {
-        "MessageFoundLostItem": "�س�� {0} ����. ��令׹��� {1}.",
-        "ObjectiveReturnToNPC": "�觤׹��� {0}."
+        "MessageFoundLostItem": "You found the {0}. Better return it to {1}.",
+        "ObjectiveReturnToNPC": "Return to {0}."
     }
 }
