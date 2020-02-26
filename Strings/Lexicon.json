@@ -33,6 +33,8 @@
         "RandomSlightlyPositiveFoodAdjective": "decent#good#edible",
         "ChildTerm_Male": "ชาย",
         "ChildTerm_Female": "หญิง",
+        "Pronoun_Male": "him",
+        "Pronoun_Female": "her",
         "QuestionDialogue_Yes": "แน่นอน",
         "QuestionDialogue_No": "ไม่",
         "GenericPlayerTerm": "farmer"
