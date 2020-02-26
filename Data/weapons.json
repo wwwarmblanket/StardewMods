@@ -22,7 +22,7 @@
     "content": {
         "0": "Rusty Sword/A rusty, dull old sword./2/5/1/0/0/0/3/-1/-1/0/.02/3/Rusty Sword",
         "1": "Silver Saber/Plated with silver to deter rust./8/15/1/0/1/1/0/50/45/0/.02/3/Silver Saber",
-        "2": "Dark Sword/It's glowing with a mysterious energy./10/30/1/0/0/0/0/-1/-1/0/.05/3.5/Dark Sword",
+        "2": "Dark Sword/It's glowing with vampire energy./30/45/1.5/-10/0/0/0/-1/-1/2/.04/3/Dark Sword",
         "3": "Holy Blade/It feels hopeful to wield./18/24/1.2/0/5/0/3/-1/-1/0/.02/3/Holy Blade",
         "4": "Galaxy Sword/It's unlike anything you've ever seen./60/80/1/8/0/0/0/-1/-1/0/.02/3/Galaxy Sword",
         "5": "Bone Sword/A very light piece of sharpened bone./20/30/.8/8/5/0/0/74/50/0/.02/3/Bone Sword",
@@ -49,7 +49,7 @@
         "26": "Lead Rod/It's incredibly heavy./18/27/1.5/-16/0/0/2/56/50/1/.02/3/Lead Rod",
         "27": "Wood Mallet/The solid head packs a punch. Relatively light for a club./15/24/1.3/-4/1/0/2/68/50/0/.02/3/Wood Mallet",
         "28": "The Slammer/An extremely heavy gavel that'll send foes flying./40/55/1.5/-12/0/0/2/128/100/2/.02/3/The Slammer",
-        "29": "Galaxy Hammer/It's made from an ultra-light material you've seen before./70/90/1/-4/0/0/2/-1/-1/0/.02/3/Galaxy Hammer",
+        "29": "Galaxy Hammer/It's made from an ultra-light material you've never seen before./70/90/1/-4/0/0/2/-1/-1/0/.02/3/Galaxy Hammer",
         "30": "Sam's Old Guitar/It's seen better days./1/3/1/-6/0/0/2/-1/-1/0/.02/3/Sam's Old Guitar",
         "31": "Femur/An old, heavy bone caked in centuries of grime./6/11/1.5/-4/0/0/2/10/-1/0/.02/3/Femur",
         "32": "Slingshot/Requires stones for ammo./1/3/1/308/0/0/4/-1/-1/0/.02/3/Slingshot",
@@ -70,8 +70,9 @@
         "47": "Scythe/It can cut grass into hay, if you've built a silo./1/3/1/0/0/0/0/-1/-1/0/.02/3/Scythe",
         "48": "Yeti Tooth/It's icy cold to the touch./26/42/1/0/0/4/0/-1/-1/0/.02/3.2/Yeti Tooth",
         "49": "Rapier/An elegant blade./15/25/1/4/0/0/0/100/95/2/.02/3/Rapier",
-        "50": "Steel Falchion/Light and powerful./26/38/1/8/5/0/0/142/100/0/.02/3.4/Steel Falchion",
+        "50": "Steel Falchion/Light and powerful./28/46/1/8/5/0/0/142/100/0/.02/3.4/Steel Falchion",
         "51": "Broken Trident/It came from the sea, but it's still sharp./15/26/.5/0/8/0/1/-1/-1/2/.02/3/Broken Trident",
-        "52": "Tempered Broadsword/It looks like it could withstand anything./29/44/1.2/-6/0/3/0/135/100/1/.02/3/Tempered Broadsword"
+        "52": "Tempered Broadsword/It looks like it could withstand anything./29/44/1.2/-6/0/3/0/135/100/1/.02/3/Tempered Broadsword",
+        "53": "Golden Scythe/It's more powerful than a normal scythe./13/13/1/0/0/0/0/-1/-1/2/.02/4/Golden Scythe"
     }
 }
