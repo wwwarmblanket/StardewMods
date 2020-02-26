@@ -34,7 +34,7 @@
         "Kent": "adult/neutral/shy/negative/male/not-datable/Jodi/Town/spring 4/Jodi 'wife' Sam 'eldest_son' Vincent 'youngest_boy'/SamHouse 22 5/Kent",
         "Leah": "adult/polite/neutral/positive/female/datable/Elliott/Town/winter 23//LeahHouse 3 7/Leah",
         "Lewis": "adult/neutral/outgoing/positive/male/not-datable/null/Town/spring 7/Marnie ''/ManorHouse 8 5/Lewis",
-        "Linus": "adult/neutral/shy/positive/male/not-datable/null/Town/winter 3//Tent 1 2/Linus",
+        "Linus": "adult/neutral/shy/positive/male/not-datable/null/Town/winter 3//Tent 2 2/Linus",
         "Marlon": "adult/neutral/outgoing/neutral/male/not-datable/Marnie/Town///AdventureGuild 5 11/Marlon",
         "Marnie": "adult/polite/outgoing/positive/female/not-datable/Lewis/Town/fall 18/Lewis '' Shane 'nephew' Jas 'niece'/AnimalShop 12 14/Marnie",
         "Maru": "teen/neutral/outgoing/positive/female/datable/Harvey/Town/summer 10/Robin 'mom' Demetrius 'dad' Sebastian 'half-brother'/ScienceHouse 2 4/Maru",
@@ -49,6 +49,6 @@
         "Wizard": "adult/rude/neutral/negative/male/not-datable/null/Other/winter 17//WizardHouse 3 17/Wizard",
         "Dwarf": "adult/neutral/outgoing/positive/undefined/not-datable/null/Other/summer 22//Mine 43 6/Dwarf",
         "Sandy": "adult/neutral/outgoing/positive/female/not-datable/null/Desert/fall 15/Emily ''/SandyHouse 2 5/Sandy",
-        "Krobus": "adult/polite/shy/neutral/male/not-datable/null/Other/winter 1//Sewer 31 17/Krobus"
+        "Krobus": "adult/polite/shy/neutral/male/secret/null/Other/winter 1//Sewer 31 17/Krobus"
     }
 }
