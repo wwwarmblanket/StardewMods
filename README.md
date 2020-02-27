@@ -1,6 +1,8 @@
 ```sh
 $ อยากจะช่วยแปลภาษาไทย?
 $ แปลได้เลยครับที่โฟลเดอร์ Thai
+$ แปลเสร็จแล้วส่งไพล์ที่กลับมาที่ Discord
+$ https://discordapp.com/invite/TkP42Xm
 ```
 
 | Mod update | Status |
