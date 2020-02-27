@@ -1,6 +1,9 @@
 # [CP]ModTH
 Thai language for Stardew Valley
 
+### แปลไทยตรงไหน?
+แปลที่โฟลเดอร์ Thai
+
 | Mod update | Status |
 | ------ | ------ |
 | Dialogue NPCs | 100% |
