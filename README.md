@@ -1,8 +1,22 @@
 # CPModTH
 Thai language for Stardew Valley
 
-# รายชื่อผู้ร่วมแปล 1.4.5
+# จัดทำโดย
+- SORNZiLLATE
+- NoTSoXDream
+- JASON
+
+# ขอขอบคุณทีมงานเดิม
+- Artdekdok
+- cybertorns
+- MiXEL.SC
+- NoTSoXDream
+- Pigter
+- sornzilla
+- superogira
+
+# ทําเนียบนักแปล
 - Davykun
 - Memee Thechoco
-- ProfessorHydra 
+- ProfessorHydra
 - unknownwmz
