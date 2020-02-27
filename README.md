@@ -14,21 +14,10 @@ Thai language for Stardew Valley
 | Movies & MoviesReactions | 0% |
 
 ### จัดทำโดย
-- SORNZiLLATE
-- NoTSoXDream
-- JASON
+SORNZiLLATE, NoTSoXDream, JASON.
 
 ### ทีมงานเดิม
-- Artdekdok
-- cybertorns
-- MiXEL.SC
-- NoTSoXDream
-- Pigter
-- sornzilla
-- superogira
+Artdekdok, cybertorns, MiXEL.SC, NoTSoXDream, Pigter, sornzilla, superogira.
 
 ### ทําเนียบนักแปล
-- Davykun
-- Memee Thechoco
-- ProfessorHydra
-- unknownwmz
+Davykun, Memee Thechoco, ProfessorHydra, Tawan, unknownwmz.
