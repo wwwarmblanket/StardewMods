@@ -1,0 +1,68 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "name": "Festival of Ice",
+        "conditions": "Forest/900 1400",
+        "shop": "BO 113 5000 1 O 746 750 5 BL 746 2000 1",
+        "set-up": "christmasTheme/-1000 -1000/farmer 68 0 1/changeToTemporaryMap Forest-IceFestival/loadActors Set-Up/animate Robin false true 100 24 25 26 24 25 26 24 25 26 24 25 26 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27/advancedMove Pierre true -1 0 0 -1 1 5000 0 1 1 0 4 5000/advancedMove Vincent true 0 3 3 0 2 5000 0 -5 2 0 1 5000 -5 0 0 2 3 5000/advancedMove Pam true -5 0 0 1 2 5000 0 -1 5 0 2 7000/playerControl iceFestival",
+        "mainEvent": "globalFade/viewport -1000 -1000/playMusic none/warp farmer1 71 35/warp farmer2 72 35/warp farmer3 70 35/warp farmer4 69 35/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 0/loadActors Main-Event/faceDirection Pam 1/faceDirection Elliott 0/faceDirection Willy 0/viewport 71 35 true/pause 2000/speak Lewis \"àÍÒ˕Ðȷ¡¤¹ ¢ÍàУÁ˵¹¡ÒÃáʲ§Ă¹ µ¡»ÅÒթÒáʂ§ã¹ƫ׉\"/pause 200/faceDirection Lewis 3/pause 300/faceDirection Lewis 2/faceDirection Lewis 1/pause 300/faceDirection Lewis 2/pause 400/speak Lewis \"ڌàˢÒáʲ§Ă¹ à˻ÒËÁÒÂ¢Í§Ȥ³ǴÍ ¡ÒÃĈº»ÅÒÁÒ¡чɊ´ àˇÒчȤ³¨ÐÊÒÁÒÃ¶ŇÒä˴ ÀÒÂã¹ã¹ÊÍ§¹ÒƧ â´Âã˪àʚ´µ¡»ÅÒчĈ´ä̇ã̋#$b#Ȥ³˵Í§Ĉº»ÅÒ¨Ò¡ ËɅÁթÒáʂ§чƱã̋\"/pause 600/speak Lewis \"àÍÒ˕Ð ȷ¡¤¹¾̃ÍÁËȓÍĢ§?\"/pause 500/waitForOtherPlayers startContest/jump Lewis/faceDirection Pam 2 true/faceDirection Elliott 1 true/faceDirection Willy 2 true/speak Lewis \"àУÁä˴!\"/advancedMove Lewis false 0 -4 2 1000/advancedMove Marnie true 4 6000 -2 0 4 5000 2 0/advancedMove Maru true 3 4000 0 2 3 7000 0 -2/advancedMove Jas true 2 0 0 -9 -4 0 2 20000 4 0 0 9 -2 0 3 15000/advancedMove Jodi true 1 6000 -1 0 0 2 1 8000 0 -1 1 6000 0 -1 1 0/jump Willy/shake Pam 700/showFrame Pam 16/extendSourceRect Pam 0 32/showFrame Elliott 40/extendSourceRect Elliott 16 0/shake Elliott 400/pause 300/showFrame Willy 16/extendSourceRect Willy 0 32/playMusic fallFest/playerControl iceFishing",
+        "afterIceFishing": "pause 100/playSound whistle/waitForOtherPlayers endContest/pause 1000/restoreStashedItem/globalFade/viewport -1000 -1000/extendSourceRect Pam reset/extendSourceRect Willy reset/extendSourceRect Elliott reset/specificTemporarySprite iceFishingCatch/faceDirection Pam 0/faceDirection Willy 0/faceDirection Elliott 0/playMusic event1/loadActors MainEvent/warp farmer1 71 35/warp farmer2 72 35/warp farmer3 70 35/warp farmer4 69 35/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 0/pause 1000/viewport 71 35 true/pause 2000/move Lewis 0 4 2/speak Lewis \"̇ÒÇ Ʊ»ÅÒàÂÍÐààÂÐä»ËÁ´!$h\"/pause 300/showFrame Lewis 18/shake Lewis 1000/speak Lewis \"*ކº*... ¡Х¹ġ¹...$s\"/pause 500/showFrame Lewis 0/pause 600/move Lewis 0 1 2/speak Lewis \"àÍÒ˕Ð ڌª¹Ðã¹¡ÒÃáʲ§Ă¹ µ¡»ÅÒÄɤË¹ÒÇƫ׉ä˴...\"/pause 800/playMusic none/pause 3000/cutscene iceFishingWinner/null/playMusic event1/pause 500/fork DickWin/move Lewis 0 1 2/speak Lewis \"щǴÍÃÒ§ħÅ¢Í§Ȥ³!\"/awardFestivalPrize/null/move Lewis 0 -1 0/speak Lewis \"Ƥ˕Ð щǴÍ à·È¡ÒÅá˛§թÒáʂ§¢Í§ƫ׉ ¢ÍºȤ³ȷ¡¤¹чÁÒ! #$b#µÍ¹׉¢Í»˕ÍÂ»ÅÒ чˉÒÊ§ÊÒÃ¾Ç¡׉ʱÍ¹...$s\"/move Lewis -3 0 0/move Lewis 0 -1 0/advancedMove Willy true 0 3 -2 0/pause 600/viewport move 1 0 5000/pause 2000/playMusic none/globalFade/viewport -1000 -1000/pause 1000/cutscene iceFishingWinnerMP/fork OtherPlayerWin/message \"ĉ¹äˑÍÂÒ¡¨ÐàҚÍàÅÂ˗Ò ĉ¹¨Ðª¹Ð àÍÒ˕Ðä˴àÇÅÒ¡ĥº˺Ò¹á̅Ç\"/waitForOtherPlayers festivalEnd/end",
+        "OtherPlayerWin": "message \"ǖ§ĉ¹¨Ðäˑª¹Ð¡ÒÃáʲ§ á˅ġ¹ʁÊȹ¡ÍԒƤ! ǖ§àÇÅÒ¡ĥº˺Ò¹á̅Ç\"/waitForOtherPlayers festivalEnd/end",
+        "DickWin": "pause 100/jump Willy/faceDirection Elliott 3/pause 800/move Willy 0 -1 0/faceDirection Elliott 0/speak Lewis \"щǴÍÃÒ§ħÅ¢Í§¹ÒÂ Willy\"/pause 500/move Willy 0 -2 0/move Lewis -1 0 2/move Lewis 0 1 2/playSound coin/pause 400/move Lewis 0 -1 0/pause 500/speak Lewis \"Ƥ˕Ð щǴÍà·È¡ÒÅá˛§թÒáʂ§ ¢Í§ƫ׉ ¢ÍºȤ³ȷ¡¤¹чÁÒ! #$b#µÍ¹׉¢Í»˕ÍÂ»ÅÒ чˉÒÊ§ÊÒÃ¾Ç¡׉ʱÍ¹...$s\"/move Lewis -2 0 0/pause 600/viewport move 1 0 5000/pause 2000/playMusic none/globalFade/viewport -1000 -1000/pause 1000/message \"äˑª¹Ðã¹¡ÒÃáʲ§Ă¹ á˅ʺÒ§ġ¹à¶ÍÐ áʴ׉ʁÊȹ¡á̅Ç! ä˴àÇÅÒ¡ĥº˺Ò¹á̅Ç\"/waitForOtherPlayers festivalEnd/end",
+        "Abigail_spouse": "à̎ чģ¡...ɤщ àËȑÍ¹à¸ÍàÅÂ!$h",
+        "Penny_spouse": "à¸Í¨ÐàˢÒ˓ÇÁ¡ÒÃáʲ§Ă¹µ¡»ÅÒ ƫ׉ǣ»˕ÒÇ @? áˑ¢Í§ĉ¹ƛàƳÂÊÁÒ¡àÅÂ àбÂÇāº¡ÒÃàʛ¹ڌª¹Ð",
+        "Haley_spouse": "ºȓëÍ...ȑÍ¢Í§ĉ¹áʂ§ËÁ´á̅Ç Ëĥ§¨Ò¡Ի¹à˨Òщ$l",
+        "Sebastian_spouse": "äˑ˵Í§àʛ¹˛Ç§ĉ¹ËÃÍ¡ ĉ¹äˑä˴Ë¹ÒÇÍÐäÃÁÒ¡ÁÒÂ...",
+        "Sam_spouse": "à¸ÍË¹ÒÇǣ»˕ÒÇ? áˉã¨¹Ð ˗Ò¨ÐäˑàÍÒȑÍÁÒȫ¡ ã¹àʈ¤àʁµ¢Í§ĉ¹ËˉÍÂ?",
+        "Alex_spouse": "ĉ¹¨ÐàÍÒã¨ʺÇÂà¸Í ã¹¡ÒÃáʲ§Ă¹¹Ð.",
+        "Harvey_spouse": "ĉ¹Ť´ǖ§¡Í§ä¿ĭ¹áÊ¹Íºӭ¹ ¢Í§àÃÒч˺Ò¹¨ƃ§æ...$l",
+        "Elliott_spouse": "ĉ¹ړà¸ÍÍÒ¨¨Ðª¹Ðĉ¹ ã¹¡ÒÃáʲ§µ¡»ÅÒ á˅äˑàʛ¹äÃËÃÍ¡ ĉ¹áʴµ¡àÍÒÊȹ¡áʴԹ¹àÍ§.$h",
+        "Abigail": "щÁȹÉΒƋÁÐ¢Í§ĉ¹ àʛ¹ä§˺Ò§?",
+        "Robin": "ĉ¹¢Íâ·É¹Ð ıÒá¾§чá¡ÐÊĥ¡թÒáʂ§ ġ¹ǔ§¤ÇÒÁÊ¹ã¨ĉ¹ä»ËÁ´àÅÂ!",
+        "Demetrius": "Ȥ³ړÍÐäÃäËÁ ºÒ§Ƨĉ¹ÍÒ¨¨Ð˵Í§ã˚ áʈ¤àʁµ˺Ò§á̅Ç",
+        "Maru": "ĉ¹äˑʴÍÂ¨ÐƱ¤ÇÒÁŤ´ ỄÒ§ÊÃÃʹċ¡àˇÒäË˓ àұÍɮ´ǖ§ݖ¡µÒƋÁÐ$s",
+        "Sebastian": "Ë¹ÒÇàËÃÍ? äˑĉ¹äˑà¤ÂړǪ¡Ë¹ÒÇ",
+        "Pierre": "ƋÁÐàʢ¹ÁÒ¡¨¹äˑړǪ¡ǖ§ »ÅÒÂ֙Çá̅Ç...$s",
+        "Shane": "˶Òȷ¡Í˒Ò§ġ¹ע¹āº¼Á¹Ð ¼ÁàȕÍ¡Ĉ´à·È¡ÒÅž«ʻÒ ч̃Ò¹Ƥ¡˗Ò á˅щ...",
+        "Caroline": "Ë˹ÒË¹ÒÇ׉àʛ¹Ģ§ä§˺Ò§˕Ð @?$h",
+        "Linus": "¡ÒÃỄÒ§¡ÃÐˇÍÁƋÁÐ ġ¹àʛ¹ƈÅ»Ð! ĉ¹ĸÒƇƨ¡ÒÃÁÒ¨Ò¡ ڌ¤¹чÍÒĨÂÍԒã¹ӗ§թÒáʂ§ чÍԒä¡ÅÍÍ¡ä»ã¹á¶º ·ÐàÅàȒÍ¡áʂ§#$e#á˅ι¹ʁˌÒ¹ÁÒ¹Ò¹ÁÒ¡á̅Ç$h#$e#á̅Ç¡ÃÐˇÍÁƋÁÐщʁ ã˪ä˴ƤàÅÂƧàƤÂÇ á˅ġ¹ʷÒÂ¡˗ÒÁÒ¡ч¨ÐÍÒĨÂ ÍԒã¹à˵¹·µÅÍ´Է§ƫ",
+        "Alex": "ݖ¡µÒƋÁÐʁâÍà¤¹Ðĉ¹˗Ò ˚Ç¹ĉ¹ʁıÒĥ§Ե§Ë˹ÒԵ§µÒ ÃÍ¤ÍÂÄɤãºä́¼ƅ",
+        "George": "țÁÁÁÁ... щÀÃÃÂÒĉ¹ ÅÒ¡ÁÒˢÒ§¹Í¡Ë¹ÒÇæ àҮÍÍÐäÃáºº׉àËÃÍ?",
+        "Evelyn": "ĉ¹à¤Âà˕ÒàҳÍ§ч ĉ¹āºGeorgeà¨Íā¹¤Ճ§áÃ¡ ËȓÍĢ§? à¢Ò»ÒƋÁÐã˚ĉ¹ ã¹à·È¡ÒÅ׉˕Ð#$e#à¢Òàʛ¹ɊÀÒ¾ȺɃÉ áÅÐàˢÒÁÒɤ˗Òĉ¹ àʛ¹ÍÐäÃËȓÍà»˕Ò$h",
+        "Lewis": "Ƃ¹Ƥ˵Í¹ģºԚ Festival of Ice!#$e#äÎäÅ·¢Í§§Ò¹ã¹ħ¹׉ ι¹ʁǴÍ¡ÒÃáʲ§Ă¹µ¡»ÅÒ ȷ¡¤¹¨ÐàˢÒä»Ȓ¹ч 'ËɅÁթÒáʂ§' áÅÐµ¡»ÅÒÁÒàʁºä̇ ã̋ä˴ÁÒ¡чɊ´#$b#˶Òà¸Í¾̃ÍÁàұÍäË˓ ˚§Ī­­Ò³ÁÒºÍ¡ĉ¹˴ÇÂ˕Ð",
+        "Clint": "Emily ÁÒʺÇÂĉ¹ â´Âчĉ¹Ģ§äˑė¹ä˴̃Í§¢ÍàÅÂ... ġ¹ËÁÒÂ¤ÇÒÁ˗ÒĢ§ä§ā¹? *ǭ¡*$4",
+        "Emily": "̇ÒÇ ݖ¡µÒƋÁÐщ ˵Í§»ģºá˅§ãËˑ «ÐËˉÍÂá̅Ç á̅Çã¤Ã¨ÐŇÒ?$s",
+        "Penny": "$y 'ȝÁÁÁ... ¾Ç¡àÃÒ¨ÐŇÒݖ¡µÒƋÁÐ ààººäË¹Ƥ˕Ð? _áºº¤ÅÒÊƊ¡ ¨ɱ¡á¤ÃÍ· ËÁÇ¡·Ã§ɺ§ ˼ÒĞ¹¤Í_ ĉ¹Ť´˗Ò ġ¹ÍÒ¨¨ÐàђÂÁʁä˴ ˶Ò¨ÐǢ´ŵ´áºº¤ÅÒÊƊ¡ ˗ÒՁÂ?$h _áººʷÒÂæ áˇ§թÒáʂ§ àÊÒÍÒ¡ÒÈ ´Ç§µÒŇÒ˴ÇÂâ¤¹äÍŵÁ_âÍà¤! ğ§ɤˉÒÊȹ¡¹Ð$h_ݖ¡µÒƋÁÐĕÇҽ¹ġ¹ˉÒàҪÍ Ť´¹Í¡¡ÃÍºƊ!_ ȝÁ âÍà¤ ĉ¹Ť´˗Ò¤ÇÃ¨Ðŵ´ÍÐäÃ чäˑàËȑÍ¹¤¹ҽ¹à¢Òɤ'",
+        "Pam": "ĉ¹ÇÒ§á¼¹˗Ò¨Ðª¹Ð¡ÒÃáʲ§ ice fishing!#$e#¤§àÍÒª¹Ð Willy ä˴ÂÒ¡ˉÒɤ¹Ð ĉ¹˗Òà¢ÒŇÒÍÐäÃáºº׉ Է§ħ¹Է§Ǵ¹ÍԒá̅Ç$s",
+        "Haley": "ÄɤË¹ÒÇщʁäˑàÅÇ.... à˕¹ƋÁÐġ¹Êȹ¡ÁÒ¡æ!",
+        "Jodi": "ˋÒɤÊÇÂ§ÒÁã¹ÄɤË¹ÒÇ ¨ƃ§ՁÂ?",
+        "Kent": "ĉ¹ªÍºÄɤË¹ÒÇ ġ¹ʺÒ§àƗÂºÊ§º",
+        "Sam": "à̎ @ à¸Í¨Ðä»àˢÒ˓ÇÁ¡ÒÃáʲ§Ă¹ µ¡»ÅÒթÒáʂ§?#$e#â̍, ĉ¹äˑ.. ĉ¹äˑړĈ¡Ƈƨµ¡»ÅÒ",
+        "Leah": "â̍Ç թÒààʂ§ġ¹ǴÍħµȶŴºчƤ ã¹¡ÒÃàà¡ÐÊĥ¡¹Ð àà˅ġ¹ÍԒä˴äˑ¹Ò¹ËÃÍ¡#$e#àà˅ĉ¹Ť´˗ÒˉÒ¨ÐŇÒġ¹ ä˴Ƥ¡˗ÒàŴÁ¹Ð",
+        "Marnie": "ˉÒÊ§ÊÒÃĪµΗчÍԒˢÒ§¹Í¡ ¤§Ë¹ÒÇÁÒ¡$s",
+        "Elliott": "ĉ¹àˢÒ˓ÇÁ Ice fishing ã¹ħ¹׉ ŇÒäÁĉ¹äˑáʲ§¹ÐàËÃÍ?#$e#ã¤Ã¨ÐàÍÒª¹Ð Willy ä˴˕Ð à¢Òäˑà¤Âá˾àÅÂ¹Ð",
+        "Gus": "¢Íâ·É¹Ð µÍ¹׉äˑƱÍÒËÒÃËÃÍ¡#$e#àà˅ ÃÍ¨¹ǖ§§Ò¹àוÂ§´ÒÇÄɤË¹ÒÇƊ Ȥ³¤§ЭÁä»ƽ¡ËÅÒÂħ¹",
+        "Willy": "$y 'à̎ @ ¾̃ÍÁŚÒËģºIce fishingǣĢ§?_ãʺ. ĉ¹¨ÐŇÒã̋ƤчɊ´!_ړǪ¡ä˴ǖ§ÊŻƃµàÅÂ!$h_áˉ¹Í¹ ĉ¹¨ÐàÍÒª¹ÐȤ³˴ÇÂ!_àÃÒ¨Ðä˴àʫ¹ā¹$h_àÍÒ¨ƃ§¹Ð!ĉ¹äˑ¾̃ÍÁàÅÂ ĉ¹µ¡»ÅÒäˑàʱ§ËˉÐ_àˢÒã¨˕Ð_ȆÍ˗Òàʛ¹¡ÒÃ ǝ¡ä»ã¹ĕÇ!$h'",
+        "Wizard": "áÍº˒Í§àˢÒÁÒªÁ ËÍ»ÃÐËÅÒ´¢Í§ˢÒàËÃÍ? à˨Òщʁá»Å¡Ƥ¹Ð",
+        "Harvey": "ÍÒ¡ÒÈчàʢ¹Ɋ´ԢÇÍÒ¨ŇÒã̋ ˓Ò§¡ÒÂµ¡ÍԒã¹ÀÒÇÐà¤ƳÂ´ä˴ ˵Í§áˉã¨˗Ò ã̋¤ÇÒÁÍºӭ¹˓Ò§¡ÒÂ Í˒Ò§àƮÂ§¾Í!#$e#̍Í á̅Çʁ¢Íã̋Ʊ¤ÇÒÁɊ¢ āºà·È¡ÒÅ¹Ð!$h",
+        "Sandy": "ĉ¹ä˴Ƃ¹˗Ò чι¹½¹µ¡˕Ð ι¹ãʺàËȵ¼Å чȤ³ÁÒчщãʺՁÂ?$h#$e#¨ƃ§æá̅Ç ºÒ§¤Ճ§ĉ¹ʁ Ť´ǖ§½¹¹Ð...$s",
+        "Jas": "ËɩÍÂÒ¡ã˚¨ɱ¡á¤ÃÍ·ã̋à¢ÒË˕Ð!$h",
+        "Vincent": "¼Áàʫ¹»ÅÒĕÇãËʽ ÍԒˢÒ§ã˵Թ¹!!",
+        "Marlon": "à̎ ÊħÊƤµÍ¹ÊÒÂ"
+    }
+}

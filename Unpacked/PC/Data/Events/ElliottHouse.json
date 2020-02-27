@@ -1,0 +1,25 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "39/f Elliott 500/p Elliott": "50s/2 5/farmer 3 9 0 Elliott 1 5 0/skippable/move farmer 0 -1 0/pause 400/faceDirection Elliott 2/emote Elliott 16/speak Elliott \"@! àˢÒÁÒƊ\"/pause 500/move farmer 0 -2 3/move farmer -2 0 0/pause 500/speak Elliott \"Ƃ¹Ƥ˵Í¹ģºԚ... àЭÁÁ...¡ÃÐˇÍÁáÊ¹â·ÃÁ¢Í§¼Á\"/faceDirection Elliott 0/speak Elliott \"щǴÍḁ̂ÐŇÒ§Ò¹ ¢Í§¼ÁàÍ§ ¼Áã˪àÇÅÒ˚Ç¹ãËʽ ÍԒµÃ§׉˕Ð¤ģº\"/pause 500/faceDirection Elliott 2/speak Elliott \"Ե§á˅¼ÁĸÒ¤ÇÒÁä˴ ¼ÁʁÍÂÒ¡àʛ¹ ę¡àƒÂ¹ÁÒâ´ÂµÅÍ´ ¼Áà¤ÂºÍ¡Ȥ³ǣĢ§¤ģº?#$b#ŇÒäÁ¼Áǖ§ÁÒÍԒчщ ĕÇ¤¹àƤÂÇ ¼Á˵Í§¡ÒÃÍԒÍ˒Ò§ Ī¹â´ÉƃÁ·ÐàÅ àҮÍã̋¼ÁԵ§ÊÁÒŸāº¡ÒÃ ỄÒ§áÃ§Ě¹´ÒÅã¨ ã̋§Ò¹àƒÂ¹ä˴...$s\"/faceDirection Elliott 1/speak Elliott \"ȷ¡¤¹ч˺Ò¹ºÍ¡˗Ò ¼Áġ¹âʷ... áÅÐäˑƱħ¹¨Ðàʛ¹ ę¡àƒÂ¹ä˴#$b#Ȥ³àҚÍՁÂ? ¾Ç¡à¢ÒºÍ¡˗Ò 'ã¹ę¡àƒÂ¹ȷ¡ 1 ¤¹ч»ÃÐÊº¤ÇÒÁŚÒàʣ¨ ¨Ð˵Í§Ʊ 1000 ¤¹ч̅ÁàËÅÇ Í˒Ò§ˉÒÊÁà¾ª' àʛ¹¡ÒÃ ÁÍ§âÅ¡ã¹áʷ̃ÒÂ áÅÐˋÇÂŨµɊ´æ\"/pause 700/faceDirection Elliott 2/speak Elliott \"¼Áàʫ¹ġ¹ã¹ ´Ç§µÒ¢Í§Ȥ³... Ȥ³àҚÍρ¹ã¹ĕÇ¼Á @ Ȥ³Ʊ»ÃÐ¡ÒÂԹ¹ÍԒ#$b#ι¹ǴÍáÃ§Ě¹´ÒÅã¨˕Ð! щǴÍЪ§ч¼Á ıÒĥ§ˤ¹ËÒÍԒ...\"/pause 500/emote Elliott 16/speak Elliott \"$q 958699 null#¢Í¶ÒÁËˉÍÂ¤ģº...@ Ȥ³ªÍºËę§ȚÍáººäË¹¤ģº?#$r 958699 30 event_idea1#ǥ¡ĥº#$r 958700 30 event_idea2#âÃÁÒ¹ͻ#$r 958701 30 event_idea3#Sci-Fi\"/pause 500/speak Elliott \"ؽÁ! àƅ¡ɮ´àҳÍ§¼ÁƤ¡˗Ò!\"/pause 400/emote Elliott 16/speak Elliott \"ȝÁÁÁ... Ȥ³¤§Ʊ¤ÇÒÁړ àҳÍ§˵¹ä́àÂÍÐÁÒ¡áˉæ ãʺՁÂ?\"/pause 500/faceDirection Elliott 1/speak Elliott \"˶Òäˑģ§àƑÂ¨ ɤȡËÅÒº´Í¡׉Ɗ¤ģº? ¼Á˗Òġ¹ ÍÒ¡ÒÃäˑʴÍÂƤę¡$7\"/pause 400/move farmer 2 0 0/move farmer 0 -2 3/pause 400/animate farmer true true 100 35/pause 200/end dialogue Elliott \"¢ÍºȤ³чȤÂāº¼Á¤ģº... ¼Á¨ÐÅÍ§Ť´ǖ§àҳÍ§ чȤ³˗ÒÁÒƽ¡Ƨ\"",
+        "423502/f Elliott 1500/p Elliott": "elliottPiano/-200 -1000/farmer 3 9 0 Elliott 8 4 0/skippable/positionOffset Elliott 32 16/animate Elliott false true 400 25 26 26 27 27 26 26 25 26 27 27 26 26 25/pause 1000/viewport 8 4 true/pause 24000/stopAnimation Elliott/showFrame Elliott 24/move farmer 0 -3 0/move farmer 4 0 0/showFrame Elliott 28/pause 1000/speak Elliott \"˝Ò... Ʊ¤¹ÍԒµÃ§Թ¹àËÃÍ$7\"/pause 1000/showFrame Elliott 30/animate Elliott false false 200 28 29 30/playSound dwop/pause 1000/question fork1 \"#Ɋ´ÂÍ´ÁÒ¡àÅÂ#Ȥ³à˕¹ÁÒ¹Ò¹ǣĢ§?\"/fork howLong/pause 500/emote Elliott 32/speak Elliott \"¢Íºã¨ ¼Áäˑä˴ړǪ¡ƤËÃÍ¡ á˅ĉ¹Êȹ¡ÁÒ¡ µÍ¹чä˴à˕¹ġ¹$h\"/switchEvent elliottPianoJoin",
+        "howLong": "pause 500/resetVariable/speak Elliott \"â̽Ð ¼Áʁäˑáˉã¨¹Ð... ¼Áà˕¹àƫÂâ¹ ÁÒԵ§á˅àʔ¡á̅Ç˕Ð$7#$b#ʁäˑàʱ§ę¡ËÃÍ¡ á˅ġ¹Êȹ¡Ƥ\"/switchEvent elliottPianoJoin",
+        "elliottPianoJoin": "pause 800/showFrame Elliott 0/animate Elliott false true 220 0 1 2 3/playSound woodyStep/positionOffset Elliott 0 8/pause 120/positionOffset Elliott 0 8/pause 120/positionOffset Elliott 0 8/pause 120/positionOffset Elliott 0 8/pause 120/positionOffset Elliott 0 8/pause 120/positionOffset Elliott 0 8/stopAnimation Elliott/faceDirection Elliott 2/pause 500/move Elliott 1 0 1 true/faceDirection farmer 1/pause 1500/showFrame Elliott 31/pause 800/emote Elliott 28/pause 800/speak Elliott \"ĉ¹ã˪àÇÅÒԷ§ħ¹Է§Ǵ¹ ¾ÂÒÂÒÁàƒÂ¹Ëę§ȚÍã̋àÊʣ¨... ġ¹ŇÒĉ¹á·º˺Ò @.$s\"/showFrame Elliott 4/pause 800/move Elliott -2 0 0/pause 800/speak Elliott \"ĉ¹˵Í§ÂÍÁã̋ĕÇàÍ§ƱàÇÅÒ Ğ¡ˌÍ¹˺Ò§.$7\"/pause 600/faceDirection Elliott 2/speak Elliott \"Ģ§Ʊ§Ò¹˵Í§ŇÒƽ¡ÁÒ¡ÁÒÂ áÅÐàŧ¹ã¹Ě­ƚ¢Í§ĉ¹ àУÁ¨ÐËÁ´á̅Ç.$7#$b#ºÒ§¤Ճ§ĉ¹ʁÍÂÒ¡¨Ð֗§ġ¹ Է§ËÁ´ á̅Çä»àʛ¹ªÒÇä˓àËȑÍ¹à¸Í¹Ð.$h\"/pause 300/faceDirection farmer 0/question fork1 \"#ġ¹ʁÂÒ¡àËȑÍ¹ā¹¹Ðч¨Ðàʛ¹ ªÒÇä˓àщÂ#ÁÒƊ ĉ¹¨Ðä˴ƱڌʺÇÂ§Ò¹àОÁ\"/fork extraHelp/pause 500/emote Elliott 16/speak Elliott \"¹ÒÂɮ´ɦ¡...ĉ¹áʴÍÂÒ¡ÃÐºÒÂˉÐ.$8\"/move Elliott 0 1 3/faceDirection farmer 1/speak Elliott \"ч¼ÁºÍ¡ġ¹ËÁÒÂ¤ÇÒÁ˗Ò ĉ¹áʴ˵Í§¡ÒÃĞ¡¨Ò¡¤ÇÒÁ ȑ´Á¹˺Ò§ àËȑÍ¹ę¡â·É ч˵Í§¡ÒÃƚƇµƍÊÃÐċ¡Ź´... »ÃÐÁÒ³Թ¹$s\"/animate Elliott true true 100 31/pause 800/emote Elliott 28/pause 500/speak Elliott \"*àÎÍÍÍ*... â·ÉƧчˊ¹ã̋ğ§ µÍ¹׉ ĉ¹áʴ˵Í§¡ÒÃã¤Ãċ¡¤¹ȤÂ˴ÇÂ ¨Ò¡׉ʁàËȑÍ¹ā¹$7\"/pause 500/stopAnimation Elliott/showFrame Elliott 4/pause 600/faceDirection Elliott 3/globalFade/viewport -1000 -1000/end",
+        "extraHelp": "pause 500/emote Elliott 16/speak Elliott \"àÍÒ¨ƃ§àËÃÍ?$8\"/faceDirection Elliott 1/pause 400/speak Elliott \"ğ§ɤƤÁÒ¡àÅÂ... á˅ĉ¹֗§§Ò¹¢Í§ĉ¹äˑä˴ á̅Ç˕Ð ŇÒÁÒàš¹¤҃§á̅Ç$7\"/animate Elliott true true 100 31/pause 800/emote Elliott 28/pause 500/speak Elliott \"*àÎÍÍÍ*... â·ÉƧчˊ¹ã̋ğ§ µÍ¹׉ ĉ¹áʴ˵Í§¡ÒÃã¤Ãċ¡¤¹ȤÂ˴ÇÂ ¨Ò¡׉ʁàËȑÍ¹ā¹$7\"/pause 500/stopAnimation Elliott/showFrame Elliott 4/pause 600/faceDirection Elliott 3/globalFade/viewport -1000 -1000/end"
+    }
+}

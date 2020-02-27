@@ -1,0 +1,21 @@
+{
+    "header": {
+        "target": "a",
+        "formatVersion": 5,
+        "hidef": false,
+        "compressed": true
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "normal": "pause 400/speak Harvey \"â·ÉƧ¹Ð ¼ÁӢ§æÍԒ... äˑړàÅÂ˗ÒȤ³ÁÒËÒ$h\"/move farmer 0 -2 0/pause 600/speak Harvey \"à̎ ¼ÁŤ´˗Ò ¼Áä˴Ƃ¹àƺÂ§à¤ҳÍ§ź¹ ź¹ˌÒ¹¹Ð...\"/move Harvey 0 1 3/move Harvey -3 0 0/move Harvey 0 -2 0/speak Harvey \"@ ÁÒ·Ò§׉!\"/move farmer 0 -1 3/move farmer -4 0 0/move farmer 0 -2 0/speak Harvey \"ɤԹ¹!\"/globalFade/cutscene plane/viewport -1000 -1000/speak Harvey \"µÍ¹Ģ§àʛ¹àʔ¡ ¼Áĝ¹¨Ðàʛ¹ę¡ź¹ÁÒµÅÍ´\"/pause 1000/speak Harvey \"...á˅˴ÇÂÊÒÂµÒ áÅÐ¤ÇÒÁɺ§¢Í§¼Á чàʛ¹ě­ËÒ ¤ÇÒÁĝ¹ġ¹àÅÂ àȕÍ¹ÅÒ§Å§ȷ¡Ƨ$s\"/faceDirection Harvey 3/faceDirection farmer 1/viewport 5 6 true/pause 1000/emote farmer 28/speak Harvey \"äˑàʛ¹äÃËÃÍ¡... Í˒ÒàÈ̃Òä»àÅÂ#$b#¼Áâµע¹ áÅÐÂÍÁģºã¹ Ê¶ÒÀÒ¾ĕÇàÍ§µÍ¹׉ äˑãʺȷ¡¤¹ËÃÍ¡ ч¨Ðä˴ŇÒÍ˒Òчĝ¹... ġ¹àʛ¹Ƈƨ·Ò§¢Í§âÅ¡ãº׉ ÍԒá̅Ç\"/pause 1600/speak Harvey \"à̎ ¼Á¨Ð¾ÒȤ³ä»ɤ âÁà´Åà¤ҳÍ§ź¹ч¼Á àО§ŇÒġ¹àÊʣ¨ TR-Starbird deluxe set ӣ¹ãËˑ $h\"/advancedMove Harvey false 0 2 4 0/faceDirection farmer 2/end"
+    }
+}
