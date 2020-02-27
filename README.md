@@ -11,7 +11,7 @@ Thai language for Stardew Valley
 | Festivals | 100% |
 | Events | 98% |
 | Extra Dialogue | 60% |
-| Movies & MoviesReactions | 0% |
+| Movies & MoviesReactions | 3% |
 
 ### จัดทำโดย
 SORNZiLLATE, NoTSoXDream, JASON.
