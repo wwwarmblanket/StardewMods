@@ -1,7 +1,7 @@
-# CPModTH
+# [CP]ModTH
 Thai language for Stardew Valley
 
-# Mod update&Status
+### Mod update&Status
 - Dialogue NPCs 100%
 - Mail Box 100%
 - NPCGiftTastes 100%
@@ -11,12 +11,12 @@ Thai language for Stardew Valley
 - Events 98%
 - Extra Dialogue 60%
 
-# จัดทำโดย
+### จัดทำโดย
 - SORNZiLLATE
 - NoTSoXDream
 - JASON
 
-# ทีมงานเดิม
+### ทีมงานเดิม
 - Artdekdok
 - cybertorns
 - MiXEL.SC
@@ -25,7 +25,7 @@ Thai language for Stardew Valley
 - sornzilla
 - superogira
 
-# ทําเนียบนักแปล
+### ทําเนียบนักแปล
 - Davykun
 - Memee Thechoco
 - ProfessorHydra
