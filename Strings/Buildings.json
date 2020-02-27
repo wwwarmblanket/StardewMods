@@ -16,18 +16,18 @@
         }
     ],
     "content": {
-        "UnderConstruction": "Under construction.",
-        "DismountBeforeEntering": "Dismount before entering",
-        "PiecesOfHay": "Pieces of Hay: {0}/{1}",
-        "AddedHay": "Added {0} pieces of hay to the silo.",
-        "MillFull": "No space left",
-        "CantMill": "Can't be milled",
-        "NeedSilo": "Silo Required",
-        "CantEnter": "Can't enter right now",
-        "WrongFishType": "Your {0} doesn't want to live in a {1} pond.",
-        "WrongFishTypeCoral": "{0} can only be placed in a {0} Pond.",
-        "CantPutInPonds": "The {0} wouldn't be happy in there.",
-        "NoFish": "Fish can be placed into this pond.",
-        "PondFull": "This pond is full."
+        "UnderConstruction": "อยู่ระหว่างการก่อสร้าง",
+        "DismountBeforeEntering": "ลงจากหลังม้าก่อน",
+        "PiecesOfHay": "ชิ้นส่วนของ Hay: {0}/{1}",
+        "AddedHay": "เพิ่ม Hay ใน Silo {0} ชิ้น",
+        "MillFull": "ไม่มีพื้นที่ว่าง",
+        "CantMill": "ไม่สามรถบดได้",
+        "NeedSilo": "ต้องการ Silo,
+        "CantEnter": "ไม่สามารถเติมใด้ในตอนนี้",
+        "WrongFishType": "{0} ของคุณ ไม่ต้องการ {1} ในนี้",
+        "WrongFishTypeCoral": "{0} สามารถเลี้ยง {0} ได้เท่านั้น",
+        "CantPutInPonds": "{0} พวกเราไม่มีความสุขในนี้บ่อเลย",
+        "NoFish": "สามารถเลี้ยงปลาในบ่อนี้ได้",
+        "PondFull": "บ่อนี้เต็มแล้ว"
     }
 }
