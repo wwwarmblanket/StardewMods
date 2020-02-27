@@ -16,7 +16,7 @@ Thai language for Stardew Valley
 - NoTSoXDream
 - JASON
 
-# ขอขอบคุณทีมงานเดิม
+# ทีมงานเดิม
 - Artdekdok
 - cybertorns
 - MiXEL.SC
