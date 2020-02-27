@@ -1,9 +1,6 @@
-# [CP]ModTH
-Thai language for Stardew Valley
-
 ```sh
-$ อยากช่วยแปลภาษาไทย?
-$ แปลได้เลยที่โฟลเดอร์ Thai
+$ อยากจะช่วยแปลภาษาไทย?
+$ แปลได้เลยครับที่โฟลเดอร์ Thai
 ```
 
 | Mod update | Status |
