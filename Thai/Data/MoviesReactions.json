@@ -12,17 +12,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Watching a movie with mom sure brings me back!"
+            "Text": "ดูหนังกับแม่แน่นอนว่าฉันกลับ!"
           },
           "DuringMovie": {
             "ResponsePoint": null,
-            "Script": "/message \"(Pam and Penny are watching intently!)\"",
+            "Script": "/message \"(Pam และ Penny กำลังดูอย่างตั้งใจ!)\"",
             "Text": ""
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "It's great to be able to do things as a family again!"
+            "Text": "มันเป็นเรื่องที่ดีที่จะสามารถทำสิ่งที่เป็นครอบครัวอีกครั้ง!"
           }
         },
         "ID": "reaction_0"
@@ -35,17 +35,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I'm looking forward to this! Jas and Vincent have been talking about it non-stop."
+            "Text": "ฉันตั้งตารอ Jas และ Vincent เอาแต่พูดถึงมัน"
           },
           "DuringMovie": {
             "ResponsePoint": "sprout_leave",
-            "Script": "/shake Penny 3000/pause 500/message \"Penny seems to be holding back some tears...\"",
-            "Text": "Wow, it must be really hard leaving his family like that...$s"
+            "Script": "/shake Penny 3000/pause 500/message \"Penny ดูเหมือนกลั้นน้ำตาไว้...\"",
+            "Text": "ว้าว..มันคงยากที่จะอยู่ห่างจากครอบครัวเขา...$s"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Thanks for taking me to this, I can't wait to tell the kids how good it was!"
+            "Text": "ขอบคุณที่พาฉันมาที่นี่ฉันแทบรอไม่ไหวที่จะบอกเด็กๆ ว่ามันดีแค่ไหน!"
           }
         },
         "ID": "reaction_1"
@@ -65,17 +65,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Oh, '{0}'! This looks wholesome and fun!"
+            "Text": "โอ้... '{0}'! มันดูแข็งแรงและน่าสนใจ!"
           },
           "DuringMovie": {
             "ResponsePoint": null,
-            "Script": "/message \"(Penny is smiling)\"",
+            "Script": "/message \"(Penny กำลังยิ้ม)\"",
             "Text": ""
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I should totally bring the kids to see this sometime!"
+            "Text": "ฉันควรพาเด็ก ๆ ไปดูสิ่งนี้ในบางครั้ง!"
           }
         },
         "ID": "reaction_3"
@@ -88,17 +88,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I'm excited, I'm in the mood for a good laugh!"
+            "Text": "ฉันตื่นเต้นฉันต้องการที่จะหัวเราะ!"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Did they just...?! Hahahaha!"
+            "Text": "พวกเขาเพียงแค่...?! ฮ่าาาาา!"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Whew, I've got a cramp from all that laughing...!"
+            "Text": "ว้าว...ฉันหัวเราะจนเป็นตะคริว...!"
           }
         },
         "ID": "reaction_4"
@@ -111,17 +111,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I'm a little nervous... I don't usually watch scary movies.$s"
+            "Text": "ผมรู้สึกกังวลนิดหน่อย ปกติแล้วฉันไม่ดูหนังสยองขวัญ$s"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "/shake Penny 3000/pause 500/emote Penny 28",
-            "Text": "I can't look...$s"
+            "Text": "ฉันไม่สามารถดูได้...$s"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I hope I don't have nightmares tonight!$s"
+            "Text": "ฉันหวังว่าฉันจะไม่ฝันร้ายคืนนี้!$s"
           }
         },
         "ID": "reaction_5"
