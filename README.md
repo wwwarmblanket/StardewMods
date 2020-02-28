@@ -2,7 +2,7 @@
 — อยากจะช่วยแปลภาษาไทย?
 — หาประโยคที่เป็นภาษาอังฤษ แล้วเริ่มแปลได้เลย
 — หรือจะดาวโหลดไพล์ทั้งหมด Clone or download > Download ZIP
-— แปลเสร็จแล้วส่งไพล์กลับมาที่ Discord (ห้อง #project-github ) ได้เลยครับ
+— แปลเสร็จแล้วส่งไพล์กลับมาที่ Discord (ห้อง #project-github) ได้เลยครับ
 ```
 https://discordapp.com/invite/TkP42Xm
 
