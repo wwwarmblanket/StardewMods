@@ -93,7 +93,7 @@
         "Sound": "",
         "MessageDelay": 2000,
         "Script": "",
-        "Text": "Farewell, little buddy!",
+        "Text": "ลาก่อน, เจ้าตัวน้อย!",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "spring0_7"
@@ -104,7 +104,7 @@
     "ID": null,
     "SheetIndex": 1,
     "Title": "Mysterium",
-    "Description": "Peer behind the midnight veil... You must experience to believe!",
+    "Description": "แอบดูหลังผ้าคลุมตอนเที่ยงคืน... คุณต้องมีประสบการณ์ที่จะเชื่อ!",
     "Tags": [
       "horror",
       "art"
@@ -116,7 +116,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "/pause 4000",
-        "Text": "'Mysterium'",
+        "Text": "'ลึกลับ'",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "fall0_0"
@@ -127,7 +127,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "/pause 1500",
-        "Text": "A faint silhouette in the dark...",
+        "Text": "เงาจางๆ ในที่มืด...",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "fall0_1"
@@ -160,7 +160,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "The desolate, unknown void of space... where untold horrors await.",
+        "Text": "เป็นที่รกร้างที่ไม่รู้จัก... ความน่าสะพรึงกลัวที่นับไม่ถ้วนรอ",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "fall0_4"
@@ -193,7 +193,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "/pause 3000",
-        "Text": "A variety of disjointed, other-worldly scenes play out...",
+        "Text": "มีฉากที่แยกจากกันหลากหลายฉาก...",
         "Shake": false,
         "ResponsePoint": "",
         "ID": "fall0_7"
@@ -215,7 +215,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "/playSound shadowpeep",
-        "Text": "'You MUST tell your friends to see MYSTERIUM tonight...'",
+        "Text": "'คุณต้องบอกเพื่อนของคุณเพื่อดูความลึกลับของคืนนี้...'",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "fall0_9"
@@ -226,7 +226,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "/playSound shadowDie",
-        "Text": "'...Or I will visit you in your sleep!'",
+        "Text": "'...หรือจะให้ฉันมาหาคุณเมื่อคุณนอนหลับ!'",
         "Shake": true,
         "ResponsePoint": "mysterium_shadow",
         "ID": "fall0_10"
@@ -236,8 +236,8 @@
   "summer_movie_0": {
     "ID": null,
     "SheetIndex": 2,
-    "Title": "Journey Of The Prairie King: The Motion Picture",
-    "Description": "The beloved video game comes to the silver screen!",
+    "Title": "ภาพยนตร์ : การเดินทางของกษัตริย์ทุ่งหญ้า",
+    "Description": "วิดีโอเกมที่นิยมมากที่สุดที่ปรากฏบนหน้าจอ!",
     "Tags": [
       "action"
     ],
@@ -248,7 +248,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "/pause 4000",
-        "Text": "'Journey Of The Prairie King: The Motion Picture'",
+        "Text": "'ภาพยนตร์ : การเดินทางของกษัตริย์ทุ่งหญ้า'",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "summer0_0"
@@ -259,7 +259,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "On the dusty old trail once again, we find Prairie King watching over a wagon train full of valuable treasure.",
+        "Text": "บนถนนที่เต็มไปด้วยฝุ่น... อีกครั้งเราเห็นกษัตริย์ทุ่งหญ้ามองรถม้าที่เต็มไปด้วยสมบัติที่มีค่า",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "summer0_1"
@@ -270,7 +270,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "But, unbeknownst to our hero, the evil outlaw is watching from a nearby cliff...",
+        "Text": "แต่... ฮีโร่ของเราไม่เป็นที่รู้จัก อาชญากรชั่วร้ายกำลังเฝ้าดูจากหน้าผาใกล้เคียง...",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "summer0_2"
@@ -281,7 +281,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "'At last, I'll do away with that self-righteous sheriff and make off with the treasure... I deserve it!'",
+        "Text": "'ในที่สุด... ฉันต้องการที่จะกำจัดนายอำเภอที่คิดว่าตัวเองเป็นฝ่ายถูกและเอาสมบัติไป... ฉันสมควรได้รับมัน!'",
         "Shake": false,
         "ResponsePoint": "PK_villain",
         "ID": "summer0_3"
@@ -292,7 +292,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "/pause 400/playSound thunder_small",
-        "Text": "'Whoops! Looks like this avalanche is headed straight for the wagon train.'",
+        "Text": "'อ๊ะ! ดูเหมือนว่าหิมะถล่มนี้ฉันต้องมุ่งไปที่รถไฟบรรทุกสินค้า'",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "summer0_4"
@@ -303,7 +303,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "The Prairie King hears a faint rumbling in the distance... Look!",
+        "Text": "กษัตริย์ทุ่งหญ้าได้ยินเสียงแผ่วเบาจากระยะไกล... ดู!",
         "Shake": false,
         "ResponsePoint": "",
         "ID": "summer0_5"
@@ -336,7 +336,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "/pause 500/playSound slimeHit/pause 400/playSound slimeHit/pause 400/playSound slimeHit/pause 400/playSound slimeHit/pause 400",
-        "Text": "He's done it again! The thick mud stops the avalanche in its tracks.",
+        "Text": "เขาทำมันอีกครั้ง! โคลนหนาหยุดหิมะถล่มในเส้นทางของมัน",
         "Shake": false,
         "ResponsePoint": "",
         "ID": "summer0_8"
@@ -347,7 +347,7 @@
         "Sound": "Cowboy_Secret",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "The wagon train is saved.",
+        "Text": "รถไฟบรรทุกสินค้าปลอดภัย",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "summer0_9"
@@ -358,7 +358,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "The End.",
+        "Text": "จบ",
         "Shake": false,
         "ResponsePoint": "",
         "ID": "summer0_10"
@@ -368,8 +368,8 @@
   "summer_movie_1": {
     "ID": null,
     "SheetIndex": 3,
-    "Title": "Wumbus",
-    "Description": "An absurd sci-fi comedy centered around the life and times of a lumpy guy from another star.",
+    "Title": "วัมบุส",
+    "Description": "หนังแนวไซไฟไร้สาระที่มีศูนย์กลางอยู่ที่ชีวิตและเวลาของผู้ชายอ้วน ๆ จากดาวดวงอื่น",
     "Tags": [
       "sci-fi",
       "comedy",
@@ -382,7 +382,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "'Wumbus'",
+        "Text": "'วัมบุส'",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "summer1_0"
@@ -393,7 +393,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "Wumbus, always at ease, stretches out and enjoys the warmth of his planet's sun.",
+        "Text": "วัมบุส, มักจะสะดวกสบายและเพลิดเพลินกับความอบอุ่นของดวงอาทิตย์บนโลก",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "summer1_1"
@@ -404,7 +404,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "His faithful servant, FoodBot, provides a steady stream of fried gluten pucks and 'red sauce'.",
+        "Text": "FoodBot ซึ่งเป็นคนรับใช้ที่ซื่อสัตย์ของเขาเป็นแหล่งของกลูเตนทอดและซอสแดง'.",
         "Shake": false,
         "ResponsePoint": "",
         "ID": "summer1_2"
@@ -415,7 +415,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "Wumbus tries to get his nephew, Rossel, interested in star-system culture and affairs, but Rossel is unimpressed.",
+        "Text": "วัมบุส พยายามที่จะทําให้หลานชายของเขารัสเซลที่สนใจในวัฒนธรรมและกิจการของระบบดวงดาวแต่รัสเซลไม่ได้สนใจ",
         "Shake": false,
         "ResponsePoint": "",
         "ID": "summer1_3"
@@ -437,7 +437,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "The movie is a humorous slice-of-life into Wumbus' strange world, a world where technology and society have 'advanced' to an extreme degree.",
+        "Text": "ภาพยนตร์เรื่องนี้เป็นส่วนหนึ่งของอารมณ์ขันของชีวิตที่ไม่คุ้นเคยของวัมบุสโลกที่เทคโนโลยีและสังคมมีความก้าวหน้ามาก",
         "Shake": false,
         "ResponsePoint": "",
         "ID": "summer1_5"
@@ -448,7 +448,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "/pause 800/playSound phone/pause 300",
-        "Text": "Many scenes attempt to find humor in the absurdity of the modern lifestyle.",
+        "Text": "หลายฉากพยายามที่จะหาอารมณ์ขันในความไร้สาระของวิถีชีวิตที่ทันสมัย",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "summer1_6"
@@ -459,7 +459,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "But, despite having near-infinite entertainment options, Wumbus and his group of friends still enjoy gathering for a delicious meal of 'pizza' (formed from 100% gluten materials).",
+        "Text": "อย่างไรก็ตามแม้จะมีตัวเลือกความบันเทิงที่ไม่มีที่สิ้นสุด วัมบุส และเพื่อนๆของเขายังชอบที่จะได้รับร่วมกันและกินพิซซ่าอร่อยๆ (formed from 100% gluten materials).",
         "Shake": false,
         "ResponsePoint": "",
         "ID": "summer1_7"
@@ -469,8 +469,8 @@
   "winter_movie_1": {
     "ID": null,
     "SheetIndex": 4,
-    "Title": "The Zuzu City Express",
-    "Description": "A beloved movie classic, carefully restored for modern theaters.",
+    "Title": "ซูซู เมืองแห่งความเร่งรีบ",
+    "Description": "ภาพยนตร์คลาสสิกอันเป็นที่รักได้รับการสร้างใหม่สำหรับโรงภาพยนตร์สมัยใหม่",
     "Tags": [
       "classic",
       "romance"
@@ -482,7 +482,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "'The Zuzu City Express'",
+        "Text": "'ซูซู เมืองแห่งความเร่งรีบ'",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "winter1_0"
@@ -493,7 +493,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "/pause 800/playSound trainWhistle/pause 300",
-        "Text": "The Zuzu City Express makes one final trip south, from the icy coast... It's a three day journey!",
+        "Text": "ซูซู เมืองแห่งความเร่งรีบ การเดินทางครั้งสุดท้ายจากชายฝั่งน้ำแข็งทางทิศใต้... มันเป็นวันที่สามของการเดินทาง!",
         "Shake": false,
         "ResponsePoint": "",
         "ID": "winter1_1"
@@ -504,7 +504,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "A young lady peers wistfully out the window.",
+        "Text": "หญิงสาวมองออกไปนอกหน้าต่างด้วยความโหยหา",
         "Shake": false,
         "ResponsePoint": "",
         "ID": "winter1_2"
@@ -537,7 +537,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "The movie explores a timeless theme... the conflict between reason and emotion.",
+        "Text": "ภาพยนตร์สำรวจธีมอมตะ... ความขัดแย้งระหว่างเหตุผลและอารมณ์",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "winter1_5"
@@ -548,7 +548,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "Will she follow the directions of her rational mind, or the longings of her heart?",
+        "Text": "เธอจะทำตามคำแนะนำของหัวใจที่มีเหตุผลของเธอหรือความปรารถนาของที่เธอได้ยิน?",
         "Shake": false,
         "ResponsePoint": "zuzucityexpress_mind_heart",
         "ID": "winter1_6"
@@ -559,7 +559,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "The movie ends before we ever find out...",
+        "Text": "ภาพยนตร์จบลงก่อนที่เราจะรู้...",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "winter1_7"
@@ -569,8 +569,8 @@
   "winter_movie_0": {
     "ID": null,
     "SheetIndex": 5,
-    "Title": "The Miracle At Coldstar Ranch",
-    "Description": "Against all odds, a family keeps the spirit of the Winter Star alive...",
+    "Title": "มิราเคิล ฟาร์ม โคลวสตาร์",
+    "Description": "กับอัตราต่อรองทุกครอบครัวช่วยให้จิตวิญญาณของฤดูหนาวดาวยังมีชีวิตอยู่...",
     "Tags": [
       "family",
       "classic"
@@ -582,7 +582,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "'The Miracle at Coldstar Ranch'",
+        "Text": "'มิราเคิล ฟาร์ม โคลวสตาร์'",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "winter0_0"
@@ -593,7 +593,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "It's the eve of The Winter Star, and it's been snowing for 3 weeks straight.",
+        "Text": "มันเป็นวัน Winter Star และหิมะจะตกลงมาติดกัน 3 สัปดาห์",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "winter0_1"
@@ -604,7 +604,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "The Coldstar family is stranded... getting to town is impossible. Fortunately, the cows have enough hay to get by.",
+        "Text": "ครอบครัวติดอยู่ โคลวสตาร์... มันเป็นไปไม่ได้ที่จะเข้าไปในเมือง โชคดีที่วัวมีหญ้าแห้งพอที่จะกิน",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "winter0_2"
@@ -626,7 +626,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "...But the family has run out of food.",
+        "Text": "...แต่ ทุกคนอาหารหมด",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "winter0_4"
@@ -648,7 +648,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "Still, Papa Coldstar braves the treacherous conditions to cut down the winter star tree...",
+        "Text": "อย่างไรก็ตามพ่อเสี่ยงตัดต้นไม้ Winter Star...",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "winter0_6"
@@ -670,7 +670,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "In spite of their hunger, the family decorates the tree, keeping the promise of the Winter Star alive.",
+        "Text": "แม้จะมีความหิวโหยครอบครัวก็ประดับต้นไม้รักษาสัญญาของ Winter Star ให้มีชีวิตอยู่",
         "Shake": false,
         "ResponsePoint": "",
         "ID": "winter0_8"
@@ -692,7 +692,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "That night, an unusual phenomenon...",
+        "Text": "คืนนั้นเป็นปรากฏการณ์ที่ผิดปกติ...",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "winter0_10"
@@ -714,7 +714,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "/specificTemporarySprite removeSprite 989",
-        "Text": "They all shared the Stardrop fruit. Despite its small size, it was the most filling and delicious meal they'd ever had.",
+        "Text": "พวกเขาทั้งหมดแบ่งปันผลไม้ Stardrop แม้ว่ามันจะเล็กแต่มันเป็นอาหารที่อร่อยที่สุดที่พวกเขาเคยมี",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "winter0_12"
@@ -725,7 +725,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "The family is saved, and the spirit of hope is alive and well. The promise of the Winter Star is kept once again...",
+        "Text": "ครอบครัวรอดและวิญญาณแห่งความหวังยังมีชีวิตอยู่ สัญญาของ Winter Star เป็นจริงอีกครั้ง...",
         "Shake": false,
         "ResponsePoint": "",
         "ID": "winter0_13"
@@ -735,8 +735,8 @@
   "spring_movie_1": {
     "ID": null,
     "SheetIndex": 6,
-    "Title": "Natural Wonders: Exploring Our Vibrant World",
-    "Description": "Take a tour through the lands of the Ferngill Republic... from The Fern Islands to Zuzu City, this world is full of life!",
+    "Title": "มหัศจรรย์ทางธรรมชาติ: การสำรวจโลกที่สดใส",
+    "Description": "ทัวร์ผ่านดินแดนของสาธารณรัฐ เฟิร์นกิลด์... จากเกาะเฟิร์นไปเมืองซูซูโลกนี้เต็มไปด้วยชีวิต!",
     "Tags": [
       "documentary",
       "family"
@@ -748,7 +748,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "'Natural Wonders: Exploring Our Vibrant World'",
+        "Text": "'มหัศจรรย์ทางธรรมชาติ: การสำรวจโลกที่สดใส'",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "spring1_0"
@@ -759,7 +759,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "The Fern Islands, a tropical paradise 80 miles off the southern coast. The islands formed due to volcanic activity in the region, and are still growing...",
+        "Text": "หมู่เกาะเฟิร์นสวรรค์เขตร้อน 80 ไมล์นอกชายฝั่งทางตอนใต้ เกาะเกิดขึ้นเนื่องจากการระเบิดของภูเขาไฟในภูมิภาคและยังคงเติบโต...",
         "Shake": false,
         "ResponsePoint": "",
         "ID": "spring1_1"
@@ -770,7 +770,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "The warm climate of the southern ocean allows for extreme biodiversity... in short, the island is teeming with life!",
+        "Text": "สภาพภูมิอากาศที่อบอุ่นของทะเลทางใต้ช่วยให้ความหลากหลายทางชีวภาพมาก... ในระยะสั้นเกาะจะเต็มไปด้วยชีวิต!",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "spring1_2"
@@ -781,7 +781,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "Now we move north to the bustle of Zuzu City. It's a world of concrete and steel, illuminated by the glow of city light.",
+        "Text": "ตอนนี้เราเคลื่อนไปทางเหนือสู่ความวุ่นวายของเมืองซูซุ มันเป็นโลกแห่งคอนกรีตและเหล็กกล้าที่ส่องสว่างจากแสงของเมือง",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "spring1_3"
@@ -792,7 +792,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "The conditions may be harsh, but still, we find abundant life...",
+        "Text": "เงื่อนไขอาจจะยาก แต่ถึงกระนั้นเราพบชีวิตที่สมบูรณ์...",
         "Shake": false,
         "ResponsePoint": "",
         "ID": "spring1_4"
@@ -803,7 +803,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "Far to the west, alone in the vast Gem Sea, lies Prairie Island. In spite of its name, this land is home to a diverse array of natural biomes.",
+        "Text": "ไกลออกไปทางทิศตะวันตกมีชายคนหนึ่งนอนอยู่ในทะเลอัญมณีกว้างใหญ่มีเกาะทุ่งหญ้า แม้จะมีชื่อว่าที่ดินผืนนี้เป็นที่อยู่อาศัยของชุมชนสิ่งมีชีวิตธรรมชาติต่างๆ",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "spring1_5"
@@ -814,7 +814,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "The island is known for its abundant population of raccoons!",
+        "Text": "เกาะนี้เป็นที่รู้จักกันสำหรับประชากรที่เต็มไปด้วยแรคคูน!",
         "Shake": false,
         "ResponsePoint": "",
         "ID": "spring1_6"
@@ -825,7 +825,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "Finally, we return to the mainland, to visit one of the most pleasant areas of the continent... Stardew Valley.",
+        "Text": "สุดท้ายเรากลับไปยังแผ่นดินใหญ่ที่จะเยี่ยมชมหนึ่งในพื้นที่ที่ดีที่สุดของทวีป... Stardew Valley",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "spring1_7"
@@ -836,7 +836,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "The temperate climate of the valley is the perfect home for a variety of woodland creatures and insects. What a beautiful place!",
+        "Text": "สภาพอากาศที่อบอุ่นของหุบเขาเป็นบ้านที่สมบูรณ์แบบสำหรับความหลากหลายของสิ่งมีชีวิตในป่าและแมลง สิ่งที่เป็นสถานที่ที่สวยงาม!",
         "Shake": false,
         "ResponsePoint": "",
         "ID": "spring1_8"
@@ -846,8 +846,8 @@
   "fall_movie_1": {
     "ID": null,
     "SheetIndex": 7,
-    "Title": "It Howls In The Rain",
-    "Description": "A group of youngsters set out to discover the source of a mysterious sound. (Parental Supervision Required)",
+    "Title": "มันร้องโหยหวนในสายฝน",
+    "Description": "กลุ่มของคนหนุ่มสาวเริ่มมองหาแหล่งที่มาของเสียงลึกลับ. (ผู้ปกครองควรให้คำแนะนำ)",
     "Tags": [
       "horror"
     ],
@@ -869,7 +869,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "'The following footage was salvaged from an abandoned camcorder 30 miles south of Grampleton'",
+        "Text": "'ภาพต่อไปนี้ได้รับการกู้ขึ้นมาจากกล้องวิดีโอที่ถูกทิ้งร้าง 30 ไมล์ทางใต้ของ Grampleton'",
         "Shake": false,
         "ResponsePoint": "",
         "ID": "fall1_1"
@@ -880,7 +880,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/pause 2000/playSound rainsound/pause 1000",
-        "Text": "'Did you hear that? I think it came from those woods... Let's go...'",
+        "Text": "'คุณได้ยินมั้ย..? ฉันคิดว่ามันมาจากป่า... ไปกันเถอะ...'",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "fall1_2"
@@ -902,7 +902,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "/pause 500/playSound leafrustle/pause 500/playSound leafrustle/pause 400/playSound leafrustle/pause 500/playSound rainsound",
-        "Text": "(The camera lurches forward into the forest)",
+        "Text": "(กล้องโงนเงนเข้าไปในป่า)",
         "Shake": true,
         "ResponsePoint": null,
         "ID": "fall1_4"
@@ -913,7 +913,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "/specificTemporarySprite movieFrame 7 5 1700/playSound batScreech/spriteText 4 \"Agh! \"/pause 20",
-        "Text": "'Oh, it's just you, Gary... *pant* *pant*... Stop grabbing my arm!'",
+        "Text": "'โอ้..แค่คุณแกรี่... *กางเกง* *กางเกง*... หยุดคว้าแขนของฉัน!'",
         "Shake": true,
         "ResponsePoint": "",
         "ID": "fall1_5"
@@ -946,7 +946,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50",
-        "Text": "(Muffled cries and a strange shuffling sound can be heard)",
+        "Text": "(จะได้ยินเสียงร้องอู้อี้และเสียงสับแปลกๆ)",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "fall1_8"
