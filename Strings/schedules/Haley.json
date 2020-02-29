@@ -16,12 +16,12 @@
         }
     ],
     "content": {
-        "winter_9.000": "It's nothing serious... I'm just here for my annual check-up.",
-        "winter_9.001": "Well... my nose has been a little runny, Doctor. But otherwise I'm doing fine!",
-        "winter.000": "It's too cold to get out of bed.",
-        "marriage_Mon.000": "Hi, honey! I'm mostly just here to visit Emily.",
-        "rain.000": "The weather's too horrible to get out of bed.",
-        "winter_16.001": "Brrr.... I'm not dressed for this...$s",
-        "winter_16.000": "It's too cold to get out of bed."
+        "winter_9.000": "มันไม่มีอะไรน่าตกใจนักหรอก... วันมันเป็นวันนัดตรวจของฉันน่ะ.",
+        "winter_9.001": "คุณหมอคะฉันมีแค่น้ำมูกเฉยๆนะคะ. แต่อย่างอื่นฉันปกติดีนะคะ!",
+        "winter.000": "มันหนาวเกินที่จะลุกออกจากเตียง",
+        "marriage_Mon.000": "สวัสดี,ที่รัก!วันนี้ฉันมาเยี่ยมพี่สาวฉันเฉยๆน่ะ",
+        "rain.000": "วันนี้สภาพอากาศแปรปรวนจังฉันไม่อยากลุกออกจากเตียงเลย",
+        "winter_16.001": "บรื้ออ.... ฉันไม่ได้แต่งตัวมาเพื่ออากาศแบบนี้...$s",
+        "winter_16.000": "หนาวจังเลยไม่อยากลุกออกจากเตียงเลย."
     }
 }
