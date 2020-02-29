@@ -40,7 +40,7 @@
           "DuringMovie": {
             "ResponsePoint": "sprout_leave",
             "Script": "/shake Penny 3000/pause 500/message \"Penny ดูเหมือนกลั้นน้ำตาไว้...\"",
-            "Text": "ว้าว..มันคงยากที่จะอยู่ห่างจากครอบครัวเขา..."
+            "Text": "ว้าว..มันคงยากที่จะอยู่ห่างจากครอบครัวเขา...$s"
           },
           "AfterMovie": {
             "ResponsePoint": null,
