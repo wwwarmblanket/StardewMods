@@ -16,7 +16,7 @@
         }
     ],
     "content": {
-        "MessageFoundLostItem": "You found the {0}. Better return it to {1}.",
-        "ObjectiveReturnToNPC": "Return to {0}."
+        "MessageFoundLostItem": "คุณพบ {0} เอาไปคืนให้ {1} ดีกว่า",
+        "ObjectiveReturnToNPC": "คืนให้ {0}"
     }
 }
