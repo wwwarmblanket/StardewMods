@@ -245,13 +245,13 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "เฮ้เด็กๆ ขอบคุณที่เชิญฉัน"
+            "Text": "เฮ้เจ้าหนู ขอบคุณที่ชวนฉันมาดูนะ"
           },
           "DuringMovie": null,
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "เฮ้, นั่นก็ไม่ได้แย่เกินไป!"
+            "Text": "เฮ้, หนังมันก็สนุกดีนะ!"
           }
         },
         "ID": "reaction_0"
@@ -269,17 +269,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "ชู่วววววว, เฮ้นี่ฉันเอง Krobus คุณจำฉันได้ไหม?$8#$b#ถ้ามีใครเข้าใกล้เราคุณก็แค่พูดตกลงไหม?$8"
+            "Text": "ชู่วววววว, เฮ้นี่ฉันเอง โครบัส นายจำฉันได้ไหม?$8#$b#ถ้ามีใครเข้าใกล้เรานายก็เตือนฉันนะ?$8"
           },
           "DuringMovie": {
             "ResponsePoint": "mysterium_shadow",
-            "Script": "/message \"Krobus is stewing...\"",
-            "Text": "เงาทั้งหมดไม่ได้เป็นแบบนั้น!$8"
+            "Script": "/message \"โครบัส กำลังบ่น...\"",
+            "Text": "พวกเงาก็ไม่ได้เป็นแบบนั้นกันทั้งหมดนะ!$8"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "ฉันไม่ชินกับการสวมใส่เสื้อผ้า ... มันอึดอัดมาก!$8"
+            "Text": "ฉันไม่ค่อยชินกับการใส่เสื้อผ้า ... มันอึดอัดมาก!$8"
           }
         },
         "ID": "reaction_0"
