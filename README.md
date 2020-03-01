@@ -18,7 +18,7 @@
 | Mail Box | 100% |
 | NPCGiftTastes | 100% |
 | Dialogue ทั่วไป | 98% |
-| Extra Dialogue | 60% |
+| Extra Dialogue | 70% |
 | Movies & MoviesReactions | 15% |
 | Schedules | 100% |
 
