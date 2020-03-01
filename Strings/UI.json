@@ -597,7 +597,7 @@
         "PondQuery_StatusOk5": "The fish look happy.",
         "PondQuery_StatusOk6": "The fish seem to be thriving.",
         "PondQuery_StatusOk_Coral": "The {0} are doing well.",
-        "PondQuery_StatusRequest_Bring": "Bring",
+        "PondQuery_StatusRequest_Bring": "ต้องการไอเทม",
         "PondQuery_StatusRequestPending0": "\"You know, {1} {0} would liven things up around here!\"",
         "PondQuery_StatusRequestPending1": "\"If it's not too much to ask... could you bring us {1} {0}?\"",
         "PondQuery_StatusRequestPending2": "\"We'd be more comfortable if we had {1} {0} in here.\"",
