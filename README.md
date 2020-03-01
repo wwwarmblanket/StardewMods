@@ -1,10 +1,9 @@
 ```sh
 — อยากจะช่วยแปลภาษาไทย?
 — หาประโยคที่เป็นภาษาอังฤษ แล้วเริ่มแปลได้เลย
-— หรือจะดาวโหลดไพล์ทั้งหมด Clone or download > Download ZIP
-— แปลเสร็จแล้วส่งไพล์กลับมาที่ Discord (ห้อง #project-github) ได้เลยครับ
 ```
-https://discordapp.com/invite/TkP42Xm
+#### วิธีการแปล
+https://www.youtube.com/watch?v=e39kzyoK-RQ
 
 | Mod update | Status |
 | ------ | ------ |
@@ -17,14 +16,18 @@ https://discordapp.com/invite/TkP42Xm
 | NPCGiftTastes | 100% |
 | Dialogue ทั่วไป | 98% |
 | Extra Dialogue | 60% |
-| Movies & MoviesReactions | 3% |
+| Movies & MoviesReactions | 15% |
+| Schedules | 100% |
 
-### จัดทำโดย
+#### จัดทำโดย
 SORNZiLLATE, NoTSoXDream, JASON.
 
-### ทีมงานเดิม
+#### ทีมงานเดิม
 Artdekdok, cybertorns, MiXEL.SC, NoTSoXDream, Pigter, sornzilla, superogira.
 
-### ทําเนียบนักแปล
+#### ทําเนียบนักแปล
 Davykun, iParnRequiem, Memee Thechoco, PangInFN, Pookhao23
 , ProfessorHydra, Tawan, unknownwmz.
+
+#### ขอบคุณผู้แจ้ง Bug
+BirdBBK
