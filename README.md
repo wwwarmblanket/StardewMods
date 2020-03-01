@@ -3,10 +3,10 @@
 — หาประโยคที่เป็นภาษาอังฤษ แล้วเริ่มแปลได้เลย
 ```
 #### วิธีการแปล
-https://www.youtube.com/watch?v=e39kzyoK-RQ
-
+[สอนใช้ Github ฉบับเร่งด่วน!](https://www.youtube.com/watch?v=e39kzyoK-RQ)
 #### ชื่อกลาง (สำคัญมากๆ ต้องแปลตามนี้เท่านั้น)
-https://docs.google.com/spreadsheets/d/1DBdyvEI9XNAWEPpptKmIHfUj0gGdAFzyjHH9oR7U0Zc/edit?usp=sharing
+[Stardew Valley Glossary](https://docs.google.com/spreadsheets/d/1DBdyvEI9XNAWEPpptKmIHfUj0gGdAFzyjHH9oR7U0Zc/edit?usp=sharing)
+
 
 | Mod update | Status |
 | ------ | ------ |
