@@ -21,7 +21,7 @@
         "PiecesOfHay": "ชิ้นส่วนของ Hay: {0}/{1}",
         "AddedHay": "เพิ่ม Hay ใน Silo {0} ชิ้น",
         "MillFull": "ไม่มีพื้นที่ว่าง",
-        "CantMill": "ไม่สามรถบดได้",
+        "CantMill": "ไม่สามารถบดได้",
         "NeedSilo": "ต้องการ Silo,
         "CantEnter": "ไม่สามารถเติมใด้ในตอนนี้",
         "WrongFishType": "{0} ของคุณ ไม่ต้องการ {1} ในนี้",
