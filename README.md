@@ -26,4 +26,4 @@ SORNZiLLATE, NoTSoXDream, JASON.
 Artdekdok, cybertorns, MiXEL.SC, NoTSoXDream, Pigter, sornzilla, superogira.
 
 ### ทําเนียบนักแปล
-Davykun, iParnRequiem, Memee Thechoco, PangInFN, ProfessorHydra, Tawan, unknownwmz.
+Davykun, iParnRequiem, Memee Thechoco, PangInFN, ProfessorHydra, Tawan, unknownwmz, คุณช่อ.
