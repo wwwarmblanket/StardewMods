@@ -70,7 +70,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "...แต่นี่มันคืออะไรกัน...? ต้นกล้าตัวน้อยรู้สึกจั๊กจี๋บนหัวของเขา... ",
+        "Text": "...แต่นี่มันคืออะไรกันน่ะ...? ทำไมต้นกล้าตัวน้อยถึงรู้สึกแปลกๆ บนหัวของตัวเอง... ",
 
         "Shake": false,
         "ResponsePoint": null,
@@ -104,7 +104,7 @@
     "ID": null,
     "SheetIndex": 1,
     "Title": "เงาอาฆาต",
-    "Description": "มันจะปรากฎตัวขึ้นมาหลังจากเวลาเที่ยงคืน...และจะทำให้คุณได้รับประสบการณ์ที่จะลืมไม่ลง!",
+    "Description": "มันจะปรากฎตัวขึ้นมาในเวลาพลบค่ำ...และจะทำให้คุณได้รับประสบการณ์ที่จะลืมไม่ลง!",
     "Tags": [
       "horror",
       "art"
@@ -127,7 +127,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "/pause 1500",
-        "Text": "เงาจางๆ ของบางอย่างที่ปรากฏขึ้นในสถานที่อันมืดมิด...",
+        "Text": "เงาจางๆ ของบางสิ่งที่ปรากฏขึ้นในสถานที่อันมืดมิดแห่งนึง...",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "fall0_1"
@@ -160,7 +160,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "มันคือพื้นที่รกร้างที่ไม่เคยปรากฏ... และความน่าสะพรึงกลัวที่นับไม่ถ้วนกำลังรออยู่",
+        "Text": "มันคือพื้นที่รกร้างที่ไม่เคยปรากฏหรือถูกค้นพบที่ไหนมาก่อน... และความน่าสะพรึงกลัวที่นับไม่ถ้วนกำลังรออยู่ตามมุมมืด",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "fall0_4"
@@ -226,7 +226,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "/playSound shadowDie",
-        "Text": "'...หรือไม่เช่นนั้น ข้าจะไปหาเจ้าในความฝัน!'",
+        "Text": "'...หรือไม่เช่นนั้น ข้าจะไปหาเจ้าในความฝันแทน!'",
         "Shake": true,
         "ResponsePoint": "mysterium_shadow",
         "ID": "fall0_10"
@@ -236,7 +236,7 @@
   "summer_movie_0": {
     "ID": null,
     "SheetIndex": 2,
-    "Title": "บันทึกการผจญภัยเจ้าชายแห่งทุ่งหญ้า : เดอะมูฟวี่",
+    "Title": "บันทึกการผจญภัยเจ้าชายแห่งทะเลทราย : เดอะมูฟวี่",
     "Description": "วิดีโอเกมชื่อดังที่ได้มาโลดแล่นอยู่บนจอภาพยนต์!",
     "Tags": [
       "action"
@@ -248,7 +248,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "/pause 4000",
-        "Text": "'บันทึกการผจญภัยเจ้าชายแห่งท้องทะเลทราย : เดอะมูฟวี่'",
+        "Text": "'บันทึกการผจญภัยเจ้าชายแห่งทะเลทราย : เดอะมูฟวี่'",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "summer0_0"
@@ -259,7 +259,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "บนถนนเส้นเก่าที่เต็มไปด้วยฝุ่นมากมาย... มีเจ้าชายแห่งท้องทะเลทรายกำลังเฝ้าระวังรถม้าที่เต็มไปด้วยสมบัติอันล้ำค่ามากมายอยู่",
+        "Text": "บนถนนเส้นเก่าที่เต็มไปด้วยฝุ่นมากมาย... มีเจ้าชายแห่งทะเลทรายที่กำลังเฝ้าระวังรถม้าที่เต็มไปด้วยสมบัติอันล้ำค่ามากมายอยู่",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "summer0_1"
@@ -270,7 +270,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "แต่... ฮีโร่หรือเจ้าชายของเรานั้น ยังไม่เป็นที่รู้จักในดินแดนแห่งนี้ โจรผู้ชั่วร้ายกำลังเฝ้าดูเขาจากหน้าผาใกล้เคียง...",
+        "Text": "แต่... ฮีโร่หรือเจ้าชายของเรานั้น เหมือนจะยังไม่รู้ว่ายังมีโจรผู้ชั่วร้ายกำลังเฝ้าดูเขาจากหน้าผาใกล้เคียง...",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "summer0_2"
@@ -292,7 +292,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "/pause 400/playSound thunder_small",
-        "Text": "'อ๊ะ! ดูเหมือนว่าหิมะถล่มนี้ฉันต้องมุ่งไปที่รถไฟบรรทุกสินค้า'",
+        "Text": "'อ๊ะ! ดูเหมือนว่าหินพวกนี้ กำลังจะมุ่งตรงไปที่ขบวนเกวียนรถม้านะ'",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "summer0_4"
@@ -303,7 +303,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "กษัตริย์ทุ่งหญ้าได้ยินเสียงแผ่วเบาจากระยะไกล... ดู!",
+        "Text": "เจ้าชายแห่งทะเลทรายได้ยินเสียงบางอย่างมาจากใกล้ๆ นี้... ดูนั่น!",
         "Shake": false,
         "ResponsePoint": "",
         "ID": "summer0_5"
@@ -313,7 +313,7 @@
         "Music": "",
         "Sound": "",
         "MessageDelay": 500,
-        "Script": "/pause 1000/message \"Thinking quickly, he fires a shot.\"/pause 500/playSound cowboy_gunload/pause 500/playSound Cowboy_monsterDie/pause 500",
+        "Script": "/pause 1000/message \"ทันได้นั้นเอง เขาก็หยิบปืนขึ้นมายิงไปที่จุดๆ หนึ่ง .\"/pause 500/playSound cowboy_gunload/pause 500/playSound Cowboy_monsterDie/pause 500",
         "Text": "",
         "Shake": false,
         "ResponsePoint": null,
@@ -324,7 +324,7 @@
         "Music": "",
         "Sound": "",
         "MessageDelay": 500,
-        "Script": "/pause 200/playSound cowboy_explosion/pause 1000/message \"But what's this? Water's flying everywhere!\"",
+        "Script": "/pause 200/playSound cowboy_explosion/pause 1000/message \"นี่มันอะไรกัน ทำไมถึงมีน้ำกระจายออกมาเต็มไปหมด!\"",
         "Text": "",
         "Shake": false,
         "ResponsePoint": null,
@@ -336,7 +336,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "/pause 500/playSound slimeHit/pause 400/playSound slimeHit/pause 400/playSound slimeHit/pause 400/playSound slimeHit/pause 400",
-        "Text": "เขาทำมันอีกครั้ง! โคลนหนาหยุดหิมะถล่มในเส้นทางของมัน",
+        "Text": "เขาทำได้! โคลนหนาพวกนั้นทำให้ชะลอ และหยุดพวกหินถล่มได้ในที่สุด",
         "Shake": false,
         "ResponsePoint": "",
         "ID": "summer0_8"
@@ -347,7 +347,7 @@
         "Sound": "Cowboy_Secret",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "รถไฟบรรทุกสินค้าปลอดภัย",
+        "Text": "เกวียนบรรทุกสมบัติปลอดภัยดี",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "summer0_9"
