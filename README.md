@@ -30,7 +30,7 @@ Artdekdok, cybertorns, MiXEL.SC, NoTSoXDream, Pigter, sornzilla, superogira.
 
 #### ทําเนียบนักแปล
 Davykun, iParnRequiem, Memee Thechoco, PangInFN, Pookhao23
-, ProfessorHydra, Tawan, unknownwmz.
+, ProfessorHydra, Tawan, unknownwmz., RushingOn
 
 #### ขอบคุณผู้แจ้ง Bug
 BirdBBK
