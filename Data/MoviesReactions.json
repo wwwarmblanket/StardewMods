@@ -1385,7 +1385,7 @@
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "That was so fun! I wanna go see it again!$h"
+            "Text": "หนังสนุกมากเลยล่ะ ฉันจะต้องดูมันอีกแน่นอน!$h"
           }
         },
         "ID": "reaction_4"
@@ -1398,7 +1398,7 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "B... But... This movie is for grown-ups, isn't it?$s"
+            "Text": "หนังเรื่องนี้ เป็นหนังสำหรับคนที่โตแล้วไม่ใช่หรอ?$s"
           },
           "DuringMovie": {
             "ResponsePoint": null,
@@ -1640,7 +1640,7 @@
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "That was very romantic."
+            "Text": "มันโรแมนติกมากๆเลยล่ะ."
           }
         },
         "ID": "reaction_3"
@@ -1659,7 +1659,7 @@
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I'm glad there was a good ending!"
+            "Text": "ฉันดีใจที่มันมีตอนจบที่ดี!"
           }
         },
         "ID": "reaction_4"
@@ -1865,7 +1865,7 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I hope it's short..."
+            "Text": "ฉันหวังว่าหนังมันจะจบเร็วๆนี้นะ..."
           },
           "DuringMovie": null,
           "AfterMovie": {
@@ -2172,7 +2172,7 @@
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I had a great time, @! Thanks for thinking of me."
+            "Text": "มันเป็นเวลาที่ดีมากๆเลย, @! ขอบคุณที่ชวนฉันมานะ."
           }
         },
         "ID": "reaction_2"
@@ -2241,7 +2241,7 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Heh. I'm actually interested in seeing this one..."
+            "Text": "เห้!ฉันอยากจะดูหนังเรื่องจริงๆนะ..."
           },
           "DuringMovie": {
             "ResponsePoint": null,
@@ -2283,7 +2283,7 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Ugh... this is going to be painful."
+            "Text": "อ่าห์... มันคงจะเจ็บปวดมากแน่เลย."
           },
           "DuringMovie": {
             "ResponsePoint": null,
@@ -2293,7 +2293,7 @@
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I feel depressed...$s"
+            "Text": "ฉันรู้สึกหดหู่มากเลยอะ...$s"
           }
         },
         "ID": "reaction_7"
@@ -2342,7 +2342,7 @@
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "That was so much fun! Thanks for bringing me!$h"
+            "Text": "หนังสนุกมากเลยล่ะ!ขอบคุณที่พาฉันมาดูด้วย!$h"
           }
         },
         "ID": "reaction_3"
