@@ -6,8 +6,8 @@
 [สอนใช้ Github ฉบับเร่งด่วน!](https://www.youtube.com/watch?v=e39kzyoK-RQ)
 #### ชื่อกลาง (สำคัญมากๆ ต้องแปลตามนี้เท่านั้น)
 [Stardew Valley Glossary](https://docs.google.com/spreadsheets/d/1DBdyvEI9XNAWEPpptKmIHfUj0gGdAFzyjHH9oR7U0Zc/edit?usp=sharing)
-#### Discord ทีมพัฒนา Mod ภาษาไทย (พูดคุยได้เกี่ยวกับการแปล)
-(https://discordapp.com/invite/TkP42Xm)
+#### พูดคุยได้เกี่ยวกับการแปล
+[Discord ทีมพัฒนา Mod ภาษาไทย](https://discordapp.com/invite/TkP42Xm)
 
 | Mod update | Status |
 | ------ | ------ |
