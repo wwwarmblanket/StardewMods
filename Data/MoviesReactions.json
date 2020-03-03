@@ -39,7 +39,7 @@
           },
           "DuringMovie": {
             "ResponsePoint": "sprout_leave",
-            "Script": "/shake Penny 3000/pause 500/message \"Penny ดูเหมือนกลั้นน้ำตาเอาไว้...\"",
+            "Script": "/shake Penny 3000/pause 500/message \"เพนนีดูเหมือนกลั้นน้ำตาเอาไว้...\"",
             "Text": "ว้าว..มันคงยากมากแน่ๆที่จะอยู่ห่างจากครอบครัวเหมือนกับเขา...$s"
           },
           "AfterMovie": {
@@ -735,7 +735,7 @@
           },
           "DuringMovie": {
             "ResponsePoint": null,
-            "Script": "/shake Abigail 3000/pause 500/message \"Abigail is หัวเราะ!\"",
+            "Script": "/shake Abigail 3000/pause 500/message \"อบิเกลกำลังหัวเราะ!\"",
             "Text": "ฮ่าฮ่า! มันไม่ค่อยน่ากลัวเลย, แต่ฉันชอบนะ$h"
           },
           "AfterMovie": {
@@ -990,7 +990,7 @@
           },
           "DuringMovie": {
             "ResponsePoint": null,
-            "Script": "/shake Harvey 3000/pause 500/message \"Harvey's blood pressure is skyrocketing!\"",
+            "Script": "/shake Harvey 3000/pause 500/message \"ความดันของฮารวีย์เริ่มสูงขึ้น!\"",
             "Text": "ฉันรู้สึกไม่ค่อยดี...$8"
           },
           "AfterMovie": {
@@ -1183,7 +1183,7 @@
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "เหอ... ผมสงสัยจังว่าข้อความที่ภาพยนตร์เรื่องนี้สื่ออกมามันดีต่อชุมชนของเรารึเปล่า?"
+            "Text": "เหอ... ผมสงสัยจังว่าข้อความที่ภาพยนตร์เรื่องนี้สื่อออกมามันดีต่อชุมชนของเรารึเปล่า?"
           }
         },
         "ID": "reaction_6"
@@ -1255,7 +1255,7 @@
           },
           "DuringMovie": {
             "ResponsePoint": null,
-            "Script": "/playSound reward/emote Sam 32/message Sam \"Sam can't contain his laughter!\"",
+            "Script": "/playSound reward/emote Sam 32/message Sam \"แซมกลั้นขำเอาไว้ไม่อยู่แล้ว!\"",
             "Text": "ภาพยนตร์เรื่องนี้มันตลกมาก! เขาเอาไอเดียพวกนี้มาจากไหนกันนะ?$h"
           },
           "AfterMovie": {
@@ -1740,7 +1740,7 @@
           },
           "DuringMovie": {
             "ResponsePoint": null,
-            "Script": "/emote Maru 32/playSound reward/message \"Maru's taking notes!\"",
+            "Script": "/emote Maru 32/playSound reward/message \"มารุกำลังจดโน้ตของเธออยู่!\"",
             "Text": "อา ฉันเข้าใจล่ะ... นั่นมันน่าสนใจมากเลย!"
           },
           "AfterMovie": {
@@ -1778,7 +1778,7 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "ฉันชอบไปโรงภาพยนตร์มากเยล่ะถึงแม้ว่าภาพยนตร์จะแย่ก็ตาม!$h"
+            "Text": "ฉันชอบไปโรงภาพยนตร์มากเลยล่ะถึงแม้ว่าภาพยนตร์จะแย่ก็ตาม!$h"
           },
           "DuringMovie": null,
           "AfterMovie": {
@@ -2190,12 +2190,12 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "เพอะ... ช่าย ผมหวังว่านี่จะโอเคนะ *ฟุดฟิด* *ฟุดฟิด* ... ขนมคบเคี้ยวน่าจะช่วยได้นะ"
+            "Text": "อือ... ใช่ ผมหวังว่านี่จะโอเคนะ *ฟุดฟิด* *ฟุดฟิด* ... ขนมคบเคี้ยวน่าจะช่วยได้นะ"
           },
           "DuringMovie": {
             "ResponsePoint": "PK_villain",
             "Script": "",
-            "Text": "พวกเป็นแฟนของพวกตัวร้าน... *เอิ๊ก*"
+            "Text": "พวกเป็นแฟนของพวกตัวร้าย... *เอิ๊ก*"
           },
           "AfterMovie": {
             "ResponsePoint": null,
@@ -2241,7 +2241,7 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "เฮ่!ฉันอยากจะดูหนังเรื่องนี้จริงๆนะ..."
+            "Text": "ฮึ ฉันว่าฉันอยากจะดูเรื่องนี้นะ..."
           },
           "DuringMovie": {
             "ResponsePoint": null,
@@ -2264,7 +2264,7 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "เพอะ... ช่าย ผมหวังว่านี่จะโอเคนะ *ฟุดฟิด* *ฟุดฟิด* ... ขนมคบเคี้ยวน่าจะช่วยได้นะ"
+            "Text": "อือ... ใช่ ผมหวังว่านี่จะโอเคนะ *ฟุดฟิด* *ฟุดฟิด* ... ขนมคบเคี้ยวน่าจะช่วยได้นะ"
           },
           "DuringMovie": null,
           "AfterMovie": {
@@ -2287,7 +2287,7 @@
           },
           "DuringMovie": {
             "ResponsePoint": null,
-            "Script": "/emote Shane 28/message \"Shane's slumped over...\"",
+            "Script": "/emote Shane 28/message \"เชนดูจะห่อเหี่ยวมาก...\"",
             "Text": ""
           },
           "AfterMovie": {
@@ -2406,13 +2406,13 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "ฉันได้ยินมาว่ามันฉากของธรรมชาติที่สวยงามมากๆในหนังเรื่องนี้... ฉันจะตั้งตาคอยมันด้วยความตื่นเต้นเลยล่ะ!$h"
+            "Text": "ฉันได้ยินมาว่ามันมีฉากของธรรมชาติที่สวยงามมากๆในหนังเรื่องนี้... ฉันจะตั้งตาคอยมันด้วยความตื่นเต้นเลยล่ะ!$h"
           },
           "DuringMovie": null,
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "นั่นมันเยี่ยมมาก ฉํนค่อนข้างมั่นใจเลยล่ะว่าฉันเห็นกระท่อมของฉันในฉากที่เป็นหุบเขาสตาร์ดิว!$h"
+            "Text": "นั่นมันเยี่ยมมาก ฉันค่อนข้างมั่นใจเลยล่ะว่าฉันเห็นกระท่อมของฉันในฉากที่เป็นหุบเขาสตาร์ดิว!$h"
           }
         },
         "ID": "reaction_4"
