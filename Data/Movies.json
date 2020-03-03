@@ -103,7 +103,7 @@
   "fall_movie_0": {
     "ID": null,
     "SheetIndex": 1,
-    "Title": "เงาอาฆาต",
+    "Title": "สิงสู่",
     "Description": "มันจะปรากฎตัวขึ้นมากลางราตรีอันเงียบสงัด...และจะทำให้คุณได้รับประสบการณ์ที่จะลืมไม่ลง!",
     "Tags": [
       "horror",
@@ -116,7 +116,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "/pause 4000",
-        "Text": "'เงาอาฆาต'",
+        "Text": "'สิงสู่'",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "fall0_0"
@@ -469,7 +469,7 @@
   "winter_movie_1": {
     "ID": null,
     "SheetIndex": 4,
-    "Title": "ขบวนรัก ซูซู ซิตี้",
+    "Title": "ขบวนรักพักใจ",
     "Description": "ภาพยนตร์คลาสสิกอันเป็นตำนาน ที่ได้รับการสร้างขึ้นใหม่สำหรับโรงภาพยนตร์สมัยใหม่",
     "Tags": [
       "classic",
@@ -482,7 +482,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "'ขบวนรัก ซูซู ซิตี้'",
+        "Text": "'ขบวนรักพักใจ'",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "winter1_0"
@@ -569,7 +569,7 @@
   "winter_movie_0": {
     "ID": null,
     "SheetIndex": 5,
-    "Title": "โคลด์สตาร์ ฟาร์มมหัศจรรย์",
+    "Title": "โคลด์สตาร์ และคำสัญญาต่อ ดวงดาวเหมันต์",
     "Description": "แม้จะลำบากเพียงใด แต่ครอบครัวโคลด์สตาร์จะช่วยให้จิตวิญญาณแห่งฤดูหนาวดาวยังคงอยู่...",
     "Tags": [
       "family",
@@ -582,7 +582,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "'โคลด์สตาร์ ฟาร์มมหัศจรรย์'",
+        "Text": "'โคลด์สตาร์ และคำสัญญาต่อ ดวงดาวเหมันต์'",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "winter0_0"
@@ -626,7 +626,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "...แต่อาหารสำหรับทุกๆ คนในครอบครัวดันหมด",
+        "Text": "...และอาหารสำหรับทุกๆ คนในครอบครัวก็หมด",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "winter0_4"
@@ -648,7 +648,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "อย่างไรก็ตามพ่อได้สารภาพความคิดและความประสงค์ที่จะตัดต้นไม้ต่อดวงดาวเหมันต์...",
+        "Text": "อย่างไรก็ตามคุณพ่อได้ให้คำสัญญา และความประสงค์ที่จะตัดต้นไม้ต่อดวงดาวเหมันต์...",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "winter0_6"
@@ -735,8 +735,8 @@
   "spring_movie_1": {
     "ID": null,
     "SheetIndex": 6,
-    "Title": "อัศจรรย์แห่งธรรมชาติ : สำรวจโลกอันสดใสของเรา",
-    "Description": "ทัวร์ผ่านดินแดนของสาธารณรัฐ เฟิร์นกิลด์... จากเกาะเฟิร์นไปเมืองซูซูโลกนี้เต็มไปด้วยชีวิต!",
+    "Title": "อัศจรรย์แห่งธรรมชาติ : สำรวจโลกอันสดใส",
+    "Description": "ท่องเที่ยวผ่านสาธารณรัฐ เฟิร์นกิลด์... จากเกาะเฟิร์นไปยังเมืองซูซู โลกนี้เต็มไปด้วยสิ่งอัศจรรย์!",
     "Tags": [
       "documentary",
       "family"
@@ -748,7 +748,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "'อัศจรรย์แห่งธรรมชาติ : สำรวจโลกอันสดใสของเรา'",
+        "Text": "'อัศจรรย์แห่งธรรมชาติ : สำรวจโลกอันสดใส'",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "spring1_0"
@@ -759,7 +759,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "หมู่เกาะเฟิร์นสวรรค์เขตร้อน 80 ไมล์นอกชายฝั่งทางตอนใต้ เกาะเกิดขึ้นเนื่องจากการระเบิดของภูเขาไฟในภูมิภาคและยังคงเติบโต...",
+        "Text": "หมู่เกาะเฟิร์นสวรรค์เขตร้อน ตั้งอยู่ทาง 80 ไมล์นอกชายฝั่งทางตอนใต้ เกาะนี้เกิดขึ้นเนื่องจากการระเบิด ของภูเขาไฟในบริเวณเกาะและยังคงเติบโตอยู่จนถึงปัจจุบัน...",
         "Shake": false,
         "ResponsePoint": "",
         "ID": "spring1_1"
@@ -770,7 +770,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "สภาพภูมิอากาศที่อบอุ่นของทะเลทางใต้ช่วยให้ความหลากหลายทางชีวภาพมาก... ในระยะสั้นเกาะจะเต็มไปด้วยชีวิต!",
+        "Text": "สภาพภูมิอากาศที่อบอุ่นของทะเลทางตอนใต้ ช่วยให้ความหลากหลายทางชีวภาพมีความหลากหลาย... เพียงระยะสั้นๆ เกาะก็เต็มไปด้วยสิ่งมีชีวิตมากมาย!",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "spring1_2"
@@ -781,7 +781,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "ตอนนี้เราเคลื่อนไปทางเหนือสู่ความวุ่นวายของเมืองซูซุ มันเป็นโลกแห่งคอนกรีตและเหล็กกล้าที่ส่องสว่างจากแสงของเมือง",
+        "Text": "ตอนนี้เรากำลังมุ่งหน้าขึ้นไปทางเหนือ สู่ความวุ่นวายของเมืองซูซุ ดินแดงแห่งความศรีวิไล ส่องสว่างเรืองรองด้วยแสงจากในตัวเมือง",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "spring1_3"
@@ -792,7 +792,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "เงื่อนไขอาจจะยาก แต่ถึงกระนั้นเราพบชีวิตที่สมบูรณ์...",
+        "Text": "ถึงจะดูเป็นไปได้ยาก แต่ถึงกระนั้นเราก็ยังมีโอกาสพบสิ่งมีชีวิที่สวยงาม ในเมืองนี้...",
         "Shake": false,
         "ResponsePoint": "",
         "ID": "spring1_4"
@@ -803,7 +803,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "ไกลออกไปทางทิศตะวันตกมีชายคนหนึ่งนอนอยู่ในทะเลอัญมณีกว้างใหญ่มีเกาะทุ่งหญ้า แม้จะมีชื่อว่าที่ดินผืนนี้เป็นที่อยู่อาศัยของชุมชนสิ่งมีชีวิตธรรมชาติต่างๆ",
+        "Text": "ไกลออกไปทางชายฝั่งทิศตะวันตก ทะเลมรกตอันกว้างใหญ่ ซึ่งเต็มไปด้วยทุ่งหญ้ากว้าง โดยได้ชื่อว่าเป็นที่อยู่อาศัย และแหล่งกำเนิดของ สิ่งมีชีวิตต่างๆ ที่หลากหลาย",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "spring1_5"
@@ -814,7 +814,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "เกาะนี้เป็นที่รู้จักกันสำหรับประชากรที่เต็มไปด้วยแรคคูน!",
+        "Text": "เกาะนี้เป็นที่รู้จักกันดี ในฐานะเกาะที่เต็มไปด้วยแรคคูน!",
         "Shake": false,
         "ResponsePoint": "",
         "ID": "spring1_6"
@@ -825,7 +825,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "สุดท้ายเรากลับไปยังแผ่นดินใหญ่ที่จะเยี่ยมชมหนึ่งในพื้นที่ที่ดีที่สุดของทวีป... Stardew Valley",
+        "Text": "และสุดท้ายเรากลับไปยัง แผ่นดินใหญ่เพื่อที่จะเยี่ยมชมหนึ่งใน พื้นที่ที่สวยงามที่สุดของทวีป... หุบเขาสตาร์ดิว",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "spring1_7"
@@ -836,7 +836,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "สภาพอากาศที่อบอุ่นของหุบเขาเป็นบ้านที่สมบูรณ์แบบสำหรับความหลากหลายของสิ่งมีชีวิตในป่าและแมลง สิ่งที่เป็นสถานที่ที่สวยงาม!",
+        "Text": "สภาพอากาศที่อบอุ่นของหุบเขา เปรียบเสมือนบ้านที่สมบูรณ์แบบ สำหรับความหลากหลายของสิ่งมีชีวิตในป่า ช่างเป็นสถานที่ที่สวยงามอะไรเช่นนี้!",
         "Shake": false,
         "ResponsePoint": "",
         "ID": "spring1_8"
@@ -847,7 +847,7 @@
     "ID": null,
     "SheetIndex": 7,
     "Title": "มันมากับฝน",
-    "Description": "กลุ่มของคนหนุ่มสาวเริ่มมองหาแหล่งที่มาของเสียงลึกลับ. (ผู้ปกครองควรให้คำแนะนำ)",
+    "Description": "เรื่องราวของกลุ่มวัยรุ่น ที่เริ่มหาต้นตอของเสียงอันลึกลับ. (ผู้ปกครองควรให้คำแนะนำ)",
     "Tags": [
       "horror"
     ],
@@ -857,7 +857,7 @@
         "Music": "Upper_Ambient",
         "Sound": "",
         "MessageDelay": 500,
-        "Script": "/pause 1000/playSound cavedrip/pause 1000/playSound cavedrip/spriteText 7 \"It Howls In The Rain \"",
+        "Script": "/pause 1000/playSound cavedrip/pause 1000/playSound cavedrip/spriteText 7 \"มันมากับฝน \"",
         "Text": "",
         "Shake": false,
         "ResponsePoint": null,
@@ -869,7 +869,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "",
-        "Text": "'ภาพต่อไปนี้ได้รับการกู้ขึ้นมาจากกล้องวิดีโอที่ถูกทิ้งร้าง 30 ไมล์ทางใต้ของ Grampleton'",
+        "Text": "'วิดีโอต่อไปนี้ได้รับการเก็บกู้ มาจากกล้องวิดีโอที่ถูกทิ้งไว้ 30 ไมล์ทางตอนใต้ของ แกรมพ์เลทัน'",
         "Shake": false,
         "ResponsePoint": "",
         "ID": "fall1_1"
@@ -880,7 +880,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/pause 2000/playSound rainsound/pause 1000",
-        "Text": "'คุณได้ยินมั้ย..? ฉันคิดว่ามันมาจากป่า... ไปกันเถอะ...'",
+        "Text": "'เธอได้ยินมั้ย..? ฉันคิดว่ามันดังมาจากในป่า... ไปดูกันเถอะ...'",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "fall1_2"
@@ -890,7 +890,7 @@
         "Music": "",
         "Sound": "",
         "MessageDelay": 500,
-        "Script": "/pause 1000/message \"'(Heavy Breathing)... Look!'\"/playSound leafrustle/specificTemporarySprite woodswalker/pause 1000/playSound rainsound/pause 5000",
+        "Script": "/pause 1000/message \"'(เสียงหอบ)... ดูนั่นสิ!'\"/playSound leafrustle/specificTemporarySprite woodswalker/pause 1000/playSound rainsound/pause 5000",
         "Text": "",
         "Shake": false,
         "ResponsePoint": "",
@@ -902,7 +902,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "/pause 500/playSound leafrustle/pause 500/playSound leafrustle/pause 400/playSound leafrustle/pause 500/playSound rainsound",
-        "Text": "(กล้องโงนเงนเข้าไปในป่า)",
+        "Text": "(มุมกล้องค่อยๆ ขยับเข้าลึกไปในป่า)",
         "Shake": true,
         "ResponsePoint": null,
         "ID": "fall1_4"
@@ -912,8 +912,8 @@
         "Music": "",
         "Sound": "",
         "MessageDelay": 500,
-        "Script": "/specificTemporarySprite movieFrame 7 5 1700/playSound batScreech/spriteText 4 \"Agh! \"/pause 20",
-        "Text": "'โอ้..แค่คุณแกรี่... *กางเกง* *กางเกง*... หยุดคว้าแขนของฉัน!'",
+        "Script": "/specificTemporarySprite movieFrame 7 5 1700/playSound batScreech/spriteText 4 \"อ๊าก! \"/pause 20",
+        "Text": "'โธ่..นั่นนายเองเหรอแกรี่... *แฮ่ก* *แฮ่ก*... หยุดเกาะแขนของฉันสักที!'",
         "Shake": true,
         "ResponsePoint": "",
         "ID": "fall1_5"
@@ -923,7 +923,7 @@
         "Music": "",
         "Sound": "",
         "MessageDelay": 500,
-        "Script": "/specificTemporarySprite movieBush/pause 2000/specificTemporarySprite shakeBush/playSound leafrustle/pause 700/specificTemporarySprite shakeBushStop/pause 900/specificTemporarySprite shakeBush/playSound leafrustle/pause 700/specificTemporarySprite shakeBushStop/pause 900/message \"'Look! It's in the bush...'\"/pause 2000",
+        "Script": "/specificTemporarySprite movieBush/pause 2000/specificTemporarySprite shakeBush/playSound leafrustle/pause 700/specificTemporarySprite shakeBushStop/pause 900/specificTemporarySprite shakeBush/playSound leafrustle/pause 700/specificTemporarySprite shakeBushStop/pause 900/message \"'ดูสิ! มันอยู่ในพุ่มไม้นั่น...'\"/pause 2000",
         "Text": "",
         "Shake": false,
         "ResponsePoint": null,
@@ -934,7 +934,7 @@
         "Music": "",
         "Sound": "",
         "MessageDelay": 500,
-        "Script": "/specificTemporarySprite shakeBush/playSound leafrustle/specificTemporarySprite evilRabbit/playSound dustMeep/specificTemporarySprite shakeBushStop/spriteText 4 \"Aiii! \"/pause 500/spriteText 4 \"Oh... \"/pause 500/playSound rainsound/specificTemporarySprite movieFrame 7 7 500/specificTemporarySprite removeSprite 777/specificTemporarySprite removeSprite 778",
+        "Script": "/specificTemporarySprite shakeBush/playSound leafrustle/specificTemporarySprite evilRabbit/playSound dustMeep/specificTemporarySprite shakeBushStop/spriteText 4 \"อ๊ากก! \"/pause 500/spriteText 4 \"โอ้... \"/pause 500/playSound rainsound/specificTemporarySprite movieFrame 7 7 500/specificTemporarySprite removeSprite 777/specificTemporarySprite removeSprite 778",
         "Text": "",
         "Shake": false,
         "ResponsePoint": null,
@@ -946,7 +946,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50",
-        "Text": "(จะได้ยินเสียงร้องอู้อี้และเสียงสับแปลกๆ)",
+        "Text": "(เสียงร้องแปลกๆ และเสียงลากเท้าไปมาดังออกมา)",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "fall1_8"
@@ -956,7 +956,7 @@
         "Music": "",
         "Sound": "",
         "MessageDelay": 500,
-        "Script": "/pause 1000/playSound rainsound/pause 1000/spriteText 4 \"It's still out there... \"",
+        "Script": "/pause 1000/playSound rainsound/pause 1000/spriteText 4 \"มันยังอยู่ที่นั่น... \"",
         "Text": "",
         "Shake": false,
         "ResponsePoint": "",
