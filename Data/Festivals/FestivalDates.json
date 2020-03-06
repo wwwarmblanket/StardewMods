@@ -16,13 +16,13 @@
         }
     ],
     "content": {
-        "spring13": "Egg Festival",
-        "spring24": "Flower Dance",
-        "summer11": "Luau",
-        "summer28": "Dance of the Moonlight Jellies",
-        "fall16": "Stardew Valley Fair",
-        "fall27": "Spirit's Eve",
-        "winter8": "Festival of Ice",
-        "winter25": "Feast of the Winter Star"
+        "spring13": "เทศกาลไข่อีสเตอร์",
+        "spring24": "เทศกาลดอกไม้",
+        "summer11": "ลัวร์",
+        "summer28": "ระบำแมงกะพรุงแสงจันทร์",
+        "fall16": "เทศกาลแสดงสินค้า",
+        "fall27": "งานภูติ",
+        "winter8": "เทศกาลน้ำแข็ง",
+        "winter25": "เทศกาลแห่งดวงดาวฤดูหนาว"
     }
 }
