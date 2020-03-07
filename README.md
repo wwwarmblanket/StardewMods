@@ -30,7 +30,7 @@ SORNZiLLATE, NoTSoXDream, JASON.
 'ELL, NoTSoXDream, Shibosan.
 
 #### นักแปลมืออาชีพ
-Memee Thechoco, Pookhao23, RushingOn.
+Memee Thechoco, Pookhao23, RushingOn, Tomyamkung.
 
 #### ทําเนียบนักแปล
 Davykun, iParnRequiem, PangInFN, ProfessorHydra, Tawan, unknownwmz.
@@ -39,4 +39,4 @@ Davykun, iParnRequiem, PangInFN, ProfessorHydra, Tawan, unknownwmz.
 Artdekdok, cybertorns, MiXEL.SC, NoTSoXDream, Pigter, sornzilla, superogira.
 
 #### Beta tester
-BirdBBK, PadalPrussus, TaNGGoDZeeD
+BirdBBK, PadalPrussus, TaNGGoDZeeD.
