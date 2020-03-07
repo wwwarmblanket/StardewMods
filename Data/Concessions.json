@@ -2,8 +2,8 @@
   {
     "ID": 0,
     "Name": "Cotton Candy",
-    "DisplayName": "สายไหม",
-    "Description": "ก้อนเมฆสีชมพูกลุ่มใหญ่ทำจากน้ำตาลปั่น",
+    "DisplayName": "Cotton Candy",
+    "Description": "(สายไหม) ก้อนเมฆสีชมพูกลุ่มใหญ่ทำจากน้ำตาลปั่น",
     "Price": 50,
     "ItemTags": [
       "Sweet",
@@ -13,8 +13,8 @@
   {
     "ID": 1,
     "Name": "Jasmine Tea",
-    "DisplayName": "ชามะลิ",
-    "Description": "ชาเขียวที่มีกลิ่นหอมของมะลิ",
+    "DisplayName": "Jasmine Tea",
+    "Description": "(ชามะลิ) ชาเขียวที่มีกลิ่นหอมของมะลิ",
     "Price": 50,
     "ItemTags": [
       "Drink",
@@ -25,8 +25,8 @@
   {
     "ID": 2,
     "Name": "Joja Cola",
-    "DisplayName": "โจจ้าโคล่า",
-    "Description": "น้ำอัดลมโจจ้าแก้วใหญ่พิเศษ",
+    "DisplayName": "Joja Cola",
+    "Description": "(โจจ้าโคล่า) น้ำอัดลมโจจ้าแก้วใหญ่พิเศษ",
     "Price": 40,
     "ItemTags": [
       "Drink",
@@ -37,8 +37,8 @@
   {
     "ID": 3,
     "Name": "Sour Slimes",
-    "DisplayName": "สไลม์เปรี้ยว",
-    "Description": "เยลลี่เคี้ยวหนึบรูปสไลม์หลากสี พวกมันถูกโรยด้วยผงที่มีรสเปรี้ยวสุดๆ",
+    "DisplayName": "Sour Slimes",
+    "Description": "(สไลม์เปรี้ยว) เยลลี่เคี้ยวหนึบรูปสไลม์หลากสี พวกมันถูกโรยด้วยผงที่มีรสเปรี้ยวสุดๆ",
     "Price": 80,
     "ItemTags": [
       "Sour",
@@ -48,8 +48,8 @@
   {
     "ID": 4,
     "Name": "Personal Pizza",
-    "DisplayName": "พิซซ่าสำหรับทานคนเดียว",
-    "Description": "พิซซ่าที่มีขนาดเล็กจนสามารถรับประทานเป็นอาหารว่างได้",
+    "DisplayName": "Personal Pizza",
+    "Description": "(พิซซ่าสำหรับทานคนเดียว) พิซซ่าที่มีขนาดเล็กจนสามารถรับประทานเป็นอาหารว่างได้",
     "Price": 150,
     "ItemTags": [
       "Hot",
@@ -59,8 +59,8 @@
   {
     "ID": 5,
     "Name": "Nachos",
-    "DisplayName": "นาโช่ส์",
-    "Description": "แผ่นแป้งตอติญ่าทอดสดใหม่ราดด้วยชีสที่เหนียวหนืดรสเผ็ด",
+    "DisplayName": "Nachos",
+    "Description": "(นาโช่ส์) แผ่นแป้งตอติญ่าทอดสดใหม่ราดด้วยชีสที่เหนียวหนืดรสเผ็ด",
     "Price": 100,
     "ItemTags": [
       "Hot",
@@ -71,8 +71,8 @@
   {
     "ID": 6,
     "Name": "Salmon Burger",
-    "DisplayName": "เบอร์เกอร์แซลม่อน",
-    "Description": "แซลม่อนชิ้นหนาบนขนมปังงาที่ถูกปิ้งจนเกรียมเล็กน้อย",
+    "DisplayName": "Salmon Burger",
+    "Description": "(เบอร์เกอร์แซลม่อน) แซลม่อนชิ้นหนาบนขนมปังงาที่ถูกปิ้งจนเกรียมเล็กน้อย",
     "Price": 150,
     "ItemTags": [
       "Sandwich",
@@ -82,8 +82,8 @@
   {
     "ID": 7,
     "Name": "Ice Cream Sandwich",
-    "DisplayName": "ไอศกรีมแซนด์วิช",
-    "Description": "ไอศกรีมวานิลลาที่ถูกประกบด้วยคุกกี้ช็อกโกแลตสองชิ้น",
+    "DisplayName": "Ice Cream Sandwich",
+    "Description": "(ไอศกรีมแซนด์วิช) ไอศกรีมวานิลลาที่ถูกประกบด้วยคุกกี้ช็อกโกแลตสองชิ้น",
     "Price": 150,
     "ItemTags": [
       "Sandwich",
@@ -94,8 +94,8 @@
   {
     "ID": 8,
     "Name": "Popcorn",
-    "DisplayName": "ป๊อปคอร์น",
-    "Description": "เมล็ดข้าวโพดที่ถูกคั่วจนพอง เพิ่มรสชาติด้วยเนยและโรยเกลือนิดหน่อย",
+    "DisplayName": "Popcorn",
+    "Description": "(ป๊อปคอร์น) เมล็ดข้าวโพดที่ถูกคั่วจนพอง เพิ่มรสชาติด้วยเนยและโรยเกลือนิดหน่อย",
     "Price": 120,
     "ItemTags": [
       "Hot",
@@ -105,8 +105,8 @@
   {
     "ID": 9,
     "Name": "Fries",
-    "DisplayName": "มันฝรั่งทอด",
-    "Description": "มันฝรั่งฝานบางๆ ทอดกรอบแล้วโรยเกลือเล็กน้อย",
+    "DisplayName": "Fries",
+    "Description": "(มันฝรั่งทอด) มันฝรั่งฝานบางๆ ทอดกรอบแล้วโรยเกลือเล็กน้อย",
     "Price": 100,
     "ItemTags": [
       "Hot",
@@ -117,8 +117,8 @@
   {
     "ID": 10,
     "Name": "Chocolate Popcorn",
-    "DisplayName": "ป๊อปคอร์นรสช็อกโกแลต",
-    "Description": "มันก็คือป๊อปคอร์นธรรมดา... แต่ถูกเคลือบด้วยช็อกโกแลต",
+    "DisplayName": "Chocolate Popcorn",
+    "Description": "(ป๊อปคอร์นรสช็อกโกแลต) มันก็คือป๊อปคอร์นธรรมดา... แต่ถูกเคลือบด้วยช็อกโกแลต",
     "Price": 130,
     "ItemTags": [
       "Hot",
@@ -128,16 +128,16 @@
   {
     "ID": 11,
     "Name": "Black Licorice",
-    "DisplayName": "ลูกอมรสชะเอมเทศดำ",
-    "Description": "ลูกอบเคี้ยวหนึบ รสชาติเข้มข้นและมีกลิ่นฉุน",
+    "DisplayName": "Black Licorice",
+    "Description": "(ลูกอมรสชะเอมเทศดำ) ลูกอบเคี้ยวหนึบ รสชาติเข้มข้นและมีกลิ่นฉุน",
     "Price": 25,
     "ItemTags": null
   },
   {
     "ID": 12,
     "Name": "Star Cookie",
-    "DisplayName": "คุกกี้ดวงดาว",
-    "Description": "คุกกี้ชอร์ทเบรดรูปดาวที่โรยด้วยน้ำตาลสีรุ้ง",
+    "DisplayName": "Star Cookie",
+    "Description": "(คุกกี้ดวงดาว) คุกกี้ชอร์ทเบรดรูปดาวที่โรยด้วยน้ำตาลสีรุ้ง",
     "Price": 150,
     "ItemTags": [
       "Sweet"
@@ -146,8 +146,8 @@
   {
     "ID": 13,
     "Name": "Jawbreaker",
-    "DisplayName": "นักทำลายขากรรไกร",
-    "Description": "ลูกอมที่ทั้งใหญ่และแข็ง ดูหนังจบหนึ่งเรื่องแล้วก็ยังละลายไม่หมด!",
+    "DisplayName": "Jawbreaker",
+    "Description": "(นักทำลายขากรรไกร) ลูกอมที่ทั้งใหญ่และแข็ง ดูหนังจบหนึ่งเรื่องแล้วก็ยังละลายไม่หมด!",
     "Price": 250,
     "ItemTags": [
       "Sweet",
@@ -157,8 +157,8 @@
   {
     "ID": 14,
     "Name": "Salted Peanuts",
-    "DisplayName": "ถั่วโรยเกลือ",
-    "Description": "ขนมรสเค็มสุดคลาสสสิก",
+    "DisplayName": "Salted Peanuts",
+    "Description": "(ถั่วโรยเกลือ) ขนมรสเค็มสุดคลาสสสิก",
     "Price": 120,
     "ItemTags": [
       "Salty"
@@ -167,8 +167,8 @@
   {
     "ID": 15,
     "Name": "Hummus Snack Pack",
-    "DisplayName": "เซตอาหารว่างฮัมมัส",
-    "Description": "มันกรุบกรอบและดีต่อสุขภาพ",
+    "DisplayName": "Hummus Snack Pack",
+    "Description": "(เซตอาหารว่างฮัมมัส) มันกรุบกรอบและดีต่อสุขภาพ",
     "Price": 90,
     "ItemTags": [
       "Healthy"
@@ -177,8 +177,8 @@
   {
     "ID": 16,
     "Name": "Kale Smoothie",
-    "DisplayName": "เคลปั่น",
-    "Description": "มันอุดมไปด้วยเส้นใยและวิตามิน",
+    "DisplayName": "Kale Smoothie",
+    "Description": "(เคลปั่น) มันอุดมไปด้วยเส้นใยและวิตามิน",
     "Price": 120,
     "ItemTags": [
       "Drink",
@@ -188,8 +188,8 @@
   {
     "ID": 17,
     "Name": "Apple Slices",
-    "DisplayName": "แอปเปิลหั่นชิ้น",
-    "Description": "แอปเปิลหั่งเป็นชิ้นเล็กๆ ที่ทั้งหวานและกรุบกรอบ",
+    "DisplayName": "Apple Slices",
+    "Description": "(แอปเปิลหั่นชิ้น) แอปเปิลหั่นเป็นชิ้นเล็กๆ ที่ทั้งหวานและกรุบกรอบ",
     "Price": 100,
     "ItemTags": [
       "Sweet",
@@ -199,8 +199,8 @@
   {
     "ID": 18,
     "Name": "Panzanella Salad",
-    "DisplayName": "สลัดแพนนาเซลลา",
-    "Description": "สลัดแห่งฤดูร้อน ประกอบไปด้วยขนมปังและมะเขือเทศ",
+    "DisplayName": "Panzanella Salad",
+    "Description": "(สลัดแพนนาเซลลา) สลัดแห่งฤดูร้อน ประกอบไปด้วยขนมปังและมะเขือเทศ",
     "Price": 200,
     "ItemTags": [
       "Gourmet",
@@ -210,8 +210,8 @@
   {
     "ID": 19,
     "Name": "Truffle Popcorn",
-    "DisplayName": "ป๊อปคอร์น รสเห็ดทรัฟเฟิล",
-    "Description": "ป๊อปคอร์นสูตรโบราณที่โรยด้วยเกลือเห็ดทรัฟเฟิล",
+    "DisplayName": "Truffle Popcorn",
+    "Description": "(ป๊อปคอร์นรสเห็ดทรัฟเฟิล) ป๊อปคอร์นสูตรโบราณที่โรยด้วยเกลือเห็ดทรัฟเฟิล",
     "Price": 180,
     "ItemTags": [
       "Gourmet",
@@ -221,8 +221,8 @@
   {
     "ID": 20,
     "Name": "Cappuccino Mousse Cake",
-    "DisplayName": "คาปูชิโน่มูสเค้ก",
-    "Description": "เค้กช็อกโกแลตก้อนเล็กที่เคลือบด้วยมูสคาปูชิโน่",
+    "DisplayName": "Cappuccino Mousse Cake",
+    "Description": "(คาปูชิโน่มูสเค้ก) เค้กช็อกโกแลตก้อนเล็กที่เคลือบด้วยมูสคาปูชิโน่",
     "Price": 220,
     "ItemTags": [
       "Sweet",
@@ -232,8 +232,8 @@
   {
     "ID": 21,
     "Name": "JojaCorn",
-    "DisplayName": "ข้าวโพดโจจ้า",
-    "Description": "ข้าวโพดสูตรเฉพาะของโจจ้า ทา\"ซอสเนยไม่อั้น\"",
+    "DisplayName": "JojaCorn",
+    "Description": "(ข้าวโพดโจจ้า) ข้าวโพดสูตรเฉพาะของโจจ้า ทา\"ซอสเนยไม่อั้น\"",
     "Price": 10,
     "ItemTags": [
       "Joja"
@@ -242,8 +242,8 @@
   {
     "ID": 22,
     "Name": "Stardrop Sorbet",
-    "DisplayName": "ไอศกรีม ซอร์เบทรส สตาร์ดรอป ",
-    "Description": "สารสกัดสตาร์ดรอป (Stardrop) 1 หยด เปลี่ยนซอร์เบทนี้ให้กลายเป็นของหวานที่ไม่ธรรมดา",
+    "DisplayName": "Stardrop Sorbet",
+    "Description": "(ไอศกรีมซอร์เบทรสสตาร์ดรอป) สารสกัดสตาร์ดรอป (Stardrop) 1 หยด เปลี่ยนซอร์เบทนี้ให้กลายเป็นของหวานที่ไม่ธรรมดา",
     "Price": 1250,
     "ItemTags": [
       "Sweet",
@@ -253,8 +253,8 @@
   {
     "ID": 23,
     "Name": "Rock Candy",
-    "DisplayName": "ลูกอมหิน",
-    "Description": "ผลึกน้ำตาลแต่งรสเสียบไม้พร้อมรับประทาน",
+    "DisplayName": "Rock Candy",
+    "Description": "(ลูกอมหิน) ผลึกน้ำตาลแต่งรสเสียบไม้พร้อมรับประทาน",
     "Price": 90,
     "ItemTags": [
       "Sweet",
