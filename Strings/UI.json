@@ -305,7 +305,7 @@
         "CoopMenu_ConnectingOnlineServices": "กำลังเชื่อมต่อไปยังบริการออนไลน์",
         "CoopMenu_NoSlots": "ไม่มีบ้านว่าง",
         "CoopMenu_NewFarmhand": "ชาวนาหน้าใหม่",
-        "CoopMenu_HostFile": "โฮสฟาร์ม {1}",
+        "CoopMenu_HostFile": "ฟาร์ม {1}",
         "CoopMenu_RevisitFriendFarm": "เข้าร่วมฟาร์ม {0} อีกครั้ง",
         "CoopMenu_JoinFriendFarm": "เข้าร่วมฟาร์ม {0}",
         "CoopMenu_Refresh": "โหลดใหม่",
