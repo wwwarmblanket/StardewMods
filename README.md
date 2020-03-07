@@ -35,7 +35,7 @@ Memee Thechoco, Pookhao23, RushingOn.
 #### ทําเนียบนักแปล
 Davykun, iParnRequiem, PangInFN, ProfessorHydra, Tawan, unknownwmz.
 
-#### ทีมงานริเริ่มโปรเจค
+#### ทีมงานผู้ริเริ่มโปรเจค
 Artdekdok, cybertorns, MiXEL.SC, NoTSoXDream, Pigter, sornzilla, superogira.
 
 #### Beta tester
