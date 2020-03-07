@@ -26,12 +26,17 @@
 #### จัดทำโดย
 SORNZiLLATE, NoTSoXDream, JASON.
 
-#### ทีมงานเดิม
-Artdekdok, cybertorns, MiXEL.SC, NoTSoXDream, Pigter, sornzilla, superogira.
+#### Encode & นักตัดต่อวิดีโอ
+'ELL, NoTSoXDream, Shibosan.
+
+#### นักแปลมืออาชีพ
+Memee Thechoco, Pookhao23, RushingOn.
 
 #### ทําเนียบนักแปล
-Davykun, iParnRequiem, Memee Thechoco, PangInFN, Pookhao23
-, ProfessorHydra, Tawan, unknownwmz., RushingOn
+Davykun, iParnRequiem, PangInFN, ProfessorHydra, Tawan, unknownwmz.
 
-#### ขอบคุณผู้แจ้ง Bug
-BirdBBK
+#### ทีมงานริเริ่มโปรเจค
+Artdekdok, cybertorns, MiXEL.SC, NoTSoXDream, Pigter, sornzilla, superogira.
+
+#### Beta tester
+BirdBBK, PadalPrussus, TaNGGoDZeeD
