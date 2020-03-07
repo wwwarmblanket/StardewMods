@@ -26,7 +26,7 @@
 #### จัดทำโดย
 SORNZiLLATE, NoTSoXDream, JASON.
 
-#### Encode & นักตัดต่อวิดีโอ
+#### Coder & นักตัดต่อวิดีโอ
 'ELL, NoTSoXDream, Shibosan.
 
 #### นักแปลมืออาชีพ
