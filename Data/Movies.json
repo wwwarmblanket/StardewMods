@@ -702,7 +702,7 @@
         "Music": "",
         "Sound": "",
         "MessageDelay": 500,
-        "Script": "/pause 1000/specificTemporarySprite coldstarMiracle/pause 500/playSound discoverMineral/pause 3000/message \"The next day, Mama Coldstar is astonished to find the tree adorned with cosmic fruit.\"/pause 500/message \"'We believed in the Winter Star, and so we were remembered!'\"",
+        "Script": "/pause 1000/specificTemporarySprite coldstarMiracle/pause 500/playSound discoverMineral/pause 3000/message \"ในวันต่อมา, ผู้เป็นแม่รู้สึก ประหลาดใจเป็นอย่างมาก ที่ได้เจอกับต้นไม้ที่ประดับ ด้วยผลไม้ผลใหญ่.\"/pause 500/message \"'พวกเราเชื่อใน เรื่องของดวงดาวเหมันต์ มาโดยตลอดและไม่เคย ที่จะลืมเลือนไปแม้แต่น้อย!'\"",
         "Text": "",
         "Shake": false,
         "ResponsePoint": null,
