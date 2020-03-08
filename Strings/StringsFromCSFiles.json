@@ -1774,7 +1774,7 @@
         "ItemDeliveryQuest.cs.13614": "นำ {1} มาให้กับ {0} ",
         "ItemDeliveryQuest.cs.13615": "นั่นมันไม่พอ... ฉันต้องการ {0} ชิ้น",
         "ItemDeliveryQuest.cs.13620": "\n                                - {0}\n",
-        "Quest.cs.13636": "อัพเดทบันทึก!",
+        "Quest.cs.13636": "อัพเดทสมุดบันทึก!",
         "ResourceCollectionQuest.cs.13640": "การรวบรวม",
         "ResourceCollectionQuest.cs.13647": "มีใครช่วยเอา {0} {1}s{2} มาให้ผมหน่อยได้มั้ย   -คลินท์",
         "ResourceCollectionQuest.cs.13649": "เพื่อช่วยให้เข้าใจแร่ท้องถิ่นมากยิ่งขึ้น",
