@@ -13,14 +13,14 @@
 | ------ | ------ |
 | Dialogue NPCs | 100% |
 | Marriage Dialogue | 100% |
-| Events | 98% |
+| Events | 100% |
 | Festivals | 100% |
 | รายการ TV | 100% |
 | Mail Box | 100% |
 | NPCGiftTastes | 100% |
-| Dialogue ทั่วไป | 98% |
-| Extra Dialogue | 70% |
-| Movies & MoviesReactions | 15% |
+| Dialogue ทั่วไป | 100% |
+| Extra Dialogue | 100% |
+| Movies & MoviesReactions | 100% |
 | Schedules | 100% |
 
 #### จัดทำโดย
