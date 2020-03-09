@@ -142,7 +142,7 @@
         "GameMenu_Options": "ตัวเลือก",
         "GameMenu_Exit": "ออกจากเกม",
         "GameMenu_JunimoNote_Hover": "ศูนย์ชุมชน",
-        "GeodeMenu_InventoryFull": "คุณไม่มีช่องว่างในกระเป๋า",
+        "GeodeMenu_InventoryFull": "คุณมีพื้นที่ในกระเป๋า ไม่เพียงพอ",
         "GeodeMenu_Description_NotEnoughMoney": "ราคา 25g ต่อผลึก...\n\nเหมือนว่าตอนนี้คุณซื้อมันไม่ไหวหรอก",
         "GeodeMenu_Description": "แค่วางผลึกของคุณบนทั่งของฉันแล้วฉันจะหวดมันเอง\n\nคิดค่าหวดชิ้นละ 25g นะ",
         "ItemHover_DefenseBonus": "พลังป้องกัน +{0}",
