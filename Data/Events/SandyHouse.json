@@ -16,6 +16,6 @@
         }
     ],
     "content": {
-        "67/m 10": "none/4 5/farmer 4 9 0 Sandy 2 5 2/skippable/move farmer 0 -2 0/emote Sandy 8/speak Sandy \"หืม...ลูกค้าเหรอ?\"/speed Sandy 4/move Sandy 2 0 2/speed Sandy 4/move Sandy 0 1 2/emote Sandy 16/speak Sandy \"สวัสดี ยินดีต้อนรับสู่ 'Sandy's Oasis'!#$b#เฮ้ เธอดูเหมือนชาวไร่คนใหม่ที่ Emily เขียนจดหมายมาเล่าให้ฟังเลย!#$b#นั้น... รถบัสจากเมือง Stardew กลับมาใช้งานได้ซักทีสินะ!$h#$b#โอ้, ฉันล่ะดีใจจริงๆ!$h\"/emote Sandy 32/move Sandy 0 -1 0/move Sandy -2 0 2/emote Sandy 32/end dialogue Sandy \"ไว้แวะมาใหม่นะ ฉันอยู่ที่นี่เบื่อจะแย่\""
+        "67/m 10": "none/4 5/farmer 4 9 0 Sandy 2 5 2/skippable/move farmer 0 -2 0/emote Sandy 8/speak Sandy \"หืม...ลูกค้างั้นเหรอ?\"/speed Sandy 4/move Sandy 2 0 2/speed Sandy 4/move Sandy 0 1 2/emote Sandy 16/speak Sandy \"สวัสดี ยินดีต้อนรับสู่ 'Sandy's Oasis'!#$b#เอ้ะ เธอดูเหมือนจะเป็น ชาวไร่คนใหม่ที่เอมิลี่ เขียนจดหมายมาเล่าให้ฉันฟังเลย!#$b#ถ้างั้น... รถบัสจากเมืองสตาร์ดิว กลับมาใช้งานได้ซักทีสินะ!$h#$b#โอ้, ฉันล่ะดีใจจริงๆ!$h\"/emote Sandy 32/move Sandy 0 -1 0/move Sandy -2 0 2/emote Sandy 32/end dialogue Sandy \"ไว้แวะมาใหม่นะ ฉันอยู่ที่นี่ จนเบื่อจะตายอยู่แล้ว\""
     }
 }
