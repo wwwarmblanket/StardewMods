@@ -39,4 +39,4 @@ Davykun, iParnRequiem, PangInFN, ProfessorHydra, Tawan, unknownwmz.
 Artdekdok, cybertorns, MiXEL.SC, NoTSoXDream, Pigter, sornzilla, superogira.
 
 #### Beta tester
-BirdBBK, PadalPrussus, TaNGGoDZeeD.
+BirdBBK, Grace Manassanan, PadalPrussus, TaNGGoDZeeD.
