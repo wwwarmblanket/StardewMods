@@ -16,7 +16,7 @@
         }
     ],
     "content": {
-        "RandomNegativeItemNoun": "ขยะ#มูลฝอย#เศษขยะ#โคลน#เศษสวะ",
+        "RandomNegativeItemNoun": "ขยะ#มูลฝอย#เศษขยะ#โคลน#ขยะห่วยๆ",
         "RandomPositiveAdjective_Child": "เจ๋ง#สนุก#ปัง#ดี#เก๋#สุดยอด#เยี่ยม",
         "RandomPositiveAdjective_AdultMale": "น่าสนใจ#น่าตื่นเต้น#เรียบร้อย#สนุก#เยี่ยม#สุดยอด",
         "RandomPositiveAdjective_AdultFemale": "ดีงาม#สุดยอด#อบอุ่นหัวใจ#เหมือนมีเวทมนตร์#เหลือเชื่อ#น่ารัก#น่าเบิกบานใจ#น่าชื่นใจ",
@@ -28,8 +28,8 @@
         "RandomDeliciousAdjective": "เอร็ดอร่อย#อร่อย#ดีงาม#น่าพึงพอใจ#เติมเต็ม#น่าปลื้มปิติ#ทำให้เจริญอาหาร#น่าประทับใจ",
         "RandomDeliciousAdjective_Child": "อาหย่อย",
         "RandomNegativeFoodAdjective_Child": "ยี๋",
-        "RandomNegativeFoodAdjective_Polite": "...น่าสนใจ#...แปลก#...แตกต่าง#...ไม่เหมือนที่เคยกินมาก่อนเลย",
-        "RandomNegativeFoodAdjective": "แย่#แหวะ#น่ารังเกียจ#น่าขยะแขยง#ปั่นป่วนท้อง#น่าคลื่นไส้#เลวร้าย#น่าสะอิดสะเอียน#น่าคลื่นเหียน#ขมลิ้น#น่าสยดสยอง#เน่า",
+        "RandomNegativeFoodAdjective_Polite": "อะไรที่... น่าสนใจ#อะไรที่... แปลก#อะไรที่... แตกต่าง#อะไรที่... ไม่เหมือนที่เคยกินมาก่อนเลย",
+        "RandomNegativeFoodAdjective": "ของแย่ๆ#ของน่าแหวะ#ของน่ารังเกียจ#ของน่าขยะแขยง#ของที่ปั่นป่วนท้อง#ของน่าคลื่นไส้#ของเลวร้าย#ของน่าสะอิดสะเอียน#ของน่าคลื่นเหียน#ของขมลิ้น#ของน่าสยดสยอง#ของเน่า",
         "RandomSlightlyPositiveFoodAdjective": "ใช้ได้#ดี#พอกินได้",
         "ChildTerm_Male": "ชาย",
         "ChildTerm_Female": "หญิง",
