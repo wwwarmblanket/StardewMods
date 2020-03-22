@@ -264,7 +264,7 @@
         "LevelUp_ProfessionName_Desperado": "อาชญากร\n(Desperado)",
         "LevelUp_ProfessionDescription_Desperado": "ถ้าโจมตีติดคริติคอลศัตรูจะตาย",
         "LevelUp_ChooseProfession": "เลือกอาชีพที่ต้องการ:",
-        "LevelUp_NewRecipe": "สูตร {0} ใหม่: {1}",
+        "LevelUp_NewRecipe": "สูตร {0} ชนิดใหม่: {1}",
         "LoadGameMenu_LookingForSavedGames": "กำลังหาเกมที่เซฟไว้...",
         "LoadGameMenu_Deleting": "กำลังลบ...",
         "TitleMenu_PressAToStart": "กด @ เพื่อเริ่มเกม",
