@@ -280,7 +280,7 @@
         "Options_StowingMode_Off": "ปิด",
         "Options_StowingMode_GamepadOnly": "Gamepad เท่านั้น",
         "Options_StowingMode_On": "เปิด",
-        "Options_ShowAdvancedCraftingInformation": "แสดงข้อมูลการประดิษฐ์ อย่างละเอียด",
+        "Options_ShowAdvancedCraftingInformation": "แสดงข้อมูลการประดิษฐ์อย่างละเอียด",
         "Crafting_NumberCrafted": "จำนวนสิ่งประดิษฐ์: {0}",
         "Options_GamepadStyleMenus": "ใช้เมนูในรูปแบบคอนโทรลเลอร์",
         "Options_GamepadStyleMenus.ps4": "ใช้เมนูในรูปแบบคอนโทรลเลอร์",
@@ -650,8 +650,8 @@
         "Options_Vsync": "VSync",
         "VersionMismatch": "เวอร์ชันไม่เข้ากัน ({0})",
         "Options_GamepadMode": "โหมด Gamepad",
-        "Options_GamepadMode_Auto": "ตรวจจับอัตโนมัติ",
-        "Options_GamepadMode_ForceOn": "เปิด Force",
-        "Options_GamepadMode_ForceOff": "ปิด Force"
+        "Options_GamepadMode_Auto": "ตรวจจับ-อัตโนมัติ",
+        "Options_GamepadMode_ForceOn": "บังคับเปิด",
+        "Options_GamepadMode_ForceOff": "บังคับปิด"
     }
 }
