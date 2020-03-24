@@ -314,7 +314,7 @@
         "OptionsPage_FarmhandCreation": "ให้สร้างตัวละครใหม่ได้",
         "OptionsPage_ShowInviteCode": "แสดงรหัสเชิญ",
         "OptionsPage_ShowReadyStatus": "แสดงรายการสถานะ ของผู้เล่นในคืนที่ผ่านมา",
-        "OptionsPage_ScreenshotHeader": "สกรีนช็อต",
+        "OptionsPage_ScreenshotHeader": "จับภาพหน้าจอ",
         "Client_RemotelyDisconnected": "เซิร์ฟเวอร์ได้ปิดการเชื่อมต่อ",
         "Carpenter_CantDemolish_FarmhandOnline": "ไม่สมารถรื้อถอนขณะที่ คนงานในบ้านนี้ยังออนไลน์",
         "Carpenter_DemolishCabinConfirm": "นี่จะเป็นการเอา {0} ออกจากเกมอย่างถาวร คุณแน่ใจหรือไม่ว่าอยากรื้อถอนบ้านนี้?",
