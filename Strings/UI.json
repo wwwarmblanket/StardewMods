@@ -192,7 +192,7 @@
         "LetterViewer_MoneyIncluded": "มี $ {0}g แนบมาด้วย",
         "LetterViewer_LearnedRecipe": "สูตร {0} ชนิดใหม่:",
         "LetterViewer_LearnedRecipeName": "'{0}'",
-        "LevelUp_Title": "{1} เลเวล {0} ",
+        "LevelUp_Title": "{1} เลเวล {0}",
         "LevelUp_Stamina_Restored": "พลังงานเต็มแล้ว!",
         "LevelUp_ExtraInfo_Farming1": "ความชำนาญการใช้บัวรดน้ำ +1",
         "LevelUp_ExtraInfo_Farming2": "ความชำนาญการใช้จอบ +1",
