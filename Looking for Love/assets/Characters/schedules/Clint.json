@@ -5,10 +5,10 @@
 		"CommunityCenter_Replacement": "JojaMart 27 5 0",
 		"winter_15": "850 Blacksmith 3 13 2/1700 Beach 37 33 1 \"Strings\\schedules\\Clint:winter_15.000\"/2400 Blacksmith 10 4 1",
 		"spring": "850 Blacksmith 3 13 2/1700 Blacksmith 8 12 1 clint_hammer/1900 Saloon 19 23 3/2400 Blacksmith 10 4 1",
-		"marriage_Mon": "700 Blacksmith 3 13 2 \"Strings\\schedules\\Clint:Marriage_Mon.000\"/1700 BusStop -1 23 3",
+		"marriage_Mon": "700 Blacksmith 3 13 2 \"Strings\\schedules\\Clint:marriage_Mon.000\"/1700 BusStop -1 23 3",
 		"marriage_Tue": "GOTO marriage_Mon",
-		"marriage_Wed": "700 Blacksmith 3 13 2 \"Strings\\schedules\\Clint:Marriage_Wed.000\"/1700 BusStop -1 23 3",
+		"marriage_Wed": "700 Blacksmith 3 13 2 \"Strings\\schedules\\Clint:marriage_Wed.000\"/1700 BusStop -1 23 3",
 		"marriage_Thu": "GOTO marriage_Wed",
 		"marriage_Fri": "850 CommunityCenter 62 14 0 square_3_1_0/1700 Saloon 19 23 3/2400 BusStop -1 23 3",
-		"marriage_Sat": "700 Blacksmith 3 13 2 \"Strings\\schedules\\Clint:Marriage_Fri.000\"/1300 BusStop -1 23 3",
+		"marriage_Sat": "700 Blacksmith 3 13 2 \"Strings\\schedules\\Clint:marriage_Fri.000\"/1300 BusStop -1 23 3",
 }
