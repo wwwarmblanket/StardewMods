@@ -1,6 +1,6 @@
 ﻿{
 //SPECIAL DIALOGUE
-"Introduction": "Eek! A stranger!$2#$e#W-wait. Aren't you @? The new farmer of %farm?$0#$b#S-sorry. I get a little nervous around people I haven't met before.$1#$b#My name is Sophia. I'm the owner of Blue Moon Vineyard.$9#$e#Um... well, I'll see you around, I guess.$1",
+"Introduction": "อึก! คนแปลกหน้า!$2#$e#ดะ-เดี๋ยวนะ นี่คุณคือ @? เจ้าของฟารม์ %farm?$0#$b#ข-ขอโทษนะฉันประหม่านิดหน่อยน่ะเวลาคุยกับคุณที่พึ่งรู้จัก$1#$b#สวัสดีค่ะฉันชื่อโซเฟีย I'm the owner of Blue Moon Vineyard.$9#$e#Um... well, I'll see you around, I guess.$1",
 "danceRejection": "S-sorry. I don't really dance.$2",
 "divorced": "I...I think I'm happier by myself. I've never really been compatible with anyone.$2#$b#Th-thank you for helping me realize that.$6#$e#*sniff*...$12#$e#P-please leave...$7#$e#%Sophia is crying.",
 "breakUp": "Y-you want to break up with me?$2#$b#Did I do something wrong?$6#$b#*sniff*... Okay. I see you've already made up your mind.$12#$e#P-please go away, @.$7#$e#%Sophia is crying.",
