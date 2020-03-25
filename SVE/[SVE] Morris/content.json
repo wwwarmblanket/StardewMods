@@ -19,7 +19,7 @@
     "Target": "Data/NPCGiftTastes",
 	"When": { "HasSeenEvent: 191393": false },
     "Entries": {
-    "MorrisTod": "Ah! A gift worthy of my attention. Thank you, @./730 727 432 578/This is delightful!/72 348 430 428/I don't like this.../346 459 303 -81/What a despicable gift. Get this away from me./167 -74/That's generous of you./-75 -79 -80/"
+    "MorrisTod": "โอ้! ของขวัญที่คู่ควรกับ ความสนใจของผม ขอบใจนะ @ /730 727 432 578/ผมปลื้มจัง!/72 348 430 428/ผมไม่ชอบสิ่งนี้.../346 459 303 -81/เป็นของขวัญที่แย่มาก เอามันไปห่าง ๆ ผมเลยนะ/167 -74/คุณใจดีจังเลย/-75 -79 -80/"
   }
 },
 	
@@ -82,7 +82,7 @@
       "Target": "data/festivals/winter25",
 	  "When": { "HasSeenEvent: 191393": false },
       "Entries": {
-        "MorrisTod": "Those Joja gift cards just may provide the store with more loyal customers!$1"
+        "MorrisTod": "บัตรของขวัญโจจ้าเหล่านั้น อาจทำให้ร้านโจจ้ามีลูกค้า ที่ภักดีมากขึ้น!$1"
       }
     },
 
@@ -136,17 +136,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Ah, @. This film in particular strikes my interest! Shall we procure seats?$1"
+            "Text": "อา @ ภาพยนจร์เรื่องนี้ตรงกับ ความสนใจของผมสุด ๆ เลย! พวกเราควรจะจองที่นั่ง ไว้ก่อนไหม?$1"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Haha! Fantastic!$1"
+            "Text": "ฮ่า ๆ! เยี่ยมยอดมาก!$1"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I felt youthful again watching that film! Certainly a gratifying experience!$1"
+            "Text": "ตอนที่ชมภาพยนตร์เรื่องนั้น ผมรุ้สึกเหมือนได้ กลับไปเป็นหนุ่มอีกครั้ง! เป็นประสบการณ์ที่ น่าพึงพอใจอย่าง ไม่ต้องสงสัยเลย!$1"
           }
         },
         "ID": "reaction_2"
@@ -159,17 +159,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Thank you for inviting me to the cinema, @. Best to get use out of the theater you paid for.$1"
+            "Text": "ขอบคุณที่ชวนผมมา โรงภาพยนตร์นะ @  มันดีที่สุดเลย ที่ได้ใช้ประโยชน์จาก โรงภาพยนตร์ที่คุณ จ่ายเงินสร้างน่ะ$1"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Haha! Splendid!$1"
+            "Text": "ฮ่า ๆ! วิเศษจริง ๆ!$1"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "That film presented a... unique perspective. Perahps I should follow it by example?$0"
+            "Text": "ภาพยนตร์เรื่องนั้นนำเสนอ... มุมมองที่พิเศษไม่เหมือนใคร บางทีผมควรจะลองทำตาม รึเปล่านะ?$0"
           }
         },
         "ID": "reaction_3"
@@ -182,17 +182,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "It's good to present yourself at the cinema, @. Everyone knows you single-handely paid for the establishment!$1"
+            "Text": "มันดีนะ ที่คุณจะมาที่โรงภาพยนตร์น่ะ @ ทุกคนต่างก็รู้กันทั้งนั้นว่า คุณคือคนเดียวที่จ่ายเงินเพื่อ ก่อสร้างสถานที่แห่งนี้!$1"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "/shake MorrisTod 2000/pause 500/message \"Morris is laughing.\"",
-            "Text": "Haha! Quite the show this is!$1"
+            "Text": "ฮ่าฮ่า! เป็นการแสดงที่ยอดเยี่ยม!$1"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Well, I must say that was quite entertaining. Until next time, @.$0"
+            "Text": "เอาล่ะ ผมต้อวพูดว่า มันค่อนข้างจะน่าสนใจ แล้วเจอกันใหม่นะ @$0"
           }
         },
         "ID": "reaction_4"
@@ -205,13 +205,13 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "After the countless hours I've put into work, I'm looking forward to this delightful film.$0"
+            "Text": "หลังจากที่ผมต้องทำงาน นานหลายชั่วโมง ผมตั้งหน้าตั้งตารอชม ภาพยนตร์ที่น่าปลลื้มใจ เรื่องนี้เลยล่ะ$0"
           },
           "DuringMovie": null,
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "A magnificent film that certainly was. Thank you for the invite.$1"
+            "Text": "มันเป็นภาพยนตร์ที่ ยอดเยี่ยมอย่างแน่นอน ขอบคุณที่ชวนมานะ$1"
           }
         },
         "ID": "reaction_5"
@@ -224,17 +224,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Ah, yes. I've heard... poor reviews of this movie but never had the chance to inspect it yet...$0"
+            "Text": "อ่า ใช่แล้ว ผมได้ยินมาว่า... ภาพยนตร์เรื่องนี้มี กระแสตอบรับไม่ค่อยดีนัก แต่ยังไม่มีโอกาสได้มา ตรวจสอบดู...$0"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "What. No! That makes no sense!$3"
+            "Text": "อะไรนะ ไม่! นั่นมันไร้สาระ!$3"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I will look into removing this movie from the master show list. Can't have poor films ruining our establishment!$3"
+            "Text": "ผมจะถอดภาพยนตร์เรื่องนี้ ออกจากรายการ ภาพยนตร์หลัก จะให้ภาพยนตร์แย่ ๆ เรื่องนี้ มาทำลายโรงภาพยนตร์ ของเราไม่ได้!$3"
           }
         },
         "ID": "reaction_6"
@@ -249,7 +249,7 @@
     "Target": "Data/Events/town",
 	"When": { "HasSeenEvent: 191393": false },
     "Entries": {
-    "6663410/k 191393/w sunny/y 1/z summer/z fall/z winter/u 21 22 23 24 25 26 27 28/t 900 1700": "springtown/-500 -500/farmer 30 58 1 Morris -200 -200 2 Penny 32 55 1 Andy 37 67 3 Alex 53 69 0 Jodi 25 63 1 Olivia 27 63 3/showFrame Penny 18/animate Andy true true 100 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 33 34 35 35 35 35 35 35 35 34 33 32/viewport 35 57 true/viewport move 1 0 5200 true/skippable/move farmer 10 0 1/playSound doorClose/warp Morris 43 57/pause 400/speak Morris \"Hahaha! Another Joja customer gained!$5\"/pause 200/move Morris 0 1 2/pause 300/emote Morris 40/pause 150/faceDirection Morris 3/pause 150/emote Morris 16 true/pause 200/speak Morris \"*Ahem*...$4#$b#Shop at Joja!$1#$b#Cheaper seeds than Pierre's!$5#$b#Special limited-time discounts and rewards!$1\"/pause 400/move Morris 6 0 1 true/pause 200/textAboveHead Morris \"Hahaha!\"/pause 600/globalFade/viewport -1000 -1000/halt/end dialogue Pierre \"*sigh*...Morris keeps driving away my customers.$2#$e#What will I do?...$2\"",
+    "6663410/k 191393/w sunny/y 1/z summer/z fall/z winter/u 21 22 23 24 25 26 27 28/t 900 1700": "springtown/-500 -500/farmer 30 58 1 Morris -200 -200 2 Penny 32 55 1 Andy 37 67 3 Alex 53 69 0 Jodi 25 63 1 Olivia 27 63 3/showFrame Penny 18/animate Andy true true 100 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 33 34 35 35 35 35 35 35 35 34 33 32/viewport 35 57 true/viewport move 1 0 5200 true/skippable/move farmer 10 0 1/playSound doorClose/warp Morris 43 57/pause 400/speak Morris \"ฮ่า ๆ ๆ ! โจจ้าได้ลูกค้าเพิ่มอีกคนแล้ว!$5\"/pause 200/move Morris 0 1 2/pause 300/emote Morris 40/pause 150/faceDirection Morris 3/pause 150/emote Morris 16 true/pause 200/speak Morris \"*อะแฮ่ม*...$4#$b#ซื้อสินค้าที่โจจ้า!$1#$b#เมล็ดพันธุ์ถูกกว่า ของร้านปีแอร์!$5#$b#ส่วนลดพิเศษจำกัดเวลา และรางวัลมากมาย!$1\"/pause 400/move Morris 6 0 1 true/pause 200/textAboveHead Morris \"ฮ่า ๆ ๆ!\"/pause 600/globalFade/viewport -1000 -1000/halt/end dialogue Pierre \"*ถอนหายใจ*...มอร์ริสแย่งลูกค้าของฉัน ไปเรื่อย ๆ เลย$2#$e#ฉันจะทำยังไงดี?...$2\"",
     },
 },
 
@@ -258,7 +258,7 @@
     "Target": "Data/Events/town",
 	"When": { "HasSeenEvent: 191393": false },
     "Entries": {
-    "6663409/k 191393/w sunny/y 1/z spring/z fall/z winter/u 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28/t 1000 1700": "springtown/-500 -500/farmer 88 89 0 Morris 89 53 3 Lewis 87 53 1 Abigail 82 35 1 Caroline 106 65 3 Clint 97 77 0 Evelyn 62 57 0/pause 500/viewport 88 53 true/skippable/move farmer 0 -33 0 true/pause 800/speak Morris \"I guarantee there is nothing to be worried about, Mayor.$1\"/pause 200/speak Lewis \"But there is, Morris. Robin's house was struck by several rocks when the landslide was cleared.$3#$b#Susan was shocked by the blast. She wasn't informed of the operation unti-$2\"/speak Morris \"Everything is under control and will be fine, Mayor.$4\"/speak Lewis \"And what of the garbage Joja dumps into the river, Morris?$0#$b#Willy, our local fisherman, says he's catching Joja CD's and cola cans.$3\"/speak Morris \"Might I remind you pursuant to init. R27.01, JojaCo Amendment, Joja's operations here in Stardew Valley are fully compliant with the law.$1\"/pause 600/faceDirection Lewis 2/pause 250/faceDirection Morris 2/pause 350/speak Lewis \"Ah, hello @.$0#$b#I was... just on way.$3\"/pause 500/faceDirection Lewis 1/pause 300/faceDirection Morris 3/pause 1000/faceDirection Lewis 3/pause 600/speak Lewis \"Good day, Morris.$3\"/pause 500/move Lewis -8 0 3 true/pause 500/faceDirection farmer 3/pause 400/globalFade/viewport -1000 -1000/pause 400/halt/warp Lewis -100 -100/viewport 88 53 true/pause 1200/faceDirection Morris 2/pause 300/faceDirection farmer 0/pause 400/speak Morris \"Joja is paving a way to greatness in Stardew Valley.$0\"/pause 400/move Morris -1 0 2/move Morris 0 1 2/pause 700/speak Morris \"It's only a matter of time until we are all united under Joja.$5\"/pause 200/globalFade/viewport -1000 -1000/stopMusic/pause 1000/message \"I should go talk to Lewis.\"/pause 600/end dialogue Lewis \"It's difficult reaching resolutions with Morris.$0#$b#Whenever he feels pressured, he asserts legislation which is obviously the result of Joja's influence.$2#$e#Just because something is the law doesn't mean it's right. Bein' Mayor isn't always daisies and sunshine.$0#$e#I enjoy your spirit, @! It's refreshing to see.$1\"",
+    "6663409/k 191393/w sunny/y 1/z spring/z fall/z winter/u 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28/t 1000 1700": "springtown/-500 -500/farmer 88 89 0 Morris 89 53 3 Lewis 87 53 1 Abigail 82 35 1 Caroline 106 65 3 Clint 97 77 0 Evelyn 62 57 0/pause 500/viewport 88 53 true/skippable/move farmer 0 -33 0 true/pause 800/speak Morris \"ผมรับประกันว่า มันไม่มีอะไรน่าเป็นห่วง คุณนายกเทศมนตรี$1\"/pause 200/speak Lewis \"แต่มันมี มอร์ริส ตอนที่กำจัดดินถล่ม บ้านของโรบินถูกหินหลายก้อน กระเด็นใส่$3#$b#ซูซานก็ถูกเสียงระเบิด ทำให้ตกใจสุดขีด เธอไม่ได้บอกให้รู้จนกระทั่-$2\"/speak Morris \"ทุกอย่างอยู่ภายใต้การควบคุม และจะเรียบร้อยดี คุณนายกเทศมนตรี$4\"/speak Lewis \"แล้วขยะของโจจ้า ที่ทิ้งลงแม่น้ำล่ะ มอร์ริส?$0#$b#วิลลี่ ชาวประมงท้องถิ่นของเรา บอกว่าเขาตกได้ แผ่นซีดีของโจจ้า และกระป๋องโจจ้าโคล่า$3\"/speak Morris \"ผมคงต้อง เตือนความจำของคุณ ซักหน่อย ตามสัญญาการพัฒนาของ บริษัทโจจ้าที่ R27.01 การปฏิบัติการใด ๆ ของโจจ้าในสตาร์ดิวแวลลี่ ล้วนชอบด้วยกฎหมาย$1\"/pause 600/faceDirection Lewis 2/pause 250/faceDirection Morris 2/pause 350/speak Lewis \"อา สวัสดี @ $0#$b#ฉันกำลังจะ... ไปพอดี$3\"/pause 500/faceDirection Lewis 1/pause 300/faceDirection Morris 3/pause 1000/faceDirection Lewis 3/pause 600/speak Lewis \"ขอให้เป็นวันที่ดีแล้วกันนะ มอร์ริส$3\"/pause 500/move Lewis -8 0 3 true/pause 500/faceDirection farmer 3/pause 400/globalFade/viewport -1000 -1000/pause 400/halt/warp Lewis -100 -100/viewport 88 53 true/pause 1200/faceDirection Morris 2/pause 300/faceDirection farmer 0/pause 400/speak Morris \"โจจ้ากำลังปูทางไปสู่ ความยิ่งใหญ่ ของสตาร์ดิวแวลลี่$0\"/pause 400/move Morris -1 0 2/move Morris 0 1 2/pause 700/speak Morris \"ยังไงก็ตาม ในอนาคตทุกคนจะกลายเป็น อันหนึ่งอันเดียวกันภายใต้ ชื่อของโจจ้าอย่างแน่นอน$5\"/pause 200/globalFade/viewport -1000 -1000/stopMusic/pause 1000/message \"ฉันควรจะไปคุยกับเลวิส\"/pause 600/end dialogue Lewis \"มันยากที่จะหาวิธีแก้ปัญหา กับมอร์ริส$0#$b#เขาจะถือเอาหลักกฎหมาย ที่เห็นได้ชัดว่าเป็นผลมาจาก อิทธิพลของโจจ้า เมื่อไหร่ก็ตามที่เขารู้สึก พอใจที่จะทำแบบนั้น$2#$e#บางที่ถูกกฎหมายก็ไม่ได้ ถูกต้องเสมอไปหรอกนะ การเป็นนายกเทศมนตรี ก็ไม่ได้เป็นอะไรที่ น่าพิศมัยตลอดเวลาหรอก$0#$e#ฉันชอบความใจสู้ของเธอนะ @! เห็นแล้วก็หายเหนื่อยเลยล่ะ$1\"",
     },
 },
 
@@ -267,9 +267,9 @@
     "Target": "Data/Events/town",
 	"When": { "HasSeenEvent: 191393": false },
     "Entries": {
-    "6663501/k 191393/y 1/w sunny/t 900 1600/f MorrisTod 500": "playful/-500 -500/farmer -125 -125 3 Morris 31 73 0 Olivia 27 65 3 Caroline 26 66 0 Jodi 26 64 2 Pierre 47 50 1 Penny 79 46 2 Alex 53 69 0 Gus 36 69 0 Haley 52 69 0 Lewis 31 56 2 Pam 76 69 2 Victor 96 65 1 George 61 64 2/showFrame Penny 18/viewport 31 73 true/skippable/viewport move 0 -2 4000 true/move Morris 0 -8 0/pause 400/faceDirection Morris 3 true/pause 100/speak Morris \"Hello, ladies! Beautiful day!$1\"/pause 600/faceDirection Olivia 2 true/pause 150/faceDirection Olivia 1/pause 100/faceDirection Caroline 1 true/pause 150/emote Olivia 8 true/pause 100/emote Caroline 16 true/pause 150/faceDirection Jodi 1 true/pause 100/speak Olivia \"Afternoon, Morris.$0\"/speak Caroline \"...$2\"/pause 300/viewport move 0 -2 3000 true/move Morris 0 -6 0 true/pause 500/faceDirection Olivia 2 true/pause 150/faceDirection Olivia 3/pause 100/faceDirection Caroline 0 true/pause 150/faceDirection Jodi 2 true/pause 1300/speak Lewis \"Ah, Morris. Greeting the townsfolk?$0\"/speak Morris \"Haha! I am! On a day as glorious as this one, how could I not?$1#$b#Keep up the good work, Mayor!$4\"/speak Lewis \"Err... thanks, Morris!$1\"/pause 400/viewport move 2 0 9000 true/move Morris 17 0 0 true/pause 2000/textAboveHead Morris \"A beautiful day it is!\"/pause 3000/textAboveHead Morris \"Haha!\"/pause 4000/viewport move 0 -2 2500 true/move Morris 0 -5 0/move Pierre 1 0 2 true/pause 800/emote Pierre 16 true/pause 300/speak Morris \"Ah! Pierre! I truly hope you're well on this beautiful day!$5\"/pause 500/speak Pierre \"...$2\"/pause 1000/move Pierre -2 0 0/warp Pierre -100 -100/pause 600/emote Morris 40/speak Morris \"...$3\"/pause 700/move Morris 6 0 1 true/pause 800/stopMusic/globalFade/viewport -1000 -1000/warp Morris 63 53/warp Pierre 46 48/warp farmer 84 53/pause 300/playMusic springtown/viewport 73 53 true/move Morris 9 0 1 true/move farmer -9 0 3 true/pause 2500/speak Morris \"Hello, @!$1#$b#Fancy meeting you by Joja Mart!$4#$b#Are you enjoying the beautiful weather today?$1\"/pause 750/question fork0 \"#Why are you so happy?#I suppose the weather is nice.\"/pause 200/fork 6663501_WhyHappy/pause 300/speak Morris \"Yes! The weather most certainly is!$1#$b#I'm in a very cheerful mood today!$4#$b#Allow me the opportunity to tell you why, since you're the closest person in this town to what I'd consider a 'friend', besides Andy.$5\"/pause 100/switchEvent 6663501_WhyHappy2",
+    "6663501/k 191393/y 1/w sunny/t 900 1600/f MorrisTod 500": "playful/-500 -500/farmer -125 -125 3 Morris 31 73 0 Olivia 27 65 3 Caroline 26 66 0 Jodi 26 64 2 Pierre 47 50 1 Penny 79 46 2 Alex 53 69 0 Gus 36 69 0 Haley 52 69 0 Lewis 31 56 2 Pam 76 69 2 Victor 96 65 1 George 61 64 2/showFrame Penny 18/viewport 31 73 true/skippable/viewport move 0 -2 4000 true/move Morris 0 -8 0/pause 400/faceDirection Morris 3 true/pause 100/speak Morris \"สวัสดีสาว ๆ ! วันนี้เป็นวันที่ดีนะ!$1\"/pause 600/faceDirection Olivia 2 true/pause 150/faceDirection Olivia 1/pause 100/faceDirection Caroline 1 true/pause 150/emote Olivia 8 true/pause 100/emote Caroline 16 true/pause 150/faceDirection Jodi 1 true/pause 100/speak Olivia \"สวัสดีตอนบ่าย มอร์ริส$0\"/speak Caroline \"...$2\"/pause 300/viewport move 0 -2 3000 true/move Morris 0 -6 0 true/pause 500/faceDirection Olivia 2 true/pause 150/faceDirection Olivia 3/pause 100/faceDirection Caroline 0 true/pause 150/faceDirection Jodi 2 true/pause 1300/speak Lewis \"อา มอร์ริส กำลังทักทายชาวเมืองอยู่หรอ?$0\"/speak Morris \"ฮ่า ๆ! ใช่แล้ว! ในวันที่สวยงามขนาดนี้ ผมจะไม่ทำได้ยังไงล่ะ?$1#$b#คุณทำได้เยี่ยมมาก ทำต่อไปนะคุณนายก!$4\"/speak Lewis \"เอ่อ... ขอบใจ มอร์ริส!$1\"/pause 400/viewport move 2 0 9000 true/move Morris 17 0 0 true/pause 2000/textAboveHead Morris \"ช่างเป็นวันที่สวยงามจริง ๆ !\"/pause 3000/textAboveHead Morris \"ฮ่า ๆ !\"/pause 4000/viewport move 0 -2 2500 true/move Morris 0 -5 0/move Pierre 1 0 2 true/pause 800/emote Pierre 16 true/pause 300/speak Morris \"อา! ปีแอร์! ผมหวังจริง ๆ ว่าคุณจะสบายดี ในวันที่สวยงามเช่นนี้!$5\"/pause 500/speak Pierre \"...$2\"/pause 1000/move Pierre -2 0 0/warp Pierre -100 -100/pause 600/emote Morris 40/speak Morris \"...$3\"/pause 700/move Morris 6 0 1 true/pause 800/stopMusic/globalFade/viewport -1000 -1000/warp Morris 63 53/warp Pierre 46 48/warp farmer 84 53/pause 300/playMusic springtown/viewport 73 53 true/move Morris 9 0 1 true/move farmer -9 0 3 true/pause 2500/speak Morris \"สวัสดี @!$1#$b#ผมชอบการได้เจอคุณ ที่ร้านค้าโจจ้าจัง!$4#$b#คุณมีความสุขกับอากาศดี ๆ ในวันนี้ใช่ไหม?$1\"/pause 750/question fork0 \"#ทำไมนายถึงมีความสุขจัง?#ฉันคิดว่าอากาศก็ดีนะ\"/pause 200/fork 6663501_WhyHappy/pause 300/speak Morris \"ใช่แล้ว! วันนี้อากาศดีจริง ๆ !$1#$b#วันนี้ผมอารมณ์ดีมากเลยล่ะ!$4#$b#เนื่องจากคุณเป็นคนที่ ใกล้เคียงกับคำว่า 'เพื่อนของผม' มากที่สุดในเมืองนี้ ถ้าไม่นับแอนดี้น่ะนะ ให้โอกาสผม บอกคุณหน่อยก็แล้วกัน ว่าเพราะอะไร$5\"/pause 100/switchEvent 6663501_WhyHappy2",
 
-    "6663501_WhyHappy": "pause 400/speak Morris \"The president of Joja Corp is impressed with my work in the valley!$1#$b#Finally, I have been recognized by the higher-ups!$5#$b#I am due a promotion and raise for my collective efforts, furthering the Joja family!$4#$b#The condominium I've had my eye on is finally within my grasp.$5\"/pause 500/question fork0 \"#Sounds like a well deserved promotion.#Money isn't everything.\"/fork 6663501_MoneyIsNotEverything/pause 500/speak Morris \"I have worked many days and nights to secure this advancement for my career.$4#$b#The fruits of my labor are finally paying off.$5\"/pause 300/emote Morris 40/pause 150/speak Morris \"Speak to me at Joja Mart. I'll give you a discount in advance.$1\"/pause 300/end dialogue Morris \"Hello, @! Consider this an advanced discount on your next Joja purchase![336]\"",
+    "6663501_WhyHappy": "pause 400/speak Morris \"ประธานของบริษัทโจจ้า ประทับใจกับผลงานของผม ในสตาร์ดิวแวลลี่!$1#$b#ในที่สุด ผมก็อยู่ในสายตาของ คนที่นั่งในตำแหน่งสูง ๆ แล้ว!$5#$b#ผมสมควรได้รับการขึ้นตำแหน่ง และมีคนในสังกัดมากขึ้น... ครอบครัวโจจ้าที่ เพิ่มมากขึ้นยังไงล่ะ!$4#$b#ในที่สุด คอนโดมิเนียมที่ผมเล็งอยู่ ก็มาอยู่ในอุ้งมือของผมแล้ว$5\"/pause 500/question fork0 \"#ฟังดูเป็นการเลื่อนตำแหน่ง ที่คุณควรจะได้รับมันนะ#เงินไม่ใช่ทุกอย่างหรอกนะ\"/fork 6663501_MoneyIsNotEverything/pause 500/speak Morris \"ผมทำงานหลายวันหลายคืน เพื่อทำให้มั่นใจได้ว่า ความก้าวหน้าใน อาชีพการงานนี้ จะเกิดขึ้นอย่างแน่นอน$4#$b#ในที่สุดผลจาก การลงแรงของผม ก็ได้รับการตอบแทนแล้ว$5\"/pause 300/emote Morris 40/pause 150/speak Morris \"มาคุยกับผมที่ร้านโจจ้านะ ผมจะมอบ ส่วนลดล่วงหน้า ให้กับคุณ$1\"/pause 300/end dialogue Morris \"สวัสดี @! ในการจับจ่ายที่ร้่นโจจ้าครั้งหน้า อย่าลืมนึกถึงส่วนลดนี่นะ![336]\"",
     
 	"6663501_WhyHappy2": "pause 400/speak Morris \"The president of Joja Corp is impressed with my work in the valley!$1#$b#Finally, I have been recognized by the higher-ups!$5#$b#I am due a promotion and raise for my collective efforts, furthering the Joja family!$4#$b#The condominium I've had my eye on is finally within my grasp.$5\"/pause 500/question fork1 \"#Sounds like a well deserved promotion.#Money isn't everything.\"/fork 6663501_MoneyIsNotEverything2/pause 500/speak Morris \"I have worked many days and nights to secure this advancement for my career.$4#$b#The fruits of my labor are finally paying off.$5\"/pause 300/emote Morris 40/pause 150/speak Morris \"Speak to me at Joja Mart. I'll give you a discount in advance.$1\"/pause 300/end dialogue Morris \"Hello, @! Consider this an advanced discount on your next Joja purchase![336]\"",
 	
