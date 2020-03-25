@@ -1,0 +1,1798 @@
+{
+	"Format": "1.4",
+	
+	"ConfigSchema": {
+		"Date Clint": {
+			"AllowValues": "true, false"
+			},
+		"Clint Looks Sprites": {
+			"AllowValues": "Vanilla, Update, Other"
+			},
+		"Clint Looks Portraits": {
+			"AllowValues": "Vanilla, Update, Other"
+			},
+		"Date Gus": {
+			"AllowValues": "true, false"
+			},
+		"Gus Looks Sprites": {
+			"AllowValues": "Vanilla, Update, Other"
+			},		
+		"Gus Looks Portraits": {
+			"AllowValues": "Vanilla, Update, Other"
+			},		
+		"Date Lewis": {
+			"AllowValues": "true, false"
+			},
+		"Lewis Looks Sprites": {
+			"AllowValues": "Vanilla, Update, Other"
+			},
+		"Lewis Looks Portraits": {
+			"AllowValues": "Vanilla, Update, Other"
+			},
+		"Date Linus": {
+			"AllowValues": "true, false"
+			},
+		"Linus Looks Sprites": {
+			"AllowValues": "Vanilla, Update, Other"
+			},		
+		"Linus Looks Portraits": {
+			"AllowValues": "Vanilla, Update, Other"
+			},		
+		"Date Marnie": {
+			"AllowValues": "true, false"
+			},
+		"Marnie Looks Sprites": {
+			"AllowValues": "Vanilla, Update, Other"
+			},
+		"Marnie Looks Portraits": {
+			"AllowValues": "Vanilla, Update, Other"
+			},
+		"Date Pam": {
+			"AllowValues": "true, false"
+			},
+		"Pam Looks Sprites": {
+			"AllowValues": "Vanilla, Update, Other"
+			},		
+		"Pam Looks Portraits": {
+			"AllowValues": "Vanilla, Update, Other"
+			},		
+		"Date Sandy": {
+			"AllowValues": "true, false"
+			},
+		"Sandy Looks Sprites": {
+			"AllowValues": "Vanilla, Update, Other"
+			},
+		"Sandy Looks Portraits": {
+			"AllowValues": "Vanilla, Update, Other"
+			},
+		"Date Willy": {
+			"AllowValues": "true, false"
+			},
+		"Willy Looks Sprites": {
+			"AllowValues": "Vanilla, Update, Other"
+			},	
+		"Willy Looks Portraits": {
+			"AllowValues": "Vanilla, Update, Other"
+			},	
+		"Date Wizard": {
+			"AllowValues": "true, false"
+			},
+		"Wizard Looks Sprites": {
+			"AllowValues": "Vanilla, Update, Other"
+			},
+		"Wizard Looks Portraits": {
+			"AllowValues": "Vanilla, Update, Other"
+			},
+		},
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Characters/Buttercup",
+			"FromFile": "assets/Characters/Buttercup.png",
+			"When": {
+				"Date Marnie": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Hank",
+			"FromFile": "assets/Characters/Hank.png",
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/Hank",
+			"FromFile": "assets/Portraits/Hank.png",
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/James",
+			"FromFile": "assets/Characters/James.png",
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/James",
+			"FromFile": "assets/Portraits/James.png",
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Khari",
+			"FromFile": "assets/Characters/Khari.png",
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/Khari",
+			"FromFile": "assets/Portraits/Khari.png",
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Lin",
+			"FromFile": "assets/Characters/Lin.png",
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/Lin",
+			"FromFile": "assets/Portraits/Lin.png",
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Clint",
+			"FromFile": "assets/Characters/Clint.png",
+			"When": {
+				"Date Clint": "true",
+				"Clint Looks Sprites": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Clint",
+			"FromFile": "assets/Portraits/Clint.png",
+			"When": {
+				"Date Clint": "true",
+				"Clint Looks Portraits": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Clint",
+			"FromFile": "assets/Characters/VanillaClint.png",
+			"When": {
+				"Date Clint": "true",
+				"Clint Looks Sprites": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Clint",
+			"FromFile": "assets/Portraits/VanillaClint.png",
+			"When": {
+				"Date Clint": "true",
+				"Clint Looks Portraits": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Willy",
+			"FromFile": "assets/Characters/Willy.png",
+			"When": {
+				"Date Willy": "true",
+				"Willy Looks Sprites": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Willy",
+			"FromFile": "assets/Portraits/Willy.png",
+			"When": {
+				"Date Willy": "true",
+				"Willy Looks Portraits": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Willy",
+			"FromFile": "assets/Characters/VanillaWilly.png",
+			"When": {
+				"Date Willy": "true",
+				"Willy Looks Sprites": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Willy",
+			"FromFile": "assets/Portraits/VanillaWilly.png",
+			"When": {
+				"Date Willy": "true",
+				"Willy Looks Portraits": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Gus",
+			"FromFile": "assets/Characters/Gus.png",
+			"When": {
+				"Date Gus": "true",
+				"Gus Looks Sprites": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Gus",
+			"FromFile": "assets/Portraits/Gus.png",
+			"When": {
+				"Date Gus": "true",
+				"Gus Looks Portraits": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Gus",
+			"FromFile": "assets/Characters/VanillaGus.png",
+			"When": {
+				"Date Gus": "true",
+				"Gus Looks Sprites": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Gus",
+			"FromFile": "assets/Portraits/VanillaGus.png",
+			"When": {
+				"Date Gus": "true",
+				"Gus Looks Portraits": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Lewis",
+			"FromFile": "assets/Characters/Lewis.png",
+			"When": {
+				"Date Lewis": "true",
+				"Lewis Looks Sprites": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Lewis",
+			"FromFile": "assets/Portraits/Lewis.png",
+			"When": {
+				"Date Lewis": "true",
+				"Lewis Looks Portraits": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Lewis",
+			"FromFile": "assets/Characters/VanillaLewis.png",
+			"When": {
+				"Date Lewis": "true",
+				"Lewis Looks Sprites": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Lewis",
+			"FromFile": "assets/Portraits/VanillaLewis.png",
+			"When": {
+				"Date Lewis": "true",
+				"Lewis Looks Portraits": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Linus",
+			"FromFile": "assets/Characters/Linus.png",
+			"When": {
+				"Date Linus": "true",
+				"Linus Looks Sprites": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Linus",
+			"FromFile": "assets/Portraits/Linus.png",
+			"When": {
+				"Date Linus": "true",
+				"Linus Looks Portraits": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Linus",
+			"FromFile": "assets/Characters/VanillaLinus.png",
+			"When": {
+				"Date Linus": "true",
+				"Linus Looks Sprites": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Linus",
+			"FromFile": "assets/Portraits/VanillaLinus.png",
+			"When": {
+				"Date Linus": "true",
+				"Linus Looks Portraits": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Marnie",
+			"FromFile": "assets/Characters/Marnie.png",
+			"When": {
+				"Date Marnie": "true",
+				"Marnie Looks Sprites": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Marnie",
+			"FromFile": "assets/Portraits/Marnie.png",
+			"When": {
+				"Date Marnie": "true",
+				"Marnie Looks Portraits": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Marnie",
+			"FromFile": "assets/Characters/VanillaMarnie.png",
+			"When": {
+				"Date Marnie": "true",
+				"Marnie Looks Sprites": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Marnie",
+			"FromFile": "assets/Portraits/VanillaMarnie.png",
+			"When": {
+				"Date Marnie": "true",
+				"Marnie Looks Portraits": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Pam",
+			"FromFile": "assets/Characters/Pam.png",
+			"When": {
+				"Date Pam": "true",
+				"Pam Looks Sprites": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Pam",
+			"FromFile": "assets/Portraits/Pam.png",
+			"When": {
+				"Date Pam": "true",
+				"Pam Looks Portraits": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Pam",
+			"FromFile": "assets/Characters/VanillaPam.png",
+			"When": {
+				"Date Pam": "true",
+				"Pam Looks Sprites": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Pam",
+			"FromFile": "assets/Portraits/VanillaPam.png",
+			"When": {
+				"Date Pam": "true",
+				"Pam Looks Portraits": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Wizard",
+			"FromFile": "assets/Characters/Wizard.png",
+			"When": {
+				"Date Wizard": "true",
+				"Wizard Looks Sprites": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Wizard",
+			"FromFile": "assets/Portraits/Wizard.png",
+			"When": {
+				"Date Wizard": "true",
+				"Wizard Looks Portraits": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Wizard",
+			"FromFile": "assets/Characters/VanillaWizard.png",
+			"When": {
+				"Date Wizard": "true",
+				"Wizard Looks Sprites": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Wizard",
+			"FromFile": "assets/Portraits/VanillaWizard.png",
+			"When": {
+				"Date Wizard": "true",
+				"Wizard Looks Portraits": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Sandy",
+			"FromFile": "assets/Characters/Sandy.png",
+			"When": {
+				"Date Sandy": "true",
+				"Sandy Looks Sprites": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Sandy",
+			"FromFile": "assets/Portraits/Sandy.png",
+			"When": {
+				"Date Sandy": "true",
+				"Sandy Looks Portraits": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Sandy",
+			"FromFile": "assets/Characters/VanillaSandy.png",
+			"When": {
+				"Date Sandy": "true",
+				"Sandy Looks Sprites": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Sandy",
+			"FromFile": "assets/Portraits/VanillaSandy.png",
+			"When": {
+				"Date Sandy": "true",
+				"Sandy Looks Portraits": "Vanilla",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/ClubZuzu",
+			"FromFile": "assets/Maps/ClubZuzu.tbin",
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/forestEvent",
+			"FromFile": "assets/Maps/forestEvent.tbin",
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/gusPicnic",
+			"FromFile": "assets/Maps/gusPicnic.tbin",
+			"When": {
+			"Date Gus": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/MarnieBarn",
+			"FromFile": "assets/Maps/MarnieBarn.tbin",
+			"When": {
+				"Date Marnie": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/meetingRoom",
+			"FromFile": "assets/Maps/meetingRoom.tbin",
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/meetingRoom2",
+			"FromFile": "assets/Maps/meetingRoom2.tbin",
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/niceTrailer",
+			"FromFile": "assets/Maps/niceTrailer.tbin",
+			"When": {
+				"Date Pam": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/SandyHouse",
+			"FromFile": "assets/Maps/SandyHouse.tbin",
+			"When": {
+				"Date Sandy": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Tent2",
+			"FromFile": "assets/Maps/Tent2.tbin",
+			"When": {
+				"Date Linus": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/WillyRoom",
+			"FromFile": "assets/Maps/WillyRoom.tbin",
+			"When": {
+				"Date Willy": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/WizardHouseBasement",
+			"FromFile": "assets/Maps/WizardHouseBasement.tbin",
+			"When": {
+				"Date Wizard": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/zuzuInn",
+			"FromFile": "assets/Maps/zuzuInn.tbin",
+		},
+		{
+            "Action": "Load",
+            "Target": "Characters/schedules/Clint",
+            "FromFile": "assets/Characters/schedules/Clint.json",
+			"When": {
+				"Date Clint": "true",
+			},
+		},
+		{
+            "Action": "Load",
+            "Target": "Characters/schedules/Gus",
+            "FromFile": "assets/Characters/schedules/Gus.json",
+			"When": {
+				"Date Gus": "true",
+			},
+		},
+		{
+            "Action": "Load",
+            "Target": "Characters/schedules/Lewis",
+            "FromFile": "assets/Characters/schedules/Lewis.json",
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+            "Action": "Load",
+            "Target": "Characters/schedules/Linus",
+            "FromFile": "assets/Characters/schedules/Linus.json",
+			"When": {
+				"Date Linus": "true",
+			},
+		},
+		{
+            "Action": "Load",
+            "Target": "Characters/schedules/Marnie",
+            "FromFile": "assets/Characters/schedules/Marnie.json",
+			"When": {
+				"Date Marnie": "true",
+			},
+		},
+		{
+            "Action": "Load",
+            "Target": "Characters/schedules/Pam",
+            "FromFile": "assets/Characters/schedules/Pam.json",
+			"When": {
+				"Date Pam": "true",
+			},
+		},
+		{
+            "Action": "Load",
+            "Target": "Characters/schedules/Sandy",
+            "FromFile": "assets/Characters/schedules/Sandy.json",
+			"When": {
+				"Date Sandy": "true",
+			},
+		},
+		{
+            "Action": "Load",
+            "Target": "Characters/schedules/Willy",
+            "FromFile": "assets/Characters/schedules/Willy.json",
+			"When": {
+				"Date Willy": "true",
+			},
+		},
+		{
+            "Action": "Load",
+            "Target": "Characters/schedules/Wizard",
+            "FromFile": "assets/Characters/schedules/Wizard.json",
+			"When": {
+				"Date Wizard": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+				"Clint": {
+					5: "datable",
+				}
+			},
+			"When": {
+				"Date Clint": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+			    "Willy": {
+					5: "datable",
+				},
+			},
+			"When": {
+				"Date Willy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+				"Gus": {
+					5: "datable",
+				},
+			},
+			"When": {
+				"Date Gus": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+				"Lewis": {
+					5: "datable",
+				},
+			},
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+				"Linus": {
+					5: "datable",
+				},
+			},
+			"When": {
+				"Date Linus": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+				"Marnie": {
+					5: "datable",
+				},
+			},
+			"When": {
+				"Date Marnie": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+				"Pam": {
+					5: "datable"
+				},
+			},
+			"When": {
+				"Date Pam": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+			    "Wizard": {
+					5: "datable",
+				},
+			},
+			"When": {
+				"Date Wizard": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+			    "Wizard": { 
+					11: "Magnus",
+				},
+			},
+			"When": {
+				"Date Wizard": "true",
+				"HasSeenEvent": "282815631",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+				"Sandy": {
+					5: "datable",
+				},
+			},
+			"When": {
+				"Date Sandy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"Entries": {
+				"Sandy": "An egg hunt, huh? Hide and seek isn't really my thing, but watching the kids play sure is nice."
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": {
+				"Sandy": "I love this festival! Flowers, dancing, there's nothing not to like about it!$h#$e#I'm definitely coming back next year!$h"
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": {
+				"Sandy": "You're making hot soup...on a beach...in the middle of summer. Yeah. Ok."
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"Entries": {
+				"Sandy": "I'm excited to see them. We don't have jellyfish back home, let alone such beautiful ones!$h"
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": {
+				"Sandy": "Getting away from the desert is always a plus, but Gus's grill skills?#$b#Just those by themselves are worth a trip here."
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"Entries": {
+				"Sandy": "Ooh! This is kind of spooky. It's fun!$h"
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"Entries": {
+				"Sandy": "It's chilly! It never gets this cold back home!#$e#Catch some big fish just for me, alright?$h"
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": {
+				"Sandy": "This is lovely, honey. It's so cold, but I can feel the warmth of the whole community."
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+				    "Clint0": "We're going to get married...$4#$e#Isn't it exciting... honey?$h",
+					"Clint1": "I... I promise I'll do my best to try and make you happy, @!$4#$e#You can count on me.$h",
+			},
+			"When": {
+				"Date Clint": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+					"Gus0": "What a surprise! A farmer like yourself and a bartender like me...#$e#I know we'll be great together!$h",
+					"Gus1": "I'll cook you a delicious dinner every night!#$e#There'll never be a boring meal once we're married!$h",
+			},
+			"When": {
+				"Date Gus": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+					"Lewis0": "I may be mayor of Pelican Town, but you've become mayor of my heart, @.$h",
+					"Lewis1": "I'm overjoyed!$h#$e#I just can't help but wonder... who will perform the ceremony?",
+			},
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+					"Linus0": "I thought maybe you were joking at first...$s#$e#But you're special, @. I know you wouldn't do that.$h#$e#I trust you, and I'm happy you want to share your life with me.$4",
+					"Linus1": "You're so brave, @.#$e#You're not afraid of what the other villagers will think. That means a lot.$h",
+			},
+			"When": {
+				"Date Linus": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+					"Marnie0": "You want to marry me...!#$e#You're so strange, @. But I can't wait to be your wife.$4",
+					"Marnie1": "Shane agreed to take care of the ranch and Jas.#$e#Everything's falling into place... Just a couple more days!$h",
+			},
+			"When": {
+				"Date Marnie": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+					"Pam0": "You sure are a weird kid... wantin' to marry an old girl like me.#$e#What? I'm not complaining!$h",
+					"Pam1": "Penny's gonna be fine on 'er own... She's a responsible girl.#$e#Are you ready to be a step-parent?$h",
+			},
+			"When": {
+				"Date Pam": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+					"Sandy0": "Me, living on a farm... how exciting!$1#$e#And a big wedding...#$e#I can't wait.$1",
+					"Sandy1": "Oh, @, I'm so happy!$6#$e#We're going to be great together.$6",
+			},
+			"When": {
+				"Date Sandy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+					"Willy0": "You wanna marry this ol' fisherman?#$e#Good! He wants to marry you, too.$h",
+					"Willy1": "There are a lot of fish in the sea...#$e#I'm glad we found each other, skipper.$h" ,
+			},
+			"When": {
+				"Date Willy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+					"Wizard0": "The husband of a farmer... An odd life for someone like me, that is certain.#$e#But worry not, love. I am filled only with excitement at the idea.$7",
+					"Wizard1": "I could certainly do without the ceremony of, well... a ceremony.$s#$e#But for you, love, I will endure it.#$e#Just do not begrudge me if I wear my cloak. I don't much like to be seen without it." ,
+			},
+			"When": {
+				"Date Wizard": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/ExtraDialogue",
+			"Entries": {
+					    "Mines_PlayerKilled_Clint_NotSpouse": "...I found you unconscious in the mines. I think I blew my back out, dragging you all the way up here.#$b#Be a little more careful next time, okay?$s",
+						"Mines_PlayerKilled_Clint_Spouse": "...I found you unconscious in the mines, my gem...$s#$b#I was so worried! Please be more careful...$s",
+			},
+			"When": {
+				"Date Clint": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/ExtraDialogue",
+			"Entries": {
+						"Mines_PlayerKilled_Linus_NotSpouse": "...I found you unconscious in the mines. You're lucky I happened to pass by!#$b#Be a little more careful next time, okay?$s",
+						"Mines_PlayerKilled_Linus_Spouse": "...I found you unconscious in the mines. You were gone so long I started to worry.$s#$b#Please be more careful.$s",
+			},
+			"When": {
+				"Date Linus": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				    "linusSleepover": "@,^If you have time, come visit me tonight.^I was thinking I could cook dinner and we could talk.^You can even sleep over if you'd like.^Come by around 6 if you're interested. I'll be waiting!^   -Linus",
+			},
+			"When": {
+				"Date Linus": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+					"pennyDinner": "Dear @,^I know things have been weird between us since I found out about you and my mom. I'm sorry for blowing up at the two of you a while back. I want to make it up to you.^Come by the trailer today. There's a surprise for you!^^   Love,^   Penny",
+			},
+			"When": {
+				"Date Pam": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+					"sandyDancing": "@!^^A little birdie told me you've never been dancing in Zuzu City before! I think we should change that tonight!^Meet me at my shop around 9 and we'll go out!^^  Love,^  Sandy^^P.S. Don't forget to wear something cute!! :)",
+					"morningAfter": "@,^^Thank you for taking care of me last night. My memory's a little foggy, but I do remember how you tucked me in when we were back at my place.^I meant what I said when I told you I love you. It wasn't just drunk rambling! Really.^I'll see you next time you come by (make it soon!!!).^^Love,^ Sandy",
+			},
+			"When": {
+				"Date Sandy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+					"fishingInvite": "@,^It's a perfect day for a fishing trip!^Pack up your rain gear and meet me at my shack when yer' ready to go! I'll be waitin'!^^-Willy",
+					"fishingTrip": "@,^Let's go on a fishing trip... I promise I won't be sick this time!^Swing by my shop any time yer' ready.^^-Willy",
+			},
+			"When": {
+				"Date Willy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+					"CF_Fish": "Dear @, my beloved skipper, ^ Your angling skills surpass even my ol' Pappy's... I'm impressed. ^ This stardrop's been passed down from Willy Sr. to Willy Jr. for... oh, heck. Prob'ly a thousand years.^Seein' as how we're married and all... I want you to have it.^^ -Willy   ^  %item object 434 1 %%"
+			},
+			"When": {
+				"Spouse": "Willy",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+					"wizardNap": "Dear @,^^I sincerely apologize for the state in which you found me the other day. I occassionally get caught up in my work and forget to sleep for several days at a time. Even for me, that can be detrimental to my health...^That is why I've written: to thank you truly and sincerely for what you did. I've never had somebody care so greatly for my state of being. I find it jarring, but also strangely comforting. If I can repay you in any way, please don't hesitate to inform me.^^Again, @, thank you. See you soon.^^ Sincerely,^ M. Rasmodius",
+					"teachMagic": "Dear @,^^I know it's a bit short notice, but I was wondering if you might join me for a magic lesson of sorts today. There is a certain spell that I believe even you could cast with enough concentration.^If you are too busy then I understand, but if not, meet me in the hidden woods north of my hut.^^ Sincerely,^ M. Rasmodius",
+			},
+			"When": {
+				"Date Wizard": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/AnimalShop",
+			"Entries": {
+					   "282815607/D Marnie/f Marnie 2000/t 1400 1800/k 282815608": "continue/24 15/farmer -100 -100 0 Marnie 24 15 0 Lewis 15 18 1/skippable/pause 500/move Marnie 2 0 0/pause 1500/move Marnie -2 0 0/pause 1000/move Lewis 5 0 0/emote Marnie 16/faceDirection Marnie 2/pause 100/speak Marnie \"Oh, Mr. Lewis! It's you. You scared me.#$b#I didn't know you were coming over.$h\"/move Lewis 0 -2 1/speak Lewis \"Actually, Marnie, there's... something I wanted to talk about.$s\"/pause 300/emote Marnie 8/move Marnie 0 1 3/move Marnie -3 0 3/speak Marnie \"What is it? Is something wrong?$s\"/faceDirection Lewis 2/pause 500/speak Lewis \"Marnie... I think maybe we should stop seeing each other.$s\"/emote Marnie 16/speak Marnie \"What? Why would you say that?$s#$b#...Aren't you happy?$s\"/pause 500/faceDirection Lewis 1/pause 500/speak Lewis \"You've been so distant lately. Did you think I hadn't noticed?$s\"/pause 500/faceDirection Lewis 2/emote Lewis 12/speak Lewis \"If there's somebody else then I want you to tell me.$3\"/pause 1000/emote Marnie 60/speak Marnie \"Mr. Lewis... you know I would never cheat on you... Don't you?$s\"/pause 1000/faceDirection Lewis 1/pause 500/speak Lewis \"I know, Marnie. You're too good a person for that.$s#$b#But... you have feelings for him, don't you?$s^But...you have feelings for her, don't you?$s\"/pause 500/faceDirection Marnie 1/pause 1500/speak Marnie \"Mr. Lewis... I'm so sorry!$8\"/pause 1500/speak Lewis \"...$s\"/pause 1500/faceDirection Marnie 3/pause 500/speak Marnie \"I couldn't help it. I... I never cheated on you, but... I...$s#$b#I do like him.$8^I do like her.$8\"/pause 2000/faceDirection Lewis 3/pause 1000/speak Lewis \"How long were you planning on stringing me along?$s\"/pause 1000/speak Marnie \"...$8\"/pause 500/emote Lewis 12/speak Lewis \"I'm sorry, Marnie, but we're through.$s\"/pause 500/speak Marnie \"I... I understand. I'm so sorry, Mr. Lewis...$8\"/pause 1500/move Lewis 0 2 3/move Lewis -7 0 3/warp Lewis -100 -100/pause 2000/move Marnie 4 0 1/pause 500/emote Marnie 40/warp farmer 13 18 1/pause 2000/move farmer 7 0 0/emote Marnie 16/faceDirection Marnie 3/speak Marnie \"O-oh... @...$8#$b#This... this isn't... this isn't the best time...$8\"/question fork1 \"#Are you okay?#Okay. I'll come back later.\"/fork noComfortMarnie/pause 500/speak Marnie \"I... no.$8#$b#You... you must have heard everything, right?$8\"/pause 300/move farmer 0 -2 1/move farmer 4 0 1/pause 500/speak Marnie \"I feel awful, @.$8#$b#I'm a horrible person... I can't believe I fell for someone else while I was seeing Mr. Lewis...$8\"/speak Marnie \"$q -1 null#I'm a horrible person...#$r -1 0 event_marnieBreakup1#You're not horrible. You can't control your feelings.#$r -1 0 event_marnieBreakup2#Lewis is a jerk. Who needs a guy like him anyways?#$r -1 0 event_marnieBreakup3#I'm wondering... Who did you fall for?\"/pause 1500/emote Marnie 60/pause 800/speak Marnie \"@... Would you mind staying for a little while? I don't want to be alone...$8\"/pause 2000/globalFade/viewport -1000 -1000/pause 3000/friendship Lewis -250/end dialogue Marnie \"Thank you, @... I'm feeling a little better now.$4\"/",
+					   "noComfortMarnie": "pause 500/move Marnie -2 0 2/move Marnie 0 2 3/move Marnie -2 0 3/move farmer 0 -1 2/move Marnie -8 0 0/warp Marnie 12 4 3/friendship Marnie -250/end warpOut",
+			},	
+			"When": {
+				"Date Marnie": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Blacksmith",
+			"Entries": {
+					    "282815601/D Clint/f Clint 2000/t 900 1700": "continue/7 13/farmer 5 18 0 Clint 3 13 2 Emily 5 15 0/skippable/move Emily 0 -2 3/speak Emily \"Hey, Clint! I found this cool geode up in the mountains the other day.#$b#Think you could break it open for me? I'm dying to know what's inside!$h\"/faceDirection Clint 1/speak Clint \"Oh, uh... sure thing, Emily. Of course.\"/move Clint 0 -1 1/move Clint 5 0 2/faceDirection Emily 1/move Clint 0 1 1/move Clint 3 0 1/pause 1000/speak Clint \"It's an aquamarine.\"/move Emily 5 0 1/speak Emily \"Wow! It's gorgeous!\"/faceDirection Clint 2/speak Clint \"Uh, yep!... It's a beauty alright...$s\"/pause 100/speak Emily \"How much do I owe you, hmm? 25G?$h\"/speak Clint \"Uh... don't worry about it, okay? It's on the house.$4\"/speak Emily \"Really?! Oh, Clint! You're the best friend a girl could ask for!$h\"/faceDirection Clint 1/speak Clint \"Oh... n-no, not at all. Don't worry about it.$8#$b#Anything for a... friend.$s\"/speak Emily \"Yay! I've got to go show this to Haley. She'll love it!$h#$b#See you later, Clint! Stop by the saloon tonight and say hello!\"/faceDirection Clint 2/move Emily -5 0 2/move Emily 0 4 2/speak Emily \"Oh! @! Nice to see you!$h#$b#Came to pay Clint a visit, huh?\"/speak Clint \"Oh... hi, @.$s\"/faceDirection Emily 0/move Clint -3 0 0/move Clint 0 -1 3/move Clint -5 0 2/move Clint 0 1 2/pause 100/faceDirection Emily 2/speak Emily \"I'm heading out. See both of you later!$h\"/move farmer 1 0 3/move Emily 0 2 2/warp Emily -100 -100/pause 100/speak Clint \"Uh... sorry about that, @.$s\"/move farmer -3 0 0/move farmer 0 -3 0/speak Clint \"$q -1 null#What can I do for you?$s#$r -1 0 event_blacksmith1#I have a geode.#$r -1 0 event_blacksmith2#I'm here about a tool upgrade.#$r -1 0 event_blacksmith3#I came to see you.\"/pause 100/speak Clint \"Sorry about the wait. A-and earlier, too. With Emily.\"/faceDirection Clint 1/speak Clint \"It's hard to turn down a friend, you know?$s\"/question fork1 \"#Yep.#I'm sorry.\"/fork sadClint/faceDirection Clint 2/speak Clint \"Anyways... back to business.$s\"/friendship Clint -100/end",
+						"sadClint": "pause 300/speak Clint \"Don't apologize, @... There's nothing to be sorry for.#$b#I'm just a friend to her. She doesn't see me as anything else.$s\"/faceDirection Clint 1/pause 100/speak Clint \"$q -1 null#I know I have to accept it, but... it's tough.$s#$r -1 0 event_sadclint1#I'm here for you if you need me.#$r -1 0 event_sadclint2#I know the feeling.\"/pause 100/speak Clint \"I'm glad you're here, @. With a friend like you, who needs romance, anyways?$h#$b#Uh, I mean...$8\"/end dialogue Clint \"...Never mind. That was dumb.$8\"",
+						"282815603/D Clint/e 282815602/f Clint 2500/t 900 1700": "continue/7 13/farmer 5 19 0 Clint 3 13 2/skippable/move farmer 0 -4 3/move farmer -2 0 0/speak Clint \"O-oh, @. You came.$4\"/move Clint 0 -1 1/move Clint 5 0 2/move Clint 0 3 1/move Clint 4 0 1/pause 1000/move farmer 6 0 1/pause 1000/speak Clint \"I, uh... I told you I-I have something for you, right?$8\"/faceDirection Clint 3/speak Clint \"W-well, um... I actually have two things for you.\"/move Clint -2 0 3/pause 1500/speak Clint \"@... I-I, uh... I made this for you. I-It's a ring.\"/message \"Clint gives you a beautiful silver band.\"/pause 1200/speak Clint \"I-I know it's not much, but... I really hope you like it.$4\"/faceDirection Clint 1/pause 500/faceDirection Clint 3/speak Clint \"@, I know this is probably gonna gross you out, but...$8#$b#I've never felt this way about someone before. Not even Emily.$8#$b#I-I-I think I-I'm... in love with you, @.$8\"/pause 500/question fork1 \"#I feel the same way.#I'm sorry... I don't feel the same.\"/fork rejectClint/pause 300/speak Clint \"R-really?! You... You feel the same?$4#$b#I-it's weird... It's like I didn't even notice it was happening... b-but... here I am.$4\"/faceDirection Clint 2/pause 500/faceDirection Clint 3/speak Clint \"O-oh, uh... about your second gift...$4\"/showFrame Clint 42/pause 1500/showFrame Clint 12/pause 500/speak Clint \"I-I hope that was okay.$4\"/pause 300/speak Clint \"You're the greatest, @. I'm so glad that I met you.$h\"/pause 1000/end dialogue Clint \"I'm so happy you feel the same. This is the happiest I've ever felt.$4\"",
+						"rejectClint": "pause 500/speak Clint \"...O-oh. Um.$8#$b#I-I'm sorry, @. I... I thought...$8#$b#Never mind...$8\"/pause 300/speak Clint \"Um... forget I said anything... please?$s#$b#You... you can keep the ring.$s\"/move Clint 0 -2 3/move Clint -5 0 0/move Clint 0 -1 3/move Clint -2 0 2/move Clint 0 1 2/pause 500/friendship Clint -500/end dialogue Clint \"Um... sorry, @. I-I'd like to be alone a while...$s\"",
+			},
+			"When": {
+				"Date Clint": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"Entries": {
+						"282815606/D Gus/e 282815605/f Gus 2500/t 1800 2200/w sunny": "continue/64 15/farmer 64 15 2 Gus 64 16 0/emote Gus 16/speak Gus \"Oh, you're home! Wonderful.$h#$b#I have all this food packed up... I don't suppose you'd want to join me for a picnic?$4\"/question fork1 \"#Sounds great! I'm in.#No thanks.\"/fork noPicnic/emote Gus 56/speak Gus \"Great! Let's go. It's just a short walk from here... My favorite spot in the valley.$h\"/pause 500/globalFade/viewport -1000 -1000/changeToTemporaryMap gusPicnic/viewport -1000 -1000/warp farmer 15 13/warp Gus 14 13/playMusic gusviolin/faceDirection farmer 2/faceDirection Gus 2/viewport 14 12 true/pause 2000/speak Gus \"This sure is a beautiful spot, eh? I don't think many know about it.\"/pause 1000/speak Gus \"Here, have some more pepper poppers.\"/faceDirection Gus 1/pause 1000/faceDirection Gus 2/pause 1500/speak Gus \"Would you like some more wine?$h#$b#I ended up going with blackberry wine after all that trouble with the cherries and strawberries...\"/emote farmer 32/pause 1000/speak Gus \"Ah... I'm getting full already.$h\"/pause 1500/emote Gus 60/faceDirection Gus 1/pause 500/speak Gus \"@... Thanks for coming with me tonight. It really means a lot that you're here.#$b#And that you like the food, of course.$h\"/faceDirection farmer 3/pause 1000/speak Gus \"I wanted to bring you here because... you really mean the world to me.#$b#You've been a great friend to me, @...$5#$b#...But...$s\"/faceDirection Gus 3/emote Gus 60/pause 1500/faceDirection Gus 1/showFrame Gus 23/pause 800/showFrame Gus 4/pause 1500/emote Gus 60/emote farmer 60/pause 600/speak Gus \"@... My feelings for you have gotten more than friendly.$4\"/question fork1 \"#I feel the same way.#I'm sorry... I don't feel that way about you.\"/fork rejectGus/speak Gus \"I had a feeling, but... I had to be sure.$4\"/pause 1500/speak Gus \"You've made me a very happy man, @.$4\"/emote Gus 20/emote farmer 20/pause 2000/faceDirection farmer 2/faceDirection Gus 2/pause 3000/globalFade/viewport -1000 -1000/changeLocation Farm/end position 64 16",
+						"noPicnic": "pause 500/speak Gus \"...Oh. I see.$s#$b#Some other time then, perhaps...$s\"/pause 500/move Gus 0 1 1/move Gus 4 0 1/pause 1000/faceDirection Gus 3/speak Gus \"Have a nice night, @.$s\"/pause 300/move Gus 11 0 1/warp Gus -100 -100/friendship Gus -250/end",
+			},
+			"When": {
+				"Date Gus": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"Entries": {
+						"282815611/D Lewis/f Lewis 2500/t 600 1000/d Mon Tue Wed Thu Fri/w sunny": "continue/64 15/farmer 64 15 2 Lewis 65 16 0/emote Lewis 16/speak Lewis \"Oh! Good morning, @. Sorry if I'm here a bit early.$h\"/pause 200/emote farmer 32/pause 200/speak Lewis \"Actually, I was wondering... I know it's a little last-minute, but would you like to accompany me on a bit of a trip?$h\"/pause 300/emote farmer 8/pause 200/speak Lewis \"Well, you see... Every few years, I meet with the mayors of the neighboring towns to discuss business.#$b#Things like trade, travel, and construction... boring stuff, you know?$h\"/pause 500/speak Lewis \"Anyhow... I was wondering if perhaps you would like to join me? The meeting will be in Zuzu City this year, today and tomorrow.#$b#They would accomodate us with a nice inn, and we could do some sight-seeing.$h\"/pause 300/emote Lewis 16/speak Lewis \"But, of course, if you're uncomfortable with that, don't feel obligated! It's simply an invitation.\"/pause 500/question fork1 \"Accompany Lewis to Zuzu City?#Yes#No\"/fork noZuzu/pause 300/emote Lewis 16/speak Lewis \"Wonderful! Come along, @!$h\"/globalFade/viewport -1000 -1000/changeLocation Town/viewport -1000 -1000/warp farmer 66 86/warp Lewis 69 84/faceDirection farmer 0/faceDirection Lewis 3/viewport 66 86 true/pause 500/faceDirection Lewis 2/speak Lewis \"Well, hop in!$h\"/pause 300/emote farmer 8/pause 300/speak Lewis \"What? You didn't think it runs?#$b#This old thing isn't just for show!$h\"/pause 300/faceDirection Lewis 3/speak Lewis \"Now, let's get going! We don't want to hit the morning traffic!$h\"/globalFade/viewport -1000 -1000/changeToTemporaryMap zuzuInn/viewport -1000 -1000/warp farmer 9 7/faceDirection farmer 1/warp Lewis 10 7/faceDirection Lewis 2/playSound busDriveOff/pause 2000/viewport 13 7 true/playMusic jaunty/pause 1000/emote Lewis 40/pause 300/emote farmer 8/pause 500/faceDirection Lewis 3/speak Lewis \"Ah, nothing... They just stuck us in a room with just one bed! I can have us relocated...$7\"/speak Lewis \"$q -1 null#I can have us relocated...#$r -1 0 event_relocate1#Yes, please do.#$r -1 0 event_relocate2#We can worry about it later.#$r -1 0 event_relocate3#The bed looks big enough for both of us.\"/pause 500/globalFade/viewport -1000 -1000/changeToTemporaryMap meetingRoom/viewport -1000 -1000/warp farmer 7 8/faceDirection farmer 0/warp Lewis 5 8/faceDirection Lewis 0/addTemporaryActor Khari 16 32 5 5 2 true/addTemporaryActor Lin 16 32 7 5 2 true/addTemporaryActor James 16 32 3 7 2 true/addTemporaryActor Hank 16 32 9 7 2 true/viewport 6 5 true/pause 500/speak Khari \"I'd like to welcome you all to Zuzu City for our annual town leadership meeting.#$b#Let's all introduce ourselves, shall we?#$b#My name is Khari, and I'm the mayor of Zuzu City.\"/speak Lin \"I am Mayor Lin of Tulip Town.\"/speak Hank \"M'name's Hank. I'm mayor o' Rocky Point.\"/speak James \"I'm Mayor James from Scarlettsburg.\"/speak Lewis \"My name is Lewis, and I'm the mayor of Pelican Town.#$b#Joining us is Mr. @. He also lives in Pelican Town.$h^Joining us is Ms. @. She also lives in Pelican Town.$h\"/pause 200/speak Khari \"Good to meet you, @.#$b#Now, let's start the meeting.\"/pause 500/globalFade/viewport -1000 -1000/changeToTemporaryMap meetingRoom2/viewport -1000 -1000/warp farmer 8 8/faceDirection farmer 1/warp Lewis 9 8/faceDirection Lewis 3/warp Hank -100 -100/warp James -101 -101/warp Khari -102 -102/warp Lin 10 5/showFrame Lin 1/viewport 6 5 true/pause 500/speak Lewis \"Whew! That sure was a lively meeting, eh, @?\"/pause 100/emote farmer 28/pause 300/speak Lewis \"Well, I suppose we'd better go get a bite to eat and figure out our inn room.\"/pause 500/move Lewis 1 0 2/speak Lin \"Ah, Lewis! I'm glad I caught you.\"/pause 200/faceDirection Lewis 0/emote Lewis 8/move Lewis 0 -2 0/speak Lewis \"Ah! What can I do for you, Lin?$h\"/move farmer 2 0 0/speak Lin \"I'm glad to see you here. Last year's meeting was so dull without you!\"/pause 200/speak Lewis \"Is that so? Well, I'm glad we'll get to catch up. It's been a while.$h\"/pause 200/speak Lin \"Indeed it has. I'm glad you feel the same way.\"/pause 500/speak Lin \"Ah, actually, Lewis... Here, I want you to have this.\"/pause 200/emote Lewis 16/speak Lewis \"Wh... what is this? A key?$7\"/emote Lin 56/speak Lin \"It's a spare key to my room at the Zuzu Inn. Why don't you pay me a visit after dinner?$1\"/pause 300/emote Lewis 28/pause 500/emote farmer 40/question fork1 \"Should I step in...?#Say something#Say nothing\"/fork keepKey/move farmer 0 -1 1/move farmer 1 0 0/move farmer 0 -2 3/emote Lin 16/speak Lin \"Lewis, what is your assistant doing?$2\"/question fork1 \"What do I say...?#I'm standing up for him. He's clearly not interested.#I'm not his assistant - we're dating. Back off.\"/fork lewisRelationship/emote Lewis 16/speak Lewis \"That's right, Lin, I'm not. We're leaving. Have a good night.$a\"/move Lewis 0 4 2/warp Lewis -222 -222/playSound doorClose/speak Lin \"Ugh! I can't believe this!$2\"/pause 100/move farmer 0 4 3/move farmer -1 0 2/move farmer 0 1 2/warp farmer -223 -223/playSound doorClose/emote Lin 12/pause 1500/globalFade/viewport -1000 -1000/changeToTemporaryMap zuzuInn/viewport -1000 -1000/warp Lin -121 -121/warp Lewis 11 5/faceDirection Lewis 3/warp farmer 12 5/faceDirection farmer 3/viewport 13 7 true/pause 2000/speak Lewis \"@...\"/faceDirection Lewis 1/speak Lewis \"Thank you for sticking up for me. It means a lot to me.\"/pause 500/speak Lewis \"Lin and I... We've flirted in the past... a little bit. For fun. But she's never been that forward.$s\"/pause 300/emote farmer 8/pause 500/speak Lewis \"We never did anything. Not even a date.$7\"/pause 500/speak Lewis \"Ah... @... I'm glad you were there. I-I, actually...$7\"/pause 300/emote farmer 8/speak Lewis \"You're the reason I didn't want to accept Lin's invitation.$7\"/emote farmer 8/pause 1000/speak Lewis \"@, I like you. I know I'm older than you are, but... I'm old enough to know what I want.$7#$b#And it's you.$4\"/emote farmer 56/pause 300/emote Lewis 56/pause 500/speak Lewis \"@, I'm so glad you came with me.$h#$b#Now, how about we go get some dinner? Our first date?$4\"/emote farmer 32/pause 2000/globalFade/viewport -1000 -1000/changeLocation Farm/viewport -1000 -1000/friendship Lewis 50/end position 64 16",
+						"noZuzu": "pause 500/speak Lewis \"Oh... I suppose it was short notice. Well, there's always next year...#$b#...$s\"/pause 500/speak Lewis \"Well, have a productive day, @. I'll see you when I'm back from Zuzu City.$s\"/friendship Lewis -250/end position 64 16",
+			},
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"Entries": {
+						"282815615/D Linus/f Linus 2500/e 282815613/w sunny/x linusSleepover" : "null",
+			},
+			"When": {
+				"Date Linus": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"Entries": {
+						"282815617/D Pam/f Pam 2500/e 282815616/x pennyDinner": "null",
+			},
+			"When": {
+				"Date Pam": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"Entries": {
+						"282815620/D Sandy/f Sandy 2500/x sandyDancing": "null",
+			},
+			"When": {
+				"Date Sandy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"Entries": {
+						"282815622/D Willy/f Willy 2000/w rainy/x fishingInvite": "null",
+						"282815624/D Willy/f Willy 2500/w rainy/e 282815623/x fishingTrip": "null",	
+			},
+			"When": {
+				"Date Willy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"Entries": {
+						"282815627/D Wizard/f Wizard 2500/x teachMagic": "null",	
+			},
+			"When": {
+				"Date Wizard": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Beach",
+			"Entries": {
+						"282815623/D Willy/f Willy 2000/t 600 1700/w rainy/n fishingInvite": "continue/30 30/farmer -10 -10 0 Willy -11 -11 2/skippable/changeLocation FishShop/viewport 5 5 true/pause 1500/playSound doorClose/warp farmer 5 9/pause 1000/emote farmer 8/pause 1000/move farmer 0 -3 0/pause 200/emote farmer 8/pause 800/message \"There's a note on the counter.\"/pause 1000/emote farmer 40/pause 500/message \"Shop's closed up for the day. Came down with a cold. -Willy\"/pause 500/emote farmer 16/pause 1000/speak Willy \"*cough*$s\"/pause 600/emote farmer 8/pause 1000/message \"You hear the sound of coughing coming from upstairs.\"/pause 500/question fork1 \"Should you go upstairs?#Yes#No\"/fork leaveWilly/pause 500/globalFade/viewport -1000 -1000/changeToTemporaryMap WillyRoom/warp farmer 4 5/faceDirection farmer 2/warp Willy 1 5/positionOffset Willy 10 0/viewport 5 5 true/pause 200/emote Willy 16/pause 300/faceDirection farmer 3/pause 300/speak Willy \"Skipper! So you got my letter, eh?\"/pause 600/speak Willy \"Well, I'm not in any shape t'be out fishin', that's fer' certain.$s\"/pause 300/emote farmer 60/pause 800/speak Willy \"Ah, don't y'worry, skipper. I'll be back on my feet before y'know it! It's just a bit of a cold.\"/move farmer -1 0 3/faceDirection Willy 1/pause 300/emote Willy 60/pause 400/speak Willy \"Sorry fer' gettin' yer' hopes up about a fishin' trip today.$s\"/pause 500/question fork1 \"What should I say?#Don't worry about it. Worry about getting better!#And here I was all ready to go...\"/fork allReady/pause 500/emote Willy 32/pause 300/speak Willy \"I can't believe I'm takin' orders from my skipper!$h#$b#...Just this once.$4\"/pause 1000/emote farmer 32/pause 400/emote Willy 32/pause 2000/speak Willy \"Hey... Thanks for stoppin' by, skipper. I appreciate the company.$4\"/pause 1000/emote farmer 56/pause 2000/globalFade/viewport -1000 -1000/changeLocation FishShop/friendship Willy 25/end dialogue Willy \"I'm feelin' a little better.$h\"",
+						"leaveWilly": "pause 1000/message \"Maybe it's best to leave him alone...\"/pause 1000/friendship Willy -50/end warpOut",
+    					"282815625/D Willy/f Willy 2500/t 600 1700/w rainy/e 282815623/n fishingTrip": "continue/30 30/farmer -10 -10 0 Willy 6 4 2/changeLocation FishShop/viewport 5 5 true/pause 1500/playSound doorClose/warp farmer 5 9/pause 500/emote Willy 16/pause 100/speak Willy \"Hey there, skipper! Y'ready to go?\"/pause 500/question fork1 \"Go fishing with Willy?#Yes#No\"/fork noFishing/pause 600/speak Willy \"Great! Let me get my ol' rowboat ready 'n' we'll be out on the open seas before y'know it!$h\"/pause 400/emote farmer 32/pause 500/emote Willy 32/pause 1500/globalFade/viewport -1000 -1000/changeToTemporaryMap ElliottSea/viewport -1000 -1000/pause 1000/playMusic rain/warp farmer 26 20/positionOffset farmer 0 8/faceDirection farmer 2/warp Willy 26 20/positionOffset Willy 0 60/showFrame Willy 51/viewport 26 21 true/pause 2000/emote Willy 32/pause 1000/speak Willy \"Ah, I'm so glad y'came with me today, skipper.$h\"/pause 500/emote farmer 32/pause 1000/speak Willy \"Skipper... s'anyone ever told you how handsome you are?$4^Skipper... s'anyone ever told you how beautiful you are?$4\"/pause 500/speak Willy \"Out here... all soaked with rain and sea spray...#$b#You make my heart feel sea sick.$4\"/pause 1000/question fork1 \"What should I say?#I feel the same way.#I don't feel the same way.\"/fork rejectWilly/pause 1000/emote Willy 32/pause 500/speak Willy \"I'm so glad. I want you t'be my skipper forever, @.$4\"/pause 1000/emote farmer 32/emote Willy 20/pause 2000/emote Willy 28/pause 500/speak Willy \"We're not catchin' much of anything, are we?$h\"/pause 500/emote farmer 28/pause 1500/speak Willy \"As long as yer' here with me, I don't care what we catch.$h\"/pause 500/emote farmer 20/pause 400/emote Willy 20/pause 2000/globalFade/viewport -1000 -1000/pause 1000/changeLocation FishShop/end position 6 6",
+						"noFishing": "pause 500/speak Willy \"Oh... Too busy, eh? I understand.$s\"/pause 1000/speak Willy \"Maybe some other time, then. See y'later, skipper.$s\"/pause 1500/friendship Willy -250/end warpOut",
+			},
+			"When": {
+				"Date Willy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Forest",
+			"Entries": {
+						"282815609/e 282815608/D Marnie/f Marnie 2000/t 800 1200/w sunny": "jaunty/84 18/farmer 68 16 1 Marnie 84 16 0/skippable/pause 2000/move farmer 10 0 1/pause 100/emote Marnie 16/faceDirection Marnie 3/pause 1000/speak Marnie \"Oh, good morning, Mr. @.$h^Oh, good morning, Ms. @.$h\"/move farmer 5 0 1/speak Marnie \"What brings you here so early?$h\"/speak Marnie \"$q -1 null#What brings you here so early?#$r -1 0 event_marnieMorning1#I was just passing through.#$r -1 0 event_marnieMorning2#I came to see you.#$r -1 0 event_marnieMorning3#Sorry, I can't talk right now. I'm in a hurry.\"/pause 1000/speak Marnie \"I know this is kind of an awkward topic, but... I just...#$b#I want to be honest with you, Mr. @.$s^I want to be honest with you, Ms. @.$s\"/faceDirection Marnie 2/pause 1500/speak Marnie \"You knew that Mr. Lewis and I separated a while ago, correct?$s\"/pause 2000/faceDirection Marnie 3/speak Marnie \"The reason it happened was... well...\"/pause 800/speak Marnie \"I thought that Mr. Lewis had fallen in love with you, Mr. @.$s^I thought that Mr. Lewis had fallen in love with you, Ms. @.$s\"/pause 1000/speak Marnie \"You two had seemed to be getting along well lately, and Mr. Lewis seemed so distant whenever he was with me.$s\"/question fork1 \"#Oh... I'm sorry.#That's not true. We were never that close.\"/fork notThatCloseB/pause 1000/speak Marnie \"...It's alright. It's in the past.$s\"/pause 500/speak Marnie \"But... I thought that the two of you might end up together...#$b#And I wanted to call it off before things got even more confusing.$s\"/pause 500/speak Marnie \"So... I wanted to ask.#$b#Were you and Mr. Lewis in love?$s\"/pause 100/speak Marnie \"$q -1 null#Were you and Mr. Lewis in love?#$r -1 0 event_loveLewis1#Yes, but nothing ever came of it.#$r -1 0 event_loveLewis2#Yes, but we stopped seeing each other.#$r -1 0 event_loveLewis3#Yes, and we still are.#$r -1 0 event_loveLewis4#No. We were just good friends.\"/pause 1500/faceDirection Marnie 1/pause 2000/faceDirection Marnie 3/pause 500/speak Marnie \"Well, @... Thank you for helping me piece together the truth. I'm glad to know I wasn't entirely crazy...\"/pause 1000/speak Marnie \"...Really, @. Thank you. It means a lot that you're honest with me, even when it's a little awkward.#$b#I'm very glad to have you as a friend.$4\"/pause 500/speak Marnie \"Now... don't let me hold you up any longer. We both have work to get back to.$h\"/friendship Marnie 50/end warpOut",
+						"notThatCloseB": "emote Marnie 12/pause 1000/speak Marnie \"...Oh. So I was wrong to begin with...$s#$b#This is awkward...$s\"/pause 1500/speak Marnie \"Well, thank you for being honest, Mr. @.$s^Well, thank you for being honest, Ms. @.$s#$b#Don't let me hold you up any longer. Have a nice day.$s\"/friendship Marnie -50/end warpOut",
+						"282815612/D Marnie/f Marnie 2500/t 2000 2400": "nightTime/-1000 -1000/farmer 119 25 3 Marnie -100 -100 1/viewport -1000 -1000/changeToTemporaryMap forestEvent/viewport -1000 -1000/pause 500/viewport 99 19 true/move farmer -20 0 3/pause 1000/faceDirection farmer 0/emote farmer 8/pause 500/move farmer 0 -2 0/playSound cow/pause 1000/emote farmer 16/speed farmer 5/move farmer 0 -7 0/warp farmer -101 -101/playSound doorClose/pause 500/globalFade/viewport -1000 -1000/changeToTemporaryMap MarnieBarn/viewport -1000 -1000/warp Marnie 5 5/faceDirection Marnie 3/addTemporaryActor Buttercup 32 32 3 5 2 true/viewport 8 5 true/pause 1000/playSound cow/emote Marnie 28/pause 1500/warp farmer 11 13/move farmer 0 -5 3/move farmer -3 0 0/emote Marnie 16/faceDirection Marnie 2/speak Marnie \"Oh! Mr. @! It's Buttermilk, my cow... She's in labor.^Oh! Ms. @! It's Buttermilk, my cow... She's in labor.\"/emote farmer 16/move farmer 0 -3 3/move farmer -1 0 3/pause 500/speak Marnie \"She's doing fine, don't you worry.$h#$b#I was just a little surprised! I didn't know she was pregnant. One of the bulls must've gotten in here by accident...$2\"/faceDirection Marnie 3/pause 2000/faceDirection Marnie 1/speak Marnie \"Mr. @... I know you don't have much experience with cows yet, but I trust you.^Ms. @... I know you don't have much experience with cows yet, but I trust you.#$b#Will you help me out...?\"/pause 500/speak Marnie \"Normally I would ask Shane, but I think he's still out at the bar...$s\"/question fork1 \"Help Marnie and Buttermilk?#Yes#No\"/fork noButtermilk/emote Marnie 56/speak Marnie \"Great! Just come right over here.$h\"/pause 500/speed farmer 3/move farmer 0 -1 3/move farmer -1 0 3/faceDirection Marnie 3/pause 300/emote Buttercup 20/playSound cow/speak Marnie \"She's glad you're here, Mr. @.$h^She's glad you're here, Ms. @.$h#$b#So am I.$h\"/pause 2000/globalFade/viewport -1000 -1000/playSound cow/speak Marnie \"Uh oh... Mr. @, grab that towel!$7^Uh oh... Ms. @, grab that towel!$7\"/pause 1000/playSound cow/pause 2000/showFrame Buttercup 1/viewport 8 5 true/emote Buttercup 20/emote Marnie 56/emote farmer 56/faceDirection Marnie 0/speak Marnie \"What a sweet little calf... Shall we call him @, Jr.?$h^What a sweet little calf... Shall we call her @, Jr.?$h\"/faceDirection farmer 2/emote farmer 28/speak Marnie \"I'm kidding. I'll think of a name for the little one later.$h\"/move Marnie 1 0 0/move Marnie 0 -1 3/faceDirection farmer 1/emote farmer 8/speak Marnie \"Mr. @... I'm very glad you were here. I've done this more than a couple of times, but it helps to have someone there.^Ms. @... I'm very glad you were here. I've done this more than a couple of times, but it helps to have someone there.#$b#Even if that someone drops the bucket of water and nearly passes out seeing the blood.$h\"/emote farmer 28/pause 500/speak Marnie \"Ha ha. You're the best, Mr. @.$h^Ha ha. You're the best, Ms. @.$h#$b#Really.$4\"/pause 2000/speak Marnie \"Mr. @... After all that's happened with us, what with Mr. Lewis and all...^Ms. @... After all that's happened with us, what with Mr. Lewis and all...#$b#I feel like we've gotten really close, don't you?$4\"/pause 500/speak Marnie \"You... You know what I'm trying to say, don't you?$h#$b#I like you, @... As more than a friend.$6\"/question fork1 \"What should I say...?#I feel the same way.#I'm sorry...\"/fork rejectMarnie/speak Marnie \"Really...?! Oh, I'm so happy!$4\"/emote farmer 56/emote Marnie 56/speak Marnie \"I'm so happy you're here, Mr. @... No, @!$6^I'm so happy you're here, Ms. @... No, @!$6#$b#No more formalities.$4\"/pause 1000/playSound cow/emote Buttercup 20/pause 200/speak Marnie \"Oh, Buttermilk... We'll leave you be. I'm sure you're tired.$h\"/pause 500/speak Marnie \"Well... goodnight, @. I hope I see you tomorrow.$h\"/emote farmer 56/emote Marnie 20/pause 2000/globalFade/viewport -1000 -1000/changeLocation Forest/viewport -1000 -1000/friendship Marnie 50/end position 99 23",
+			},
+			"When": {
+				"Date Marnie": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/ManorHouse",
+			"Entries": {
+						"282815608/D Lewis/f Lewis 2000/t 1400 1800/k 282815607": "continue/7 6/farmer -100 -100 0 Lewis 6 5 0 Marnie -100 -100 0/skippable/pause 500/move Lewis 2 0 0/pause 1500/move Lewis -1 0 0/pause 1000/warp Marnie 5 11 0/playSound doorClose/move Marnie 0 -4 0/emote Lewis 16/faceDirection Lewis 2/pause 100/speak Lewis \"Oh, Marnie! It's you. You scared me.#$b#I didn't know you were coming over.$h\"/pause 800/speak Marnie \"Actually, Mr. Lewis, there's... something I wanted to talk about.$s\"/pause 300/emote Lewis 8/move Lewis 0 2 3/move Lewis -1 0 3/faceDirection Marnie 1/speak Lewis \"What is it? Is something wrong?$s\"/pause 500/warp farmer 5 11 0/playSound doorClose/speak Marnie \"Mr. Lewis... I think maybe we should stop seeing each other.$s\"/emote farmer 16/emote Lewis 16/speak Lewis \"What? Why would you say that?$s#$b#...Aren't you happy?$s\"/move farmer -1 0 0/move farmer 0 -1 3/move farmer -2 0 1/speak Marnie \"You've been so distant lately. Did you think I hadn't noticed?$s\"/pause 500/faceDirection Marnie 2/emote Marnie 12/speak Marnie \"If there's somebody else then I want you to tell me.$5\"/pause 1000/emote Lewis 60/speak Lewis \"Marnie... you know I would never cheat on you... Don't you?$s\"/pause 1000/faceDirection Marnie 1/pause 500/speak Marnie \"I know, Mr. Lewis. You're too good a person for that.$s#$b#But... you have feelings for him, don't you?$s^But...you have feelings for her, don't you?$s\"/emote farmer 16/pause 500/faceDirection Lewis 1/pause 1500/speak Lewis \"Marnie... I'm so sorry!$6\"/pause 1500/speak Marnie \"...$s\"/pause 1500/faceDirection Lewis 3/pause 500/speak Lewis \"I couldn't help it. I... I never cheated on you, but... I...$s#$b#I do like him.$6^I do like her.$6\"/pause 2000/faceDirection Marnie 3/pause 1000/speak Marnie \"How long were you planning on stringing me along?$s\"/pause 1000/speak Lewis \"...$6\"/pause 500/emote Marnie 12/speak Marnie \"I'm sorry, Mr. Lewis, but we're through.$s\"/pause 500/speak Lewis \"I... I understand. I'm so sorry, Marnie...$6\"/pause 1500/move Marnie 0 4 3/warp Marnie -100 -100/playSound doorClose/pause 2000/move Lewis 2 0 1/move Lewis 0 -1 1/move Lewis 1 0 1/pause 500/emote Lewis 40/pause 2000/move farmer 3 0 0/move farmer 0 -4 1/move farmer 3 0 1/emote Lewis 16/faceDirection Lewis 3/speak Lewis \"O-oh... @...$6#$b#This... this isn't... this isn't the best time...$6\"/question fork1 \"#Are you okay?#Okay. I'll come back later.\"/fork noComfortLewis/pause 500/speak Lewis \"I... no.$6#$b#You... you must have heard everything, right?$6\"/pause 1500/speak Lewis \"I feel awful, @.$6#$b#I'm a horrible person... I can't believe I fell for someone else while I was seeing Marnie...$6\"/speak Lewis \"$q -1 null#I'm a horrible person...#$r -1 0 event_lewisBreakup1#You're not horrible. You can't control your feelings.#$r -1 0 event_lewisBreakup2#Marnie is a jerk. Who needs a girl like her anyways?#$r -1 0 event_lewisBreakup3#I'm wondering... Who did you fall for?\"/pause 1500/emote Lewis 60/pause 800/speak Lewis \"@... Would you mind staying for a little while? I don't want to be alone...$6\"/pause 2000/globalFade/viewport -1000 -1000/pause 3000/friendship Marnie -250/end dialogue Lewis \"Thank you, @... I'm feeling a little better now.$4\"/",
+						"noComfortLewis": "pause 500/move farmer -1 0 1/move Lewis -1 0 2/move Lewis 0 4 1/move Lewis 8 0 0/playSound doorClose/warp Lewis 12 4 3/friendship Lewis -250/end warpOut",
+			},
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Mountain",
+			"Entries": {	
+						"282815602/D Clint/f Clint 2500/w sunny/t 1600 2300": "nightTime/54 8/farmer 41 10 0 Clint 47 7 1/skippable/pause 1000/move Clint 7 0 0/move Clint 0 -2 0/move farmer 0 -3 1/faceDirection Clint 2/pause 1500/showFrame Clint 35/emote Clint 16/jump Clint/showFrame Clint 0/move farmer 9 0 1/speak Clint \"Oh! @... Wh-what are you doing here?\"/pause 1500/speak Clint \"What? M-me?$s\"/speak Clint \"$q -1 null#I-I ran out of iron in the middle of a project, so I... I came here to find some more.#$r -1 0 event_iron1#I didn't know you're a miner.#$r -1 0 event_iron2#Really? How's it going?#$r -1 0 event_iron3#I don't believe you.\"/pause 1000/speak Clint \"A-anyways... um...\"/move Clint 0 2 3/speak Clint \"I-I'll see you later, @.\"/move farmer 0 1 0/move Clint -6 0 1/move farmer 0 -1 3/pause 500/speak Clint \"Uh... @?\"/pause 1000/faceDirection Clint 2/pause 500/faceDirection Clint 1/pause 300/speak Clint \"Come visit my shop tomorrow. I, uh...$8#$b#I-I-I have something for you.$8\"/move Clint -7 0 3/showFrame Clint 43/end",
+			},
+			"When": {
+				"Date Clint": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Mountain",
+			"Entries": {	
+						"282815613/D Linus/f Linus 2000/w sunny/t 1400 2100": "continue/29 9/farmer 23 20 0 Linus 30 9 3 Jas -100 -100 1 Vincent -101 -101 1/specificTemporarySprite linusCampfire/pause 1000/move farmer 0 -11 0/emote Linus 16/speak Linus \"Oh, @! Nice to see you!$h\"/faceDirection farmer 1/emote farmer 32/pause 500/speak Linus \"Have you eaten dinner yet? I'm making fish, and there's plenty if you want to stay.$h\"/question fork1 \"#I would love to.#I'm too busy, sorry.\"/fork noDinner/pause 200/speak Linus \"Really? Great!$h#$b#I'm just finishing up the meal... Why don't you wait inside my tent?$h\"/pause 200/emote farmer 32/move farmer 5 0 0/move farmer 0 -1 1/move farmer 1 0 0/move farmer 0 -1 0/warp farmer 2 3/globalFade/viewport -1000 -1000/changeLocation Tent/viewport -1000 -1000/warp Linus -103 -103/faceDirection farmer 2/viewport 2 3 true/pause 1500/emote farmer 40/pause 2000/faceDirection Linus 0/warp Linus 2 5/move Linus 0 -1 0/speak Linus \"Sorry for the wait! But I think it will be worth it!$h#$b#Fresh grilled fish!$h\"/pause 500/emote farmer 32/pause 500/move Linus 1 0 0/move Linus 0 -1 2/pause 1000/speak Linus \"$q -1 null#How do you like it?#$r -1 0 event_dinner1#It's delicious!#$r -1 0 event_dinner2#I've had better.\"/pause 2000/speak Linus \"You know, @, I--\"/playSound drumkit1/playSound drumkit1/pause 200/playSound drumkit1/playSound drumkit1/emote Linus 16/playSound drumkit1/playSound drumkit1/playSound drumkit1/message \"You can hear rocks hitting the tent.\"/emote farmer 16/playSound drumkit1/playSound drumkit1/playSound drumkit1/speed farmer 4/move farmer 0 2 2/warp farmer 29 7/globalFade/viewport -1000 -1000/changeLocation Mountain/viewport -1000 -1000/faceDirection farmer 2/warp Jas 23 8/faceDirection Jas 1/warp Vincent 24 7/faceDirection Vincent 1/viewport 27 9 true/move farmer 0 1 3/move farmer -2 0 3/emote Jas 16/emote Vincent 16/pause 200/speak Vincent \"Mr. @? B-but, where's the scary tent man?!$3^Miss @? B-but, where's the scary tent man?!$3\"/speak Jas \"P-p-please don't tell Aunt Marnie, Mr. @! Vincent made me do it!$2^P-p-please don't tell Aunt Marnie, Miss @! Vincent made me do it!$2\"/speak Vincent \"N-no! It wasn't me!!$2\"/pause 500/warp Linus 29 7/move Linus 0 1 3/move Linus -1 0 2/move Linus 0 1 3/move Linus -3 0 0/emote Vincent 16/emote Jas 16/speak Vincent \"Hairy, scary tent man!!!$3\"/speak Jas \"He's going to attack us, Vincent! Run!!$2\"/question fork1 \"Should I say something...?#This is unacceptable. Linus is a kind person, and you kids are going to get in a lot of trouble for this.#Say nothing\"/fork terroristsWin/pause 200/speak Jas \"Okay! We're sorry, Mr. Linus... right, Vincent?$2\"/speak Vincent \"Yeah! Very sorry!$2#$b#Come on, Jas, let's get out of here!!$2\"/speed Jas 4/move Jas -10 0 3/warp Jas -110 -100/speed Vincent 5/move Vincent -11 0 3/warp Vincent -111 -100/pause 2000/speed farmer 3/move farmer 0 1 3/move farmer -1 0 3/pause 500/faceDirection Linus 1/speak Linus \"I'm sorry you had to see that, @.$s\"/pause 500/speak Linus \"But... it means a lot that you stuck up for me like that.#$b#You're the only one here who doesn't think I'm some kind of monster.$s\"/pause 2000/speak Linus \"@... Thank you for being here for me. You're a great friend.#$b#Now... Let's go finish dinner?$h\"/emote farmer 32/pause 1500/globalFade/viewport -1000 -1000/end position 23 9",
+						"noDinner": "pause 200/speak Linus \"Oh, of course... Some other night then.#$b#Come by again soon.$h\"/pause 1000/end position 23 9",
+						"terroristsWin": "speed Jas 4/move Jas -10 0 3/warp Jas -110 -100/speed Vincent 5/move Vincent -11 0 3/warp Vincent -111 -100/speak Linus \"...$s\"/pause 2000/speak Linus \"I'm... really sorry about that, @.$s#$b#It... doesn't happen often, but...$s\"/pause 1500/move Linus 3 0 1/speak Linus \"Sorry, @... I'd like to be alone for a while.$s\"/pause 500/speak Linus \"I'll stop by soon...$s\"/end warpOut",
+						"282815614/D Linus/f Linus 2500/e 282815615/w sunny/t 1700 2100/n linusSleepover": "nightTime/29 9/farmer 23 20 0 Linus 30 9 3/specificTemporarySprite linusCampfire/pause 1000/move farmer 0 -11 1/emote Linus 16/speak Linus \"@! You came!$h\"/emote farmer 32/move farmer 5 0 1/emote Linus 32/speak Linus \"I figured maybe we could try this dinner thing again... without any interruptions.$h\"/question fork1 \"#I would love to.#Sorry, I'm just too busy.\"/fork noSleepover/emote Linus 56/speak Linus \"Great!$h#$b#Dinner's just getting done... why don't we eat out here?$h\"/pause 100/emote farmer 32/emote Linus 32/playSound crafting/pause 1000/playSound crafting/pause 500/speak Linus \"I tried something a little different tonight... I hope you like it.$h\"/message \"Linus gives you a heaping helping of spaghetti.\"/pause 500/emote farmer 56/message \"It tastes great!\"/pause 500/speak Linus \"I'm glad you like it. I don't cook much that isn't fish, but I'm happy to make you anything you like!$h\"/pause 300/emote farmer 32/emote Linus 32/globalFade/viewport -1000 -1000/ambientLight 0 0 0/warp farmer 29 10/faceDirection farmer 0/viewport 29 9 true/pause 2000/speak Linus \"I'm glad you came back after what happened last time, @.$h\"/pause 100/emote farmer 8/pause 500/speak Linus \"I'm not sure that most people would have wanted to try this again.$s#$b#I'm not ashamed of my lifestyle, but being degraded by everyone, even kids, is embarrassing...$s\"/speak Linus \"$q -1 null#It's embarrassing...#$r -1 0 event_embarrassing1#It's not embarrassing. They're the ones that are wrong.#$r -1 0 event_embarrassing2#It doesn't matter. I'll stand with you through anything.\"/pause 1000/speak Linus \"I'm so fortunate to have someone like you in my life, @.$h\"/pause 500/speak Linus \"I... I love you.$4\"/pause 100/emote farmer 16/pause 200/question fork1 \"#I love you, too.#I'm sorry... I don't feel the same way.\"/fork rejectLinus/speak Linus \"Really? I'm so glad.$4\"/pause 2000/speak Linus \"It's been a long night, hasn't it?$4#$b#Let's go to sleep...?$4\"/globalFade/viewport -1000 -1000/changeToTemporaryMap Tent2/viewport -1000 -1000/warp farmer 2 3/faceDirection farmer 1/warp Linus 4 3/faceDirection Linus 3/viewport 2 3 true/pause 500/speak Linus \"I laid out this sleeping bag for you.$h#$b#I'm sure it's not as comfortable as your bed, but...$h\"/pause 100/move farmer 1 0 1/emote farmer 32/emote Linus 32/pause 2000/globalFade/viewport -1000 -1000/changeLocation Mountain/viewport -1000 -1000/end position 29 8",
+						"noSleepover": "pause 200/speak Linus \"Oh...$s#$b#Maybe another night then.$s\"/pause 1000/friendship Linus -125/end warpOut",
+						"rejectLinus": "pause 500/speak Linus \"...$s\"/pause 500/speak Linus \"Oh.$s\"/pause 1000/speak Linus \"@... Maybe it's better if you leave.$s\"/pause 2000/friendship Linus -250/end warpOut",
+			},
+			"When": {
+				"Date Linus": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Saloon",
+			"Entries": {	
+						"282815604/D Gus/f Gus 2000/t 1200 1630": "gusviolin/32 7/farmer 31 15 0 Gus 35 7 1 Harvey -100 -100 0/skippable/showFrame Gus 40/animate Gus false false 100 40 40 40 40 40 40 41 41 41 42 42 42 43 43 42 42 42 42/move farmer 0 -6 0/pause 1000/showFrame Gus 4/pause 500/showFrame Gus 12/speak Gus \"Oh, @... Sorry! You've caught me at a bad time.$5\"/move farmer 0 -2 1/move farmer 3 0 1/pause 1500/emote farmer 16/message \"Gus's right hand is covered in blood.\"/pause 800/speak Gus \"Oh, this...? I'm fine...$s#$b#I was grabbing some glassware out of storage and some of it fell and broke. I must have cut myself on accident...$s\"/pause 1500/message \"The cut appears to be very deep.\"/pause 500/question fork1 \"#It's deep. Let me take you to Dr. Harvey.#It looks bad. You should go see a doctor.\"/fork doctorAlone/pause 500/showFrame Gus 0/pause 300/showFrame Gus 12/pause 500/speak Gus \"I... guess it couldn't hurt to have him look at it.$5#$b#Are you sure you have time to take me yourself...?$s\"/globalFade/viewport -1000 -1000/changeToTemporaryMap Hospital/viewport -1000 -1000/warp farmer 20 11 2/warp Gus 20 12 1/warp Harvey 21 12 3/playMusic Hospital_Ambient/faceDirection farmer 2/showFrame Gus 4/faceDirection Harvey 3/viewport 20 10 true/pause 1500/speak Harvey \"Well, Gus, I'm sure this isn't how you wanted to spend your afternoon, eh?$h#$b#Thankfully four stitches were all you needed. Make sure to keep the area clean and dry, and come back in two weeks so I can take the stitches out.\"/pause 300/move Harvey 0 -1 3/faceDirection farmer 1/speak Harvey \"Thank you for bringing him here, @. The cut was worse than it looked.\"/move Harvey 1 0 2/speak Harvey \"Please try to be more careful with broken glass, Gus. It can be a serious hazard.\"/faceDirection farmer 2/move Harvey 0 -3 3/move Harvey -7 0 0/move Harvey 0 -1 3/move Harvey -5 0 2/move Harvey 0 3 3/showFrame Gus 8/move Harvey -5 0 0/move Gus 1 0 0/move Gus 0 -1 3/faceDirection farmer 1/speak Gus \"@... Thank you for bringing me here.#$b#It's nice to know I have somebody looking out for me.$4#$b#Don't worry... I'll be more careful next time. I promise.\"/emote Gus 32/pause 500/speak Gus \"Now... how about let's head back to the saloon and you can help me finish cleaning up that mess?$h\"/emote farmer 28/globalFade/viewport -1000 -1000/end warpOut",
+						"doctorAlone": "pause 500/speak Gus \"I'm... sure I'll be fine. I'm going to finish cleaning up this mess, then maybe I'll go pay him a visit.$5#$b#Thanks for stopping by, @. I'll see you later.$s\"/showFrame Gus 4/animate Gus false false 100 40 40 40 40 40 40 41 41 41 42 42 42 43 43 42 42 42 42/end warpOut",
+						"282815605/D Gus/f Gus 2500/t 1200 1600": "jaunty/14 18/farmer -100 -100 0 Gus 17 18 2/skippable/animate Gus false false 100 18 18 19 19 20 20 19 19/playSound doorClose/warp farmer 14 24 0/move farmer 0 -3 1/move farmer 3 0 0/move farmer 0 -1 0/emote Gus 16/speak Gus \"Oh, @! I was just thinking about you.$h\"/emote farmer 8/pause 500/speak Gus \"I wanted to ask you a question! What do you like better, strawberries or cherries?\"/speak Gus \"$q -1 null#What do you like better, strawberries or cherries?#$r -1 0 event_fruit1#Strawberries.#$r -1 0 event_fruit2#Cherries.#$r -1 0 event_fruit3#I couldn't choose! I like both.#$r -1 0 event_fruit4#I don't like either.\"/speak Gus \"I'll keep that in mind.\"/emote Gus 56/pause 500/speak Gus \"I'm planning something special. You'll find out what it is soon!$h\"/pause 500/speak Gus \"In the meantime, how about some lunch on the house to thank you for coming to see me?$h\"/end dialogue Gus \"Don't worry, you'll love what I have planned... but it's a surprise!$h\"/",
+			},
+			"When": {
+				"Date Gus": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/SandyHouse",
+			"Entries": {
+						"282815619/D Sandy/f Sandy 2000/t 1500 2000": "gusviolin/23 6/farmer 8 4 1 Sandy 25 5 0/skippable/pause 1500/playSound dwop/pause 500/playSound dwop/pause 200/move Sandy -3 0 0/pause 200/playSound crafting/pause 500/playSound crafting/pause 200/move Sandy 1 0 0/pause 400/playSound clank/pause 300/playSound clank/pause 1000/move Sandy 1 0 0/playSound dwop/pause 1000/move farmer 11 0 1/faceDirection Sandy 3/emote Sandy 16/pause 300/speak Sandy \"Oh, hi, @.#$b#Sorry I wasn't up front. Business was a little slow today so I decided to close up early and make a bite to eat.\"/pause 200/speak Sandy \"You weren't needing anything, were you?\"/pause 300/question fork1 \"#Nope! I just came by to see you.#Actually, I was hoping to do some shopping.\"/fork sandyShop/pause 400/speak Sandy \"Well, aren't you the honest one.#$b#I'm glad! Stick around. I'll share.$h\"/pause 300/emote farmer 32/move farmer 1 0 2/move farmer 0 1 1/move farmer 2 0 2/move farmer 0 2 0/faceDirection Sandy 2/pause 500/emote Sandy 56/pause 500/faceDirection Sandy 0/playSound dwop/pause 500/move Sandy 1 0 0/pause 300/playSound dwop/pause 200/move Sandy -3 0 0/pause 200/playSound crafting/pause 500/playSound crafting/pause 200/move Sandy 1 0 0/pause 400/playSound clank/pause 300/playSound clank/pause 1000/move Sandy 1 0 0/playSound dwop/pause 1000/speak Sandy \"You know, @... I'm thinking about packing up shop pretty soon.$s\"/pause 500/emote farmer 8/pause 300/speak Sandy \"Sandy's Oasis isn't doing so well lately. I know it always seems slow in here, but it's been worse lately...$s\"/move Sandy -1 0 0/pause 100/playSound clank/pause 500/speak Sandy \"I might move to Pelican Town, actually.\"/pause 500/emote farmer 8/pause 500/speak Sandy \"Emily said she and Haley could put me up for a little while, at least until I can get a place of my own there.\"/pause 1000/playSound dwop/pause 500/speak Sandy \"Anyways... It's just something I've been thinking about lately. Don't worry yourself about it.$h\"/pause 200/speak Sandy \"If I make any final decisions, I'll tell you.\"/move Sandy 1 0 0/pause 200/playSound crafting/pause 600/playSound dwop/pause 800/faceDirection Sandy 2/emote Sandy 56/speak Sandy \"Hey, @. Thanks for listening. I'm glad you stopped by.$h\"/pause 400/emote farmer 32/pause 400/speak Sandy \"Also... I burnt dinner. Let's order takeout instead?$h\"/pause 400/emote farmer 28/pause 2000/globalFade/viewport -1000 -1000/end warpOut",
+						"sandyShop": "pause 500/speak Sandy \"Ah, sure... let me get this mess cleaned up and I'll meet you up front in a lick.$s\"/pause 1500/friendship Sandy -25/end position 2 7",
+						"282815621/D Sandy/f Sandy 2500/t 2000 2350/n sandyDancing": "50s/4 6/farmer -10 -10 0 Sandy 2 5 2/pause 500/playSound doorClose/warp farmer 4 9/pause 200/emote Sandy 16/pause 400/speak Sandy \"Oh, hey there, @!\"/pause 300/move farmer 0 -2 3/move farmer -2 0 0/pause 500/speak Sandy \"You all ready for our big night out?$h\"/question fork1 \"#Sure am!#Not tonight, sorry.\"/fork notTonight/pause 500/emote Sandy 56/pause 500/speak Sandy \"Great!$h#$b#Let me close up the shop and we'll hop on the bus!$h\"/emote farmer 32/pause 1500/globalFade/viewport -1000 -1000/pause 1000/playSound busDriveOff/pause 1000/changeToTemporaryMap ClubZuzu/viewport -1000 -1000/warp farmer 10 10/faceDirection farmer 1/warp Sandy 11 10/faceDirection Sandy 3/playMusic poppy/viewport 12 9 true/ambientLight 0 0 0/pause 1500/emote Sandy 56/pause 500/speak Sandy \"Isn't this place fun?$h\"/pause 500/emote farmer 28/pause 1000/speak Sandy \"I love this song!$h#$b#@, let's dance!$h\"/pause 1000/globalFade/viewport -1000 -1000/pause 1500/warp farmer 18 6/warp Sandy 17 6/faceDirection farmer 3/faceDirection Sandy 1/viewport 17 7 true/playMusic poppy/pause 1500/emote Sandy 56/pause 500/message \"It's only been half an hour and Sandy has already had several drinks.\"/pause 800/emote Sandy 56/pause 500/speak Sandy \"Back to the dance floor, Mister!$4^Back to the dance floor, Missy!$4#$b#My body just wants to DANCE!$4\"/pause 1000/emote farmer 28/message \"Sandy can barely stand up by herself...\"/pause 1500/speak Sandy \"Well, aren't we going to DANCE?$7\"/pause 1000/question fork1 \"Should we stay?#Take Sandy home#Stay at Club Zuzu\"/fork stayAtClub/pause 1000/globalFade/viewport -1000 -1000/message \"You decide to take her home.\"/pause 500/playSound busDriveOff/pause 500/changeLocation SandyHouse/warp Sandy 32 7/showFrame Sandy 16/positionOffset Sandy 8 0 0/warp farmer 34 7/faceDirection farmer 3/playMusic none/ambientLight 0 0 0/viewport 34 6 true/pause 500/message \"You helped tuck Sandy in to bed.\"/pause 1000/emote Sandy 24/pause 500/message \"You should let her get some sleep.\"/pause 1500/speak Sandy \"Wait... @?$s\"/pause 500/emote farmer 8/pause 1500/speak Sandy \"...Thank you for bringing me home. What would I do without you...?$h\"/pause 1000/emote farmer 28/pause 1500/speak Sandy \"Hey... I love you.$4\"/pause 1000/question fork1 \"#I love you, too.#...You're drunk. Get some rest.\"/fork getRest/pause 1000/emote Sandy 24/pause 1000/message \"It's about time to head home. She'll be fine in the morning.\"/pause 1000/globalFade/viewport -1000 -1000/pause 500/mail morningAfter/end warpOut",
+						"notTonight": "pause 500/speak Sandy \"...Why'd you bother coming all the way out here if you were busy? Did you need to buy something?$s\"/pause 500/friendship Sandy -250/end dialogue Sandy \"What can I help you with...?$s\"",
+						"getRest": "pause 500/emote Sandy 12/pause 300/speak Sandy \"...$s\"/pause 1000/emote Sandy 24/pause 1000/message \"It's about time to head home. She'll be fine in the morning.\"/pause 1000/globalFade/viewport -1000 -1000/pause 500/friendship Sandy -250/end warpOut",
+			},
+			"When": {
+				"Date Sandy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Temp",
+			"Entries": {
+						"rejectGus": "pause 500/speak Gus \"Wh...what? You don't...?$s\"/pause 1500/speak Gus \"...Oh.$s\"/faceDirection Gus 2/pause 2000/emote Gus 40/pause 500/speak Gus \"Perhaps it's best if we cut our evening short, @. I'm... I'm not feeling well. I'm sorry.$s\"/pause 2000/globalFade/viewport -1000 -1000/changeLocation Farm/friendship Gus -500/end position 64 16",
+			},
+			"When": {
+				"Date Gus": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Temp",
+			"Entries": {
+						"keepKey": "pause 500/emote Lewis 60/speak Lewis \"Lin, I can't take this.$s\"/pause 300/speak Lin \"Sure you can. I'm in room 23.$1\"/pause 300/speak Lewis \"No, Lin. Take it back. I'm sorry.$s\"/pause 500/emote Lin 12/speak Lin \"Why can't you take it? I know you're not married, Lewis.$2\"/pause 500/emote Lewis 40/speak Lewis \"I'm interested in somebody else.$7\"/speak Lin \"You mean you have a kindergarten crush on somebody? It's not that fat old farmer lady you used to swoon over, is it?$2\"/emote Lewis 12/speak Lewis \"It's absolutely none of your business, Mayor Lin.$a\"/move Lewis 0 1 2/move farmer -1 0 1/move Lewis 0 3 2/warp Lewis -200 -200/move farmer 1 0 2/pause 500/emote farmer 40/speak Lin \"No way... He's not... He can't be... like THAT...$2^No way... I can't believe he's fallen for another woman... UGH!$2\"/pause 100/faceDirection farmer 0/emote farmer 28/pause 1000/globalFade/viewport -1000 -1000/changeToTemporaryMap zuzuInn/viewport -1000 -1000/warp Lin -111 -111/warp Lewis 11 5/faceDirection Lewis 1/viewport 13 7 true/pause 300/emote Lewis 12/pause 1000/faceDirection farmer 0/warp farmer 11 13/playSound doorClose/pause 2000/emote Lewis 40/pause 1000/move farmer 0 -7 0/pause 2000/faceDirection Lewis 2/speak Lewis \"I'm sorry you had to hear that, @.$s\"/pause 500/speak Lewis \"She's sort of an old friend... We've flirted in the past, but...$s\"/emote Lewis 40/speak Lewis \"It used to be in good fun. She's never been so pushy before.$a\"/pause 2000/speak Lewis \"$q -1 null#Anyhow... let's not to let that ruin our evening... eh?#$r -1 0 event_ruin1#Definitely! I'm starving.#$r -1 0 event_ruin2#I could use a drink after that...#$r -1 0 event_ruin3#Are you sure you're okay?\"/pause 2000/globalFade/viewport -1000 -1000/changeLocation Farm/viewport -1000 -1000/end position 64 16",
+						"lewisRelationship": "emote Lewis 16/speak Lewis \"That's right, Lin, we are. And we're leaving. Have a good night.$a\"/move Lewis 0 4 2/warp Lewis -222 -222/playSound doorClose/speak Lin \"Ugh! I can't believe this!$2\"/pause 100/move farmer 0 4 3/move farmer -1 0 2/move farmer 0 1 2/warp farmer -223 -223/playSound doorClose/emote Lin 12/pause 1500/globalFade/viewport -1000 -1000/changeToTemporaryMap zuzuInn/viewport -1000 -1000/warp Lin -121 -121/warp Lewis 11 5/faceDirection Lewis 3/warp farmer 12 5/faceDirection farmer 3/viewport 13 7 true/pause 1000/faceDirection Lewis 1/speak Lewis \"Thank you for sticking up for me, @... Even if you had to use that excuse.$7\"/pause 2000/emote Lewis 40/pause 500/speak Lewis \"Actually, @... I have a confession.$7#$b#You're the reason I didn't want to take Lin's offer...$7\"/emote farmer 16/speak Lewis \"@, I like you. I know I'm older than you are, but... I'm old enough to know what I want.$7#$b#And it's you.$4\"/emote farmer 56/pause 300/emote Lewis 56/pause 500/speak Lewis \"@, I'm so glad you came with me.$h#$b#Now, how about we go get some dinner? Our first date?$4\"/emote farmer 32/pause 2000/globalFade/viewport -1000 -1000/changeLocation Farm/viewport -1000 -1000/friendship Lewis 60/end position 64 16",
+			},
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Temp",
+			"Entries": {
+						"noButtermilk": "pause 500/emote Marnie 40/pause 500/speak Marnie \"You're right. I shouldn't have asked someone with so little experience...$s\"/pause 1500/playSound cow/emote Marnie 16/faceDirection Marnie 3/speak Marnie \"It's okay, girl. I'm right here.$s\"/pause 500/playSound cow/emote farmer 40/globalFade/viewport -1000 -1000/changeLocation Forest/viewport -1000 -1000/friendship Marnie -250/end position 99 23",
+						"rejectMarnie": "pause 1000/emote Marnie 40/pause 500/speak Marnie \"...Oh. No, I'm sorry...$3#$b#I shouldn't have assumed anything...$s\"/pause 1500/playSound cow/emote Marnie 16/move Marnie 0 1 3/move Marnie -1 0 3/speak Marnie \"It's okay, girl... I'm right here.$s\"/pause 2000/speak Marnie \"Mr. @... I'm sorry. Maybe it's best if you leave.$8^Ms. @... I'm sorry. Maybe it's best if you leave.$8\"/pause 500/emote farmer 40/globalFade/viewport -1000 -1000/changeLocation Forest/viewport -1000 -1000/friendship Marnie -250/end position 99 23",
+			},
+			"When": {
+				"Date Marnie": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Temp",
+			"Entries": {
+						"tooRomantic": "pause 500/emote Pam 40/pause 500/speak Pam \"I think that was the point, eh...?$s\"/pause 1000/speak Pam \"Y'got a problem with it...?$s\"/pause 500/emote farmer 60/pause 300/faceDirection Pam 1/emote Pam 12/pause 200/speak Pam \"Well... I guess I'll get this mess cleaned up then.$5\"/pause 500/speak Pam \"Well, what're you waiting for? Get out if you don't wanna be here.$5\"/emote farmer 28/pause 1000/friendship Pam -500/friendship Penny -250/end warpOut",
+			},
+			"When": {
+				"Date Pam": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Temp",
+			"Entries": {
+						"stayAtClub": "pause 500/globalFade/viewport -1000 -1000/playMusic none/pause 1000/message \"You danced with Sandy for a while longer, practically holding her up the entire time.\"/pause 500/warp farmer 10 10/faceDirection farmer 1/warp Sandy 11 10/faceDirection Sandy 3/viewport 12 9 true/playMusic shimmeringbastion/pause 1000/speak Sandy \"Y'know, @, I've been thinking...$7\"/pause 300/emote farmer 8/pause 500/emote Sandy 40/pause 1000/emote farmer 8/pause 300/speed Sandy 4/move Sandy 0 3 2/warp Sandy -10 -10/emote farmer 16/speed farmer 4/move farmer 1 0 2/speed farmer 4/move farmer 0 3 2/warp farmer -11 -11/pause 1000/speak Sandy \"*barf*$s\"/pause 1000/globalFade/viewport -1000 -1000/playMusic none/message \"Sandy threw up all over the sidewalk outside...\"/pause 1000/message \"You decide to take her home.\"/pause 1000/playSound busDriveOff/pause 1000/changeLocation SandyHouse/warp Sandy 32 7/showFrame Sandy 16/positionOffset Sandy 8 0 0/warp farmer 34 7/faceDirection farmer 3/playMusic none/ambientLight 0 0 0/viewport 34 6 true/pause 1500/message \"You helped her get clean and tucked her in.\"/pause 1500/emote Sandy 24/pause 1500/message \"You should let her get some sleep.\"/pause 1500/globalFade/viewport -1000 -1000/pause 500/pause 1000/end warpOut",
+			},
+			"When": {
+				"Date Sandy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Temp",
+			"Entries": {
+						"allReady": "pause 300/speak Willy \"Don't you get smart with me, skipper.$h\"/pause 500/emote farmer 32/pause 400/emote Willy 32/pause 2000/speak Willy \"Hey... Thanks for stoppin' by, skipper. I appreciate the company.\"/pause 1000/emote farmer 56/pause 2000/globalFade/viewport -1000 -1000/changeLocation FishShop/end warpOut",
+						"rejectWilly": "pause 2000/speak Willy \"...Oh. Skipper... I-I mean, @...$s\"/pause 1500/speak Willy \"I'm sorry. I thought...$s\"/pause 1500/speak Willy \"...I-it doesn't matter.$s\"/pause 2000/speak Willy \"...We're not catchin' much, are we...?$s\"/emote farmer 28/pause 1500/speak Willy \"...I'll row us back to the dock.$s\"/pause 2000/globalFade/viewport -1000 -1000/pause 1000/changeLocation FishShop/end warpOut",
+			},
+			"When": {
+				"Date Willy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"Entries": {
+						"282815610/D Lewis/e 282815607/f Lewis 2000/t 800 1159/w sunny": "jaunty/61 88/farmer 51 82 1 Lewis 65 86 3/skippable/showFrame Lewis 16/pause 2000/move farmer 3 0 2/move farmer 0 6 1/emote Lewis 16/showFrame Lewis 12/pause 300/speak Lewis \"Oh, good morning, @.\"/move Lewis 0 2 3/move farmer 10 0 1/speak Lewis \"What brings you here so early?$h\"/speak Lewis \"$q -1 null#What brings you here so early?#$r -1 0 event_lewisMorning1#I was just passing through.#$r -1 0 event_lewisMorning2#I came to see you.#$r -1 0 event_lewisMorning3#Sorry, I can't talk right now. I'm in a hurry.\"/pause 1000/speak Lewis \"I know this is kind of an awkward topic, but... I just...#$b#I want to be honest with you, @.$s\"/faceDirection Lewis 2/pause 1500/speak Lewis \"You knew that Marnie and I separated a while ago, correct?$s\"/pause 2000/faceDirection Lewis 3/speak Lewis \"The reason it happened was... well...\"/pause 800/speak Lewis \"I thought that Marnie had fallen in love with you, @.$s\"/pause 1000/speak Lewis \"You two had seemed to be getting along well lately, and Marnie seemed distant whenever she was with me.$s\"/question fork1 \"#Oh... I'm sorry.#That's not true. We were never that close.\"/fork notThatClose/pause 1000/speak Lewis \"...It's alright. It's in the past.$s\"/pause 500/speak Lewis \"But... I thought that the two of you might end up together...#$b#And I wanted to call it off before things got even more confusing.$s\"/pause 500/speak Lewis \"So... I wanted to ask.#$b#Were you and Marnie in love?$s\"/pause 100/speak Lewis \"$q -1 null#Were you and Marnie in love?#$r -1 0 event_loveMarnie1#Yes, but nothing ever came of it.#$r -1 0 event_loveMarnie2#Yes, but we stopped seeing each other.#$r -1 0 event_loveMarnie3#Yes, and we still are.#$r -1 0 event_loveMarnie4#No. We were just good friends.\"/pause 1500/faceDirection Lewis 1/pause 2000/faceDirection Lewis 3/pause 500/speak Lewis \"Well, @... Thank you for helping me piece together the truth. I'm glad to know I wasn't entirely crazy...\"/pause 1000/speak Lewis \"...Really, @. Thank you. It means a lot that you're honest with me, even when it's a little awkward.#$b#I'm very glad to have you as a friend.$4\"/pause 500/speak Lewis \"Now... don't let me hold you up any longer. We both have work to get back to.$h\"/friendship Lewis 50/end warpOut",
+						"notThatClose": "emote Lewis 12/pause 1000/speak Lewis \"...Oh. So I was wrong to begin with...$s#$b#This is awkward...$s\"/pause 1500/speak Lewis \"Well, thank you for being honest, @.$s#$b#Don't let me hold you up any longer. Have a nice day.$s\"/friendship Lewis -50/end warpOut",
+			},
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Trailer",
+			"Entries": {
+						"282815616/D Pam/f Pam 2000/t 1400 1800": "continue/14 6/farmer -30 30 0 Penny -40 -40 0 Pam 15 7 2/skippable/playSound doorClose/warp farmer 12 9/pause 100/emote Pam 16/faceDirection Pam 3/pause 200/speak Pam \"Oh! Hey there, @!$h\"/pause 200/emote farmer 32/move farmer 0 -1 1/move farmer 2 0 0/move farmer 0 -1 1/speak Pam \"I'm just fiddlin' with the antenna... Picture's not comin' in clear.\"/faceDirection Pam 2/pause 2000/playSound clank/speak Pam \"Ah, there we go. Nice 'n' clear.$h\"/faceDirection Pam 3/speak Pam \"So, what brings ya here to see an old girl like me?$h\"/pause 500/emote farmer 32/speak Pam \"Just visiting, eh? Great! Let me get us some coffee.$h\"/move farmer 0 -1 2/move Pam -4 0 0/move farmer 0 1 3/move farmer -1 0 3/pause 2000/emote Pam 12/speak Pam \"Stupid coffee maker's not plugged in...$5\"/pause 1000/emote Pam 12/speak Pam \"@, come reach around me and plug in that cord, will ya? I can't quite reach the outlet...\"/pause 300/move farmer -1 0 3/pause 500/faceDirection farmer 0/pause 2000/faceDirection Pam 1/faceDirection farmer 3/speak Pam \"Phew! That was more trouble than it shoulda' been!$h#$b#Penny musta' unplugged it this mornin' before she left...\"/pause 1000/emote Pam 40/speak Pam \"You're... standin' a little close to me, eh, @?$7\"/question fork1 \"#Stay close#Step back\"/fork tooClose/pause 500/speak Pam \"You're not scared, eh?$7#$b#Weird kid.$4\"/pause 1000/playSound doorClose/warp Penny 12 9/emote Penny 16/speak Penny \"Oh... Hi, mom. Hi, @...$2\"/faceDirection Pam 2/faceDirection farmer 2/pause 200/speak Pam \"What'sa matter, Penny?$s\"/pause 200/speak Penny \"...$5\"/pause 100/speak Pam \"Penny! The hell's the matter with you?$5\"/pause 1000/emote Penny 12/pause 1000/speak Penny \"Mom, this is so awkward! I can't handle it anymore!$s\"/emote Pam 8/speak Pam \"The hell're you talkin' about?$5\"/pause 1000/speak Penny \"This... this whole... whatever this is... with @!$s\"/pause 200/emote farmer 28/pause 500/speak Pam \"What the...? What do you think is goin' on here?$3\"/pause 100/speak Penny \"I already know.$s#$b#Mom, don't you think it's even a LITTLE bit weird that you're seeing someone the same age as your daughter?$s\"/pause 1000/emote farmer 28/pause 1000/speak Pam \"...$s\"/pause 1000/faceDirection Pam 1/speak Pam \"@... Sorry... maybe it's best if I stop by later.$s\"/pause 100/emote farmer 40/question fork1 \"What should I say?#Penny, you should respect your mom's decision.#Penny, you've got it all wrong.\"/fork wrongPenny1/faceDirection Pam 2/pause 1000/speak Penny \"...!$s\"/pause 1000/speed Penny 4/move Penny 0 -1 3/speed Penny 4/move Penny -6 0 0/speed Penny 4/move Penny 0 -3 3/speed Penny 4/move Penny -4 0 0/pause 500/speak Pam \"...$s#$b#I should probably go talk to 'er...$s\"/pause 100/emote farmer 60/pause 500/speak Pam \"Hey... it'll be okay. It's hard for kids to see their parents...#$b#...dating.$4\"/pause 1000/speak Pam \"So... I'll see ya later.$4\"/pause 2000/end warpOut",
+						"tooClose": "move farmer -1 0 3/pause 1000/speak Pam \"You didn't have to back up all quick like that, y'know...#$b#I was just kiddin'.\"/pause 200/playSound doorClose/warp Penny 12 9/emote Penny 16/speak Penny \"Oh... Hi, mom. Hi, @.\"/faceDirection Pam 2/faceDirection farmer 2/pause 200/speak Pam \"How was work, hun?\"/speak Penny \"Fine. I've got some papers to grade, though.\"/pause 100/speak Pam \"Well, don't let us stop ya.$h\"/speak Penny \"Nice to see you, @.\"/move Penny 0 -1 3/move Penny -6 0 0/move Penny 0 -3 3/move Penny -4 0 0/pause 500/speak Pam \"Well, I'll stop by the farm later, @.#$b#Gonna cook up some dinner for me 'n' the kiddo.#$b#See ya later.\"/pause 1200/end warpOut",
+						"wrongPenny1": "pause 500/faceDirection Pam 2/speak Penny \"...$s\"/pause 1000/speak Penny \"Do you think I'm stupid...?$s\"/faceDirection Penny 1/pause 2000/faceDirection Penny 0/speak Penny \"I guess it's none of my business anyways.$s\"/speed Penny 4/move Penny 0 -1 3/move Penny -6 0 0/move Penny 0 -3 3/move Penny -4 0 0/pause 1000/speak Pam \"...$s#$b#I should probably go talk to 'er...$s\"/pause 100/emote farmer 60/pause 500/speak Pam \"I'll see ya later, eh?$s\"/pause 1000/friendship Pam -100/end warpOut",
+						"282815618/D Pam/f Pam 2500/t 1200 2000/n pennyDinner": "musicboxsong/-1000 -1000/farmer -30 -30 0 Pam 12 8 0/skippable/changeToTemporaryMap niceTrailer/viewport 13 7 true/pause 500/playSound doorClose/warp farmer 12 9/emote Pam 16/faceDirection Pam 2/pause 200/speak Pam \"...That Penny, huh?$4#$b#Look at all this...$4\"/pause 500/move Pam 1 0 0/move Pam 0 -2 1/move farmer 0 -1 1/move farmer 1 0 0/move farmer 0 -1 1/pause 500/speak Pam \"Yep, that's my girl's work. No doubt about it.#$b#Frozen pizza. She can't cook for nothin'.$h\"/pause 500/faceDirection Pam 2/speak Pam \"Not bad though, eh? I'm glad she came around after all.#$b#I really like you, @. I wanna keep ya around.$4\"/faceDirection farmer 0/pause 500/question fork1 \"#I like you, too.#This seems kind of romantic...\"/fork tooRomantic/pause 500/emote Pam 20/pause 200/speak Pam \"I'm glad you're all mine, y'know that?$4#$b#I'm yours too, of course...$4\"/pause 300/emote farmer 56/pause 500/speak Pam \"We make a good pair.$h#$b#Now whaddya say let's eat? Looks like Penny brought out the good wine.$h\"/pause 1500/globalFade/viewport -1000 -1000/changeLocation Trailer/friendship Penny 150/end warpOut",
+			},
+			"When": {
+				"Date Pam": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/WizardHouse",
+			"Entries": {
+						"282815630/D Wizard/f Wizard 2000/t 1000 2000": "WizardSong/7 17/farmer 8 24 0 Wizard 3 19 2/skippable/pause 1000/speed Wizard 4/move Wizard 0 -1 1/speed Wizard 4/move Wizard 5 0 1/pause 300/emote Wizard 40/pause 1000/speed Wizard 4/move Wizard 0 -3 1/speed Wizard 4/move Wizard 3 0 1/pause 800/emote Wizard 12/pause 1000/faceDirection Wizard 2/pause 500/emote Wizard 40/pause 1000/speed Wizard 4/move Wizard -3 0 2/speed Wizard 4/move Wizard 0 5 1/speed Wizard 4/move Wizard 1 0 2/pause 500/emote Wizard 40/pause 1000/emote Wizard 36/pause 1000/move farmer 0 -2 0/emote farmer 8/pause 500/message \"It's like he doesn't even notice you...\"/pause 1000/move farmer 0 -2 1/faceDirection Wizard 3/emote Wizard 16/pause 500/speak Wizard \"Oh, it's just you.$10\"/pause 400/speak Wizard \"Sorry... You've caught me in the middle of something.$10\"/pause 400/emote farmer 8/pause 500/speed Wizard 4/move Wizard 0 -1 3/speed Wizard 4/move Wizard -6 0 2/faceDirection farmer 3/pause 500/emote farmer 40/pause 500/message \"He seems frantic.\"/pause 1000/emote Wizard 12/pause 1000/move farmer -2 0 0/move farmer 0 -1 3/move farmer -2 0 3/pause 500/emote Wizard 40/faceDirection Wizard 1/pause 500/speak Wizard \"You're still here?$10\"/pause 1000/faceDirection Wizard 2/pause 500/message \"He looks like he hasn't slept in days...\"/pause 500/question fork1 \"#Stay#Leave him alone\"/fork leaveWizard/pause 1000/emote Wizard 40/pause 500/speak Wizard \"@, you're in my way.$10\"/pause 200/emote farmer 28/pause 500/move farmer 0 -3 2/speed Wizard 4/move Wizard 0 -1 1/speed Wizard 4/move Wizard 5 0 1/pause 300/emote Wizard 40/pause 1000/speed Wizard 4/move Wizard 0 -3 1/speed Wizard 4/move Wizard 3 0 1/pause 800/emote Wizard 12/pause 1000/faceDirection Wizard 2/pause 500/emote Wizard 40/pause 1000/speed Wizard 4/move Wizard -3 0 2/speed Wizard 4/move Wizard 0 5 1/speed Wizard 4/move Wizard 1 0 2/pause 500/emote Wizard 40/pause 1000/emote Wizard 36/pause 1500/speak Wizard \"$q -1 null#He clearly needs sleep... What should I say?#$r -1 0 event_sleep1#How long have you been working? You look exhausted.#$r -1 0 event_sleep2#You look terrible. Come on, I'll put you to bed.#$r -1 0 event_sleep3#What are you doing? It looks interesting.\"/pause 1000/emote Wizard 12/pause 1500/speak Wizard \"Why isn't it working...?$11\"/pause 1000/speed Wizard 4/move Wizard 0 -1 3/speed Wizard 4/move Wizard -6 0 2/pause 1500/emote Wizard 40/pause 1000/speed Wizard 4/move Wizard 0 -1 1/speed Wizard 4/move Wizard 5 0 1/pause 300/emote Wizard 40/pause 1000/speed Wizard 4/move Wizard 0 -3 1/speed Wizard 4/move Wizard 3 0 1/pause 800/emote Wizard 12/pause 1000/faceDirection Wizard 2/pause 500/emote Wizard 40/pause 1000/question fork1 \"#Stop him#Leave\"/fork leaveWizard/pause 1000/move farmer 0 -1 1/move farmer 6 0 1/faceDirection Wizard 3/emote Wizard 8/pause 1000/emote Wizard 40/pause 1500/speak Wizard \"...Fine... I'll rest for a few minutes.\"/pause 300/emote farmer 32/pause 1000/globalFade/viewport -1000 -1000/changeLocation WizardHouseBasement/viewport -1000 -1000/warp Wizard 9 15/showFrame Wizard 51/positionOffset Wizard -10 0 0/warp farmer 7 15/faceDirection farmer 1/ambientLight 0 0 0/viewport 8 15 true/pause 2000/emote Wizard 24/pause 1500/emote farmer 40/pause 1500/message \"...Finally, he's asleep.\"/pause 2000/emote Wizard 24/pause 1500/message \"He'll be fine when he wakes up.\"/pause 2000/globalFade/viewport -1000 -1000/changeLocation WizardHouse/viewport -1000 -1000/mail wizardNap/friendship Wizard 50/end warpOut",
+						"leaveWizard": "pause 1000/message \"...Maybe it's best to leave him alone.\"/pause 500/emote Wizard 12/pause 400/speak Wizard \"CURSES!$11\"/pause 300/emote farmer 40/pause 1500/end dialogue Wizard \"I'll be fine. Leave me to my work.$11\"",
+						"282815631/D Wizard/f Wizard 2250/t 1000 2000": "moonlightJellies/7 17/farmer 8 24 0 Wizard 3 19 2/skippable/pause 200/move Wizard 5 0 2/speak Wizard \"Oh @. You're here.#$b#That's good! I was wanting to talk to you.$7\"/pause 300/move farmer 0 -2 0/move Wizard 0 2 2/speak Wizard \"I think it's about time you knew my true name. Don't you think?$3\"/pause 400/move Wizard 0 -3 0 true/speak Wizard \"M. Rasmodius. That's the name I gave you to start, and it is indeed my true name.$9\"/pause 400/move Wizard 1 0 1/speak Wizard \"But it is not my whole name.$8\"/move Wizard 0 4 3 true/speak Wizard \"Names have power, you see. So I have been very careful not to let anyone who would abuse it know.$5\"/faceDirection farmer 1/pause 400/speak Wizard \"I trust you enough to tell you.$6\"/faceDirection Wizard 2/speak Wizard \"Magnus. My name is Magnus.$4\"/faceDirection Wizard 3/speak Wizard \"Please. From now on, when we're alone, won't you please call me that?$6\"/end dialogue Wizard \"I never thought there'd be someone again who I'd trust this much.$4\"",
+						},
+			"When": {
+				"Date Wizard": "true",
+			},
+		},
+				{
+			"Action": "EditData",
+			"Target": "Data/Events/Woods",
+			"Entries": {
+						"282815628/D Wizard/f Wizard 2500/t 800 1700/n teachMagic": "Crystal Bells/10 10/Wizard 7 8 2 farmer 22 13 3/pause 500/viewport 9 9 true/pause 2000/move farmer -6 0 0/move farmer 0 -2 3/move farmer -7 0 0/move farmer 0 -3 3/faceDirection Wizard 1/pause 500/speak Wizard \"Ah, @. I'm glad to see you've come. Shall we begin?\"/pause 500/question fork1 \"#Yes! I'm ready.#Sorry, I'm just too busy.\"/fork noMagic/pause 500/speak Wizard \"Good!$7#$b#I've already prepared everything we will need.\"/pause 500/emote farmer 8/pause 500/speak Wizard \"Do not worry. It will soon become clear.$7\"/pause 1000/playMusic sweet/speed Wizard 2/move Wizard 1 0 1/pause 1000/speak Wizard \"@... This is a very difficult spell to master...\"/pause 500/speak Wizard \"...But I believe you have already cast it without knowing it.\"/pause 500/emote farmer 8/pause 1000/speak Wizard \"A... a charm. On my heart.$4\"/pause 400/emote farmer 16/pause 1000/speak Wizard \"I'm not sure exactly how you did it, but it's more powerful than any spell I've ever seen.$4\"/pause 500/speak Wizard \"@... It's made me feel things for you that I haven't felt in a very long time... perhaps ever.$4\"/pause 1000/speak Wizard \"I'm truly in love with you.$4\"/pause 1500/question fork1 \"#I feel the same way. I'm the one who cast the spell, aren't I?#I'm sorry...\"/fork rejectWizard/pause 1500/speak Wizard \"Yes... I suppose so.$6\"/pause 1000/emote farmer 32/pause 2000/speak Wizard \"This is where I often come to meditate, regain my focus...\"/pause 2000/speak Wizard \"Would you stay with me here awhile, @...?$4\"/pause 1000/emote farmer 56/pause 3000/globalFade/viewport -1000 -1000/end dialogue Wizard \"...I didn't really think you could cast magic, @. My apologies for the trickery.$4\"",
+						"noMagic": "pause 1000/emote Wizard 40/pause 500/speak Wizard \"Ah... I see. I suppose I understand. I, too, am very busy.$8#$b#Perhaps another time.$s\"/pause 1000/frienship Wizard -100/end warpOut",
+						"rejectWizard": "pause 1500/faceDirection Wizard 2/pause 1500/speak Wizard \"...I see. No need to apologize. This was...$4\"/pause 1500/speak Wizard \"...Never mind.$4\"/pause 2000/speak Wizard \"I... suppose I'll see you soon, @.$s\"/pause 2000/globalFade/viewport -1000 -1000/warp Wizard -10 -10/pause 1000/viewport 9 9 true/pause 1000/end warpOut",
+			},
+			"When": {
+				"Date Wizard": "true",
+			},
+		},
+				{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Clint",
+			"Entries": {
+						"danceRejection": "No thanks, I'm good.",
+						"Mon8": "Oh. It's nice to see you, @!$h",
+						"Mon10": "Hi, @! It's... it's nice to see you!$4",
+						"Tue10": "Oh... it's nice of you to stop by, @.$h#$e#No, I'm not too busy... it's been a slow week so far.",
+						"Wed8": "Oh! Uh... hi, @. I didn't hear you come in.$4#$e#What do you think of the weather lately...?",
+						"Wed10": "Need a tool upgraded?#$e#No...? Oh... you just came to say hi?$4",
+						"Thu10": "Hi, @! I'm happy you're here.$h#$e#It was getting a little lonely in here.",
+						"Fri8": "Uh... any plans for the weekend, @?$4",
+						"Fri10": "It's Friday... so that's good!#$e#The weekends are always nice...$h",
+						"Sat10": "You even come by on the weekends...$s#$e#Sorry... I just don't understand why.$4",
+						"Sun10": "Well, it's another busy week tomorrow.#$e#Good luck, @.$h",
+						"event_blacksmith1": "Um, okay. Great. Sorry, just give me a second...$s",
+						"event_blacksmith2": "Really? Great. Let me just grab my order sheet...",
+						"event_blacksmith3": "...Oh.$8#$b#...Really?$4",
+						"event_sadclint1": "O-oh. Thank you, @. That... that means a lot.$4",
+						"event_sadclint2": "You too, huh?$s#$b#Well... maybe we can be sad and lonely together.$h",
+						"event_iron1": "W-well, I don't come here too often...$s",
+						"event_iron2": "Uh, I, uh... I just finished up...$s#$b#Phew! I'm all tired out...$h",
+						"event_iron3": "Wh-wh-what? Why... Why not?$s",
+						"divorced": "...What do you need?$s",
+			},
+			"When": {
+				"Date Clint": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogueClint",
+			"FromFile": "assets/MarriageDialogueClint.json",
+			"When": {
+				"Date Clint": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Clint",
+			"Entries": {
+				"marriage_Mon.000": "Oh! Hi, honey. I'm working today, but I'll be home soon enough.",
+				"marriage_Wed.000": "Hi there, love. Need a tool upgrade?",
+				"marriage_Fri.000": "Thanks for visiting me at work, honey. It means a lot!",
+			},
+			"When": {
+				"Date Clint": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			"Entries": {
+						"danceRejection": "Ah, no. It's nice of you to ask though.",
+						"Mon8": "Hi, @!#$e#It's always nice to see you here." ,
+						"Mon10": "Mondays are the closest thing I get to a day off as a bartender.#$e#So thanks for coming by to see me. It can get lonely.$h" ,
+						"Tue10": "You work so hard, don't you, @?#$e#Sure, I work hard, too. But most of that is on the weekends.$h" ,
+						"Wed8": "I wish I could open a full time diner here in Pelican Town.#$e#I like bartending well enough, but cooking is where my passion really lies.$5" ,
+						"Wed10": "I wonder what it's like to work on a farm...$5#$e#I'm not sure how well I'd do. I'm not very physically fit.$s" ,
+						"Thu10": "Emily's been bothering me to hurry up and get married already...$5#$e#Maybe I will.$h" ,
+						"Fri8": "Sometimes I feel like I spend the entire week getting ready for Friday night.$5" ,
+						"Fri10": "Not that I think about it much, but...#$e#Considering that I'm here at the saloon all the time, it's hard to think about asking anyone on a date.$5#$e#Where could we go on Friday night that isn't here?$s#$e#Why mention it, you ask?#$e#...Just a thought.$4" ,
+						"Sat10": "If I do get married someday, you can be sure my husband will never go hungry.$h^If I do get married someday, you can be sure my wife will never go hungry.$h" ,
+						"Sun10": "Hmm...$5#$e#Say, have you ever been in love, @?#$e#What does it feel like?$4" ,
+						"event_fruit1": "Strawberries, eh? They are a delicious treat.$h" ,		
+						"event_fruit2": "Cherries, eh? Watch out for the pit.$h" ,
+						"event_fruit3": "Is that so? Wonderful. I'm not sure I could pick myself!$h" ,
+						"event_fruit4": "Oh, that's too bad.$s" ,
+						"divorced": "I wish you wouldn't come here.$a" ,						
+			},
+			"When": {
+				"Date Gus": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Gus",
+			"Entries": {
+				"marriage_Fri.000": "Oh, hello, dear. I'm getting the place ready for tonight.",
+				"marriage_Fri.001": "Things are getting more lively. Why don't you stay awhile, honey?$h",
+				"marriage_Sat.000": "Surprisingly, not so many people show up on Saturday. Mostly I just clean up last night's messes.",
+				"marriage_Sun.000": "Today's a short day, honey. I'll be home soon!",
+				"marriage_Mon.000": "Hi, honey. I'm getting some supplies for the saloon.$h",
+				"marriage_Mon.001": "This place isn't going to run itself. I'll see you tonight.",
+			},
+			"When": {
+				"Date Gus": "true",
+			},
+		},		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			"Entries": {
+						"Mon_inlaw_Pam": "Since you and Pam got together, I've seen her here a lot less.#$e#Normally I'd be down in the dumps at the loss of my best customer, but I'm glad she's happy.$h" ,
+			},
+			"When": {
+				"Date Pam": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogueGus",
+			"FromFile": "assets/MarriageDialogueGus.json",
+			"When": {
+				"Date Gus": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Lewis",
+			"Entries": {		
+						"danceRejection": "I can't. I'm the one in charge of the event.",
+					    "Mon8": "Oh, @! Hello.#$e#Today would be a nice day for a picic, wouldn't you say?" ,
+						"Mon10": "How have things been, @?#$e#I see you so often, yet I rarely remember to ask.$h" ,
+						"Tue10": "Ah, if it isn't farmer @.#$e#Again.$h#$e#Do you have any business here?" ,
+						"Wed8": "Nice to see you, @.#$e#We sure run into each other quite a lot, don't we?$h" ,
+						"Wed10": "Is it just a coincidence that we always seem to meet here...?$s" ,
+						"Thu8": "Ah... I'm not sure if you knew, but Marnie and I... we were sort of an item.#$e#We've separated.$s" ,
+						"Thu10": "You look very nice today, Mr. @.$4^You look very nice today, Miss @.$4" ,
+						"Fri8": "Some days being mayor feels very rewarding.#$e#Other days... well, I try not to think about those days.$s" ,
+						"Fri10": "The whole town will be at the saloon tonight.#$e#I'll buy you a drink if you drop by.$4" ,
+						"Sat10": "Last night sure was a doozy, eh?$h#$e#The saloon's always pretty crazy on Fridays.$h" ,
+						"Sun10": "You're doing a great job, @.#$e#I'm very proud of the work you've done here in Pelican Town.$h#$e#And... I'm proud to call you my dear friend, too.$4" ,
+						"event_lewisBreakup1": "I... I know. But I shouldn't have let myself get so close to y-- that person...$6" ,
+						"event_lewisBreakup2": "...Maybe a little.$4#$b#Still... no one deserves that.$s" ,
+						"event_lewisBreakup3": "Um... it's... it's not important. Maybe I'll tell you later...$s" ,
+						"event_lewisMorning1": "Oh, well it's nice to see you! Actually, it's strange you happened by...#$b#I was just thinking about how I wanted to speak to you." ,
+						"event_lewisMorning2": "Oh! Is that so?$4#$b#Well... actually, now that you're here, there's something I wanted to talk to you about." ,
+						"event_lewisMorning3": "Oh... could you spare just a moment? There's actually something I wanted to talk to you about.$s" ,
+						"event_loveMarnie1": "Oh... well, I'm sorry to hear that.$s" ,
+						"event_loveMarnie2": "Ah... so we've both experienced heartache from the same woman, eh?#$b#I'm sorry to hear that, @. Really.$s" ,
+						"event_loveMarnie3": "I-Is that so?$s#$b#Well... I'm glad to hear that.$a" ,
+						"event_loveMarnie4": "I'm not sure Marnie felt the same way...$s" ,
+						"event_relocate1": "Um, yes... We'll get it sorted out when we head down to the front desk.$s#$b#Well, let's get going, then." ,
+						"event_relocate2": "Certainly.#$b#For now we should head out! We can unpack this evening once we're back from the first round of meetings... And dinner, of course.$h" ,
+						"event_relocate3": "O-oh. I suppose you're right... No need to cause the staff extra trouble on our account.$4#$b#Well... let's head out, shall we? We don't want to be late...$7" ,
+						"event_ruin1": "I'm hungry, too. Let's get going, then. What are you in the mood for?" ,
+						"event_ruin2": "Me too...$s#$b#Well, I know some decent bars here, at least. Let's go." ,
+						"event_ruin3": "Huh...? Am I okay...?$s#$b#I... I'm just a little taken aback by Lin's behavior.$s#$b#I'll be fine, though...#$b#@... Thank you for being here with me. Let's go get a good dinner.$h" ,
+						"divorced": "Here on business, eh?$s" ,
+			},
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Lewis",
+			"Entries": {
+				"marriage_Mon.000": "Hello, dear. I'm here to check in with Pierre... and do some grocery shopping.$h",
+				"marriage_Mon.001": "Robin's business is booming as usual.",
+				"marriage_Wed.000": "Oh, hi, dear! I'm here checking on Marnie's business.",
+				"marriage_Wed.001": "Willy's shop sure is in a peaceful place.$h",
+				"marriage_Fri.000": "I always like coming to check on the library. It's a nice, quiet place.",
+				"marriage_Fri.001": "I'm here to collect Clint's business tax.",
+				"marriage_Fri.002": "I'm glad you're here, honey! Grab a drink and let's dance.$h",
+			},
+			"When": {
+				"Date Lewis": "true",
+			},
+		},		
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogueLewis",
+			"FromFile": "assets/MarriageDialogueLewis.json",
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Linus",
+			"Entries": {				
+						"danceRejection": "I'm... flattered, @. But it would cause too much of a scene. I'm sorry.$s" ,
+						"Mon8": "@!$h#$e#It's nice to see you. Stay for a while.$h" ,
+						"Mon10": "Hello, @.$h#$e#You should come over for dinner sometime.$7" ,
+						"Tue8": "How is the farm, @?" ,
+						"Tue10": "Living on a farm seems very sustainable.#$e#Not as sustainable as my tent, but...$h" ,
+						"Wed8": "Tell me more about yourself, @.#$e#You're a very interesting person.$h" ,
+						"Wed10": "I might be happy living on a farm someday...$6#$e#...Just a thought.$4" ,
+						"Thu8": "I trust you, @. You're a good friend.$h" ,
+						"Thu10": "You're very unique, @. I've never met someone quite like you before.$4" ,
+						"Fri8": "You've shown me so much kindness, @.#$e#I can never fully repay it, but here is a token of my thanks. [226 212 228 202 728]" ,
+						"Fri10": "What are you doing tonight, @?#$e#Come and visit me if you like.$h" ,
+						"Sat8": "I said I was happy by myself before, but I'm glad you're my friend, @.$h" ,
+						"Sun8": "I've been in Pelican Town for quite some time now.$6#$e#It might be time to leave soon...$s" ,
+						"Sun10": "I'm thinking about moving my tent soon...$6#$e#Not far, don't you worry!$h#$e#I've always thought living near the beach would be wonderful." ,
+						"summer_Mon10": "I don't suppose a young one like yourself has ever been married...?#$e#Just curious.$4" ,
+						"summer_Fri10": "Have you ever been in love, @?#$e#Love is a very beautiful thing. Cherish it if you are ever lucky enough to find it.$h" ,
+						"summer_Sat8": "Have you done any fishing lately?#$e#Fishing is a great way to relax, and a wonderful opportunity to spend time with another person.$h" ,
+						"summer_Sun8": "Fall is approaching...$s#$e#I'm thankful for the bounty from nature, but the cold weather makes it hard for me." ,
+						"summer_Sun10": "Summer is a great time to bathe in the river.#$e#Just make sure no one is around!$h" ,
+						"fall_Tue8": "Winter is right around the corner. Make sure to stay warm, @." ,
+						"fall_Wed8": "When the weather gets colder I leave my tent less an less.$s" ,
+						"fall_Wed10": "Hello, @. I hope you're prepared for the winter.#$e#It's supposed to be a rough one.$s" ,
+						"fall_Fri10": "We should have a picnic sometime to celebrate the bounty Yoba gives us in the fall.#$e#Don't forget the fresh grape wine.$h" ,
+						"winter_Mon8": "...$s#$e#Oh, hello, @." ,
+						"winter_Wed10": "Yoba is very gracious, but...#$e#Sometimes I wonder what it would be like if I had someone to share warmth with these long winter nights.$s" ,
+						"winter_Fri8": "Thankfully, I've yet to freeze to death in my tent.$h" ,
+						"winter_Sat10": "My tent gets lonely sometimes. Feel free to stop by any time, @.$h" ,
+						"event_dinner1": "I'm so glad you like it! I only use salt to season it - the trick is making sure the fish is freshly caught!$h" ,
+						"event_dinner2": "Well... I'm not exactly a five-star chef... but I tried.$s" ,
+						"event_embarrassing1": "I know that... but thank you, @. Sometimes I need a reminder myself.$h" ,
+						"event_embarrassing2": "Really...? That means so much to me, @.$4" ,
+						"divorced": "You have no reason to be here.$a" ,
+			},
+			"When": {
+				"Date Linus": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogueLinus",
+			"FromFile": "assets/MarriageDialogueLinus.json",
+			"When": {
+				"Date Linus": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Linus",
+			"Entries": {
+				"marriage_Wed.000": "The mountain misses me. We were there for each other for many years.",
+				"marriage_Wed.001": "My old fire's still burning.",
+				"marriage_Sat.000": "The forest is a lovely place. I never explored it much when I lived in the mountains.",
+				"marriage_Sat.001": "Fear not, my love. I'll be home soon enough.",
+			},
+			"When": {
+				"Date Linus": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Marnie",
+			"Entries": {	
+						"danceRejection": "Oh... I'm sorry, Mr. @... but no thank you.$s^Oh... I'm sorry, Ms. @... but no thank you.$s" ,
+						"Mon8": "You take great care of your animals, @.#$e#Trust me... I just know!" ,
+						"Mon10": "You... You're single, aren't you, @?$4#$e#Just curious!$4" ,
+					    "Tue8": "Isn't it a wonderful day, @?$h" ,
+						"Tue10": "Thanks for visiting, @!#$e#It's always nice to see you.$4" ,	
+					    "Wed8": "How are your animals?" ,
+						"Wed10": "Hi, @! Are you here to see Shane?#$e#...Oh, me?$4" ,
+						"Fri8": "Happy Friday, @! Any plans for the weekend?" ,
+					    "Fri10": "I'll be at the saloon tonight if you want to come see me.$h" ,
+						"event_marnieBreakup1": "I... I know. But I shouldn't have let myself get so close to y-- that person...$8" ,
+						"event_marnieBreakup2": "...Maybe a little.$4#$b#Still... no one deserves that.$s" ,
+						"event_marnieBreakup3": "Um... it's... it's not important. Maybe I'll tell you later...$s" ,
+						"event_marnieMorning1": "Oh, well it's nice to see you! Actually, it's strange you happened by...#$b#I was just thinking about how I wanted to speak to you." ,
+						"event_marnieMorning2": "Oh! Is that so?$4#$b#Well... actually, now that you're here, there's something I wanted to talk to you about." ,
+						"event_marnieMorning3": "Oh... could you spare just a moment? There's actually something I wanted to talk to you about.$s" ,
+						"event_loveLewis1": "Oh... well, I'm sorry to hear that.$s" ,
+						"event_loveLewis2": "Ah... so we've both experienced heartache from the same man, huh?#$b#I'm sorry to hear that, Mr. @. Really.$s^I'm sorry to hear that, Ms. @. Really.$s" ,
+						"event_loveLewis3": "I-Is that so?$s#$b#Well... I'm glad to hear that.$a" ,
+						"event_loveLewis4": "I'm not sure Mr. Lewis felt the same way...$s" ,
+						"divorced": "Oh... Do you have some business here...?$s" ,
+			},
+			"When": {
+				"Date Marnie": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogueMarnie",
+			"FromFile": "assets/MarriageDialogueMarnie.json",
+			"When": {
+				"Date Marnie": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Marnie",
+			"Entries": {
+				"marriage_Mon.000": "Hi, honey. Everything's going fine here at the shop... What a relief!",
+				"marriage_Wed.000": "@! How nice of you visit. Don't worry! I'll be home at 5.",
+				"marriage_Fri.000": "Oh, honey! Let's go to the saloon tonight! I get off at 5.",
+				"marriage_Fri.001": "Wine is such a great way to relax after work.",
+			},
+			"When": {
+				"Date Marnie": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pam",
+			"Entries": {
+						"danceRejection": "You'd ask an old lady like me to dance? What do you take me for?$a",
+						"Mon8": "I had Penny pretty young... I'm glad she turned out okay.$s" ,
+						"Mon10": "Hey, handsome.$h^Hey, beautiful.$h" ,
+						"Tue8": "Penny's father...?$s#$e#...It's a long story. We all do stupid things when we're young, right?$s" ,
+						"Wed8": "Oh, @... Need something?#$e#No...?$s" ,
+						"Wed10": "Hey, @. Just here for a visit?$h" ,
+						"Thu8": "I don't know why you waste your time talking to an old hag like me...$s" ,
+						"Fri8": "What do you want...?" ,
+						"Fri10": "You're really somethin', you know that, @?" ,
+						"Sat8": "Penny never goes out to the saloon...#$e#I'm glad. A smart girl like her has better things to do than go out and drink like a fish every night.$s" ,
+						"Sat10": "Hey. Glad you're here.$h#$e#Stay a while." ,
+						"Sun8": "Ugh... Tomorrow's Monday..." ,
+						"Sun10": "Hey... come visit me tomorrow. Penny'll be out teachin' the kiddos.#$e#We can be all alone.$7" ,
+						"divorced": "Get the hell outta here.$a" ,			
+			},
+			"When": {
+				"Date Pam": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialoguePam",
+			"FromFile": "assets/MarriageDialoguePam.json",
+			"When": {
+				"Date Pam": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Pam",
+			"Entries": {
+				"marriage_Sun.000": "I figured I'd come say hi to Penny.",
+				"marriage_Fri.000": "Hey, snookums. Figured I'd come give a nod to ol' Gus.",
+				"marriage_Tue.000": "Hey, sweetie pie. Just doin' some shopping.",
+				"marriage_Tue.001": "You need anything from here, sweetie?",
+				"marriage_Tue.002": "Hey, wait up for me, sweetie. I'm almost done here.",
+				"marriage_Tue.003": "Just gotta pay and I'll head home. See ya there, snookums.",
+				"marriage_Mon.000": "Hey, snookums. Need a ride to the desert?",
+				"marriage_Wed.000": "Hiya, sweetie pie. Another day of work... I'll be home before ya know it.",
+			},
+			"When": {
+				"Date Pam": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": {
+						"danceRejection": "Sorry, sweetie. Maybe next year.$h" ,
+						"Mon4": "Hey, @!$h#$e#How do you like it here in the desert?" ,
+						"Mon8": "Hi there, sweetie. You sure come by a lot!$h" ,
+						"Tue2": "Ah, it's such a peaceful day today...$h" ,
+						"Tue6": "How's your week going, sweetie?#$e#Tell me about it." ,
+						"Wed4": "Bring me something from your farm sometime, @! I know how successful you are.$h" ,
+						"Wed8": "Isn't it expensive, coming to the desert so often like you do?#$e#You must really like to see me, huh? Hmmm... $h" ,
+						"Thu8": "I bet you wish you knew my real name, huh?$h" ,
+						"Fri6": "Happy Friday, @!$h#$e#Oh... Farmers don't get much of a weekend, do they?$3" ,
+						"Fri10": "Ah, @. You're looking handsome today.^Ah, @. You're looking lovely today." ,
+						"Sat2": "@! Lovely to see you! How's life in the valley?" ,
+						"Sat6": "Oh, hello, sweetie!$h#$e#The weekends are always so slow... It's nice to see a familiar face!" ,
+						"Sat8": "It's Saturday... You'd better get going! I'm sure a handsome man like you has a date tonight!^It's Saturday... You'd better get going! I'm sure a lovely lady like you has a date tonight!" ,
+						"Sat10": "Say, honey, ever thought about moving to the desert? It's a nice place.$h" ,
+						"Sun4": "Have you seen Emily lately?#$e#We've known each other for quite some time.$h#$e#She actually designed my outfit!" ,
+						"Sun10": "You've been working hard, haven't you?#$e#I can tell.$7" ,
+						"divorced": "...What can I do for you?$s" ,
+			},
+			"When": {
+				"Date Sandy": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogueSandy",
+			"FromFile": "assets/MarriageDialogueSandy.json",
+			"When": {
+				"Date Sandy": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Strings/schedules/Sandy",
+			"FromFile": "assets/Sandy.json",
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Willy",
+			"Entries": {
+						"danceRejection": "No, skipper. This body is for fishin', not for dancin'.",
+						"Mon8": "I just finished cookin' up yesterday's catch.#$e#Here, have some! Tell me what y'think. [198 209 214 219]" ,
+						"Mon10": "Let's go off on a fishing trip sometime, @.#$e#I'll show you some o' my secrets.$h" ,
+						"Tue10": "My little ol' cottage gets lonely sometimes.#$e#It's nice when you visit, skipper.$4" ,
+						"Wed8": "I heard there's a mutant fish you can catch in the sewers.#$e#Too bad they're all locked up.$h" ,
+						"Wed10": "Even if you hated fishing, I'd still want you as a friend, skipper.$h" ,
+						"Thu10": "I smell a storm brewing...#$e#If you ever get stuck in the rain, you can wait it out in my cottage.$h" ,
+						"Fri8": "Sometimes I stop by the saloon on Friday nights.#$e#I don't drink much, but it gets a little too quiet in the shop during the week." ,
+						"Fri10": "You look pretty strong... It must be all the farm work.$4#$e#I bet you can cast a fishing line for miles.$4" ,
+						"Sat10": "Do y'think an old sailor like me'll ever find love?$4" ,
+						"Sun7": "Rainy days are best for fishin' trips.#$b#Let's go sometime, eh, skipper?$h" ,
+						"divorced": "...$s" ,
+			},
+			"When": {
+				"Date Willy": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogueWilly",
+			"FromFile": "assets/MarriageDialogueWilly.json",
+			"When": {
+				"Date Willy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Willy",
+			"Entries": {
+				"marriage_Tue.000": "Ahoy, my little angelfish. Whaddaya need?$h",
+				"marriage_Thu.000": "I'll be home early today, angelfish. Don't miss me too much.",
+				"marriage_Fri.000": "I'll be headin' to the saloon when I'm done here, skipper. You should come along.",
+				"marriage_Fri.001": "Ah, what a great way to relax. I'm glad you're here, skipper.$h",
+			},
+			"When": {
+				"Date Willy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+						"danceRejection": "Dance? With you...?$u#$e#I must decline. I hardly know the moves.$8" ,
+						"Mon2": "I suppose you're beginning to get to know the residents of this town.#$e#Funny that you seem to think that includes me.$s" ,
+						"Mon6": "Don't you have anything better to do than come interrupt my research?" ,
+						"Mon10": "Ah, the beginning of a new week. Let's hope it's a successful one.$7" ,
+						"Tue8": "If I'm perfectly honest, I don't mind living here.#$e#It's a quiet, peaceful place with an excess of magical energy for harvesting." ,
+						"Tue10": "Ah, @. I'm glad you're here.#$e#I found this in the forest yesterday. I thought perhaps you could use it. [404 709 280]" ,
+						"Wed2": "Hello, young @." ,
+						"Wed6": "Have you ever thought about studying magic, @?#$e#I'm only curious. I'm not sure you could do it anyway." ,
+						"Wed10": "Hello, love.$7#$e#Err, @. My apologies...$4" ,
+						"Thu4": "Ah, @. Bring you any interesting news?" ,
+						"Thu8": "I don't suppose you have a reason you're here so often...$s" ,
+						"Fri2": "I ask you to kindly leave me be. I have much work to do. It is nothing personal." ,
+						"Fri4": "The air smells like magic today. It's pleasant.$9" ,
+						"Fri10": "You are a very curious person, @.#$e#I've never met someone quite like you in my many years." ,
+						"Sat4": "You've already gained access to my basement. What else could you possibly want from me?$s" ,
+						"Sat8": "The valley is truly a wonderful place to study magic.$9" ,
+						"Sat10": "You visit so often these days... Is there a reason?$3" ,
+						"Sun4": "I have no need for mortal friends, I assure you.#$e#I suppose I appreciate the thought." ,
+						"Sun8": "I sincerely hope you succeed in your pursuits, @." ,
+						"Sun10": "I'm... glad to call you a friend, @. You're not like the other villagers.$4" ,
+						"event_sleep1": "...I'm not sure. Something like 3 days? 4 days now, perhaps?$11#$b#It's no matter. I need to sleep much less than someone like you.$10" ,
+						"event_sleep2": "What makes you think I'm unable to take care of myself?$11#$b#I need to sleep much less than somebody like you.$10" ,
+						"event_sleep3": "I'm not sure you would be apt to understand if I attempted to explain the complexities of the ritual I'm undertaking.$11" ,
+						"divorced": "You have no business here. Leave me be.$a" ,
+			},
+			"When": {
+				"Date Wizard": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogueWizard",
+			"FromFile": "assets/MarriageDialogueWizard.json",
+			"When": {
+				"Date Wizard": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Strings/schedules/Wizard",
+			"FromFile": "assets/Wizard.json",
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"FishShop.1": "Up here is Willy's apartment. I don't need to go up there right now.",
+			},
+			"When": {
+				"Date Willy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+				"Utility.cs.5371": "@... %spouse... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$h",
+				"Utility.cs.5377": "@... %spouse... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you wife and..., well, wife!$h",
+				},
+			"When": {
+				"Spouse": "Marnie, Pam, Sandy"
+				},
+			},
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"Spouseroom.1": "The furnace makes the room a little hot...",
+				"Spouseroom.2": "It's stocked with cookbooks.",
+				"Spouseroom.3": "This section seems to be classical literature.",
+				"Spouseroom.4": "Does Lewis really still use a typewriter...?",
+				"Spouseroom.5": "This room really is empty...",
+				"Spouseroom.6": "Lots of books about animals.",
+				"Spouseroom.7": "This is where Pam keeps her clothes.",
+				"Spouseroom.8": "It's off right now, but Pam seems to be fond of the shopping networks.",
+				"Spouseroom.9": "This is where Sandy keeps her (many) clothes.",
+				"Spouseroom.10": "Why aren't there any fish in here...?",
+				"Spouseroom.11": "An intricate, expensive-looking model ship.",
+				"Spouseroom.12": "Most of these are in languages you don't understand...",
+				"Spouseroom.13": "They're spellbooks, but they look strangely familiar to cookbooks...",
+				"Spouseroom.14": "...Is that a romance novel?!",
+				"Spouseroom.15": "What are these even for...? I'm too afraid to ask...",
+			},
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+		"rain": "700 WizardHouse 2 17 2/1200 WizardHouse 4 13 2/1900 WizardHouse 9 20 2",
+		"summer": "GOTO spring",
+		"fall": "GOTO spring",
+		"fall_26": "700 Town 51 60 2 \"Strings\\schedules\\Wizard:fall_26.000\"/1200 Town 26 29 2 \"Strings\\schedules\\Wizard:fall_26.000\"/1500 Town 20 62 2 \"Strings\\schedules\\Wizard:fall_26.000\"/1800 WizardHouse 9 20 2",
+		"fall_27": "700 Town 51 60 2/2200 WizardHouse 9 20 2",
+		"winter": "700 WizardHouse 2 17 2/1200 WizardHouse 4 13 2/1900 WizardHouse 9 20 2",
+		"spring": "700 WizardHouse 2 17 2/1000 Forest 21 27 2 \"Strings\\schedules\\Wizard:spring.000\"/1200 Woods 7 7 2 \"Strings\\schedules\\Wizard:spring.001\"/1700 WizardHouse 4 13 2/1900 WizardHouse 9 20 2",
+		"marriage_Thu": "800 WizardHouse 9 20 2 \"Strings\\schedules\\Wizard:marriage_Thu.000\"/1200 Woods 7 7 0 \"Strings\\schedules\\Wizard:marriage_Thu.001\"/1700 Forest 68 -1 0"
+}
