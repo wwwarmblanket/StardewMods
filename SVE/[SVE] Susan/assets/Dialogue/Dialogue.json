@@ -1,8 +1,8 @@
 ﻿
 {
 //SPECIAL DIALOGUE
-"Introduction": "I'm thankful Joja cleared the rockslide. Lewis and I went through so much trouble getting them to remove the rocks.$2#$b#Joja still refuses to apologize...$3#$e#I'll see you again soon, dear. I'm happy to have finally met you!$1#$b#It's lovely having another farmer in the valley.$4",
-
+"Introduction": "ฉันรู้สึกขอบคุณที่ โจจ้าจัดการกับหินถล่ม... เทศมนตรีเลวิสและฉัน เจอปัญหามากมาย... พวกเขาควรจัดการหินพวกนั้น$2#$b#โจจ้ายังคงปฎิเสที่จะขอโทษ...$3#$e#ไว้พบกันอีกครั้งเร็ว ๆ นี้้... ที่รัก ฉันมีความสุขมาก ในที่สุดฉันก็ได้พบคุณ!$1#$b#มันดีจริง ๆ ที่มีชาวไร่อีกคนอยู่ในหุบเขา$4",
+ 
 //SPECIFIC TILE DIALOGUE
 "SusanHouse_24_6": "ขอโทษที... ฉันกำลังพักผ่อน...$2",
 "SeedShop_14_20": "วิเศษมากที่ได้พบคุณ @! วันนี้ซื้อเมล็ดพันธุ์จากปิแอร์หรือเปล่า?$0",
@@ -10,24 +10,24 @@
 "ArchaeologyHouse_16_5": "ฉันมักจะอ้างอิงจาก คู่มือการประดิษฐ์ในห้องสมุด ถึงมันจะมีน้อย... แต่มันมีประโยชน์มาก$1",
 
 //SPRING AND GENERAL DIALOGUE
-"spring_1": "Ah! The beginning of spring, my favorite season. It's lovely seeing the flowers.$1#$e#Good luck farming this year!$0",
-"spring_12": "I helped Marnie and Emily paint the eggs for the Egg Festival tomorrow.$0#$e#Jas and Vincent helped too! They're absolute sweethearts!$1",
-"spring_23": "We're heading south of Cindersap Forest tomorrow for the Flower Dance Festival. Will you be joining?$0#$e#Gus is making most of the food!$1",
-"spring_28": "I've already planned which crops I'll be growing this summer.$0#$e#I'm sure you've done the same.$4",
+"spring_1": "อา! จุดเริ่มต้นของฤดูใบไม้ผลิ ฤดูกาลที่ฉันชอบ... มันดีมากที่กำลังจะได้เห็นดอกไม้$1#$e#ขอให้โชคดีในการทำฟาร์มปีนี้!$0",
+"spring_12": "ฉันช่วย Marnie และ Emily วาดไข่สำหรับ เทศกาลไข่อีสเตอร์ ในวันพรุ่งนี้$0#$e#แจสและวินเซนท์ ก็จะช่วยด้วย! พวกเขาเป็นคู่รักที่สมบูรณ์!$1",
+"spring_23": "วันพรุ้งนี้... เราจะมุ่งหน้าไปทางใต้ ของป่าซินเดอร์แซป เพื่อไปเทศกาลดอกไม้ คุณจะไปหรือปล่า?$0#$e#Gus กำลังทำอาหารให้ได้มากที่สุด!$1",
+"spring_28": "ฉันวางแผนไว้แล้วว่า ฉันจะ... ปลูกพืชชนิดใดในฤดูร้อนนี้$0#$e#ฉันมั่นใจว่า คุณก็คงทำแบบเดียวกัน$4",
 
 "Mon": "สวัสดี @. วันนี้ทั้งวัน... เป็นยังไงบ้าง?$0#$e#ดีใจที่ได้ยินเช่นนั้น!$1",
-"Mon4": "There's always so much to do at the start of a new week.$1",
+"Mon4": "มีหลายสิ่งที่ต้องทำ... เมื่อเริ่มสัปดาห์ใหม่...$1",
 "Mon8": "ยินดีที่ได้พบคุณ @. ฟาร์ม %farm เป็นอย่างไรบ้าง?$0#$e#ที่รัก.. ฉันอยากให้ฉัน มีพลังงานเหมือนกับคุณ$1",
 "Tue": "สวัสดี @. วันนี้คุณเป็นยังไงบ้าง?$0#$e#ยอดเยี่ยม!$1",
-"Tue4": "I walk up to the summit for exercise. The view there at sunset is positively magical.$0#$e#Have a nice day, dear.$0",
-"Tue8": "@! It's wonderful to see you. How are you today?$1#$e#I'm pleased to hear that. I need to do some number crunching tomorrow.$4",
-"Wed": "Hi, @. Having a productive day today?$0#$e#I may craft something new soon. Something to challenge myself!$1",
-"Wed4": "I have so much to do today, but so little time.$2#$b#How do you manage your time, @? You're always so busy.$0#$e#It's hard to keep up with you!$1",
-"Wed8": "Hello. I hope you're having a great day, @.$1#$e#I'll talk to you again soon, honey.$4",
-"Thu": "Hi. How are things?$0#$e#Keep up the good work.$1",
-"Thu4": "I may need to go get more hardwood from Grampleton soon. I'm running a bit short.$1#$e#Grampleton sells the highest quality wood in the Republic.$4",
-"Thu8": "Tomorrow is Friday. I wonder what Gus will cook for the saloon special?$0#$e#Gus never ceases to amaze me. His food gets more delicious every time.$1",
-"Fri": "*sigh*... Little sore today. Tweaked my back.$2#$e#Sorry, sweetie. Not the best time to talk.$2",
+"Tue4": "ฉันเดินขึ้นไปบนยอดเขา... เพื่อออกกำลังกาย ภาพพระอาทิตย์ตกของที่นั่น มีความวิเศษที่ทำให้รู้สึก... มีชีวิตชีวา$0#$e#ขอให้เป็นวันที่ดีนะ... ที่รัก$0",
+"Tue8": "@! มันเยี่ยมจริง ๆ ที่ได้พบคุณ วันนี้คุณเป็นยังไงบ้าง?$1#$e#ฉันรู้สึกยินดีจริง ๆ ที่ได้ยินแบบนั้น พรุ่งนี้ฉันต้องคำนวณ... งบประมาณจำนวนมาก... $4",
+"Wed": "ว่าไง @. วันนี้ก็เป็นวันที่มี การบริหารเวลาที่ยอดเยี่ยมอีกวัน?$0#$e#ฉันอาจประดิษฐ์อะไรใหม่ ๆ ขึ้นมาในไม่ช้า... บางอย่างที่ท้าทายตัวเอง!$1",
+"Wed4": "ฉันมีอะไรต้องทำมากมาย... แต่เวลามีน้อยมาก...$2#$b#คุณจัดการกับเวลาของคุณ... ได้ยังไง @? คุณดูยุ่งมาก ๆ $0#$e#มันยากมาก ที่จะทำตามคุณ!$1",
+"Wed8": "สวัสดี ฉันหวังว่าวันนี้ จะเป็นวันที่ดีสำหรับคุณนะ @.$1#$e#ที่รัก... ฉันจะคุยกับคุณใหม่อีกครั้ง ที่หลัง$4",
+"Thu": "สวัสดี เป็นยังไงบ้าง?$0#$e#ดีแล้วละ ทำต่อไปนะ$1",
+"Thu4": "เร็ว ๆ นี้ ฉันจะต้องไปหาไม้เนื้อแข็ง ที่แกรมเปิลตัน...  ฉันไปไม่นานหรอก$1#$e#แกรมเปิลตันเป็นที่ ที่มีไม้คุณภาพสูงสุดในที่แห่งนี้$4",
+"Thu8": "พรุ่งนี้วันศุกร์... ฉันสงสัยว่า กัสจะทำอาหารพิเศษอะไร ที่บาร์สตาร์ดรอป...$0#$e#กัสไม่เคยหยุดทำให้ฉัน... รู้สึกประหลาดใจ อาหารของเขา... อร่อยขึ้นทุกครั้ง$1",
+"Fri": "* ถอนหายใจ *...ฉันรู้สึกเจ็บนิดน่อย ที่หลังของฉัน$2#$e#ขอโทษนะที่รัก... ตอนนี้คงไม่ใช่เวลาที่ดี ที่จะพูดคุย$2",
 "Fri4": "I'm on track to finish everything I needed to this week. This weekend will be enjoyable.$1#$e#Enjoy your day, dear.$4",
 "Fri8": "Happy Friday, @! Any fun plans for the weekend?$0#$e#I may take the train to visit my brother in Chestervale. My plans aren't set in stone yet.$1#$e#Have a wonderful day!$4",
 "Sat": "You're such a hard worker, @.$0#$e#You should take breaks too. It's good for your health!$1",
