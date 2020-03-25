@@ -1,9 +1,9 @@
 ﻿
 {
   //SPECIAL DIALOGUE
-  "Introduction": "Oh my, aren't you a cutie! Welcome to the valley, dear.$6#$b#It's so exciting when someone new moves in!$1#$e#Have you met my son, Victor?$3",
-  "divorced": "You got what you wanted, so leave me alone.$5",
-  "secondChance_Girls": "...Revive things, @?$6#$b#Sweetie...I've worked hard to get past what you did to me. Marriage is...even more important to me than to most people. You know that.$2#$b#...I'm willing to try again, but this is the last time.$3#$b#I do love you, sweetie. I hope I'm not making a mistake trusting you again.$2",
+  "Introduction": "คุณพระ น่ารักจังเลย! ยินดีต้อนรับนะจ๊ะ ที่รัก.$6#$b#มันน่าตื่นเต้นมากที่ มีใครย้ายเข้ามาใหม่!$1#$e#เธอเคยเจอลูกชายของฉัน หรือยังจ๊ะ วิคเตอร์น่ะ$3",
+  "divorced": "ได้ของที่ต้องการแล้วนี่ งั้นก็ไปได้แล้ว.$5",
+  "secondChance_Girls": "...ตั้งสติหน่อย, @?$6#$b#ที่รัก... ฉันทำงานอย่างหนัก เพื่อลืมสิ่งที่เธอทำกับฉันไว้. การแต่งงาน... มันเป็นอะไรที่สำคัญมาก สำหรับฉัน. คุณก็รู้.$2#$b#... ฉันพร้อมที่จะทำมันอีกครั้ง แต่นี่จะเป็นครั้งสุดท้ายแล้ว.$3#$b#ฉันรักคุณนะที่รัก ฉันหวังว่าจะไม่ทำพลาด ที่จะเชื่อใจคุณอีกครั้งนะ.$2",
   "dumped_Girls": "Do you really have the audacity to be talking to me right now, @?$5#$b#I need some time after the way you treated me. And a drink.$2",
   "breakUp": "I knew this was a bad idea from the start.$2#$b#Thank you for being up front about your feelings.$0#$e#...$2",
   "stardrop_gift": "@. I put a special order in for this Stardrop fruit for you.$4#$b#It's as fresh as they come. I hope you enjoy it, sweetie. May it make your work a little easier.$3",
