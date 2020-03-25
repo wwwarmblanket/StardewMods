@@ -4,10 +4,10 @@
 "Introduction": "I'm thankful Joja cleared the rockslide. Lewis and I went through so much trouble getting them to remove the rocks.$2#$b#Joja still refuses to apologize...$3#$e#I'll see you again soon, dear. I'm happy to have finally met you!$1#$b#It's lovely having another farmer in the valley.$4",
 
 //SPECIFIC TILE DIALOGUE
-"SusanHouse_24_6": "Excuse me. I'm sleeping.$2",
-"SeedShop_14_20": "Wonderful to see you, @! Buying seeds from Pierre today?$0",
-"Summit_14_17": "Breathtaking view, isn't it?$0",
-"ArchaeologyHouse_16_5": "The library has a few crafting manuals I often reference. They're very helpful.$1",
+"SusanHouse_24_6": "ขอโทษที... ฉันกำลังพักผ่อน...$2",
+"SeedShop_14_20": "วิเศษมากที่ได้พบคุณ @! วันนี้ซื้อเมล็ดพันธุ์จากปิแอร์หรือเปล่า?$0",
+"Summit_14_17": "มันเป็นภาพที่น่าทึ่ง... ไม่ใช่หรอ?$0",
+"ArchaeologyHouse_16_5": "ฉันมักจะอ้างอิงจาก คู่มือการประดิษฐ์ในห้องสมุด ถึงมันจะมีน้อย... แต่มันมีประโยชน์มาก$1",
 
 //SPRING AND GENERAL DIALOGUE
 "spring_1": "Ah! The beginning of spring, my favorite season. It's lovely seeing the flowers.$1#$e#Good luck farming this year!$0",
@@ -15,10 +15,10 @@
 "spring_23": "We're heading south of Cindersap Forest tomorrow for the Flower Dance Festival. Will you be joining?$0#$e#Gus is making most of the food!$1",
 "spring_28": "I've already planned which crops I'll be growing this summer.$0#$e#I'm sure you've done the same.$4",
 
-"Mon": "Hello, @. How goes the day?$0#$e#Happy to hear that!$1",
+"Mon": "สวัสดี @. วันนี้ทั้งวัน... เป็นยังไงบ้าง?$0#$e#ดีใจที่ได้ยินเช่นนั้น!$1",
 "Mon4": "There's always so much to do at the start of a new week.$1",
-"Mon8": "Happy to see you, @. How's %farm Farm?$0#$e#Wonderful to hear, sweetie. I wish I had your energy.$1",
-"Tue": "Hello, @. How's your day?$0#$e#Wonderful!$1",
+"Mon8": "ยินดีที่ได้พบคุณ @. ฟาร์ม %farm เป็นอย่างไรบ้าง?$0#$e#ที่รัก.. ฉันอยากให้ฉัน มีพลังงานเหมือนกับคุณ$1",
+"Tue": "สวัสดี @. วันนี้คุณเป็นยังไงบ้าง?$0#$e#ยอดเยี่ยม!$1",
 "Tue4": "I walk up to the summit for exercise. The view there at sunset is positively magical.$0#$e#Have a nice day, dear.$0",
 "Tue8": "@! It's wonderful to see you. How are you today?$1#$e#I'm pleased to hear that. I need to do some number crunching tomorrow.$4",
 "Wed": "Hi, @. Having a productive day today?$0#$e#I may craft something new soon. Something to challenge myself!$1",
