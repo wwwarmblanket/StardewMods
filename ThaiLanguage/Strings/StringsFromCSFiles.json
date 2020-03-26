@@ -1449,7 +1449,7 @@
         "Slots.cs.12117": "วางเดิมพัน10",
         "Slots.cs.12118": "วางเดิมพัน100",
         "TargetGame.cs.12154": "Acc.: {0}%",
-        "TargetGame.cs.12157": "ความแม่นยำ: {0}%      {1} / {2} Succesful Shots",
+        "TargetGame.cs.12157": "ความแม่นยำ: {0}%      เข้าเป้า: {1} / {2}",
         "TargetGame.cs.12161": "x{0} Accuracy Multiplier!",
         "TargetGame.cs.12163": "ไม่ได้คะแนนโบนัสเรื่องความแม่นยำ",
         "GoblinPeasant.cs.12264": "ซุ่มโจมตี!",
