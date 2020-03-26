@@ -25,7 +25,7 @@
 "Wed4": "ฉันมีอะไรต้องทำมากมาย... แต่เวลามีน้อยมาก...$2#$b#คุณจัดการกับเวลาของคุณ... ได้ยังไง @? คุณดูยุ่งมาก ๆ $0#$e#มันยากมาก ที่จะทำตามคุณ!$1",
 "Wed8": "สวัสดี ฉันหวังว่าวันนี้ จะเป็นวันที่ดีสำหรับคุณนะ @.$1#$e#ที่รัก... ฉันจะคุยกับคุณใหม่อีกครั้ง ที่หลัง$4",
 "Thu": "สวัสดี เป็นยังไงบ้าง?$0#$e#ดีแล้วละ ทำต่อไปนะ$1",
-"Thu4": "เร็ว ๆ นี้ ฉันจะต้องไปหาไม้เนื้อแข็ง ที่แกรมเปิลตัน...  ฉันไปไม่นานหรอก$1#$e#แกรมเปิลตันเป็นที่ ที่มีไม้คุณภาพสูงสุดในที่แห่งนี้$4",
+"Thu4": "เร็ว ๆ นี้ ฉันจะต้องไปหาไม้เนื้อแข็ง ที่แกรมเปิลตัน...  ฉันไปไม่นานหรอก$1#$e#แกรมเปิลตันเป็นที่ ที่มีไม้คุณภาพสูงสุดในพื้นที่แห่งนี้$4",
 "Thu8": "พรุ่งนี้วันศุกร์... ฉันสงสัยว่า กัสจะทำอาหารพิเศษอะไร ที่บาร์สตาร์ดรอป...$0#$e#กัสไม่เคยหยุดทำให้ฉัน... รู้สึกประหลาดใจ อาหารของเขา... อร่อยขึ้นทุกครั้ง$1",
 "Fri": "* ถอนหายใจ *...ฉันรู้สึกเจ็บนิดน่อย ที่หลังของฉัน$2#$e#ขอโทษนะที่รัก... ตอนนี้คงไม่ใช่เวลาที่ดี ที่จะพูดคุย$2",
 "Fri4": "สัปดาห์นี้ฉันน่าจะทำทุกอย่าง เสร็จเรียบร้อย สุดสัปดาห์นี้จะต้องสนุกแน่นอน$1#$e#ขอให้สนุกกับวันหยุดนะ ที่รัก$4",
@@ -38,10 +38,10 @@
 "Sun10": "เมื่อคุณอายุมากขึ้น เวลาจะยิ่งผ่านไปไวขึ้นมาก...$0#$b#สนุกสนานกับทุกช่วงเวลา...$1#$e#อย่ามองข้ามเวลาที่เสียไป... ที่รัก...$0",
 
 //SUMMER DIALOGUE
-"summer_1": "Good luck this summer, @. Make sure your crops don't dry out in the heat!$0",
-"summer_10": "I'm bringing my highest quality melons tomorrow for the Luau, @! Chestervale melon seeds are the finest in the region.$1#$e#I'm positive whatever you're bringing will also be a welcome addition to the feast!$4",
-"summer_22": "Grampleton has the largest wheat fields in the Ferngill Republic. Wheat gets processed into beer, flour, and sugar.$0#$e#Even though it's cheap, you can make a good profit growing it because it's in such high demand.$0",
-"summer_28": "I have a terrible fear of the ocean. I only come to the beach at the end of summer to see the jellyfish.$2#$e#Those docks look like they could give way any minute. I'll be on the beach, where it's safe.$0",
+"summer_1": "ขอให้โชคดีกับช่วงฤดูร้อน @. อย่าลืมตรวจสอบล่ะ! ว่าพวกพืชจะไม่ขาดน้ำ เพราะอากาศร้อนนะ!$0",
+"summer_10": "สำหรับลัวร์ในวันพรุ่งนี้ฉันจะ เอาแตงโมที่คุณภาพดีที่สุดไป @! เชสเตอร์เวล เป็นที่ที่มีเมล็ดแตงโม ที่ดีที่สุดอยู่$1#$e#ฉันมั่นใจอะไรที่คุณนำไป ต้องเป็นสิ่งที่ น่ายินดีสำหรับงานเลี้ยงแน่!$4",
+"summer_22": "แกรมเปิลตัน มีทุ่งข้าวสาลีที่ใหญ่ที่สุดใน พื้นที่เฟิร์นกิล ข้าวสาลีสามารถแปรรูปเป็น เบียร์ แป้ง น้ำตาล$0#$e#ถึงราคาจะถูก แต่มันทำกำไรได้ดี เพราะมันเป็นที่ต้องการมาก$0",
+"summer_28": "ฉัน... กลัวมหาสมุทรมาก ฉันมาที่ชายหาด ตอนช่วงปลายฤดูร้อน... เพื่อดูแมงกะพรุนเท่านั้น...$2#$e#ท่าเทียบเรือดูเหมือน... จะใช้ได้อีกไม่กี่นาที... ฉันจะไปที่ชายหาด ซึ่งมันปลอดภัยกว่า...$0",
 
 "summer_Mon": "Clint is almost finished upgrading my hoe.$0#$b#It'll improve the efficiency of my morning chores on the farm.$1", 
 "summer_Mon2": "There's a family of birds that like to nest on the roof of my house.$0#$e#Maybe my next crafting project will be a bird feeder.$1",
