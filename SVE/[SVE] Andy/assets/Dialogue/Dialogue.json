@@ -11,11 +11,11 @@
   "JojaMart": "โจจ้ามีผลิตภัณฑ์ที่ดีที่สุดและราคาถูกที่สุด ถ้าฉันต้องเข้าร่วมกับร้านปีแอร์ฉันจะออกไปทำธุรกิจ$2",
   
   //SPRING AND GENERAL DIALOGUE
-  "spring_1": "Not now, farmer. Busy. Start of a new season!$1#$e#Go get some dirt on ya. Best of luck.$3",
-  "spring_7": "Spring onions sprout outta the ground on the road outside my farm durin' spring.$0#$e#If I can grab several of 'em, I can make a good meal!$1",
-  "spring_12": "You participatin' in the egg hunt tomorrow, @?$3#$e#You should do the right thing and let Vincent or Jas win. That's what I would do.$0#$e#I don't understand why you, Sam, and Abigail participate. It's unfair to the kids.$2",
-  "spring_18": "Fairhaven Farm prides itself in supplyin' a lot of forage to the surroundin' provinces.$0#$b#George in particular buys all my leeks.$3#$e#George loves leeks, @. If you wanna get on his good side, give him a leek or two. You'll see that face of his beamin'.$0",
-  "spring_23": "We're goin' into the forest tomorrow for the Dance Festival, farmer. I know my way in and out with my eyes closed.$1#$e#Maybe I'll find some good forage on our way there.$3",
+  "spring_1": "ไม่ใช่ตอนนี้ชาวไร่ ไม่ว่าง เริ่มฤดูกาลใหม่!$1#$e#รับโคลนไป ขอให้โชคดี$3",
+  "spring_7": "หัวหอมฤดูใบไม้ผลิงอกขึ้นมาบนพื้นด้านนอกฟาร์มของฉันในช่วงฤดูใบไม้ผลิ$0#$e#ถ้าฉันสามารถเก็บพวกมันได้เยอะ ฉันสามารถทำอาหารที่ดีได้!$1",
+  "spring_12": "คุณมีส่วนร่วมในการล่าไข่ในวันพรุ่งนี้ @?$3#$e#คุณควรทำสิ่งที่ถูกต้องและปล่อยให้วินเซนท์หรือแจสชนะ นั่นคือสิ่งที่ฉันจะทำ$0#$e#ฉันไม่เข้าใจว่าทำไมคุณกับแซมและอบิเกลถึงเข้าร่วม มันไม่ยุติธรรมกับเด็กๆ$2",
+  "spring_18": "ฟาร์มแฟร์เฮเวนภูมิใจในการจัดหาอาหารสัตว์จำนวนมากให้กับภูมิภาคโดยรอบ$0#$b#จอร์จซื้อเฉพาะกระเทียมของฉันทั้งหมด$3#$e#จอร์จชอบกระเทียมมาก @. หากคุณต้องการที่จะได้เห็นด้านที่ดีของเขา มอบหนึ่งหรือสองกระเทียมให้ คุณจะเห็นใบหน้าที่ยิ้มแย้มสดใสของเขา$0",
+  "spring_23": "เราจะเข้าไปในป่าในวันพรุ่งนี้เนื่องจากเป็นเทศกาลเต้นรำนะชาวไร่ I know my way in and out with my eyes closed.$1#$e#Maybe I'll find some good forage on our way there.$3",
   "spring_28": "I heard on the news the summer heat this year will be more intense than an egg on a skillet.$0#$e#Make sure your crops are watered thoroughly, @. Wouldn't want your crops dyin'.$2",
 
   "Mon": "... Hi.$0#$e#What d'you want?$2#$e#I'm not handin' out any of my seeds or crops.$2",
