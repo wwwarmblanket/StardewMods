@@ -2,23 +2,23 @@
 "Introduction": "Ah, it's farmer @. Welcome to the valley. My name is Morris, manager of the Joja Mart in Pelican Town.$0#$b#If you need cheap, quality seeds, there's no better place than Joja Mart!$1#$e#I wouldn't bother with Pierre's store. Joja seeds are much better than his.$3",
 
 //SPECIFIC TILE DIALOGUE
-"Town_43_59": "50 percent off coupons! Come get them while they last!$1",
-"Town_44_59": "Buy a Joja Membership today and save big on your next purchase!$1",
-"Town_42_59": "Stocking up on seeds for next season? Find the town's cheapest seeds at Joja Mart!$1",
-"Town_43_60": "At Joja, we consider everyone part of our family.$1",
+"Town_43_59": "คูปองลดราคา 50 เปอร์เซนต์ ! มารับไปตอนที่ยังมีอยู่!$1",
+"Town_44_59": "สมัครสมาชิกโจจ้าวันนี้ และรับส่วนลดจำนวนมาก ในการซื้อครั้งหน้า!$1",
+"Town_42_59": "กำลังกักตุนเมล็ดพันธุ์ สำหรับฤดูถัดไปงั้นหรอ? มาหาซื้อเมล็ดพันธุ์ที่ ถูกที่สุดในเมืองได้ที่ ร้านโจจ้า!$1",
+"Town_43_60": "ที่โจจ้า พวกเราเห็นคุณเป็น ส่วนหนึ่งของครอบครัวเรา$1",
 
 //SPRING AND GENERAL DIALOGUE
 
-"spring_1": "This year will be the best year yet for Joja Corp.$1#$b#Our profits have done nothing but go up and up. I look forward to my stock options paying out.$4",
-"spring_12": "Mayor Lewis always ropes off the Joja side of town during festivals.$3#$e#No. I will not participate in the egg hunt.$3",
-"spring_23": "No. I'm not attending that dance festival.$3#$e#...$2",
-"spring_28": "Almost time to change the stock in the store. I'm looking forward to the summer season.$0",
+"spring_1": "ปีนี้จะเป็นปีที่ดีที่สุด สำหรับบริษัทโจจ้า$1#$b#กำไรของเราเพิ่มขึ้นเรื่อย ๆ เลย ผมตั้งตารอส่วนแบ่งกำไร จากหุ้นของบริษัทเลยล่ะ$4",
+"spring_12": "นายกเทศมนตรีเลวิสมักจะ เอาเชือกมากั้นบริเวณ พื้นที่ของโจจ้าในช่วงที่ จัดงานเทศกาลตลอดเลย$3#$e#ไม่ ผมจะไม่เข้าร่วมกิจกรรมล่าไข่$3",
+"spring_23": "ไม่ ผมไม่เข้าร่วม เทศกาลเต้นรำนั่นหรอก$3#$e#...$2",
+"spring_28": "กำลังจะถึงเวลาที่ต้อง เปลี่ยนสินค้าที่เก็บไว้ในร้านแล้ว ผมกำลังรอฤดูร้อนอยู่ล่ะนะ$0",
 
-"Mon": "And another productive work week begins. I hope Shane performs better this week than last.$0#$e#I swear that boy gets lazier every day. Maybe I'll dock his pay.$3",
-"Mon2": "Have you picked up any of our seeds this season, @?$1#$b#They really are high-quality. Just ask Andy, if you don't believe me!$4",
-"Mon6": "Keep up the good work, @.$1", 
-"Tue": "If you need cheap seeds, there's no better place than Joja Mart.$5",
-"Tue2": "I have a giant stack of accounting to get through today.$0#$b#Lot's of people think paperwork is boring. I wouldn't call it exciting, but I do like to see the numbers balance out when we're running the store efficiently.$4",
+"Mon": "และอีกสัปดาห์ที่จะ ทำผลงานได้มากมาย ก็เริ่มต้นแล้ว ผมหวังว่าสัปดาห์นี้เชนจะ ทำงานได้ดีกว่าที่ผ่านมา$0#$e#ผมสาบานได้ เด็กคนนั้นขี้เกียจขึ้นทุกวัน บางทีผมอาจจะหัก เงินเดือนเขา$3",
+"Mon2": "คุณได้ซื้อเมล็ดพันธุ์ สำหรับฤดูนี้ของเรารึยัง @?$1#$b#พวกมันเป็นสินค้าคุณภาพสูง ถ้าคุณไม่เชื่อผมก็ลอง ถามแอนดี้ดูสิ!$4",
+"Mon6": "คุณทำงานได้ดีแล้ว ทำต่อไปนะ @$1", 
+"Tue": "ถ้าคุณต้องการ เมล็ดพันธุ์ราคาถูก มันไม่มีที่ไหนดีไปกว่า ร้านโจจ้า$5",
+"Tue2": "วันนี้ผมมีบัญชีกองยักษ์ ที่ต้องตรวจ$0#$b#ใครหลายคนคิดว่า งานเอกสารน่าเบื่อ ผมจะไม่เรียกมันว่า น่าตื่นเต้นหรอกนะ แต่ผมชอบการได้เห็น ตัวเลขมันสมดุลกัน ในตอนที่เราเปิดร้าน อย่างมีประสิทธิภาพจริง ๆ $4",
 "Tue8": "You set a good example the other farmers in the valley should follow.$1#$e#Keep up the good work, and don't forget to shop at Joja!$1",
 "Wed": "Pierre's store is closed today. Might as well shop at Joja!$5#$e#Our products are far superior to anything he sells.$3",
 "Wed2": "Pierre takes a day off on Wednesdays. Unfortunately for him, I work every day of every week!$5#$e#Now is the perfect opportunity to pick up some of our seeds!$1",
