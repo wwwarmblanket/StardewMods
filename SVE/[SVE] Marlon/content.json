@@ -15,7 +15,7 @@
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-      "MarlonFay": "This is a mighty gift, @. Thank you./244 413 437 439 680/Thanks. I'll find some use of this./346 303 348 459 205 422 287 288/Hmmm... that will be a hard pass. My apologies./-81/This unfortunately doesn't suit me./-80 283 233/Thanks./286 424 426 436 438 803 184 186 420 -28/"
+      "MarlonFay": "นี่เป็นของขวัญที่ทรงพลังมากเลย @ ขอบคุณเจ้ามาก/244 413 437 439 680/ขอบใจนะ ข้าจะหาทางใช้เจ้านี่เอง/346 303 348 459 205 422 287 288/ฮืมม... นั่นคงจะบอกว่าผ่านได้ยากหน่อยละนะ ขอโทษด้วย/-81/โชคร้ายที่สิ่งนี้คงไม่เหมาะกับข้า/-80 283 233/ขอบใจ/286 424 426 436 438 803 184 186 420 -28/"
       }
     },
 	
@@ -72,12 +72,12 @@
      "Action": "EditData",
      "Target": "Strings/SpeechBubbles",
      "Entries": {
-     "AdventureGuild_Marlon_Greeting_Male": "He's back!",
-     "AdventureGuild_Marlon_Greeting_Female": "She's back!",
-     "AdventureGuild_Marlon_Greeting1": "Need a new sword?",
-     "AdventureGuild_Marlon_Greeting2": "Greetings.",
-     "AdventureGuild_Marlon_Greeting3": "Greetings.",
-     "AdventureGuild_Marlon_Greeting4": "Good evening.",
+     "AdventureGuild_Marlon_Greeting_Male": "เขากลับมาแล้ว!",
+     "AdventureGuild_Marlon_Greeting_Female": "นางกลับมาแล้ว!",
+     "AdventureGuild_Marlon_Greeting1": "สนใจดาบใหม่มั้ยละ?",
+     "AdventureGuild_Marlon_Greeting2": "ทักทายนะ",
+     "AdventureGuild_Marlon_Greeting3": "สวัสดี",
+     "AdventureGuild_Marlon_Greeting4": "สวัสดียามเย็น",
       }
      },
 	
@@ -129,17 +129,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Horror films test my integrity. Let us procure our seats.$0"
+            "Text": "หนังสยองขวัญนี่มันทดสอบความมั่นคงของข้า พวกเราจงหาที่นั่งกันเถอะ$0"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "No jump scare will get to me...$2"
+            "Text": "ผีตุ้งแช่น่ะไม่ได้กินข้าหรอก...$2"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Thank you kindly for the invite, @. That was quite enjoyable.$0"
+            "Text": "ขอบใจเจ้ามากนะ @ สำหรับคำเชิญ มันจรรโลงใจใช้ได้เลยล่ะ$0"
           }
         },
         "ID": "reaction_2"
@@ -152,7 +152,7 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "This genre of film is not my favorite, but I'll give it a go...$2"
+            "Text": "หนังแนวนี้ไม่ใช่แนวโปรดข้าเลย แต่ข้าจะลองดูก็ได้...$2"
           },
           "DuringMovie": {
             "ResponsePoint": null,
@@ -162,7 +162,7 @@
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Hmm. I don't have much to say about the film...$0"
+            "Text": "อืมม ข้าไม่รู้จะพูดอะไรเกี่ยวกับหนังนี่ดี...$0"
           }
         },
         "ID": "reaction_3"
@@ -175,13 +175,13 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Well. Let us grab seats post haste, @."
+            "Text": "เอาล่ะ เราไปหาที่นั่งโดยไวกันเถิด @"
           },
           "DuringMovie": null,
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Interesting film. Acting was a little sub-par, though."
+            "Text": "เป็นหนังที่น่าสนใจ แต่การแสดงยังต่ำกว่ามาตรฐานไปหน่อยนะ"
           }
         },
         "ID": "reaction_4"
@@ -194,13 +194,13 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Hmm. There's something magical about this theater. I can feel it in the air...$0"
+            "Text": "หืมม โรงหนังนี่มันดูมีมนต์ขลังนะ ข้าสัมผัสถึงไอเวทย์ได้...$0"
           },
           "DuringMovie": null,
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I was engrossed in the film. Thank you kindly for the invite, @."
+            "Text": "ข้าเหมือนหลุดเข้าไปในหนังเลย ขอบใจเจ้าจริงๆ นะที่ชวนมา @"
           }
         },
         "ID": "reaction_5"
@@ -213,7 +213,7 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Well. Let's watch the movie, @.$1"
+            "Text": "เอาล่ะ @ มาดูหนังกันเถิด$1"
           },
           "DuringMovie": {
             "ResponsePoint": null,
@@ -223,7 +223,7 @@
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Hmm. I didn't pay too much attention.$0"
+            "Text": "หืมม ข้าไม่ค่อยได้สนใจเท่าไหร่น่ะ$0"
           }
         },
         "ID": "reaction_6"
@@ -240,7 +240,7 @@
 	 "Action": "EditData",
      "Target": "Data/Festivals/spring13",
      "Entries": {
-	 "MarlonFay": "Even with my bad leg, I never miss a town festival.",
+	 "MarlonFay": "ถึงขาข้าจะไม่ดี ข้าก็ไม่เคยพลาดงานเทศกาลของเมืองเลยนะ",
 		}
 	},
 	
@@ -248,7 +248,7 @@
 	 "Action": "EditData",
      "Target": "Data/Festivals/spring24",
      "Entries": {
-	 "MarlonFay": "Marnie looks lovely today...",
+	 "MarlonFay": "มาร์นีดูงามจังนะวันนี้...",
 		}
 	},
 	
@@ -256,7 +256,7 @@
 	 "Action": "EditData",
      "Target": "Data/Festivals/summer11",
      "Entries": {
-	 "MarlonFay": "I'll be back here by the trees... the air is a lot cooler.",
+	 "MarlonFay": "ข้าจะอยู่ใต้ต้นไม้นี่ล่ะ... อากาศมันเย็นสบายกว่ามากเลย",
 		}
 	},
 	
@@ -264,7 +264,7 @@
 	 "Action": "EditData",
      "Target": "Data/Festivals/fall16",
      "Entries": {
-	 "MarlonFay": "Clint's blades get sharper every year.#$e#So do his prices...$2",
+	 "MarlonFay": "ใบมีดของคลินท์นี่คมขึ้นทุกปีจริงๆ#$e#ราคาของมันก็ด้วย...$2",
 		}
 	},
 	
@@ -272,7 +272,7 @@
 	 "Action": "EditData",
      "Target": "Data/Festivals/fall27",
      "Entries": {
-	 "MarlonFay": "Took a mighty amount of effort to catch these monsters.$2#$b#Most of the credit goes to the Castle Village adventurers.#$e#Don't get too close to the cage."
+	 "MarlonFay": "ใช้แรงไปเยอะเลยในการจับมอนสเตอร์พวกนี้$2#$b#ต้องยกความดีความชอบส่วนใหญ่ให้กับเหล่านักผจญภัยจากแคสเซิลวิลเลจล่ะนะ#$e#อย่าเข้าใกล้กรงมากเกินไปล่ะ"
 		}
 	},
 	
@@ -280,7 +280,7 @@
 	 "Action": "EditData",
      "Target": "Data/Festivals/Winter8",
      "Entries": {
-	 "MarlonFay": "If you spot any frost slimes, alert me.$0#$e#We're deep in the forest. Anything can be out there in the woods.",
+	 "MarlonFay": "ถ้าเจ้าเห็นสไลม์เกล็ดหิมะ แจ้งข้าเลยนะ$0#$e#กลางป่าลึกแบบนี้จะมีอะไรโผล่มาก็ได้ทั้งนั้นล่ะ",
 		}
 	},
 	
@@ -288,7 +288,7 @@
 	 "Action": "EditData",
      "Target": "Data/Festivals/Winter25",
      "Entries": {
-	 "MarlonFay": "Hey, good afternoon."
+	 "MarlonFay": "ไง สวัสดียามบ่ายนะ"
 		}
 	},	
 	 
@@ -297,7 +297,7 @@
 	 "Action": "EditData",
 	 "Target": "data/events/adventureguild",
 	 "Entries": {
-     "1000034/e 100162/j 8": "MarlonsTheme/-500 -500/farmer 6 19 0 MarlonFay 6 13 2/pause 500/showFrame MarlonFay 17/viewport 6 14 true/skippable/playSound doorClose/pause 800/shake MarlonFay 600/textAboveHead MarlonFay \"You've proven yourself!\"/pause 150/move farmer 0 -4 0/pause 700/showFrame MarlonFay 0/pause 600/speak MarlonFay \"You've ventured into the mines with utmost courage, @!#$b#We could use someone with your skills. Do you want to join the Adventurer's Guild?\"/pause 1000/jump farmer/pause 800/jump farmer/pause 1200/speak MarlonFay \"@...$2#$b#Do you swear under oath, to protect humanity from monsters, and to do everything in your power to uphold the traditions, values, and ideology of the Adventurer's Guild?$0\"/pause 500/jump farmer/pause 1400/move MarlonFay 0 1 2/pause 700/speak MarlonFay \"On behalf of Stardew Valley and the Order of the Knights of Pythagoras, I officially accept you as the 23rd Adventurer's Guild member!$1\"/pause 1000/speak MarlonFay \"As a member of the Adventurer's Guild, you will be allowed to purchase rare weapons we commission and discover!#$b#There are also bounties and quests you can access from the notice board behind me!\"/pause 700/move farmer 0 0 1/pause 350/emote farmer 8/speak MarlonFay \"Don't mind Gil. He just took some of his meds and he's dozing off. I'll inform him of our new member when he awakens.\"/pause 700/move farmer 0 0 0/pause 750/speak MarlonFay \"Welcome to the guild, @. I expect great things from you.\"/pause 500/globalFade/viewport -1000 -1000/pause 700/end dialogue MarlonFay \"How is adventuring? If you need a sharper sword, I can put in a good word with Clint.\"",
+     "1000034/e 100162/j 8": "MarlonsTheme/-500 -500/farmer 6 19 0 MarlonFay 6 13 2/pause 500/showFrame MarlonFay 17/viewport 6 14 true/skippable/playSound doorClose/pause 800/shake MarlonFay 600/textAboveHead MarlonFay \"เจ้าได้พิสูจน์ตัวเองแล้ว!\"/pause 150/move farmer 0 -4 0/pause 700/showFrame MarlonFay 0/pause 600/speak MarlonFay \"เจ้าเหยียบย่างเข้าไปยังเหมืองด้วยความกล้าหาญอันสูงสุด @!#$b#พวกเราต้องการผู้มีทักษะเช่นเจ้า อยากมาเข้าร่วมกิลด์ของนักผจญภัยมั้ยล่ะ?\"/pause 1000/jump farmer/pause 800/jump farmer/pause 1200/speak MarlonFay \"@...$2#$b#เจ้าจะสาบานหรือไม่ ว่าจักปกป้องมวลมนุษย์จากมอนสเตอร์ และจักทำทุกอย่างที่เจ้าทำได้เพื่อธำรงไว้ซึ่งประเพณี คุณค่า และอุดมการณ์แห่งกิลด์ของนักผจญภัย?$0\"/pause 500/jump farmer/pause 1400/move MarlonFay 0 1 2/pause 700/speak MarlonFay \"ในนามตัวแทนแห่งสตาร์ดิวแวลลีย์และสมาพันธ์อัศวินแห่งไพทากอราส ข้าขอยอมรับเจ้าเข้าเป็นสมาชิกแห่งกิลด์ของนักผจญภัยคนที่ 23!$1\"/pause 1000/speak MarlonFay \"ในฐานะสมาชิกแห่งกิลด์ของนักผจญภัย เจ้าได้รับอุญาตให้ซื้ออาวุธหายากที่พวกเราทำขึ้นและค้นพบ!#$b#ยังมีรางวัลนำจับและภารกิจที่เจ้าสามารถทำได้อยู่ที่กระดานประกาศข้างหลังข้าอีกด้วย!\"/pause 700/move farmer 0 0 1/pause 350/emote farmer 8/speak MarlonFay \"อย่าไปใส่ใจกิลเลย เขาเพิ่งกินยาแล้วผล่อยหลับไปน่ะ ข้าจะบอกเขาเรื่องสมาชิกใหม่เมื่อเขาตื่นแล้ว\"/pause 700/move farmer 0 0 0/pause 750/speak MarlonFay \"ยินดีต้อนรับเข้าสู่กิลด์นะ @ ข้าคาดหวังว่าเจ้าจะนำมาซึ่งสิ่งที่ยิ่งใหญ่\"/pause 500/globalFade/viewport -1000 -1000/pause 700/end dialogue MarlonFay \"การผจญภัยเป็นเช่นไรบ้างล่ะ? ถ้าอยากได้ดาบที่คมขึ้น ข้าจะไปพูดกับคลินท์ให้ได้นะ\"",
         },
 },
 
@@ -305,9 +305,9 @@
 	 "Action": "EditData",
 	 "Target": "data/events/adventureguild",
 	 "Entries": {
-     "1050034/e 1000034/j 30/k 1090501/f MarlonFay 250": "MarlonsTheme/-500 -500/farmer -200 -200 0 MarlonFay 4 11 2/pause 1000/viewport 6 14 true/skippable/pause 3000/warp farmer 6 19/playSound doorClose/pause 500/textAboveHead MarlonFay \"Ah. You're back.\"/pause 330/move farmer 0 -5 3/move farmer -2 0 0/move farmer 0 -1 0/pause 1000/speak MarlonFay \"@. I've been meaning to have a conversation with you.#$b#I'm sure you have several questions as to who we are, what we do, and the history of this guild.#$b#If you would please join me in my quarters, I'll explain all of this to you.\"/pause 500/question fork0 \"#I'd like to hear the history of the guild.#Sounds like a long talk. No thanks.\"/fork 1050034_GuildHistory/pause 800/speak MarlonFay \"Hmm. I see. If that's your choice, so be it.$2\"/pause 1200/speak MarlonFay \"Do you need a new weapon? Take a look at what we have in stock.\"/pause 300/globalFade/viewport -1000 -1000/pause 1000/end position 4 13",
+     "1050034/e 1000034/j 30/k 1090501/f MarlonFay 250": "MarlonsTheme/-500 -500/farmer -200 -200 0 MarlonFay 4 11 2/pause 1000/viewport 6 14 true/skippable/pause 3000/warp farmer 6 19/playSound doorClose/pause 500/textAboveHead MarlonFay \"อ้า เจ้ากลับมาแล้ว\"/pause 330/move farmer 0 -5 3/move farmer -2 0 0/move farmer 0 -1 0/pause 1000/speak MarlonFay \"@ ข้าอยากจะคุยกับเจ้ามาสักพักแล้ว#$b#I'm sure you have several questions as to who we are, what we do, and the history of this guild.#$b#If you would please join me in my quarters, I'll explain all of this to you.\"/pause 500/question fork0 \"#I'd like to hear the history of the guild.#Sounds like a long talk. No thanks.\"/fork 1050034_GuildHistory/pause 800/speak MarlonFay \"Hmm. I see. If that's your choice, so be it.$2\"/pause 1200/speak MarlonFay \"Do you need a new weapon? Take a look at what we have in stock.\"/pause 300/globalFade/viewport -1000 -1000/pause 1000/end position 4 13",
 	 
-	 "1050034_GuildHistory": "pause 1000/speak MarlonFay \"Follow me.\"/pause 100/globalFade/viewport -1000 -1000/pause 500/warp farmer 4 5/warp MarlonFay 6 5/faceDirection farmer 1/showFrame MarlonFay 18/pause 250/viewport 7 6 true/pause 1500/speak MarlonFay \"Hmm... where to begin...\"/pause 600/emote MarlonFay 40/pause 200/speak MarlonFay \"I'll start with the history of the guild.#$b#I founded the Adventurer's Guild over 25 years ago, after being recognized by the Order of the Knights of Pythagoras.#$b#Our Order is made up of over fifty guilds and clans around the world, spanning every continent.#$b#Our mission is to protect humanity from monsters corrupted by ancient dark magic. No one knows when this corruption started, or how it began.#$b#Some ancient legends speak of a past time when monsters and humans lived in peace. If those times were ever real, they now only exist in stories.#$b#So we, the Order of the Knights of Pythagoras, have sworn an oath to protect humans from those monsters. We are, in a way, monster hunters.\"/pause 1050/speak MarlonFay \"This guild in particular works closely with M. Rasmodius. You may know him as the 'Wizard'.#$b#Every guild has a wizard or witch that supports them. It's paramount our weapons are imbued with magic to pierce the life force of monsters.#$b#You may wonder why we use swords instead of conventional weapons.#$b#To destroy the life force of a monster, you must pierce their life force fibers in a slashing movement.#$b#This is the only way to ensure the monster is defeated, or else it will regenerate.#$b#Projectile weapons unfortunately don't do the trick. They are able to stun monsters, but they still require a good horizontal slash to finish them off.#$b#If you ever use a projectile weapon, you may understand what I mean, unless you use explosives or iridium ammunition.\"/pause 1000/speak MarlonFay \"Alesia was a gifted sniper who used magic-imbued arrows. She used to be a member of this guild before she moved to Castle Village in the desert.#$b#She used her arrows to stun monsters before finishing them with her dagger.\"/pause 1000/showFrame MarlonFay 0/pause 800/showFrame MarlonFay 18/pause 1000/speak MarlonFay \"You may have noticed you're the 23rd adventurer, but there are only a few of us here. We used to have many more members.#$b#Over time, people have left to join other guilds and... and we...\"/pause 500/showFrame MarlonFay 19/pause 650/speak MarlonFay \"We have lost a lot of good people over the years. What we do is dangerous, and it's a thankless job.#$b#Thanks for joining our cause. Your help in protecting the valley is greatly appreciated. I feel as if we're a fully functioning guild again.\"/pause 800/speak MarlonFay \"$q -1 null#(What should I say)#$r -1 0 marlon_event2#I'll do everything I can to protect people.#$r -1 0 marlon_event5#It's dangerous and risky. Someone needs to do it.\"/pause 1000/showFrame MarlonFay 0/pause 1000/showFrame MarlonFay 18/pause 500/speak MarlonFay \"I'm proud to hear that from you. You have the potential to be an excellent swordsman.\"/pause 1250/speak MarlonFay \"You may be wondering why the mine entrance isn't sealed off.#$b#Unfortunately, Joja owns the rights to the mines and won't allow us to seal it.#$b#It's strange. They don't utilize the mines in any way, despite bountiful amounts of ore.#$b#Because of this, we must venture into the mines and slay monsters before they accumulate in mass.\"/pause 600/speak MarlonFay \"$q -1 null#(What should I say)#$r -1 0 marlon_event4#There must be strong monsters deep in the mines...#$r -1 0 marlon_event3#I'll make it past that floor!\"/pause 1000/speak MarlonFay \"I must disclose to you that not every monster is corrupted and hostile.#$b#There is a Shadow Person living the sewer. His name is 'Krobus'. Rasmodius and I have been harboring him.#$b#This is to remain a secret. You'll meet Krobus soon enough. I need to see you prove your worth before I introduce you to him.$2\"/pause 1200/speak MarlonFay \"I believe that's enough conversation for you today. I'll speak with you again soon on other matters.#$b#I need to check on a new stock of weapons we just received from the new blacksmith in Castle Village.\"/pause 100/globalFade/viewport -1000 -1000/pause 700/end dialogue MarlonFay \"Remember what I said. Krobus is to remain a secret. There would be dire consequences if anyone got wind of him.\"",
+	 "1050034_GuildHistory": "pause 1000/speak MarlonFay \"ตามข้ามา\"/pause 100/globalFade/viewport -1000 -1000/pause 500/warp farmer 4 5/warp MarlonFay 6 5/faceDirection farmer 1/showFrame MarlonFay 18/pause 250/viewport 7 6 true/pause 1500/speak MarlonFay \"อืมม... จะเริ่มตรงไหนดีนะ...\"/pause 600/emote MarlonFay 40/pause 200/speak MarlonFay \"เริ่มจากประวัติการก่อตั้งกิลด์แล้วกัน#$b#ข้าก่อตั้งกิลด์ของนักผจญภัยมากว่า 25 ปีมาแล้ว หลังจากที่ได้รับการยอมรับจากสมาพันธ์อัศวินแห่งไพทากอราส#$b#สมาพันธ์ของเราประกอบไปด้วยกิลด์และกลุ่มคนมากกว่า 50 ที่จากทั่วโลก กระจายอยู่ทั่วทุกทวีป#$b#ภารกิจของพวกเรคือการปกป้องมวลมนุษย์จากมอนสเตอร์ที่บ้าคลั่งจากผลของอาคมดำโบราณ ไม่มีใครรู้ว่ามันเริ่มตั้งแต่ตอนไหน หรืออย่างไร#$b#ตำนานเก่าแก่ได้กล่าวถึงช่วงเวลาที่มอนสเตอร์กับมนุษย์เคยอยู่ร่วมกันอย่างสงบสุข ถ้าเวลาเช่นนั้นเคยมีจริง มันก็กลายเป็นแค่เรื่องเล่าไปแล้วล่ะ#$b#เพราะอย่างนั้น พวกเรา สมาพันธ์อัศวินแห่งไพทากอราส จึงสาบานว่าจะปกป้องมนุษย์จากมอนสเตอร์เหล่านั้น พวกเรา จะว่าไป ก็คือนักล่ามอนสเตอร์ล่ะนะ\"/pause 1050/speak MarlonFay \"โดยเฉพาะกิลด์นี้น่ะ ร่วมมืออย่างใกล้ชิดกับ เอ็ม. ราสโมเดียส หรือที่เจ้ารู้จักในนาม 'พ่อมด' นั่นแหละ#$b#ทุกกิลด์จะมีพ่อมดหรือแม่มดคอยสนับสนุน มันสำคัญมากที่อาวุธของพวกเราต้องอาบไปด้วยเวทมนตร์เพื่อให้แทงทะลุแก่นชีวิตของมอนสเตอร์ได้#$b#เจ้าคงสงสัยสินะทำไมพวกเราถึงใช้ดาบแทนอาวุธปกติทั่วไป#$b#การจะทำลายแก่นชีวิตของมอนสเตอร์ได้ เจ้าต้องฟันใยชีวิตของพวกมันให้ขาด#$b#มันเป็นทางเดียวที่จะแน่ใจได้ว่า มอนสเตอร์พวกนั้นถูกปราบแล้วจริงๆ ไม่อย่างนั้นพวกมันก็จะฟื้นตัวขึ้นมาใหม่ได้#$b#อาวุธที่ต้องยิงกระสุนทั้งหลายน่ะโชคร้ายที่ทำอย่างนั้นไม่ได้น่ะสิ อาจจะทำให้มอนสเตอร์หยุดชะงักได้นะ แต่จะให้พวกมันตายน่ะต้องฟันแนวขวางอยู่ดี#$b#ถ้าเจ้าเคยใช้อาวุธยิงกระสุนพวกนั้น เจ้าคงเข้าใจที่ข้าพูด เว้นแต่เจ้าจะใช้หัวระเบิดหรือกระสุนอิริเดียมน่ะนะ\"/pause 1000/speak MarlonFay \"อลีเซียเป็นนักซุ่มยิงที่ใช้ลูกธนูอาบมนตร์ที่เก่งมาก นางเคยเป็นสมาชิกของกิลด์นี้ก่อนที่นางจะย้ายไปอยู่แคสเซิลวิลเลจในทะเลทรายน่ะ#$b#นางจะใช้ลูกธนูของนางในการตรึงพวกมันกับที่ แล้วใช้กริชจัดการพวกมันอีกที\"/pause 1000/showFrame MarlonFay 0/pause 800/showFrame MarlonFay 18/pause 1000/speak MarlonFay \"เจ้าอาจจะเห็นว่าเจ้าเป็นสมาชิกคนที่ 23 ใช่มั้ยล่ะ แต่ที่จริงแล้วพวกเราอยู่ที่นี่กันไม่กี่คนหรอก พวกเราเคยมีสมาชิกมากกว่านี้มาก#$b#แต่พอเวลาผ่านไป พวกเขาก็ย้ายไปเข้าร่วมกับกิลด์อื่นๆ และ... และพวกเรา...\"/pause 500/showFrame MarlonFay 19/pause 650/speak MarlonFay \"พวกเราเสียคนดีๆ ไปมากหลายปีมานี้ สิ่งที่พวกเราทำมันอันตราย และไม่ค่อยมีคนเห็นค่า#$b#ขอบคุณมากนะที่มาเข้าร่วมกับพวกเราน่ะ ความช่วยเหลือของเจ้าในการปกป้องหมู่บ้านเป็นที่ซาบซึ้งใจมาก ข้ารู้สึกราวกับว่าพวกเรากลับมาเป็นกิลด์เต็มรูปแบบอีกครั้ง\"/pause 800/speak MarlonFay \"$q -1 null#(พูดว่าอะไรดี)#$r -1 0 marlon_event2#ฉันจะทำทุกอย่างเพื่อปกป้องทุกคน#$r -1 0 marlon_event5#มันอันตรายและเสี่ยงมาก ต้องมีใครสักคนรับหน้าที่นี้แหละ\"/pause 1000/showFrame MarlonFay 0/pause 1000/showFrame MarlonFay 18/pause 500/speak MarlonFay \"ข้าภูมิใจที่ได้ยินเจ้าพูดอย่างนั้น เจ้ามีศักยภาพที่จะเป็นนักดาบที่เก่งกาจนะ\"/pause 1250/speak MarlonFay \"เจ้าอาจจะสงสัยว่าทำไมไม่ปิดตายทางเข้าเหมืองไปเลย#$b#เป็นเรื่องโชคร้ายน่ะสิที่โจจ้าถือครองสิทธิ์ของเหมืองและไม่ยอมให้พวกเราปิดผนึกมัน#$b#แปลกนะ พวกเขาไม่ใช้เหมืองทำประโยชน์อะไรเลยทั้งๆ ที่มีแร่มากมายมหาศาลอยู่ในนั้น#$b#เพราะอย่างนั้น เราต้องเข้าไปฆ่ามอนสเตอร์ในเหมืองก่อนที่มันจะเพิ่มจำนวนเยอะเกินไป\"/pause 600/speak MarlonFay \"$q -1 null#(พูดว่าอะไรดี)#$r -1 0 marlon_event4#ในเหมืองลึกๆ ต้องมีมอนสเตอร์โหดๆ อยู่แน่...#$r -1 0 marlon_event3#ฉันจะผ่านขั้นนั้นไปให้ได้!\"/pause 1000/speak MarlonFay \"ข้าต้องบอกเจ้านะ ว่าไม่ใช่มอนสเตอร์ทุกตัวหรอกที่บ้าคลั่งและไม่เป็นมิตร#$b#มีคนเงาอาศัยอยู่ในท่อระบายน้ำน่ะ ชื่อของเขาคือ 'โครบัส' ราสโมเดียสกับข้าให้ที่อยู่เขามาเอง#$b#เจ้าต้องเก็บเรื่องนี้เป็นความลับนะ เจ้าจะได้เจอโครบัสเองสักวันนีงแหละ ข้าจะพาเจ้าไปแนะนำกับเขาถ้าเจ้าพิสูจน์ความสามารถของเจ้าแล้ว$2\"/pause 1200/speak MarlonFay \"ข้าว่าเราคุยกันมากพอแล้ววันนี้ ข้าจะคุยกับเจ้าเรื่องอื่นๆ เร็วๆ นี้นะ#$b#ข้าต้องไปตรวจสอบคลังอาวุธที่พวกเราเพิ่งได้รับมาใหม่จากช่างตีเหล็กในแคสเซิลวิลเลจแล้วล่ะ\"/pause 100/globalFade/viewport -1000 -1000/pause 700/end dialogue MarlonFay \"จำไว้ให้ดีนะว่าเรื่องโครบัสน่ะเป็นความลับ ถ้าใครรู้เรื่องของเขาเข้าจะต้องจบไม่สวยแน่\"",
      },
 },
 
