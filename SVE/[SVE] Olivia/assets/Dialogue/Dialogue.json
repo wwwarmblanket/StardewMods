@@ -1,7 +1,7 @@
 ﻿
 {
   //SPECIAL DIALOGUE
-  "Introduction": "คุณพระ น่ารักจังเลย! ยินดีต้อนรับนะจ๊ะ ที่รัก.$6#$b#มันน่าตื่นเต้นมากที่ มีใครย้ายเข้ามาใหม่!$1#$e#เธอเคยเจอลูกชายของฉัน หรือยังจ๊ะ วิคเตอร์น่ะ$3",
+  "Introduction": "คุณพระ คนๆ นั้นใช่ไหมนะ! ยินดีต้อนรับนะจ๊ะ ที่รัก.$6#$b#มันน่าตื่นเต้นมากเลย ที่มีใครย้ายเข้ามาใหม่!$1#$e#เธอเคยเจอลูกชายของฉัน หรือยังจ๊ะ วิคเตอร์น่ะ$3",
   "divorced": "ได้ของที่ต้องการแล้วนี่ งั้นก็ไปได้แล้ว.$5",
   "secondChance_Girls": "...ตั้งสติหน่อย, @?$6#$b#ที่รัก... ฉันทำงานอย่างหนัก เพื่อลืมสิ่งที่เธอทำกับฉันไว้. การแต่งงาน... มันเป็นอะไรที่สำคัญมาก สำหรับฉัน. คุณก็รู้.$2#$b#... ฉันพร้อมที่จะทำมันอีกครั้ง แต่นี่จะเป็นครั้งสุดท้ายแล้ว.$3#$b#ฉันรักคุณนะที่รัก ฉันหวังว่าจะไม่ทำพลาด ที่จะเชื่อใจคุณอีกครั้งนะ.$2",
   "dumped_Girls": "คุณกล้าที่จะมาคุย กับฉันหรือยังล่ะ, @?$5#$b#ฉันต้องการเวลาสักหน่อย แล้วก็ดื่มสักนิด.$2",
@@ -103,16 +103,16 @@
   "summer_Sat8": "ลีอาสอนเทคนิคเรื่องพู่กัน ให้ฉันเยอะแยะเลย ฉันอิจฉาทักษะของเธอมากๆ เลย3#$e#ถ้าฉันฝึกฝนมากกว่านี้ อาจจะวาดรูปของเธอสักวันก็ได้!$1",
   "summer_Sun": "อังคารหน้าฉันจะลอง โยคะท่าใหม่ดู เป็นอะไรที่ท้าทายเอามากๆ ทีเดียวเชียว!$3",
   "summer_Sun4": "โจดี้บอกฉันว่า วินเซนต์ทำคะแนนคณิต ได้ไม่ดีนัก เธอเลยเครียดเอามากๆ...$2#$e#ฉันอาจจะไปขอให้วิคเตอร์ มาติวให้หนูวินเซนต์ดูได้ ถ้าไม่ได้ล่ะก็ ฉันว่าฉันพอจะมีทักษะคณิตจากการ เล่นหุ้นของฉันอยู่บ้างนะ...$3",
-  "summer_Sun8": "งานอดิเรกอื่นเหรอ? อืม..เราก็เป็นเพื่อนกันแล้วนะ... อย่าบอกใครละกันนะ แต่...$0#$e#ฉันชอบอ่านนิยายโรแมนติกน่ะ แถมช่วงนี้ก็อ่านเยอะมากด้วย เป็นงานอดิเรกที่ฉันโปรดปรานมากๆ เลย4#$e#ขอให้เป็นวันที่ดีนะจ้ะ$1",
+  "summer_Sun8": "งานอดิเรกอื่นเหรอ? อืม..เราก็เป็นเพื่อนกันแล้วนะ... อย่าบอกใครละกัน แต่...$0#$e#ฉันชอบอ่านนิยายโรแมนติกน่ะ แถมช่วงนี้ก็อ่านเยอะมากด้วย เป็นงานอดิเรกที่ฉันโปรดปรานมากๆ เลย4#$e#ขอให้เป็นวันที่ดีนะจ้ะ$1",
   
   // FALL DIALOGUE
-  "fall_1": "Good luck on your fall harvest this year, @. If you sell any pumpkins to Pierre, I may pick some up!$3",
-  "fall_9": "I'm visiting Blue Moon Vineyard tomorrow to order more wine from Sophia.$3#$b#I sometimes have Victor go, but I want to see the Gem Sea from the cliff. It's a beautiful view.$1#$e#I'd like to go with you sometime... will you join me there?$3",
-  "fall_15": "You're participating in the fair tomorrow, sweetie? I wish you the best of luck!$1#$e#Caroline says Pierre's crops have been doing very well this year. It'll be a close call between you two.$6",
-  "fall_17": "At the fair yesterday, I spoke with a tourist that came all the way from Pine-Mesa City!$1#$b#It's not as big as Zuzu City, but it's still bustling with activity and commerce.$3",
-  "fall_22": "Despite the fact I was an accounting manager at Joja, I never shop at their stores, and never will.$0#$e#Their products aren't healthy, and they'd damage my complexion.$6",
-  "fall_27": "Spirit's Eve is tomorrow, @! Will you be exploring the maze this year?$1#$e#Victor has a tendency to get lost in the maze. He always seems to get caught in rough situations.$6",
-  "fall_28": "There's a dark story about the family that used to live in our house.$2#$e#I'm not allowed to talk to anyone about it.$6#$e#Yes, @. That includes you too.$6#$e#...$2#$e#%Olivia is now ignoring you.",
+  "fall_1": "ขอให้โชคดีกับการเก็บเกี่ยว ในฤดูใบไม้ร่วงนะ @. ถ้าไปขายฟักทองให้กับ ปีแอร์ล่ะก็ ฉันอาจจะไปซื้อมันมาก็ได้นะ!$3",
+  "fall_9": "ฉันแวะไปไร่องุ่น บลูมูนมาเมื่อวาน เพื่อสั่งไวน์เพิ่มกับโซเฟีย$3#$b#บางครั้งฉันก็มี วิคเตอร์ไปด้วย แต่ฉันก็อยากไปดูอัญมณี แห่งท้องทะเลจากหน้าผาจัง มันเป็นมุมที่สวยเอามากๆ เลยล่ะ$1#$e#ฉันอยากจะลองไปกับคุณดูสักครั้ง... คุณจะไปด้วยกันมั้ย?$3",
+  "fall_15": "คุณจะเข้าร่วมงานเทศการ ในวันพรุ่งนี้ใช่ไหม? หวังว่าคุณจะโชคดีนะ!$1#$e#แคโรไลน์บอกว่า ผลผลิตของปีแอร์ในปีนี้ ออกมาได้ดีทีเดียวเชียว คงจะเป็นการแข่งขัน ที่สูสีแหงๆ เลย$6",
+  "fall_17": "ที่งานเทศกาลเมื่อวาน ฉันได้คุยกับพวกนักท่องเที่ยว ที่มาจากเมืองเมซ่าซิตี้ด้วย!$1#$b#มันไม่ได้ใหญ่ไปกว่า ซูซูซิตี้เลย แต่มันดูคึกคักและเต็มไปด้วย แสงสีเยอะกว่าอีก.$3",
+  "fall_22": "ถึงฉันจะทำงานด้านบัญชี ที่โจจ้าก็เถอะ แต่ฉันไม่เคยซื้ออะไรจากที่นั่นเลย และจะไม่มีวันด้วย$0#$e#สินค้าของพวกเขา ไม่ดีต่อสุขภาพแถมยังจะ ทำให้ผิวของฉันแย่ลงอีกด้วย$6",
+  "fall_27": "เทศกาลภูติ พรุ่งนี้แล้ว @! ปีนี้ได้ไปสำรวจวงกต มาบ้างหรือยังล่ะ?$1#$e#มีแววที่วิคเตอร์ จะหลงอยู่ข้างในแน่ๆ เขามักจะต้องเจอกับเรื่อง ชวนปวดหัวอยู่ตลอดเลย$6",
+  "fall_28": "มันคือเรื่องราวของครอบครัว ที่เคยอาศัยอยู่ในบ้านนี้มาก่อน.$2#$e#แต่ฉันจะไม่ยอมเล่า เรื่องนี้ให้ใครฟังหรอก6#$e#ใช่ @. รวมถึงคุณด้วย$6#$e#...$2#$e#%โอลิเวียเมินคุณซะแล้ว",
 
   "fall_Mon": "During fall, I may sometimes take trips in the forest to gather some mushrooms.$0#$b#I wish Victor enjoyed mushrooms as much as I did. I'd use them in just about every dish.$6",
   "fall_Mon4": "I saw %pet walking around town yesterday. Such an adorable animal!$1#$e#%pet reminds me of Dewey... Victor loved that cat so much.$2#$e#Has he told you about Dewey yet? ...Losing that cat broke his heart, poor thing.$2",
