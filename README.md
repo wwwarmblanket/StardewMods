@@ -38,5 +38,8 @@ Davykun, iParnRequiem, PangInFN, ProfessorHydra, Tawan, unknownwmz.
 #### ทีมงานผู้ริเริ่มโปรเจค
 Artdekdok, cybertorns, MiXEL.SC, NoTSoXDream, Pigter, sornzilla, superogira.
 
+#### Chief Beta Tester
+Grace Manassanan.
+
 #### Beta tester
-BirdBBK, Grace Manassanan, PadalPrussus, TaNGGoDZeeD.
+Anel, BirdBBK, PadalPrussus, TaNGGoDZeeD.
