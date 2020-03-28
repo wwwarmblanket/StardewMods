@@ -68,7 +68,7 @@
 "fall_7": "คุณได้ทำอะไรที่น่าสนใจ... ในสัปดาห์นี้หรือยัง?$0#$e#ฉันพยายามทำสิ่งที่... น่าสนใจ... อย่างน้อยก็...หนึ่งครึ่งต่อสัปดาห์ สนใจทำด้วยกันไหม...$4",
 "fall_15": "คุณตัดสินใจได้หรือยังว่า... จะเอาอะไรไปแสดงในวันพรุ่งนี้ @?$0#$e#การจะแข่งขันกับปีแอร์ เป็นเรื่องที่ยากมาก$1",
 "fall_20": "ฉันรักการตกแต่งที่มีสีสัน คุณไม่ชอบหรอ?$1#$e#ในฐานะชาวไร่ พวกเราเห็นแต่สีเขียว... มันเป็นเรื่องที่ดี... ที่ได้เห็นโลกมีสีสันสดใส$4",
-"fall_26": "Spirit's Eve is tomorrow, sweetie.$1#$b#I heard from Mayor Lewis that Marlon and a friend from Castle Village are capturing monsters for us.$0#$e#We'll be able to look at them through steel cages. So scary!$4",
+"fall_26": "เทศกาลภูติคือวันพรุ่งนี้นะที่รัก$1#$b#ฉันได้ยินจากเทศมนตรีเลวิสว่า มาร์ลอน และ เพื่อนจากแคสเซิลวิลเลจ กำลังจับสัตว์ประหลาด ให้พวกเรา$0#$e#เราสามารถดูมันผ่านกรงเหล็ก มันน่ากลัวมาก!$4",
 "fall_27": "ก่อนหน้าวันนี้ มีแสงวูบวาบจากเมืองเพลิแกน ฉันเชื่อว่าพ่อมดกำลัง... ทำสิ่งที่เรียกว่าเขาวงกต$1#$e#ฉันไม่แน่ใจว่า 'เวทมนต์' ทำงานยังไง...$2#$e#เจอกันคืนนี้ @.$4",
 "fall_28": "สวัสดี @. อีกไม่นานจะหมดฤดูใบไม้ร่วง พืชจะอยู่ได้อีกไม่นาน$0#$e#ฤดูหนาวนี้... คุณใช้เวลาตกปลา หรือ ลงเหมืองล่ะ?$1",
 
@@ -92,12 +92,12 @@
 "fall_Sun10": "ฉันต้องการคุยกับคุณ @.$0#$b#ฉันทำไร่ในที่ของฉัน และมันมีที่บางส่วนเหลือ... ฉันต้องการมอบให้คุณ$4#$b#ไม่ต้องขอบคุณฉัน! ขอให้เป็นวันที่ดี!$1[369]", 
 
 //WINTER DIALOGUE    
-"winter_1": "Up in the mountains, Robin and I get lots of snow.$0#$e#I may build a snowman soon. Wouldn't that be cute?$1",
-"winter_7": "Are you participating in the fishing contest tomorrow?$1#$b#I used to fish when I was younger, but never got back into it.$0#$e#Best of luck tomorrow!$4",
-"winter_12": "My brother is visiting soon. His daughter is adorable!$1#$b#She loves playing video games. I have a Super Neendo she plays when she visits.$0#$e#I don't play it myself. I'm too old for those electronic contraptions.$4",
-"winter_17": "A merchant sold me a houseplant.$0#$b#You can always find something amazing at the night market!$1",
-"winter_24": "The Winter Star Feast is tomorrow! It's such a joyous day.$0#$e#I picked up the perfect gift! I hope he loves it.$1",
-"winter_28": "Ready to sow seeds soon?$0#$e#I finished planning weeks ago. Just need to wait for the snow and ice to thaw - won't be long now.$1",
+"winter_1": "ฉันและโรบินขึ้นไปบนภูเขา ที่นั้นมีหิมะมากมาย$0#$e#ฉันอาจจะสร้างมนุษย์หิมะ... มันจะน่ารักไหมนะ?$1",
+"winter_7": "พรุ่งนี้คุณจะเข้าร่วม...การแข่งขันตกปลาหรือเปล่า?$1#$b#ตอนเด็ก ๆ ฉันเคยตกปลา แต่ไม่เคยได้กลับมาเลย$0#$e#พรุ่งนี้ขอให้โชคดี!$4",
+"winter_12": "เร็ว ๆ นี้ พี่ชายของฉันจะมาเยี่ยม ลูกสาวของเขาน่ารัก!$1#$b#เธอชอบเล่นวิดีโอเกม ฉันมี Super Neendo เธอเล่นทุกครั้งที่มาเยี่ยม$0#$e#แต่ฉันไม่ได้เล่น... ฉันแก่เกินไป... สำหรับสื่ออิเล็กทรอนิกส์$4",
+"winter_17": "พ่อค้าขายไม้ประดับให้ฉัน$0#$b#คุณสามารถเจอสิ่งที่น่าสนใจ ได้ที่ตลาดกลางคืน!$1",
+"winter_24": "เทศกาลแห่งดวงดาวฤดูหนาว เริ่มในวันพรุ่งนี้! มันเป็นวันที่สนุกสนาน$0#$e#ฉันเตรียมของขวัญ ที่ยอดเยี่ยมไว้! ฉันหวังว่าเขาจะชอบ$1",
+"winter_28": "พร้อมที่จะหว่านเมล็ดหรือยัง?$0#$e#ฉันวางแผนเสร็จตั้งแต่ หลายสัปดาห์ก่อน เพียงแค่... รอให้หิมะและน้ำแข็งละลาย ไม่นานแล้ว...$1",
 
 "winter_Mon": "I feel bad for all those poor animals out there, freezing in this cold weather.$2#$e#I have a soft spot for little critters.$0",
 "winter_Mon4": "Sautine City has beautiful shores and tourists from around the world.$0#$b#Every time I go there I meet someone whose life is completely different from mine. It's like a window into a different world.$4#$e#You should try traveling, @. Tickets can be expensive, but the experience is well worth it.$1",
