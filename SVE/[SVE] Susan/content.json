@@ -20,7 +20,7 @@
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-        "Susan": "This looks delicious! Thank you!/230 211 220 221 223 222 608 233 234 611 612/Oh, goodness! For me? Thank you./60 709 336 335 334 339 373 74 446/That's very kind of you. Thanks./346 459 303/This isn't something I like.../167 226 283/That's generous of you./348 350 395/"
+        "Susan": "มันดูน่าอร่อย! ขอบคุณ!/230 211 220 221 223 222 608 233 234 611 612/โอ้พระเจ้า! สำหรับฉัน? ขอบคุณ/60 709 336 335 334 339 373 74 446/คุณใจดีจัง ขอบคุณ/346 459 303/ฉันไม่ค่อบชอบมัน.../167 226 283/นั้นคือน้ำใจของคุณ/348 350 395/"
       }
     },
 	
@@ -121,17 +121,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "This movie is about a sapling. How cute.$0"
+            "Text": "หนังเรื่องเป็นเรื่องเกี่ยวกับต้นอ่อน ช่างน่ารักอะไรอย่างนี้$0"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Aww. The sappling is so adorable!$1"
+            "Text": "อ่าา ต้นอ่อน มันน่ารักมาก!$1"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Thanks for inviting me out, @. I want to go home and water my little babies.$0"
+            "Text": "ขอบคุณที่ชวนฉันมา @. ฉันอยากจะกลับบ้านไปรดน้ำเจ้าเด็กตัวน้อย$0"
           }
         },
         "ID": "reaction_2"
@@ -144,13 +144,13 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Brr... It's freezing. I'm glad the building is warm.$0"
+            "Text": "บรื๋อ... มันหนาวจัง ฉันดีใจที่ในอาคารอบอุ่น$0"
           },
 		  "DuringMovie": null,
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "The film felt very authentic, with the story and special effects.$0"
+            "Text": "ด้วยเรื่องราวและเทคนิคพิเศษ ทำให้ภาพยนตร์เรื่องนี้ให้ความรู้สึกที่เหมือนจริงมาก$0"
           }
         },
         "ID": "reaction_3"
@@ -163,17 +163,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I hope there are still seats left.$0"
+            "Text": "ฉันหวังว่าจะมีที่นั่งเหลือนะ$0"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "/shake Susan 2000/pause 500/message \"Susan is giggling!\"",
-            "Text": "Hehe!$1"
+            "Text": "ฮ่าฮ่า!$1"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I enjoyed the movie. Did anything stand out to you?$0"
+            "Text": "ฉันสนุกไปกับภาพยนต์ มีอะไรที่คุณรู้สึกสนใจหรือเปล่า?$0"
           }
         },
         "ID": "reaction_4"
@@ -186,13 +186,13 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I haven't seen this genre in forever. I'm anxious to see it!$0"
+            "Text": "แนวนี้ไม่ค่อยมีมาให้ฉันได้ดู ฉันอยากดูมัน!$0"
           },
           "DuringMovie": null,
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I wonder if this film will come out on VHS soon! I'll get it!$0"
+            "Text": "ฉันสงสัยว่าเร็ว ๆ นี้ หนังเรื่องนี้จะออกมาเป็นวีดีเทป! ฉันจะหามันมาให้ได้!$0"
           }
         },
         "ID": "reaction_5"
@@ -205,17 +205,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "It isn't my favorite genra, but I'll give it a go.$0"
+            "Text": "มันไม่ใช่แนวโปรดของฉัน แต่ฉันจะปล่อยมันไป$0"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I'm getting sleepy...$2"
+            "Text": "ฉันง่วงนอน ...$2"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "*yawn* Thanks for inviting me, @.$0"
+            "Text": "* หาว * ขอบคุณที่เชิญฉัน @.$0"
           }
         },
         "ID": "reaction_6"
@@ -229,7 +229,7 @@
       "Action": "EditData",
       "Target": "data/festivals/spring13",
       "Entries": {
-        "Susan": "Jas and Vincent are so excited to hunt for the eggs around town. I hope they find lots of them!$1#$e#I'm thinking about getting a second helping of ham and veggies.$4"
+        "Susan": "แจสและวินเซนท์ตื่นเต้นมาก ที่จะได้ตามล่าหาไข่รอบเมือง ฉันหวังว่าพวกเขาจะหาเจอมากมาย!$1#$e#ฉันกำลังคิดเกี่ยวกับอาหารสองอย่าง แฮมและผัก$4"
       }
     },
 	
@@ -238,7 +238,7 @@
       "Action": "EditData",
       "Target": "data/festivals/spring24",
       "Entries": {
-        "Susan": "What a beatufiul day for the Flower Festival.$4#$e#Are you planning on dancing with someone?$1"
+        "Susan": "เทศกาลดอกไม้ช่างเป็นวันที่สวยงาม$4#$e#คุณวางแผนจะเต้นรำกับใครหรอ?$1"
       }
     },
 	
@@ -247,7 +247,7 @@
       "Action": "EditData",
       "Target": "data/festivals/summer11",
       "Entries": {
-        "Susan": "It's nice to have the governor in the valley. Mayor Lewis worked so hard to make the Luau perfect.$0#$e#I wonder if that slow roast ham Linus is making is almost ready.$1"
+        "Susan": "มันดีที่มีผู้ว่าในหุบเขา เทศมนตรีเลวิสทำงานอย่างหนักเพื่องานลัวร์ที่สมบูรณ์แบบ$0#$e#ฉันสงสัยว่าแฮมที่ลีนัสย่างนั้นเกือบพร้อมหรือยัง$1"
       }
     },
   
@@ -257,7 +257,7 @@
       "Action": "EditData",
       "Target": "data/festivals/summer28",
       "Entries": {
-        "Susan": "I'm awfully afraid of large bodies of water. I'll be here on the beach, where it's safe.$0"
+        "Susan": "ฉันกลัวแหล่งน้ำขนาดใหญ่มาก ฉันจะอยู่บนชายหาด ตรงที่มันปลอดภัย$0"
       }
     },
    
@@ -266,7 +266,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall16",
       "Entries": {
-        "Susan": "I'm happy I get to showcase my best produce and artisan goods to everyone.$4#$b#Emerald Farm had a strong year!$1"
+        "Susan": "ฉันมีความสุขที่ได้แสดงผลงานการผลิตและงานฝีมือที่ดีให้กับทุกคน$4#$b#ฟาร์มมรกตก็มีปีที่โดดเด่น!$1"
       }
     },
 	
@@ -275,7 +275,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall27",
       "Entries": {
-        "Susan": "So these are shadow brutes? They look menacing...$2"
+        "Susan": "สิ่งนี้คือภาพของเงาประหลาด? พวกเขาดูน่ากลัว...$2"
       }
     },
 	
@@ -284,7 +284,7 @@
       "Action": "EditData",
       "Target": "data/festivals/winter8",
       "Entries": {
-        "Susan": "When I was younger, my father and I loved to fish together. Haven't fished at all since then.$0#$b#I think you'll do great in the contest, @.$1#$e#Best of luck to you, honey!$4"
+        "Susan": "ตอนที่ฉันยังเด็ก พ่อและฉันชอบไปตกปลาด้วยกัน ตั้งแต่นั้นมา... ฉันไม่ได้ตกปลาอีกเลย$0#$b#ฉันคิดว่าคุณคงทำได้ดีในการแข่งขัน @.$1#$e#ที่รัก ขอให้คุณโชคดีนะ!$4"
       }
     },
 	
@@ -293,7 +293,7 @@
       "Action": "EditData",
       "Target": "data/festivals/winter25",
       "Entries": {
-        "Susan": "He loved the gift I gave him! I knew he'd appreciate it.$1"
+        "Susan": "เขาต้องชอบของขวัญที่ฉันให้เขา! ฉันรู้ว่าเขาจะต้องรู้สึกขอบคุณ$1"
       }
     },
 
