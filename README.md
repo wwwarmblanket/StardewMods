@@ -42,4 +42,4 @@ Artdekdok, cybertorns, MiXEL.SC, NoTSoXDream, Pigter, sornzilla, superogira.
 Grace Manassanan.
 
 #### Beta tester
-Anel, BirdBBK, PadalPrussus, TaNGGoDZeeD.
+Agist, Anel, BirdBBK, PadalPrussus, TaNGGoDZeeD.
