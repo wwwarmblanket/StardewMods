@@ -8,7 +8,7 @@
   "breakUp": "อะ-อะไรนะครับ? ช่อดอกไม้เหี่ยวๆ นี่?$2#$b#เฮ้อ เป็นเพราะอะไรโง่ๆ ที่ผมทำลงไปใช่มั้ยครับ?$2#$e#เดาว่าพวกเราก็กลับไป เป็นแค่เพื่อนสินะครับ?$0",
   "stardrop_gift": "ไงครับ ยาหยี ผมซื้อผลสตาร์ดรอปนี่ มาฝากคุณครับ$4#$b#มันถูกนำเข้ามาจาก หมู่เกาะใบเฟิร์นเลยนะครับ! สดใหม่จากต้นเซลล์สตาร์เลย$1#$b#รักนะครับที่รัก$4",
   "give_flowersA": "คุณอยากคบกับผมงั้นหรือครับ คุณ @? ผมก็รู้สึกเหมือนกันเลยครับ! ผมประหม่าเกินกว่า ที่จะเป็นคนเอ่ยก่อนน่ะครับ$4#$b#ผมดีใจนะครับที่คุณเป็นคนเอ่ยก่อน คุณ @ คุณเพิ่งทำให้ผม เป็นคนที่มีความสุขที่สุด ในคนที่มีชีวิตอยู่เลยครับ!$1",
-  "give_flowersB": "ผมไม่รู้เลยครับ ว่าคุณก็รู้สึกเหมือนกัน คุณ @ นี่ทำให้ผม มีความสุขมากเลยครับ!$4#$e#คุณก็ประหม่าบ้างเหมือนกัน ใช่มั้ยครับ?$4",
+  "give_flowersB": "ผมไม่รู้เลยครับ ว่าคุณก็รู้สึกเหมือนกัน คุณ @ นี่ทำให้ผม มีความสุขมากเลยครับ!$4#$e#ผมประหม่านิดหน่อยนะครับ แล้วคุณล่ะ?$4",
   "give_pendant": "!!!$7#$b#คุณ... คุณอยากจะแต่งงานหรือครับ? นี่คุณกำลัง ขอผมแต่งงานงั้นหรือครับ คุณ @!?$7#$b#ตกลงครับ! ผมตื่นเต้นมากครับที่ จะได้ใช้ชีวิตที่เหลือร่วมกับคุณ ผมจะบอกท่านเทศมนตรีเลวิส เองครับ  เดี๋ยว ผมต้องบอกคุณแม่ผมด้วย!$1",
   "rejectNPCA": "เอ่อ... ไม่ล่ะครับ @ ขอบคุณ$0",
   "rejectNPCB": "ผมไม่ได้ คิดแบบเดียวกับคุณครับ คุณ @ ผมขอโทษนะครับ$2#$e#คุณอยากให้ผม พูดอะไรอีกงั้นหรือครับ? ผมปฏิเสธไงครับ$0",
@@ -28,28 +28,28 @@
   "refusal_no_heartsB": "แล้วไงงั้นหรือครับ นี่คือสิ่งที่จะเกิดขึ้นนะครับ คุณ @ ผมจะเดินออกไป แล้วแกล้งทำเป็นว่า คุณไม่เคยทำแบบนี้นะครับ$0",
   
   //EMPLOYMENT QUESTION - SPRING YEAR 1 ONLY
-  "spring_Wed_1": "It's been some time since I graduated from Pellcar University.$6#$b#My mother has been nagging me to get a job somewhere. Anywhere.$2#$e#I understand I need to find a job but... I just... I need more time.$2#$q 1001/1002 jobquestion_followup#Do you think I'm lazy because I haven't found a job yet?#$r 1001 50 jobquestion_no#You aren't lazy, Victor. You need more time to decide what you want to do. Look at me! I didn't know what I was doing until recently.#$r 1002 0 jobquestion_neutral#You could try out a part-time internship to see if it's something you like. At least your mom would get off your back?#$r 1002 -125 jobquestion_yes#I wouldn't call it lazy but... you've been out of school for over a year, Victor.",
-  "jobquestion_no": "That's right. You used to work in accounting at Joja. You completely switched gears and became a farmer.$3#$b#Your story gives me hope for my future, @. Thank you.",
-  "jobquestion_neutral": "I could possibly look into that. Feel out the work environment. See if I enjoy it.$6",
-  "jobquestion_yes": "Hmm... I see. You're right. I need to apply myself more.$2",
-  "jobquestion_followup": "$p 1001#I need to apply myself more to following my dreams!$1|I need to ponder to myself for a while, @. Thank you for the chat.$6",
+  "spring_Wed_1": "ผมจบจาก มหาวิทยาลัยเพลล์คาร์ ได้สักพักแล้วล่ะครับ$6#$b#คุณแม่ผมน่ะ เซ้าซี้ให้ผมไปทำงาน ที่ไหนสักแห่งได้แล้ว ที่ไหนก็ได้สักที่น่ะครับ$2#$e#ผมเข้าใจนะครับ ว่าผมควรหางานได้แล้ว แต่... ผมก็แค่... ผมต้องการเวลา มากกว่านี้น่ะครับ$2#$q 1001/1002 jobquestion_followup#คุณคิดว่าผมขี้เกียจ เพราะว่าผม ยังไม่ได้ทำงานหรือเปล่าครับ ?#$r 1001 50 jobquestion_no#คุณไม่ได้ขี้เกียจหรอกวิคเตอร์ คุณแค่ต้องการเวลาที่จะหาว่าคุณอยากทำงานอะไร ดูอย่างฉันสิ! ฉันไม่รู้ด้วยซ้ำว่าทำอะไรอยู่ จนเร็วๆ นี้น่ะ#$r 1002 0 jobquestion_neutral#คุณน่าจะลองไปฝึกงานพาร์ทไทม์ดูนะ จะได้ดูว่าชอบอะไร อย่างน้อยแม่คุณจะได้เลิกเซ้าซี้ไงล่ะ#$r 1002 -125 jobquestion_yes#คงไม่ถึงขั้นขี้เกียจหรอก แต่... คุณเรียนจบมาเป็นปีแล้วนะ วิคเตอร์",
+  "jobquestion_no": "ใช่แล้วครับ คุณเคยทำบัญชีอยู่ที่โจจ้า แล้วก็เบนเข็มมาทำงาน เป็นชาวไร่แทนสินะครับ$3#$b#เรื่องของคุณ ทำให้ผมมีความหวัง กับอนาคตของผมเลยครับ คุณ @ ขอบคุณนะครับ",
+  "jobquestion_neutral": "ผมน่าจะ ลองทำแบบนั้นดูนะครับ ดูบรรยากาศการทำงานดู ว่าผมชอบมั้ย$6",
+  "jobquestion_yes": "อืมม... ผมเข้าใจแล้วครับ คุณพูดถูก ผมต้องพยายามมากขึ้นแล้ว$2",
+  "jobquestion_followup": "$p 1001#ผมต้องพยายามมากขึ้น เพื่อไล่ตามความฝันของผม ครับ!$1|ผมขอนึกทบทวน ดูอีกสักพักนะครับ คุณ @ ขอบคุณที่มาคุยกันนะครับ$6",
   
   //ZUZU CITY QUESTION
-  "summer_Thu": "I've been thinking of my life back in Zuzu City. It was so... chaotic and noisy.$0#$e#Living here in the valley is certainly different from the city.$1#$q 3001/3002 city_followup#Do you miss living in the city?#$r 3001 15 city_yes#Yes, I do.#$r 3002 15 city_no#No, I don't.",
-  "city_yes": "Not surprising. Cities have all the jobs. Unless you're willing to be self-employed it's difficult to make a living out here.$0",
-  "city_no": "I have some family in Zuzu City. My mother and I take trips to visit them once in a while.$3",
-  "city_followup": "$p 3001#I appreciate our chats, @.$1|I appreciate our chats, @.$1",
+  "summer_Thu": "ผมมานึกถึงช่วงชีวิต ที่เมืองซูซูครับ มันช่าง... วุ่นวายและเสียงดังมากครับ$0#$e#อยู่ที่หุบเขาแห่งนี้ แตกต่างจากในเมืองจริงๆ ครับ$1#$q 3001/3002 city_followup#คุณคิดถึงชีวิตในเมืองมั้ยครับ?#$r 3001 15 city_yes#คิดถึงสิ#$r 3002 15 city_no#ไม่นะ",
+  "city_yes": "ไม่น่าแปลกใจครับ เมืองน่ะมีงานมากมาย  เว้นแต่ คุณยินดีจะเป็นนายของตัวเอง ข้างนอกนี่หางานยากมากครับ$0",
+  "city_no": "ครอบครัวของผมบางคนอยู่ในเมืองซูซูครับ  คุณแม่กับผมไปเยี่ยมพวกเขา บ้างเหมือนกันนานๆ ทีครับ$3",
+  "city_followup": "$p 3001#ดีใจที่เราได้คุยกันนะครับ คุณ @$1|ดีใจที่เราได้คุยกันนะครับ @$1",
   
   //SPECIFIC MAP AND COORDINATES DIALOGUE
-  "JenkinsHouse_31_5": "Uhh... this is a little weird. Can't you see I'm in bed?$2",
-  "JenkinsHouse_6_8": "I'm brushing my teeth.$0",
-  "BlueMoonVineyard": "Quite the view of the Gem Sea. Sophia has the best view in town.$1",
+  "JenkinsHouse_31_5": "เอ่อ... นี่มันแปลกๆ นิดหน่อยยะครับ คุณไม่เห็นหรือครับ ว่าผมยังอยู่บนเตียง?$2",
+  "JenkinsHouse_6_8": "ผมแปรงฟันอยู่ครับ$0",
+  "BlueMoonVineyard": "เห็นทะเลอัญมณี ชัดเหมือนกันนะครับ ในเมืองนี้ โซเฟียเห็นวิวดีสุดเลยนะครับ$1",
  
   //SPRING AND GENERAL DIALOGUE
-  "spring_1": "Happy spring, @.$3#$e#What are your goals for this year? I want to read at least one book a week.$1",
-  "spring_15": "There are eight bridges in Stardew Valley. Over half of those are in Pelican Town.$3#$b#There are also many small wooden makeshift bridges everywhere, such as the one at the beach.$1#$e#It's incredible that bridges can allow different communities to connect with one another.$1",
-  "spring_23": "I wonder if Sophia is bringing her special iridium-quality wine to the flower festival?$0#$e#I'm not that great at dancing.$2",
-  "spring_28": "Summer can't come soon enough. I'm looking forward to going to the beach more often.$1",
+  "spring_1": "สุขสันต์ฤดูใบไม้ผลิครับ คุณ @$3#$e#ปีนี้ตั้งเป้าหมายอะไรไว้ครับ? ผมตั้งใจจะอ่านหนังสือให้ได้ อย่างน้อยอาทิตย์ละเล่มครับ$1",
+  "spring_15": "มีสะพานอยู่ 8 แห่งด้วยกันครับ ในสตาร์ดิวแวลลีย์ ครึ่งหนึ่งอยู่ใน เมืองเพลิแกนนี่แหละครับ$3#$b#มันยังมีสะพานไม้เล็กๆ ที่สร้างกันเองอยู่ทุกที่เลยครับ เหมือนอันที่ชายหาดไงล่ะครับ$1#$e#ยอดไปเลยนะครับ ที่สะพานสามารถเชื่อม ชุมชนที่ต่างกันสองฝั่ง เข้าด้วยกันได้น่ะครับ$1",
+  "spring_23": "ผมสงสัยจังเลยนะครับ ว่าอบิเกลจะเอาไวน์ คุณภาพระดับอิริเดียม ขวดพิเศษ ไปงานเทศกาลดอกไม้ ด้วยหรือเปล่า?$0#$e#ผมเต้นไม่ค่อยเก่งน่ะครับ$2",
+  "spring_28": "ฤดูร้อนไม่มาถึงสักทีนะครับ ผมรอคอยการได้ไปชายหาด ให้บ่อยขึ้นแล้วครับ$1",
   
   "Mon": "Hey there. How's your Monday?$0#$e#I need to write a lot of emails today. I'm not looking forward to it.$2",
   "Mon6": "I'm in the middle of reading a book about sightings of mysterious creatures in the Gem Sea.$3#$b#This book has been in my family for a long time!$1",
