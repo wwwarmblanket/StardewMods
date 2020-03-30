@@ -62,16 +62,16 @@
   "summer_Thu8": "ฉันแวะไปดู ฟาร์ม %farm เมื่อวันก่อน ฟาร์มของคุณก้าวหน้าไปมากเลยนี่ @.$0#$e#ฉันชอบที่จะใช้เวลาในบางครั้งมาแวะดูที่นี่ ถ้าไม่มีปัญหาอะไร$3",
   "summer_Fri": "Find anythin' good in the woods lately, farmer?$0#$e#Just don't forage too much. I rely on foragin' for part of my livelihood, y'know.$0",
   "summer_Fri8": "ฉันพบอาหารสัตว์จำนวนมากในป่าป่าซินเดอร์แซป ด้วยสิ่งที่ฉันพบนี้; ฉันคิดว่าฉันอาจทำกำไรในฤดูกาลนี้$1#$e#บายๆ ชาวไร่!$3",
-  "summer_Sat": "I found some spice berries growin' on the other side of my fence this mornin'.$1#$b#The benefits of havin' a farm in this here forest are beneficial.$0#$e#Have a nice day, farmer.$0",
+  "summer_Sat": "I found some spice berries growin' on the other side of my fence this mornin'.$1#$b#ประโยชน์ของการมีฟาร์มในป่าแห่งนี้เป็นผลดี$0#$e#ขอให้เป็นวันที่ดีนะชาวไร่$0",
   "summer_Sun": "Let me know if you want to borrow my Yoba Text. I have detailed notes on the most popular passages.$3#$e#What? You don't want to borrow it? Fine.$2",
-  "summer_Sat6": "There's good forage up at the summit. I reckon you could earn quite a bit of quick gold.#$e#It's too steep of a hike for me to go up there. You're healthy and young enough for that hike, @.$3",
+  "summer_Sat6": "There's good forage up at the summit. I reckon you could earn quite a bit of quick gold.#$e#มันสูงชันเกินไปสำหรับฉันที่จะขึ้นไปที่นั่น คุณแข็งแรงและอายุน้อย เพียงพอสำหรับการปีนเขา @.$3",
 
   //FALL DIALOGUE
-  "fall_1": "Fall is a good season for foragin', @. There's a mighty number of mushrooms ripe for the pickin'.$0#$e#Don't go grabbin' all of 'em. Save some for me.$2",
-  "fall_4": "I seen you walkin' into that there Adventurer's Guild in town. You moonlightin' as one of those monster hunters?$0#$e#That's some dangerous work. I'm thankful you're willin' to put your life on the line for folks like me, keepin' this here valley safe.$1#$b#Thank you.$0",
-  "fall_10": "That Sophia girl at the vineyard took over after her parents-$0#$b#Ack, nothin'. You'll need to talk to her about it.$2#$e#You have a good day, ya hear?$0",
-  "fall_15": "I'll have my own grange display tomorrow, farmer. Worry not, I don't plan on winnin'.$0#$e#I've never won once; I don't think that'll change tomorrow...$2",
-  "fall_23": "I was workin' my crop field yesterday and I saw some military men walk over to the Wizard's Tower.$2#$b#Those scummy government officials are still tryin' to recruit witches and wizards for their war.$5#$e#Pfft. Despicable.$2",
+  "fall_1": "ฤดูใบไม้ร่วงเป็นฤดูที่ดีสำหรับการหาอาหาร @. มีเห็ดจำนวนมากที่สุกงอมให้เลือกเก็บ$0#$e#Don't go grabbin' all of 'em. Save some for me.$2",
+  "fall_4": "ฉันเห็นคุณกำลังเดินเข้าไปในกิลด์ของนักผจญภัยที่อยู่ในเมือง You moonlightin' as one of those monster hunters?$0#$e#นั่นเป็นงานที่อันตราย I'm thankful you're willin' to put your life on the line for folks like me, keepin' this here valley safe.$1#$b#Thank you.$0",
+  "fall_10": "เด็กหญิงโซเฟียจากไร่องุ่นรับช่วงต่อหลังจากพ่อแม่ของเธอ...$0#$b#อ๊ะ ไม่มีอะไร คุณจะต้องคุยกับเธอเกี่ยวกับเรื่องนี้เอง$2#$e#คุณมีวันที่ดีนะ คุณได้ยินมั้ย?$0",
+  "fall_15": "พรุ่งนี้ฉันจะจัดแสดงผลผลิตจากฟาร์มของฉันเอง ไม่ต้องกังวล ฉันไม่ได้คาดหวังว่าจะชนะ$0#$e#ฉันไม่เคยชนะแม่แต่ครั้งเดียว; ฉันไม่คิดว่าพรุ่งนี้จะมีอะไรเปลี่ยนไป...$2",
+  "fall_23": "ฉันทำงานเพาะปลูกในไร่เมื่อวานนี้ และฉันเห็นผู็ชายที่เป็นทหารเดินไปยังหอคอยพ่อมด$2#$b#Those scummy government officials are still tryin' to recruit witches and wizards for their war.$5#$e#Pfft. Despicable.$2",
   "fall_27": "Pierre shares his spiced pumpkin cider during Spirit's Eve.$3#$b#He usually only shares it with his 'close' friends.$2#$b#It's nice I'll get to taste some of it after an entire year.$0",
   "fall_28": "Crops are gonna start dyin' soon, farmer. Winter is upon us.$0#$e#I'll see you around, now.$0",
 
