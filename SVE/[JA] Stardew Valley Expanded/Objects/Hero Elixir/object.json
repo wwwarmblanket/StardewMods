@@ -1,6 +1,6 @@
 {
 	"Name": "Hero Elixir",
-	"Description": "Brewed at Castle Village by Camilla. Grants heroic attributes.",
+	"Description": "(ยาปลุกวีรบุรุษ) ปรุงที่แคสเซิลวิลเลจโดยคามิลล่า ให้ความสามารถวีรบุรุษ",
 	"Category": "ArtisanGoods",
 	"Edibility": 2,
 	"EdibleIsDrink": false,
