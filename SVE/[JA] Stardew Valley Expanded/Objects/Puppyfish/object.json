@@ -1,6 +1,6 @@
 {
 	"Name": "Puppyfish",
-	"Description": "This fish wants nothing but pets and snacks.",
+	"Description": "(ปลาตูบน้อย) ปลาตัวนี้ไม่ต้องการอะไรนอกจากการถูกลูบและขนม",
 	"Category": "Fish",
 	"Edibility": -100,
 	"EdibleIsDrink": false,
