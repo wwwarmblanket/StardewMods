@@ -1,6 +1,6 @@
 {
 	"Name": "Armor Elixir",
-	"Description": "Brewed at Castle Village by Camilla. Fortifies the body.",
+	"Description": "(ยาเกราะวัฒนะ) ปรุงที่แคสเซิลวิลเลจโดยคามิลลา ทำให้ร่างกายแข็งแกร่งขึ้น",
 	"Category": "ArtisanGoods",
 	"Edibility": 2,
 	"EdibleIsDrink": false,
