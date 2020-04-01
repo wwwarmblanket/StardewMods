@@ -26,6 +26,9 @@
 #### จัดทำและแปลโดย Translator Army
 Memee Thechoco, Pookhao23, RushingOn, Tomyamkung.
 
+#### รายชื่อผู้โดเนท
+'ELL, Krit, Memee Thechoco, นิรนาม.
+
 #### Coder & ตัดต่อวิดีโอ
 'ELL, Shibosan.
 
