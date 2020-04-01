@@ -51,7 +51,7 @@
   "summer_Mon2": "Don't know how you got all this time to wander around and talk to folks with that big old plot of land you're sittin' on.$2#$e#พวกเราบางคนชอบที่จะมีสถานที่แบบนั้นเพื่อใช้เวลาทั้งวันมี่นั่น$2",
   "summer_Mon6": "เป็นไงบ้างชาวไร่?$0#$e#เอ๊ะ พืชผลไม่ได้เป็นไปตามอย่างที่ฉันหวังไว้ในฤดูกาลนี้ ปีนี้อาจจะเป็นปีที่ยากลำบาก$2",
   "summer_Mon10": "สปริงเกอร์นั้นน่าทึ่งมาก ถ้าคุณต้องการระบบจ่ายน้ำอัตโนมัติในฟาร์มของคุณ ฟาร์มแฟร์เฮเวนค่อนข้างเล็กเกินไปที่จะใช้อุปกรณ์เหล่านั้น$0#$e#ฉันไม่รังเกียจที่จะรดน้ำพืชด้วยตนเอง ฉันสนุกกับมันจริงๆ แต่ฟาร์มที่ใหญ่พอๆกับคุณ คุณควรพิจารณาก่อนจะลงทุน$0", 
-  "summer_Tue": "I lost two crops this morning to some Yoba darn crows. I need to do somethin' bout that.$2",
+  "summer_Tue": "เมื่อเช้าฉันเสียพืชผล ไปให้กับพวกอีกาของโยบะ ฉันต้องทำอะไรซักอย่างกับเรื่องนั้น$2",
   "summer_Tue2": "นายกเทศมนตรีเลวิสกับฉันไม่เห็นด้วยกับเรื่องเมื่อวานนี้ I have a strong feelin' he doesn't like me right now.$2#$e#What was it about? None of your Yoba darn business.$2",
   "summer_Tue4": "ปีแอร์ไม่ขายพืชผลหรืออาหารใดๆในร้านของเขา ฉันไม่เข้าร้านเขาเพราะเรื่องนั้น$2#$e#โอ้ ทำไมเขาไม่ทำน่ะเหรอ? เพราะเขาไม่ใช่เจ้าของร้านที่ดีไงล่ะ ทำไมเขาไม่ไปทำอย่างอื่นกันนะ?$2#$e#Times I feel like everyone but you in town just wishes I'd disappear, @.",
   "summer_Tue8": "There was a Yoba darn crow eatin' my crops this mornin'. Blasted flying thieves.$7#$e#ขอโทษนะชาวไร่ ปกติฉันจะมีเวลาให้คุณ แต่ตอนนี้ฉันไม่มีอารมณ์จะคุย$2#$e#ฉันไม่คุยด้วยในตอนนี้$5#$e#%แอนดี้ไม่สนใจคุณ",  
@@ -90,7 +90,7 @@
   "fall_Fri8": "คุณรู้อะไรมั้ย เราออกเดินทางไปด้วยกันและตั้งแคมป์ในป่าลึก$3#$e#ใครจะรู้ว่าพวกเราสามารถหาอาหารที่หายากได้?$3",
   "fall_Sat": "%แอนดี้สังเกตเห็นคุณและโบกมือด้วยใบหน้าที่ยิ้มแย้ม เค้าดูยุ่ง",
   "fall_Sat4": "วันนี้เป็นวันที่ดีนะชาวไร่ ฉันหวังว่าในฤดูกาลนี้คุณจะทำออกมาได้ดี$0#$e#ขอให้ ฟาร์ม %farm โชคดี คุณกำลังทำสิ่งนี้ที่หุบเขาแห่งความภาคภูมิใจ$0",
-  "fall_Sun": "คนที่ฉันเข้ากันได้ดีในเมืองเมืองเพลิแกนมีจอร์จและแพมเท่านั้น มีไม่กี่คนที่เข้าใจฉัน อาจจะเป็นความแตกต่างของอายุ$0#$e#นายกเทศมนตรีเลวิสเป็นไงน่ะเหรอ? That man is a Yoba darn fool if I've ever seen one. เขาและฉันมักคิดเห็นไม่ตรงกัน$2",
+  "fall_Sun": "คนที่ฉันเข้ากันได้ดีในเมืองเมืองเพลิแกนมีจอร์จและแพมเท่านั้น มีไม่กี่คนที่เข้าใจฉัน อาจจะเป็นความแตกต่างของอายุ$0#$e#นายกเทศมนตรีเลวิสเป็นไงน่ะเหรอ? เลวิสเป็นคนที่ทึ่มที่สุด เท่าที่โยบะเคยส่งมาให้แอนดี้เจอแล้วค่ะ เขาและฉันมักคิดเห็นไม่ตรงกัน$2",
   "fall_Sun6": "Livin' in Stardew Valley is the great Ferngillian dream. Beautiful land, natural resources, good people... mostly.$0#$b#What more could someone ask for?$1#$e#Well, I could use more money and land...$2",
   "fall_Sun10": "I go to the saloon every Friday night. It's important to reward yourself for workin' hard.$3#$e#Hope to see ya at the saloon tonight. We can relax and chat instead of talkin' shop.$3#$b#It's good to have a friend around.$1", 
 
