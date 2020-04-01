@@ -482,7 +482,7 @@
         "PendingProposal_Canceling": "กำลังยกเลิกคำขอ...",
         "TrashCanSale": "ขอคืน",
         "ItemList_ItemsLost": "ไอเท็มที่สูญหาย:",
-        "ItemList_ItemsLostValue": "มูลค่าทั้งหมดe: {0}g",
+        "ItemList_ItemsLostValue": "มูลค่าทั้งหมด: {0}g",
         "Collections_Letters": "จดหมายต่างๆ",
         "FruitTree_Warning": "ต้น {0} ของคุณไม่สามารถ โตได้เมื่อคืนนี้",
         "Workbench_Chest_Warning": "หนึ่งในกล่องใกล้ๆ โต๊ะทำงานถูกใช้งานอยู่",
