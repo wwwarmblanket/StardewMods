@@ -23,14 +23,14 @@
 | Movies & MoviesReactions | 100% |
 | Schedules | 100% |
 
-#### จัดทำโดย
-SORNZiLLATE, NoTSoXDream, JASON.
+#### จัดทำและแปลโดย Translator Army
+Memee Thechoco, Pookhao23, RushingOn, Tomyamkung.
 
-#### Coder & นักตัดต่อวิดีโอ
+#### Coder & ตัดต่อวิดีโอ
 'ELL, NoTSoXDream, Shibosan.
 
-#### นักแปลมืออาชีพ
-Memee Thechoco, Pookhao23, RushingOn, Tomyamkung.
+#### ที่ปรึกษาโปรเจค Stardew Valley Renewal TH group
+SORNZiLLATE, NoTSoXDream, JASON.
 
 #### ทําเนียบนักแปล
 Davykun, iParnRequiem, PangInFN, ProfessorHydra, Tawan, unknownwmz.
