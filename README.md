@@ -27,15 +27,15 @@
 Memee Thechoco, Pookhao23, RushingOn, Tomyamkung.
 
 #### Coder & ตัดต่อวิดีโอ
-'ELL, NoTSoXDream, Shibosan.
+'ELL, Shibosan.
 
-#### ที่ปรึกษาโปรเจค Stardew Valley Renewal TH group
+#### ผู้จัดทำเวอร์ชั่น 1.0-1.8.8
 SORNZiLLATE, NoTSoXDream, JASON.
 
 #### ทําเนียบนักแปล
 Davykun, iParnRequiem, PangInFN, ProfessorHydra, Tawan, unknownwmz.
 
-#### ทีมงานผู้ริเริ่มโปรเจค
+#### ขอบคุณทีมงานเดิม
 Artdekdok, cybertorns, MiXEL.SC, NoTSoXDream, Pigter, sornzilla, superogira.
 
 #### Chief Beta Tester
