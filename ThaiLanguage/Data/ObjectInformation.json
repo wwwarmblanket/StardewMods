@@ -112,7 +112,7 @@
         "156": "Ghostfish/45/15/Fish -4/Ghostfish/(ปลาผี) มันมีสีซีด เป็นปลาตาบอดที่พบได้ ในทะเลสาบใต้ดิน/Day Night^Spring Summer Fall Winter",
         "157": "White Algae/25/8/Fish/White Algae/(สาหร่ายขาว) ลื่นมากๆ/Day Night^Spring Summer Fall Winter",
         "158": "Stonefish/300/-300/Fish -4/Stonefish/(ปลาหิน) ปลาประหลาดที่รูปร่างเหมือนก้อนอิฐ/Day Night^Spring Summer Fall Winter",
-        "159": "Crimsonfish/1500/15/Fish -4/Crimsonfish/(ปลาคริมสัน) อาศัยอยู่ในน้ำลึกใต้มหาสมุทร เเต่เมื่อน้ำอุ่นขึ้นในฤดูร้อนมันก็ชอบขึ้นมาวางไข่/Day^Winter",
+        "159": "Crimsonfish/1500/15/Fish -4/Crimsonfish/(ปลาคริมสัน) อาศัยอยู่ในน้ำลึกใต้มหาสมุทร แต่เมื่อน้ำอุ่นขึ้นในฤดูร้อนมันก็ชอบขึ้นมาวางไข่/Day^Winter",
         "160": "Angler/900/10/Fish -4/Angler/(ปลาตกเบ็ด) มันใช้ตะขอเรืองแสงของมันในการล่อเหยื่อแล้วจับกิน/Day Night^Spring Summer Fall Winter",
         "161": "Ice Pip/500/15/Fish -4/Ice Pip/(ปลาไอซ์พิพ) ปลาหายากที่จะเจริญเติบโตในสภาพอากาศที่เย็นจัด/Day Night^Spring Summer Fall Winter",
         "162": "Lava Eel/700/20/Fish -4/Lava Eel/(ปลาไหลลาวา) ด้วยเหตุผลอะไรบางอย่าง มันสามารถอาศัยอยู่ในบ่อลาวาได้/Day Night^Spring Summer Fall Winter",

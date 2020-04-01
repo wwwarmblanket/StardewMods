@@ -37,7 +37,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "/playSound dustMeep/pause 200/playSound dustMeep/pause 300/playSound dustMeep/pause 100/playSound dustMeep/pause 200/playSound dustMeep",
-        "Text": "ต้นกล้าต้นอื่นรวมตัวกันเเล้ว โบกมือลาอย่างตื่นเต้น...!",
+        "Text": "ต้นกล้าต้นอื่นรวมตัวกันแล้ว โบกมือลาอย่างตื่นเต้น...!",
         "Shake": false,
         "ResponsePoint": "sprout_leave",
         "ID": "spring0_2"
@@ -59,7 +59,7 @@
         "Sound": "thunder",
         "MessageDelay": 1000,
         "Script": "",
-        "Text": "ความกลัวในจิตใจ เเละความวิตกกังวล จากเหตุการณ์ต่างๆ ทำให้เจ้าต้นกล้าน้อย เริ่มหมดความหวังขึ้นเรื่อยๆ...",
+        "Text": "ความกลัวในจิตใจ และความวิตกกังวล จากเหตุการณ์ต่างๆ ทำให้เจ้าต้นกล้าน้อย เริ่มหมดความหวังขึ้นเรื่อยๆ...",
         "Shake": false,
         "ResponsePoint": "",
         "ID": "spring0_4"
