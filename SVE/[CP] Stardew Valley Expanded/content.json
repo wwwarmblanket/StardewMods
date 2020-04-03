@@ -813,14 +813,14 @@
    "SVEadvertisement6": "คุณกำลังดื่มเบียร์ที่บ้านหรือไม่? หมักองุ่นด้วยตัวคุณเอง? ทำให้ของเหลวมีค่ารั่วซึม หรือแห้งไปในที่จัดเก็บ ที่คุณภาพต่ำ? ลองถังไม้เนื้อแข็ง! พวกมันไม่รั่วซึม พวกมันป้องกันการรั่วซึม เมื่ออุณหภูมิเปลี่ยนแปลง พวกมันไม่มีรอยแตกที่น่าเกียจ ประดิษฐ์ด้วยตัวเอง หรือเลือกจากช่างฝีมือ ที่มีความสามารถของเรา ที่แกรมเพิลตัน!",
    "robinKitchenLetter": "ถึงชาวไร่ @,^^เธออาจต้องการเพิ่มพื้นที่ของเธอ ฉันสามารถช่วยได้ แค่เธอนำวัตถุดิบมาให้ฉัน และจ่ายค่าธรรมเนียม ฉันสามารถขยายบ้านของเธอได้ การขยายบ้านครั้งแรก เธอจะมีห้องครัว เธอสามารถปรุงสูตรอาหาร ที่คุณเรียนรู้ได้!^^ฉันหวังว่าที่สตาร์ดิวแวลลี่ เธอจะรู้สึกเหมือนอยู่บ้าน!^^   ช่างไม้ท้องถิ่นของคุณ^    โรบิน",
    "JasThankYouLetter": "ถึงคุณชาวไร่ @,^^น้ามานีบอกว่าหนูต้อง เขียนจดหมายขอบคุณ ดังนั้น... ขอบคุณที่พบหนูในป่า แล้วพาหนูกลับบ้าน หนูจะไม่เข้าป่า ไปไกลขนาดนั้นอีกแล้ว^^  -แจส",
-   "winter_7": "Dear @,^^Tomorrow we're all gathering by Andy's house and walking to the fishing spot in the forest for the Festival of Ice.^^It's a celebration of winter... there'll be snowmen, ice sculptures, and an ice fishing competition!^Arrive between 9 AM and 2 PM if you'd like to participate.^  -Mayor Lewis",
-   "OliviaDatingLetter": "Dear @,^^I've been having feelings about our relationship we just started. I need to tell you some things. Can you visit me at my residence when you have a chance?^^  -Olivia",
-   "OliviaPartyLetter": "Hi honey,^^I'm throwing a house party tonight at my residence. Most of the townsfolk will be there, along with my special guest: the governor!! I would absolutely love you to come, @. The party starts at 6:00PM. Don't be late!^^  -Your love, Olivia",
-   "MarlonLetterCherryBomb": "@,^^The mines are dangerous. These cherry bombs will help during your expeditions.^^Be careful.^^   -Marlon %item object 286 5 %%",
-   "MarlonLetterCherryBombX": "@,^^We received an extra shipment of supplies from Castle Village. I believe you can make good use of these. Good luck.^^  -Marlon %item object 286 10 %%",
-   "MarlonLetterBomb": "@,^^Your assistance in monster eradication has been most helpful to our efforts in protecting the valley. These bombs will help you on your adventures. Stay safe.^^  -Marlon %item object 287 10 %%",
-   "MarlonLetterMegaBomb": "@,^^The guild received another shipment of weapons from Castle Village. These bombs pack a punch. Don't stand too close to them once ignited.^^  -Marlon %item object 288 10 %%",
-   "MarlonLetterPotions": "@,^^Camilla, the witch of Castle Village, supplied 30 elixers to the guild. This is one of her finest brews yet. I'm mailing you half of them. These will assist in your expeditions. Good luck.^^  -Marlon %item object 773 15 %%",
+   "winter_7": "ถึงคุณ@,^^พรุ่งนี้เราทุกคน จะรวมตัวกันที่บ้านของแอนดี้ และเข้าไปในป่า เพื่อไปยังจุดตกปลาของงาน  เทศกาลสลักน้ำแข็ง^^มันเป็นการฉลองในฤดดูหนาว... จะมี ตุ๊กตาหิมะ น้ำแข็งแกะสลัก และ การแข่งขันตกปลา!^มาระหว่าง 9 AM ถึง 2 PM ถ้าคุณต้องการเข้าร่วม^  -เทศมนตรีเลวิส",
+   "OliviaDatingLetter": "ถึงคุณ @,^^ฉันรู้สึกว่า ความสัมพันธ์ของเรา พึ่งจะเริ่มต้น ฉันมีบางอย่างที่ต้องบอกคุณ ถ้ามีโอกาส คุณมาเยี่ยมฉันที่บ้านได้ไหม?^^  -โอลิเวีย",
+   "OliviaPartyLetter": "สวัสดีที่รัก,^^คืนนี้ฉันจัดงานปาร์ตี้ที่บ้าน ชาวเมืองส่วนใหญ่ จะอยู่ที่นั่นพร้อมกับ แขกรับเชิญพิเศษ : ผู้ว่าการ!! ฉันมั่นใจ มันต้องดีแน่ ๆ ถ้าคุณมา @. Tงานปาร์ตี้เริ่มตอน 6:00 PM. อย่ามาสายล่ะ!^^  -ด้วยรักจาก โอลิเวีย",
+   "MarlonLetterCherryBomb": "@,^^เหมืองเป็นสถานที่อันตราย ระเบิดเชอร์รี่พวกนี้ จะช่วยคุณในระหว่างการเดินทาง^^ระวังตัวด้วย^^   -มาร์ลอน %item object 286 5 %%",
+   "MarlonLetterCherryBombX": "@,^^เราได้รับพัสดุพิเศษจาก แคสเซิลวิลเลจ ฉันเชื่อว่าคุณสามารถใช้มันได้ ขอให้โชคดี^^  -มาร์ลอน %item object 286 10 %%",
+   "MarlonLetterBomb": "@,^^ความช่วยเหลือของคุณ ในการกำจัดมอนสเตอร์ มีประโยชน์มากต่อการ พยายามปกป้องหุบเขา ระเบิดพวกนี้ จะช่วยคุณในการ ผจญภัยของคุณ ปลอดภัยไว้ก่อน^^  -มาร์ลอน %item object 287 10 %%",
+   "MarlonLetterMegaBomb": "@,^^สมาคมได้รับอาวุธอีกครั้งจาก แคสเซิลวิลเลจ ระเบิดเหล่านี้มีแรงระเบิดมาก อย่ายืนใกล้พวกมันมากเกินไปล่ะ^^  -มาร์ลอน %item object 288 10 %%",
+   "MarlonLetterPotions": "@,^^คามิลล่า แม่มดแห่งแคสเซิลวิลเลจ เธอส่งยา 30 ขวดให้กับสมาคม เธอเป็นหนึ่งในผู้ผลิตยาที่ดีที่สุด ฉันขอแบ่งให้กับคุณ สิ่งเหล่านี้จะช่วยคุณในการสำรวจ ขอให้โชคดี^^  -มาร์ลอน %item object 773 15 %%",
 	 }
 },
 
@@ -864,7 +864,7 @@
       "Action": "EditData",
       "Target": "Data/ExtraDialogue",
       "Entries": {
-      "PurchasedItem_Teen": "Hey, so I picked up a {2} at the store last night. Pierre said it came from %farm Farm!$1",
+      "PurchasedItem_Teen": "เฮ้ ดังนั้นฉันจึงเลือก {2} จากร้านค้าเมื่อคืนนี้ ปิแอร์บอกว่ามันมาจาก ฟาร์ม %farm !$1",
     }
 },
 
