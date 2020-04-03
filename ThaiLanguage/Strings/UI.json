@@ -583,7 +583,7 @@
         "Junimo_Kart_Level_8": "???",
         "Junimo_Kart_Level_9": "คูหาเห็ดหลอน",
         "NPC_Busy": "{0} กำลังยุ่งอยู่...",
-        "PondQuery_Name": "บ่อ {0}",
+        "PondQuery_Name": "บ่อเลี้ยง {0}",
         "PondQuery_EmptyPond": "บ่อว่างเปล่า",
         "PondQuery_ConfirmEmpty": "คุณแน่ใจเหรอ ที่จะเอาปลาทั้งหมดออก และทำบ่อให้กลับเป็นสภาพเริ่มต้น?",
         "PondQuery_ChangeNetting": "เปลี่ยนรูปลักษณ์",
