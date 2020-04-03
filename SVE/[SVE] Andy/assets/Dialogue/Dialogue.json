@@ -91,15 +91,15 @@
   "fall_Sat": "%แอนดี้สังเกตเห็นคุณและโบกมือด้วยใบหน้าที่ยิ้มแย้ม เค้าดูยุ่ง",
   "fall_Sat4": "วันนี้เป็นวันที่ดีนะชาวไร่ ฉันหวังว่าในฤดูกาลนี้คุณจะทำออกมาได้ดี$0#$e#ขอให้ ฟาร์ม %farm โชคดี คุณกำลังทำสิ่งนี้ที่หุบเขาแห่งความภาคภูมิใจ$0",
   "fall_Sun": "คนที่ฉันเข้ากันได้ดีในเมืองเมืองเพลิแกนมีจอร์จและแพมเท่านั้น มีไม่กี่คนที่เข้าใจฉัน อาจจะเป็นความแตกต่างของอายุ$0#$e#นายกเทศมนตรีเลวิสเป็นไงน่ะเหรอ? เลวิสเป็นคนที่ทึ่มที่สุด เท่าที่โยบะเคยส่งมาให้แอนดี้เจอแล้วค่ะ เขาและฉันมักคิดเห็นไม่ตรงกัน$2",
-  "fall_Sun6": "Livin' in Stardew Valley is the great Ferngillian dream. Beautiful land, natural resources, good people... mostly.$0#$b#What more could someone ask for?$1#$e#Well, I could use more money and land...$2",
-  "fall_Sun10": "I go to the saloon every Friday night. It's important to reward yourself for workin' hard.$3#$e#Hope to see ya at the saloon tonight. We can relax and chat instead of talkin' shop.$3#$b#It's good to have a friend around.$1", 
+  "fall_Sun6": "การใช้ชีวิตในสตาร์ดิวแวลลี่เป็นความฝันอันยิ่งใหญ่ของชาวเฟิร์นกิลล์ เพราะเป็นดินแดนที่สวยงาม มีทรัพยากรธรรมชาติ และคนดีๆ... ส่วนใหญ่นะ$0#$b#What more could someone ask for?$1#$e#Well, I could use more money and land...$2",
+  "fall_Sun10": "ฉันไปที่บาร์สตาร์ดรอปทุกคืนวันศุกร์ สิ่งสำคัญคือการให้รางวัลตัวเองสำหรับการทำงานอย่างหนัก$3#$e#หวังว่าจะได้เจอคุณที่บาร์สตาร์ดรอปในคืนนี้ We can relax and chat instead of talkin' shop.$3#$b#It's good to have a friend around.$1", 
 
   
   //WINTER DIALOGUE    
-  "winter_1": "Winter is my favorite season. It allows me to focus on foragin' instead of managin' my farm.$1",
-  "winter_7": "We're gonna be walkin' to that ice fishin' spot in the forest tomorrow, @. I'll be leadin' the way.$1#$e#I know my way in and out of the forest very well. I go in there to forage all the time.$0",
-  "winter_12": "Tell me. Do you think that Olivia lady takes an interest in me? I see her eyeballin' me at the saloon sometimes.$3#$e#Maybe I should say hi one of these days.$2",
-  "winter_24": "I dislike this time of year. It's a grim reminder to me I don't hold anyone special in my life.$2#$e#I'm not lookin' for your Yoba darn sympathy, farmer.$5#$e#%Andy is now ignoring you.",
+  "winter_1": "ฤดูหนาวเป็นฤดูกาลที่ฉันชอบ มันช่วยให้ฉันมุ่งเน้นไปที่การหาอาหารแทนการจัดการฟาร์มของฉัน$1",
+  "winter_7": "เราจะเดินไปที่จุดตกปลาซึ่งบ่อน้ำแข็งในป่าพรุ่งนี้ @. ฉันจะเป็นผู้นำทางเอง$1#$e#ฉันรู้เส้นทางของฉันในการเข้าและออกจากป่าได้เป็นอย่างดี ฉันไปที่นั่นเพื่อค้นหาอาหารตลอดทั้งวัน$0",
+  "winter_12": "บอกฉันที คุณคิดว่าโอลิเวียสนใจฉันมั้ย? ฉันเห็นเธอจ้องมองฉันที่บาร์สตาร์ดรอปในบางครั้ง$3#$e#บางทีฉันควรจะพูดสวัสดีซักครั้งในวันนี้$2",
+  "winter_24": "ฉันไม่ชอบช่วงเวลานี้ของปี มันเป็นสิ่งเตือนใจที่น่ากลัวสำหรับฉัน ฉันไม่ถือว่าใครเป็นคนพิเศษในชีวิตของฉัน$2#$e#ฉันไม่ต้องการความเห็นใจจากโยบะ farmer.$5#$e#%Andy is now ignoring you.",
   "winter_28": "Are you prepared to plant your crops for spring, farmer?#$e#Good luck to ya! I'll be doin' the same.$1",
 
   "winter_Mon": "Pierre still refuses to sell my crops in his store, and he wonders why I never shop there.$2#$e#...$2#$e#%Andy is ignoring you. He isn't in a good mood.",
