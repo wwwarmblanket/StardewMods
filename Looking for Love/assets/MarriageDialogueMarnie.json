@@ -70,10 +70,10 @@
 		"fall_1": "อากาศเริ่มเย็นลงเสียที... โล่งอกไป!#$e#พวกสัตว์ก็คงโล่งอกเหมือนกัน",
 		"fall_15": "ฉันรองานแสดงสินค้าพรุ่งนี้ไม่ไหวแล้ว มันเป็นช่วงเลาที่ฉันชอบที่สุดของปีเลย!",
 		"fall_26": "การตกแต่งสำหรับงานวันพรุ่งนี้น่ะ... น่าสนใจเชียวล่ะ$s#$e#ฉันขี้ตกใจน่ะ...$s",
-		"winter_1": "Brr... it's cold! I just want to stay inside where it's warm.#$e#The same goes for the animals! Make sure you buy them a heater.",
-		"winter_7": "Should I enter the fishing contest tomorrow, honey?#$e#I might beat you!",
-		"winter_24": "The feast is tomorrow... I can't wait!",
-		"winter_28": "Let's celebrate a wonderful year together, sweetheart! [348]#$e#Drink up!$h",
-		"spouseRoom_Marnie": "#$c .5#I should probably organize some of this stuff, huh?$h#$e#I'll be in here working on it for a while if you need me.",
-		"patio_Marnie": "Shane's supposed to come by later and help haul some of this stuff to the ranch, so I'm getting it all organized."
+		"winter_1": "บรื๋อ... มันหนาวจัง! ฉันแค่อยากอยู่ข้างในตรงที่ที่มันอุ่นๆ น่ะ#$e#พวกสัตว์ก็เหมือนกันนะ! อย่าลืมซื้อเครื่องทำความร้อน (heater) ให้พวกมันล่ะ",
+		"winter_7": "ฉันควรเข้าร่วมการแข่งขันตกปลาพรุ่งนี้ดีมั้ย ที่รัก?#$e#ฉันอาจจะชนะเธอก็ได้นะ!",
+		"winter_24": "งานเลี้ยงคืนพรุ่งนี้แล้วสินะ... รอไม่ไหวแล้วล่ะ!",
+		"winter_28": "มาฉลองให้กับปีที่เยี่ยมยอดนี้กันเถอะ ที่รัก! [348]#$e#ดื่มเลย!$h",
+		"spouseRoom_Marnie": "#$c .5#ฉันควรจะจัดระเบียบของพวกนี้บ้างสินะ?$h#$e#ฉันจะจัดอยู่ในนี้สักพักนะเผื่อเธอต้องการอะไร",
+		"patio_Marnie": "เชนควรจะแวะมาแล้วก็ช่วยขนของพวกนี้ไปฟาร์มน่ะ ฉันเลยเรียงพวกมันอยู่"
 }
