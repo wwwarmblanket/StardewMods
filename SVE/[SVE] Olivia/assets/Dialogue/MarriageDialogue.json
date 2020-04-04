@@ -1,11 +1,11 @@
 {
   //SPECIAL DIALOGUE
   "patio_Olivia": "รู้มั้ย @ ฉันคิดว่าฉันจะพลาด การซื้อขายหุ้นล่ะ แย่มากๆ เลย.$0#$b#%farm ฟาร์ม สวยงามจริงๆ เลยนะ เป็นสถานที่ที่ดีจริงๆ$3#$e#ฉันมีความสุขนะ ที่ได้อยู่ที่นี่กับคุณ รักคุณนะ$1#$b#ขอให้โชคดีกับการทำงาน ในวันนี้ล่ะ$3",
-  "spouseRoom_Olivia": "I'm trying some Gotoran painting techniques I read about, but they're giving me some trouble.$0#$e#Maybe I should ask Leah for some help. I hate to bother her with amateur questions, but...$2#$b#If I can master these techniques, I can paint a truly moving portrait of you, sweetie. I'd like to do that.$4",
-  "funReturn_Olivia": "Did you have a good day today?$0#$e#I found a bottle of some rare wine I've wanted to try up for auction, and managed to snag it for a great price.$3#$b#We'll have to find something to celebrate, so we have an excuse to open it.$1",
-  "funLeave_Olivia": "Good morning, honey.$3",
-  "OneKid_0": "I took my eye off %kid1 for a moment today, and they managed to get into my painting supplies!$2#$b#Our walls narrowly escaped an explosion of creativity. Maybe %kid1 will grow up to be a painter, too...$3",
-  "OneKid_1": "Storytime with %kid1 today was so much fun, @! We took turns being animals in the jungle and making noises.$1#$e#$I'd forgotten what fun it can be, raising a child this young. They see the world very differently.$0",
+  "spouseRoom_Olivia": "ฉันกำลังพยามยามลองเทคนิค ของโกโทแรนที่อ่านมาอยู่ แต่ดูจะมีแต่ปัญหาน่ะสิ$0#$e#บางทีฉันน่าจะไปถามลีอาดู ฉันเกลียดที่จะต้องไปรบกวนเธอ แต่ก็นะ...$2#$b#ถ้าฉันเชี่ยวชาญขึ้นล่ะก็ จะได้วาดรูปเหมือนของคุณเป็นไงล่ะ$4",
+  "funReturn_Olivia": "วันนี้เป็นยังไงบ้างจ้ะ?$0#$e#ฉันเจอไวน์หายากขวดนึงล่ะ อยากจะลองประมูลมันดูจัง$3#$b#เรากำลังหาของไว้ใช้ เฉลิมฉลองอยู่พอดีเลย นี่ไงข้ออ้างที่จะได้เปิดมันกิน$1",
+  "funLeave_Olivia": "อรุณสวัสดิ์ ที่รัก.$3",
+  "OneKid_0": "ฉันละสายตาจาก %kid1 ไปสักแปปนึง แล้วก็เล่นอุปกรณ์วาดรูป ของฉันซะเต็มที่เลย!$2#$b#พนังของเรารอดพ้นจากการ ลงปะติมากรรมย่อมๆ แบบฉิวเฉียดเลย บางที %kid1 อาจจะโตมาเป็น จิตกรก็ได้นะ...$3",
+  "OneKid_1": "เล่านิทานกับ %kid1 วันนี้สนุกมากๆ เลย @! เราผลัดกันเป็นสัตว์ป่า แล้วก็เลียนเสียงกัน$1#$e#$ไม่นึกเลยว่าจะสนุกได้ขนาดนี้ raising a child this young. They see the world very differently.$0",
   "OneKid_2": "%kid1 has been quite the handful today. We had a record-breaking tantrum at naptime.$2#$b#Victor never threw tantrums. Maybe they get it from you, honey...$2#$b#What were you like as a child, I wonder?$4",
   "OneKid_3": "%kid1 reminds me so much of Victor at this age. So fond of listening to stories.$1#$e#Victor was always interested in stories about kindness and friendship. I always expected children to be selfish, so it really took me by surprise.$3#$b#Looking back, if I could pick one thing I'd like my child to be, it's compassionate to those in need. Don't you think?$1",
   "OneKid_4": "I was just looking at %kid1 today, and saw so much of both of us...the best of both of us.$3#$e#I love you, @.$3",
