@@ -18,7 +18,7 @@
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-        "Andy": "Now this is something I really love! Thank you!/346 459 303 240/This ain't that bad. Thank you kindly for the gift!/167 20 16 416 414/What in tarnation is this? I don't like it!/62 64 66 68 70 72 80 82 84 86 535 536 537 538 539 540 541 542 543 544 545 546 547 548 549 550 551 552 553 554 555 556 557 558 559 560 561 562 563 564 565 566 567 568 569 570 571 572 573 574 575 576 577 578/Am I some kind of joke to you? Get this horrible thing away from me. Now./350 348 74/Thanks for the gift./446 395 373/"
+        "Andy": "นี่คือสิ่งที่ฉันรักจริงๆ! ขอบคุณ!/346 459 303 240/มันไม่ได้แย่ขนาดนั้น ขอบคุณสำหรับของขวัญ!/167 20 16 416 414/นี่มันคืออะไร? ฉันไม่ชอบมัน!/62 64 66 68 70 72 80 82 84 86 535 536 537 538 539 540 541 542 543 544 545 546 547 548 549 550 551 552 553 554 555 556 557 558 559 560 561 562 563 564 565 566 567 568 569 570 571 572 573 574 575 576 577 578/ฉันเป็นตัวตลกสำหรับคุณเหรอ? เอาสิ่งที่น่ากลัวนี้ออกไปจากฉัน เดี๋ยวนี้/350 348 74/Thanks for the gift./446 395 373/"
       }
     },
 	
@@ -191,7 +191,7 @@
       "Action": "EditData",
       "Target": "data/festivals/spring13",
       "Entries": {
-        "Andy": "The food at these festivals ain't so bad.$1#$e#It'd taste even better if Pierre and Lewis used my crops.$2"
+        "Andy": "อาหารในเทศกาลเหล่านี้ ไม่เลวเลย$1#$e#มันจะมีรสชาติที่ดียิ่งขึ้นถ้าปีแอร์และเลวิสใช้พืชผลของฉัน$2"
       }
     },
 	
@@ -200,7 +200,7 @@
       "Action": "EditData",
       "Target": "data/festivals/spring24",
       "Entries": {
-        "Andy": "I found some leeks durin' our walk over here! This stuff is better than most of the food here.$1#$e#Nothin' like some ale with a leek.$0"
+        "Andy": "ฉันพบกระเทียมในระหว่างทางที่เดินมาที่นี่! สิ่งนี้ดีกว่าอาหารส่วนใหญ่ที่นี่$1#$e#ไม่มีอะไรที่เหมือนกับเบียร์ที่มีกลิ่นหอม$0"
       }
     },
 	
@@ -209,7 +209,7 @@
       "Action": "EditData",
       "Target": "data/festivals/summer11",
       "Entries": {
-        "Andy": "Mayor Lewis has been chattin' up the governor this entire festival. What are those two talkin' about?$2#$e#I hope they're not talkin' bout me. He's probably got nothin' good to say.$2"
+        "Andy": "เทศมนตรีเลวิสได้พูดคุยกับท่านผู้ว่าตลอดเทศกาลนี้ ทั้งสองคุยอะไรกัน?$2#$e#ฉันหวังว่าพวกเขาจะไม่พูดถึงฉันนะ เขาอาจจะไม่มีเรื่องดีๆให้พูด$2"
       }
     },
 	
@@ -218,7 +218,7 @@
       "Action": "EditData",
       "Target": "data/festivals/summer28",
       "Entries": {
-        "Andy": "If these jellies don't show in the next 10 minutes, I'm gettin' outta here. Wastin' my evening.$2",
+        "Andy": "หากแมงกะพรุนพวกนี้ไม่โผล่มาในอีก 10 นาทีข้างหน้า ฉันจะออกไปจากที่นี่ Wastin' my evening.$2",
       }
     },
 	
