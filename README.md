@@ -45,4 +45,4 @@ Artdekdok, cybertorns, MiXEL.SC, NoTSoXDream, Pigter, sornzilla, superogira.
 Grace Manassanan.
 
 #### Beta tester
-Alice, Agist, Anel, BirdBBK, Kazuma, PadalPrussus, TaNGGoDZeeD, Venice, wa.
+Alice, Agist, Anel, BirdBBK, Kazuma, Mark, PadalPrussus, TaNGGoDZeeD, Venice, wa.
