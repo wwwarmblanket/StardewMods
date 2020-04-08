@@ -218,7 +218,7 @@
       "Action": "EditData",
       "Target": "data/festivals/summer28",
       "Entries": {
-        "Andy": "หากแมงกะพรุนพวกนี้ไม่โผล่มาในอีก 10 นาทีข้างหน้า ฉันจะออกไปจากที่นี่ Wastin' my evening.$2",
+        "Andy": "หากแมงกะพรุนพวกนี้ไม่โผล่มาในอีก 10 นาทีข้างหน้า ฉันจะออกไปจากที่นี่ ทำฉันเสียเวลาตอนกลางคืน$2",
       }
     },
 	
@@ -227,7 +227,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall16",
       "Entries": {
-        "Andy": "I know I don't have a snowball's chance in you-know-where at winnin'. Just wanna show everyone how hard I've been workin' this season.$0#$e#I pride myself in what I do.$1",
+        "Andy": "I know I don't have a snowball's chance in you-know-where at winnin'. เพียงแค่ต้องการแสดงให้ทุกคนเห็นว่าฉันทำงานหนักมากแค่ไหนในฤดูกาลนี้$0#$e#ฉันภูมิใจในสิ่งที่ฉันทำ$1",
       }
     },
 	
@@ -236,7 +236,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall27",
       "Entries": {
-        "Andy": "Pierre's spiced pumpkin cider is amazin'! I wish he'd let me buy it off of him!$1#$e#He should at least sell some of it to Gus so I can get it at the saloon.$2#$e#Good luck in that there maze, farmer. I've heard some screams comin' from that direction.$0",
+        "Andy": "ไซเดอร์ฟักทอง (Pumpkin Cider) รสเผ็ดของปิแอร์นั้นมหัศจรรย์มาก! ฉันหวังว่าเขาจะให้ฉันซื้อมันจากเขา!$1#$e#อย่างน้อยเขาก็น่าจะขายมันให้กับกัส ฉันจะได้ซื้อมันจากซาลูนได้$2#$e#ขอให้โชคดีในเขาวงกตนั่นนะชาวไร่ ฉันได้ยินเสียงกรีดร้องมาจากทางนั้น$0",
       }
     },
 	
@@ -245,7 +245,7 @@
       "Action": "EditData",
       "Target": "data/festivals/winter8",
       "Entries": {
-        "Andy": "I overheard Willy talkin' about you. It'll be a close match between you two.$0#$e#Good luck fishin', @.$1"
+        "Andy": "ฉันได้ยินวิลลี่พูดถึงคุณ It'll be a close match between you two.$0#$e#Good luck fishin', @.$1"
       }
     },
 	
