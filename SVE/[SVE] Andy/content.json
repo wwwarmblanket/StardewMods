@@ -245,7 +245,7 @@
       "Action": "EditData",
       "Target": "data/festivals/winter8",
       "Entries": {
-        "Andy": "ฉันได้ยินวิลลี่พูดถึงคุณ It'll be a close match between you two.$0#$e#Good luck fishin', @.$1"
+        "Andy": "ฉันได้ยินวิลลี่พูดถึงคุณ มันจะเป็นการแข่งขันที่สูสี ระหว่างคุณสองคน$0#$e#ขอให้โชคดีในการตกปลา @.$1"
       }
     },
 	
@@ -254,7 +254,7 @@
       "Action": "EditData",
       "Target": "data/festivals/winter25",
       "Entries": {
-        "Andy": "Best part about today is the free food and drink. Don't care much about gift givin'.$2"
+        "Andy": "ส่วนที่ดีที่สุดในวันนี้คืออาหารและเครื่องดื่มฟรี ไม่ต้องสนใจเรื่องการให้ของขวัญมากนัก$2"
       }
     },
 	
