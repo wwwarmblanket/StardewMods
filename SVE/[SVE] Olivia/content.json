@@ -351,7 +351,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall16",
       "Entries": {
-        "Olivia": "Are you putting on a Grange Display, sweetie?$0#$b#Best of luck if you do. I know how hard you’ve worked this year.$3"
+        "Olivia": "คุณเตรียมทุกอย่างเรียบร้อย แล้วหรือยังที่รัก?$0#$b#ขอให้โชคเข้าข้างคุณนะ ฉันรู้ว่าปีนี้คุณทำงานหนักมากๆ เลย$3"
       },
       "When": {
         "Spouse:Olivia": "True"
@@ -363,14 +363,14 @@
       "Action": "EditData",
       "Target": "data/festivals/fall27",
       "Entries": {
-        "Olivia": "I heard screams coming from the maze. What could possibly be in there!?$2",
+        "Olivia": "ฉันได้ยินเสียงกรี๊ด มาจากวงกต ข้างในนั้นเกิดอะไรขึ้นบ้างเนี่ย!?$2",
       }
     },
 	{
       "Action": "EditData",
       "Target": "data/festivals/fall27",
       "Entries": {
-        "Olivia": "Pierre's spiced pumpkin cider is astonishing. Here, let me pour you a glass.$3#$e#Happy Spirit's Eve, honey.$4"
+        "Olivia": "ไซเดอร์ฟักทอง ของปิแอร์ิเศษไปเลย มานี่สิให้ฉันรินแก้วให้คุณ$3#$e#สุขสันต์วันเทศกาลภูตินะ$4"
       },
       "When": {
         "Spouse:Olivia": "True"
@@ -382,14 +382,14 @@
       "Action": "EditData",
       "Target": "data/festivals/winter8",
       "Entries": {
-        "Olivia": "Brr... I should have worn an extra layer.$2#$e#Are you participating in the fishing competition?$3"
+        "Olivia": "บรื๋อ... ฉันน่าจะใส่เสื้อ เพิ่มมาอีกชั้นนะเนี่ย.$2#$e#คุณได้ไปร่วม แข่งตกปลาด้วยมั้ยเนี่ย?$3"
       }
     },
 	{
       "Action": "EditData",
       "Target": "data/festivals/winter8",
       "Entries": {
-        "Olivia": "It’s quite chilly out here, isn't it, sweetie?$2#$b#When we go home, let's get cozy in some blankets. I'll mull some spiced wine for us.$4"
+        "Olivia": "ที่นี่ค่อนข้างเย็นนะเนี่ย ใช่มั้ยล่ะ?$2#$b#อกลับถึงบ้าน ไปห่มผ้าห่มอุ่นๆ กันเถอะ ฉันมีไวน์สูตรพิเศษ สำหรับเราอยู่ล่ะ.$4"
       },
       "When": {
         "Spouse:Olivia": "True"
@@ -401,14 +401,14 @@
       "Action": "EditData",
       "Target": "data/festivals/winter25",
       "Entries": {
-        "Olivia": "Merry Winter Star, dear!$3#$e#Isn't it wonderful how happy everyone is on a day such as this?$1"
+        "Olivia": "สุขสันต์เทศกาลดวงดาว!$3#$e#ยอดเยี่ยมเลยใช่มั้ยล่ะ ทีวันนี้ทุกๆ คนต่างก็มีความสุขกันน่ะ?$1"
       }
     },
 	{
       "Action": "EditData",
       "Target": "data/festivals/winter25",
       "Entries": {
-        "Olivia": "This time of year makes me so appreciative of family.$3#$b#I'm glad you came into my life, @.$4"
+        "Olivia": "ช่วงเวลานี้ ทำให้ฉันรู้สึกดีมากๆ เลย$3#$b#ฉันดีใจนะที่คุณเข้ามา เป็นส่วนหนึ่งของชีวิต @.$4"
       },
       "When": {
         "Spouse:Olivia": "True"
@@ -466,9 +466,9 @@
     "Action": "EditData",
     "Target": "Data/Events/JenkinsHouse",
     "Entries": {
-    "8982805/n OliviaDatingLetter": "playful/-500 -500/farmer 19 26 0 Olivia 15 12 0 Victor 7 27 2/pause 800/animate Victor false true 150 32 33 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34/skippable/viewport 19 22 true/viewport move 0 -1 5000 true/move farmer 0 -8 0/pause 500/playSound stoneStep/pause 200/playSound stoneStep/emote Olivia 16 true/pause 300/playSound stoneStep/pause 500/move Olivia 0 1 1/move Olivia 4 0 2/move Olivia 0 3 2/pause 1200/doAction 19 17/pause 500/stopMusic/speak Olivia \"Oh, @! I trust you received my letter in the mail?$0#$b#Please come in.$2\"/pause 500/globalFade/viewport -1000 -1000/pause 100/playSound doorClose/pause 200/changeLocation SeedShop/pause 100/changeLocation JenkinsHouse/pause 100/warp farmer 20 9/warp Olivia 20 7/faceDirection farmer 0/pause 100/viewport 20 9 true/pause 1500/speak Olivia \"Sorry if my letter caused any concern or worry.$2#$b#I needed to speak to you in private.$0\"/pause 200/emote farmer 8/pause 800/speak Olivia \"I haven't dated anyone in years. Not since my husband, Edward...$2#$b#He...$2\"/pause 500/move Olivia 0 0 0/pause 200/shake Olivia 850/emote Olivia 28/pause 1500/move Olivia 0 0 2/pause 800/speak Olivia \"He passed away some time ago...$2\"/pause 500/emote farmer 60/pause 800/speak Olivia \"I feel guilty, like I'm betraying him. I don't know if...if I can be with you, @.$2\"/pause 500/question fork0 \"#You need to follow your heart.#You're right. We should call this off.\"/pause 500/fork 8982805_Happy/pause 1000/faceDirection Olivia 0/pause 300/emote Olivia 28/pause 200/speak Olivia \"...Okay.$2#$b#We... we should stop before getting too invested in this.$2#$b#I knew this wouldn't be a good idea from the start. There's too much... baggage in my life.$2#$b#This... clears up a lot for me.$0#$b#Please shut the door on your way out.$2\"/pause 600/move farmer 0 4 2 true/pause 250/globalFade/viewport -1000 -1000/pause 1000/friendship Olivia -750/end dialogue Olivia \"*sigh*... Present me a wilted bouquet from Pierre's store to officially call off our relationship, @.$2#$e#%Olivia is sad.\"",
+    "8982805/n OliviaDatingLetter": "playful/-500 -500/farmer 19 26 0 Olivia 15 12 0 Victor 7 27 2/pause 800/animate Victor false true 150 32 33 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34/skippable/viewport 19 22 true/viewport move 0 -1 5000 true/move farmer 0 -8 0/pause 500/playSound stoneStep/pause 200/playSound stoneStep/emote Olivia 16 true/pause 300/playSound stoneStep/pause 500/move Olivia 0 1 1/move Olivia 4 0 2/move Olivia 0 3 2/pause 1200/doAction 19 17/pause 500/stopMusic/speak Olivia \"โอ๊ะ @! ฉันเชื่อว่าคุณคงจะ เห็นจดหมายของฉันแล้วใช่มั้ย?$0#$b#เข้ามาสิ$2\"/pause 500/globalFade/viewport -1000 -1000/pause 100/playSound doorClose/pause 200/changeLocation SeedShop/pause 100/changeLocation JenkinsHouse/pause 100/warp farmer 20 9/warp Olivia 20 7/faceDirection farmer 0/pause 100/viewport 20 9 true/pause 1500/speak Olivia \"ขอโทษนะถ้าจดหมายของฉัน ทำให้เครียดน่ะ$2#$b#ฉันอยากจะคุยกับคุณ เป็นการส่วนตัวหน่อย$0\"/pause 200/emote farmer 8/pause 800/speak Olivia \"ฉันไม่ได้เดตกับใครมาเป็นปีๆ แล้วล่ะ ตั้งแต่สามีของฉันน่ะ เอ็ดเวิร์ด...$2#$b#เขา...$2\"/pause 500/move Olivia 0 0 0/pause 200/shake Olivia 850/emote Olivia 28/pause 1500/move Olivia 0 0 2/pause 800/speak Olivia \"เขาเสียไปนานแล้ว...$2\"/pause 500/emote farmer 60/pause 800/speak Olivia \"ฉันรู้สึกผิดมากเลย เหมือนฉันหักหลังเขา ไม่รู้สิถ้าเกิดว่า...ถ้าฉันตกลงคบกันคุณ @.$2\"/pause 500/question fork0 \"#ทำตามหัวใจของตัวเองสิ#คุณพูดถูก เราควรจบเรื่องนี้\"/pause 500/fork 8982805_Happy/pause 1000/faceDirection Olivia 0/pause 300/emote Olivia 28/pause 200/speak Olivia \"...โอเค.$2#$b#เรา... เราควรจะหยุด ก่อนที่จะมันจะไปไกลกว่านี้$2#$b#ฉันรู้ว่าความคิดนี้ มันแย่แต่แรกแล้ว มันหนักเกินไป... ชีวิตฉันนี่นะ$2#$b#โอเค... เคลียร์ทุกอย่างแล้วนะ$0#$b#วานปิดประตูให้ทีนะ ตอนออกไปน่ะ$2\"/pause 600/move farmer 0 4 2 true/pause 250/globalFade/viewport -1000 -1000/pause 1000/friendship Olivia -750/end dialogue Olivia \"*เฮ้อ*... เอาดอกไม้จากร้านปิแอร์ มาให้ฉันเพื่อตัดความสัมพันธ์ ให้มันเป็นทางการทีละกันนะ @.$2#$e#%โอลิเวียกำลังเศร้า\"",
      
-    "8982805_Happy": "pause 300/speak Olivia \"...$2#$b#...$0#$b#...$3#$b#You're right. I need to follow my heart and trust my feelings. Edward...truthfully, he would want me to be happy.$2#$b#And I'm happy... with you.$3#$b#I know deep down he wouldn't want me to suffer like this.$2#$b#It is time I let myself feel again. I'm glad it's with someone as charming as you, @.$3\"/pause 1200/emote Olivia 40/pause 400/move Olivia 0 1 2/pause 450/speak Olivia \"Hey, let me show you the art piece I'm working on.$3\"/pause 100/globalFade/viewport -1000 -1000/pause 1100/message \"Olivia showed me many beautiful paintings and we talked more about what we want to be together. She seems happier than she was before.\"/pause 1000/friendship Olivia 50/end dialogue Olivia \"Thank you for working through that with me, @.$0#$b#I'm looking forward to spending more time together.$3#$e#%Olivia smiles at you.\"", 
+    "8982805_Happy": "pause 300/speak Olivia \"...$2#$b#...$0#$b#...$3#$b#คุณพูดถูก ฉันควรจะเชื่อสัญชาติญาณ และความรู้สึกของตัวเองบ้าง เอ็ดเวิร์ด... จริงๆ แล้ว เขาอยากจะให้ฉันมีความสุข$2#$b#และตอนนี้ฉันก็มีความสุขแล้ว... กับคุณยังไง$3#$b#ฉันรู้ว่าลึกๆ แล้วเขาไม่ได้อยากให้ฉัน มาคอยเศร้าอยู่แบบนี้หรอก$2#$b#ถึงเวลาที่จะปล่อยให้ตัวเอง มีอิสระบ้างสักทีแล้วล่ะ ฉันดีใจนะที่ได้ใครสักคน อย่างคุณมาอยู่เคียงข้างกัน @.$3\"/pause 1200/emote Olivia 40/pause 400/move Olivia 0 1 2/pause 450/speak Olivia \"เฮ้ ฉันจะให้คุณดูงานวาด ที่ฉันกำลังทำอยู่ตอนนี้$3\"/pause 100/globalFade/viewport -1000 -1000/pause 1100/message \"โอลิเวียโชว์รูปวาดสวยๆ ให้ฉันดูมากมายเลย และก็คุยกันเรื่องที่เราอยากจะทำ ด้วยกันในวันข้างหน้า เธอดูจะมีความสุขมากกว่าแต่ก่อน\"/pause 1000/friendship Olivia 50/end dialogue Olivia \"ขอบคุณนะที่อยู่ข้างฉนมาตลอด @.$0#$b#ฉันจะหาเวลาให้เราได้อยู่ด้วยกัน มากขึ้นเลยล่ะ$3#$e#%โอลิเวียยิ้มให้คุณ.\"", 
      }
 },
 
@@ -477,7 +477,7 @@
     "Target": "Data/Events/farm",
 	"When": { "Relationship:Olivia": "Dating" },
     "Entries": {
-    "8982809/t 800 1600": "none/-500 -500/farmer 64 15 2 Victor 64 16 0/skippable/speak Victor \"Greetings, @.$1#$b#My apologies for interupting your farm work. I uhh... just wanted to say a couple of things.$0#$b#My mother mentioned you two started dating?$3\"/pause 200/emote farmer 16/emote farmer 40 true/pause 300/speak Victor \"You don't need to explain yourself. I'm not weirded out by it or anything.$0#$b#She speaks fondly of you.$3#$b#This is something she needs in her life. I'm happy for you two.$1\"/pause 400/move Victor 0 0 1/pause 500/move Victor 0 0 0/pause 350/speak Victor \"Well, that's all I came by to say.$3#$b#I'll leave you to your farm work.$1\"/end dialogue Victor \"My mother has been acting much differently lately.$0\"",
+    "8982809/t 800 1600": "none/-500 -500/farmer 64 15 2 Victor 64 16 0/skippable/speak Victor \"ว่าไง @.$1#$b#ขอโทษนะ ที่มารบกวนเวลาทำงาน คือว่า เอ่อ... แค่จะมาคุยด้วยนิดหน่อยน่ะ$0#$b#เห็นแม่บอกว่าคุณกับแม่ กำลังเดตกันอยู่เหรอ?$3\"/pause 200/emote farmer 16/emote farmer 40 true/pause 300/speak Victor \"ไม่ต้องอธิบายก็ได้ ผมไม่ได้กังวลอะไรหรอก$0#$b#แม่ดูจะรักคุณมาก$3#$b#นีแหละสิ่งที่แม่ควรจะได้รับ ผมดีใจกับทั้งสองคนด้วยนะ$1\"/pause 400/move Victor 0 0 1/pause 500/move Victor 0 0 0/pause 350/speak Victor \"เอาล่ะ ก็แค่นี้แหละ ที่จะบอก$3#$b#ผมจะให้คุณกลับไปทำงานแล้วล่ะ$1\"/end dialogue Victor \"แม่ดูเปลี่ยนไปมากเลย ช่วงนี้น่ะ$0\"",
     }
 },
 	
