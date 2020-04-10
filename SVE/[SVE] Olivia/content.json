@@ -18,7 +18,7 @@
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-        "Olivia": "Oh, my! For me? This is truly an exquisite gift. Thank you, dear!/124 125 348 220 221/This is so thoughtful of you, sweetie! Thank you./336 432 276 608 421/Oh? I don't like this.../18 16 20 22 24 408 80 416 414 412 296 398 410 152 396 397 399/This really isn't appropriate. I'll promptly throw this out!/330 284 149 151 459 346 304/This is a thoughtful gift, dear. Thank you./446 402 418/"
+        "Olivia": "โอ้คุณพระ! สำหรับฉันเหรอ? เป็นของขวัญที่ดีสุดๆ ไปเลย ขอบคุณนะจ้ะ!/124 125 348 220 221/ฉันล่ะเกรงใจคุณมากๆ เลย! ขอบคุณนะจ้ะ/336 432 276 608 421/โอ๊ะ? ฉันไม่ชอบเจ้านี่.../18 16 20 22 24 408 80 416 414 412 296 398 410 152 396 397 399/นี่มันไม่เหมาะ เอาเสียเลยนะ ฉันจะโยนมันทิ้ง!/330 284 149 151 459 346 304/เป็นของขวัญ ที่แสนจะเลอค่าจริงๆ เลยนะ ขอบคุณมากนะจ้ะ/446 402 418/"
       }
     },
 	{
@@ -88,8 +88,8 @@
       "Action": "EditData",
       "Target": "Data/EngagementDialogue",
       "Entries": {
-        "Olivia0": "I love you, @.$3",
-        "Olivia1": "I love you, @.$3"
+        "Olivia0": "ฉันรักคุณนะ @.$3",
+        "Olivia1": "ฉันรักคุณนะ @.$3"
       }
     },
 	
@@ -98,10 +98,10 @@
       "Target": "strings/StringsFromCSFiles",
       "Entries": {
 
-      "Utility.cs.5367": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Olivia in the bonds of marriage.",
-      "Utility.cs.5369": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Olivia in the bonds of marriage.",
-	  "Utility.cs.5371": "@... Olivia... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$h",
-      "Utility.cs.5377": "@... Olivia... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you wife and..., well, wife!$h",
+      "Utility.cs.5367": "วันแรกที่ @ มาถึงเมืองนี้ ไม่มีใครรู้เลย ว่าเขาจะเข้ากับที่นี่ได้มั้ย#$b#แต่ตั้งแต่วันนี้ไป @ จะเป็นส่วนหนึ่งของชุมชนนี้ เหมือนกับพวกเรา!$h#$b#เป็นเกียรติอย่างมาก สำหรับฉันในวันนี้ {0} แห่ง {1}, ที่จะประกาศว่า @ และโอลิเวียในการ เป็นคู่ชีวิตกัน",
+      "Utility.cs.5369": "วันแรกที่ @ มาถึงเมืองนี้ ไม่มีใครรู้เลย ว่าเธอจะเข้ากับที่นี่ได้มั้ย#$b#แต่ตั้งแต่วันนี้ไป @ จะเป็นส่วนหนึ่งของชุมชนนี้ เหมือนกับพวกเรา!$h#$b#เป็นเกียรติอย่างมาก สำหรับฉันในวันนี้ {0} แห่ง {1}, ที่จะประกาศว่า @ และโอลิเวียในการ เป็นคู่ชีวิตกัน.",
+	  "Utility.cs.5371": "@... โอลิเวีย... #$b# ในฐานะของเทศมนตรี และผู้ถือตราประทับการแต่งงาน ขอรองรับการเป็นสามี และภรรยาของทั้งสองคน$h",
+      "Utility.cs.5377": "@... โอลิเวีย... #$b# ในฐานะของเทศมนตรี และผู้ถือตราประทับการแต่งงาน ขอรองรับการสมรสของทั้งสองคน!$h",
       },
       "When": {
       "Relationship:Olivia": "Engaged, Married"
@@ -156,17 +156,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "My, my! My absolute favorite genre. Thank you for inviting me out, dear.$3"
+            "Text": "นี่แหละ ใช่เลย! หนังที่ฉันชอบต้องแนวนี้ ขอบคุณนะที่ชวนฉัน ออกมาดูหนังน่ะ$3"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "*Olivia giggles*$1"
+            "Text": "*โอลิเวีย หัวเราะคิกคัก*$1"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "The movie was splendid, @!$3"
+            "Text": "หนังยอดเยี่ยมไปเลยนะ @!$3"
           }
         },
         "ID": "reaction_2"
@@ -179,17 +179,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Caroline said this movie was frightening! I'll be prepared for any jump scares.$1"
+            "Text": "แคโรไลน์บอกฉันมา ว่าหนังเรื่องนี้น่ากลัว ฉันเตรียมพร้อมสำหรับฉาก จั๊มสแกร์แล้วล่ะ$1"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Psst. Are you scared, @?$0"
+            "Text": "นี่ คุณกลัวบ้างมั้ย @?$0"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I had a wonderful time. We should see another movie again sometime, dear.$3"
+            "Text": "เป็นเวลาที่เยี่ยมไปเลย เราน่าจะออกมาดูหนังกันอีก ครั้งหน้ากันนะดีมั้ย$3"
           }
         },
         "ID": "reaction_3"
@@ -202,17 +202,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Let's head in early to get good seats, @.$0"
+            "Text": "ถ้ามาก่อน ก็จะได้เลือกที่นั่งดีๆ ยังไงล่ะ @.$0"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "/shake Olivia 3000/pause 500/message \"Olivia is giggling!\"",
-            "Text": "This is so enjoyable!$1"
+            "Text": "สนุกมากๆ เลย!$1"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "The story was remarkable and engaging.$1"
+            "Text": "เนื้อเรื่องชวนติดตามมาหๆ เลย น่าทึ่งนะเนี่ย$1"
           }
         },
         "ID": "reaction_4"
@@ -225,13 +225,13 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I've heard good reviews about this film.$3"
+            "Text": "ฉันได้ยินมาว่าหนังเรื่องนี้ ทำคะแนนรีวิวได้ดีเลย$3"
           },
           "DuringMovie": null,
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "The film was quite the experience, dear. Thank you for the invite.$1"
+            "Text": "เป็นหนังที่เปิดประสบการณ์ ใหม่ให้ฉันเลยนะเนี่ย ขอบคุณนะที่รัก$1"
           }
         },
         "ID": "reaction_5"
@@ -244,17 +244,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I have a feeling this film will be a disappointment...$2"
+            "Text": "รู้สึกว่าหนังเรื่องนี้ น่าผิดหวังนะเนี่ย...$2"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "My, my. How cheezy.$0"
+            "Text": "คุณพะ ช่างวิเศษไปเลย$0"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I appreciate your company, dear.$3"
+            "Text": "ขอบคุณคุณมากๆ เลยนะที่รัก.$3"
           }
         },
         "ID": "reaction_6"
@@ -268,7 +268,7 @@
       "Action": "EditData",
       "Target": "data/festivals/spring13",
       "Entries": {
-        "Olivia": "My, my. What a beautiful day for a festival.$0#$e#Are you participating in the egg hunt, @?$3"
+        "Olivia": "ช่างเป็นวันที่วิเศษ อะไรขนาดนี้สำหรับเทศกาล$0#$e#จะเข้าร่วมการล่าไข่ ด้วยใช่มั้ยล่ะ @?$3"
       }
     },
 	{
