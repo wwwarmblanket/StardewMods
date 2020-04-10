@@ -275,7 +275,7 @@
       "Action": "EditData",
       "Target": "data/festivals/spring13",
       "Entries": {
-        "Olivia": "I just love celebrating the spring, don't you, sweetie?$1#$b#Are you going on the egg hunt? I'll be cheering for you.$3"
+        "Olivia": "ฉันรักการเฉลิมฉลอง ในฤดูใบไม้ผลิสุดๆ ไปเลย แล้วคุณล่ะ?$1#$b#จะไปเทศการล่าไข่มั้ย? ฉันรอเชียร์อยู่นะ$3"
       },
       "When": {
         "Spouse:Olivia": "True"
@@ -287,14 +287,14 @@
       "Action": "EditData",
       "Target": "data/festivals/spring24",
       "Entries": {
-        "Olivia": "Gatherings such as this give me a great opportunity to talk to Caroline and Jodi.$3"
+        "Olivia": "การรวมตัวแบบนี้ ทำให้ฉันมีโอกาสได้คุยกับ แคโรไลน์กับโจดี้.$3"
       }
     },
 	{
       "Action": "EditData",
       "Target": "data/festivals/spring24",
       "Entries": {
-        "Olivia": "Lovely of you to make it to the festival, honey. Let's partake in the buffet soon.$3#$e#I get nervous when I dance. You can dance if you want, honey.$6#$e#I'll Chear you on!$1"
+        "Olivia": "ดีสำหรับคุณนะ ที่มางานเทศกาลได้ แล้วมาทานบุฟเฟ่ต์กันนะ$3#$e#ฉันแค่กังวลเรื่องเต้นน่ะ คุณไปเต้นได้นะถ้าต้องการ $6#$e#รอเชียร์คุณอยู่!$1"
       },
       "When": {
         "Spouse:Olivia": "True"
@@ -306,14 +306,14 @@
       "Action": "EditData",
       "Target": "data/festivals/summer11",
       "Entries": {
-        "Olivia": "The governor has honored us with his presence, @!$1#$b#I may try speaking with him after Mayor Lewis has finished his conversation. Perhaps he enjoys vintage wine?$3"
+        "Olivia": "ผู้ว่าให้เกียรติด้วยการมาที่นี่ @!$1#$b#ฉันอาจจะลองไปคุยกับท่านดู หลังจากคุยกับเลวิสเสร็จแล้ว บางทีเขาอาจจะชอบ ไวน์องุ่นก็ได้นะ?$3"
       }
     },
 	{
       "Action": "EditData",
       "Target": "data/festivals/summer11",
       "Entries": {
-        "Olivia": "The soup smells delicious. I might even have seconds, sweetie. Don't tell anyone.$1#$e#I love you, honey.$4"
+        "Olivia": "กลิ่นซุปชวนกินจังเลย ฉันขอแอบชิมสักนิดละกัน อย่าไปบอกใครนะ$1#$e#รักคุณนะที่รัก$4"
       },
       "When": {
         "Spouse:Olivia": "True"
@@ -325,14 +325,14 @@
       "Action": "EditData",
       "Target": "data/festivals/summer28",
       "Entries": {
-        "Olivia": "The sky is clear tonight. A flawless backdrop of moonlight for the jellies, wouldn't you say @?$3",
+        "Olivia": "คืนนี้ฟ้าโปร่งนะ ท้องฟ้าคืนนี้เข้ากับ กระพรุนพระจันทร์ดีเลยล่ะ เมื่อกี้คุณพูดว่าอะไรนะ @?$3",
       }
     },
 	{
       "Action": "EditData",
       "Target": "data/festivals/summer28",
       "Entries": {
-        "Olivia": "The sea is beautiful at night. I'm so happy we can experience the moonlight jellies together.$3#$e#Maybe we can hold hands?$4"
+        "Olivia": "คืนนี้ทะเลสวยจังเลย ฉันดีใจนะที่เรามาดู กระพรุนพระจันทร์ด้วยกันได้$3#$e#มาจับมือกันมั้ย?$4"
       },
       "When": {
         "Spouse:Olivia": "True"
@@ -344,7 +344,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall16",
       "Entries": {
-        "Olivia": "Are you enjoying the fair, sweetie?$3",
+        "Olivia": "สนุกมั้ยที่รัก?$3",
       }
     },
 	{
