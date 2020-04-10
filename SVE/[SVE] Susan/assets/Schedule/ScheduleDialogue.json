@@ -1,15 +1,15 @@
 
 {
- "Mon.001": "%Olivia is washing the dishes.",
- "Mon.002": "%Olivia is checking messages on the phone console.",
- "Mon.003": "%Olivia is busy being artistic.",
- "Tue.001": "%Olivia is concentrating on her yoga form.",
- "Tue.002": "Phew! I enjoyed that workout session!$3",
- "Thu.001": "%Olivia is washing expensive dishes.",
- "Fri.001": "Hi, sweetie. I'm pre-gaming a little bit with my own wine before heading to the saloon.$4#$b#Will I see you there?$3",
- "Sat.001": "%Olivia is painting a palm tree. It looks beautiful.",
+ "Mon.001": "%โอลิเวียกำลังล้างจาน",
+ "Mon.002": "%โอลิเวียกำลังตรวจสอบ ข้อความบนหน้าจอโทรศัพท์",
+ "Mon.003": "%โอลิเวียกำลังยุ่งอยู่กับ งานศิลปะ",
+ "Tue.001": "%โอลิเวียกำลังตั้งอกตั้งใจ ทำโยคะ",
+ "Tue.002": "ฟิ้ว! ฉันชอบแผนการออกกำลังกาย แบบนี้จัง!$3",
+ "Thu.001": "%โอลิเวียกำลังล้างจานที่มีราคาแพง",
+ "Fri.001": "สวัสดีที่รัก ฉันเรียกน้ำย่อยด้วยไวน์ ที่เก็บไว้นิดหน่อย ก่อนจะไปที่ซาลูน$4#$b#ฉันจะเห็นคุณที่นั่นไหม?$3",
+ "Sat.001": "%โอลิเวียวาดภาพต้นปาล์ม มันช่างดูสวยงาม",
 
- "winter_17.001": "%Olivia is busy talking with Caroline.",
- "10.001": "Hi, sweetie! I'm putting in an order to Sophia right now.$3",
- "22.001": "Sophia makes the best wine in the valley! I always visit during this time of month to buy her wine.$1",
+ "winter_17.001": "%โอลิเวียกำลังยุ่งอยู่ กับการพูดคุยกับโอลิเวีย",
+ "10.001": "สวัสดีที่รัก! ตอนนี้ฉันกำลังสั่งออเดอร์ จากโซเฟียอยู่$3",
+ "22.001": "โซเฟียผลิตไวน์ออกมาดีที่สุด ในหุบเขา! ฉันมักจะไปมาหาสู่ ในช่วงเวลานี้ของเดือน เพื่อซื้อไวน์ของเธอ$1",
 }
