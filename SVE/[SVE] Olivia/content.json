@@ -212,7 +212,7 @@
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "เนื้อเรื่องชวนติดตามมาหๆ เลย น่าทึ่งนะเนี่ย$1"
+            "Text": "เนื้อเรื่องชวนติดตามที่สุด น่าทึ่งนะเนี่ย$1"
           }
         },
         "ID": "reaction_4"
@@ -225,7 +225,7 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "ฉันได้ยินมาว่าหนังเรื่องนี้ ทำคะแนนรีวิวได้ดีเลย$3"
+            "Text": "ฉันได้ยินมาว่าหนังเรื่องนี้ ทำคะแนนรีวิวได้ดีนะ$3"
           },
           "DuringMovie": null,
           "AfterMovie": {
@@ -249,12 +249,12 @@
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "คุณพะ ช่างวิเศษไปเลย$0"
+            "Text": "คุณพระ ช่างวิเศษไปเลย$0"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "ขอบคุณคุณมากๆ เลยนะที่รัก.$3"
+            "Text": "ขอบคุณคุณมากๆ เลยนะที่รัก ที่ชวนฉันมา.$3"
           }
         },
         "ID": "reaction_6"
@@ -420,7 +420,7 @@
       "Action": "EditData",
       "Target": "Data/Events/JenkinsHouse",
       "Entries": {
-        "4000001/f Olivia 500/k 2000003": "jaunty/-500 -500/farmer -300 -300 0 Victor 20 38 1 Olivia 22 38 3/pause 400/skippable/viewport 20 37 true/pause 1000/speak Olivia \"Honey, I just don't understand why this process is everlasting.$2\"/pause 500/speak Victor \"I'm trying, Mother. There aren't many jobs this far away from the city.$2\"/pause 800/speak Olivia \"Do you think you'll move back to Zuzu City?$0\"/pause 50/speak Victor \"No. I have no intention of moving back there. I want to stay here in Stardew Valley.$7\"/speak Olivia \"Well, you'd better start applying yourself more to finding a job nearby then, Victor.$5\"/pause 250/shake Victor 1000/pause 800/warp farmer 20 42/playSound doorClose/pause 200/move Victor 0 0 2/pause 250/move Olivia 0 0 2/emote farmer 8/move farmer 0 -2 0/pause 500/move Victor 0 0 1/pause 350/move Olivia 0 0 3/speak Victor \"I'm stepping outside to get some air.$2\"/pause 300/move Victor 0 1 2/pause 300/move Olivia 0 0 2/pause 250/move farmer -1 0 1/pause 300/move Victor 0 3 2/pause 150/move farmer 0 0 2/pause 150/warp Victor -500 -500/playSound doorClose/stopMusic/pause 850/emote Olivia 28/pause 300/move farmer 0 -2 1/move farmer 1 0 1/pause 300/move Olivia 0 0 3/pause 300/emote farmer 8/pause 500/speak Olivia \"My apologies, @. I lost my composure.$2\"/pause 1000/speak Olivia \"Victor gets... defensive whenever I bring up his career.$2#$b#He's very bright. Top of his class in school, and he always has his nose buried in some obscure book. I don't know why he hasn't found a job yet.$0\"/pause 600/move Olivia 0 0 1/pause 700/shake Olivia 800/pause 1250/speak Olivia \"I feel as if he may have gotten too comfortable living at home. I worry for his future.$2\"/pause 1000/move Olivia 0 0 3/pause 650/speak Olivia \"I have business I must attend to. You may stay and browse the library if you wish, dear.$2\"/pause 300/globalFade/viewport -1000 -1000/pause 800/friendship Olivia 25/end dialogue Olivia \"I hope Victor chooses a path for his future soon... I understand he needs time, but he mustn't wallow.$2#$e#...$2\"",
+        "4000001/f Olivia 500/k 2000003": "jaunty/-500 -500/farmer -300 -300 0 Victor 20 38 1 Olivia 22 38 3/pause 400/skippable/viewport 20 37 true/pause 1000/speak Olivia \"ที่รัก แม่แค่ไม่เข้าใจ ว่าทำไมมันถึงไม่คืบหน้าสักที$2\"/pause 500/speak Victor \"ผมพยายามอยู่ครับแม่ มันมีงานไม่มาก ที่ไกลจากตัวเมือง$2\"/pause 800/speak Olivia \"ลูกได้คิดจะย้ายกลับ ไปที่ซูซูซิตี้หรือเปล่าเนี่ย?$0\"/pause 50/speak Victor \"ไม่ครับ ผมไม่ได้ตั้งใจจะย้ายไปที่นั่น เพราะอยากอยู่ที่นี่มากกว่า$7\"/speak Olivia \"ถ้าอย่างงั้น ลูกก็ควรจะรีบตั้งใจ หางานให้ได้สักทีนะวิคเตอร์$5\"/pause 250/shake Victor 1000/pause 800/warp farmer 20 42/playSound doorClose/pause 200/move Victor 0 0 2/pause 250/move Olivia 0 0 2/emote farmer 8/move farmer 0 -2 0/pause 500/move Victor 0 0 1/pause 350/move Olivia 0 0 3/speak Victor \"ผมจะออกไปสูดอากาศหน่อยนะ$2\"/pause 300/move Victor 0 1 2/pause 300/move Olivia 0 0 2/pause 250/move farmer -1 0 1/pause 300/move Victor 0 3 2/pause 150/move farmer 0 0 2/pause 150/warp Victor -500 -500/playSound doorClose/stopMusic/pause 850/emote Olivia 28/pause 300/move farmer 0 -2 1/move farmer 1 0 1/pause 300/move Olivia 0 0 3/pause 300/emote farmer 8/pause 500/speak Olivia \"ขอโทษทีนะ @ เมื่อกี้เราวุ่นวายกันนิดหน่อย$2\"/pause 1000/speak Olivia \"วิคเตอร์... จะชอบเปลี่ยนเรื่องตลอด เวลาฉันพูดถึงเรื่องการทำงาน$2#$b#เขาเป็นคนฉลาด ได้อันดับดีๆ ในชั้นเรียนตลอด แล้วก็ชอบจะอ่านหนังสืออยู่ตลอด แต่ไม่รู้ว่าทำไมเขาถึงยังหางาน ไม่ได้สักทีเนี่ย$0\"/pause 600/move Olivia 0 0 1/pause 700/shake Olivia 800/pause 1250/speak Olivia \"I feel as if he may have gotten too comfortable living at home. I worry for his future.$2\"/pause 1000/move Olivia 0 0 3/pause 650/speak Olivia \"I have business I must attend to. You may stay and browse the library if you wish, dear.$2\"/pause 300/globalFade/viewport -1000 -1000/pause 800/friendship Olivia 25/end dialogue Olivia \"I hope Victor chooses a path for his future soon... I understand he needs time, but he mustn't wallow.$2#$e#...$2\"",
 		}
     },
 	
