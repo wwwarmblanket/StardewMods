@@ -132,13 +132,13 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Heard about this here movie on the radio. Suppose' to be good!$0"
+            "Text": "ฉันได้ยินเกี่ยวกับ โรงภาพยนต์ที่นี่จากวิทยุ หวังว่าจะเป็นสิ่งที่ดีนะ!$0"
           },
           "DuringMovie": null,
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Now that is what I call a movie. Thank you kindly for invitin' me!$1"
+            "Text": "แบบนั้นสิถึงจะเรียกว่าหนัง ขอบใจมากนะที่ชวนมา!$1"
           }
         },
         "ID": "reaction_3"
