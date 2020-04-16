@@ -90,7 +90,7 @@
         "131": "Sardine/40/5/Fish -4/Sardine/(ปลาซาร์ดีน) ปลาทะเลที่พบเห็นได้ทั่วไป/Day^Spring Summer Fall Winter",
         "132": "Bream/45/5/Fish -4/Bream/(ปลาตะเพียน) ปลาแม่น้ำธรรมดา ออกมาเฉพาะตอนกลางคืน/Night^Spring Summer Fall Winter",
         "136": "Largemouth Bass/100/15/Fish -4/Largemouth Bass/(ปลากะพงปากกว้าง) ปลาที่แพร่พันธุ์และอาศัย อยู่ในทะเลสาบ/Day^Spring Summer Fall Winter",
-        "137": "Smallmouth Bass/50/10/Fish -4/Smallmouth Bass/(ปลากะพงปากเล็ก) ปลาน้ำจืดที่เป็นตัวการสำคัญ ในการก่อมลพิษ/Day Night^Spring Fall",
+        "137": "Smallmouth Bass/50/10/Fish -4/Smallmouth Bass/(ปลากะพงปากเล็ก) ปลาอาศัยอยู่ในน้ำสะอาด ที่อ่อนไหวต่อมลพิษ/Day Night^Spring Fall",
         "138": "Rainbow Trout/65/10/Fish -4/Rainbow Trout/(ปลาเทราต์สายรุ้ง) ปลาเทราต์น้ำจืด มีลวดลายหลากสี/Day^Summer",
         "139": "Salmon/75/15/Fish -4/Salmon/(ปลาแซลมอน) ว่ายน้ำทวนกระแสเพื่อวางไข่/Day^Fall",
         "140": "Walleye/105/12/Fish -4/Walleye/(ปลาวอลลาย) ปลาน้ำจืดที่จับได้ เฉพาะตอนกลางคืน/Night^Fall Winter",
