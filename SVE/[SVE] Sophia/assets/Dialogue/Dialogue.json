@@ -112,9 +112,9 @@
 
     
 // FALL DIALOGUE
-"fall_1": "So many grapes to harvest this season...$2#$e#O-oh. Um!$5#$b#Good luck to you, @! Have a productive fall!$9",
-"fall_4": "This was the day it happened...$6#$e#...$12#$e#S-Sorry. I-I just need to be alone. I... hope you understand.$12#$e#%Sophia gestures you to leave.#$e#%You hug Sophia.",
-"fall_15": "Setting up a grange display tomorrow for the fair?$0#$e#I've been wondering what you've been up to on %farm Farm! Guess I get to see tomorrow!$9#$e#Oh. Well um... I-I better go now. Bye.$0",
+"fall_1": "องุ่นที่ต้องเก็บในฤดูนี้เยอะมากๆเลย...$2#$e#อ-โอ้ ไง!$5#$b#ขอให้โชคดีนะ @! $9",
+"fall_4": "วันนี้เป็นวันที่มันกำลังจะเกิดขึ้น...$6#$e#...$12#$e#ข-ขอโทษ ฉ-ฉัน แค่อยากอยู่คนเดียวน่ะ ฉัน... หวังว่าคุณจะเข้าใจนะ$12#$e#%โซเฟียขอให้คุณออกไป#$e#%คุณกอดโซเฟีย",
+"fall_15": "กำลังเตรียมของโชว์ในงานแสดงสินค้าพรุ่งนี้หรอ?$0#$e#ฉันอยากรู้จังว่าตอนนี้ฟารม์ %farm เป็นยังไงบ้าง! ฉันว่าฉันต้องไปเยี่ยมหน่อยแล้ว เอาล่ะฉันต้องไปแล้วnow. Bye.$0",
 "fall_18": "Gus has ring fruit wine in stock at the saloon. Can't wait to try some tomorrow night.$1#$e#Have you been to the Fern Islands? I've always wanted to go.$0",
 "fall_27": "Spirit's Eve is my favorite festival. The wizard outdoes himself every year with the maze. It's so spooky!$1#$b#Plus, I get to cosplay!$9",
 "fall_28": "It's getting sooo cold. Winter is creeping up on us.$2#$e#The weather channel said there's a snowstorm on its way.$0",
