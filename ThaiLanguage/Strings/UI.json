@@ -624,7 +624,7 @@
         "PondQuery_StatusRequestComplete_Rude1": "\"อ้า... ของดีเลยนี่ ใจนะไอ้หนู\"",
         "PondQuery_StatusRequestComplete_Rude2": "\"ขอบคุณครับเจ้านาย!\"",
         "PondQuery_StatusRequestComplete_Stiff0": "\"อา... {0} ที่พวกเราขอไป\"",
-        "PondQuery_StatusRequestComplete_Stiff1": "\"{0} นี่เป็นที่น่าพอใจสำหรับ ความต้องการของเรา\"",
+        "PondQuery_StatusRequestComplete_Stiff1": "\"{0} นี่เป็นที่น่าพอใจ สำหรับความต้องการของเรา\"",
         "PondQuery_StatusRequestComplete_Stiff2": "ปลาดูพอใจกับ {0}",
         "PondQuery_StatusRequestComplete_Demanding0": "\"ขอบคุณ! ขอบคุณ!\"",
         "PondQuery_StatusRequestComplete_Demanding1": "\"{0}! {0}! {0}! เรามีความสุขจัง!\"",
