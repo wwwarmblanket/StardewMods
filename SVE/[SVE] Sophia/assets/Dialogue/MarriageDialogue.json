@@ -1,7 +1,7 @@
 {
   //SPECIAL DIALOGUE
-  "patio_Sophia": "The view from our patio on %farm Farm is just as good as view of the ocean from my vineyard. It's beautiful. And even better, it's all ours.$1",
-  "spouseRoom_Sophia": "Hey, you!$4#$b#I'm deciding which manga book to read!$9#$e#Maybe I should finish the one I already started first!$1",
+  "patio_Sophia": "วิวจากระเบียงที่ฟาร์ม %farm ของเราก็สวยเหมือนวิวทะเล ที่มองจากไร่องุ่นของฉัน เหมือนกันนะ สวยมากๆ เลย แถมทั้งหมดก็เป็นของเราด้วย$1",
+  "spouseRoom_Sophia": "นี่ๆ !$4#$b#ฉันกำลังคิดว่าจะอ่าน การ์ตูนเรื่องไหนต่อดีนะ$9#$e#หรือฉันว่าจะอ่านเรื่องที่ค้าง อยู่ให้จบก่อนดีน้า!$1",
   "funReturn_Sophia": "I'm sore from the farmwork I did today at the vineyard. It was a productive day.$1#$e#I love you.$4#$b#*smooch*$9",
   "funLeave_Sophia": "I need to run to the vineyard to check on some things today. I'll be thinking about you.$1#$e#I always think about you. You're my most special person, silly!$4",
   "OneKid_0": "I can't believe we're parents, @. Everything is so different.$9#$e#I'm so happy with you. It's...it's nice to have a family again.$1",
