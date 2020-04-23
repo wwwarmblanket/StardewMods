@@ -1368,7 +1368,7 @@
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-        "Victor": "Oh, wow! This is absolutely incredible. Thank you very much, @!/224 787 444/You're giving this to me? This is great! Thank you, @./254 346 348 349 392 394/Oh? For me? This is... nice. Thank you, @./18 16 20 22 24 408 80 416 414 412 296 398 410 152 396 397 399/Uhh... I don't like this at all, @. Sorry./205 404 420 422 609 610 196 213 218 219 225 403/Thank you for the gift, @. I really appreciate this!/184 186 180 182 174 176 424 426/"
+        "Victor": "โอ้ ว้าว นี่มันยอดเยี่ยม ไร้ที่ติไปเลยครับ ขอบคุณมากๆ นะ คุณ @! ผมชอบสุดๆ เลยล่ะ!/224 787 444/คุณจะให้สิ่งนี้กับผมงั้นหรือครับ ? นี่มันดีมากเลยครับ! ขอบคุณนะครับ @/254 346 348 349 392 394/อ่า ให้ผมหรือครับ มัน...ก็ดีครับ ขอบคุณครับ @/18 16 20 22 24 408 80 416 414 412 296 398 410 152 396 397 399/เอ่อ... ผมไม่ชอบสิ่งนี้เลย แม้แต่น้อยครับ @ ขอโทษด้วยนะครับ/205 404 420 422 609 610 196 213 218 219 225 403/ขอบคุณสำหรับของขวัญนะครับ @ กระผมซาบซึ้งใจมากๆ เลย!/184 186 180 182 174 176 424 426/"
       }
     },
 	{
@@ -1447,8 +1447,8 @@
       "Action": "EditData",
       "Target": "Data/EngagementDialogue",
       "Entries": {
-        "Victor0": "I'm a little nervous about this? Aren't you?$4",
-        "Victor1": "To think I couldn't be anymore happier...$4"
+        "Victor0": "ผมก็รู้สึกกังวล เหมือนกันนะครับ? คุณไม่รู้สึกกังวลบ้างหรือครับ?$4",
+        "Victor1": "เมื่อนึกถึงว่าผม คงไม่สามารถรู้สึกมีความสุข ไปได้มากกว่านี้อีกแล้ว...$4"
       }
     },
 	
@@ -1533,17 +1533,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Ah. This should be quite an interesting film.$1"
+            "Text": "อืม นี่น่าจะเป็นภาพยนตร์ ที่น่าสนใจทีเดียวล่ะครับ$1"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "This is quite intriguing!$1"
+            "Text": "นี่มันน่าติดตาม ใช้ได้เลยนะครับ!$1"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Really puts the world in perspective. Do you think we'll ever visit the stars someday?$1"
+            "Text": "ทำให้เราเห็นโลก อีกมุมหนึ่งเลยนะครับ คุณคิดว่าพวกเราจะมีวัน ได้ไปเยี่ยมเยือนดวงดาวต่าง ๆ มั้ยครับ?$1"
           }
         },
         "ID": "reaction_2"
@@ -1556,17 +1556,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "You know, I never did beat this game. I'll watch it, though!$1"
+            "Text": "รู้มั้ยครับ ผมไม่เคยชนะเกมนี้เลย แต่ผมจะดูมันแทนนี่ล่ะ!$1"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I wonder who will win!$3"
+            "Text": "สงสัยจังครับว่าใครจะชนะ!$3"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "That was great. I want to play the game now!$3"
+            "Text": "นั่นมันเยี่ยมไปเลยนะครับ ผมชักอยากจะเล่นเกม ซะแล้วล่ะครับ!$3"
           }
         },
         "ID": "reaction_3"
@@ -1579,17 +1579,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I'm looking forward to this movie.$1"
+            "Text": "ผมตั้งตารอเรื่องนี้เลยล่ะครับ$1"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "/shake Victor 3000/pause 500/message \"Victor is laughing!\"",
-            "Text": "Haha! Quite the spectacle!$1"
+            "Text": "ฮ่าๆ! เป็นภาพยนตร์ ที่ไม่ธรรมดาจริงๆ ครับ!$1"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "This was a wonderful idea. Which part of the movie was your favorite?$3"
+            "Text": "เป็นไอเดียที่ วิเศษมากเลยล่ะครับ คุณชอบตอนไหนมากที่สุดหรือ?$3"
           }
         },
         "ID": "reaction_4"
@@ -1602,13 +1602,13 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Hey. Thanks for inviting me.$1"
+            "Text": "สวัสดีครับ ขอบคุณที่ชวนผมมานะครับ$1"
           },
           "DuringMovie": null,
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Must say, I did enjoy myself. I appreciate you taking me out, @.$3"
+            "Text": "ต้องยอมรับเลยว่าผมสนุกมาก ผมซาบซึ้งใจ ที่คุณชวนผมมาวันนี้นะครับ คุณ @$3"
           }
         },
         "ID": "reaction_5"
@@ -1621,17 +1621,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "At least the seats are comfy...$2"
+            "Text": "อย่างน้อย เบาะก็นั่งสบายดีนะครับ...$2"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "*yawn*... is it over yet?$2"
+            "Text": "*หาว*... มันจบหรือยังครับ?$2"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Err. The acting wasn't the best. I expected a bit more.$2"
+            "Text": "อ่า การแสดงน่าจะดีกว่านี้ ได้อีกมากเลยนะครับ ผมคาดหวังไว้ สูงกว่านี้นิดหน่อย$2"
           }
         },
         "ID": "reaction_6"
