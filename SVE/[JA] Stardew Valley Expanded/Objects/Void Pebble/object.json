@@ -1,6 +1,6 @@
 {
 	"Name": "Void Pebble",
-	"Description": "Although small, it's dense and hot to the touch.",
+	"Description": " (ก้อนกรวดสีดำ) ถึงจะมีขนาดเล็ก แต่แข็งและร้อนเมื่อสัมผัส",
 	"Category": "MonsterLoot",
 	"Edibility": -300,
 	"EdibleIsDrink": false,
