@@ -1,6 +1,6 @@
 {
 	"Name": "Void Pebble",
-	"Description": " (ก้อนกรวดสีดำ) ถึงจะมีขนาดเล็ก แต่แข็งและร้อนเมื่อสัมผัส",
+	"Description": "(ก้อนกรวดสีดำ) ถึงจะมีขนาดเล็ก แต่แข็งและร้อนเมื่อสัมผัส",
 	"Category": "MonsterLoot",
 	"Edibility": -300,
 	"EdibleIsDrink": false,
@@ -10,7 +10,7 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-		"Love": ["MarlonFay", "Wizard", "Krobus", "Dwarf" ],
+		"Love": ["MarlonFay", "Wizard", "Krobus", "Dwarf"],
 		"Dislike": ["Olivia", "Andy", "Victor", "Susan", "MorrisTod", "Alex", "Elliott", "Harvey", "Sam", "Sebastian", "Shane", "Abigail", "Emily", "Haley", "Leah", "Maru", "Penny", "Caroline", "Clint", "Demetrius", "Evelyn", "George", "Gus", "Jas", "Jodi", "Kent", "Lewis", "Linus", "Marnie", "Pam", "Pierre", "Robin", "Sandy", "Vincent", "Willy"]
 	},
 	"NameLocalization":
