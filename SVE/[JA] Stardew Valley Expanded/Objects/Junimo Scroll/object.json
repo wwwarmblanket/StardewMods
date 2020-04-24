@@ -1,6 +1,6 @@
 {
 	"Name": "Junimo Scroll",
-	"Description": "There's strange junimo symbols you don't recognize on this golden scroll. Perhaps the wizard can decipher it?",
+	"Description": "(ม้วนกระดาษของจูนิโม่) มีอักษรจูนิโม่ที่คุณอ่านไม่ออกอยู่บนม้วนกระดาษทองคำนี้ ไม่แน่ว่าพ่อมดอาจจะถอดความได้?",
 	"Category": "Mineral",
 	"Edibility": -300,
 	"EdibleIsDrink": false,
