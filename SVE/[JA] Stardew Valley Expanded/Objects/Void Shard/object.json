@@ -1,6 +1,6 @@
 {
 	"Name": "Void Shard",
-	"Description": "(เศษหินสีดำ) หินนี้ถูกกลืนกินโดยมนตร์ดำ",
+	"Description": "(เศษผลึกสีดำ) เศษผลึกนี้ถูกกลืนกินโดยมนตร์ดำ",
 	"Category": "MonsterLoot",
 	"Edibility": -300,
 	"EdibleIsDrink": false,
