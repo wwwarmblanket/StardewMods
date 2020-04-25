@@ -6,7 +6,7 @@
 "Tue": "แอปเปิลเจอเมล็ดพันธุ์ล่ะ! อ่ะนี่! ให้![114]$1#$e#เมล็ดพันธุ์ต้นไม้วิเศษ!$0",
 "Wed": "แอปเปิล มะค่อยฉะบายย...$2#$e#...$2#$e#%You ลูปหัวแอปเปิ้ล.#$e#*ปิ้ง ปิ้ง*!!!$1",
 "Wed6": "คลอส กับ แองเจลิก้า มาทักทายล่ะ!$0#$e#เพือนภูตที่แบ่งสตาร์ฟรุต กับแอปเปิลน่ะ!$1",
-"Thu": "แอปเปิลเจอหินเจ๋งๆด้วยล่ะ! อ่ะ ให้คุณ![390]$1#$e#%Apples ดูมีความสุขมากที่มอบหินให้คุณ",
+"Thu": "แอปเปิลเจอหินเจ๋งๆด้วยล่ะ! อ่ะ ให้![390]$1#$e#%Apples ดูมีความสุขมากที่มอบหินให้คุณ",
 "Th4": "เจอหมีบางรึเปล่า?$0#$b#มันอาศัยอยู่ใกล้กับแอปเปิลล่ะ!$1#$e#หมีมีของดีๆมาขายเพียบเลย!$0",
 "Thu10": "แอปเปิลเจอเมล็ดพันธุ์หายากด้วยล่ะ! เอาไป เอาไป![347]$1#$e#มันต้องโตมาเป็นผลไม้อย่อยๆ แน่ๆ!$0",
 "Fri": "คุณเพื่อนใหม่รู้จักคนที่อยู่ในไร่องุ่นมั้งม๊า?$2#$e#%You บอกแอปเปิลว่าไม่รู้จักใคร#$e#...$2",
@@ -50,22 +50,22 @@
 "fall_Sun10": "มีเพื่อนอยากทำงานที่ฟาร์มด้วย! สร้างบ้านที่ฟาร์มจิ! เพื่อน ของแอปเปิลจะช่วยเก็บผลผลิต!$0#$e#แอปเปิลก็จะช่วยด้วยนะ!$1",
 
 //WINTER DIALOGUE
-"winter_Mon": "Apples no feel the cold. Don't worry!#$e#%Apples jumps with joy.",
-"winter_Mon6": "Apples see footprint from other creature in forest.$0#$b#Apples wonder what it is...??$1#$e#Maybe more new-friends!?$0",
-"winter_Tue": "*meep*!!!$0#$b#Apples met flying-friend today! Flying-friend give seeds!$1#$e#Apples ate seeds already. None left for Apples-friend...Sorry!$2",
-"winter_Tue4": "*meep*!!!$0#$b#Apples met more flying-friends! Flying-friends give more seeds!$1#$e#Apples ate seeds already again...$2",
-"winter_Tue8": "Yay! Apples-friend here to visit!$0#$e#Apples find flower![418]#$e#Find more flower![418]#$e#Here! More![418]#$e#%Apples tries to give you more flowers but they have no more to give.#$e#If Apples find nice flower, give to friend!$1",
-"winter_Wed": "Look! Apples find more new-friend![412]$0#$e#Not friend? It is root?$2#$b#Apples-friend keep then.$1",
-"winter_Wed6": "Apples-friend visit to play?$0#$e#Apples want to play!$1#$e#%You play with Apples for a bit.#$e#Yay!!!$1",
-"winter_Thu": "Apples hide in snow for fun!$1#$e#Snow! Snow!$0",
-"winter_Thu4": "Apples want to build snow person!$0#$e#Maybe Apples build snow-Apple...$1",
-"winter_Fri": "Other friend make Apples sad. No want to play.$2#$e#Other friend is from village. Plays with different friend instead.$2#$e#%You tell Apples you can play with them.#$e#!!!$1#$b#Really? Apples happy!$0#$b#Apples like play!$1#$e#%You play with Apples for a while.#$e#Yay! Fun for Apples!$1",
-"winter_Fri10": "Other friends invite Apples to play in village! Happy!$1",
-"winter_Sat": "Apples see white hair man with eye patch.$2#$e#Eyepatch-guy scary.$2",
-"winter_Sat10": "*meep*!!!$1#$e#*meep*!!$0#$e#Apples full! Many starfruit in hut!",
+"winter_Mon": "แอปเปิลไม่หนาวอ่ะ ไม่ต้องห่วง!#$e#%Apples กระโดดอย่างมีความสุข",
+"winter_Mon6": "แอปเปิลเห็นรอยเท้าของ สิ่งมีชีวิตอื่นในป่า$0#$b#แอปเปิลสงสัยจังว่า เป็นตัวอะไร...??$1#$e#อาจจะเป็นเพื่อนใหม่ก็ได้!?$0",
+"winter_Tue": "*ปิ้ง*!!!$0#$b#วันนี้แอปเปิลเจอเพื่อนที่บิน ได้ด้วย! เพื่อนที่บินได้ให้ เมล็ดพันธุ์มา!$1#$e#แต่แอปเปิลกินเมล็ดพันธุ์ไป แล้วง่ะ เลยไม่มีให้เพื่อน ของแอปเปิล ขอโต๊ดด!$2",
+"winter_Tue4": "*ปิ้ง*!!!$0#$b#แอปเปิลเจอเพื่อนที่บินได้ อีกแล้ว! เพื่อนที่บินได้ให้ เมล็ดพันธุ์มาอีก!$1#$e#แต่แอปเปิลก็กินเมล็ดพันธุ์ ไปอีกแล้วง่ะ...$2",
+"winter_Tue8": "เย้! เพื่อนของแอปเปิลมา!$0#$e#แอปเปิลเจอดอกไม้![418]#$e#แล้วก็เจอดอกไม้อีก![418]#$e#อ่ะ! นี่อีก![418]#$e#%Apples พยายามหาดอกไม้ ให้คุณอีกแล้วดูเหมือนว่าจะ ไม่มีแล้ว#$e#ถ้าแอปเปิลเจอดอกไม้สวยๆ แอปเปิลจะเอาให้นะ!$1",
+"winter_Wed": "ดูจิ้! แอปเปิลเจอเพื่อนใหม่อีกแล้ว![412]$0#$e#ไม่ใช่เพื่อนหรอ? มันคือรากไม้?$2#$b#งืมม งั้นเพื่อนของแอปเปิล เอาไปละกัน$1",
+"winter_Wed6": "เพื่อนของแอปเปิลจะมาเล่น ด้วยหรอ?$0#$e#แอปเปิลอยากเล่น!$1#$e#%You เล่นกับแอปเปิลสักครู่หนึ่ง#$e#เย่!!!$1",
+"winter_Thu": "แอปเปิลชอบซ่อนในหิมะ สนุกนะ!$1#$e#หิมะ! หิมะ!$0",
+"winter_Thu4": "แอปเปิลจะสร้างมนุษย์จากหิมะ!$0#$e#แล้วแอปเปิลก็จะสร้างแอปเปิลหิมะ...$1",
+"winter_Fri": "มีเพื่อนทำให้แอปเปิลเสียใจ ไม่อยากเล่นแล้ว$2#$e#เพื่อนที่มาจากหมู่บ้าน ไปเล่นกับคนอื่นแทน$2#$e#%You บอกกับแอปเปิลว่า สามารถเล่นกับพวกเขาได้#$e#!!!$1#$b#จริงน่ะหรอ? แอปเปิลดีใจ!$0#$b#แอปเปิลชอบเล่น!$1#$e#%You เล่นกับแอปเปิลสักครู่หนึง#$e#เย่! สนุกจัง!$1",
+"winter_Fri10": "มีเพื่อนชวนแอปเปิลไปเล่น ในหมู่บ้านล่ะ! ดีใจจัง!$1",
+"winter_Sat": "แอปเปิลเห็นผู้ชายผมสีขาว ที่ใส่ผ้าปิดตาง่ะ$2#$e#ผู้ชายผ้าปิดตาน่ากลัวง่าาา$2",
+"winter_Sat10": "*ปิ้ง*!!!$1#$e#*ปิ้ง*!!$0#$e#แอปเปิลอิ้มมอิ่มม! มีสตาร์ฟรุตในกระท่อมเพียบเยย!",
 
 //EVENT DIALOGUE
-"apples_event1": "...$2#$b#Other friends don’t say that.$4#$b#They say Apples wrong.$2",
-"apples_event2": "...$2#$b#Apples make big mistake. Apples sorry.$3#$b#Apples only wanted to make new home for other friends...$3#$b#Don't be mad at Apples...$3",
-"apples_event3": "...$2#$b#Apples did make more friends...$4"
+"apples_event1": "...$2#$b#แต่เพื่อนคนอื่นไม่ได้พูดแบบนั้น$4#$b#พวกเขาบอกว่าแอปเปิลผิด$2",
+"apples_event2": "...$2#$b#แอปเปิลทำผิดร้ายแรง แอปเปิลขอโทษ$3#$b#แอปเปิลแค่อยากจะทำ บ้านใหม่ให้เพื่อน...$3#$b#อย่าโมโหแอปเปิลเลย...$3",
+"apples_event3": "...$2#$b#แอปเปิลมีเพื่อนมากขึ้น...$4"
 }
