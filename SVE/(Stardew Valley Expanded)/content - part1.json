@@ -2654,7 +2654,7 @@
 	 "Action": "EditData",
 	 "Target": "data/events/forest",
 	 "Entries": {
-     "5000002/t 600 1700/z winter/w rainy/f Andy 1500": "rain/-500 -500/farmer -100 -100 3 Andy -101 -101 2 MarlonFay -200 -200 2 Wizard -202 -202 2 Krobus -203 -203 0/pause 500/skippable/viewport 62 70 true/pause 2500/warp Andy 57 70/playSound doorClose/pause 1000/shake Andy 700/pause 1200/faceDirection Andy 1 true/pause 300/move Andy 10 0 2/move Andy 0 4 3/move Andy -8 0 3 true/pause 1000/globalFade/viewport -1000 -1000 true/halt/warp Andy -99 -99/warp farmer 74 74/viewport 62 70 true/move farmer -6 0 3/pause 1500/move farmer -7 0 3 true/pause 1000/globalFade/viewport -1000 -1000/halt/pause 500/changeLocation ForestWest/pause 400/playMusic rain/warp Marlon 53 114/warp Wizard 55 114/warp Krobus 54 117/warp Andy 58 20/warp farmer 58 31/pause 400/viewport 58 22 true/pause 100/move Andy 0 0 0/move farmer 0 -8 0/pause 2000/speak Andy \"...$8\"/pause 3000/speak Andy \"เจอร์รี่และเอลิซาเบธเคยอยู่ที่นี่ นี่คือไร่องุ่นของพวกเขา$0\"/pause 2000/speak Andy \"พวกเขาเป็นเพื่อนที่ดีของฉัน$0\"/pause 1500/faceDirection Andy 1 true/pause 250/faceDirection Andy 2 true/pause 1100/speak Andy \"คุณจำได้ไหมว่าเรา เคยเจอพิษเศรษฐกิจครั้งใหญ่? ตอนนั้นคุณยังมีงานทำ อยู่ที่สำนักงานของคุณ$0\"/pause 1000/showFrame Andy 22/pause 1200/speak Andy \"การกดราคาในตลาดส่งผล กระทบต่อความต้องการพืชผล โดยเฉพาะสินค้างานฝีมือ$8#$b#เจอร์รี่และเอลิซาเบธ พยายามยื้อเวลาอยู่นาน เท่าที่จะทำได้ แต่ในที่สุดก็ต้องยอมแพ้$8\"/pause 1250/faceDirection Andy 1 true/pause 250/faceDirection Andy 0/pause 1200/shake Andy 1000/pause 1200/speak Andy \"เจอร์รี่ คุณมันโง่เหมือนโยบะ$2\"/pause 1000/speak Andy \"ฉันบอกพวกเขาแล้วว่า อย่าใช้จ่ายเงินทั้งหมด ไปกับโครงการของพวกเขา ไม่อย่างนั้นพวกเขาก็จะ...\"/pause 750/shake Andy 1000/pause 1500/faceDirection Andy 1 true/pause 250/faceDirection Andy 2 true/pause 600/speak Andy \"ฉันใกล้จะล้มละลายแล้ว โชคดีที่ฉันรู้ว่าต้องหาของป่า ได้ที่ไหนบ้าง$0#$b#การหาของป่านั้นช่วยฉันได้เยอะ โยบะก็คอยเฝ้าดูฉันอยู่$2\"/pause 1250/speak Andy \"อเล็กซ์ซ่าก็เจอเรื่องแบบนี้ ที่บ้านหลังเล็กๆ นั่นไงล่ะ มันอยู่ทางใต้ของฟาร์มแฟร์เฮเวน...$0\"/pause 1000/speak Andy \"แถมตอนนี้ก็มีหนูแปลกๆ ที่ขายหมวกมาอาศัยอยู่$2#$b#ฉันคิดว่าพ่อมด มีส่วนเกี่ยวข้องกับมันแน่ๆ ฉันมักจะเห็นไฟกระพริบ มาจากหอคอยของเขาตลอด$2#$b#ฉันคิดว่าพ่อมด มีส่วนเกี่ยวข้องกับมันแน่ๆ ฉันมักจะเห็นไฟกระพริบ มาจากหอคอยของเขาตลอด$2\"/pause 2000/showFrame Andy 22/pause 600/speak Andy \"...$8\"/pause 1500/speak Andy \"ฉันต้องคิดด้วยตัวเอง ทำไมฉันถึงออกมาที่นี่คนเดียว จะออกไปเดี๋ยวนี้$8\"/pause 1200/faceDirection farmer 1 true/pause 250/faceDirection farmer 2 true/pause 500/move farmer 0 2 2/pause 700/showFrame farmer 96/pause 1000/showFrame farmer 2/faceDirection farmer 2 true/move farmer 0 6 2 true/pause 500/globalFade/viewport -1000 -1000/pause 500/end dialogue Andy \"บางครั้งฉันเขียนจดหมายถึงเจอร์รี่ เรายังคงติดต่อกันอยู่ เขากับเอลิซาเบธเพิ่งมีลูกด้วยกัน$0#$b#ตอนนี้พวกเขาอาศัยอยู่ที่เชสเตอร์เวล มันไม่ใช่ส่วนที่ดีที่สุด ของสาธารณรัฐเฟิร์นกิลล์หรอก แต่มันราคาถูกดี$2#$e#ฉันมักจะเดินไปดูไร่องุ่นเก่าๆ ของพวกเขาอยู่ตลอด ฉันเคยไปเยี่ยมพวกเขา หลังจากที่เริ่มทำฟาร์ม$0#$e#...ฉันคิดถึงพวกเขาจัง$8\"",  
+     "5000002/t 600 1700/z winter/w rainy/f Andy 1500": "rain/-500 -500/farmer -100 -100 3 Andy -101 -101 2 MarlonFay -200 -200 2 Wizard -202 -202 2 Krobus -203 -203 0/pause 500/skippable/viewport 62 70 true/pause 2500/warp Andy 57 70/playSound doorClose/pause 1000/shake Andy 700/pause 1200/faceDirection Andy 1 true/pause 300/move Andy 10 0 2/move Andy 0 4 3/move Andy -8 0 3 true/pause 1000/globalFade/viewport -1000 -1000 true/halt/warp Andy -99 -99/warp farmer 74 74/viewport 62 70 true/move farmer -6 0 3/pause 1500/move farmer -7 0 3 true/pause 1000/globalFade/viewport -1000 -1000/halt/pause 500/changeLocation ForestWest/pause 400/playMusic rain/warp Marlon 53 114/warp Wizard 55 114/warp Krobus 54 117/warp Andy 58 20/warp farmer 58 31/pause 400/viewport 58 22 true/pause 100/move Andy 0 0 0/move farmer 0 -8 0/pause 2000/speak Andy \"...$8\"/pause 3000/speak Andy \"Jerry and Elizabeth used to live here. This was their vineyard.$0\"/pause 2000/speak Andy \"They were good friends of mine.$0\"/pause 1500/faceDirection Andy 1 true/pause 250/faceDirection Andy 2 true/pause 1100/speak Andy \"'Member the great recession? You still had that there office job of yours.$0\"/pause 1000/showFrame Andy 22/pause 1200/speak Andy \"That nosedive in the market had devastatin' effects on the demand for crops, 'specially artisan goods.$8#$b#Jerry and Elizabeth held out, long as they could, but eventually gave up.$8\"/pause 1250/faceDirection Andy 1 true/pause 250/faceDirection Andy 0/pause 1200/shake Andy 1000/pause 1200/speak Andy \"Jerry, you Yoba darn fool.$2\"/pause 1000/speak Andy \"I told 'em not to spend all their darn money on that project of theirs or else they'd...\"/pause 750/shake Andy 1000/pause 1500/faceDirection Andy 1 true/pause 250/faceDirection Andy 2 true/pause 600/speak Andy \"I was on the verge of bankruptcy myself. Luckily, I knew where to look for good forage.$0#$b#That forage saved me. Yoba was lookin' after me.$2\"/pause 1250/speak Andy \"Same thing happened to Alexa. That little farmhouse south of Fairhaven Farm...$0\"/pause 1000/speak Andy \"Now some freakish cretin of a mouse lives in there sellin' hats.$2#$b#I think that there wizard has something to do with it. I'm always seein' flashin' lights comin' from his tower.$2\"/pause 2000/showFrame Andy 22/pause 600/speak Andy \"...$8\"/pause 1500/speak Andy \"I need to do some ponderin' by myself. Why I came out here. Alone. Now leave.$8\"/pause 1200/faceDirection farmer 1 true/pause 250/faceDirection farmer 2 true/pause 500/move farmer 0 2 2/pause 700/showFrame farmer 96/pause 1000/showFrame farmer 2/faceDirection farmer 2 true/move farmer 0 6 2 true/pause 500/globalFade/viewport -1000 -1000/pause 500/end dialogue Andy \"I write to Jerry. We keep in contact. He and Elizabeth had a kid recently.$0#$b#They're livin' in Chestervale now. Not the best part of the Ferngill Republic, but it's cheap.$2#$e#I walk over to their old vineyard to ponder. Use' to visit 'em after I was done farmin' for the day.$0#$e#... I miss 'em.$8\"",  
 	 },
 },
 
@@ -2683,7 +2683,7 @@
 	"Action": "EditData",
 	"Target": "data/events/andyhouse",
 	"Entries": { 
-    "5000006/n AndyPictureLetter": "kindadumbautumn/-500 -500/Andy 16 17 3 farmer -50 -50 0/animate Andy true true 100 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 33 34 35 35 35 35 35 35 35 35 35 35 35 35 35 35 34 33 32 32 32 32 32 32 32 32 32 32 32/pause 1000/viewport 12 15 true/skippable/pause 1750/playSound stoneStep/playSound stoneStep/pause 300/playSound stoneStep/playSound stoneStep/pause 230/playSound stoneStep/playSound stoneStep/pause 1200/warp farmer 12 22/playSound doorClose/pause 500/move farmer 0 -5 1 true/pause 2500/stopAnimation Andy/pause 500/speak Andy \"ว่าไงชาวไร่ เห็นไหมว่าคุณมี จดหมายของฉัน$0\"/pause 400/move Andy -2 0 3/pause 300/speak Andy \"แค่อยากจะแสดงบางสิ่งที่ฉัน คิดว่าคุณจะประทับใจ$3#$b#ฉันเจอในตอนที่ทำ ความสะอาดบ้านของฉัน$1\"/pause 600/move Andy -1 0 0/move Andy 0 -1 3/move Andy -4 0 0 true/pause 200/faceDirection farmer 0 true/pause 500/faceDirection farmer 3 true/pause 2500/move farmer -1 0 0/move farmer 0 -1 0/pause 150/faceDirection farmer 3/pause 400/showFrame Andy 36/pause 1100/playSound newRecipe/shake Andy 400/pause 800/showFrame Andy 8/pause 750/showFrame Andy 37/pause 800/speak Andy \"ฉันมีภาพเก่าของไร่องุ่น ออโรร่าในช่วงเวลาที่ รุ่งโรจน์ที่สุด$3#$b#นี่ไง ลองดูสิ!$1\"/pause 350/showFrame Andy 38/pause 950/move farmer -1 0 3/pause 300/globalFade/viewport -1000 -1000/stopMusic/warp farmer -100 -100/warp Andy -101 -101/changeLocation AuroraVineyardPicture/AmbientLight 255 255 255/viewport 12 11 true/pause 250/playSound newRecipe/pause 350/playMusic musicboxsong/pause 14000/globalFade/viewport -1000 -1000/changeLocation AndyHouse/warp farmer 10 16/warp Andy 9 16/faceDirection Andy 1 true/positionOffset farmer 15 10/viewport 12 15 true/pause 1000/speak Andy \"Heh. I recall the day Jerry figured out how to craft kegs.$0#$b#That was a heck of a party!$1#$b#Elizabeth was a nice lady too. Sometimes invited me for tea and cookies.$3\"/pause 800/faceDirection Andy 0 true/pause 300/textAboveHead Andy \"Got this too.\"/pause 500/showFrame Andy 36/pause 1000/playSound newRecipe/shake Andy 250/pause 800/showFrame Andy 8/pause 600/showFrame Andy 37/pause 800/speak Andy \"Also got here a picture of Stardust Farm.$3\"/pause 800/showFrame Andy 38/pause 600/globalFade/viewport -1000 -1000/changeLocation StardustFarmPicture/warp farmer -40 -40/warp Andy -40 -40/ambientLight 255 255 255/viewport 10 12 true/playSound newRecipe/pause 14000/globalFade/viewport -1000 -1000/pause 100/changeLocation AndyHouse/ambientLight 90 90 90/warp farmer 10 16/warp Andy 9 16/faceDirection Andy 1 true/positionOffset farmer 15 10/positionOffset Andy -10 0/positionOffset farmer 10 7/viewport 12 15 true/pause 1000/speak Andy \"Alexa was a sweet girl. Always wore those bright yellow dresses on a sunny day.$0#$b#She grew the prettiest flowers in the valley.$3#$b#The honey and maple syrup from Stardust Farm was so sweet it'd send a bear spinnin'$1.\"/pause 900/speak Andy \"We commissioned Robin to build those there makeshift wooden bridges.$0#$b#Sure was nice seein' that smile of hers, bright as sunshine..$0\"/pause 1200/faceDirection Andy 2 true/pause 900/speak Andy \"I've come to learn friends come 'n go.#$b#And...\"/pause 1000/showFrame Andy 22/pause 800/speak Andy \"You never know when you'll meet a new one.$8\"/pause 800/showFrame Andy 0 true/pause 700/faceDirection Andy 1 true/pause 700/speak Andy \"Hmm. Hey. Let's grab some 'farmer's lunch'. I got fresh forage to go with it.$3\"/pause 500/globalFade/viewport -1000 -1000/end dialogue Andy \"Glad you got to see what their farms looked like, farmer.$0#$b#Their current state don't do 'em justice...$2#$b#Say. What happened at that there community center.#$b#Think that'll happen to Stardust Farm and Aurora Vineyard?$2#$e#Don't understand magic much.$1#$e#Keep workin' hard, farmer. Have yourself a great day.$3\"",
+    "5000006/n AndyPictureLetter": "kindadumbautumn/-500 -500/Andy 16 17 3 farmer -50 -50 0/animate Andy true true 100 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 33 34 35 35 35 35 35 35 35 35 35 35 35 35 35 35 34 33 32 32 32 32 32 32 32 32 32 32 32/pause 1000/viewport 12 15 true/skippable/pause 1750/playSound stoneStep/playSound stoneStep/pause 300/playSound stoneStep/playSound stoneStep/pause 230/playSound stoneStep/playSound stoneStep/pause 1200/warp farmer 12 22/playSound doorClose/pause 500/move farmer 0 -5 1 true/pause 2500/stopAnimation Andy/pause 500/speak Andy \"Hey, farmer. See you got that there letter of mine.$0\"/pause 400/move Andy -2 0 3/pause 300/speak Andy \"Jus' wanted to show you somethin' I think you'd appreciate.$3#$b#Found 'em while cleanin' my house.$1\"/pause 600/move Andy -1 0 0/move Andy 0 -1 3/move Andy -4 0 0 true/pause 200/faceDirection farmer 0 true/pause 500/faceDirection farmer 3 true/pause 2500/move farmer -1 0 0/move farmer 0 -1 0/pause 150/faceDirection farmer 3/pause 400/showFrame Andy 36/pause 1100/playSound newRecipe/shake Andy 400/pause 800/showFrame Andy 8/pause 750/showFrame Andy 37/pause 800/speak Andy \"I have an old picture of Aurora Vineyard in its prime.$3#$b#Here. Take a look!$1\"/pause 350/showFrame Andy 38/pause 950/move farmer -1 0 3/pause 300/globalFade/viewport -1000 -1000/stopMusic/warp farmer -100 -100/warp Andy -101 -101/changeLocation AuroraVineyardPicture/AmbientLight 255 255 255/viewport 12 11 true/pause 250/playSound newRecipe/pause 350/playMusic musicboxsong/pause 14000/globalFade/viewport -1000 -1000/changeLocation AndyHouse/warp farmer 10 16/warp Andy 9 16/faceDirection Andy 1 true/positionOffset farmer 15 10/viewport 12 15 true/pause 1000/speak Andy \"Heh. I recall the day Jerry figured out how to craft kegs.$0#$b#That was a heck of a party!$1#$b#Elizabeth was a nice lady too. Sometimes invited me for tea and cookies.$3\"/pause 800/faceDirection Andy 0 true/pause 300/textAboveHead Andy \"Got this too.\"/pause 500/showFrame Andy 36/pause 1000/playSound newRecipe/shake Andy 250/pause 800/showFrame Andy 8/pause 600/showFrame Andy 37/pause 800/speak Andy \"Also got here a picture of Stardust Farm.$3\"/pause 800/showFrame Andy 38/pause 600/globalFade/viewport -1000 -1000/changeLocation StardustFarmPicture/warp farmer -40 -40/warp Andy -40 -40/ambientLight 255 255 255/viewport 10 12 true/playSound newRecipe/pause 14000/globalFade/viewport -1000 -1000/pause 100/changeLocation AndyHouse/ambientLight 90 90 90/warp farmer 10 16/warp Andy 9 16/faceDirection Andy 1 true/positionOffset farmer 15 10/positionOffset Andy -10 0/positionOffset farmer 10 7/viewport 12 15 true/pause 1000/speak Andy \"Alexa was a sweet girl. Always wore those bright yellow dresses on a sunny day.$0#$b#She grew the prettiest flowers in the valley.$3#$b#The honey and maple syrup from Stardust Farm was so sweet it'd send a bear spinnin'$1.\"/pause 900/speak Andy \"We commissioned Robin to build those there makeshift wooden bridges.$0#$b#Sure was nice seein' that smile of hers, bright as sunshine..$0\"/pause 1200/faceDirection Andy 2 true/pause 900/speak Andy \"I've come to learn friends come 'n go.#$b#And...\"/pause 1000/showFrame Andy 22/pause 800/speak Andy \"You never know when you'll meet a new one.$8\"/pause 800/showFrame Andy 0 true/pause 700/faceDirection Andy 1 true/pause 700/speak Andy \"Hmm. Hey. Let's grab some 'farmer's lunch'. I got fresh forage to go with it.$3\"/pause 500/globalFade/viewport -1000 -1000/end dialogue Andy \"Glad you got to see what their farms looked like, farmer.$0#$b#Their current state don't do 'em justice...$2#$b#Say. What happened at that there community center.#$b#Think that'll happen to Stardust Farm and Aurora Vineyard?$2#$e#Don't understand magic much.$1#$e#Keep workin' hard, farmer. Have yourself a great day.$3\"",
 	},
 },
 
@@ -3065,7 +3065,7 @@
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-      "Sophia": "Ooo! A fairy stone!? I love these rocks so much!/577/That's sweet of you! Thanks!/220 221 232 237 240 -80 428 373 376 74 797 279 446/Oh... thanks./-75 -81 18 20 22 16 396 406 408 404 399 398 372 393 397/N-no! Get it away from me!/346 303 459 149 798 151 155 -4/Um. Thanks!/-18 -79 -2 -7 -26 -75 -80 72 446 348 395 613 634 635 636 637 638 724 459 402/"
+      "Sophia": "อู้วววว! หินแฟรี่สโตน (fairy stone) งั้นเหรอ!? ฉันชอบเจ้าหินนี่มากๆ เลย!/577/คุณน่ารักจัง! ขอบใจนะ!/220 221 232 237 240 -80 428 373 376 74 797 279 446/โอ้... ขอบใจ/-75 -81 18 20 22 16 396 406 408 404 399 398 372 393 397/ม-ไม่เอา! เอามันออกไปห่างๆ ฉันเลยนะ!/346 303 459 149 798 151 155 -4/อืม ขอบใจ!/-18 -79 -2 -7 -26 -75 -80 72 446 348 395 613 634 635 636 637 638 724 459 402/"
       }
     },
 	
@@ -3159,7 +3159,7 @@
       "Target": "Data/EngagementDialogue",
       "Entries": {
         "Sophia0": "This is the start of something wonderful.$4",
-        "Sophia1": "Um. Hey. I'll see you later, okay?$4"
+        "Sophia1": "อืม เฮ้ แล้วค่อยเจอกันใหม่นะ โอเคนะ?$4"
       }
     },
 	
@@ -3167,10 +3167,10 @@
       "Action": "EditData",
       "Target": "strings/StringsFromCSFiles",
       "Entries": {
-      "Utility.cs.5367": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Sophia in the bonds of marriage.",
-      "Utility.cs.5369": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Sophia in the bonds of marriage.",
-	  "Utility.cs.5371": "@... Sophia... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$h",
-      "Utility.cs.5377": "@... Sophia... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you wife and..., well, wife!$h",
+      "Utility.cs.5367": "ในตอนที่ @ เพิ่งมาถึงเมืองเพลิแกน ไม่มีใครรู้ว่าเขาจะเข้ากันได้ดี กับชุมชนของพวกเราหรือไม่...#$b#แต่ว่าหลังจากวันนี้เป็นต้นไป @ จะเป็นส่วนหนึ่งของเมือง เหมือนกันกับพวกเราทุกคน!$h#$b#นับเป็นเกียรติ ของฉันอย่างยิ่งที่วันนี้ วันที่ {0} ใน {1} ได้ทำให้ @ และโซเฟีย เป็นหนึ่งเดียวกันด้วย พันธะสัญญาของการแต่งงาน",
+      "Utility.cs.5369": "ในตอนที่ @ เพิ่งมาถึงเมืองเพลิแกน ไม่มีใครรู้ว่าเธอจะเข้ากันได้ดี กับชุมชนของพวกเราหรือไม่...#$b#แต่ว่าหลังจากวันนี้เป็นต้นไป @ จะเป็นส่วนหนึ่งของเมือง เหมือนกันกับพวกเราทุกคน!$h#$b#นับเป็นเกียรติ ของฉันอย่างยิ่งที่วันนี้ วันที่ {0} ใน {1} ได้ทำให้ @ และโซเฟีย เป็นหนึ่งเดียวกันด้วย พันธะสัญญาของการแต่งงาน",
+	  "Utility.cs.5371": "@... โซเฟีย... #$b# ในฐานะนายกเทศมนตรี ของเมืองเพลิแกน และฐานะของผู้ถือครอง ตราประทับแห่งการวิวาห์ ของประเทศนี้ ตอนนี้ผมขอประกาศว่า คุณคือสามีและภรรยา!$h",
+      "Utility.cs.5377": "@... โซเฟีย... #$b# ในฐานะนายกเทศมนตรี ของเมืองเพลิแกน และฐานะของผู้ถือครอง ตราประทับแห่งการวิวาห์ ของประเทศนี้ ตอนนี้ผมขอประกาศว่า คุณคือภรรยาและ..., ใ่แล้ว, ภรรยา!$h",
       },
       "When": {
       "Relationship:Sophia": "Engaged"
@@ -3225,17 +3225,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I can't believe they made a Prairie King movie... I hope it's good!"
+            "Text": "ฉันไม่อยากจะเชื่อเลย เขาทำหนังราชาทุ่งหญ้า (Prairie King)... ฉันหวังว่ามันจะแจ๋วนะ!"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "That's my cosplay!$9"
+            "Text": "ฉันจะคอสเป็นตัวนั้น!$9"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "The movie was so so great! Thanks for taking me!$1"
+            "Text": "หนังมันเยี่ยมมาก! ขอบคุณที่พาฉันมานะ!$1"
           }
         },
         "ID": "reaction_2"
@@ -3248,17 +3248,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I hope this movie is good! I think there's a cute character in it!$1"
+            "Text": "ฉันหวังว่าหนังเรื่องนี้ จะดีนะ! ฉันคิดว่ามันมีตัวละครน่ารักๆ อยู่ด้วยล่ะ!$1"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Ohh! That's interesting!$1"
+            "Text": "โอ้! นั่นมันน่าสนใจจังเลย!$1"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Raccoons are so so adorable!$1"
+            "Text": "พวกแรคคูนน่ารักมากๆ เลย!$1"
           }
         },
         "ID": "reaction_3"
@@ -3271,17 +3271,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Let's go get the good seats, @!$1"
+            "Text": "ไปหาที่นั่งดีๆ กันเถอะ @!$1"
           },
           "DuringMovie": {
             "ResponsePoint": null,
-            "Script": "/shake Sophia 3000/pause 500/message \"Sophia is giggling!\"",
-            "Text": "Hehe!$9"
+            "Script": "/shake Sophia 3000/pause 500/message \"โซเฟียกำลังหัวเราะคิกคัก!\"",
+            "Text": "ฮิๆ!$9"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "What part was your favorite?$1"
+            "Text": "เธอชอบส่วนไหนของ หนังเรื่องนี้หรอ?$1"
           }
         },
         "ID": "reaction_4"
@@ -3294,13 +3294,13 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Hey, you! Thanks for inviting me, I love going to the movies.$1"
+            "Text": "เฮ้ คุณน่ะ! ขอบคุณที่ชวนฉันนะ ฉันชอบไปดูหนังมากเลย$1"
           },
           "DuringMovie": null,
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "There were some silly parts, but I liked it.$9"
+            "Text": "มันมีส่วนที่บ๊องๆ อยู่ แต่ฉันชอบมันนะ$9"
           }
         },
         "ID": "reaction_5"
@@ -3313,17 +3313,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I-I don't know about this one. I'm just here for the snacks.$1"
+            "Text": "ฉ-ฉัน ไม่รู้อะไรเกี่ยวกับ หนังเรื่องนี้เลย แค่อยากมากินขนมน่ะ$1"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Mmm. A little boring...$2"
+            "Text": "อืมม ก็น่าเบื่อนิดหน่อยนะ...$2"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I think I'd rate that a 5 out of 10.$0"
+            "Text": "ฉันให้คะแนนหนังเรื่องนี้ 5 จาก 10$0"
           }
         },
         "ID": "reaction_6"
@@ -3338,7 +3338,7 @@
       "Action": "EditData",
       "Target": "data/festivals/spring13",
       "Entries": {
-        "Sophia": "I get nervous around large crowds of people...$2"
+        "Sophia": "ฉันกังวลเวลาที่อยู่ ท่ามกลางฝูงชนน่ะ...$2"
       }
     },
 	
@@ -3346,7 +3346,7 @@
       "Action": "EditData",
       "Target": "data/festivals/spring13",
       "Entries": {
-        "Sophia": "Hey, you! Want to get some food with me?$4#$e#I already had a plate. This will be my second.$9"
+        "Sophia": "เฮ้ คุณน่ะ! อยากจะมาทานอาหาร กับแันสักหน่อยไหม?$4#$e#ฉันกินไปแล้วจานนึง จานนี้จะเป็น จานที่สองแล้วล่ะ$9"
       },
       "When": {
         "Spouse:Sophia": "True"
@@ -3358,7 +3358,7 @@
       "Action": "EditData",
       "Target": "data/festivals/spring24",
       "Entries": {
-        "Sophia": "I'm here for the free cake.$1"
+        "Sophia": "ฉันมาที่นี่เพื่อเค้กฟรีน่ะ$1"
       }
     },
 
@@ -3366,7 +3366,7 @@
       "Action": "EditData",
       "Target": "data/festivals/spring24",
       "Entries": {
-        "Sophia": "Hey, you!$9#$b#Want to eat lots and lots of food with me?$1#$e#D-don't ask me to dance. I get nervous.$2#$e#Um. Let's eat food instead and watch the others dance.$1#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing.#$e#%Sophia doesn't feel comfortable dancing."
+        "Sophia": "เฮ้ เธอน่ะ!$9#$b#อยากจะมากินอาหาร เยอะแยะมากมายกับฉันไหม?$1#$e#ย-อย่ามาขอฉัน เต้นรำเชียวนะ ฉันกังวลน่ะ$2#$e#อืมม แทนที่จะดูคนอื่นเต้น เรามากินอาหารกันเถอะ$1#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#%โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ#$e#โซเฟียรู้สึกไม่ค่อยดี กับการเต้นรำ"
       },
       "When": {
         "Spouse:Sophia": "True"
@@ -3378,7 +3378,7 @@
       "Action": "EditData",
       "Target": "data/festivals/summer11",
       "Entries": {
-        "Sophia": "I added aged Blue Moon Wine for the adult pot!$9#$e#I hope the other ingredients people put in are tasty!$1"
+        "Sophia": "ฉันเติมไวน์บลูมูน (Blue Moon Wine) ลงในหม้อสำหรับผู้ใหญ่ ด้วยล่ะ!$9#$e#ฉันหวังว่าวัตถุดิบ ที่คนอื่นเอามาใส่จะ อร่อยนะ!$1"
       }
     },
 	
@@ -3386,7 +3386,7 @@
       "Action": "EditData",
       "Target": "data/festivals/summer11",
       "Entries": {
-        "Sophia": "Want to go swimming after we eat?$1#$e#I have a new bikini.$4"
+        "Sophia": "อยากจะไปว่ายน้ำ หลังจากที่เรากินเสร็จไหม?$1#$e#ฉันมีบิกินี่ตัวใหม่ล่ะ$4"
       },
       "When": {
         "Spouse:Sophia": "True"
@@ -3398,7 +3398,7 @@
       "Action": "EditData",
       "Target": "data/festivals/summer28",
       "Entries": {
-        "Sophia": "The jellyfish are so pretty!$1#$b#I love watching them every year.$9",
+        "Sophia": "พวกแมงกะพรุนน่ะ น่ารักมากเลย!$1#$b#ฉันชอบมาดู พวกมันทุกปีเลย$9",
       }
     },
 	
@@ -3406,7 +3406,7 @@
       "Action": "EditData",
       "Target": "data/festivals/summer28",
       "Entries": {
-        "Sophia": "Hey, you. See the faint glow out there?$4#$e#The moonlight jellyfish are coming to the shore!$9#$e#%You hold Sophia's hand. She smiles at you."
+        "Sophia": "เฮ้ เธอน่ะ เห็นแสงสลัวๆ ตรงนั้นไหม?$4#$e#พวกแมงกะพรุนแสงจันทร์ กำลังจะมาถึงท่าเรื่อแล้ว!$9#$e#%คุณกุมมือโซเฟียเอาไว้ เธอยิ้มให้คุณ"
       },
       "When": {
         "Spouse:Sophia": "True"
