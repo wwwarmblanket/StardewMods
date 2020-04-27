@@ -2494,7 +2494,7 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "ฉันได้ยินเกี่ยวกับ โรงภาพยนต์ที่นี่จากวิทยุ หวังว่าจะมีอะไรดีๆ นะ!$0"
+            "Text": "ฉันได้ยินเกี่ยวกับ โรงภาพยนตร์ที่นี่จากวิทยุ หวังว่าจะมีอะไรดีๆ นะ!$0"
           },
           "DuringMovie": null,
           "AfterMovie": {
@@ -2598,7 +2598,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall27",
       "Entries": {
-        "Andy": "ไซเดอร์ฟักทอง (Pumpkin Cider) รสเผ็ดของปิแอร์ มันมหัศจรรย์มากเลย! หวังว่าเขาจะให้ยอมซื้อมันนะ$1#$e#อย่างน้อยเขา ก็น่าจะขายมันให้กับกัสนะ ฉันจะได้ซื้อมันจากซาลูนได้$2#$e#ขอให้โชคดีในเขาวงกตนั่นนะ ฉันได้ยินเสียงกรี๊ดดังๆ มาจากทางนั้นตลอด$0",
+        "Andy": "ไซเดอร์ฟักทอง (Pumpkin Cider) รสเผ็ดของปีแอร์ มันมหัศจรรย์มากเลย! หวังว่าเขาจะให้ยอมซื้อมันนะ$1#$e#อย่างน้อยเขา ก็น่าจะขายมันให้กับกัสนะ ฉันจะได้ซื้อมันจากซาลูนได้$2#$e#ขอให้โชคดีในเขาวงกตนั่นนะ ฉันได้ยินเสียงกรี๊ดดังๆ มาจากทางนั้นตลอด$0",
       }
     },
 	
@@ -2645,7 +2645,7 @@
 	 "Entries": {
 	 "5000001/f Andy 500/z winter/t 1000 1600/w Sunny": "springtown/-500 -500/farmer 28 89 0 Andy 33 60 1 Lewis 35 60 3 Harvey -100 -100 2 Pierre -125 -125 2 Olivia 34 65 3 Caroline 33 64 2 Jodi 32 65 1 Alex 50 68 1 George 51 64 0 MarlonFay 33 106 2 Krobus 32 106 2 Victor 71 54 0 Pam 79 68 1 Leah 97 104 2 Clint 97 77 0 Maru 43 77 2 Penny 29 55 2/pause 500/skippable/showFrame Penny 18/showFrame Maru 31/viewport 34 61 true/move farmer 0 -29 1 true/pause 1500/speak Lewis \"แอนดี้ อย่างที่ฉันพูดไปก่อนหน้านี้ นายจะไม่สนใจ-$2\"/speak Andy \"ไม่! ฟังฉันนะ! พวกนี้นี่มันหมายถึงอะไรกัน!?$5#$b#แล้วไม่ต้องมาบอกฉันด้วยนะ ฉันรู้ดีอยู่แล้ว! ฉันกำลังไปได้ดี กับฟาร์มของฉัน แล้วก็ไม่ต้องมาบอก ข่าวร้ายพวกนี้กับฉัน!$2\"/pause 500/speak Lewis \"ฉันช่วยอะไรไม่ได้จริงๆ แอนดี้ รัฐบาลของเฟิร์นกิลล์ ก็กำลังปรับ-$2\"/pause 500/showFrame Andy 20/shake Andy 9999999/speak Andy \"ฉันไม่ฟังอะไรทั้งนั้น! เจ้านี่มันจะทำให้ฉันแย่ ได้ยินมั้ย!?$7\"/shake Andy 350/showFrame Andy 4/showFrame Penny 23/move Olivia 0 0 0/pause 100/move Caroline 0 0 0/pause 200/move Jodi 0 0 0/pause 150/showFrame Penny 0/emote Penny 16 true/pause 100/emote Olivia 16 true/pause 200/emote Jodi 16 true/pause 100/emote Caroline 16 true/pause 200/emote farmer 16 true/pause 250/move Lewis 0 0 2/pause 900/move Lewis 0 0 3/pause 300/speak Andy \"ฉันคิดว่าที่นี่จะสนับสนุน เกษตกรในพื้นที่เสียอีก!?$5\"/pause 250/playSound doorClose/warp Harvey 36 56/pause 200/emote Harvey 8 true/pause 100/speak Lewis \"นายกเทศมนตรีแกรมพ์เลตัน ก็ไม่พอใจเหมือนกัน ฉันก็ไม่รู้ทาง-$2\"pause 100/showFrame Andy 20/shake Andy 9999999/speak Andy \"ไม่! คำตอบคือไม่ เลวิส! ฉันแทบจะไม่ได้อะไรเลย จากการเก็บเกี่ยวของฉัน! ฉันรับไม่ได้!$7\"/pause 100/emote Olivia 16 true/pause 150/showFrame 4 Andy/shake Andy 1000/emote Jodi 16 true/pause 150/playSound doorClose/emote Penny 16 true/warp Pierre 43 57/pause 125/emote Caroline 16 true/pause 125/move Pierre 0 0 3/pause 250/emote Pierre 8 true/pause 200/showFrame Andy 4/pause 500/speak Lewis \"แอนดี้ ทุกอย่างจะโอเค ฉันจะนำเงินจาก-$2\"/pause 100/showFrame Andy 20/shake Andy 9999999/speak Andy \"ฉันไม่อยากได้ใครมาช่วย! ฉันไม่รับอะไรทั้งนั้น! ฉันจะแก้ปัญหาเอง!$7\"/shake Andy 1000/showFrame Andy 4/emote Olivia 16 true/pause 250/emote Penny 16 true/pause 150/emote Caroline 16 true/pause 250/speak Lewis \"แอนดี้...$2\"/speak Andy \"การสนทนาจบแล้ว! ขอตัว!!!$7\"/pause 100/move Andy -4 0 2/pause 500/showFrame Andy 22/pause 1000/speak Andy \"...$8\"/move Andy 0 7 2 true/pause 300/move farmer 0 0 2 true/pause 250/move Caroline 0 0 3 true/pause 400/move Jodi 0 0 3 true/pause 300/move Olivia 0 0 3 true/pause 300/globalFade/viewport -1000 -1000/pause 500/warp Andy -400 -400/pause 300/move Jodi 0 0 2/pause 200/viewport 34 61 true/move Olivia 0 0 3/showFrame Penny 16/pause 100/move Caroline 0 0 2/pause 150/showFrame Penny 17/pause 100/move Olivia 0 0 3/pause 50/showFrame Penny 19/pause 200/showFrame Penny 18/pause 200/move Pierre 0 0 1/pause 300/move Caroline 0 0 2/pause 250/playSound doorClose/warp Pierre -200 -200/pause 400/move Harvey 0 0 0/pause 300/warp Harvey -200 -205/playSound doorClose/pause 400/move Jodi 0 0 1/pause 200/move Lewis -5 0 3/pause 500/move farmer 0 0 1/pause 500/speak Lewis \"สวัสดี @ ได้ยินหมดแล้วใช่มั้ย?$2\"/pause 300/emote farmer 40/pause 300/speak Lewis \"*เฮ้อ*... รัฐบาลเฟิร์นกิลล์กำลัง จะออกข้อบังคับใหม่$2#$b#ฉันไม่คิดว่าพวกเขาจะเข้าใจ ถึงผลกระทบที่มีต่อพวกเราหรอก$2\"/pause 500/speak Lewis \"เคนดร้า นายกเทศมนตรีกับฉัน พยายามไปต่อรองแล้ว แต่พวกเขาไม่ฟังเลย$3\"/pause 1000/speak Lewis \"ฉันรู้ว่าแอนดี้... ไม่ยอมแน่ๆ แถมเขาก็ทำรายได้ไม่ดีนัก$0\"/pause 300/emote farmer 60/pause 500/speak Lewis \"วางใจได้เลย เคนดร้ากับฉันกำลังจะ ร่างข้อเสนอใหม่อยู่@. $3\"/pause 1000/speak Lewis \"รบกวนทีได้มั้ย ไปเช็คแอนดี้ให้หน่อยสิ?$0\"/pause 500/question fork0 \"#ฉันจะไปดูเขาให้#เขาก็ได้ระเบิด ใส่ฉันน่ะสิ...\"/fork 5000001_TalkAndy/pause 500/speak Lewis \"อ่า ก็เข้าใจได้แหละ... เข้าใจแล้ว เดี๋ยวฉันจะหาเวลาไปดูเขาเอง$2\"/pause 600/move Lewis 0 0 2/pause 700/move Lewis 0 0 3/pause 800/speak Lewis \"ฉันจะไปร่างข้อเสนอแล้วล่ะ โชคดีนะ @.$0\"/pause 500/globalFade/viewport -1000 -1000/pause 500/end dialogue Lewis \"Andy gave me quite the howler.$2\"",
 	 
-	 "5000001_TalkAndy": "pause 500/speak Lewis \"ขอบคุณ @. นี่เป็นสิ่งที่ดีมากๆ$1\"/pause 600/move Lewis 0 0 2/pause 800/move Lewis 0 0 3/pause 800/speak Lewis \"ฉันจะเริ่มไปร่างข้อเสนอใหม่ เดี๋ยวนี้ล่ะ ขอให้มีความสุขมากๆ ในวันนี้นะ @.$0\"/pause 500/globalFade/viewport -1000 -1000/pause 500/end dialogue Andy \"นี่มันอะไรกัน? เลวิสจะร่างข้อเสนอใหม่ขึ้นมางั้นเหรอ? ก็ดี ตาแก่คนนั้นกำลังจะได้ทำ สิ่งที่ถูกต้องสักครั้งในชีวิต$0#$e#ฉันมีงานต้องทำอีกเยอะ @ อย่ามายุ่งกับฉัน$2#$e#%แอนดี้ไม่สนใจคุณ\"",
+	 "5000001_TalkAndy": "pause 500/speak Lewis \"ขอบคุณ @ นี่เป็นสิ่งที่ดีมากๆ$1\"/pause 600/move Lewis 0 0 2/pause 800/move Lewis 0 0 3/pause 800/speak Lewis \"ฉันจะเริ่มไปร่างข้อเสนอใหม่ เดี๋ยวนี้ล่ะ ขอให้มีความสุขมากๆ ในวันนี้นะ @.$0\"/pause 500/globalFade/viewport -1000 -1000/pause 500/end dialogue Andy \"นี่มันอะไรกัน? เลวิสจะร่างข้อเสนอใหม่ขึ้นมางั้นเหรอ? ก็ดี ตาแก่คนนั้นกำลังจะได้ทำ สิ่งที่ถูกต้องสักครั้งในชีวิต$0#$e#ฉันมีงานต้องทำอีกเยอะ @ อย่ามายุ่งกับฉัน$2#$e#%แอนดี้ไม่สนใจคุณ\"",
 	 },
 },
 
@@ -2845,7 +2845,7 @@
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "ด้วยเรื่องราวและเทคนิค พิเศษ ทำให้ภาพยนตร์เรื่องนี้ ให้ความรู้สึกที่เหมือนจริงมาก$0"
+            "Text": "ด้วยเรื่องราวและ เทคนิคพิเศษ ทำให้ภาพยนตร์เรื่องนี้ ให้ความรู้สึกที่เหมือนจริงมาก$0"
           }
         },
         "ID": "reaction_3"
@@ -2868,7 +2868,7 @@
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "ฉันสนุกไปกับภาพยนต์ มีอะไรที่ คุณรู้สึกสนใจหรือเปล่า?$0"
+            "Text": "ฉันสนุกไปกับภาพยนตร์ มีอะไรที่ คุณรู้สึกสนใจหรือเปล่า?$0"
           }
         },
         "ID": "reaction_4"
@@ -3406,7 +3406,7 @@
       "Action": "EditData",
       "Target": "data/festivals/summer28",
       "Entries": {
-        "Sophia": "เฮ้ เธอน่ะ เห็นแสงสลัวๆ ตรงนั้นไหม?$4#$e#พวกแมงกะพรุนแสงจันทร์ กำลังจะมาถึงท่าเรื่อแล้ว!$9#$e#%คุณกุมมือโซเฟียเอาไว้ เธอยิ้มให้คุณ"
+        "Sophia": "เฮ้ เธอน่ะ เห็นแสงสลัวๆ ตรงนั้นไหม?$4#$e#พวกแมงกะพรุนแสงจันทร์ กำลังจะมาถึงท่าเรือแล้ว!$9#$e#%คุณกุมมือโซเฟียเอาไว้ เธอยิ้มให้คุณ"
       },
       "When": {
         "Spouse:Sophia": "True"
@@ -3418,7 +3418,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall16",
       "Entries": {
-        "Sophia": "I'm presenting my best aged wine from Blue Moon Vineyard!$1#$e#I worked hard to make these!$9#$e#Oh. Um. So what's in your grange display?$1",
+        "Sophia": "ฉันขอนำเสนอ ไวน์บ่มที่ดีที่สุดจาก ไร่องุ่นจัทร์คราม ( Blue Moon Vineyard) !$1#$e#ฉันทำงานอย่างหนัก เพื่อผลิตเจ้าพวกนี้ออกมา เลยนะ!$9#$e#โอ้ อืม แล้วเธอเอาอะไร มาจัดแสดงล่ะ?$1",
       }
     },
 	
@@ -3426,7 +3426,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall16",
       "Entries": {
-        "Sophia": "We are competing against each other today.$1#$b#May the best one win!$3#$e#Oh. Um. I love you!$4#$b#Good luck!$9"
+        "Sophia": "วันนี้พวกเราจะต้อง แข่งกันเองแล้วล่ะ$1#$b#ขอให้คนที่เจ๋งที่สุด ชนะแล้วกันนะ!$3#$e#โอ้ อืม ฉันรักคุณ!$4#$b#โชคดีนะ!$9"
       },
       "When": {
         "Spouse:Sophia": "True"
@@ -3438,7 +3438,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall27",
       "Entries": {
-        "Sophia": "I went into the maze and gave up.$2#$e#Why? Oh. I was hungry.$1#$e#Have you tried Pierre's spiced pumpkin cider?$9",
+        "Sophia": "ฉันเดินเข้าไปในเขาวงกตมา แล้วก็ยอมแพ้แล้วล่ะ$2#$e#ทำไมน่ะหรอ? โอ้ ฉันหิวน่ะ$1#$e#เธอได้ลอง ไซเดอร์ฟักทองใส่เครื่องเทศ (spiced pumpkin cider) ของปีแอร์รึยัง?$9",
       }
     },
 	
@@ -3446,7 +3446,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall27",
       "Entries": {
-        "Sophia": "Hey, you. Getting food too?$1#$e#Hey! Um. Those monsters in the cages. Have you fought those before?$0#$e#You're so brave, my hero.$4"
+        "Sophia": "เฮ้ คุณน่ะ มาเอาอาหารเหมือนกันหรอ?$1#$e#เฮ้! อืม พวกสัตว์ประหลาดในกรง พวกนั้นน่ะ คุณเคยต่อสู้กับพวกมัน มาก่อนบ้างไหม?$0#$e#คุณกล้าหาญจังเลย พ่อฮีโร่ของฉัน$4"
       },
       "When": {
         "Spouse:Sophia": "True"
@@ -3458,7 +3458,7 @@
       "Action": "EditData",
       "Target": "data/festivals/winter8",
       "Entries": {
-        "Sophia": "Mmm. So pretty here.$9#$e#There's no food, but that's okay. I brought snacks.$1"
+        "Sophia": "อืมมม ที่นี่มันสวยจัง$9#$e#ถึงจะไม่มีอาหาร แต่ก็โอเคนะ ฉันเอาอาหารว่างมาด้วย$1"
       }
     },
 	
@@ -3466,7 +3466,7 @@
       "Action": "EditData",
       "Target": "data/festivals/winter8",
       "Entries": {
-        "Sophia": "I want to build a snowman!$9#$b#Come on! Let's make one, silly.$1#$e#Aww. Okay. After the fishing contest then!$1"
+        "Sophia": "ฉันอยากจะปั้น มนุษย์หิมะ!$9#$b#มาสิ! มาปั้นกันซักตัวเถอะ เจ้าบ๊อง$1#$e#โถ่ โอเค งั้นหลังจากการแข่งขัน ตกปลาก้ได้!$1"
       },
       "When": {
         "Spouse:Sophia": "True"
@@ -3478,7 +3478,7 @@
       "Action": "EditData",
       "Target": "data/festivals/winter25",
       "Entries": {
-        "Sophia": "Who's a good boy!? You are!$9#$e#Did you get a present yet?$1"
+        "Sophia": "ไหน ใครเป็นเด็กดี? เธอนี่เอง!$9#$e#คุณได้รับของขวัญรึยัง?$1"
       }
     },
 	
@@ -3486,7 +3486,7 @@
       "Action": "EditData",
       "Target": "data/festivals/winter25",
       "Entries": {
-        "Sophia": "Hey, you! I thought I'd pet Dusty for a little bit.$1#$b#He's Pelican Town's best boy!$9#$e#Oh. Um. I'll join you at a table soon. Save me a seat?$1"
+        "Sophia": "เฮ้ คุณน่ะ! ฉันคิดว่าฉันจะไปลูบหัวดัสตี้ (Dusty) ซักหน่อย$1#$b#ดัสตี้เป็นเด็กที่ดีที่สุด ในเมืองเพลิแกน!$9#$e#โอ้ อืม เดี๋ยวอีกแปปฉันจะไป ร่วมโต๊ะนะ เก็บที่นั่งไว้ให้ฉันหน่อย ได้ไหม?$1"
       },
       "When": {
         "Spouse:Sophia": "True"
@@ -3497,7 +3497,7 @@
       "Action": "EditData",
       "Target": "Data/Events/BlueMoonVineyard",
       "Entries": {
-      "8185290/w sunny/c 1/t 600 1500/z winter/z fall/y 1/f Sophia 50":"kindadumbautumn/-500 -500/farmer 33 30 0 Sophia 34 20 1/animate Sophia false true 350 24 25/pause 1000/viewport 33 27 true/viewport move 0 -1 5000 true/skippable/move farmer 0 -6 0/pause 1200/stopAnimation Sophia/pause 500/move Sophia 0 0 2 true/pause 750/emote Sophia 16 true/jump Sophia/showFrame Sophia 29/pause 1200/faceDirection Sophia 1 true/pause 250/move Sophia 0 0 0 true/pause 200/speed Sophia 3/move Sophia 0 -1 1/speed Sophia 3/move Sophia 1 0 2/pause 250/showFrame Sophia 32/pause 200/shake Sophia 2000/pause 350/move farmer 0 -2 0 true/pause 200/speak Sophia \"!!!$2\"/pause 1500/showFrame Sophia 0/pause 1000/speak Sophia \"O-oh. @?$2#$b#It's just you?$0\"/pause 1000/move Sophia 0 0 3/pause 200/speed Sophia 1/move Sophia -2 0 2/pause 600/speak Sophia \"S-sorry. I get startled easily.$1\"/pause 1000/move Sophia 0 0 3/pause 800/move Sophia 0 0 2/pause 300/speak Sophia \"Um. Hey. You're kinda new to farming so...$2\"/pause 900/showFrame Sophia 32/pause 250/shake Sophia 600/pause 900/showFrame Sophia 0/pause 500/speak Sophia \"Um. I want to give you a device.$1#$b#Follow me to my storage chest!$9\"/globalFade/viewport -1000 -1000 true/warp farmer 25 17/warp Sophia 23 17/faceDirection Sophia 0 true/faceDirection farmer 3 true/viewport 24 17 true/pause 1200/shake Sophia 500/playSound openChest/pause 1600/playSound pickUpItem/pause 1100/move Sophia 0 0 1/pause 600/move Sophia 1 0 1/speak Sophia \"Here! It's a sprinkler![621]$1#$b#It'll automatically water adjacent crops every day.$1\"/pause 300/playSound reward/message \"You received a 'Quality Sprinkler'!\"/pause 800/speak Sophia \"Um. I have an order ledger in my cosplay room.$0#$b#If you need more, you can purchase sprinklers from me.$1\"/pause 500/end dialogue Sophia \"Oh. Um. Hello!$1#$b#How's the sprinkler? Does it still work?$0\"",
+      "8185290/w sunny/c 1/t 600 1500/z winter/z fall/y 1/f Sophia 50":"kindadumbautumn/-500 -500/farmer 33 30 0 Sophia 34 20 1/animate Sophia false true 350 24 25/pause 1000/viewport 33 27 true/viewport move 0 -1 5000 true/skippable/move farmer 0 -6 0/pause 1200/stopAnimation Sophia/pause 500/move Sophia 0 0 2 true/pause 750/emote Sophia 16 true/jump Sophia/showFrame Sophia 29/pause 1200/faceDirection Sophia 1 true/pause 250/move Sophia 0 0 0 true/pause 200/speed Sophia 3/move Sophia 0 -1 1/speed Sophia 3/move Sophia 1 0 2/pause 250/showFrame Sophia 32/pause 200/shake Sophia 2000/pause 350/move farmer 0 -2 0 true/pause 200/speak Sophia \"!!!$2\"/pause 1500/showFrame Sophia 0/pause 1000/speak Sophia \"โอ๊ะ-โอ้ @?$2#$b#แค่คุณสินะ?$0\"/pause 1000/move Sophia 0 0 3/pause 200/speed Sophia 1/move Sophia -2 0 2/pause 600/speak Sophia \"ข-ขอโทษนะ ฉันขี้ตกใจน่ะ$1\"/pause 1000/move Sophia 0 0 3/pause 800/move Sophia 0 0 2/pause 300/speak Sophia \"อืม เฮ้ คุณค่อนข้างจะใหม่ กับการทำฟาร์ม ดังนั้น...$2\"/pause 900/showFrame Sophia 32/pause 250/shake Sophia 600/pause 900/showFrame Sophia 0/pause 500/speak Sophia \"อืม ฉันอยากจะมอบ อุปกรณ์นี้ให้เธอน่ะ$1#$b#ตามฉันมาที่ หีบเก็บของหน่อยสิ!$9\"/globalFade/viewport -1000 -1000 true/warp farmer 25 17/warp Sophia 23 17/faceDirection Sophia 0 true/faceDirection farmer 3 true/viewport 24 17 true/pause 1200/shake Sophia 500/playSound openChest/pause 1600/playSound pickUpItem/pause 1100/move Sophia 0 0 1/pause 600/move Sophia 1 0 1/speak Sophia \"เอ้านี่! มันคือเครื่องรดน้ำอัตโนมัติ (sprinkler)![621]$1#$b#มันจะรดน้ำให้พืชผัก ที่อยู่ติดกับมันโดยอัตโนมัติ ในทุกๆ วัน$1\"/pause 300/playSound reward/message \"คุณได้รับ 'เครื่องรดน้ำคุณภาพดี (Quality Sprinkler)'!\"/pause 800/speak Sophia \"Um. I have an order ledger in my cosplay room.$0#$b#If you need more, you can purchase sprinklers from me.$1\"/pause 500/end dialogue Sophia \"Oh. Um. Hello!$1#$b#How's the sprinkler? Does it still work?$0\"",
       }
     },
 
