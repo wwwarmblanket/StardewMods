@@ -765,64 +765,64 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/spring13",
 			"Entries": {
-				"Sandy": "An egg hunt, huh? Hide and seek isn't really my thing, but watching the kids play sure is nice."
+				"Sandy": "ล่าไข่เหรอ? เล่นซ่อนหา ไม่ใช่ทางของฉันน่ะที่รัก แต่ดูเด็กๆ เล่นก็สนุกดีนะ"
 			},
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/spring24",
 			"Entries": {
-				"Sandy": "I love this festival! Flowers, dancing, there's nothing not to like about it!$h#$e#I'm definitely coming back next year!$h"
+				"Sandy": "ฉันรักเทศกาลนี้! ดอกไม้ เต้นรำ ไม่มีอะไรที่ไม่น่าชอบเลย!$h#$e#ปีหน้าฉันจะกลับมาแน่นอน!$h"
 			},
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/summer11",
 			"Entries": {
-				"Sandy": "You're making hot soup...on a beach...in the middle of summer. Yeah. Ok."
+				"Sandy": "พวกคุณจะต้มซุป... บนชายหาด... กลางหน้าร้อน ได้ โอเค"
 			},
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/summer28",
 			"Entries": {
-				"Sandy": "I'm excited to see them. We don't have jellyfish back home, let alone such beautiful ones!$h"
+				"Sandy": "ฉันตื่นเต้นที่จะดูพวกมันนะ เราไม่มีแมงกระพรุนที่บ้านน่ะ อย่าว่าแต่แมงกระพรุนที่สวยๆ เลย!$h"
 			},
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/fall16",
 			"Entries": {
-				"Sandy": "Getting away from the desert is always a plus, but Gus's grill skills?#$b#Just those by themselves are worth a trip here."
+				"Sandy": "ออกมาจากทะเลทรายน่ะ เป็นเรื่องพิเศษเสมอ แต่ฝีมือย่างของกัสล่ะเหรอ?#$b#แค่เพื่อมากิน ก็คุ้มที่จะเดินทางมาแล้วล่ะ"
 			},
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/fall27",
 			"Entries": {
-				"Sandy": "Ooh! This is kind of spooky. It's fun!$h"
+				"Sandy": "อู้วว! นี่น่ากลัวดีนะ สนุกจัง!$h"
 			},
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/winter8",
 			"Entries": {
-				"Sandy": "It's chilly! It never gets this cold back home!#$e#Catch some big fish just for me, alright?$h"
+				"Sandy": "มันหนาวน่ะ! ที่บ้านไม่เคยหนาวขนาดนี้เลย!#$e#จับปลาตัวใหญ่ๆ มาให้ฉันด้วยนะ ได้มั้ย?$h"
 			},
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/winter25",
 			"Entries": {
-				"Sandy": "This is lovely, honey. It's so cold, but I can feel the warmth of the whole community."
+				"Sandy": "นี่มันน่ารักมากเลย ที่รัก ถึงมันจะหนาวมาก แต่ฉันรู้สึกได้ถึง ความอบอุ่นของ ทั้งชุมชนเลยล่ะ"
 			},
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/EngagementDialogue",
 			"Entries": {
-				    "Clint0": "We're going to get married...$4#$e#Isn't it exciting... honey?$h",
-					"Clint1": "I... I promise I'll do my best to try and make you happy, @!$4#$e#You can count on me.$h",
+				    "Clint0": "พวกเราจะได้แต่งงานกัน...$4#$e#น่าตื่นเต้นใช่มั้ยล่ะ... ที่รัก?$h",
+					"Clint1": "ผม... ผมสัญญาว่า จะทำให้คุณมีความสุข ให้มากที่สุด @!$4#$e#คุณไว้ใจผมได้เลย$h",
 			},
 			"When": {
 				"Date Clint": "true",
@@ -832,8 +832,8 @@
 			"Action": "EditData",
 			"Target": "Data/EngagementDialogue",
 			"Entries": {
-					"Gus0": "What a surprise! A farmer like yourself and a bartender like me...#$e#I know we'll be great together!$h",
-					"Gus1": "I'll cook you a delicious dinner every night!#$e#There'll never be a boring meal once we're married!$h",
+					"Gus0": "ช่างน่าประหลาดใจ! ชาวไร่อย่างคุณ กับบาร์เทนเดอร์อย่างผม...#$e#ผมรู้ครับว่าพวกเรา จะไปกันได้ดีแน่นอน!$h",
+					"Gus1": "ผมจะทำอาหารค่ำอร่อยๆ ให้คุณทุกคืนเลยครับ!#$e#จะไม่มีมื้ออาหาร ที่น่าเบื่ออีกต่อไป พอเราแต่งงานกันแล้ว!$h",
 			},
 			"When": {
 				"Date Gus": "true",
@@ -843,8 +843,8 @@
 			"Action": "EditData",
 			"Target": "Data/EngagementDialogue",
 			"Entries": {
-					"Lewis0": "I may be mayor of Pelican Town, but you've become mayor of my heart, @.$h",
-					"Lewis1": "I'm overjoyed!$h#$e#I just can't help but wonder... who will perform the ceremony?",
+					"Lewis0": "ผมอาจจะเป็นเทศมนตรีของเมือง แต่คุณได้มาเป็นเทศมนตรี ของใจผมแล้วนะครับ @$h",
+					"Lewis1": "ผมสุขล้นไปเลย!$h#$e#ผมช่วยไม่ได้ที่จะ ได้แต่สงสัยว่า... แล้วใครจะเป็นคน ดำเนินพิธีล่ะทีนี้?",
 			},
 			"When": {
 				"Date Lewis": "true",
@@ -854,8 +854,8 @@
 			"Action": "EditData",
 			"Target": "Data/EngagementDialogue",
 			"Entries": {
-					"Linus0": "I thought maybe you were joking at first...$s#$e#But you're special, @. I know you wouldn't do that.$h#$e#I trust you, and I'm happy you want to share your life with me.$4",
-					"Linus1": "You're so brave, @.#$e#You're not afraid of what the other villagers will think. That means a lot.$h",
+					"Linus0": "ตอนแรกผม นึกว่าคุณล้อเล่น...$s#$e#แต่คุณเป็นคนพิเศษ @ ผมรู้ว่าคุณจะไม่ทำ แบบนั้นหรอก$h#$e#ผมเชื่อใจคุณครับ และผมมีความสุข ที่คุณอยากจะใช้ชีวิต ร่วมกับผม$4",
+					"Linus1": "คุณช่างกล้าหาญ @#$e#คุณไม่กลัวว่า ชาวเมืองคนอื่นๆ จะพูดกันว่าไง นั่นมีความหมายมากเลยครับ$h",
 			},
 			"When": {
 				"Date Linus": "true",
@@ -865,8 +865,8 @@
 			"Action": "EditData",
 			"Target": "Data/EngagementDialogue",
 			"Entries": {
-					"Marnie0": "You want to marry me...!#$e#You're so strange, @. But I can't wait to be your wife.$4",
-					"Marnie1": "Shane agreed to take care of the ranch and Jas.#$e#Everything's falling into place... Just a couple more days!$h",
+					"Marnie0": "เธออยากแต่งงาน กับฉันเหรอ...!#$e#เธอนี่แปลกมากนะ @ แต่ฉันรอเป็นภรรยา ของเธอไม่ไหวแล้ว$4",
+					"Marnie1": "เชนตกลงที่จะดูแลฟาร์ม กับแจ๊สแล้วล่ะ#$e#ทุกๆ อย่างกำลังเข้าที่... แค่อีกสองสามวันเท่านั้น!$h",
 			},
 			"When": {
 				"Date Marnie": "true",
@@ -876,8 +876,8 @@
 			"Action": "EditData",
 			"Target": "Data/EngagementDialogue",
 			"Entries": {
-					"Pam0": "You sure are a weird kid... wantin' to marry an old girl like me.#$e#What? I'm not complaining!$h",
-					"Pam1": "Penny's gonna be fine on 'er own... She's a responsible girl.#$e#Are you ready to be a step-parent?$h",
+					"Pam0": "เธอนี่เป็น เด็กประหลาดเสียจริง... อยากแต่งงานกับหญิงแก่ๆ อย่างฉันเหรอ#$e#อะไร? ฉันไม่ได้บ่นอะไรนะ!$h",
+					"Pam1": "เพนนีน่ะดูแลตัวเองได้... เธอเป็นเด็กรับผิดชอบ#$e#เธอพร้อมจะเป็น ผู้ปกครองบุญธรรมหรือยัง?$h",
 			},
 			"When": {
 				"Date Pam": "true",
@@ -887,8 +887,8 @@
 			"Action": "EditData",
 			"Target": "Data/EngagementDialogue",
 			"Entries": {
-					"Sandy0": "Me, living on a farm... how exciting!$1#$e#And a big wedding...#$e#I can't wait.$1",
-					"Sandy1": "Oh, @, I'm so happy!$6#$e#We're going to be great together.$6",
+					"Sandy0": "ฉัน ไปอยู่ที่ฟาร์ม... น่าตื่นเต้นอะไรอย่างนี้!$1#$e#และงานแต่งยิ่งใหญ่...#$e#ฉันรอไม่ไหวแล้ว$1",
+					"Sandy1": "โอ้ @ ฉันมีความสุขเหลือเกิน!$6#$e#พวกเราจะต้องเป็นคู่ที่ดีแน่$6",
 			},
 			"When": {
 				"Date Sandy": "true",
@@ -898,8 +898,8 @@
 			"Action": "EditData",
 			"Target": "Data/EngagementDialogue",
 			"Entries": {
-					"Willy0": "You wanna marry this ol' fisherman?#$e#Good! He wants to marry you, too.$h",
-					"Willy1": "There are a lot of fish in the sea...#$e#I'm glad we found each other, skipper.$h" ,
+					"Willy0": "เธออยากแต่ง กับชายประมงแก่ๆ คนนี้เหรอ?#$e#ดี! เขาก็อยากแต่งงานกับเธอ เหมือนกัน$h",
+					"Willy1": "มีปลามากมายในทะเล...#$e#ฉันดีใจที่เราหากันเจอนะ ปลาน้อย$h" ,
 			},
 			"When": {
 				"Date Willy": "true",
@@ -909,8 +909,8 @@
 			"Action": "EditData",
 			"Target": "Data/EngagementDialogue",
 			"Entries": {
-					"Wizard0": "The husband of a farmer... An odd life for someone like me, that is certain.#$e#But worry not, love. I am filled only with excitement at the idea.$7",
-					"Wizard1": "I could certainly do without the ceremony of, well... a ceremony.$s#$e#But for you, love, I will endure it.#$e#Just do not begrudge me if I wear my cloak. I don't much like to be seen without it." ,
+					"Wizard0": "สามีของชาวไร่... นั่นเป็นชีวิตที่แปลก สำหรับคนแบบข้าแน่ล่ะ#$e#แต่ไม่ต้องกังวลไป ที่รัก ข้ามีเพียงความรู้สึก ตื่นเต้น กับความคิดนั่นเท่านั้น$7",
+					"Wizard1": "ข้าน่ะไม่ต้องมีพิธีของ อ่า... พิธี ก็ได้นะ$s#$e#แต่เพื่อเจ้าแล้ว ที่รัก ข้าจะทนแล้วกัน#$e#แต่อย่าว่าเลยนะ ถ้าข้าขอใส่ผ้าคลุม ข้าไม่อยากให้คนเห็น โดยไม่มีมันน่ะ" ,
 			},
 			"When": {
 				"Date Wizard": "true",
@@ -994,8 +994,8 @@
 			"Action": "EditData",
 			"Target": "Data/mail",
 			"Entries": {
-					"wizardNap": "Dear @,^^I sincerely apologize for the state in which you found me the other day. I occassionally get caught up in my work and forget to sleep for several days at a time. Even for me, that can be detrimental to my health...^That is why I've written: to thank you truly and sincerely for what you did. I've never had somebody care so greatly for my state of being. I find it jarring, but also strangely comforting. If I can repay you in any way, please don't hesitate to inform me.^^Again, @, thank you. See you soon.^^ Sincerely,^ M. Rasmodius",
-					"teachMagic": "Dear @,^^I know it's a bit short notice, but I was wondering if you might join me for a magic lesson of sorts today. There is a certain spell that I believe even you could cast with enough concentration.^If you are too busy then I understand, but if not, meet me in the hidden woods north of my hut.^^ Sincerely,^ M. Rasmodius",
+					"wizardNap": "ถึง @,^^ข้าขออภัยอย่างจริงใจ ที่สภาพข้าที่เจ้าพบเมื่อวันก่อน บางครั้งข้าก็ทำงานจนลืมที่จะนอนครั้งละหลายวัน ถึงแม้จะเป็นข้า นั่นก็ยังทำลายสุขภาพยิ่งนัก...^นั่นจึงเป็นเหตุผลที่ข้าเขียนมา: เพื่อขอบคุณเจ้าอย่างจริงจังและจริงใจ สำหรับสิ่งที่เจ้าทำ ข้าไม่เคยมีคนมาสนใจว่าเป็นยังไงอย่างจริงจังมาก่อน ข้าพบว่ามันน่าตกใจ แต่ก็น่าอบอุ่นใจอย่างประหลาดเช่นกัน ถ้าข้าตอบแทนเจ้า ไม่ว่าทางไหนก็ตาม อย่าลังเลที่จะบอกข้าล่ะ^^อีกครั้ง @ ขอบคุณมาก แล้วพบกันเร็วๆ นี้^^ ด้วยความจริงใจ^ เอ็ม. ราสโมเดียส",
+					"teachMagic": "ถึง @,^^ข้ารู้ว่ามันกระทันหันไปหน่อย แต่ข้าสงสัยว่า เจ้าจะมาเข้าร่วม ชั้นเรียนสอนเวทมนตร์ ทำนองนั้น กับข้าวันนี้ได้หรือไม่ มีคาถาที่ข้าเชื่อว่า เจ้าจะเสกได้แน่ ถ้าตั้งสมาธิดีๆ^แต่ถ้าเจ้ายุ่ง ข้าก็เข้าใจนะ แต่ถ้าไม่ มาเจอข้าที่ป่าลึกลับ ทางเหนือของกระท่อมข้านะ^^ ด้วยความจริงใจ^ เอ็ม. ราสโมเดียส",
 			},
 			"When": {
 				"Date Wizard": "true",
@@ -1300,26 +1300,26 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Clint",
 			"Entries": {
-						"danceRejection": "No thanks, I'm good.",
-						"Mon8": "Oh. It's nice to see you, @!$h",
-						"Mon10": "Hi, @! It's... it's nice to see you!$4",
-						"Tue10": "Oh... it's nice of you to stop by, @.$h#$e#No, I'm not too busy... it's been a slow week so far.",
-						"Wed8": "Oh! Uh... hi, @. I didn't hear you come in.$4#$e#What do you think of the weather lately...?",
-						"Wed10": "Need a tool upgraded?#$e#No...? Oh... you just came to say hi?$4",
-						"Thu10": "Hi, @! I'm happy you're here.$h#$e#It was getting a little lonely in here.",
-						"Fri8": "Uh... any plans for the weekend, @?$4",
-						"Fri10": "It's Friday... so that's good!#$e#The weekends are always nice...$h",
-						"Sat10": "You even come by on the weekends...$s#$e#Sorry... I just don't understand why.$4",
-						"Sun10": "Well, it's another busy week tomorrow.#$e#Good luck, @.$h",
-						"event_blacksmith1": "Um, okay. Great. Sorry, just give me a second...$s",
-						"event_blacksmith2": "Really? Great. Let me just grab my order sheet...",
-						"event_blacksmith3": "...Oh.$8#$b#...Really?$4",
-						"event_sadclint1": "O-oh. Thank you, @. That... that means a lot.$4",
-						"event_sadclint2": "You too, huh?$s#$b#Well... maybe we can be sad and lonely together.$h",
-						"event_iron1": "W-well, I don't come here too often...$s",
-						"event_iron2": "Uh, I, uh... I just finished up...$s#$b#Phew! I'm all tired out...$h",
-						"event_iron3": "Wh-wh-what? Why... Why not?$s",
-						"divorced": "...What do you need?$s",
+						"danceRejection": "ไม่ล่ะ ขอบคุณ",
+						"Mon8": "โอ้ ดีใจที่ได้เจอคุณนะ @!$h",
+						"Mon10": "สวัสดี @! มัน... มันดีที่ได้เจอคุณนะ!$4",
+						"Tue10": "โอ้... ดีที่คุณแวะมานะ @$h#$e#ไม่หรอก ผมไม่ได้ยุ่งอะไร... สัปดาห์นี้ไม่ค่อยมีอะไรน่ะ",
+						"Wed8": "โอ้! เอ่อ... สวัสดี @ ผมไม่ได้ยินคุณเข้ามาน่ะ$4#$e#คุณว่าอากาศช่วงนี้ เป็นยังไงบ้าง...?",
+						"Wed10": "ต้องการอัพเกรต เครื่องมือเหรอ?#$e#ไม่ใช่...? โอ้... คุณแค่แวะมาทักทายเหรอ?$4",
+						"Thu10": "หวัดดี @! ผมดีใจที่คุณมานี่$h#$e#อยู่คนเดียวในนี้ มันเริ่มเหงาๆ น่ะ",
+						"Fri8": "เอ่อ... สุดสัปดาห์นี้มีแผนอะไรมั้ย @?$4",
+						"Fri10": "วันศุกร์แล้ว... เป็นเรื่องดีล่ะ!#$e#วันหยุดน่ะดีเสมอ...$h",
+						"Sat10": "วันหยุดคุณก็แวะมาด้วย...$s#$e#ขอโทษนะ... ผมแค่ไม่เข้าใจน่ะว่าทำไม$4",
+						"Sun10": "เอาล่ะ พรุ่งนี้ก็เป็นอีกสัปดาห์ที่ยุ่งอีกแล้ว#$e#โชคดีนะ @$h",
+						"event_blacksmith1": "อืม โอเค เยี่ยม โทษทีนะ ให้เวลาผมแปปนึง...$s",
+						"event_blacksmith2": "จริงๆ เหรอ? เยี่ยมเลย รอผมหยิบกระดาษออเดอร์ แปปนึงนะ...",
+						"event_blacksmith3": "...อ้อ$8#$b#...จริงเหรอ?$4",
+						"event_sadclint1": "อ-อ้อ ขอบคุณนะ @ นั่น... นั่นมีความหมายมากเลย$4",
+						"event_sadclint2": "คุณก็ด้วยเหรอ?$s#$b#อ่า... บางทีเราคงเศร้าแล้วก็เหงาไปด้วยกันได้$h",
+						"event_iron1": "อะ-เอ่อ ผมไม่ได้มาที่นี่บ่อยน่ะ...$s",
+						"event_iron2": "เอ่อ ผม เอ่อ... ผมเพิ่งทำเสร็จ...$s#$b#ฟู่ว! หมดแรงเลย...$h",
+						"event_iron3": "อะ-อะ-อะไรนะ? ทำไม... ทำไมจะไม่ล่ะ?$s",
+						"divorced": "...คุณต้องการอะไร?$s",
 			},
 			"When": {
 				"Date Clint": "true",
@@ -1710,7 +1710,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Wizard",
 			"Entries": {
-						"danceRejection": "Dance? With you...?$u#$e#I must decline. I hardly know the moves.$8" ,
+						"danceRejection": "เต้นรำ? กับเจ้าเหรอ...?$u#$e#ข้าคงต้องปฏิเสธ ข้าแทบเต้นไม่เป็นเลยด้วยซ้ำ$8" ,
 						"Mon2": "I suppose you're beginning to get to know the residents of this town.#$e#Funny that you seem to think that includes me.$s" ,
 						"Mon6": "Don't you have anything better to do than come interrupt my research?" ,
 						"Mon10": "Ah, the beginning of a new week. Let's hope it's a successful one.$7" ,
