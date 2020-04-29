@@ -503,13 +503,13 @@
       "Action": "EditData",
       "Target": "Strings/StringsFromMaps",
       "Entries": {
-      "ClaireTheaterMessage1": "Hi, @! Can I get you anything?$1",
-	  "ClaireTheaterMessage2": "Seeing a movie today?$4#$b#Oh, yes! That's a great one.$1",
-	  "ClaireTheaterMessage3": "I see movies for free!$1#$b#Perks of working here!$5",
-	  "ClaireTheaterMessage4": "Let me know if you want any concessions.$1",
-	  "ClaireTheaterMessage5": "Management here is much better than Joja.$4",
-	  "ClaireTheaterMessage6": "The wildlife adds to the atmosphere of the theater.$1#$b#It's 'magical'!$4",
-	  "ClaireTheaterMessage7": "How may I help you?$4"
+      "ClaireTheaterMessage1": "สวัสดีค่ะ @! รับอะไรดีคะ?$1",
+	  "ClaireTheaterMessage2": "วันนี้จะไปดูหนังเหรอคะ?$4#$b#โอ้ ใช่เลยค่ะ! เรื่องนั้นดีมากเลย$1",
+	  "ClaireTheaterMessage3": "ฉันดูหนังฟรีค่ะ!$1#$b#ข้อดีของการทำงานที่นี่ค่ะ!$5",
+	  "ClaireTheaterMessage4": "อยากได้ของว่างอะไร บอกได้นะคะ$1",
+	  "ClaireTheaterMessage5": "การจัดการที่นี่ ดีกว่าที่โจจ้ามากเลย$4",
+	  "ClaireTheaterMessage6": "พวกสัตว์ป่าช่วยทำให้ บรรยากาศที่โรงหนัง ดีขึ้นมากเลย$1#$b#มันดู 'มีมนตร์ขลัง' ค่ะ!$4",
+	  "ClaireTheaterMessage7": "ให้ช่วยอะไรมั้ยคะ?$4"
 	  }
 },
 
@@ -576,7 +576,7 @@
 	 "Action": "EditData",
 	 "Target": "data/events/town",
 	 "Entries": {
-     "7552565/w sunny/t 1100 1300/j 45/z winter/k 191393": "50s/-500 -500/farmer 106 28 0 Susan 94 13 2 George 116 24 3 Evelyn 116 26 3 Linus 114 1 2/addTemporaryActor Claire 16 32 106 20 2 true/showFrame Claire 19/pause 800/skippable/viewport 102 21 true/move farmer 0 -5 0/pause 600/showFrame Claire 18/playSound pickUpItem/pause 400/showFrame Claire 0/pause 100/speak Claire \"Oh? Hello.$0#$b#Your name is @, is that correct?\"/pause 400/emote farmer 40/pause 250/speak Claire \"Um. I'm on my lunch break. It's nice having time to myself for a little bit.$0#$b#It isn't a luxury I really have anymore...$2#$b#You see, I'm saving money for-$0\"/pause 400/stopMusic/showFrame Claire 18/pause 500/speak Claire \"S-sorry. I really should be getting back. Shift starts again soon.$2\"/pause 500/move Claire 0 20 2 true/pause 400/move farmer 1 0 2 true/pause 1750/globalFade/viewport -1000 -1000/pause 800/end",   
+     "7552565/w sunny/t 1100 1300/j 45/z winter/k 191393": "50s/-500 -500/farmer 106 28 0 Susan 94 13 2 George 116 24 3 Evelyn 116 26 3 Linus 114 1 2/addTemporaryActor Claire 16 32 106 20 2 true/showFrame Claire 19/pause 800/skippable/viewport 102 21 true/move farmer 0 -5 0/pause 600/showFrame Claire 18/playSound pickUpItem/pause 400/showFrame Claire 0/pause 100/speak Claire \"โอ้? สวัสดีค่ะ$0#$b#ชื่อของคุณคือ @ ใช่มั้ยคะ?\"/pause 400/emote farmer 40/pause 250/speak Claire \"เอ่อ ฉันอยู่ในช่วงพักกลางวันน่ะ ได้มีเวลาให้ตัวเองบ้างก็ดีค่ะ$0#$b#มันเป็นความพิเศษ ที่ฉันไม่ค่อยได้มีแล้วล่ะ...$2#$b#คือว่า ฉันกำลังเก็บเงินสำหรับ-$0\"/pause 400/stopMusic/showFrame Claire 18/pause 500/speak Claire \"ขะ-ขอโทษค่ะ ฉันต้องกลับไปจริงๆ แล้ว กะจะเริ่มแล้ว$2\"/pause 500/move Claire 0 20 2 true/pause 400/move farmer 1 0 2 true/pause 1750/globalFade/viewport -1000 -1000/pause 800/end",   
 	 },
 },
 
@@ -584,7 +584,7 @@
 	 "Action": "EditData",
 	 "Target": "data/events/jojamart",
 	 "Entries": {
-     "7502581/e 7552565/k 191393": "Hospital_Ambient/13 25/farmer -300 -300 0 Andy 5 17 3 Pam 17 23 1 Jodi 19 23 3 Morris 27 27 3 Shane_JojaMart 14 18 1 Claire_Joja 9 25 1/animate Shane_JojaMart true true 100 16 17 18 19 20 21 22 23 24 25 26 27/skippable/pause 2500/speak Claire_Joja \"*sigh* I wanna go home...$2\"/pause 2000/playSound doorClose/warp farmer 13 29/pause 600/move farmer 0 -4 3/move farmer -2 0 3 true/speak Claire_Joja \"*yawn* Oh, hi @. Welcome to JojaMart.$1#$b#How may I help you?$4\"/pause 200/end position 11 25",
+     "7502581/e 7552565/k 191393": "Hospital_Ambient/13 25/farmer -300 -300 0 Andy 5 17 3 Pam 17 23 1 Jodi 19 23 3 Morris 27 27 3 Shane_JojaMart 14 18 1 Claire_Joja 9 25 1/animate Shane_JojaMart true true 100 16 17 18 19 20 21 22 23 24 25 26 27/skippable/pause 2500/speak Claire_Joja \"*ถอนหายใจ* ฉันอยากกลับบ้าน...$2\"/pause 2000/playSound doorClose/warp farmer 13 29/pause 600/move farmer 0 -4 3/move farmer -2 0 3 true/speak Claire_Joja \"*หาว* โอ้ สวัสดีค่ะ @ ยินดีต้อนรับ สู่โจจ้ามาร์ทค่ะ$1#$b#ให้ฉันช่วยอะไรมั้ยคะ?$4\"/pause 200/end position 11 25",
 	 },
 },
 
@@ -710,7 +710,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall16",
       "Entries": {
-        "Alesia": "Hello, adventurer. We're inspecting your blacksmith's weapons.#$e#May Yoba guide you.$1"
+        "Alesia": "สวัสดี นักผจญภัย พวกข้ามาตรวจสอบอาวุธ ของช่างตีเหล็กของพวกเจ้า น่ะ#$e#ขอให้โยบะนำทางนะ$1"
       }
     },
 
@@ -718,7 +718,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall27",
       "Entries": {
-        "Alesia": "Hello, adventurer. With a joint effort, we captured these monsters.$0#$e#May Yoba guide you.$1"
+        "Alesia": "สวัสดี นักผจญภัย จากการร่วมมือกัน พวกข้าจึงจับมอนสเตอร์ พวกนี้มาได้น่ะ$0#$e#ขอให้โยบะนำทางนะ$1"
       }
     },
 
@@ -776,7 +776,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall16",
       "Entries": {
-        "Isaac": "Hmph. These weapons aren't bad.$5#$e#Mmm?$0#$b#What do you want?$3#$e#%Isaac is now ignoring you."
+        "Isaac": "ชิ อาวุธพวกนี้ก็ไม่แย่เท่าไหร่$5#$e#หืม?$0#$b#ต้องการอะไร?$3#$e#%ไอแซคเมินคุณ"
       }
     },
 	
@@ -784,7 +784,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall27",
       "Entries": {
-        "Isaac": "Defeating a shadow brute is child's play.$0#$b#The narrative changes when bringing one in alive...$3#$e#Make yourself useful and bring me that 'spiced pumpkin cider'.$0"
+        "Isaac": "จัดการจิ๊กโก๋เงาน่ะเรื่องเด็กๆ$0#$b#แต่จับมันมาเป็นๆ นี่เป็นคนละเรื่อง...$3#$e#ทำตัวให้มีประโยชน์ แล้วไปหยิบ 'เหล้าฟักทองปรุงรส (spiced pumpkin cider)' นั่นให้ข้าสิ$0"
       }
     },
 
@@ -841,7 +841,7 @@
       "Action": "EditData",
       "Target": "data/festivals/spring13",
       "Entries": {
-        "Scarlett": "I'm totally going to try this!$1#$e#Do you have a camera on you?$0#$e#Oh? I should ask Haley? Thanks for the tip!$1"
+        "Scarlett": "ฉันไม่พลาดที่จะลองนี่แน่นอน!$1#$e#คุณพอกล้องมาด้วยมั้ย?$0#$e#หือ? ฉันควรไปถามเฮลีย์เหรอ? ขอบใจที่แนะนำนะ!$1"
       }
     },
 	
@@ -849,7 +849,7 @@
       "Action": "EditData",
       "Target": "data/festivals/summer11",
       "Entries": {
-        "Scarlett": "Have you tried the Grampleton orange chicken yet?$0#$e#Sophia may have eaten it already!$1#$e#See you around!$0"
+        "Scarlett": "คุณลองไก่ส้มแกรมเพิลตัน หรือยัง?$0#$e#โซเฟียอาจจะชิมไปแล้วก็ได้!$1#$e#ไว้เจอกันนะ!$0"
       }
     },
 
@@ -857,7 +857,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall16",
       "Entries": {
-        "Scarlett": "Sophia number one! You can win this!$1#$e#Hey, @! I lent Sophia a hand with setting up her grange display today.#$e#You're in for some tough competition this year!$1"
+        "Scarlett": "โซเฟียที่หนึ่ง! เธอชนะได้แน่!$1#$e#เฮ้ @! ฉันช่วยโซเฟียจัดของแสดงด้วยวันนี้#$e#ปีนี้คุณมีคู่แข่ง ที่น่ากลัวหน่อยล่ะนะ!$1"
       }
     },
 	
@@ -865,7 +865,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall27",
       "Entries": {
-        "Scarlett": "Your town's spirits eve festival is really cool!#$e#Our wizard who resides in Grampleton Fields makes a maze for us too.$0#$b#Maybe next year you can visit with Sophia?$1"
+        "Scarlett": "เทศกาลภูติของเมืองคุณเจ๋งไปเลย!#$e#พ่อมดของพวกเรา ที่อยู่ที่ทุ่งแกรมเพิลตัน ก็ทำเขาวงกต ให้พวกเราเหมือนกัน$0#$b#บางทีปีหน้า คุณอาจจะมาเที่ยว พร้อมโซเฟียดูดีมั้ย?$1"
       }
     },
 
@@ -1179,11 +1179,11 @@
     "Target": "Data/Events/jojamart",
 	"When": { "HasSeenEvent: 191393": false },
     "Entries": {
-    "6663411/k 191393/e 6663501/t 1000 1800/f MorrisTod 1000": "Hospital_Ambient/-500 -500/farmer 25 16 3 Morris -100 -100 3 Shane -200 -200 0 Shane_JojaMart 13 13 3 Sam 13 17 3 Jodi 9 8 0 Andy 2 14 1 Claire_Joja 9 25 1/animate Claire_Joja false true 1000 16 16 16 16 17 17 16 16 16 16/pause 400/viewport 14 13 true/skippable/pause 1000/move Sam 1 0 1/pause 1600/speak Shane \"เห้อ อยากจะกลับบ้านแล้วเนี่ย เกลียดงานนี้จัง$2\"/pause 1000/move Sam 0 -1 1/pause 1600/speak Morris \"พนักงานโจจ้าทุกคน! มาประชุมที่เคาเตอร์สาม!$0\"/stopAnimation Shane_JojaMart/pause 400/faceDirection Shane_JojaMart 2/pause 400/speak Shane \"อะไรอีกล่ะเนี่ย? คงจะมีงานให้เราทำเพิ่ม อีกแน่ ๆ$5\"/pause 300/faceDirection Sam 0/pause 200/speak Sam \"อาจจะเป็นอะไรซักอย่าง เกี่ยวกับ 'อย่าลืมชุดเครื่องแบบของคุณ' ก่อนหน้านี้ เขาเล่นงานฉันเรื่องนั้น$5\"/speak Shane \"ไปฟังให้มันจับ ๆ ไปกันเถอะ$2\"/pause 200/globalFade/viewport -1000 -1000/pause 200/warp Shane_JojaMart 11 26/warp Sam 11 24/warp Jodi 13 6/warp Andy 2 11/warp farmer 13 17/warp Morris 13 25/faceDirection Sam 1/faceDirection Shane_JojaMart 1/viewport 15 24 true/pause 1500/speak Morris \"*อะแฮ่ม*...$0#$b#วันพรุ่งนี้ผู้จัดการระดับเขต จะมาเพื่อตรวจร้านของเรา$4.#$b#เติมชั้นวางสินค้าให้เต็ม ขัดพื้นให้เงา และจัดการตัวให้ดูดีด้วย$1#$b#มีงานอื่น ๆ อีกนิดหน่อยที่จะให้พวกคุณ ทั้งสามคนทำ$5\"/speak Claire_Joja \"อะไรอะ... ไม่นะ...$0\"/textAboveHead Sam \"เยี่ยม...\"/pause 1300/speak Shane \"เราจะได้รับเงินเพิ่มสำหรับ 'งานที่มากขึ้น' นี่รึเปล่า...?$2\"/pause 250/speak Morris \"เอิ่ม... ไม่$3\"/pause 150/speak Shane \"ชิ...$5\"/speak Morris \"คุณระวังความคิดตัวเองหน่อย น่าจะดีนะ ให้ผมเตือนความจำคุณหน่อย ก็แล้วกันว่าผมสามารถ หาคนมาแทนที่คุณได้ไวแค่ไหน?$3\"/pause 300/speak Claire_Joja \"ฉันอยากจะกลับบ้าน...$2\"/pause 300/speak Morris \"หลังเลิกกะ คุณได้กลับแน่และ ผมจะพูดเป็นครั้งสุดท้ายว่า ไม่ ผมไม่อนุญาตให้คุณ กลับก่อนเวลา$3\"/pause 300/speak Sam \"...$2\"/pause 1000/question fork0 \"#พูดอะไรซักอย่าง#ไม่ยุ่งดีกว่า\"/fork 6663411_SaySomething/pause 500/emote Morris 40/pause 300/speak Morris \"แล้ว? พวกคุณรออะไรกันอยู่!?$3#$b#กลับไปทำงานสิ!$5\"/friendship Shane -50/friendship Sam -50/end position 13 17",
+    "6663411/k 191393/e 6663501/t 1000 1800/f MorrisTod 1000": "Hospital_Ambient/-500 -500/farmer 25 16 3 Morris -100 -100 3 Shane -200 -200 0 Shane_JojaMart 13 13 3 Sam 13 17 3 Jodi 9 8 0 Andy 2 14 1 Claire_Joja 9 25 1/animate Claire_Joja false true 1000 16 16 16 16 17 17 16 16 16 16/pause 400/viewport 14 13 true/skippable/pause 1000/move Sam 1 0 1/pause 1600/speak Shane \"เห้อ อยากจะกลับบ้านแล้วเนี่ย เกลียดงานนี้จัง$2\"/pause 1000/move Sam 0 -1 1/pause 1600/speak Morris \"พนักงานโจจ้าทุกคน! มาประชุมที่เคาเตอร์สาม!$0\"/stopAnimation Shane_JojaMart/pause 400/faceDirection Shane_JojaMart 2/pause 400/speak Shane \"อะไรอีกล่ะเนี่ย? คงจะมีงานให้เราทำเพิ่ม อีกแน่ ๆ$5\"/pause 300/faceDirection Sam 0/pause 200/speak Sam \"อาจจะเป็นอะไรซักอย่าง เกี่ยวกับ 'อย่าลืมชุดเครื่องแบบของคุณ' ก่อนหน้านี้ เขาเล่นงานฉันเรื่องนั้น$5\"/speak Shane \"ไปฟังให้มันจับ ๆ ไปกันเถอะ$2\"/pause 200/globalFade/viewport -1000 -1000/pause 200/warp Shane_JojaMart 11 26/warp Sam 11 24/warp Jodi 13 6/warp Andy 2 11/warp farmer 13 17/warp Morris 13 25/faceDirection Sam 1/faceDirection Shane_JojaMart 1/viewport 15 24 true/pause 1500/speak Morris \"*อะแฮ่ม*...$0#$b#วันพรุ่งนี้ผู้จัดการระดับเขต จะมาเพื่อตรวจร้านของเรา$4.#$b#เติมชั้นวางสินค้าให้เต็ม ขัดพื้นให้เงา และจัดการตัวให้ดูดีด้วย$1#$b#มีงานอื่น ๆ อีกนิดหน่อยที่จะให้พวกคุณ ทั้งสามคนทำ$5\"/speak Claire_Joja \"อะไรอะ... ไม่นะ...$0\"/textAboveHead Sam \"เยี่ยม...\"/pause 1300/speak Shane \"เราจะได้รับเงินเพิ่มสำหรับ 'งานที่มากขึ้น' นี่รึเปล่า...?$2\"/pause 250/speak Morris \"เอิ่ม... ไม่$3\"/pause 150/speak Shane \"ชิ...$5\"/speak Morris \"คุณระวังความคิดตัวเองหน่อย น่าจะดีนะ ให้ผมเตือนความจำคุณหน่อย ก็แล้วกันว่าผมสามารถ หาคนมาแทนที่คุณได้ไวแค่ไหน?$3\"/pause 300/speak Claire_Joja \"ฉันอยากจะกลับบ้านค่ะ...$2\"/pause 300/speak Morris \"หลังเลิกกะ คุณได้กลับแน่และ ผมจะพูดเป็นครั้งสุดท้ายว่า ไม่ ผมไม่อนุญาตให้คุณ กลับก่อนเวลา$3\"/pause 300/speak Sam \"...$2\"/pause 1000/question fork0 \"#พูดอะไรซักอย่าง#ไม่ยุ่งดีกว่า\"/fork 6663411_SaySomething/pause 500/emote Morris 40/pause 300/speak Morris \"แล้ว? พวกคุณรออะไรกันอยู่!?$3#$b#กลับไปทำงานสิ!$5\"/friendship Shane -50/friendship Sam -50/end position 13 17",
 
     "6663411_SaySomething": "pause 500/move farmer 0 5 2/pause 350/faceDirection Shane_JojaMart 0/pause 200/faceDirection Sam 0/pause 100/faceDirection Morris 0/pause 100/emote Morris 16 true/pause 300/speak Morris \"@? คุณยืนอยู่ตรงนี้ นานแค่ไหนแล้วเนี่ย?$3\"/pause 1000/question fork1 \"#คุณควรจะใจดีกับลูกจ้าง ของคุณมากกว่านี้นะ#ส่วนพวกลูกจ้างก็ควร เชื่อฟังคุณ\"/pause 100/fork 6663411_BeNiceToEmployees/pause 300/speak Sam \"!!!$8\"/speak Shane \"จริงจังป๊ะเนี่ย?$2\"/faceDirection Morris 3/pause 300/faceDirection Shane_JojaMart 1/pause 150/faceDirection Sam 1/pause 200/speak Morris \"ฮ่า ๆ ๆ! ใช่แล้ว ผมเห็นด้วยกับ @ $5#$b#คุณควรจะใส่ใจ คำสั่งของผมหรือไม่ก็ เตรียมเผชิญหน้ากับสิ่งที่จะ ตามมาได้เลย$1\"/speak Claire_Joja \"...$0\"/speak Sam \"ครับผม...$5\"/speak Shane \"...$5\"/pause 500/friendship Sam -80/friendship Shane -80/end dialogue Morris \"ขอบคุณที่ช่วยเรื่อง พนักงานของผมนะ @ การคุยกับสองคนนั้นน่ะ ยากมากเลย$1\"",
 
-    "6663411_BeNiceToEmployees": "pause 300/speak Morris \"อ- อะไร!?$3\"/pause 300/faceDirection Shane_JojaMart 1/pause 200/faceDirection Sam 1/pause 200/faceDirection Morris 3/pause 200/speak Shane \"@ พูดได้ตรงประเด็นเลย คุณใช้งานพวกเราหนักมาก แต่ให้ค่าจ้างเรานิดเดียว$3\"/pause 500/textAboveHead Sam \"ฉันเห็นด้วย!\"/pause 1000/speak Claire_Joja \"ฉันเหนื่อยมากเลย...$2\"/pause 700/faceDirection Morris 0/pause 700/faceDirection Morris 3/pause 400/speak Morris \"...$3#$b#...$2#$b#ไม่แน่ว่าผมอาจจะ ถามบุคคลระดับสูง เรื่องขึ้นเงินเดือนให้ นั่นทำให้คุณพอใจไหม?$3\"/pause 300/textAboveHead Shane_JojaMart \"เริ่มจะดีขึ้นมาแล้ว\"/pause 300/textAboveHead Sam \"เจ๋งสุด ๆ เลย!\"/pause 1000/speak Claire_Joja \"ขอบคุณค่ะ!$4\"/pause 500/speak Morris \"ผมจะ... ไปโทรศัพท์$0#$b#พวกคุณสี่คนควรจะ ทำให้ร้านค้าสะดอาด ปราศจากจุดด่างดำ ผมคาดหวังในผลลัพธ์นะ$3\"/pause 500/move Morris 7 0 1 true/pause 400/globalFade/viewport -1000 -1000/pause 700/friendship Shane 30/friendship Sam 30/end dialogue Morris \"ผมไม่ยินดีเลยที่ คุณเอาตัวเองมายุ่งเกี่ยวกับ การประชุมพนักงานของผม  ความต้องการที่จะได้รับ ค่าจ้างที่มากขึ้น$3#$e#ยังไงก็ตาม... เสนอแผนการจัดการอื่น ที่น่าจะได้ผล$2\"",
+    "6663411_BeNiceToEmployees": "pause 300/speak Morris \"อ- อะไร!?$3\"/pause 300/faceDirection Shane_JojaMart 1/pause 200/faceDirection Sam 1/pause 200/faceDirection Morris 3/pause 200/speak Shane \"@ พูดได้ตรงประเด็นเลย คุณใช้งานพวกเราหนักมาก แต่ให้ค่าจ้างเรานิดเดียว$3\"/pause 500/textAboveHead Sam \"ฉันเห็นด้วย!\"/pause 1000/speak Claire_Joja \"ฉันเหนื่อยมากเลย...$2\"/pause 700/faceDirection Morris 0/pause 700/faceDirection Morris 3/pause 400/speak Morris \"...$3#$b#...$2#$b#ไม่แน่ว่าผมอาจจะ ถามบุคคลระดับสูง เรื่องขึ้นเงินเดือนให้ นั่นทำให้คุณพอใจไหม?$3\"/pause 300/textAboveHead Shane_JojaMart \"เริ่มจะดีขึ้นมาแล้ว\"/pause 300/textAboveHead Sam \"เจ๋งสุด ๆ เลย!\"/pause 1000/speak Claire_Joja \"ขอบคุณค่ะ!$4\"/pause 500/speak Morris \"ผมจะ... ไปโทรศัพท์$0#$b#พวกคุณสี่คนควรจะ ทำให้ร้านค้าสะดอาด ปราศจากจุดด่างดำ ผมคาดหวังในผลลัพธ์นะ$3\"/pause 500/move Morris 7 0 1 true/pause 400/globalFade/viewport -1000 -1000/pause 700/friendship Shane 30/friendship Sam 30/end dialogue Morris \"ผมไม่ยินดีเลยที่ คุณเอาตัวเองมายุ่งเกี่ยวกับ การประชุมพนักงานของผม ความต้องการที่จะได้รับ ค่าจ้างที่มากขึ้น$3#$e#ยังไงก็ตาม... เสนอแผนการจัดการอื่น ที่น่าจะได้ผล$2\"",
     },
 },
 
@@ -2664,7 +2664,7 @@
 	 "Action": "EditData",
 	 "Target": "data/events/skullcave",
 	 "Entries": {
-     "7502583/e 1305677": "Upper_Ambient/-500 -500/farmer -300 -300 0/addTemporaryActor Alesia 16 32 18 8 1 true/addTemporaryActor Isaac 16 32 21 9 0 true/pause 1200/viewport 18 9 true/skippable/pause 2000/playSound stoneStep/warp farmer 17 13/pause 400/move farmer 0 -3 0 true/pause 300/faceDirection Alesia 2 true/pause 400/emote Alesia 16 true/pause 700/faceDirection Isaac 3 true/pause 500/speak Alesia \"Hmm? @?\"/pause 200/faceDirection Isaac 3/pause 300/faceDirection farmer 1/speak Isaac \"...$0\"/pause 500/shake Alesia 250/pause 400/move farmer 0 0 0/pause 150/speak Alesia \"Oh. You haven't made each other's acquaintance.\"/pause 600/move Alesia 0 0 1/pause 400/move farmer 0 0 1/pause 300/speak Alesia \"Isaac, @ hails from the Adventurers Guild in Stardew Valley under Marlon's banner.$1\"/pause 700/speed Isaac 1/move Isaac -1 0 3/pause 400/showFrame Isaac 24/pause 300/speak Isaac \"Hmph...$3\"/pause 600/move Alesia 0 0 2/pause 300/shake Alesia 300/pause 200/move farmer 0 0 0/pause 150/speak Alesia \"Venturing into the Crimson Badlands, @?#$b#Do ensure you're properly prepared. The crimson sands are merciless.$1\"/pause 400/showFrame Isaac 24/pause 350/speak Isaac \"...$3\"/pause 500/speak Alesia \"May Yoba guide you, adventurer.\"/pause 600/move Alesia 0 0 1/pause 500/speak Alesia \"Isaac.\"/pause 500/playSound warrior/playSound warrior/showFrame Alesia 18/pause 300/showFrame Alesia 20/pause 300/showFrame Alesia 21/pause 400/playSound wand/playSound wand/screenFlash 2/warp Alesia -300 -300/pause 1000/speed Isaac 1/move Isaac -1 0 3 true/pause 200/faceDirection farmer 1/pause 300/showFrame Isaac 24/pause 300/speak Isaac \"Keep an eye out for corrupted serpents.$0#$b#Be ready to swallow your pride and run.$3\"/pause 400/playSound warrior/playSound warrior/showFrame Isaac 20/pause 300/showFrame Isaac 22/pause 300/showFrame Isaac 18/pause 300/playSound wand/playSound wand/screenFlash 2/warp Isaac -200 -200/pause 400/globalFade/viewport -1000 -1000/end position 17 10",
+     "7502583/e 1305677": "Upper_Ambient/-500 -500/farmer -300 -300 0/addTemporaryActor Alesia 16 32 18 8 1 true/addTemporaryActor Isaac 16 32 21 9 0 true/pause 1200/viewport 18 9 true/skippable/pause 2000/playSound stoneStep/warp farmer 17 13/pause 400/move farmer 0 -3 0 true/pause 300/faceDirection Alesia 2 true/pause 400/emote Alesia 16 true/pause 700/faceDirection Isaac 3 true/pause 500/speak Alesia \"หืมม? @?\"/pause 200/faceDirection Isaac 3/pause 300/faceDirection farmer 1/speak Isaac \"...$0\"/pause 500/shake Alesia 250/pause 400/move farmer 0 0 0/pause 150/speak Alesia \"อ้อ พวกเจ้ายังไม่ได้ ทำความรู้จักกันสินะ\"/pause 600/move Alesia 0 0 1/pause 400/move farmer 0 0 1/pause 300/speak Alesia \"ไอแซค @ ทักทายจาก กิลด์ของนักผจญภัย ในสตาร์ดิวแวลลีย์ ภายใต้การชี้นำ ของมาร์ลอนน่ะ$1\"/pause 700/speed Isaac 1/move Isaac -1 0 3/pause 400/showFrame Isaac 24/pause 300/speak Isaac \"ชิ...$3\"/pause 600/move Alesia 0 0 2/pause 300/shake Alesia 300/pause 200/move farmer 0 0 0/pause 150/speak Alesia \"มาผจญภัยใน ทุ่งร้างคริมสันงั้นหรือ @?#$b#ต้องแน่ใจละ ว่าเตรียมพร้อมมาอย่างดีน่ะ ทรายแห่งคริมสันไร้ปราณีนะ$1\"/pause 400/showFrame Isaac 24/pause 350/speak Isaac \"...$3\"/pause 500/speak Alesia \"ขอให้โยบะนำทางนะ นักผจญภัย\"/pause 600/move Alesia 0 0 1/pause 500/speak Alesia \"ไอแซค\"/pause 500/playSound warrior/playSound warrior/showFrame Alesia 18/pause 300/showFrame Alesia 20/pause 300/showFrame Alesia 21/pause 400/playSound wand/playSound wand/screenFlash 2/warp Alesia -300 -300/pause 1000/speed Isaac 1/move Isaac -1 0 3 true/pause 200/faceDirection farmer 1/pause 300/showFrame Isaac 24/pause 300/speak Isaac \"ระวังอสรพิษคลุ้มคลั่งให้ดี$0#$b#เตรียมกลืนความทะนงเจ้า แล้วเผ่นได้เลย$3\"/pause 400/playSound warrior/playSound warrior/showFrame Isaac 20/pause 300/showFrame Isaac 22/pause 300/showFrame Isaac 18/pause 300/playSound wand/playSound wand/screenFlash 2/warp Isaac -200 -200/pause 400/globalFade/viewport -1000 -1000/end position 17 10",
      },
 },
 
