@@ -26,7 +26,7 @@
       "Target": "Data/NPCGiftTastes",
 	  "When": { "HasSeenEvent: 7775927": true },
       "Entries": {
-        "Apples": "You give Apples starfruit!? Yay! Starfruit! Yummy!/268 434/This is good gift! Makes Apples happy!/394 392 578 486 74 373 797 446 444 279 417 454/Apples no understand what you give./-18 -15 -16 -5 -6 -7 -4 -28/Apples don't like it. Apples no understand.../286 287 288 441 167 168 169 170 171 172 178/Yay! Apples-friend give gift!/283 114 273 299 301 302 310 311 309 347 433 472 473 474 475 476 477 478 479 480 481 482 483 484 485 487 488 489 490 491 492 493 494 495 496 497 498 499 427 429 453 455 431 425 770 802 745 -74 -81/"
+        "Apples": "คุณมอบมะเฟืองให้แอปเปิ้ล!? เย่! มะเฟือง! อร่อย!/268 434/นี่คือของขวัญที่ดี! ทำให้แอปเปิ้ลมีความสุข!/394 392 578 486 74 373 797 446 444 279 417 454/แอปเปิ้ลไม่เข้าใจว่า คุณให้อะไร/-18 -15 -16 -5 -6 -7 -4 -28/แอปเปิ้ลไม่ถูกใจสิ่งนี้ แอปเปิ้ลไม่เข้าใจ.../286 287 288 441 167 168 169 170 171 172 178/เย่! เพื่อนของแอปเปิ้ล ให้ของขวัญ!/283 114 273 299 301 302 310 311 309 347 433 472 473 474 475 476 477 478 479 480 481 482 483 484 485 487 488 489 490 491 492 493 494 495 496 497 498 499 427 429 453 455 431 425 770 802 745 -74 -81/"
         }
     },
 	
@@ -94,17 +94,17 @@
         "BeforeMovie": {
           "ResponsePoint": null,
           "Script": "",
-          "Text": "No one see Apples! Only Apples-friend!$0"
+          "Text": "ไม่มีใครเห็นแอปเปิ้ล! เฉพาะเพื่อนของแอปเปิ้ล เท่านั้น!$0"
         },
         "DuringMovie": {
           "ResponsePoint": null,
           "Script": "",
-          "Text": "It's other friend! Yay!$1"
+          "Text": "นั่นเพื่อนอีกคนนี่! เย่!$1"
         },
         "AfterMovie": {
           "ResponsePoint": null,
           "Script": "",
-          "Text": "Fun! Fun! Take Apples again?"
+          "Text": "สนุกจัง! สนุกจัง! พาแอปเปิ้ลมาอีกนะ?"
         }
       },
         "ID": "reaction_0"
@@ -117,17 +117,17 @@
         "BeforeMovie": {
           "ResponsePoint": null,
           "Script": "",
-          "Text": "No one see Apples! Only Apples-friend!$0"
+          "Text": "ไม่มีใครเห็นแอปเปิ้ล! เฉพาะเพื่อนของแอปเปิ้ล เท่านั้น!$0"
         },
         "DuringMovie": {
           "ResponsePoint": null,
           "Script": "",
-          "Text": "Apples scared...$2"
+          "Text": "แอปเปิ้ลกลัว...$2"
         },
         "AfterMovie": {
           "ResponsePoint": null,
           "Script": "",
-          "Text": "Apples no like scary moving pictures...$2"
+          "Text": "แอปเปิ้ลไม่ชอบหนังน่ากลัวๆ ...$2"
         }
       },
         "ID": "reaction_1"
@@ -140,12 +140,12 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Ah. This should be quite an interesting film.$1"
+            "Text": "อา หนังเรื่องนี้ค่อนข้างจะ น่าสนใจเลยนะ$1"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "This is quite intriguing!$1"
+            "Text": "นี่มันค่อนข้างน่าสนใจ!$1"
           },
           "AfterMovie": {
             "ResponsePoint": null,
@@ -163,7 +163,7 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Hurry! Apples want to watch moving pictures!#$e#No one here see Apples!$1"
+            "Text": "เร็วเข้าหน่อย! แอปเปิ้ลอยากจะดู เจ้าภาพที่มันขยับๆ ได้แล้ว!#$e#ไม่มีใครที่นี่เห็นแอปเปิ้ล!$1"
           },
           "DuringMovie": {
             "ResponsePoint": null,
@@ -173,7 +173,7 @@
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Apples no understand moving pictures, but still fun!$1"
+            "Text": "แอปเปิ้ลไม่เข้าใจ เจ้าภาพที่มันขยับๆ ได้แต่ก็ยังสนุกอยู่ดี!$1"
           }
         },
         "ID": "reaction_3"
@@ -186,7 +186,7 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Apples curious about movie!$1"
+            "Text": "แอปเปิ้ลสงสัย เกี่ยวกับหนังจัง!$1"
           },
           "DuringMovie": {
             "ResponsePoint": null,
@@ -196,7 +196,7 @@
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Fun! Take Apples again!$1"
+            "Text": "สนุกจัง! พาแอปเปิ้ลมาอีกนะ!$1"
           }
         },
         "ID": "reaction_4"
@@ -209,13 +209,13 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "No one here see Apples!$1"
+            "Text": "ไม่มีใครที่นี่เห็นแอปเปิ้ล!$1"
           },
           "DuringMovie": null,
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "*meep*!!!$1"
+            "Text": "*มี๊ป*!!!$1"
           }
         },
         "ID": "reaction_5"
@@ -228,7 +228,7 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Apples-friend show moving pictures to Apples!$1"
+            "Text": "เพื่อนของแอปเปิ้ล แสดงเจ้าภาพขยับได้ ให้แอปเปิ้ลดู!$1"
           },
           "DuringMovie": {
             "ResponsePoint": null,
@@ -238,7 +238,7 @@
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Apples no understand moving pictures.$0"
+            "Text": "แอปเปิ้ลไม่เข้าใจ เจ้าภาพที่มันขยับๆ ได้$0"
           }
         },
         "ID": "reaction_6"
@@ -276,7 +276,7 @@
 	"Action": "EditData",
 	"Target": "data/events/farmhouse",
 	"Entries": { 
-    "77759254/e 191393/e 1000037/j 138": "none/-500 -500/farmer -300 -300 2 Abigail -301 -301 2/pause 1500/changeLocation ForestWest/viewport 58 16 true/pause 2000/playSound junimoMeep1/pause 700/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 300/playSound junimoMeep1/globalFade/viewport -1000 -1000/pause 1500/message \"You sense something west of Cindersap Forest...\"/pause 1250/end dialogue Abigail \"I couldn't sleep last night...$2#$e#I felt as if 'something' was calling to me deep in the forest.$2#$e#Strange, right?$0\"",
+    "77759254/e 191393/e 1000037/j 138": "none/-500 -500/farmer -300 -300 2 Abigail -301 -301 2/pause 1500/changeLocation ForestWest/viewport 58 16 true/pause 2000/playSound junimoMeep1/pause 700/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 300/playSound junimoMeep1/globalFade/viewport -1000 -1000/pause 1500/message \"คุณรู้สึกได้ถึงอะไรบางอย่าง ทางทิศตะวันตกของ ป่าซินเดอร์แซป ( Cindersap Forest)...\"/pause 1250/end dialogue Abigail \"เมื่อคืนนี้ฉันนอนไม่หลับ...$2#$e#ฉันรู้สึกเหมือนว่ามี 'อะไรบางอย่าง' เรียกฉัน จากส่วนลึกของป่า$2#$e#แปลกใช่ไหมล่ะ?$0\"",
 	},
 },
 
