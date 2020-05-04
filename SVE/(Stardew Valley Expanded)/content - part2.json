@@ -150,7 +150,7 @@
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Really puts the world in perspective. Do you think we'll ever visit the stars someday?$1"
+            "Text": "เปิดโลกดีจังเลยเนอะ เธอว่าสักวันเราจะไปเยือน หมู่ดาวได้จริงๆ มั้ย?$1"
           }
         },
         "ID": "reaction_2"
@@ -168,7 +168,7 @@
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "*meep*!!!"
+            "Text": "*มี๊ป*!!!"
           },
           "AfterMovie": {
             "ResponsePoint": null,
@@ -186,7 +186,7 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "แอปเปิ้ลสงสัย เกี่ยวกับหนังจัง!$1"
+            "Text": "แอปเปิ้ลสงสัย เจ้าสิ่งที่เรียกว่าหนังจัง!$1"
           },
           "DuringMovie": {
             "ResponsePoint": null,
@@ -2694,9 +2694,9 @@
 	 "Action": "EditData",
      "Target": "characters/dialogue/Alex",
      "Entries": {	
-		"alex_event1": "เยี่ยมเลย! ช่วงเวลานี้ของปีการไป ห้องซาวน่าเป็นอะไรที่ ผ่อนคลายมากเลย$1",
-		"alex_event2": "บางครั้งผมก็บังเอิญเจอเธอ ตอนที่ผมมาใช้ยิมและ ห้องซาวน่าI sometimes run into her when I come to use the gym and sauna. She's always productive and busy.$1",
-		"alex_event3": "Awesome! That sounds like a heck of a leg day!$1"
+		"alex_event1": "เจ๋ง! ได้ไปซาวน่าในช่วงนี้ของปี มันเป็นอะไรที่ผ่อนคลาย มากเลยนะ$1",
+		"alex_event2": "เวลามาซาวน่าหรือเข้ายิม บางทีฉันก็เห็นเธอนะ เจอทีไรก็ดูวุ่นอะไรอยู่ ตลอดเลย$1",
+		"alex_event3": "แจ่มเลย! ดูเหมือนวันนี้ จะได้ออกกำลังขาเยอะนะเนี่ย!$1"
 		}
 	},
 	
@@ -2704,11 +2704,11 @@
 	 "Action": "EditData",
      "Target": "characters/dialogue/Elliott",
      "Entries": {	
-		 "elliott_event1": "That is marvelous to hear!$1",
-		 "elliott_event2": "Ah, I see! I hope your catch is bountiful!$1",
-		 "elliott_event3": "We've all had those days, @. Spend some time in the sun and perhaps it will bring your mood up.$2",
-		 "elliott_event4": "Fantastic! It'll surely be a splendid time.$1",
-		 "elliott_event5": "Not a problem, @! The sea life isn't for everyone. Perhaps later we can spend some quality time together on land.$1"
+		 "elliott_event1": "มันดีมากเลยนะนั่นน่ะ!$1",
+		 "elliott_event2": "อ๋า งี้นี่เอง! หวังว่าคุณจะจับได้เยอะๆ เลยนะ!$1",
+		 "elliott_event3": "ทุกคนมีช่วงเวลาแบบนั้นนะ @ เดินรับลมรับแดด แล้วหวังให้ตัวเองรู้สึกดีขึ้น$2",
+		 "elliott_event4": "เยี่ยมครับ! คงเป็นช่วงเวลาที่พิเศษมากเลยล่ะ$1",
+		 "elliott_event5": "ไม่ต้องคิดมากนะ @! การใช้ชีวิตอยู่แต่กับทะเล ใช่ว่าใครก็ทำกันได้ งั้นคราวหลังถ้ามีโอกาส เราขึ้นบกไปหาอะไรทำ กันบ้างนะ$1"
 		}
 	},
 	
@@ -2716,8 +2716,8 @@
 	 "Action": "EditData",
      "Target": "characters/dialogue/Harvey",
      "Entries": {	
-		 "harvey_event1": "Oh, well, hello!$1",
-		 "harvey_event2": "Well, you won't be disappointed. They're top quality, made with all organic ingredients.$1"
+		 "harvey_event1": "โอ๊ะ อ่า สวัสดีครับ!$1",
+		 "harvey_event2": "คุณไม่ผิดหวังแน่ๆ คุณภาพชั้นยอด ผลิตจากวัตถุดิบออร์แกนิค เลยล่ะครับ$1"
 		}
 	},
 	
@@ -2725,9 +2725,9 @@
 	 "Action": "EditData",
      "Target": "characters/dialogue/Sam",
      "Entries": {	
-		 "sam_event1": "Yeah, no kidding it is. It's nice to hear we're both in the same boat.$1",
-		 "sam_event2": "Whoa! Get real. That's crazy! You're lucky you got that arcade machine. That's worth like... 15,000G at least!$8",
-		 "sam_event3": "Oh... well, that's all right. To each their own, I guess.$2"
+		 "sam_event1": "อื้อ ใครเค้าล้อกันเล่นล่ะ ของแบบนี้ มีเธอลงเรือเดียวกันแล้ว แบบนี้ก็โล่งใจ$1",
+		 "sam_event2": "โว้ว! ถามจริง บ้าน่า! เธอได้ตู้เกมนั่นมาอะนะ ตู้นั่นราคามัน...ไม่ 15,000G ได้เลยหรอ?!$8",
+		 "sam_event3": "โอ้... ไม่เป็นไร ทีใครทีมันล่ะนะ$2"
 		}
 	},
 	
@@ -2735,9 +2735,9 @@
 	 "Action": "EditData",
      "Target": "characters/dialogue/Shane",
      "Entries": {	
-		 "shane_event1": "I guess I've been standing here for a while just thinking.$3",
-		 "shane_event2": "Why am I at the railroad? Just thinking...$3",
-		 "shane_event3": "Heh, nothing gets past you, does it?$3"
+		 "shane_event1": "ผมยืนเหม่อคิดเพ้อ อะไรอยู่ตรงนี้ มานานแค่ไหนแล้วเนี่ย$3",
+		 "shane_event2": "แล้วผมมาอยู่ตรงรางรถไฟทำไมหนิ? อืมมม...$3",
+		 "shane_event3": "เฮ้ะ เมื่อกี้ไม่ได้มีอะไร เพิ่งผ่านคุณไปใช่มั้ย?$3"
 		}
 	},
 	
@@ -2745,14 +2745,14 @@
 	 "Action": "EditData",
      "Target": "characters/dialogue/Abigail",
      "Entries": {	
-		 "abigail_event1": "I thought I was the only one who could see them! This is crazy!$7",
-		 "abigail_event2": "I thought I was the only one who could see them! This is crazy!$7",
-		 "abigail_event3": "That's... that's a good idea.$2#$b#Sorry, I'm still trying to calm down. Ummm... let me think of a question.$0",
-		 "abigail_event4": "Umm... I do. let me think... oh, so...$6",
-		 "abigail_event5": "The Wizard told you? I've never met him...$9",
-		 "abigail_event6": "I see. Maybe I could look at that book sometime too.$0",
-		 "abigail_event7": "She is! Apples is very vocal. She's always excited to see me when I visit the forest.$1",
-		 "abigail_event8": "Umm... about a year ago, I think? I came to the forest to practice a song I was learning, and these little spirits confronted me.$6#$b#At first, I was scared. I thought they were going to hurt me... but Apples was the first Junimo to convey to me that they're peaceful.$0",
+		 "abigail_event1": "ฉันคิดว่าฉันเห็นพวกนั้น อยู่คนเดียวซะอีก บ้าไปแล้ว!$7",
+		 "abigail_event2": "ฉันคิดว่าฉันเห็นพวกนั้น อยู่คนเดียวซะอีก บ้าไปแล้ว!$7",
+		 "abigail_event3": "อ่านั่นมัน... มันก็เป็นไอเดียที่ดีอยู่หรอก$2#$b#โทษที ฉันพยายามทำใจให้ร่มอยู่น่ะ อืมมม... ขอคิดคำถามแปปนึง$0",
+		 "abigail_event4": "อืมม... ฉันว่าา ขอคิดแปป... โอ้ะ ถ้างั้น...$6",
+		 "abigail_event5": "พ่อมดบอกเธอมางั้นเหรอ? ฉันไม่ยักจะเคยเจอเลย...$9",
+		 "abigail_event6": "โอเค ถ้างั้นฉันน่าจะลองอ่านหนังสือนั่น ดูบ้างนะ$0",
+		 "abigail_event7": "ใช่มั้ยล่ะ! แอปเปิ้ลน่ะเสียงดังมากเลย เวลาฉันเข้ามาที่ป่าทีไรมันก็ตื่นเต้นที่ได้เจอกันตลอด$1",
+		 "abigail_event8": "อืมม... คงราวๆ ปีที่แล้วมั้ง? ฉันมาซ้อมเพลงที่ฝึกอยู่ช่วงนั้น แล้วเจ้าภูติตัวน้อย พวกนี้ก็โผล่ออกมาประจันหน้าฉันล่ะ $6#$b#ตอนแรกก็กลัวว่า จะโดนทำร้าย... แต่แอปเปิ้ล เป็นจูนิโม่ตัวแรกเลย ที่ทำให้ฉันรู้ ว่าที่จริงแล้วพวกมัน รักความสงบแค่ไหน$0",
 		 "abigail_event9": "That's funny, you thought they were rats! I saw them as walking apples, which is how Apples got her nickname.$1",
 		 "abigail_event10": "Oh, that was a long time ago. It makes me wonder if I stumbled across them when I was younger too.$9#$b#Maybe I did... but I can't remember.$2",
 		 "abigail_event11": "I can't read the language...$2#$b#I've seen it, though.$6#$b#Apples has drawn symbols on the ground and pointed to stone slabs written in it.$0#$b#I knew she was trying to tell me something, but I couldn't understand...$2",
@@ -2766,11 +2766,11 @@
 	 "Action": "EditData",
      "Target": "characters/dialogue/Emily",
      "Entries": {	
-		"emily_event1": "Oh! This is our signature cocktail. Good choice, @!$1",
-		"emily_event2": "You must really love your gin, @. The Lunar Horizon is strong!$1",
-		"emily_event3": "The Rosette Nebula is one of my favorites! I'm happy you chose this one.$1",
-		"emily_event4": "Oh my! The Big Bang is pretty strong.$6#$b#I'm sure you can handle it, though!$1",
-		"emily_event5": "The Red Moon? This is Robin's favorite! Good choice, @.$1"
+		"emily_event1": "โอ้! นี่ตัวเด็ดเลยน้า ตาถึงจัง @!$1",
+		"emily_event2": "เธอดูชอบจินในแก้วที่ถืออยู่มากนะ @ พระจันทร์ลอยขึ้นเด่นจ้าเลย!$1",
+		"emily_event3": "ฉันก็ชอบ เนบิวลาดอกกุหลาบ มากเลย! ดีใจอะเธอเลือกอันนี้ด้วย$1",
+		"emily_event4": "คุณพระ! บิ๊กแบงนี่บอสเลยนะ$6#$b#แต่เธอน่าจะไหวอยู่แหละ!$1",
+		"emily_event5": "พระจันทร์สีเลือด? โรบินชอบเจ้านี่ล่ะ! เลือกได้ดี @$1"
 		}
 	},
 	
@@ -2778,8 +2778,8 @@
 	 "Action": "EditData",
      "Target": "characters/dialogue/Haley",
      "Entries": {	
-		"haley_event1": "*sniff*...Thank you, @.$7",
-		"haley_event2": "Oh... you must be busy. *sniff*...$2"
+		"haley_event1": "*ฟุดฟิด*...ขอบคุณนะ @$7",
+		"haley_event2": "โอ้ะ... เธอคงยุ่งอยู่สินะ *สูดจมูก*...$2"
 		}
 	},
 	
@@ -2787,7 +2787,7 @@
 	 "Action": "EditData",
      "Target": "characters/dialogue/Maru",
      "Entries": {	
-		"maru_event1": "Let's punch this in and see what happens!$0#$b#Aww it's wrong...$2#$b#That's okay though! I can figure this one out later.$1",
+		"maru_event1": "ลองกดเจ้านี่ แล้วรอดูกัน ว่าจะมีอะไรเกิดขึ้น!$0#$b#Aww it's wrong...$2#$b#That's okay though! I can figure this one out later.$1",
 		"maru_event2": "Let's punch this in and see what happens!$0#$b#Aww it's wrong...$2#$b#That's okay though! I can figure this one out later.$1",
 		"maru_event3": "Let's punch this in and see what happens!$0#$b#Aww it's wrong...$2#$b#That's okay though! I can figure this one out later.$1",
 		"maru_event4": "Let's punch this in and see what happens!$0#$b#Oh! This is the correct value! Thank you, @!$1",
@@ -2838,12 +2838,12 @@
 	 "Action": "EditData",
      "Target": "characters/dialogue/Evelyn",
      "Entries": {	
-		"evelyn_event1": "My day is well. It's a bit on the chilly side, though.$0",
-		"evelyn_event2": "Be sure to wear several layers, sweetie! I wouldn't want you catching a cold.$0",
-		"evelyn_event3": "That's unfortunate to hear, dear. I'm optimistic your day will brighten up.$0",
-		"evelyn_event4": "Oh dear... you don't know?$2",
-		"evelyn_event5": "Oh dear... you don't know?$2",
-		"evelyn_event6": "Oh dear... you don't know?$2"
+		"evelyn_event1": "วันนี้ยายมีความสุขดีจ้ะ ออกจะปล่อยไป แบบสบายๆ หน่อยน่ะนะ$0",
+		"evelyn_event2": "เธอต้องใส่เสื้อผ้า ให้หนาเข้าไว้นะ ที่รัก! ยายไม่อยากให้เธอป่วยเลย$0",
+		"evelyn_event3": "แย่จังเลย ยายขอให้วันนี้เป็นวันที่ดีกว่าเดิมนะจ๊ะ$0",
+		"evelyn_event4": "โอ้ที่รัก... เธอไม่รู้เรื่องนี้เหรอจ๊ะ?$2",
+		"evelyn_event5": "โอ้ที่รัก... เธอไม่รู้เรื่องนี้เหรอจ๊ะ?$2",
+		"evelyn_event6": "โอ้ที่รัก... เธอไม่รู้เรื่องนี้เหรอจ๊ะ?$2"
 		}
 	},
 	
@@ -4176,7 +4176,7 @@
 		 "WizardHouseBasementSVE.28": "'ถึง: กระทรวงเวทมนตร์แห่งเฟิร์นกิลล์'",
 		 "WizardHouseBasementSVE.29": "'ถึง: โถงกิลด์เบลโลว์ ฮาร์ทส์'",
 		 "WizardHouseBasementSVE.30": "'ถึง: ---n-r--t-e- -i--h H--'^^สัญลักษณ์ต่างๆ ถูกขีดฆ่า",
-		 "WizardHouseBasementSVE.31": "I was told not to come near this...",
+		 "WizardHouseBasementSVE.31": "มีคนเคยบอกว่าฉันไม่ควรมาเหยียบที่นี่...",
 		 "ApplesRoom.1": "The hut smells like starfruit.",
 		 "ApplesRoom.2": "'Mother Starfruit Tree'",
 		 "ApplesRoom.3": "'Ander'",
@@ -4186,14 +4186,14 @@
 		 "ApplesRoom.7": "'Poot'",
 		 "ApplesRoom.8": "'Tiffany'",
 		 "ApplesRoom.9": "'Lucky'",
-		 "SophiaParentsRoom.1": "'Patchwork Guide - Repairing Your Clothes'",
-		 "SophiaParentsRoom.2": "It's Sophia's teddy bear.",
-		 "SophiaParentsRoom.3": "There's jewlery and a hairbrush.",
-		 "SophiaParentsRoom.4": "An old crafting manual is in the drawer. It's filled with handwritten notes.",
-		 "SophiaParentsRoom.5": "There's a bunch cute outfits in the drawer.",
-		 "SophiaParentsRoom.6": "There's several different farmer uniforms.",
-		 "SophiaParentsRoom.7": "You open the drawer and find several comics:^^'Lion Girl The Leaping Titan - VOL IX'^'Jax Void Heart - Vol I^'Wonder Girl - Vol III'^'Captain Magnificent - Vol II'^^The comics date back many years.",
-		 "SophiaParentsRoom.8": "The glass cabinet is filled with trophies.",
+		 "SophiaParentsRoom.1": "'ตำราเย็บปักถักร้อย - วิธีสนเข็มซ่อมชุด'",
+		 "SophiaParentsRoom.2": "ตุ๊กตาหมีสุดรักของโซเฟีย",
+		 "SophiaParentsRoom.3": "มีเครื่องเพชรและแปรงหวีผมวางอยู่",
+		 "SophiaParentsRoom.4": "คู่มือก่อสร้างถูกใส่ไว้ในลิ้นชัก มีหลักฐานการเขียนบันทึกด้วยมืออยู่มากมาย",
+		 "SophiaParentsRoom.5": "ชุดน่ารักๆ เพียบเลย",
+		 "SophiaParentsRoom.6": "ตรงนี้มีชุดเปลี่ยนสำหรับทำไร่อยู่",
+		 "SophiaParentsRoom.7": "ลิ้นชักเต็มไปด้วยหนังสือการ์ตูน:^^'Lion Girl The Leaping Titan - VOL IX'^'Jax Void Heart - Vol I^'Wonder Girl - Vol III'^'Captain Magnificent - Vol II'^^The comics date back many years.",
+		 "SophiaParentsRoom.8": "ในตู้กระจกมีถ้วยรางวัลมากมายจัดแสดงไว้",
 		 "AuroraVineyardStarfruits.1": "'Fig'",
 		 "AuroraVineyardStarfruits.2": "'Holly'",
 		 "AuroraVineyardStarfruits.3": "'Donna'",
@@ -4217,7 +4217,7 @@
 		 "AuroraVineyardStarfruits.21": "'Maple'",
 		 "AuroraVineyardStarfruits.22": "'Jax'",
 		 "AuroraVineyardStarfruits.23": "'Spirit'",
-		 "dustyPets": "*You give Dusty many pets"
+		 "dustyPets": "*ลูบหัวเจ้าดัสตี้ไปหลายที"
         }
     },
   ]
