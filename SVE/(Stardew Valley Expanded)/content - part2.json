@@ -2753,12 +2753,12 @@
 		 "abigail_event6": "โอเค ถ้างั้นฉันน่าจะลองอ่านหนังสือนั่น ดูบ้างนะ$0",
 		 "abigail_event7": "ใช่มั้ยล่ะ! แอปเปิลน่ะเสียงดังมากเลย เวลาฉันเข้ามาที่ป่าทีไร เขาก็ตื่นเต้นที่ได้เจอกันตลอด$1",
 		 "abigail_event8": "อืมม... คงราวๆ ปีที่แล้วมั้ง? ฉันมาซ้อมเพลงที่ฝึกอยู่ช่วงนั้น แล้วเจ้าภูติตัวน้อย พวกนี้ก็โผล่ออกมาประจันหน้าฉันล่ะ $6#$b#ตอนแรกก็กลัวว่า จะโดนทำร้าย... แต่แอปเปิล เป็นจูนิโม่ตัวแรกเลย ที่ทำให้ฉันรู้ ว่าที่จริงแล้วพวกมัน รักความสงบแค่ไหน$0",
-		 "abigail_event9": "That's funny, you thought they were rats! I saw them as walking apples, which is how Apples got her nickname.$1",
-		 "abigail_event10": "Oh, that was a long time ago. It makes me wonder if I stumbled across them when I was younger too.$9#$b#Maybe I did... but I can't remember.$2",
-		 "abigail_event11": "I can't read the language...$2#$b#I've seen it, though.$6#$b#Apples has drawn symbols on the ground and pointed to stone slabs written in it.$0#$b#I knew she was trying to tell me something, but I couldn't understand...$2",
-		 "abigail_event12": "I did tell my mom and she was... shocked?$2#$b#She told me I have an overactive imagination and that I'm just seeing things. She doesn't take me seriously$9#$b#I also told Sebastian. He laughed at me.$3",
-		 "abigail_event13": "The Wizard? Interesting... I don't know that much about him.$6#$b#My mom always told me to not talk to him. She even forbids me to go near his tower. I never understood why...$2",
-		 "abigail_event14": "The Wizard? Interesting... I don't know that much about him.$6#$b#My mom always told me to not talk to him. She even forbids me to go near his tower. I never understood why...$2"
+		 "abigail_event9": "โอ๊ย อย่างฮาอ่ะ เธอคิดว่าเจ้าพวกนั้น เป็นหนูเนี่ยนะ! ฉันเห็นพวกนั้นเป็น แอปเปิลเดินได้น่ะ แอปเปิลก็เลยมีชื่อเล่นว่าแอปเปิลไง$1",
+		 "abigail_event10": "โอ้ นั่นมันนานมาแล้วนะ มันทำให้ฉันสงสัยว่า นี่ฉันน่าเคยเจ้าพวกนี้โดยบังเอิญ เมื่อตอนที่ฉันเด็กๆ รึเปล่านะ$9#$b#บางทีอาจจะเคยนะ... แต่ฉันจำไม่ได้แหละ$2",
+		 "abigail_event11": "ฉันอ่านไม่ออกอะ......$2#$b#แต่ว่าฉันเคยเห็น ตัวอักษรพวกนี้นะ$6#$b#แอปเปิลวาดสัญลักษณ์ ลงบนพื้นแล้วชี้ไปที่แผ่นหิน ที่มีภาพพวกนั้นเขียนอยู่$0#$b#ฉันรู้ว่าแอปเปิลต้องการจะ บอกอะไรบางอย่างกับฉัน แต่ฉันไม่เข้าใจ...$2",
+		 "abigail_event12": "ฉันบอกแม่ไปแล้วนะ แล้วเธอก็... ช็อค?$2#$b#แม่บอกฉันว่า ฉันมีจินตนาการที่เวอร์วัง ไปหน่อย ฉันก็เลยเห็นอะไรพวกนั้น แม่ไม่ค่อยจริงจังกับ เรื่องที่ฉันพูดเท่าไหร่$9#$b#ฉันบอกเซบาสเตียนเด้วยนะ ตานั่นหัวเราะใส่ฉัน$3",
+		 "abigail_event13": "พ่อมดหรอ? น่าสนใจนะ... ฉันรู้เกี่ยวกับเขาไม่มากหรอก$6#$b#แม่คอยบอกฉันเสมอว่า อย่าไปคุยกับเขา เธอเคยห้ามฉันเข้าใกล้ หอคอยด้วยนะ ฉันไม่เคยจะเข้าใจเลยว่า เป็นเพราะอะไร...$2",
+		 "abigail_event14": "พ่อมดหรอ? น่าสนใจนะ... ฉันรู้เกี่ยวกับเขาไม่มากหรอก$6#$b#แม่คอยบอกฉันเสมอว่า อย่าไปคุยกับเขา เธอเคยห้ามฉันเข้าใกล้ หอคอยด้วยนะ ฉันไม่เคยจะเข้าใจเลยว่า เป็นเพราะอะไร...$2"
 		}
 	},
 	
@@ -2787,16 +2787,16 @@
 	 "Action": "EditData",
      "Target": "characters/dialogue/Maru",
      "Entries": {	
-		"maru_event1": "ลองกดเจ้านี่ แล้วรอดูกัน ว่าจะมีอะไรเกิดขึ้น!$0#$b#Aww it's wrong...$2#$b#That's okay though! I can figure this one out later.$1",
-		"maru_event2": "Let's punch this in and see what happens!$0#$b#Aww it's wrong...$2#$b#That's okay though! I can figure this one out later.$1",
-		"maru_event3": "Let's punch this in and see what happens!$0#$b#Aww it's wrong...$2#$b#That's okay though! I can figure this one out later.$1",
-		"maru_event4": "Let's punch this in and see what happens!$0#$b#Oh! This is the correct value! Thank you, @!$1",
-		"maru_event5": "Let's punch this in and see what happens!$0#$b#Aww it's wrong...$2#$b#That's okay though! I can figure this one out later.$1",
-		"maru_event6": "Hmm...$0#$b#This is correct! Thank you, @!$1",
-		"maru_event7": "Hmm... let's see if this solves the problem.$1#$b#Oh no, it didn't evaluate correctly...$2#$b#I'll ask my dad about this equation. I'm sure he can help me out.$0#$b#I appreciate the effort, @!$1",
-		"maru_event8": "Hmm... let's see if this solves the problem.$1#$b#Oh no, it didn't evaluate correctly...$2#$b#I'll ask my dad about this equation. I'm sure he can help me out.$0#$b#I appreciate the effort, @!$1",
-		"maru_event9": "Hmm... let's see if this solves the problem.$1#$b#Oh no, it didn't evaluate correctly...$2#$b#I'll ask my dad about this equation. I'm sure he can help me out.$0#$b#I appreciate the effort, @!$1",
-		"maru_event10": "Hmm... let's see if this solves the problem.$1#$b#Oh no, it didn't evaluate correctly...$2#$b#I'll ask my dad about this equation. I'm sure he can help me out.$0#$b#I appreciate the effort, @!$1"
+		"maru_event1": "ลองกดเจ้านี่แล้วมาดูว่า จะเกิดอะไรกันเถอะ!$0#$b#ง่าา มันผิด...$2#$b#แต่มันก็โอเคนะ! เดี๋ยวฉันก็แก้มันได้ ทีหลังเองแหละ$1",
+		"maru_event2": "ลองกดเจ้านี่แล้วมาดูว่า จะเกิดอะไรกันเถอะ!$0#$b#ง่าา มันผิด...$2#$b#แต่มันก็โอเคนะ! เดี๋ยวฉันก็แก้มันได้ ทีหลังเองแหละ$1",
+		"maru_event3": "ลองกดเจ้านี่แล้วมาดูว่า จะเกิดอะไรกันเถอะ!$0#$b#ง่าา มันผิด...$2#$b#แต่มันก็โอเคนะ! เดี๋ยวฉันก็แก้มันได้ ทีหลังเองแหละ$1",
+		"maru_event4": "ลองกดเจ้านี่แล้วมาดูว่า จะเกิดอะไรกันเถอะ!$0#$b#โอ้! นี่มันคือค่าที่ถูกต้องนี่! ขอบใจนะ @!$1",
+		"maru_event5": "ลองกดเจ้านี่แล้วมาดูว่า จะเกิดอะไรกันเถอะ!$0#$b#ง่าา มันผิด...$2#$b#แต่มันก็โอเคนะ! เดี๋ยวฉันก็แก้มันได้ ทีหลังเองแหละ$1",
+		"maru_event6": "หืมม...$0#$b#ถูกนี่นา! ขอบใจนะ @!$1",
+		"maru_event7": "หืมม... ลองมาดูกันซิว่า เจ้านี่จะแก้ปัญหาได้รึเปล่า$1#$b#โอ้ ไม่นะ มันประเมิณผลไม่ถูกอะ...$2#$b#เดี๋ยวฉันค่อยเอาสมการนี้ ไปถามพ่อแล้วกัน ฉันมั่นใจว่าพ่อต้องช่วยฉันได้แน่ๆ$0#$b#ฉันซาบซึ้งในความพยายาม ของเธอมากเลยนะ @!$1",
+		"maru_event8": "หืมม... ลองมาดูกันซิว่า เจ้านี่จะแก้ปัญหาได้รึเปล่า$1#$b#โอ้ ไม่นะ มันประเมิณผลไม่ถูกอะ...$2#$b#เดี๋ยวฉันค่อยเอาสมการนี้ ไปถามพ่อแล้วกัน ฉันมั่นใจว่าพ่อต้องช่วยฉันได้แน่ๆ$0#$b#ฉันซาบซึ้งในความพยายาม ของเธอมากเลยนะ @!$1",
+		"maru_event9": "หืมม... ลองมาดูกันซิว่า เจ้านี่จะแก้ปัญหาได้รึเปล่า$1#$b#โอ้ ไม่นะ มันประเมิณผลไม่ถูกอะ...$2#$b#เดี๋ยวฉันค่อยเอาสมการนี้ ไปถามพ่อแล้วกัน ฉันมั่นใจว่าพ่อต้องช่วยฉันได้แน่ๆ$0#$b#ฉันซาบซึ้งในความพยายาม ของเธอมากเลยนะ @!$1",
+		"maru_event10": "หืมม... ลองมาดูกันซิว่า เจ้านี่จะแก้ปัญหาได้รึเปล่า$1#$b#โอ้ ไม่นะ มันประเมิณผลไม่ถูกอะ...$2#$b#เดี๋ยวฉันค่อยเอาสมการนี้ ไปถามพ่อแล้วกัน ฉันมั่นใจว่าพ่อต้องช่วยฉันได้แน่ๆ$0#$b#ฉันซาบซึ้งในความพยายาม ของเธอมากเลยนะ @!$1"
 		}
 	},
 
