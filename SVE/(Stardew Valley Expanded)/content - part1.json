@@ -810,8 +810,8 @@
    "MarlonLetterMegaBomb": "@^^กิลด์ได้รับอาวุธอีกรอบจากแคสเซิลวิลเลจ ระเบิดเหล่านี้มีแรงระเบิดมาก อย่ายืนใกล้พวกมันมากเกินไปล่ะ^^  -มาร์ลอน %item object 288 10 %%",
    "MarlonLetterPotions": "@^^คามิลล่า แม่มดแห่งแคสเซิลวิลเลจ ส่งยามาให้กิลด์ 30 ขวด นางเป็นหนึ่งในผู้ผลิตยาที่เก่งที่สุด ข้าแบ่งมาให้เจ้าครึ่งนึง ยาพวกนี้จะช่วยเจ้าในการออกสำรวจ ขอให้โชคดี^^  -มาร์ลอน %item object 773 15 %%",
    "ShrineOfIllusionsLetter": "ขอทักทาย @^^เจ้าได้พิสูจน์ความน่าเชื่อใจของเจ้าแล้ว ข้าอยากจะยื่นข้อเสนอ ในการสอนเวทมนตร์พื้นฐานให้กับเจ้า มาหาข้าที่ห้องทันทีที่เจ้าสะดวกล่ะ^^   -เอ็ม. ราสโมเดียส",
-   "AndyPictureLetter": "Hey farmer,^^Found something in the midst of organizin' my house. Drop on by and I'll show ya! I think you'll enjoy it.^^   -Andy",
-   "SophiaThankYouLetter": "Hey you,^^Thanks for helping me restore my parents' room. I couldn't have done it without you, especially with the heavy stuff! I know it's strange I packed everything up and moved it all back... I suppose it was a change of heart.^Enclosed is a bottle of my finest aged Blue Moon wine. Thanks, silly!^^  -Sophia %item object {{spacechase0.JsonAssets/ObjectId:Aged Blue Moon Wine}} 1 %%",
+   "AndyPictureLetter": "เฮ้ ชาวไร่^^ ฉันเจออะไรบางอย่างตอนกำลังจัดบ้านน่ะ แวะมาหน่อยสิแล้วจะเอาให้ดู รับรองว่าเด็ด!^^   -แอนดี้",
+   "SophiaThankYouLetter": "นี่ คุณ^^ ขอบคุณที่ช่วยฉันซ่อมแซมห้องของคุณพ่อคุณแม่ใหม่นะ ฉันคงทำเองไม่ได้ถ้าไม่มีคุณช่วย โดยเฉพาะพวกของหนักๆ ฉันรู้ว่ามันแปลกที่ฉันรื้อข้าวของที่ห่อเก็บไปหมดแล้วออกมาใหม่... ฉันคิดว่ามันคือการเปลี่ยนแปลงตัวเอง ^ในห่อนี้เป็นไวน์บลูมูนที่ดีที่สุดที่ฉันบ่มไว้ ขอบคุณนะ ตาทึ่ม^^  -โซเฟีย %item object {{spacechase0.JsonAssets/ObjectId:Aged Blue Moon Wine}} 1 %%",
 	}
 },
 
@@ -1295,7 +1295,7 @@
 {    //Changes Earthquake text to Joja explosion clearing landslide
 	 "Action": "EditData",
      "Target": "Strings/Events",
-     "Entries": { "SoundInTheNight_Earthquake": "There was an explosion during the night..." }
+     "Entries": { "SoundInTheNight_Earthquake": "เกิดการระเบิดขึ้นในกลางดึก..." }
 },
 
 {    //Adds spouse strings for the movie theater
@@ -1303,7 +1303,7 @@
      "Target": "Strings/Characters",
      "Entries": { 
 	 "MovieInvite_Spouse_Victor": "อ้อ ได้สิครับ! ผมอยากดูหนังกับคุณครับ!$3#$e#เราเดินไปโรงหนัง ด้วยกันมั้ยครับ?$1",
-	 "MovieInvite_Spouse_Olivia": "Oh, you want to see a film at the cinema? It'll be a lovely date night.$3",
+	 "MovieInvite_Spouse_Olivia": "โอ้ คุณอยากจะไปดูหนังที่ โรงหนังงั้นหรอ? มันต้องเป็นการเดทยามค่ำคืน ที่แสนน่ารักแน่ๆ$3",
 	 "MovieInvite_Spouse_Sophia": "อู้ววว! หนังงั้นหรอ? เย่!$9#$b#ฉันจะไปเจอเธอ ที่โรงหนังเลย โอเคนะ?$1#$e#ฉันจะไปซื้อ ขนมสายไหมกิน!$1"
 	 }
 },
