@@ -2863,8 +2863,8 @@
 	 "Action": "EditData",
      "Target": "characters/dialogue/Jodi",
      "Entries": {	
-		"jodi_event1": "...Yes. You're right.$2#$b#I need to be supportive for Kent. We're in this together, and I need to do everything I can to help him.$2",
-		"jodi_event2": "Thank you for the idea, @.$2#$b#I'll talk to Harvey about this. I'm sure he'll be happy to refer us to someone.$2",
+		"jodi_event1": "...ใช่แล้ว เธอพูดถูก$2#$b#ฉันจะต้องเป็นคนที่สนับสนุนเคนท์ พวกเราจะผ่านมันไปด้วยกัน และฉันจะทำทุกอย่างที่ทำได้เพื่อช่วยเขา$2",
+		"jodi_event2": "ขอบใจสำหรับไอเดียนะจ๊ะ @$2#$b#ฉันจะคุยเรื่องนี้กับฮาร์วีย์ ฉันมั่นใจว่าเขาจะต้องยินดีที่ จะแนะนำเราให้กับใครซักคน$2",
 		"jodi_event3": "!!!$0",
 		"jodi_event4": "!!!$0"
 		}
@@ -2874,13 +2874,13 @@
 	 "Action": "EditData",
      "Target": "characters/dialogue/Kent",
      "Entries": {	
-		"kent_event1": "Hmm... I see.$2",
-		"kent_event2": "Hmm... I see.$2",
-		"kent_event3": "Hmm... I see.$2",
-		"kent_event4": "Our nation has committed countless attrocities! We've killed thousands!$3",
-		"kent_event5": "Our nation has committed countless attrocities! We've killed thousands!$3",
-		"kent_event6": "My platoon was decimated in an ambush! I was a coward!!!$3",
-		"kent_event7": "My platoon was decimated in an ambush! I was a coward!!!$3"
+		"kent_event1": "หืมม... เข้าใจละ$2",
+		"kent_event2": "หืมม... เข้าใจละ$2",
+		"kent_event3": "หืมม... เข้าใจละ$2",
+		"kent_event4": "ประเทศของเราทำ เรื่องโหดร้ายไปมากมาย นับไม่ถ้วน! พวกเราสังหารไปเป็นพันๆ !$3",
+		"kent_event5": "ประเทศของเราทำ เรื่องโหดร้ายไปมากมาย นับไม่ถ้วน! พวกเราสังหารไปเป็นพันๆ !$3",
+		"kent_event6": "หมวดของฉันถูกทำลาย จนย่อยยับจากการซุ่มโจมตี! ฉันมันเป็นไอ้ขี้ขลาด!!!$3",
+		"kent_event7": "หมวดของฉันถูกทำลาย จนย่อยยับจากการซุ่มโจมตี! ฉันมันเป็นไอ้ขี้ขลาด!!!$3"
 		}
 	},
 	
@@ -2890,8 +2890,8 @@
 	 "Action": "EditData",
      "Target": "characters/dialogue/Jas",
      "Entries": {	
-		"Jas_event10": "...Thanks, @.$2",
-		"Jas_event11": "I won't wander too far into the forest next time... I promise.$2",
+		"Jas_event10": "...ขอบคุณนะคะ @ $2",
+		"Jas_event11": "ครั้งหน้าหนูจะไม่เข้าไป ในป่าลึกเกินไปแล้วค่ะ... หนูสัญญา$2",
 		}
 	},
 	
@@ -2899,8 +2899,8 @@
 	 "Action": "EditData",
      "Target": "characters/dialogue/Lewis",
      "Entries": {	
-		"lewis_event1": "Great!$1#$b#The residents of Pelican Town would truly appreciate it.$0#$b#You can get right to work on the field. I'll move these barrels and boxes out of the way soon.$1",
-		"lewis_event2": "That's fine, @. My offer still stands if you feel differently at a later time.$0#$b#If you do have a change in mind, you can get right to work on the field.$0"
+		"lewis_event1": "เยี่ยมไปเลย!$1#$b#ชาวเมืองเพลิแกน จะต้องดีใจมากแน่นอน$0#$b#เธอจะกลับไป ทำงานที่ไร่เลยก็ได้นะ ฉันจะเคลื่อนย้ายถังและลัง พวกนี้ออกไปเร็วๆ นี้แหละ$1",
+		"lewis_event2": "ไม่เป็นไร @ ถ้าเธอเปลี่ยนใจทีหลัง ข้อเสนอของฉันยังคง เป็นเหมือนเดิม$0#$b#ถ้าเธอเปลี่ยนใจจริงๆ ล่ะก็นะ เอาล่ะ  เธอจะกลับไป ทำงานที่ไร่เลยก็ได้นะ$0"
 		}
 	},
 	
@@ -2908,9 +2908,9 @@
 	 "Action": "EditData",
      "Target": "characters/dialogue/Linus",
      "Entries": {	
-		"linus_event1": "I'm happy to hear that.$1#$b#I caught some fish this morning. Dinner tonight will be delicious.$0",
-		"linus_event2": "Great to hear you're having a productive day.$1#$b#I caught some fish this morning. Dinner tonight will be delicious.$0",
-		"linus_event3": "Haha, I see. Those days are certainly the best.$1#$b#I caught some fish this morning. Dinner tonight will be delicious.$0"
+		"linus_event1": "ฉันดีใจที่ได้ยินอย่างนั้นนะ$1#$b#เมื่อเช้าฉันจับปลาได้นิดหน่อย มื้อค่ำคืนนี้ต้องอร่อยมากแน่ๆ$0",
+		"linus_event2": "ดีใจที่ได้ยินว่า คุณทำอะไรไปได้หลายอย่าง ในวันนี้นะ$1#$b#เมื่อเช้าฉันจับปลาได้นิดหน่อย มื้อค่ำคืนนี้ต้องอร่อยมากแน่ๆ$0",
+		"linus_event3": "ฮ่าๆ น่าสนใจจริงๆ คืนวันพวกนั้นเยี่ยมที่สุดเลยล่ะ$1#$b#เมื่อเช้าฉันจับปลาได้นิดหน่อย มื้อค่ำคืนนี้ต้องอร่อยมากแน่ๆ$0"
 		}
 	},
 	
@@ -2918,9 +2918,9 @@
 	 "Action": "EditData",
      "Target": "characters/dialogue/Marnie",
      "Entries": {	
-		"marnie_event1": "That's great to hear! I also get my seeds from Pierre.$1",
-		"marnie_event2": "Aww, that's lovely, @. I'm happy you're treating them well.$1",
-		"marnie_event3": "Oh, wow! That sounds like a lot of work, @!$1"
+		"marnie_event1": "ดีใจที่ได้ยินอย่างนั้นนะจ๊ะ! ฉันก็ได้เมล็ดพันธุ์มาจาก ปีแอร์เหมือนกัน$1",
+		"marnie_event2": "โอ้วว นี่มันน่ารักจังเลยจ้ะ @ ฉันดีใจจังเลยที่เธอ ดูแลพวกเขาเป็นอย่างดี$1",
+		"marnie_event3": "โอ้ ว้าว! ฟังดูเหมือนจะเป็นงาน ที่เยอะเหมือนกันนะจ๊ะ @!$1"
 		}
 	},
 	
