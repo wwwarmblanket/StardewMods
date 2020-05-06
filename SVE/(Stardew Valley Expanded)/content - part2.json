@@ -2804,9 +2804,9 @@
 	 "Action": "EditData",
      "Target": "characters/dialogue/Clint",
      "Entries": {	
-		"clint_event1": "I look up to you Adventurer Guild members. You keep everyone safe from monsters.$0",
-		"clint_event2": "...Yeah. I knew a couple of them. Fine adventurers with amazing skill.$2",
-		"clint_event3": "I've hiked up there myself. Some of those adventurers had quite the kill count on their tombstones. They were fine people.$0"
+		"clint_event1": "ผมชื่นชมคุณนะ สมาชิกของสมาคมนักผจญภัย คุณทำให้ทุกๆ คนปลอดภัยจากสัตว์ประหลาด$0",
+		"clint_event2": "...ช่ายย ฉันรู้จักอยู่สองคน นักผจญภัยเจ๋งๆ ที่มีทักษะที่เยี่ยมยอด$2",
+		"clint_event3": "ฉันเคยไปที่นั่นแล้ว บนป้ายหินฝังศพของ นักผจญภัยบางคนมีจำนวน การสังหารที่เยอะเลยล่ะ  พวกเขาเป็นคนที่เยี่ยมจริงๆ$0"
 		}
 	},
 	
@@ -2814,12 +2814,12 @@
 	 "Action": "EditData",
      "Target": "characters/dialogue/Demetrius",
      "Entries": {	
-		"demetrius_event1": "Robin told me she constructed some new buildings on your farm. I hope they're working out for you!$1",
-		"demetrius_event2": "That's a smart idea! Automating the process should save you time!$1",
-		"demetrius_event3": "I ran into Marlon recently and he told me you're an Adventurers Guild member.$0#$b#You must show promise as a skilled swordsman!$1",
-		"demetrius_event4": "That's correct, @!$1",
-		"demetrius_event5": "Haha! You tried to guess at least, @.$1",
-		"demetrius_event6": "Allow me to tell you!$1"
+		"demetrius_event1": "โรบินบอกให้ผมสร้าง อะไรสักอย่างที่ใหม่ๆ ในฟาร์มของคุณ ผมหวังว่ามันจะมีประโยชน์ กับคุณนะ!$1",
+		"demetrius_event2": "นั่นเป็นความคิดที่ เยี่ยมมากเลยครับ! กระบวนการอัตโนมัติ จะช่วยให้คุณไม่เสียเวลา!$1",
+		"demetrius_event3": "เร็วๆ นี้ผมบังเอิญไปเจอมาร์ลอน เขาบอกผมว่าคุณเป็นสมาชิก ของสมาคมนักผจญภัย$0#$b#คุณคงจะต้องเอ่ยคำสัญญา ในฐานะนักดาบ ที่มีความสามารถสินะ!$1",
+		"demetrius_event4": "ถูกต้องเลยล่ะ @!$1",
+		"demetrius_event5": "ฮ่าๆ ! อย่างน้อยคุณก็พยายามจะเดาล่ะนะ @ $1",
+		"demetrius_event6": "ให้ผมบอกคุณเถอะครับ!$1"
 		}
 	},
 	
@@ -2829,8 +2829,8 @@
      "Entries": {	
 		"dwarf_event1": "...",
 		"dwarf_event2": "...",
-		"dwarf_event3": "Yes. There is good in your kind.",
-		"dwarf_event4": "Perhaps... but it is still used in a way that causes death and destruction."
+		"dwarf_event3": "ใช่แล้ว ในเผ่าพันธุ์ของคุณ ยังมีอะไรดีๆ อยู่",
+		"dwarf_event4": "บางทีนะ... แต่มันก็ยังถูกใช้เพื่อสังหาร และทำลายล้างอยู่ดี"
 		}
 	},
 	
@@ -2851,11 +2851,11 @@
 	 "Action": "EditData",
      "Target": "characters/dialogue/Gus",
      "Entries": {	
-		"gus_event1": "She was here a moment ago. She left to run some errands though.$0",
-		"gus_event2": "I see! I was just there. Willy is fishing on the dock right now.$1",
-		"gus_event3": "Taking in the view of the Gem Sea, of course!$1",
-		"gus_event4": "I always make the effort to visit Sophia when I have free time. She really appreciates it.$2",
-		"gus_event5": "Hmm... that's why Sophia hates Joja.$2#$b#She... blames them for the death of her parents.$2"
+		"gus_event1": "มื่อกี๊เธอยังอยู่ตรงนี้นะ แต่เธอไปจัดการธุระด่วน บางอย่างน่ะ$0",
+		"gus_event2": "อ๋อ! ฉันเพิ่มจะไปที่นั่นมา ตอนนี้วิลลี่กำลังตกปลา อยู่ที่ท่าเรือน่ะ$1",
+		"gus_event3": "ดื่มด่ำทิวทัศน์ของทะเลอัญมณี แน่อยู่แล้วสิ!$1",
+		"gus_event4": "ตอนที่ฉันมีเวลาว่าง ฉันพยายามไปเยี่ยมโซเฟีย อยู่เสมอ เธอซึ้งใจมากๆ เลยล่ะ$2",
+		"gus_event5": "อืมม... นั่นก็คือสาเหตุที่ โซเฟียเกลียดโจจ้า$2#$b#เธอ... บอกว่าพวกนั้นเป็นสาเหตุ ให้พ่อกับแม่ของเธอเสียชีวิต$2"
 		}
 	},
 	
