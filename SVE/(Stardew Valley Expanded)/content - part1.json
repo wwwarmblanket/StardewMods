@@ -4319,7 +4319,7 @@
         "BeforeMovie": {
           "ResponsePoint": null,
           "Script": "",
-          "Text": "Thanks for inviting me to the movies, @!$1"
+          "Text": "ขอบคุณที่ชวนผมมาดูหนังนะฮะ @!$1"
         },
         "DuringMovie": {
           "ResponsePoint": null,
@@ -4329,7 +4329,7 @@
         "AfterMovie": {
           "ResponsePoint": null,
           "Script": "",
-          "Text": "It was a magical film! Thank you, @.$1#$e#Maybe I'll try creating the 'Brave Little Sappling' myself with magic some day!$1"
+          "Text": "นี่มันหนังเวทมนตร์นี่! ขอบคุณนะ @$1#$e#ไม่แน่ว่าสักวันผมจะสร้าง 'ต้นกล้าน้อยผจญภัย' จากเวทมนตร์ได้บ้าง!$1"
         }
       },
         "ID": "reaction_0"
@@ -4342,7 +4342,7 @@
         "BeforeMovie": {
           "ResponsePoint": null,
           "Script": "",
-          "Text": "A horror film? Okay...$8"
+          "Text": "หนังสยองขวัญหรอ? ก็ได้...$8"
         },
         "DuringMovie": {
           "ResponsePoint": null,
@@ -4352,7 +4352,7 @@
         "AfterMovie": {
           "ResponsePoint": null,
           "Script": "",
-          "Text": "That was scary...$2"
+          "Text": "มันน่ากลัวจัง...$2"
         }
       },
         "ID": "reaction_1"
@@ -4365,17 +4365,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Thanks for inviting me, @.$1"
+            "Text": "ขอบคุณที่ชวนผมมาดูหนังนะฮะ @$1"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "*yawn*$6"
+            "Text": "*หาว*$6"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "*yawn* that was kinda boring.$0#$e#Oh! Um. I enjoyed the movie!$3#$e#...$3",
+            "Text": "*หาว* นี่มันน่าเบื่อจังแฮะ$0#$e#โอ้! อืม หนังสนุกนะฮะเนี่ย!$3#$e#...$3",
           }
         },
         "ID": "reaction_2"
@@ -4388,17 +4388,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "People are staring at my hat.$8"
+            "Text": "คนพวกนั้นเค้าจ้องหมวกผมล่ะ$8"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Whoa!!!$1"
+            "Text": "โว้ววว!!!$1"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I was on the edge of my seat there at the end!$1"
+            "Text": "ผมนั่งอยู่ขอบเก้าอี้ตลอดทั้งเรื่องเลยนะเนี้ย!$1"
           }
         },
         "ID": "reaction_3"
@@ -4411,7 +4411,7 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "People are staring at my hat.$8"
+            "Text": "คนพวกนั้นเค้าจ้องหมวกผมล่ะ$8"
           },
           "DuringMovie": {
             "ResponsePoint": null,
@@ -4421,7 +4421,7 @@
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "That was a good movie! I can't wait to tell Magnus about it!$1"
+            "Text": "เป็นหนังที่ดีมากเลยฮะ! ผมอยากจะรีบกลับไปเล่าให้อาจารย์ฟังแล้ว!$1"
           }
         },
         "ID": "reaction_4"
