@@ -2941,8 +2941,8 @@
 	 "Action": "EditData",
      "Target": "characters/dialogue/Vincent",
      "Entries": {	
-		"vincent_event1": "They do! I sometimes find some myself and sell 'em to Willy.$0#$b#He gives me enough to buy some ice cream or some games of Prairie King at the arcade.$1",
-		"vincent_event2": "I like ocean creatures a lot! These tide pools allow me to get a good close look of all sorts of them!$0"
+		"vincent_event1": "พวกมันจริงด้วย! บางครั้งผมก็เจอ เจ้าพวกนี้นะฮะ แล้วก็เอาไปขายให้ลุงวิลลี่$0#$b#ลุงเขาให้เงินผมด้วย มันมากพอที่จะเอาไป ซื้อไอศครีมหรือไม่ก็ เล่นเกมราชาแพร์รี (Prairie King) ซักเกม$1",
+		"vincent_event2": "ผมชอบสิ่งมีชีวิตในทะเล มากเลย! แอ่งน้ำพวกนี้ทำให้ผม ได้ดูพวกมันแบบใกล้สุดๆ !$0"
 		}
 	},
 	
@@ -2950,9 +2950,9 @@
 	 "Action": "EditData",
      "Target": "characters/dialogue/Willy",
      "Entries": {	
-		"willy_event1": "Good to hear you're still enjoying fishing, @.$0#$b#I'm happy I gave you my old  rod to get you started!$1",
-		"willy_event2": "That is marvelous to hear, @! I'm happy I gave you my old fishing rod to get you started!$1#$b#I never imagined you’d turn out to be such a skilled angler.$1",
-		"willy_event3": "Sorry to hear it, @. Hopefully you'll pick up fishing again soon!$0"
+		"willy_event1": "ดีใจที่รู้ว่าเธอยัง ชอบตกปลาอยู่นะ @ $0#$b#ฉันดีใจนะเนี่ย ที่เบ็ดคันเก่าที่ฉันให้เธอไป ทำให้เธอได้เริ่มตกปลาน่ะ!$1",
+		"willy_event2": "ได้ยินแล้วดีใจจังเลยแฮะ @! ฉันดีใจนะเนี่ย ที่เบ็ดคันเก่าที่ฉันให้เธอไป ทำให้เธอได้เริ่มตกปลาน่ะ!$1#$b#ฉันไม่เคยคิดมาก่อนเลยว่า เธอจะกลายเป็นนักตกปลา ที่เจ๋งขนาดนี้$1",
+		"willy_event3": "ฟังแล้วเศร้าเหมือนกันนะเนี่ย @ หวังว่าเร็วๆ นี้ เธอจะกลับมาจับ คันเบ็ดอีกครั้งนะ!$0"
 		}
 	},
 	
