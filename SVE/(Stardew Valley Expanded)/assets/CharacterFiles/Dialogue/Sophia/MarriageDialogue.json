@@ -32,12 +32,12 @@
   "winter_28": "ฉันเสียใจที่หิมะ ไม่อยู่กับเราแล้ว ฉันจะต้องคิดถึงตอนที่ ต้องย่ำแรงๆ เวลาเดินในหิมะแน่เลย$2#$e#%คุณลูบหัวโซเฟีย",
   
   //DAY DIALOGUE
-  "Indoor_Day_0": "Hey, you! Good morning. Did you sleep okay?$1#$e#Thinking about maybe putting together a new cosplay soon!$9",
-  "Indoor_Day_1": "*yawn* I'm so sleepy still.$2#$e#Have a nice day, silly.$1#$e#Oh. How could I forget?$4#$b#*smooch*!!!$9",
-  "Indoor_Day_2": "Yay! You're finally up!$9#$e#Craving anything for breakfast?$1",
-  "Indoor_Day_3": "If you're going out, mind picking up some snacks from Pierre's?$1#$e#I love snacks!$9",
-  "Indoor_Day_4": "Hey, you! I made us some coffee.[395]$4#$e#Hope you have a productive day, silly!$1",
-  "Outdoor_0": "I love the fresh air here. I'm used to the salty air blowing in from the ocean.$0",
+  "Indoor_Day_0": "อ้ะ เธอ! อรุณสวัสดิ์ หลับสบายรึเปล่า?$1#$e#กำลังคิดเรื่องที่เราอาจจะได้ ลองคอสเพลย์ชุดใหม่ด้วยกัน!$9",
+  "Indoor_Day_1": "*หาวว* ฉันยังง่วงอยู่เลย$2#$e#ขอให้เป็นวันที่ดีนะ คนบ๊อง$1#$e#โอ้ ฉันลืมไปได้ยังไงกันน้า?$4#$b#*จุ๊บ*!!!$9",
+  "Indoor_Day_2": "เย่! ในที่สุดเธอก็ตื่นแล้ว!$9#$e#อยากจะได้อะไร เป็นอาหารเช้ารึเปล่า?$1",
+  "Indoor_Day_3": "ถ้าเธอจะออกไปข้างนอก ซื้อขนมกินเล่นจาก ร้านปีแอร์ให้หน่อยได้ไหม?$1#$e#ฉันรักพวกมันสุดๆ ไปเลย!$9",
+  "Indoor_Day_4": "นี่ เธอ! ฉันทำกาแฟให้เราทั้งคู่ล่ะ[395]$4#$e#หวังว่าวันนี้เธอจะ ทำงานได้ราบรื่นนะ คนบ๊อง!$1", 
+  "Outdoor_0": "ฉันชอบอากาศสดชื่นตรงนี้จัง ฉันคุ้นเคยกับลมทะเล ที่พัดเข้ามาจากมหาสมุทร$0",
   "Outdoor_1": "What a lovely day to read a book outside! It's beautiful.$1",
   "Outdoor_2": "We should turn all of the fruit you grow into wine! Do you think that's a good idea?$9",
   "Outdoor_3": "Don't overwork yourself, silly. If you need a cuddle break, just ask.$1#$e#*smooch*$9",
