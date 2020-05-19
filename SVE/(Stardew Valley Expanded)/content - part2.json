@@ -1080,7 +1080,7 @@
           },
           "DuringMovie": {
             "ResponsePoint": null,
-            "Script": "/shake MorrisTod 2000/pause 500/message \"Morris is laughing.\"",
+            "Script": "/shake MorrisTod 2000/pause 500/message \"มอร์ริสกำลังหัวเราะ\"",
             "Text": "ฮ่าฮ่า! เป็นการแสดงที่ยอดเยี่ยม!$1"
           },
           "AfterMovie": {
