@@ -1,11 +1,11 @@
 {
-  "Name": "Looking for Love",
-   "Author": "sivolobwho and foggywizard",
-   "Description": "(ตามหารัก) ให้คุณจีบและแต่งงานกับคลินท์ กัส เทสมนตรีเลวิส ลินัส มาร์นี แพม แซนดี้ วิลลี่ และพ่อมดได้",
-   "Version": "1.1",
+  "Name": "Looking for Love (Thai Version)",
+   "Author": "sivolobwho and foggywizard ",
+   "Description": "(ตามหารัก) ให้คุณจีบและแต่งงานกับคลินท์ กัส เทศมนตรีเลวิส ลินัส มาร์นี แพม แซนดี้ วิลลี่ และพ่อมดได้ - Translate by Translator Army",
+   "Version": "1.1.1",
    "UniqueID": "foggy.LfL",
    "ContentPackFor": {
        "UniqueID": "Pathoschild.ContentPatcher"
     },
-   "UpdateKeys": [ "Nexus:3054" ],
+   "UpdateKeys": ["Nexus:6236"],
 }
