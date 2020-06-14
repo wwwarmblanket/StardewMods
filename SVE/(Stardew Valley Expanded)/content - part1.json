@@ -4589,7 +4589,7 @@
       //Wizard's Schedule
       "Action": "Load",
       "Target": "Characters/schedules/Wizard",
-	  "When": { "HasMod:foggy.LfL": false, "HasMod:Ran.HarvestGoddess": false, "HasMod:misscoriel.razolyn": false },
+	  "When": { "HasMod:foggy.LfL": false, "HasMod:misscoriel.razolyn": false },
       "FromFile": "assets/CharacterFiles/Schedules/Wizard/WizardSchedule.json"
     },
 	
