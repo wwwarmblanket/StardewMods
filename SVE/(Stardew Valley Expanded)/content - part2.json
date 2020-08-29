@@ -3196,6 +3196,16 @@
 
         //COMPATIBILITY PATCHES
  
+      //Stardew Aquarium compatibility patch
+ 
+{
+     "Action": "EditMap",
+     "Target": "Maps/Railroad",
+     "FromFile": "Assets/Maps/Railroad_Aquarium.tbin",
+	 "When": { "HasMod:Cherry.StardewAquarium": true },
+     "ToArea": { "X": 29, "Y": 41, "Width": 4, "Height": 2 }
+},
+ 
      //Looking For Love compatibility patches
 {
 	"Action": "Load",
