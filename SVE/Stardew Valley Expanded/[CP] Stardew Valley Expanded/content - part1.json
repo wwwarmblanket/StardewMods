@@ -8228,7 +8228,7 @@ Old forest crop patches (takes 4 seconds longer to patch upon first load)
       "Action": "EditData",
       "Target": "data/festivals/spring24",
       "Entries": {
-        "Morgan": "อืม คะ-คุณมาตรงที่ได้ยังไง?$5#$e#เรารู้แล้ว คุณก็เป็นพ่อมดใช่มั้ยล่ะ!$3#$e#งั้นหรอ ไม่สิ คุณเล่นโกงสินะ$1#$e#%Morgan ทำให้ความพยายามของคุณพังทลาย"
+        "Morgan": "อืม คะ-คุณมาตรงที่ได้ยังไง?$5#$e#เรารู้แล้ว คุณก็เป็นพ่อมดใช่มั้ยล่ะ!$3#$e#งั้นหรอ ไม่สิ คุณเล่นโกงสินะ$1#$e#%มอร์แกน ทำให้ความพยายามของคุณพังทลาย"
       }
     },
 	
@@ -8328,7 +8328,7 @@ Old forest crop patches (takes 4 seconds longer to patch upon first load)
       "Target": "Characters/Dialogue/Wizard",
       "Entries": {
 	  "AdventureGuild_4_13": "กิลล์นักผจญภัยมีภาระกิจในวันนี้ มีอาวุธมากมายที่รอรับการลงอาคมเวทย์$0",
-	  "ForestWest_52_117": "%Magnus กำลังใช้สมาธิและไม่ได้สนใจคุณ",
+	  "ForestWest_52_117": "%มอร์แกน กำลังใช้สมาธิและไม่ได้สนใจคุณ",
 	  },
     },
 	
