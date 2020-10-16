@@ -2,7 +2,7 @@
 	"Name": "Joja Veggie Machine",
 	"Product": "Joja Veggie",
 	"SeedName": "Joja Veggie Seeds",
-	"SeedDescription": "Plant these in the spring, summer or fall. Takes 13 days to mature. The platform is impassable. A light turns red when ready to harvest.",
+	"SeedDescription": "(เครื่องผลิตผลโจจ้าผักสด) ปลูกเจ้าสิ่งนี้ได้ในฤดูใบไม้ผลิ, ฤดูร้อน หรือฤดูใบไม้ร่วง ใช้เวลา 13 วันในการโตเต็มที่ และจะให้ผลผลิตต่อเนื่อง ไม่สามารถเดินทะลุกระถางได้ ผลผลิตจะพร้อมเก็บเกี่ยวเมื่อไฟสีแดงติดบนเครื่อง",
 	"Type": "Vegetable",
 	"CropType": "Normal",
 	"Seasons": ["spring", "summer", "fall"],
