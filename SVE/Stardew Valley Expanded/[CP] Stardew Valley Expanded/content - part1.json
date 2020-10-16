@@ -8328,7 +8328,7 @@ Old forest crop patches (takes 4 seconds longer to patch upon first load)
       "Target": "Characters/Dialogue/Wizard",
       "Entries": {
 	  "AdventureGuild_4_13": "กิลล์นักผจญภัยมีภาระกิจในวันนี้ มีอาวุธมากมายที่รอรับการลงอาคมเวทย์$0",
-	  "ForestWest_52_117": "%มอร์แกน กำลังใช้สมาธิและไม่ได้สนใจคุณ",
+	  "ForestWest_52_117": "%แมกนัส กำลังใช้สมาธิและไม่ได้สนใจคุณ",
 	  },
     },
 	
