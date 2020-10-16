@@ -1,20 +1,20 @@
 ﻿{
   //SPECIAL DIALOGUE
-  "Introduction": "Hey there. You're that new owner of %farm Farm. My manager held a meeting about you!$0#$b#I work part-time at Joja Mart.$1#$e#Err. Forget what I said about that meeting. It could get me in trouble.$4",
-  "Town_92_44": "%'Employee Entrance'",
-  "BusStop_12_8": "%Bus Driver: Either get on the bus or step off sir.^%Bus Driver: Either get on the bus or step off ma'am.",
+  "Introduction": "โอ้ หวัดดี คุณคือเจ้าของใหม่ของฟาร์ม %farm สินะ ผู้จัดการเคยจัดประชุม เรื่องของคุณเลยนา!$0#$b#ผมทำงานพาร์ทไทม์ ที่ร้านโจจ้า$1#$e#เอ่ออ ช่วยลืมที่ผมพูด เรื่องประชุมเมื่อกี้ที มันอาจทำให้ผมงานเข้า$4",
+  "Town_92_44": "%'ทางเข้าของพนังงาน'",
+  "BusStop_12_8": "%คนขับรถบัส: จะขึ้นรถมั้ยครับคุณผู้ชาย ถ้าไม่ขึ้นก็ถอยไปหน่อยครับ^%%คนขับรถบัส: จะขึ้นรถมั้ยครับคุณผู้หญิง ถ้าไม่ขึ้นก็ถอยไปหน่อยครับ",
   
   
   //SPRING AND GENERAL DIALOGUE
-  "Tue": "Uhh. Hi.$0",
-  "Tue2": "My mom packed me a big lunch today.$0#$e#She packed 'cheez curls', my favorite chips!$1",
-  "Tue8": "Hi, @. Keeping yourself busy as always.$0#$e#Well, see you around.$6",
-  "Sat": "*sigh*... I don't want to work today.$2#$e#Oh. Hey. Can I help you?$4",
-  "Sat2": "Hey. What do you think about Claire, my co-worker?$0#$e#She's really cool.$6",
-  "Sat6": "Hey @! How are you!?$1#$e#I'm pepped up on the coffee my mom brewed this morning!$1#$e#Have a fantastic day!$1",
-  "Sun": "I sometimes take the bus here to check out books from the library.$0#$e#That guy with the goatee doesn't talk much.$0",
-  "Sun2": "Hmm...$4#$e#...$4#$e#Oh! Hey!$1#$b#Just thinking to myself. Don't mind me.$0",
-  "Sun6": "Got a big test comin' up! Need to prepare myself.$1#$e#Your town's library has a bunch of interesting books.$0",
+  "Tue": "อ่าห์ หวัดดี $0",
+  "Tue2": "แม่ผมทำข้าวกล่องใหญ่เบิ้ม มาให้ผมเลยนะวันนี้$0#$e#แม่ใส่ขนม 'ชีส เคิร์ล' มาด้วย ขนมนี่ของโปรดผมเลย!$1",
+  "Tue8": "ดีครับ @ ยังทำตัวยุ่งตลอดเวลา เหมือนเดิมเลยนะ$0#$e#งั้น ไว้เจอกัน$6",
+  "Sat": "*เฮ้อ*... วันนี้ไม่อยากทำงานเลยอ่า$2#$e#โอ้ะ อ่า รับอะไรดีครับ?$4",
+  "Sat2": "นี่ คุณคิดยังไงกับแคลร์หรอ ก็พื่อนร่วมงานผมไง?$0#$e#เธอแบบ อย่างเจ๋งเลยนะ$6",
+  "Sat6": "@ นี่! สบายดีเปล่า!?$1#$e#ผมกำลังดื่มกาแฟ ที่แม่ชงเมื่อเช้านี้!$1#$e#วันนี้ต้องแจ่มแม๊วสุดๆ !$1",
+  "Sun": "บางทีผมก็ขึ้นรถบัสจากที่่นี่ เพื่อไปยืมหนังสือที่ห้องสมุด$0#$e#ผู้ชายเคราแพะคนนั้น ไม่ค่อยจะพูดสักเท่าไหร่นะ$0",
+  "Sun2": "หืม...$4#$e#...$4#$e#โอ้! ไง!$1#$b#แค่กำลังคิดอะไรเพลินๆ ไม่ต้องใส่ใจหรอก$0",
+  "Sun6": "ใกล้จะถึงการสอบครั้งใหญ่แล้วสิ! ต้องเตรียมตัวให้ดีๆ$1#$e#ห้องสมุดในเมืองของคุณ มีหนังสือน่าสนใจ เยอะเลยแหละ$0",
   
   
   //SUMMER DIALOGUE
