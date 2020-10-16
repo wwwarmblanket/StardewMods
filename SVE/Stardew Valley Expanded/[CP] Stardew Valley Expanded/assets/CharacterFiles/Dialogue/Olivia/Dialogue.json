@@ -3,7 +3,7 @@
   //SPECIAL DIALOGUE
   "Introduction": "คุณพระ! คนๆ นั้นใช่ไหมนะ! ยินดีต้อนรับนะจ๊ะ ที่รัก$6#$b#มันน่าตื่นเต้นมากเลย ที่มีใครย้ายเข้ามาใหม่!$1#$e#เธอเคยเจอลูกชายของฉัน หรือยังจ๊ะ วิคเตอร์น่ะ$3",
   "divorced": "ได้ของที่ต้องการแล้วนี่ งั้นก็ไปได้แล้ว$5",
-  "danceRejection": "You wish to dance with me? Dear, I'm afraid I will have to decline.$6",
+  "danceRejection": "เธออยากจะเต้นรำกับฉันหรือจ๊ะ ที่รัก? แต่ฉันเกรงว่า ฉันคงต้องปฏิเสธเธอล่ะจ่ะ$6",
   "secondChance_Girls": "...ตั้งสติหน่อย @?$6#$b#ที่รัก... ฉันทำงานอย่างหนัก เพื่อลืมสิ่งที่เธอทำกับฉันไว้ การแต่งงาน... มันเป็นอะไรที่สำคัญมาก สำหรับฉัน คุณก็รู้$2#$b#... ฉันพร้อมที่จะทำมันอีกครั้ง แต่นี่จะเป็นครั้งสุดท้ายแล้ว$3#$b#ฉันรักคุณนะที่รัก หวังว่าฉันจะไม่ทำพลาด ที่จะเชื่อใจคุณอีกครั้งนะ$2",
   "dumped_Girls": "คุณกล้าที่จะมาคุย กับฉันหรือยังล่ะ @?$5#$b#ฉันต้องการเวลาสักหน่อย แล้วก็ดื่มสักนิด$2",
   "breakUp": "ฉันรู้ว่าไอเดียนี้ มันแย่ตั้งแต่แรก$2#$b#ขอบคุณที่ คอยรับฟังฉันนะ$0#$e#...$2",
@@ -173,13 +173,13 @@
   "winter_Sun8": "เธอโอเคมั้ย @? ทำไมดูหน้าซีดๆ$6#$e#...ดูแลสุขภาพด้วยนะ เธอควรจะไปเช็คกับฮาร์วีย์นะ ไม่อยากให้อะไรแย่ๆ เกิดกับเธอเลยแฮะ$2",
 
   //EVENT DIALOGUE
-  "Olivia_event1": "Oh, why of course.$1#$b#The lovely animals on our farm.$3",
-  "Olivia_event2": "Oh, your grandfather?$0#$b#I can't imagine a scenario where he wouldn't be.$3",
-  "Olivia_event3": "Ah, yes. The friendships you've made...$1",
-  "Olivia_event4": "Oh, my. Quite the topic, dear.$6",
-  "Olivia_event5": "I'm hopeful she'll overcome this...$2",
-  "Olivia_event6": "A part of me believes that...$2#$b#She's hurting. She's lost loved ones, too...$2",
-  "Olivia_event7": "Her daughter just turned six. Suki's shown me pictures, and she's absolutely precious.$3#$b#I hope I can visit next time she's in the valley...$0",
-  "Olivia_event8": "It is. I can't stop thinking about all those hurt people out there...$2"
+  "Olivia_event1": "โอ้ นั่นสินะ$1#$b#ความน่ารักของสัตว์เลี้ยงในฟาร์มของเรา$3",
+  "Olivia_event2": "โอ้ คุณปู่ของคุณอย่างนั้นหรอ?$0#$b#ฉันจิตนาการถึงภาพนั้น ไม่ออกเลยว่า ทำไมคุณปู่จะไม่คิดแบบนั้น$3",
+  "Olivia_event3": "อาาา ใช่ ความสัมพันธ์ที่คุณกำลังสร้างขึ้น...$1",
+  "Olivia_event4": "เอาเถอะ เราเลิกพูดถึงเรื่องนี้กันดีกว่า ที่รัก$6",
+  "Olivia_event5": "ฉันหวังว่าเธอจะผ่านพ้นมันไปได้...$2",
+  "Olivia_event6": "ส่วนหนึ่งในใจของฉันก็คิดแบบนั้น...$2#$b#เธอคงเจ็บปวด และเธอก็ยังสูญเสียคนที่เธอรักไปด้วย...$2",
+  "Olivia_event7": "ลูกสาวของเธอพึ่งจะอายุ 6 ขวบ ซูกิเคยเอารูปของลูกสาวเธอ ให้ฉันดู เธอช่างน่ารักน่าชัง$3#$b#ฉันหวังว่า ฉันจะมีโอกาส แวะไปเยี่ยมเธอครั้งหน้า ตอนที่เธอมาที่หุบเขานี้...$0",
+  "Olivia_event8": "งั้นหรอ งั้นเราหยุดคิดถึงเหล่าคนที่ กำลังทุขทรมานพวกนั้น ก็แล้วกัน...$2"
   
 }
