@@ -33,6 +33,7 @@
 "BlueMoonVineyard_21_47": "*ดม*...$12",
 "Hospital_6_17": "เอ่อ ฉันกำลังยุ่งกับการ ไปรับยาจากหมอฮาร์วีย์อยู่$2",
 "Town_42_87": "...$12",
+"Saloon_20_19": "I try to be social every so often. No better place than the saloon!$1",
 "JenkinsHouse_23_27": "วันนี้ฉันดูอนิเมะ กับวิกเตอร์ด้วยล่ะ$1",
 "JenkinsHouse_29_11": "'โรงเรียนยอดวายร้าย (My Villain Academia)' น่ะ เจ๋งมากเลยนะ!$9",
 "JenkinsHouse_19_39": "บาย วิกเตอร์!$1",
@@ -192,4 +193,7 @@
 "sophia_event2": "อาวว คุณนี่น่ารักจัง$9#$b#คุณก็รู้ใช่ไหม สการ์เลตเคยโทรหาฉันทุกๆ วัน!#$b#มัน... ดีมากเลย การที่ได้มีคนแบบคุณอยู่ใกล้ๆ น่ะ เมืองแกรมเพิลตัน อยู่ห่างจากที่นี่มากจริงๆ$2",
 "sophia_event3": "คุณจะช่วยฉันจริงๆ หรอ?$1#$b#!!!$9",
 "sophia_event4": "อืม ช-ใช่แล้ว...?$2#$b#ฉันจะให้ไวน์บลูมูน (Blue Moon wine) ที่บ่มมานานกับเถอะขวดนึงล่ะ$2#$b#อืม เอาล่ะ ขอบคุณที่ช่วยฉันนะ$1#$b#!!!$9",
+"sophia_event5": "Ooo. What we normally eat?$1#$b#Okay!$9",
+"sophia_event6": "Surprise you? Okay!$9",
+"sophia_event7": "I've been craving pancakes and hashbrowns!$1",
 }
