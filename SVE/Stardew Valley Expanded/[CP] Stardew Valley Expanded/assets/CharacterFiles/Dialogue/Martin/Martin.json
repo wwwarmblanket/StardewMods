@@ -10,7 +10,7 @@
   "Tue2": "แม่ผมทำข้าวกล่องใหญ่เบิ้ม มาให้ผมเลยนะวันนี้$0#$e#แม่ใส่ขนม 'ชีส เคิร์ล' มาด้วย ขนมนี่ของโปรดผมเลย!$1",
   "Tue8": "ดีครับ @ ยังทำตัวยุ่งตลอดเวลา เหมือนเดิมเลยนะ$0#$e#งั้น ไว้เจอกัน$6",
   "Sat": "*เฮ้อ*... วันนี้ไม่อยากทำงานเลยอ่า$2#$e#โอ้ะ อ่า รับอะไรดีครับ?$4",
-  "Sat2": "นี่ คุณคิดยังไงกับแคลร์หรอ ก็พื่อนร่วมงานผมไง?$0#$e#เธอแบบ อย่างเจ๋งเลยนะ$6",
+  "Sat2": "นี่ คุณคิดยังไงกับแคลร์หรอ ก็เพื่อนร่วมงานผมไง?$0#$e#เธอแบบ อย่างเจ๋งเลยนะ$6",
   "Sat6": "@ นี่! สบายดีเปล่า!?$1#$e#ผมกำลังดื่มกาแฟ ที่แม่ชงเมื่อเช้านี้!$1#$e#วันนี้ต้องแจ่มแม๊วสุดๆ !$1",
   "Sun": "บางทีผมก็ขึ้นรถบัสจากที่่นี่ เพื่อไปยืมหนังสือที่ห้องสมุด$0#$e#ผู้ชายเคราแพะคนนั้น ไม่ค่อยจะพูดสักเท่าไหร่นะ$0",
   "Sun2": "หืม...$4#$e#...$4#$e#โอ้! ไง!$1#$b#แค่กำลังคิดอะไรเพลินๆ ไม่ต้องใส่ใจหรอก$0",
@@ -18,33 +18,33 @@
   
   
   //SUMMER DIALOGUE
-  "summer_Tue": "We're havin' clearance sales soon. 5 percent off!$1",
-  "summer_Tue2": "Claire mentioned the air conditioning in the store is too much for her.$2#$e#My manager won't turn it down. He says it attracts customers.$3",
-  "summer_Tue8": "I can see myself moving to Stardew Valley when I'm older.$0#$e#I'm not cut out for farm work like you though.$1",
-  "summer_Sat": "There's a bunch of pretty sights here, particularly the Gem Sea.$0#$e#I just have a view of vast open plains and boring mountains back home.$4",
-  "summer_Sat2": "My dad sort of made me get a part-time job.$4#$e#At least I can buy myself cool stuff.$0",
-  "summer_Sat8": "My mom packed me a couple tacos. I don't mind sharing![213]$0#$e#Her cooking is the best.$1",
-  "summer_Sun6": "I don't really need to study at your library. There's one close to my house.$0#$b#I just want to get out more.$4",
-  "summer_Sun8": "There's a bunch of interesting people in the valley. Are you friends with many people?$0#$e#I live in the countryside. Not too many folks out there.$0",
+  "summer_Tue": "เรากำลังจะจัดโปร ลดโละสินค้า เร็วๆ นี้ ลด 5% แน่ะ!$1",
+  "summer_Tue2": "แคลร์บ่นว่า แอร์ในร้านมันเย็นเกินไปอ่านะ$2#$e#แต่ผู้จัดการก็ ไม่ปรับอุณหภูมิลงหรอกนะ เขาบอกว่าเอาไว้ดึงดูดลูกค้า ว่างั้น$3",
+  "summer_Tue8": "ผมว่า ผมมองเห็นตัวเองตอนแก่ ย้ายมาอาศัยอยู่ที่ สตาร์ดิวแวลลี่อ่า$0#$e#แต่ยังไงผมก็ไม่เหมาะกับ งานในฟาร์ม เหมือนคุณอยู่ดี$1",
+  "summer_Sat": "ที่นี่มีทิวทัศน์ที่สวยงามมากมาย โดยเฉพาะ ทะเลอัญมณี$0#$e#บ้านผม มีแค่ทุ่งราบกว้างๆ กับภูเขาจืดจาง$4",
+  "summer_Sat2": "พ่อช่วยผมให้ได้งานพาร์ทไทม์นี้$4#$e#อย่างน้อยผมก็ซื้อของที่ผมอยาก ได้ด้วยเงินของผมเอง$0",
+  "summer_Sat8": "แม่ผมห่อทาโก้มาให้ 2 อัน เอามั้ยผมแบ่งให้![213]$0#$e#แม่อ่ะ ทำกับข้าวเก่งสุดแล้ว$1",
+  "summer_Sun6": "จริงๆ ผมก็ไม่ได้จำเป็นต้อง ไปอ่านหนังสืออยู่ที่ห้องสมุด ในเมืองนี้หรอก ใกล้ๆ บ้านผมก็มีห้องสมุดอ่ะ$0#$b#ผมแค่อยากยืม หนังสือเพิ่มอีกสักหน่อย$4",
+  "summer_Sun8": "ในหุบเขานี้มีคนเจ๋งๆ เยอะเลยนา คุณมีเพื่อนเยอะรึเปล่า?$0#$e#ผมอาศัยอยู่ในนอกเมืองอ่ะ ไม่ค่อยมีคนอยู่เยอะหรอก$0",
   
   
   //FALL DIALOGUE
-  "fall_Tue": "Hi sir.^Hi ma'am.",
-  "fall_Tue2": "My mom always says 'manners are key'. I try my best to be polite to everyone.$0#$e#Maybe that's why I got the job at Joja Mart.$0",
-  "fall_Tue8": "I gotta work hard while I'm young! Future Martin will appreciate me!$1",
-  "fall_Sat": "*yawn* I was up all night playing video games and now I'm regretting it...$2#$e#I did level up my character though.$1",
-  "fall_Sat8": "I used to make a bunch of foolish mistakes at work, but I've gotten better.$0#$e#Hey. I appreciate you talking to me!$1",
-  "fall_Sun": "*yawn*...$2#$e#Oh. Hey there. How may I help you?$0",
-  "fall_Sun4": "All my close friends are online. I talk to them just about everyday.$6#$e#I want to meet them in real life eventually, but plane tickets are expensive...$0",
-  "fall_Sun8": "Hey there, @. You know, I could maybe talk to my manager and get you some good discounts!$0",
+  "fall_Tue": "สวัสดีครับคุณผู้ชาย^สวัสดีครับคุณผู้หญิง",
+  "fall_Tue2": "แม่พูดเสมอว่า 'สำเนียงสอภาษา กริยาส่อสกุล' ผมจะทำตัวดีและสุภาพ กับทุกคนให้ดีที่สุด $0#$e#นั่นอาจจะเป็น สิ่งที่ทำให้ผมได้ทำงาน ที่ร้านโจจ้าก็ได้$0",
+  "fall_Tue8": "ผมจะทำงานให้หนัก ตอนที่ผมยังหนุ่มนี่แหละ! มาร์ตินในอนาคตต้องภูมิใจแน่!$1",
+  "fall_Sat": "*หาว* ก็เมื่อคืนผมเล่นเกมโต้รุ่งอ่าสิ ตอนนี้ก็เลยมีสภาพอย่างที่เห็น...$2#$e#แต่ยังไงผมก็อัพเลเว่ลตัวละครได้แล้ว$1",
+  "fall_Sat8": "ผมเคยทำผิดพลาดแบบโง่ๆ ตอนอยู่ที่ทำงานเป็นภูเขาเลย แต่ตอนนี้ผมโอเคกับมันแล้ว$0#$e#นี่ ผมปลื้มมาก ที่คุณมาคุยกับผม!$1",
+  "fall_Sun": "*หาว*...$2#$e#โอ้ อ่า ครับ ให้ผมช่วยอะไรมั้ยครับ?$0",
+  "fall_Sun4": "เพื่อนสนิทผม ออนไลน์กันหมดเลยแฮะ ผมคุยกับพวกเขาแทบทุกวัน$6#$e#ผมก็อยากจะเจอกับพวกเขา ในชีวิตจริงสักครั้ง แต่ตั๋วเครื่องบิน คือ อย่างแพงงง...$0",
+  "fall_Sun8": "หวัดดีครับ @ คุณรู้เปล่า ผมอาจจะคุยกับผู้จัดการ เพื่อขอส่วนลดดีๆ ให้คุณได้นะ!$0",
   
   
   //WINTER DIALOGUE
-  "winter_Tue": "This job is a pretty good resume builder.$0", 
-  "winter_Tue8": "Sometimes I catch Claire humming a pleasent tune to herself...$6#$e#Oh. Err. Can I help you with anything @?$0",
-  "winter_Sat4": "My mom is knitting a scarf for me.$0#$e#I hope it isn't too big this time...$4",
-  "winter_Sat8": "I don't often drop by your town's saloon. We should grab a bite to eat sometime!$0",
-  "winter_Sun4": "What's it like owning a farm during winter? You must have a bunch of free time on your hands.$0",
-  "winter_Sun8": "Hey @. Don't overwork yourself!$0"
+  "winter_Tue": "งานที่นี่ ถือว่าดีเลยในการเอาไว้ ปั้นเรซูเม่สมัครงานสวยๆ$0", 
+  "winter_Tue8": "บางครั้งเหมือนฉันได้ยิน แคลร์ฮัมเพลงที่เธอชอบนะ...$6#$e#โอ้.. เอ่อ.. มีอะไรให้ผมช่วยไหมครับ @?$0",
+  "winter_Sat4": "แม่ผมกำลัง ถักผ้าพันคอ ให้ผมอยู่แหละ$0#$e#หวังว่าครั้งนี้ มันคงไม่ใหญ่เกินไป...$4",
+  "winter_Sat8": "ผมไม่ค่อยได้ไปแวะ ที่ซาลูนในเมืองหรอกครับ บางทีเราน่าจะ ไปแวะหาอะไรกินกัน!$0",
+  "winter_Sun4": "ทำฟาร์มตอนฤดูหนาวนี่ เป็นยังไงอ่ะครับ? คุณคงมีเวลาว่างแบบสุดๆ ไปเลย$0",
+  "winter_Sun8": "ไง @ อย่าทำงานหักโหมไปล่ะ!$0"
 
 }
