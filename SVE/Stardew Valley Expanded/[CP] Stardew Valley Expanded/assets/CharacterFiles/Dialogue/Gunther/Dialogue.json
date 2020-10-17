@@ -34,35 +34,35 @@
   "summer_Sat6": "วันนี้นกส่งเสียงร้องกันเจื้อแจ้วเลยนะ$5#$e#อ้าา เกือบจะลืมไปเลย... ผมต้องไปเติมเครื่องให้อาหารนกสักหน่อย$1",
   
   //FALL DIALOGUE
-  "fall_1": "อา... คุณได้ยินเสียงนั้นไม่ครับ?$5#$b#เสียงใบไม้กร้อบแกร๊บปลิวล่อนไปตามลม$1",
+  "fall_1": "อา... คุณได้ยินเสียงนั้นไม่ครับ?$5#$b#เสียงใบไม้กร๊อบแกร๊บปลิวล่อนไปตามลม$1",
   "fall_5": "เมื่อวันก่อนวิลลี่ได้เลาเรื่องการตกปลาให้ผมฟังครับ$1#$e#เขามักจะตกปลาที่แม่น้ำในเมืองตอนกลางดึก...$5#$b#ทันใดนั้นเอง... ก็มีแสงส่องประกายจากแม่น้ำพุ่งมาตรงเหยื่อที่ปลายเบ็ดของเขา!$1#$b#เขาบอกว่า นั่นเป็นสิ่งที่'ปลา Angler'หรือปลาตกเบ็ดมักจะทำ$5",
   "fall_15": "ท่านเทศมนตรีเลวิสบอกว่าจะมีนักท่องเที่ยวประมาณ 2 โหล มาเที่ยวชมงานทศกาลในวันพรุ่งนี้ครับ$5",
   
   "fall_Tue": "ผมน่ะ เคยค้นพบสิ่งที่น่าเหลือเชื่อในขณะกำลังทำวิจัยที่มหาวิทยาลัยเมื่อตอนหนุ่มๆ ด้วยนะครับ$5#$e#ขอให้วันนี้เป็นวันที่ดีครับ คุณ @$0^ขอให้วันนี้เป็นวันที่ดีครับ คุณ @$5",
   "fall_Tue8": "ขอบคุณสำหรับการบริจาคของคุณครับ คุณ @$5^ขอบคุณสำหรับการบริจาคของคุณครับ คุณ @$5#$e#คุณได้ทำสิ่งที่ยิ่งใหญ่มากกว่าที่ใครสักคนจะทำได้!$1",
   "fall_Fri": "สิ่งประดิษฐ์ของคนแคระนั้น จุดประกายการปฏิวัติอุตสาหกรรมทั่วโลกเลยครับ$5#$e#เทคโนโลยีของพวกเขาเป็นตัวกำหนดทิศทางของโลกสมัยใหม่ที่เราอาศัยอยู่$1#$e#ขนาดน้ำมัน หรือถ่านหินที่ดูสกปรก... ยังกลายเป็นแหล่งพลังงานจำเป็นของสังคมเรา$5",
-  "fall_Fri8": "Sometimes I step outside to gaze at the community garden. Folks have put in a lot of work.$5#$b#If I see a crow land in there, I run out to scare it off!$1",
+  "fall_Fri8": "บางครั้งผมก็ออกไปข้างนอกและยืนมองดูไปทางสวนของชุมชม บางคนก็ง่วนอยู่กับงานของพวกเขา$5#$b#ถ้าผมเห็นอีกาบนโฉบลงไปที่นั่น ผมก็จะรีบวิ่งไปไล่มันทันที!$1",
   
   //WINTER DIALOGUE
-  "winter_1": "If you find yourself fatigued from the cold, consider visiting the library.$5#$b#The fire will keep you warm.$1",
-  "winter_24": "Many folks are excited for the Winter Star Festival.$1#$e#I'm assisting Gus with food preparations.$5",
-  "winter_28": "Snow is clearing soon.$5#$e#Good luck with the farming season Mr. @.$5^Good luck with the farming season Ms. @.$5",
+  "winter_1": "ถ้าคุณรู้สึกอ่อนเพลียจากความหนาวเย็นละก็ แวะมาที่ห้องสมุดได้นะครับ$5#$b#เตาผิงจะช่วยให้คุณรู้สึกอุ่นขึ้นได้$1",
+  "winter_24": "ชาวเมืองหลายคนดูจะตื่นเต้นกับงานเทศกาลแห่งดวงดาวฤดูหนาวนะครับ$1#$e#ผมจะเป็นลูกมือของกัส ในการเตรียมอาหารในงานครับ$5",
+  "winter_28": "หิมะกำลังจะละลายหายไปในเร็วๆ นี้ครับ$5#$e#ขอให้โชคดีมาเยือนกับคุณในฤดูกาลเพาะปลูกที่กำลังจะมาถึงครับ คุณ @$5^ขอให้โชคดีมาเยือนกับคุณในฤดูกาลเพาะปลูกที่กำลังจะมาถึงครับ คุณ @$5",
   
-  "winter_Tue": "Hmmm...$2#$e#...$2#$e#Oh, hello. I'm pondering about a... dilemma in my research.$5#$e#Good day, Mr. @$5^Good day, Ms. @.$5",
-  "winter_Tue8": "Clint told me he feels like an archaeologist at times.$5#$e#Well, that's because of the geodes you're having him open for you.$1",
-  "winter_Thu8": "I'll never forget your heroic actions in the mines.$5",
-  "winter_Sun": "Hello, Mr. @. I hope you're making the most out of your day!$1^Hello, Ms. @. I hope you're making the most out of your day!$1",
-  "winter_Sun6": "Oh, you use your hoe to unearth artifacts?$5#$e#I have a handy shovel I could lend you.$1",
+  "winter_Tue": "อืมมมมม...$2#$e#...$2#$e#โอ้ สวัสดีนะครับ ผมกำลังครุ่นคิดเกี่ยวกับ... งานวิจัยของผมที่กำลังถึงาทางตัน$5#$e#ขอให้วันนี้เป็นวันที่ดีครับ คุณ @$5^ขอให้วันนี้เป็นวันที่ดีครับ คุณ @$5",
+  "winter_Tue8": "คลินท์บอกกับผมว่า เขารู้สึกเหมือนเป็นนักโบราณคดีแล้วตอนนี้$5#$e#อ้อ นั่นก็เพราะว่าผลึกโพรง 'geodes' ที่คุณมักนำมาให้เค้าสกัดให้น่ะครับ.$1",
+  "winter_Thu8": "ผมจะไม่มีวันลืมความกล้าหาญของคุณตอนที่อยู่ในเหมืองครับ$5",
+  "winter_Sun": "สวัสดีครับ คุณ @ ขอให้คุณได้ทำวันนี้ให้ดีที่สุด!$1^สวัสดีครับ คุณ @ ขอให้คุณได้ทำวันนี้ให้ดีที่สุด!$1",
+  "winter_Sun6": "โอ้ คุณใช้จอบในการขุดวัตถุโบราณออกมาจากดินหรือครับนั่น?$5#$e#ผมมีพลั่วขนาดพกพาอยู่ ผมให้คุณยืมได้นะครับ$1",
   
   //EVENT DIALOGUE
-  "gunther_event1": "Yes. Several civilizations lived in this valley many hundreds of years ago. Elves, dwarfs, void spirits...$5#$b#I'm determined to unravel the mysteries surrounding these ancient societies.$5",
-  "gunther_event2": "I concur, Mr. @.$5^I concur, Ms. @.$5",
-  "gunther_event3": "Hmm... yes. Many weapons lie beneath the very soil we stand upon.$5#$b#Perhaps one day, we'll discover the origin of these ancient wars between other races...$5",
-  "gunther_event4": "Hmm...#$b#Allow me to draw my own conclusion in that case, Mr. @.^Allow me to draw my own conclusion in that case, Ms. @.$5",
-  "gunther_event5": "Well... yes. I am nervous.$2#$b#This is my first time exploring the mines.$5#$b#I'm honored a revered adventurer such as yourself is escorting me.$1",
-  "gunther_event6": "That's reassuring.$5#$b#I'm honored a revered adventurer such as yourself is escorting me.$1",
-  "gunther_event7": "I'll be right behind you.$5",
-  "gunther_event8": "I'll be right behind you.$5"
+  "gunther_event1": "ใช่แล้ว มีหลากหลายอารยธรรมที่เคยอาศัยอยู่ในหุบเขาแห่งนี้เมื่อหลายร้อยปีก่อน เอลฟ์ คนแคระ วิญญานในเงามืด...$5#$b#ผมยังคงมุ่นมั่งที่จะไขความลับของอารยธรรมโบราณเหล่านี้ครับ$5",
+  "gunther_event2": "อันนี้ผมเห็นด้วยกับคุณ @ ครับ$5^อันนี้ผมเห็นด้วยกับคุณ @ ครับ$5",
+  "gunther_event3": "อืม... น่าคิดนะครับ มีอาวุธมากมายทับถมอยู่ในพื้นดินที่เรายืนอยู่$5#$b#บางที สักวันหนึ่ง เราอาจจะค้นพบต้นตอแห่งสงครามโบราณต่างเผ่าพันธุ์ได้นะครับ...$5",
+  "gunther_event4": "อืมม...#$b#งั้นขออนุญาติให้ผมได้ลองใช้ข้อสรุปของผมในกรณีนี้ครับ คุณ @^อืมม...#$b#งั้นขออนุญาติให้ผมได้ลองใช้ข้อสรุปของผมในกรณีนี้ครับ คุณ @$5",
+  "gunther_event5": "นั่นสินะ... ใช่ครับ ผมรู้สึกประหม่า$2#$b#นี่เป็นครั้งแรกที่ผมได้สำรวจเหมืองน่ะครับ$5#$b#ผมรู้สึกเป็นเกียรติจริงๆ ที่ได้นักผญจภัยที่น่านับถือเช่นคุณเป็นผู้คุ้มกันเลยครับ$1",
+  "gunther_event6": "นั่นทำให้อุ่นใจเลยครับ$5#$b#ผมรู้สึกเป็นเกียรติจริงๆ ที่ได้นักผญจภัยที่น่านับถือเช่นคุณเป็นผู้คุ้มกันเลยครับ$1",
+  "gunther_event7": "ผมจะระวังหลังให้เองครับ$5",
+  "gunther_event8": "ผมจะระวังหลังให้เองครับ$5"
   
 }
 
