@@ -127,6 +127,13 @@
 	 "When": { "ImmersiveShadows": false }
 },
 
+{    //Removes fall leaves in spring, summer, and winter
+     "Action": "EditImage",
+	 "Target": "Maps/z_Leaves",
+	 "FromFile": "Assets/Tilesheets/z_Leaves_noLeaves.png",
+	 "When": { "SeasonalEdits": true, "Season |contains=Fall": false }
+},
+
      //GRANDPAS SHED QUEST LINE
 
 {    //Map patches a path to grandpa's shed at bus stop map
@@ -1193,10 +1200,10 @@
      "Boiler Room/22": "Adventurer's/O {{spacechase0.JsonAssets/ObjectId:Hero Elixir}} 5/766 50 0 684 20 0 767 15 0 768 30 0 769 30 0/1",
 
 	 //Money
-     "Vault/23": "2,500g/O 220 5/-1 7500 7500/4",
-     "Vault/24": "5,000g/O 369 50/-1 15000 15000/2",
-     "Vault/25": "10,000g/BO 9 5/-1 35000 35000/3",
-     "Vault/26": "25,000g/BO 21 1/-1 70000 70000/1",
+     "Vault/23": "7,500g/O 220 5/-1 7500 7500/4",
+     "Vault/24": "15,000g/O 369 50/-1 15000 15000/2",
+     "Vault/25": "35,000g/BO 9 5/-1 35000 35000/3",
+     "Vault/26": "70,000g/BO 21 1/-1 70000 70000/1",
 
 	 //Miscellaneous
      "Bulletin Board/31": "Chef's/O 221 5/724 3 0 259 5 0 430 3 0 376 5 0 228 1 0 194 1 0 {{spacechase0.JsonAssets/ObjectId:Glazed Butterfish}} 1 0/4",
@@ -1379,7 +1386,6 @@
    "ShrineOfIllusionsLetter": "ขอทักทาย @^^เจ้าได้พิสูจน์ความน่าเชื่อใจของเจ้าแล้ว ข้าอยากจะยื่นข้อเสนอ ในการสอนเวทมนตร์พื้นฐานให้กับเจ้า มาหาข้าที่ห้องทันทีที่เจ้าสะดวกล่ะ^^   -เอ็ม. ราสโมเดียส",
    "AndyPictureLetter": "เฮ้ ชาวไร่^^ ฉันเจออะไรบางอย่างตอนกำลังจัดบ้านน่ะ แวะมาหน่อยสิแล้วจะเอาให้ดู รับรองว่าเด็ด!^^   -แอนดี้",
    "SophiaThankYouLetter": "นี่ คุณ^^ ขอบคุณที่ช่วยฉันซ่อมแซมห้องของคุณพ่อคุณแม่ใหม่นะ ฉันคงทำเองไม่ได้ถ้าไม่มีคุณช่วย โดยเฉพาะพวกของหนักๆ ฉันรู้ว่ามันแปลกที่ฉันรื้อข้าวของที่ห่อเก็บไปหมดแล้ว ออกมาใหม่... ฉันคิดว่ามันคือการเปลี่ยนแปลงตัวเอง ^ในห่อนี้เป็นไวน์บลูมูนที่ดีที่สุดที่ฉันบ่มไว้ ขอบคุณนะ ตาทึ่ม^^  -โซเฟีย %item object {{spacechase0.JsonAssets/ObjectId:Aged Blue Moon Wine}} 1 %%",
-   "WillyShearwaterBridgeLetter": "ไง ชาวไร่^^เจ้าตกปลามาสักพักแล้วสินะ มีประสบการณ์บ้างแล้ว ไปเหวี่ยงเบ็ดที่สะพานเชียร์วอเตอร์ ทางตะวันออกของเมืองเพลิแกนดูบ้างละ เจ้าจะได้ปลางามๆ ที่นั่นแน่!^^  -วิลลี่",
    "escortedGunther": "ถึง @,^^ที่แนบมาด้วยเป็นค่าตอบแทนสำหรับงานของคุณ ขอบคุณสำหรับการช่วยเหลือในงานวิจัย และความปลอดภัยของผมนะ^^ -กันเธอร์ %item money 20000 20001 %%",
 	}
 },
@@ -1640,6 +1646,13 @@
 	 "FromFile": "Assets/maps/locations/Town.tbin",
 	 "When": { "HasSeenEvent |contains=5553210": false }
 },
+/*{
+     "Action": "EditMap",
+	 "Target": "Maps/Town",
+	 "FromFile": "Assets/maps/locations/Town_Joja.tbin",
+	 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height": 110 },
+	 "When": { "HasSeenEvent": "5553210" }
+},*/
 {
      "Action": "Load",
 	 "Target": "Maps/Town",
@@ -1687,7 +1700,7 @@
 	 "Target": "Maps/Mountain",
 	 "FromFile": "Assets/maps/locations/Mountain_Joja.tbin",
 	 "When": { "HasSeenEvent": "5553210" },
-	 "ToArea": { "X": 0, "Y": 0, "Width": 135, "Height": 141 }
+	 "ToArea": { "X": 0, "Y": 0, "Width": 135, "Height": 41 }
 },
 {
      "Action": "Load",
@@ -2000,6 +2013,14 @@
 	 "FromFile": "Assets/maps/locations/Mountain-BridgeFixed.tbin"
 },
 
+{    //Patches Krobus at halloween festival after players meet him for the first time
+     "Action": "EditMap",
+     "Target": "Maps/Town-Halloween",
+     "FromFile": "Assets/Maps/MapPatches/KrobusPatched.tbin",
+	 "When": { "HasSeenEvent": "1090501" },
+     "ToArea": { "X": 33, "Y": 106, "Width": 1, "Height": 1 }
+},
+
 {    //Leaf patches
      "Action": "EditMap",
 	 "Target": "Maps/Town",
@@ -2112,7 +2133,9 @@
      "Target": "Maps/{{season}}_town",
      "FromFile": "Assets/Tilesheets/DustyTop.png",
 	 "PatchMode": "Overlay",
-     "ToArea": { "X": 336, "Y": 1024, "Width": 16, "Height": 16 }
+     "ToArea": { "X": 336, "Y": 1024, "Width": 16, "Height": 16 },
+	 "When": { "LocationName": "Town" },
+	 "Update": "OnLocationChange"
 },
 
 {    //Adds Dusty to doghouse - bottom
@@ -2120,7 +2143,9 @@
      "Target": "Maps/{{season}}_town",
      "FromFile": "Assets/Tilesheets/DustyBottom.png",
 	 "PatchMode": "Overlay",
-     "ToArea": { "X": 384, "Y": 992, "Width": 16, "Height": 16 }
+     "ToArea": { "X": 384, "Y": 992, "Width": 16, "Height": 16 },
+	 "When": { "LocationName": "Town" },
+	 "Update": "OnLocationChange"
 },
 
 {    //Fixes Emily bedsheet colors - 2 heart event
@@ -3086,6 +3111,21 @@
    "When": { "HasSeenEvent": "5553210" }
 },
 
+{    //IF2R warp fix - normal
+     "Action": "EditMap",
+     "Target": "Maps/Forest",
+     "FromFile": "Assets/Maps/MapPatches/IF2R_warp_fix1.tbin",
+     "ToArea": { "X": 67, "Y": 0,"Width": 6, "Height": 1 },
+     "When": { "HasMod": "flashshifter.immersivefarm2remastered", "FarmType":"Standard", "HasSeenEvent |contains=5553210": false }
+},
+{    //IF2R warp fix - joja
+     "Action": "EditMap",
+     "Target": "Maps/Forest",
+     "FromFile": "Assets/Maps/MapPatches/IF2R_warp_fix2.tbin",
+     "ToArea": { "X": 67, "Y": 0,"Width": 6, "Height": 1 },
+     "When": { "HasMod": "flashshifter.immersivefarm2remastered", "FarmType":"Standard", "HasSeenEvent": "5553210" }
+},
+
 
    //CROP PHASES
 
@@ -3133,159 +3173,6 @@
      "ToArea": { "X": 0, "Y": 0,"Width": 120, "Height": 120 },
      "When": { "Day": "{{Range: 25, 28}}" }
 },
-
-
-/*
-Old forest crop patches (takes 4 seconds longer to patch upon first load)
-
-{    //Marnie's crops - phase 1
-     "Action": "EditMap",
-     "Target": "Maps/Forest",
-     "FromFile": "Assets/Maps/CropPhases/MarnieCropsPhase1.tbin",
-     "ToArea": { "X": 52, "Y": 21,"Width": 9, "Height": 6 },
-     "When": { "Day": "{{Range: 1, 5}}" }
-},
-{    //Marnie's crops - phase 1
-     "Action": "EditMap",
-     "Target": "Maps/Forest",
-     "FromFile": "Assets/Maps/CropPhases/MarnieCropsPhase1.tbin",
-     "ToArea": { "X": 52, "Y": 21,"Width": 9, "Height": 6 },
-     "When": { "Day": "{{Range: 15, 19}}" }
-},
-{    //Marnie's crops - phase 2
-     "Action": "EditMap",
-     "Target": "Maps/Forest",
-     "FromFile": "Assets/Maps/CropPhases/MarnieCropsPhase2.tbin",
-     "ToArea": { "X": 52, "Y": 21,"Width": 9, "Height": 6 },
-     "When": { "Day": "{{Range: 6, 9}}" }
-},
-{    //Marnie's crops - phase 2
-     "Action": "EditMap",
-     "Target": "Maps/Forest",
-     "FromFile": "Assets/Maps/CropPhases/MarnieCropsPhase2.tbin",
-     "ToArea": { "X": 52, "Y": 21,"Width": 9, "Height": 6 },
-     "When": { "Day": "{{Range: 20, 24}}" }
-},
-{    //Marnie's crops - phase 3
-     "Action": "EditMap",
-     "Target": "Maps/Forest",
-     "FromFile": "Assets/Maps/CropPhases/MarnieCropsPhase3.tbin",
-     "ToArea": { "X": 52, "Y": 21,"Width": 9, "Height": 6 },
-     "When": { "Day": "{{Range: 10, 14}}" }
-},
-{    //Marnie's crops - phase 3
-     "Action": "EditMap",
-     "Target": "Maps/Forest",
-     "FromFile": "Assets/Maps/CropPhases/MarnieCropsPhase3.tbin",
-     "ToArea": { "X": 52, "Y": 21,"Width": 9, "Height": 6 },
-     "When": { "Day": "{{Range: 25, 28}}" }
-},
-{    //Leah's crops - phase 1
-     "Action": "EditMap",
-     "Target": "Maps/Forest",
-     "FromFile": "Assets/Maps/CropPhases/LeahCropsPhase1.tbin",
-     "ToArea": { "X": 110, "Y": 36,"Width": 3, "Height": 3 },
-     "When": { "Day": "{{Range: 1, 4}}" }
-},
-{    //Leah's crops - phase 1
-     "Action": "EditMap",
-     "Target": "Maps/Forest",
-     "FromFile": "Assets/Maps/CropPhases/LeahCropsPhase1.tbin",
-     "ToArea": { "X": 110, "Y": 36,"Width": 3, "Height": 3 },
-     "When": { "Day": "{{Range: 15, 19}}" }
-},
-{    //Leah's crops - phase 2
-     "Action": "EditMap",
-     "Target": "Maps/Forest",
-     "FromFile": "Assets/Maps/CropPhases/LeahCropsPhase2.tbin",
-     "ToArea": { "X": 110, "Y": 36,"Width": 3, "Height": 3 },
-     "When": { "Day": "{{Range: 5, 9}}" }
-},
-{    //Leah's crops - phase 2
-     "Action": "EditMap",
-     "Target": "Maps/Forest",
-     "FromFile": "Assets/Maps/CropPhases/LeahCropsPhase2.tbin",
-     "ToArea": { "X": 110, "Y": 36,"Width": 3, "Height": 3 },
-     "When": { "Day": "{{Range: 20, 24}}" }
-},
-{    //Leah's crops - phase 3
-     "Action": "EditMap",
-     "Target": "Maps/Forest",
-     "FromFile": "Assets/Maps/CropPhases/LeahCropsPhase3.tbin",
-     "ToArea": { "X": 110, "Y": 36,"Width": 3, "Height": 3 },
-     "When": { "Day": "{{Range: 10, 14}}" }
-},
-{    //Leah's crops - phase 3
-     "Action": "EditMap",
-     "Target": "Maps/Forest",
-     "FromFile": "Assets/Maps/CropPhases/LeahCropsPhase3.tbin",
-     "ToArea": { "X": 110, "Y": 36,"Width": 3, "Height": 3 },
-     "When": { "Day": "{{Range: 25, 28}}" }
-},
-{    //Andy's crops - phase 1
-     "Action": "EditMap",
-     "Target": "Maps/Forest",
-     "FromFile": "Assets/Maps/CropPhases/AndyCropsPhase1.tbin",
-     "ToArea": { "X": 71, "Y": 62,"Width": 11, "Height": 9 },
-     "When": { "Day": "{{Range: 1, 5}}" }
-},
-{    //Andy's crops - phase 1
-     "Action": "EditMap",
-     "Target": "Maps/Forest",
-     "FromFile": "Assets/Maps/CropPhases/AndyCropsPhase1.tbin",
-     "ToArea": { "X": 71, "Y": 62,"Width": 11, "Height": 9 },
-     "When": { "Day": "{{Range: 15, 19}}" }
-},
-{    //Andy's crops - phase 2
-     "Action": "EditMap",
-     "Target": "Maps/Forest",
-     "FromFile": "Assets/Maps/CropPhases/AndyCropsPhase2.tbin",
-     "ToArea": { "X": 71, "Y": 62,"Width": 11, "Height": 9 },
-     "When": { "Day": "{{Range: 6, 9}}" }
-},
-{    //Andy's crops - phase 2
-     "Action": "EditMap",
-     "Target": "Maps/Forest",
-     "FromFile": "Assets/Maps/CropPhases/AndyCropsPhase2.tbin",
-     "ToArea": { "X": 71, "Y": 62,"Width": 11, "Height": 9 },
-     "When": { "Day": "{{Range: 20, 24}}" }
-},
-{    //Andy's crops - phase 3
-     "Action": "EditMap",
-     "Target": "Maps/Forest",
-     "FromFile": "Assets/Maps/CropPhases/AndyCropsPhase3.tbin",
-     "ToArea": { "X": 71, "Y": 62,"Width": 11, "Height": 9 },
-     "When": { "Day": "{{Range: 10, 14}}" }
-},
-{    //Andy's crops - phase 3
-     "Action": "EditMap",
-     "Target": "Maps/Forest",
-     "FromFile": "Assets/Maps/CropPhases/AndyCropsPhase3.tbin",
-     "ToArea": { "X": 71, "Y": 62,"Width": 11, "Height": 9 },
-     "When": { "Day": "{{Range: 25, 28}}" }
-},
-{    //Andy's trellis - phase 1
-     "Action": "EditMap",
-     "Target": "Maps/Forest",
-     "FromFile": "Assets/Maps/CropPhases/AndyTrellisPhase1.tbin",
-     "ToArea": { "X": 56, "Y": 70,"Width": 11, "Height": 2 },
-     "When": { "Day": "{{Range: 1, 5}}" }
-},
-{    //Andy's trellis - phase 2
-     "Action": "EditMap",
-     "Target": "Maps/Forest",
-     "FromFile": "Assets/Maps/CropPhases/AndyTrellisPhase2.tbin",
-     "ToArea": { "X": 56, "Y": 70,"Width": 11, "Height": 2 },
-     "When": { "Day": "{{Range: 6, 11}}" }
-},
-{    //Andy's trellis - phase 3
-     "Action": "EditMap",
-     "Target": "Maps/Forest",
-     "FromFile": "Assets/Maps/CropPhases/AndyTrellisPhase3.tbin",
-     "ToArea": { "X": 56, "Y": 70,"Width": 11, "Height": 2 },
-     "When": { "Day": "{{Range: 12, 28}}" }
-},
-*/
 
 {    //Pierre's garden - phase 1
      "Action": "EditMap",
@@ -3434,6 +3321,7 @@ Old forest crop patches (takes 4 seconds longer to patch upon first load)
      "ToArea": { "X": 95, "Y": 104,"Width": 15, "Height": 2 },
      "When": { "Day": "{{Range: 14, 28}}" }
 },
+
 {    //Susan's crops - phase 1
      "Action": "EditMap",
      "Target": "Maps/Railroad",

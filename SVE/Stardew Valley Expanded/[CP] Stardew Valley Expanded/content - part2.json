@@ -3843,7 +3843,7 @@
     "Target": "data/events/town",
 	"When": { "HasSeenEvent": "6665297" },
     "Entries": {
-    "5553210/H": "continue/-200 -200/farmer -20 -20 2 Morris -21 -21 0/broadcastEvent/pause 10/end"
+    "5553210/H": "continue/-200 -200/farmer -20 -20 2 Morris -21 -21 0/pause 10/end"
 	}
 },
 
@@ -5979,6 +5979,7 @@
 	  "fall_Tue": "I miss the park. The town didn't need that parking lot.$2",
 	  "winter_Sat": "We had our heat turned off.$2#$e#We're fortunate we have a fireplace...$2",
 	  "summer_Wed": "Hi, @.#$e#Please excuse me. I'm a bit tired...$2",
+	  "DayEnd_WarpRoom_2_2": "@. Did you cheat to get in here?...$2"
 	  },
 },
 
@@ -6606,12 +6607,12 @@
 	},
 },
 
-{   //Shearwater Bridge open
+{   //WILLY EVENT 4
     "Action": "EditData",
     "Target": "data/events/farm",
 	"When": { "SkillLevel:Fishing": "8, 9, 10" },
     "Entries": {
-    "1054932/z winter/z fall/x WillyShearwaterBridgeLetter": "null"
+    "1054932/z winter/z fall/t 1200 1600": "continue/-500 -500/farmer -20 -20 2 Willy -21 -21 0/pause 1100/speak Willy \"Ahoy, @.$1#$b#You've been anglin' for sometime now. With that fishin' experience under your belt, I recommend casting your line over at shearwater bridge, east of Pelican Town.$0#$b#You'll land some good whoppers there!$1\"/pause 1000/end dialogue Willy \"Butterfish are common at the bridge. Difficult fellas to angle though!$1#$e#Lot's of folks use 'em in a variety of dishes.$0\""
     },
 },
 
