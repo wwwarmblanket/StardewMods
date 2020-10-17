@@ -34,13 +34,13 @@
   "summer_Sat6": "วันนี้นกส่งเสียงร้องกันเจื้อแจ้วเลยนะ$5#$e#อ้าา เกือบจะลืมไปเลย... ผมต้องไปเติมเครื่องให้อาหารนกสักหน่อย$1",
   
   //FALL DIALOGUE
-  "fall_1": "Ah... do you hear that?$5#$b#The rustling sound of leaves travelling with the wind.$1",
-  "fall_5": "Willy shared a fishing story with me the other day.$1#$e#He was river fishing late at night in town...$5#$b#Suddenly... a glowing light from the river snatched the bait from his fishing rod!$1#$b#He tells me it was the doing of the 'Angler'.$5",
-  "fall_15": "Mayor Lewis says some couple dozen tourists are partaking in the festivities tomorrow.$5",
+  "fall_1": "อา... คุณได้ยินเสียงนั้นไม่ครับ?$5#$b#เสียงใบไม้กร้อบแกร๊บปลิวล่อนไปตามลม$1",
+  "fall_5": "เมื่อวันก่อนวิลลี่ได้เลาเรื่องการตกปลาให้ผมฟังครับ$1#$e#เขามักจะตกปลาที่แม่น้ำในเมืองตอนกลางดึก...$5#$b#ทันใดนั้นเอง... ก็มีแสงส่องประกายจากแม่น้ำพุ่งมาตรงเหยื่อที่ปลายเบ็ดของเขา!$1#$b#เขาบอกว่า นั่นเป็นสิ่งที่'ปลา Angler'หรือปลาตกเบ็ดมักจะทำ$5",
+  "fall_15": "ท่านเทศมนตรีเลวิสบอกว่าจะมีนักท่องเที่ยวประมาณ 2 โหล มาเที่ยวชมงานทศกาลในวันพรุ่งนี้ครับ$5",
   
-  "fall_Tue": "I made incredible discoveries while pursuing my research at university as a young lad.$5#$e#Good day, Mr. @.$0^Good day, Ms. @.$5",
-  "fall_Tue8": "Thank you for your donations, Mr. @.$5^Thank you for your donations, Ms. @.$5#$e#You've done so much for one person!$1",
-  "fall_Fri": "Dwarfish gadgets sparked industrial revolutions across the globe.$5#$e#Their technology shapes the modern world we reside in.$1#$e#Oil and coal is dirty... but meets our societies energy needs.$5",
+  "fall_Tue": "ผมน่ะ เคยค้นพบสิ่งที่น่าเหลือเชื่อในขณะกำลังทำวิจัยที่มหาวิทยาลัยเมื่อตอนหนุ่มๆ ด้วยนะครับ$5#$e#ขอให้วันนี้เป็นวันที่ดีครับ คุณ @$0^ขอให้วันนี้เป็นวันที่ดีครับ คุณ @$5",
+  "fall_Tue8": "ขอบคุณสำหรับการบริจาคของคุณครับ คุณ @$5^ขอบคุณสำหรับการบริจาคของคุณครับ คุณ @$5#$e#คุณได้ทำสิ่งที่ยิ่งใหญ่มากกว่าที่ใครสักคนจะทำได้!$1",
+  "fall_Fri": "สิ่งประดิษฐ์ของคนแคระนั้น จุดประกายการปฏิวัติอุตสาหกรรมทั่วโลกเลยครับ$5#$e#เทคโนโลยีของพวกเขาเป็นตัวกำหนดทิศทางของโลกสมัยใหม่ที่เราอาศัยอยู่$1#$e#ขนาดน้ำมัน หรือถ่านหินที่ดูสกปรก... ยังกลายเป็นแหล่งพลังงานจำเป็นของสังคมเรา$5",
   "fall_Fri8": "Sometimes I step outside to gaze at the community garden. Folks have put in a lot of work.$5#$b#If I see a crow land in there, I run out to scare it off!$1",
   
   //WINTER DIALOGUE
