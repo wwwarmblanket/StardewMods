@@ -3525,24 +3525,24 @@
       "Target": "Characters/Dialogue/Victor",
 	  "When": { "Spouse": "Olivia", "PlayerGender": "Male" },
       "Entries": {
-	  "Tue6": "How's your day, father? Do anything productive?$1#$e#I may work more on one of my projects later.$1#$e#It's good to keep yourself busy with something.$3",
-	  "Wed8": "Father, I was just thinking about you.$1#$e#You always seem to keep yourself busy. You're a good role model.$3",
-	  "Thu6": "I accomplished a lot today! I hope you did too.$1",
-	  "Fri8": "Hello, father. Share a glass of Blue Moon wine with me![{{spacechase0.JsonAssets/ObjectId:Blue Moon Wine}}]$3#$e#Gus always keeps a good stock of it at the saloon.$1",
-	  "summer_Mon8": "The weather is going to be superb this week.$1",
-	  "summer_Thu8": "Did you dream about being a farmer when you were young, father?$0#$e#I admire you for following your passion this way. More than you know.$3#$e#You're dedicated. I feel like I have a lot to learn from you.$3",
-	  "summer_Sat8": "There's part of a dwarvish novel I recently finished that described the ancient cities of the dwarves in the Cascadian Mountain range.$1#$e#Their cities were once huge hubs of commerce for the ancient dwarvish people.$7#$b#To this day, we still don't know that much about them...$2#$b#We find their gadgets here and there and know some of their history, but that's really it.$0#$e#Goodbye, father.$3",
-	  "summer_Sun8": "Perhaps you could take me adventuring sometime, father.$1#$e#Oh. Err. I'd just sit in the back and watch.$0#$b#Not really cut out for fighting...$2",
-	  "fall_15": "Greetings, father. Looking forward to the Stardew Valley Fair tomorrow?$3#$b#You're setting up a grange display right?$0#$e#Well, good luck! I'm positive you'll do great.$1",
-	  "fall_Wed6": "It's a chilly day today. Keep yourself bundled up, father.$1",
-	  "fall_Thu8": "Do you ever get scared when you're heading off to adventure, father?$0#$e#...I've probably said this before, but I really envy your bravery. I feel so useless sometimes.$2#$e#I should find my own way to make meaning in the world? Wise words, probably. Let's see if I listen to them.$3",
-	  "fall_Fri8": "Do you... think you could ever teach me one of your skills, father?$0#$e#Oh, none in particular, but I watch mother picking up new skills and I'm envious.$0#$e#It'd be nice to try something new soon.$0",
-	  "fall_Sun8": "How is mother doing?$1#$e#She's very happy with you.$1",
-	  "winter_Tue8": "Hello, father. We should grab a peppermint coffee together sometime.$1#$b#We can have a father to son chat.$3",
-	  "winter_Wed8": "I wonder if there are any book shops in Zuzu City I haven't visited yet...$0#$e#I'm always looking to expand our book collection, especially when it comes to the intersections of magical and scientific theory.$0#$e#Did you just yawn, father?$2",
-	  "winter_Fri8": "Hmm... do you think anyone would be interested in a bridge-making simulation game, father?$0#$e#...I feel like a lot of people might assume it would be boring, but I bet I could make it fun.$3",
-	  "winter_Sat8": "Must say, it's nice having the house all to myself$1.#$e#I recently hired a maid to help clean. It's far too much work for me.$0",
-	  "winter_Sun8": "Greetings. Certainly a chilly day today.$0#$e#Visit the house sometime. I'll make you a cup of coffee, father.$1#$b#I bet you have all sorts of adventuring stories.$3",
+	  "Tue6": "วันนี้เป็นอย่างไรบ้างครับ คุณพ่อ? งานคืบหน้ามากหรือเปล่า?$1#$e#ผมคงไปปั่นโปรเจค ต่อทีหลังน่ะครับ$1#$e#ทำตัวยุ่งๆ ไว้ มันดีน่ะครับ$3",
+	  "Wed8": "คุณพ่อ ผมกำลังนึกถึงพอดีเลยครับ$1#$e#คุณเหมือน จะมีอะไรทำตลอดเลย เป็นแบบอย่างที่ดีมากครับ$3",
+	  "Thu6": "ผมได้งานเยอะเลยครับวันนี้! หวังว่าคุณก็เหมือนกันนะครับ$1",
+	  "Fri8": "สวัสดีครับ คุณพ่อ มาดื่มไวน์บลูมูน กับผมสักแก้วนะครับ![{{spacechase0.JsonAssets/ObjectId:Blue Moon Wine}}]$3#$e#กัสมีตุนไว้เพียบ ที่ซาลูนตลอดเลยครับ$1",
+	  "summer_Mon8": "อากาศอาทิตย์นี้ จะยอดเยี่ยมเลยล่ะครับ$1",
+	  "summer_Thu8": "ตอนเด็กๆ คุณพ่อฝันถึง การเป็นชาวไร่หรือเปล่าครับ ?$0#$e#ผมชื่นชมที่คุณพ่อ ทำตามความฝันได้แบบนี้ มากเลยครับ มากกว่าที่คุณพ่อรู้เสียอีก$3#$e#คุณตั้งใจทุ่มเท ผมรู้สึกว่า ผมต้องเรียนรู้จากคุณพ่อ อีกเยอะเลยครับ$3",
+	  "summer_Sat8": "มีส่วนหนึ่งในนิยายคนแคระ ที่ผมเพิ่งอ่านจบ ที่บรรยายถึง เมืองโบราณของคนแคระที่ เทือกเขาแคสคาเดียน$1#$e#เมืองของพวกเขาเคยเป็น ศูนย์การค้าขนาดมหึมา ของเหล่าคนแคระโบราณ ด้วยครับ$7#$b#ถึงตอนนี้ พวกเราก็ยังไม่ค่อย รู้เรื่องเกี่ยวกับพวกเขา เท่าไหร่เลยครับ...$2#$b#บางทีพวกเราก็เจอ เครื่องมือของพวกเขา ตรงนั้นตรงนี้ แล้วก็รู้ประวัติบางส่วนของมัน แต่ก็เท่านั้นเองครับ$0#$e#ลาก่อนครับ คุณพ่อ$3",
+	  "summer_Sun8": "วันไหนคุณพ่อ พาผมไปผจญภัยด้วยสิครับ$1#$e#อ้อ เอ่อ ผมคงจะไป นั่งดูอยู่ข้างหลังน่ะครับ$0#$b#ไม่ถนัดต่อสู้สักเท่าไหร่ครับ ...$2",
+	  "fall_15": "ทักทายครับ คุณพ่อ กำลังรอไป งานเทศกาลแสดงสินค้า พรุ่งนี้อยู่รึเปล่าครับ?$3#$b#คุณจะจัดแสดงสินค้า อย่างยิ่งใหญ่เลยใช่มั้ยครับ?$0#$e#ยังไงก็ โชคดีนะครับ! ผมเชื่อว่า คุณพ่อทำได้ดีแน่ครับ$1",
+	  "fall_Wed6": "วันนี้อากาศเย็นนะครับ แต่งตัวอุ่นๆ นะครับ คุณพ่อ$1",
+	  "fall_Thu8": "คุณพ่อเคยกลัว เวลาที่จะออกไปผจญภัย บ้างมั้ยครับ?$0#$e#...ผมคงเคยบอกแล้ว แต่ผมอิจฉาในความกล้าหาญ ของคุณพ่อ จริงๆ นะครับ บางทีผมก็รู้สึก ไม่มีประโยชน์ เอาเสียเลยครับ$2#$e#ผมควรจะหา วิธีที่จะทำให้ตัวเอง มีความหมายต่อโลกใบนี้ ในแบบของผมหรือครับ? ค่อนข้างคมเลยนะครับเนี่ย มาดูกันว่า ผมจะทำตามได้มั้ยนะครับ$3",
+	  "fall_Fri8": "คุณพ่อคิดว่า... คุณพ่อจะได้ถ่ายทอดทักษะบางอย่าง ให้ผมได้มั้ยครับ?$0#$e#อ้อ ไม่มีอันไหน เป็นพิเศษหรอกครับ แค่ผมเห็นคุณแม่ได้ทักษะใหม่ๆ แล้วก็อิจฉาน่ะครับ$0#$e#ได้ลองอะไรใหม่ๆ เร็วๆ นี้ก็คงดีน่ะครับ$0",
+	  "fall_Sun8": "คุณแม่เป็นยังไงบ้างครับ?$1#$e#คุณแม่อยู่กับคุณแล้ว มีความสุขมากเลยครับ$1",
+	  "winter_Tue8": "สวัสดีครับ คุณพ่อ ไว้วันไหนพวกเรา ไปดื่มกาแฟเปปเปอร์มินต์ ด้วยกันนะครับ$1#$b#จะได้คุยกันแบบพ่อลูกน่ะครับ$3",
+	  "winter_Wed8": "ผมสงสัยจังว่า ยังมีร้านหนังสือร้านไหน ในเมืองซูซู ที่ผมยังไม่เคยไปบ้าง...$0#$e#ผมมองหาโอกาส ที่จะขยายคอลเลคชัน หนังสือของพวกเราอยู่เสมอน่ะครับ โดยเฉพาะในหมวดของทฤษฎี ที่คาบเกี่ยวระหว่างเวทมนตร์ และวิทยาศาตร์ครับ$0#$e#นี่คุณพ่อ เพิ่งหาวหรือครับ?$2",
+	  "winter_Fri8": "อืมม... คุณพ่อคิดว่า จะมีใครสนใจเกมจำลอง การสร้างสะพานมั้ยครับ?$0#$e#...ผมรู้สึกว่าคนส่วนใหญ่ ต้องคิดว่ามันน่าเบื่อแน่เลยครับ แต่ผมพนันเลยครับว่า ผมทำให้มันสนุกได้$3",
+	  "winter_Sat8": "ต้องบอกเลยครับว่า มีบ้านทั้งหลังเป็นของตัวเอง นี่ดีจังเลยครับ$1.#$e#ผมเพิ่งจ้างแม่บ้าน มาช่วยทำความสะอาดด้วยคร้บ งานมันเยอะเกินไป สำหรับผมน่ะครับ$0",
+	  "winter_Sun8": "สวัสดีครับ หนาวน่าดูเลยนะครับวันนี้$0#$e#มาเยี่ยมที่บ้านบ้างสิครับ ผมจะชงกาแฟให้คุณพ่อเองครับ$1#$b#ผมพนันเลยครับว่า คุณพ่อมีเรื่องราวการผจญภัย เยอะแยะแน่เลยครับ$3",
 	  }
     },
 	
@@ -3552,24 +3552,24 @@
       "Target": "Characters/Dialogue/Victor",
 	  "When": { "Spouse": "Olivia", "PlayerGender": "Female" },
       "Entries": {
-	  "Tue6": "How's your day, mother? Do anything productive?$1#$e#I may work more on one of my projects later.$1#$e#It's good to keep yourself busy with something.$3",
-	  "Wed8": "Mother, I was just thinking about you.$1#$e#You always seem to keep yourself busy. You're a good role model.$3",
-	  "Thu6": "I accomplished a lot today! I hope you did too.$1",
-	  "Fri8": "Hello, mother. Share a glass of Blue Moon wine with me![{{spacechase0.JsonAssets/ObjectId:Blue Moon Wine}}]$3#$e#Gus always keeps a good stock of it at the saloon.$1",
-	  "summer_Mon8": "The weather is going to be superb this week.$1",
-	  "summer_Thu8": "Did you dream about being a farmer when you were young, mother?$0#$e#I admire you for following your passion this way. More than you know.$3#$e#You're dedicated. I feel like I have a lot to learn from you.$3",
-	  "summer_Sat8": "There's part of a dwarvish novel I recently finished that described the ancient cities of the dwarves in the Cascadian Mountain range.$1#$e#Their cities were once huge hubs of commerce for the ancient dwarvish people.$7#$b#To this day, we still don't know that much about them...$2#$b#We find their gadgets here and there and know some of their history, but that's really it.$0#$e#Goodbye, mother.$3",
-	  "summer_Sun8": "Perhaps you could take me adventuring sometime, mother.$1#$e#Oh. Err. I'd just sit in the back and watch.$0#$b#Not really cut out for fighting...$2",
-	  "fall_15": "Greetings, mother. Looking forward to the Stardew Valley Fair tomorrow?$3#$b#You're setting up a grange display right?$0#$e#Well, good luck! I'm positive you'll do great.$1",
-	  "fall_Wed6": "It's a chilly day today. Keep yourself bundled up, mother.$1",
-	  "fall_Thu8": "Do you ever get scared when you're heading off to adventure, mother?$0#$e#...I've probably said this before, but I really envy your bravery. I feel so useless sometimes.$2#$e#I should find my own way to make meaning in the world? Wise words, probably. Let's see if I listen to them.$3",
-	  "fall_Fri8": "This new maid cleans the house once every other week.#$b#She's a huge help.$1#$e#My mother used to do the cleaning, but she lives with you now.$3",
-	  "fall_Sun8": "How is mother doing?$1#$e#She's very happy with you.$1",
-	  "winter_Tue8": "Hello, mother. We should grab a peppermint coffee together sometime.$1#$b#We can have a mother to son chat.$3",
-	  "winter_Wed8": "I wonder if there are any book shops in Zuzu City I haven't visited yet...$0#$e#I'm always looking to expand our book collection, especially when it comes to the intersections of magical and scientific theory.$0#$e#Did you just yawn, mother?$2",
-	  "winter_Fri8": "Hmm... do you think anyone would be interested in a bridge-making simulation game, mother?$0#$e#...I feel like a lot of people might assume it would be boring, but I bet I could make it fun.$3",
-	  "winter_Sat8": "Must say, it's nice having the house all to myself$1.#$e#I recently hired a maid to help clean. It's far too much work for me.$0",
-	  "winter_Sun8": "Greetings. Certainly a chilly day today.$0#$e#Visit the house sometime. I'll make you a cup of coffee, mother.$1#$b#I bet you have all sorts of adventuring stories.$3",
+	  "Tue6": "วันนี้เป็นอย่างไรบ้างครับ คุณแม่? งานคืบหน้ามากหรือเปล่า?$1#$e#ผมคงไปปั่นโปรเจค ต่อทีหลังน่ะครับ$1#$e#ทำตัวยุ่งๆ ไว้ มันดีน่ะครับ$3",
+	  "Wed8": "คุณแม่ ผมกำลังนึกถึงพอดีเลยครับ$1#$e#คุณเหมือน จะมีอะไรทำตลอดเลย เป็นแบบอย่างที่ดีมากครับ$3",
+	  "Thu6": "ผมได้งานเยอะเลยครับวันนี้! หวังว่าคุณก็เหมือนกันนะครับ$1",
+	  "Fri8": "สวัสดีครับ คุณแม่ มาดื่มไวน์บลูมูน กับผมสักแก้วนะครับ![{{spacechase0.JsonAssets/ObjectId:Blue Moon Wine}}]$3#$e#กัสมีตุนไว้เพียบ ที่ซาลูนตลอดเลยครับ$1",
+	  "summer_Mon8": "อากาศอาทิตย์นี้ จะยอดเยี่ยมเลยล่ะครับ$1",
+	  "summer_Thu8": "ตอนเด็กๆ คุณแม่ฝันถึง การเป็นชาวไร่หรือเปล่าครับ ?$0#$e#ผมชื่นชมที่คุณแม่ ทำตามความฝันได้แบบนี้ มากเลยครับ มากกว่าที่คุณแม่รู้เสียอีก$3#$e#คุณตั้งใจทุ่มเท ผมรู้สึกว่า ผมต้องเรียนรู้จากคุณแม่ อีกเยอะเลยครับ$3",
+	  "summer_Sat8": "มีส่วนหนึ่งในนิยายคนแคระ ที่ผมเพิ่งอ่านจบ ที่บรรยายถึง เมืองโบราณของคนแคระที่ เทือกเขาแคสคาเดียน$1#$e#เมืองของพวกเขาเคยเป็น ศูนย์การค้าขนาดมหึมา ของเหล่าคนแคระโบราณ ด้วยครับ$7#$b#ถึงตอนนี้ พวกเราก็ยังไม่ค่อย รู้เรื่องเกี่ยวกับพวกเขา เท่าไหร่เลยครับ...$2#$b#บางทีพวกเราก็เจอ เครื่องมือของพวกเขา ตรงนั้นตรงนี้ แล้วก็รู้ประวัติบางส่วนของมัน แต่ก็เท่านั้นเองครับ$0#$e#ลาก่อนครับ คุณแม่$3",
+	  "summer_Sun8": "วันไหนคุณแม่ พาผมไปผจญภัยด้วยสิครับ$1#$e#อ้อ เอ่อ ผมคงจะไป นั่งดูอยู่ข้างหลังน่ะครับ$0#$b#ไม่ถนัดต่อสู้สักเท่าไหร่ครับ ...$2",
+	  "fall_15": "ทักทายครับ คุณแม่ กำลังรอไป งานเทศกาลแสดงสินค้า พรุ่งนี้อยู่รึเปล่าครับ?$3#$b#คุณจะจัดแสดงสินค้า อย่างยิ่งใหญ่เลยใช่มั้ยครับ?$0#$e#ยังไงก็ โชคดีนะครับ! ผมเชื่อว่า คุณแม่ทำได้ดีแน่ครับ$1",
+	  "fall_Wed6": "วันนี้อากาศเย็นนะครับ แต่งตัวอุ่นๆ นะครับ คุณแม่$1",
+	  "fall_Thu8": "คุณแม่เคยกลัว เวลาที่จะออกไปผจญภัย บ้างมั้ยครับ?$0#$e#...ผมคงเคยบอกแล้ว แต่ผมอิจฉาในความกล้าหาญ ของคุณแม่ จริงๆ นะครับ บางทีผมก็รู้สึก ไม่มีประโยชน์ เอาเสียเลยครับ$2#$e#ผมควรจะหา วิธีที่จะทำให้ตัวเอง มีความหมายต่อโลกใบนี้ ในแบบของผมหรือครับ? ค่อนข้างคมเลยนะครับเนี่ย มาดูกันว่า ผมจะทำตามได้มั้ยนะครับ$3",
+	  "fall_Fri8": "คุณแม่คิดว่า... คุณแม่จะได้ถ่ายทอดทักษะบางอย่าง ให้ผมได้มั้ยครับ?$0#$e#อ้อ ไม่มีอันไหน เป็นพิเศษหรอกครับ แค่ผมเห็นคุณแม่ได้ทักษะใหม่ๆ แล้วก็อิจฉาน่ะครับ$0#$e#ได้ลองอะไรใหม่ๆ เร็วๆ นี้ก็คงดีน่ะครับ$0",
+	  "fall_Sun8": "คุณแม่เป็นยังไงบ้างครับ?$1#$e#คุณแม่อยู่กับคุณแล้ว มีความสุขมากเลยครับ$1",
+	  "winter_Tue8": "สวัสดีครับ คุณแม่ ไว้วันไหนพวกเรา ไปดื่มกาแฟเปปเปอร์มินต์ ด้วยกันนะครับ$1#$b#จะได้คุยกันแบบแม่ลูกน่ะครับ$3",
+	  "winter_Wed8": "ผมสงสัยจังว่า ยังมีร้านหนังสือร้านไหน ในเมืองซูซู ที่ผมยังไม่เคยไปบ้าง...$0#$e#ผมมองหาโอกาส ที่จะขยายคอลเลคชัน หนังสือของพวกเราอยู่เสมอน่ะครับ โดยเฉพาะในหมวดของทฤษฎี ที่คาบเกี่ยวระหว่างเวทมนตร์ และวิทยาศาตร์ครับ$0#$e#นี่คุณแม่ เพิ่งหาวหรือครับ?$2",
+	  "winter_Fri8": "อืมม... คุณแม่คิดว่า จะมีใครสนใจเกมจำลอง การสร้างสะพานมั้ยครับ?$0#$e#...ผมรู้สึกว่าคนส่วนใหญ่ ต้องคิดว่ามันน่าเบื่อแน่เลยครับ แต่ผมพนันเลยครับว่า ผมทำให้มันสนุกได้$3",
+	  "winter_Sat8": "ต้องบอกเลยครับว่า มีบ้านทั้งหลังเป็นของตัวเอง นี่ดีจังเลยครับ$1.#$e#ผมเพิ่งจ้างแม่บ้าน มาช่วยทำความสะอาดด้วยคร้บ งานมันเยอะเกินไป สำหรับผมน่ะครับ$0",
+	  "winter_Sun8": "สวัสดีครับ หนาวน่าดูเลยนะครับวันนี้$0#$e#มาเยี่ยมที่บ้านบ้างสิครับ ผมจะชงกาแฟให้คุณแม่เองครับ$1#$b#ผมพนันเลยครับว่า คุณแม่มีเรื่องราวการผจญภัย เยอะแยะแน่เลยครับ$3",
 	  }
     },
 	
@@ -3662,7 +3662,7 @@
         "DuringMovie": {
           "ResponsePoint": null,
           "Script": "",
-          "Text": "Gah!$7"
+          "Text": "เหวอ!$7"
         },
         "AfterMovie": {
           "ResponsePoint": null,
@@ -3793,7 +3793,7 @@
       "Action": "EditData",
       "Target": "data/festivals/spring13",
       "Entries": {
-        "Victor": "I'm wearing my best slacks and dress shirt today.$1"
+        "Victor": "ผมใส่กางเกงกับเสื้อเชิ้ต ที่ดีที่สุดมาเลยนะครับวันนี้$1"
       }
     },
     {
@@ -3907,7 +3907,7 @@
       "Target": "data/festivals/fall27",
 	  "When": { "IsOddYear": false },
       "Entries": {
-        "Victor": "These monsters are quite fascinating.$1#$e#Perhaps I'll try to converse with the Castle Village adventurers tonight...$0#$b#They're bound to have some cool adventuring stories.$3",
+        "Victor": "มอนสเตอร์พวกนี้ น่าทึ่งเหมือนกันนะครับ$1#$e#บางทีคืนนี้ ผมจะไปลองคุยกับ นักผจญภัย แห่งแคสเซิลวิลเลจดูครับ...$0#$b#พวกเขา ต้องมีเรื่องเล่าเจ๋งๆ เกี่ยวกับการผจญภัยแน่ครับ$3",
       }
     },
 	
@@ -3985,10 +3985,8 @@
       "Target": "Data/Events/Town",
 	  "When": { "HasSeenEvent |contains=5553210": false },
       "Entries": {
-        "2000002/f Victor 1500/t 1000 1700/w sunny": "spring_day_ambient/-500 -500/farmer 89 56 2 Victor 97 61 1/pause 400/skippable/showFrame Victor 43/viewport 95 62 true/move farmer 0 7 1/pause 1150/emote farmer 8/pause 1000/move farmer 8 0 0/pause 750/showFrame Victor 4/pause 1000/move Victor 0 0 2/pause 600/speak Victor \"Hi, @.$6\"/pause 400/emote farmer 40/speak Victor \"Oh, what am I doing? I'm... well, just thinking at the moment. I have a lot on my mind.$6\"/pause 600/move Victor 0 0 1/pause 550/showFrame Victor 43/pause 700/playMusic desolate/pause 1500/speak Victor \"My mother told me she's disappointed I haven't found a job yet. I came to the park to get out of the house for a while.$2#$b#I can't blame her for feeling that way. I graduated from university a year ago and I'm still living at home.$2#$b#Maybe she thinks I'm just lazy and comfortable living at home forever because we're financially secure.$6#$b#But that's... not the case at all.$2\"/pause 1100/speak Victor \"Over the last year, I've turned down dozens of internships and job offers. None of them appealed to me.$2#$b#I don't want to move out of the valley and work myself to death in the city.$2#$b#I want a career where I'm free to be who I am, not who I'm told to become.$6\"/pause 1000/showFrame Victor 4/pause 1000/move Victor 0 0 2/pause 750/speak Victor \"You understand what I'm saying, @. You quit your office job because that wasn't true to who you were.$6#$b#You took a leap of faith and took over your grandpa's farm. Just look at how that transformed your life!$3#$b#In a way... I envy you, @.$2\"/pause 1200/question fork0 \"#Working at Joja was the worst.#You should move to the city and get a job.\"/fork 2000002_FindYourPassion/pause 800/move Victor 0 0 1/pause 1000/showFrame Victor 43/pause 1000/speak Victor \"I know there aren't many jobs here in the valley, @. You can't do much here unless you freelance or are willing to commute two hours to Zuzu City.$2#$b#Like I said before, I don't want to move away. I love living here, and I can't see myself going anywhere else.$6\"/pause 1500/speak Victor \"I lived in Zuzu City all my life with my parents. Moving to Stardew Valley... it was the first time I felt like I was home.$6\"/pause 1250/speak Victor \"Imagine how you would feel if you suddenly moved back to your city after finding this place. It'd feel like being a plant, uprooted.$6\"/pause 1050/emote farmer 60/pause 600/speak Victor \"Then you understand what I mean.$6\"/pause 300/globalFade/viewport -1000 -1000/pause 800/friendship Victor -125/end dialogue Victor \"Hi, @. I appreciate you talking to me at the park. You're a good listener.$6\"",
-      
-	    "2000002_FindYourPassion": "pause 750/speak Victor \"A career like that sounds dreadful. Having a boss telling you what to do and how to feel.$2#$b#Working that much... that's essentially over half your life that doesn't belong to you.$6\"/pause 1250/move Victor 0 0 1/pause 1000/showFrame Victor 43/pause 1000/speak Victor \"My mother doesn't understand what I'm going through...$6#$e#She and the rest of my family keep pressuring me to jump into a high-paying career. It seems like no one cares how I feel about it.$2#$e#There aren't many jobs here in the valley unless you freelance work or are willing to commute an hour to Zuzu City.$6#$b#That's two hours a day, with good traffic...$2\"/pause 1250/showFrame Victor 4/pause 800/move Victor 0 0 2/pause 1000/speak Victor \"I'm optimistic I'll figure this all out soon enough, @.$3#$e#Thanks for hearing me out. See you around.$1\"/pause 1000/globalFade/viewport -1000 -1000/pause 800/friendship Victor 75/end dialogue Victor \"Hi, @. I appreciate you talking to me at the park. You're a good listener.$3#$b#I consider you one of my closest friends.$1\"",
-	  }
+        "2000002/f Victor 1500/t 1000 1700/w sunny": "spring_day_ambient/-500 -500/farmer 89 56 2 Victor 97 61 1/pause 400/skippable/showFrame Victor 43/viewport 95 62 true/move farmer 0 7 1/pause 1150/emote farmer 8/pause 1000/move farmer 8 0 0/pause 750/showFrame Victor 4/pause 1000/move Victor 0 0 2/pause 600/speak Victor \"Hi, @.$6\"/pause 400/emote farmer 40/speak Victor \"โอ้ ผมทำอะไรอยู่งั้นหรือครับ? ผม... เอ่อ แค่กำลังคิดน่ะครับ มีเรื่องให้คิดเยอะเลยครับ$6\"/pause 600/move Victor 0 0 1/pause 550/showFrame Victor 43/pause 700/playMusic desolate/pause 1500/speak Victor \"คุณแม่บอกผมว่า ท่านผิดหวัง ที่ผมยังหางานไม่ได้น่ะครับ ผมออกมาที่สวนสาธารณะ เพราะอยากออกจากบ้าน สักพักน่ะครับ$2#$b#ผมไม่โทษที่ท่านรู้สึก แบบนั้นหรอกนะครับ ผมเรียนจบจากมหาวิทยาลัย มาตั้งแต่ปีที่แล้ว แต่ก็ยังอาศัยอยู่ที่บ้านอยู่เลย$2#$b#บางที ท่านคงคิดว่า ผมแค่ขี้เกียจ และสบายใจที่จะ อยู่แต่ที่บ้านไปตลอด เพราะพวกเรามีความมั่นคง ด้านการเงินน่ะครับ $6#$b#แต่นั่น...ไม่เป็นความจริง แม้แต่น้อยเลยครับ$2\"/pause 1100/speak Victor \"ตลอดปีที่ผ่านมา ผมปฏิเสธข้อเสนอฝึกงานและจ้างงาน ไปหลายโหลแล้วครับ ไม่มีอันไหน ที่ดึงดูดใจผมเลยครับ $2#$b#ผมไม่อยากย้ายออกจากหุบเขา แล้วไปโหมทำงานจนตาย อยู่ในเมืองน่ะครับ $2#$b#ผมอยากมีอาชีพ ที่ผมจะสามารถเป็นตัวผมได้ ไม่ใช่เป็นคนที่ถูกสั่งให้เป็นครับ $6\"/pause 1000/showFrame Victor 4/pause 1000/move Victor 0 0 2/pause 750/speak Victor \"คุณเข้าใจที่ผมพูดใช่มั้ยครับ คุณ @ คุณลาออกจากงานออฟฟิศ เพราะมันไม่ใช่สิ่งที่คุณเป็น $6#$b#คุณเลือกที่จะเสี่ยงดวง รับดูแลฟาร์มของคุณปู่ แล้วดูสิครับว่า มันเปลี่ยนชีวิตของคุณ ไปแค่ไหน!$3#$b#จะว่าไป... ผมก็อิจฉาคุณนะครับ คุณ @$2\"/pause 1200/question fork0 \"#ทำงานกับโจจ้าน่ะแย่ที่สุดเลย #คุณควรย้ายเข้าไปทำงานในเมืองนะ \"/fork 2000002_FindYourPassion/pause 800/move Victor 0 0 1/pause 1000/showFrame Victor 43/pause 1000/speak Victor \"ผมรู้ครับ ว่าในหุบเขานี่มีงานไม่มาก คุณ @ คุณทำอะไรที่นี่ไม่ได้มากหรอกครับ นอกจากจะเป็นฟรีแลนซ์ หรือพร้อมจะเดินทางสองชั่วโมงเข้าเมืองซูซู $2#$b#อย่างที่ผมบอกนั่นแหละครับ ผมไม่อยากย้ายไปไหน ผมรักชีวิตที่นี่ และผมมองไม่เห็นว่าตัวผม จะไปอยู่ที่อื่นได้เลยครับ $6\"/pause 1500/speak Victor \"ผมใช้ชีวิตที่เมืองซูซู มาตลอดชีวิตกับคุณพ่อคุณแม่ของผม การย้ายมาที่หุบเขาสตาร์ดิว... เป็นครั้งแรกเลยครับ ที่ผมรู้สึกเหมือนได้อยู่บ้าน $6\"/pause 1250/speak Victor \"ลองนึกดูสิครับ ว่าคุณจะรู้สึกยังไง ถ้าอยู่ดีๆ ต้องย้ายกลับไปในเมือง หลังจากที่ได้เจอที่แบบนี้แล้ว มันคงรู้สึกเหมือนต้นไม้ ที่ถูกถอนรากถอนโคนน่ะครับ$6\"/pause 1050/emote farmer 60/pause 600/speak Victor \"งั้นคุณก็คงเข้าใจ ที่ผมพูดแล้วสินะครับ$6\"/pause 300/globalFade/viewport -1000 -1000/pause 800/friendship Victor -125/end dialogue Victor \"สวัสดีครับ คุณ @ ผมทราบซึ่งใจที่คุณคุยกับผม ที่สวนสาธารณะนะครับ คุณเป็นผู้ฟังที่ดีมากเลยครับ $6\"",
+      }
     },
 	
 	{ 
@@ -5022,7 +5020,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall27",
       "Entries": {
-        "Olivia": "ไซเดอร์ฟักทอง ของปิแอร์เศษไปเลย มานี่สิให้ฉันรินแก้วให้คุณ$3#$e#สุขสันต์วันเทศกาลภูตินะ ที่รัก$4"
+        "Olivia": "ไซเดอร์ฟักทอง ของปิแอร์วิเศษไปเลย มานี่สิให้ฉันรินแก้วให้คุณ$3#$e#สุขสันต์วันเทศกาลภูตินะ ที่รัก$4"
       },
       "When": {
         "Spouse": "Olivia"
@@ -5172,8 +5170,8 @@
 	"Action": "EditData",
 	"Target": "data/events/jenkinshouse",
     "When": { "Relationship:Victor": "Dating", "Relationship:Olivia": "Dating" },
-	"Entries": { 
-    "6469705/i 446": "none/-500 -500/farmer 20 42 0 Victor 19 37 2 Olivia 21 37 2/pause 900/playSound doorClose/pause 300/positionOffset Victor 30 10/positionOffset Olivia -25 14/viewport 20 39 true/skippable/move farmer 0 -2 0/pause 500/emote farmer 16/speak Olivia \"Hello, darling...$1\"/speak Victor \"Hey, there!$1\"/pause 500/speak Olivia \"I purchased an exquisite bottle of wine... would you care for some, @?$4\"/pause 200/speak Victor \"I picked up a new two-player video game! Want to play it?$4\"/pause 500/emote farmer 32/globalFade/viewport -1000 -1000/pause 200/end dialogue Olivia \"You're welcome in our home always, dear.$1\"",
+	"Entries":{ 
+    "6469705/i 446": "none/-500 -500/farmer 20 42 0 Victor 19 37 2 Olivia 21 37 2/pause 900/playSound doorClose/pause 300/positionOffset Victor 30 10/positionOffset Olivia -25 14/viewport 20 39 true/skippable/move farmer 0 -2 0/pause 500/emote farmer 16/speak Olivia \"สวัสดีจ่ะ ที่รัก...$1\"/speak Victor \"นี่ คุณ!$1\"/pause 500/speak Olivia \"ฉันซื้อไวน์ รสเลิศมาขวดหนึ่ง  ... อยากชิมมั้ยจ๊ะ @?$4\"/pause 200/speak Victor \"ผมเพิ่งซื้อเกมเล่นสองคน มาครับ! สนใจเล่นมั้ยครับ?$4\"/pause 500/emote farmer 32/globalFade/viewport -1000 -1000/pause 200/end dialogue Olivia \"เธอเป็นที่ต้อนรับเสมอ ที่บ้านของเรานะจ๊ะ ที่รัก $1\"",
     }
 },
 
@@ -5182,8 +5180,8 @@
 	"Target": "data/events/jenkinshouse",
     "When": { "Relationship:Victor": "Dating", "Relationship:Olivia": "Dating" },
 	"Entries": { 
-    "6469705": "none/-500 -500/farmer 20 42 0 Victor 19 37 2 Olivia 21 37 2/friendship Victor -1250/friendship Olivia -1250/pause 900/playSound doorClose/pause 300/positionOffset Victor 30 10/positionOffset Olivia -25 14/viewport 20 39 true/skippable/move farmer 0 -2 0/pause 500/emote farmer 16/speak Olivia \"...$5\"/speak Victor \"...$5\"/pause 500/speak Olivia \"Are you enjoying this charade, @?$5\"/pause 200/speak Victor \"My mother and I had a conversation about you.$2#$b#Thought you'd get away with it, huh?$5\"/pause 800/speak Olivia \"Dating both of us and hiding the fact? I should bar you from entering our residence ever again.$5#$e#You have explaining to do...$5\"/pause 100/globalFade/viewport -1000 -1000/pause 1500/message \"I somehow talked my way out of that. I'll have to decide who to continue dating...\"/pause 1300/message \"I've lost a great deal of friendship with Olivia and Victor...\"/end dialogue Olivia \"*sigh* Don't play with peoples hearts like that, @. It's barbaric...$2#$e#%Olivia turns away from you.\"",
-    }
+    "6469705": "none/-500 -500/farmer 20 42 0 Victor 19 37 2 Olivia 21 37 2/friendship Victor -1250/friendship Olivia -1250/pause 900/playSound doorClose/pause 300/positionOffset Victor 30 10/positionOffset Olivia -25 14/viewport 20 39 true/skippable/move farmer 0 -2 0/pause 500/emote farmer 16/speak Olivia \"...$5\"/speak Victor \"...$5\"/pause 500/speak Olivia \"เธอสนุกกับ การเล่น ปริศนานี่มากมั้ย @?$5\"/pause 200/speak Victor \"คุณแม่กับผมได้คุยกัน เรื่องคุณแล้วครับ $2#$b#คิดว่าจะหลบไปได้ตลอด สินะครับ?$5\"/pause 800/speak Olivia \"เดตกับเราทั้งสองคน แล้วจะแกล้งไม่รู้หรือ? ฉันควรสั่งห้าม ไม่ให้เธอได้เข้ามาที่บ้านของเราอีกเลย$5#$e#คุณมีเรื่อง ที่ต้องอธิบายแล้วล่ะ...$5\"/pause 100/globalFade/viewport -1000 -1000/pause 1500/message \"ฉันพูดจนรอดมาได้ไงไม่รู้ ฉันต้องตัดสินใจแล้วล่ะ ว่าจะคบใครต่อ...\"/pause 1300/message \"ฉันเสียมิตรภาพ ของโอลิเวียและวิคเตอร์ ไปมากโขเลย...\"/end dialogue Olivia \"*ถอนหายใจ* อย่าเล่นกับความรู้สึก ของคนอื่นแบบนั้น มันไร้อารยธรรม...$2#$e#%โอลิเวียหันหน้าหนีคุณ\"",
+	}
 },
 
     //ANDY NPC
@@ -5428,7 +5426,7 @@
       "Target": "data/festivals/fall27",
 	  "When": { "IsOddYear": false },
       "Entries": {
-        "Andy": "These here sauteed mushrooms are amazin'. Gus really outdid himself.$0#$e#I heard somethin' about the town fountain missin'...$2",
+        "Andy": "เห็ดผัดพวกนี้ อย่างเยี่ยมเลย กัสทำลาย สถิติตัวเองแล้วสิ$0#$e#ฉันได้ยินอะไรเกี่ยวกับ น้ำพุของเมืองหายไปนี่แหละ ...$2",
       }
     },
 	
