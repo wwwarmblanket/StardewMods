@@ -7112,6 +7112,15 @@
    },
 },
 
+{       //ADD OLIVIA + CLAIRE TO HARVEY AEROBICS CLASS
+	 "Action": "EditData",
+	 "Target": "data/events/seedshop",
+	 "When": { "HasSeenEvent": "3219873" },
+	 "Entries": {
+     "58/f Harvey 1500/t 1100 1500": "aerobics/-1000 -1000/farmer 14 12 1 Harvey 23 20 0 Marnie 23 18 0 Emily 23 16 0 Robin 25 18 0 Pam 25 16 0 Olivia 25 20 0 Claire 27 20 0 Caroline 24 14 2 Jodi 27 16 0 Leah 27 18 0/skippable/showFrame Harvey 26/viewport 24 17 true/pause 500/faceDirection Caroline 3 true/pause 500/showFrame Harvey 27 true/faceDirection Marnie 3 true/faceDirection Leah 3 true/faceDirection Olivia 3 true/faceDirection Claire 3 true/faceDirection Jodi 3 true/faceDirection Pam 3 true/faceDirection Robin 3 true/faceDirection Emily 3 true/pause 500/faceDirection Leah 1 true/faceDirection Jodi 1 true/faceDirection Caroline 1/pause 500/showFrame Harvey 25 true/faceDirection Marnie 1 true/faceDirection Pam 1 true/faceDirection Olivia 1 true/faceDirection Claire 1 true/faceDirection Robin 1 true/faceDirection Emily 1 true/pause 500/faceDirection Caroline 2/pause 500/faceDirection Leah 0 true/faceDirection Jodi 0 true/faceDirection Marnie 0 true/faceDirection Olivia 0 true/faceDirection Claire 0 true/faceDirection Pam 0 true/faceDirection Robin 0 true/faceDirection Emily 0 true/pause 300/showFrame Harvey 26 true/pause 200/pause 500/faceDirection Caroline 3 true/pause 500/faceDirection Leah 3 true/faceDirection Olivia 3 true/faceDirection Claire 3 true/faceDirection Jodi 3 true/faceDirection Marnie 3 true/faceDirection Pam 3 true/faceDirection Robin 3 true/faceDirection Emily 3 true/pause 350/showFrame Harvey 27 true/pause 150/faceDirection Caroline 1/pause 500/faceDirection Leah 1 true/faceDirection Olivia 1 true/faceDirection Claire 1 true/faceDirection Jodi 1 true/showFrame Harvey 25 true/faceDirection Marnie 1 true/faceDirection Pam 1 true/faceDirection Olivia 1/faceDirection Claire 1 true/faceDirection Robin 1 true/faceDirection Emily 1 true/pause 500/faceDirection Caroline 2/pause 500/faceDirection Leah 0 true/faceDirection Olivia 0 true/faceDirection Claire 0 true/faceDirection Jodi 0 true/faceDirection Marnie 0 true/faceDirection Pam 0 true/faceDirection Robin 0 true/faceDirection Emily 0 true/showFrame Harvey 26 true/pause 500/faceDirection Marnie 0 true/faceDirection Pam 0 true/faceDirection Robin 0 true/faceDirection Emily 0 true/showFrame Harvey 26 true/faceDirection Caroline 0 true/pause 1000/faceDirection Leah 1 true/faceDirection Olivia 1 true/faceDirection Claire 1 true/faceDirection Jodi 1 true/faceDirection Marnie 1 true/faceDirection Pam 1 true/faceDirection Robin 1 true/faceDirection Emily 1 true/showFrame Harvey 25 true/faceDirection Caroline 1 true/pause 1000/faceDirection Leah 2 true/faceDirection Jodi 2 true/faceDirection Olivia 2 true/faceDirection Claire 2 true/faceDirection Marnie 2 true/faceDirection Pam 2 true/faceDirection Robin 2 true/faceDirection Emily 2 true/showFrame Harvey 24 true/faceDirection Caroline 2 true/pause 1000/faceDirection Leah 3 true/faceDirection Jodi 3 true/faceDirection Olivia 3 true/faceDirection Claire 3 true/faceDirection Marnie 3 true/faceDirection Pam 3 true/faceDirection Robin 3 true/faceDirection Emily 3 true/showFrame Harvey 27 true/faceDirection Caroline 3 true/pause 1000/faceDirection Leah 0 true/faceDirection Olivia 0 true/faceDirection Claire 0 true/faceDirection Jodi 0 true/faceDirection Marnie 0 true/faceDirection Pam 0 true/faceDirection Robin 0 true/faceDirection Emily 0 true/showFrame Harvey 26 true/faceDirection Caroline 0 true/pause 500/faceDirection Marnie 0 true/faceDirection Pam 0 true/faceDirection Robin 0 true/faceDirection Emily 0 true/showFrame Harvey 26 true/faceDirection Caroline 0 true/pause 1000/faceDirection Leah 1 true/faceDirection Olivia 1 true/faceDirection Claire 1 true/faceDirection Jodi 1 true/faceDirection Marnie 1 true/faceDirection Pam 1 true/faceDirection Robin 1 true/faceDirection Emily 1 true/showFrame Harvey 25 true/faceDirection Caroline 1 true/pause 1000/faceDirection Leah 2 true/faceDirection Jodi 2 true/faceDirection Olivia 2 true/faceDirection Claire 2 true/faceDirection Marnie 2 true/faceDirection Pam 2 true/faceDirection Robin 2 true/faceDirection Emily 2 true/showFrame Harvey 24 true/faceDirection Caroline 2 true/pause 1000/faceDirection Leah 3 true/faceDirection Jodi 3 true/faceDirection Marnie 3 true/faceDirection Olivia 3 true/faceDirection Claire 3 true/faceDirection Pam 3 true/faceDirection Robin 3 true/faceDirection Emily 3 true/showFrame Harvey 27 true/faceDirection Caroline 3 true/pause 1000/faceDirection Leah 0 true/faceDirection Jodi 0 true/faceDirection Olivia 0 true/faceDirection Claire 0 true/faceDirection Marnie 0 true/faceDirection Pam 0 true/faceDirection Robin 0 true/faceDirection Emily 0 true/showFrame Harvey 26 true/faceDirection Caroline 2 true/pause 2000/speak Caroline \"Alright! That concludes our aerobics class!#$b#Are you breaking a sweat?$h\"/pause 500/speak Harvey \"*pant*...*pant*...Yes.$7\"/move Pam -1 0 3 true/faceDirection Jodi 2/faceDirection Emily 1 true/viewport move 0 -1 3000/move farmer 3 0 1 true/faceDirection Robin 3/faceDirection Marnie 1 true/move Harvey -3 0 0 true/pause 1500/move Olivia 1 0 0/move Olivia 0 -6 3 true/move Harvey 0 -8 3 true/pause 400/faceDirection Claire 1 true/pause 250/faceDirection Claire 2 true/pause 500/showFrame Claire 34/pause 250/showFrame Claire 35/pause 800/faceDirection Caroline 1/pause 2000/emote Harvey 16/speak Harvey \"@! You were watching me?$8#$b#...How embarrassing... I didn't want anyone to know. Least of all you.$s\"/move Harvey -2 0 3/speak Harvey \"I'm just trying to stay healthy. As you get older, it requires more effort.#$b#I'm not in very good shape, though... I can hardly keep up with them.$s\"/pause 400/faceDirection Harvey 1/faceDirection Harvey 3/speak Harvey \"$q -1 null#Look... Don't tell everyone in town that I'm doing dance aerobics, okay?#$r -1 20 event_aerobics1#I won't tell.#$r -1 -50 event_aerobics2#I can't promise that.\"/pause 500/end dialogue Harvey \"Wow, that was quite a workout...\"",
+   },
+},
+
 {       //ADD OLIVIA, VICTOR, SUSAN, ANDY, SOPHIA TO ELLIOTT BOOK READ
 	 "Action": "EditData",
 	 "Target": "data/events/archaeologyhouse",
@@ -7258,12 +7267,26 @@
 	 },
 },
 
-{       //Leah 8 hrt event fix
+{       //Sebastian 8 hrt event fix
+	 "Action": "EditData",
+	 "Target": "data/events/SebastianRoom",
+	 "Entries": {
+     "27/f Sebastian 1500/p Sebastian": "jaunty/-1000 -1000/farmer 1 1 2 Sebastian 5 8 3 Sam 3 7 2/skippable/showFrame Sam 24/showFrame Sebastian 28/positionOffset Sebastian 0 15/doAction 1 3/viewport 5 5 true/move farmer 0 6 1/pause 500/showFrame Sebastian 29/pause 500/speak Sebastian \"Hey, @. $7\"/pause 500/speak Sebastian \"Sam and I were about to play 'Solarion Chronicles: The Game'... Why don't you join us?  It's better with three players anyway.$7\"/move farmer 0 1 2/pause 500/playSound thudStep/faceDirection farmer 1 true/showFrame 117/positionOffset farmer 16 80/pause 600/speak Sebastian \"Okay, here we go... Let me draw the scenario card.$7\"/pause 900/showFrame Sebastian 30/playSound dwoop/pause 500/showFrame Sebastian 28/pause 500/speak Sebastian \"Hmm... It looks like today's quest will take us into the Necromancer's Tower... to try and reclaim the Solarion Staff from the clutches of Dreadlord Xarth.\"/pause 600/speak Sam \"Cool... @, are you ready to choose your character?\"/pause 500/question chooseCharacter \"Choose your character:#Warrior. I like a direct approach.#Healer. I prefer to help others.#Wizard. A sharp mind is the most powerful blade of all.\"/pause 500/speak Sebastian \"Hey! That's what I was going to pick!$h#$b#I guess I'll be the healer then.\"/pause 500/speak Sam \"Cool. Warrior's my favorite anyway.\"/addMailReceived choseWizard/switchEvent opening",
+     },
+},
+
+{       //Leah 8 hrt event fix   /f Leah 2000/p Leah/n LeahInternet
 	 "Action": "EditData",
 	 "Target": "data/events/LeahHouse",
 	 "Entries": {
-     "584059/f Leah 2000/p Leah/n LeahInternet": "breezy/-1000 -1000/farmer 7 9 0 Leah 12 9 2/skippable/viewport 11 9/move farmer 0 -1 1/move farmer 2 0 1/pause 400/faceDirection Leah 3 true/pause 400/speak Leah \"เฮ้! ลองมาดูนี่สิ\"/pause 500/faceDirection Leah 2 true/pause 400/move farmer 2 0 2/move farmer 0 1 2/pause 700/speak Leah \"ฉันซื้อแล็ปท็อปมาลองตั้งร้าน ขายงานศิลปะออนไลน์ดู... ตามที่เธอเคยแนะนำไงล่ะ\"/pause 800/playSound Pickup_Coin15/pause 300/jump Leah/pause 1200/speak Leah \"เธอได้ยินนั่นรึเปล่า? มันแปลว่าเพิ่งมีใครบางคน ซื้ออะไรบางอย่างไปจากร้าน!$h\"/pause 500/emote Leah 40/speak Leah \"ฮืมม... คนที่ชื่อ 'คุณเค (Mr. K)' ซื้องานของฉันไปแทบจะทุกชิ้น เลยนะ$7#$b#บางทีอาจจะ เป็นคนรวยบางคน ที่ชื่นชอบงานศิลปะ ของฉันเป็นพิเศษ ก็ได้\"/pause 500/playSound Pickup_Coin15/pause 300/jump Leah/emote Leah 16 true/pause 900/speak Leah \"ว้าว! ฉันคงไม่ต้องกังวลเรื่อง ค่าไฟไปอีกนานเลย หลังจากขายงานออกไปได้ มากขนาดนั้น...$6\"/pause 800/speak Leah \"ยังไงก็ตาม... ขอบคุณมากนะ ที่เสนอความคิดนี้ให้ฉันน่ะ @ มันเวิร์คมากเลยล่ะ! มันช่วยให้ฉันมีทุนที่ฉันต้องการ เพื่อทำงานศิลปะแบบเต็มเวลา$h#$e#อ่า ขอโทษทีนะ ที่ไม่ได้สนใจเธอน่ะ... แต่ฉันจำเป็นต้องปรับ แต่งหน้าเว็บนี่หน่อย...$7\"/pause 500/playSound Pickup_Coin15/pause 1000/playSound Pickup_Coin15/globalFade/viewport -1000 -1000/end warpOut",
+     "584059": "breezy/-1000 -1000/farmer -100 -100 0 Leah 12 8 2/skippable/addTemporaryActor LeahLaptopProp 29 11 11 9 2 false/positionOffset LeahLaptopProp 27 5/showFrame Leah 28/positionOffset Leah 0 40/viewport 11 9 true/playSound doorClose/warp farmer 7 9/pause 400/move farmer 0 -1 0/pause 300/faceDirection farmer 1 true/pause 200/showFrame Leah 29/pause 200/speak Leah \"เฮ้! ลองมาดูนี่สิ\"/pause 500/showFrame Leah 28/move farmer 4 0 2/pause 400/speak Leah \"ฉันซื้อแล็ปท็อปมาลองตั้งร้าน ขายงานศิลปะออนไลน์ดู... ตามที่เธอเคยแนะนำไงล่ะ\"/pause 800/playSound Pickup_Coin15/showFrame Leah 29/pause 400/speak Leah \"เธอได้ยินนั่นรึเปล่า? มันแปลว่าเพิ่งมีใครบางคน ซื้ออะไรบางอย่างไปจากร้าน!$h\"/showFrame Leah 28/emote Leah 40/speak Leah \"ฮืมม... คนที่ชื่อ 'คุณเค (Mr. K)' ซื้องานของฉันไปแทบจะทุกชิ้น เลยนะ$7#$b#บางทีอาจจะ เป็นคนรวยบางคน ที่ชื่นชอบงานศิลปะ ของฉันเป็นพิเศษ ก็ได้\"/pause 500/playSound Pickup_Coin15/pause 300/emote Leah 16/speak Leah \"ว้าว! ฉันคงไม่ต้องกังวลเรื่อง ค่าไฟไปอีกนานเลย หลังจากขายงานออกไปได้ มากขนาดนั้น...$6\"/pause 800/showFrame Leah 29/speak Leah \"ยังไงก็ตาม... ขอบคุณมากนะ ที่เสนอความคิดนี้ให้ฉันน่ะ @ มันเวิร์คมากเลยล่ะ! มันช่วยให้ฉันมีทุนที่ฉันต้องการ เพื่อทำงานศิลปะแบบเต็มเวลา$h\"/showFrame Leah 28/speak Leah \"อ่า ขอโทษทีนะ ที่ไม่ได้สนใจเธอน่ะ... แต่ฉันจำเป็นต้องปรับ แต่งหน้าเว็บนี่หน่อย...$7\"/pause 500/playSound Pickup_Coin15/pause 1000/playSound Pickup_Coin15/globalFade/viewport -1000 -1000/end warpOut",
      },
+},
+
+{
+     "Action": "Load",
+	 "Target": "Characters/LeahLaptopProp",
+	 "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/LeahLaptopProp.png"
 },
 
 {       //Caroline 6 hrt event fix
@@ -7550,6 +7573,15 @@
      "FromFile": "Assets/Maps/MapPatches/Town_Joja_EastScarpeEntrance.tbin",
 	 "When": { "HasMod": "LemurKat.EastScarpe.CP", "HasSeenEvent": "5553210" },
      "ToArea": { "X": 100, "Y": 88, "Width": 28, "Height": 11 }
+},
+
+     //Summer Hours Compatibility patch
+{
+     "Action": "EditMap",
+     "Target": "Maps/Mountain",
+     "FromFile": "Assets/Maps/MapPatches/SummerHoursCompat.tbin",
+	 "When": { "HasMod": "minervamaga.CP.SummerHours" },
+     "ToArea": { "X": 76, "Y": 8, "Width": 1, "Height": 1 }
 },
 
      //STRINGS FROM MAPS
