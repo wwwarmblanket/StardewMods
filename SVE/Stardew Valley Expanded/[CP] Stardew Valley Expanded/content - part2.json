@@ -1743,11 +1743,31 @@
     },
 	
 	//WINTER STAR FESTIVAL
-    {
+    
+	{
       "Action": "EditData",
       "Target": "data/festivals/winter25",
+	  "When": { "HasSeenEvent": "3219873" },
       "Entries": {
         "Claire": "What are you thankful for, @?$1#$e#I'm thankful for having a friendly community to spend Winter Star with...$1"
+      }
+    },
+	
+	{
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+	  "When": { "HasSeenEvent |contains=191393": false, "HasSeenEvent |contains=3219873": false },
+      "Entries": {
+        "Claire": "Morris wanted Joja employees here today...$0#$e#Your town's festival is nice.$1"
+      }
+    },
+	
+	{
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+	  "When": { "HasSeenEvent": "191393", "HasSeenEvent |contains=3219873": false },
+      "Entries": {
+        "Claire": "It was nice of your Mayor to invite me...$1"
       }
     },
 	
@@ -3327,16 +3347,34 @@
         "Martin": "These monsters are super cool!$1"
       }
     },
+	
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+	  "When": { "HasSeenEvent |contains=191393": false },
+      "Entries": {
+        "Martin": "I'm getting paid overtime to show support for Joja! So is Claire!$1#$e#I can go home soon and spend the day with my parents.$0"
+      }
+    },
+	
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+	  "When": { "HasSeenEvent": "191393" },
+      "Entries": {
+        "Martin": "Claire said she'd be here, so I'm here too!$1"
+      }
+    },
 
 
     //Martin events     (so sad. much empty. I'll work on more Martin events in the future. I promise.)
 
 
-{   //Martin 2 heart event
+{   //Martin 2 heart event   /f Martin 500
 	"Action": "EditData",
 	"Target": "data/events/jojamart",
 	"Entries": { 
-    "3219870/f Martin 500": "none/-500 -500/farmer 13 17 3 Martin 9 25 1 Morris 24 26 3 Claire 10 19 1 Sam 22 7 2 Pam 11 25 3 Andy 25 16 3 Jodi 9 8 0/positionOffset Morris -10 -15/animate Sam false true 100 40 40 41 41 42 42 41 41/animate Claire false true 125 48 49 50 51 52 53 54 55 57 58 59/skippable/pause 800/playMusic Hospital_Ambient/pause 700/viewport 13 25 true/pause 1500/speak Pam \"Come on, kiddo. I don't got all day.$0\"/pause 750/speak Martin \"Yes, ma'am! I understand. I'll ring this up for you now!\"/pause 1150/shake Martin 500/pause 800/speak Martin \"Err...$4#$b#How does this... Hmm.$4\"/pause 1200/speak Pam \"...$4\"/pause 1200/faceDirection Martin 0 true/pause 650/speak Martin \"Hey, Claire. Can you help me with this transaction?$2\"/pause 750/stopAnimation Claire/pause 500/faceDirection Claire 2 true/pause 500/speak Claire \"Um. Sure.$0\"/pause 600/move Claire 0 3 3/textAboveHead Pam \"Wastin' my time...\"/move Claire -3 0 3 true/pause 750/faceDirection Martin 1 true/pause 750/move Claire 0 4 1/move Claire 2 0 0/pause 400/faceDirection Martin 2 true/pause 1400/speak Claire \"Oh. You need to press the 'other items' button.\"/pause 500/speak Martin \"Ah! That was it!$1\"/pause 600/faceDirection Martin 1 true/pause 600/shake Martin 400/pause 400/playSound money/pause 650/faceDirection Claire 1 true/pause 600/speak Martin \"Would you like your receipt, ma'am?\"/speak Pam \"No.$4\"/globalFade/viewport -1000 -1000/warp Pam -50 -50/viewport 13 25 true/pause 800/faceDirection Martin 2 true/pause 600/faceDirection Claire 0 true/pause 600/speak Martin \"That lady is kinda scary.$4\"/pause 600/speak Claire \"She's a regular customer. So you will see her again.$0\"/pause 600/speak Martin \"...$4#$b#Well, anyway...$4#$b#Uh. Thanks for helping.$6\"/pause 800/speak Claire \"You're welcome.$1\"/pause 500/globalFade/viewport -1000 -1000/warp Claire 10 15/animate Claire false true 125 48 49 50 51 52 53 54 55 57 58 59/warp farmer 13 21/faceDirection farmer 2 true/faceDirection Martin 1 true/viewport 13 25 true/move farmer 0 4 3/move farmer -2 0 3/pause 750/speak Martin \"Hello, sir!$1^Hello, ma'am!$1#$b#Just this for you today?$0\"/pause 750/globalFade/viewport -1000 -1000/pause 500/playSound money/pause 800/speak Martin \"Have a nice day, sir!^Have a nice day, ma'am!\"/stopMusic/pause 1000/end dialogue Martin\"My co-worker is always there to save the day when I need help.$0\""     
+    "3219870": "none/-500 -500/farmer 13 17 3 Martin 9 25 1 Morris 24 26 3 Claire 10 19 1 Sam 22 7 2 Pam 11 25 3 Andy 25 16 3 Jodi 9 8 0/positionOffset Morris -10 -15/animate Sam false true 100 40 40 41 41 42 42 41 41/animate Claire false true 125 48 49 50 51 52 53 54 55 57 58 59/skippable/pause 800/playMusic Hospital_Ambient/pause 700/viewport 13 25 true/pause 1500/speak Pam \"Come on, kiddo. I don't got all day.$0\"/pause 750/speak Martin \"Yes, ma'am! I understand. I'll ring this up for you now!\"/pause 1150/shake Martin 500/pause 800/speak Martin \"Err...$4#$b#How does this... Hmm.$4\"/pause 1200/speak Pam \"...$4\"/pause 1200/faceDirection Martin 0 true/pause 650/speak Martin \"Hey, Claire. Can you help me with this transaction?$2\"/pause 750/stopAnimation Claire/pause 500/faceDirection Claire 2 true/pause 500/speak Claire \"Um. Sure.$0\"/pause 600/move Claire 0 3 3/textAboveHead Pam \"Wastin' my time...\"/move Claire -3 0 3 true/pause 750/faceDirection Martin 1 true/pause 750/move Claire 0 4 1/move Claire 2 0 0/pause 400/faceDirection Martin 2 true/pause 1400/speak Claire \"Oh. You need to press the 'other items' button.\"/pause 500/speak Martin \"Ah! That was it!$1\"/pause 600/faceDirection Martin 1 true/pause 600/shake Martin 400/pause 400/playSound money/pause 650/faceDirection Claire 1 true/pause 600/speak Martin \"Would you like your receipt, ma'am?\"/speak Pam \"No.$4\"/globalFade/viewport -1000 -1000/warp Pam -50 -50/viewport 13 25 true/pause 800/faceDirection Martin 2 true/pause 600/faceDirection Claire 0 true/pause 600/speak Martin \"That lady is kinda scary.$4\"/pause 600/speak Claire \"She's a regular customer. So you will see her again.$0\"/pause 600/speak Martin \"...$4#$b#Well, anyway...$4#$b#Uh. Thanks for helping.$6\"/pause 800/speak Claire \"You're welcome.$1\"/pause 500/globalFade/viewport -1000 -1000/warp Claire 10 15/animate Claire false true 125 48 49 50 51 52 53 54 55 57 58 59/warp farmer 13 21/faceDirection farmer 2 true/faceDirection Martin 1 true/viewport 13 25 true/move farmer 0 4 3/move farmer -2 0 3/pause 750/speak Martin \"Hello, sir!$1^Hello, ma'am!$1#$b#Just this for you today?$0\"/pause 750/globalFade/viewport -1000 -1000/pause 500/playSound money/pause 800/speak Martin \"Have a nice day, sir!^Have a nice day, ma'am!\"/stopMusic/pause 1000/end dialogue Martin\"My co-worker is always there to save the day when I need help.$0\""     
 	},
 },
 
@@ -4232,7 +4270,7 @@
      "Target": "Data/NPCDispositions",
 	 "When": { "HasMod |contains=foggy.LfL": false },
      "Entries": { 
-	 "Sandy": "adult/neutral/outgoing/positive/female/not-datable/null/Desert/fall 15/Emily ''/Sandy_WarpRoom 3 3/Sandy" 
+	 "Sandy": "adult/neutral/outgoing/positive/female/not-datable/null/Desert/fall 15/Emily ''/SandyHouse 2 5/Sandy" 
 	 }
 },
 
@@ -4285,6 +4323,13 @@
 	 "Beach_53_24": "The ocean is breathtaking.$0",
 	 "CommunityCenter_11_23": "Isn't it lovely seeing everyone gathered in one place?$1",
      },
+},
+
+{
+     "Action": "EditMap",
+     "Target": "Maps/SandyHouse",
+     "When": { "HasMod |contains=foggy.LfL": false, },
+     "MapProperties": { "Warp": "4 10 Desert 29 45 17 0 Club 8 13 1 5 Sandy_WarpRoom 3 3" }
 },
 
 {    //Removes Sandy's Shop tile action for the day

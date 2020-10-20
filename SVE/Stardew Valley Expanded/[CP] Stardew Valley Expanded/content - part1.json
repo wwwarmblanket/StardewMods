@@ -144,7 +144,15 @@
      "Action": "EditMap",
      "Target": "Maps/BusStop",
      "FromFile": "Assets/Maps/GrandpasShed/BusStopShedPath.tbin",
-	 "When": { "HasMod |contains=flashshifter.immersivefarm2remastered": false },
+	 "When": { "HasMod |contains=flashshifter.immersivefarm2remastered": false, "HasMod |contains=alistairweekend.TSCCharacters": false },
+     "ToArea": { "X": 0, "Y": 24, "Width": 10, "Height": 6 }
+},
+
+{    //Map patches a path to grandpa's shed at bus stop map - stray cafe compat patch
+     "Action": "EditMap",
+     "Target": "Maps/BusStop",
+     "FromFile": "Assets/Maps/GrandpasShed/BusStopShedPathStrayCafe.tbin",
+	 "When": { "HasMod |contains=flashshifter.immersivefarm2remastered": false, "HasMod": "alistairweekend.TSCCharacters" },
      "ToArea": { "X": 0, "Y": 24, "Width": 10, "Height": 6 }
 },
 
@@ -499,7 +507,7 @@
   "Action": "EditData",
   "Target": "Data/Locations",
   "Entries": {
-  "Town": "18 .9/402 .9/410 .6/418 .7 414 .1 283 .5/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 {{spacechase0.JsonAssets/ObjectId:Razor Trout}} -1 137 -1 132 -1 143 -1 145 -1 153 -1 706 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 138 -1 132 -1 144 -1 145 -1 153 -1 706 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 {{spacechase0.JsonAssets/ObjectId:Razor Trout}} -1 139 -1 137 -1 132 -1 140 -1 143 -1 153 -1 706 -1 699 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 {{spacechase0.JsonAssets/ObjectId:Razor Trout}} -1 132 -1 140 -1 141 -1 143 -1 144 -1 153 -1 707 -1 699 -1/378 .2 110 .2 583 .1 102 .2 390 .25 330 1","ShearwaterBridge": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 {{spacechase0.JsonAssets/ObjectId:Razor Trout}} -1 {{spacechase0.JsonAssets/ObjectId:Butterfish}} -1 {{spacechase0.JsonAssets/ObjectId:Puppyfish}} -1 143 -1 706 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 {{spacechase0.JsonAssets/ObjectId:Puppyfish}} -1 {{spacechase0.JsonAssets/ObjectId:Butterfish}} -1 138 -1 144 -1 706 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 {{spacechase0.JsonAssets/ObjectId:Butterfish}} -1 {{spacechase0.JsonAssets/ObjectId:Puppyfish}} -1 139 -1 699 -1 143 -1 706 -1 140 -1 269 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 699 -1 153 -1 707 -1 141 -1 144 -1 132 -1 269 -1/100 1 101 .31 103 .8 105 .7 106 .1 107 .65 114 .1",
+  "Town": "18 .9/402 .9/410 .6/418 .7 414 .1 283 .5/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 {{spacechase0.JsonAssets/ObjectId:Razor Trout}} -1 137 -1 132 -1 143 -1 145 -1 153 -1 706 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 {{spacechase0.JsonAssets/ObjectId:Razor Trout}} -1 138 -1 132 -1 144 -1 145 -1 153 -1 706 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 {{spacechase0.JsonAssets/ObjectId:Razor Trout}} -1 139 -1 137 -1 132 -1 140 -1 143 -1 153 -1 706 -1 699 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 {{spacechase0.JsonAssets/ObjectId:Razor Trout}} -1 132 -1 140 -1 141 -1 143 -1 144 -1 153 -1 707 -1 699 -1/378 .2 110 .2 583 .1 102 .2 390 .25 330 1","ShearwaterBridge": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 {{spacechase0.JsonAssets/ObjectId:Razor Trout}} -1 {{spacechase0.JsonAssets/ObjectId:Butterfish}} -1 {{spacechase0.JsonAssets/ObjectId:Puppyfish}} -1 143 -1 706 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 {{spacechase0.JsonAssets/ObjectId:Puppyfish}} -1 {{spacechase0.JsonAssets/ObjectId:Butterfish}} -1 138 -1 144 -1 706 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 {{spacechase0.JsonAssets/ObjectId:Butterfish}} -1 {{spacechase0.JsonAssets/ObjectId:Puppyfish}} -1 139 -1 699 -1 143 -1 706 -1 140 -1 269 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 699 -1 153 -1 707 -1 141 -1 144 -1 132 -1 269 -1/100 1 101 .31 103 .8 105 .7 106 .1 107 .65 114 .1",
 	  },
   "When": { "HasMod |contains=MoreFish": false, "HasSeenEvent": "5553210", } //patches Razor Trout
 },
@@ -508,7 +516,7 @@
   "Action": "EditData",
   "Target": "Data/Locations",
   "Entries": {
-  "Town": "18 .9/402 .9/410 .6/418 .7 414 .1 283 .5/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 {{spacechase0.JsonAssets/ObjectId:Razor Trout}} -1 137 -1 132 -1 143 -1 145 -1 153 -1 706 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 138 -1 132 -1 144 -1 145 -1 153 -1 706 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 {{spacechase0.JsonAssets/ObjectId:Razor Trout}} -1 139 -1 137 -1 132 -1 140 -1 143 -1 153 -1 706 -1 699 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 {{spacechase0.JsonAssets/ObjectId:Razor Trout}} -1 132 -1 140 -1 141 -1 143 -1 144 -1 153 -1 707 -1 699 -1/378 .2 110 .2 583 .1 102 .2 390 .25 330 1","ShearwaterBridge": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 {{spacechase0.JsonAssets/ObjectId:Razor Trout}} -1 {{spacechase0.JsonAssets/ObjectId:Butterfish}} -1 {{spacechase0.JsonAssets/ObjectId:Puppyfish}} -1 143 -1 706 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 {{spacechase0.JsonAssets/ObjectId:Puppyfish}} -1 {{spacechase0.JsonAssets/ObjectId:Butterfish}} -1 138 -1 144 -1 706 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 {{spacechase0.JsonAssets/ObjectId:Butterfish}} -1 {{spacechase0.JsonAssets/ObjectId:Puppyfish}} -1 139 -1 699 -1 143 -1 706 -1 140 -1 269 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 699 -1 153 -1 707 -1 141 -1 144 -1 132 -1 269 -1/100 1 101 .31 103 .8 105 .7 106 .1 107 .65 114 .1",
+  "Town": "18 .9/402 .9/410 .6/418 .7 414 .1 283 .5/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 {{spacechase0.JsonAssets/ObjectId:Razor Trout}} -1 137 -1 132 -1 143 -1 145 -1 153 -1 706 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 {{spacechase0.JsonAssets/ObjectId:Razor Trout}} -1 138 -1 132 -1 144 -1 145 -1 153 -1 706 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 {{spacechase0.JsonAssets/ObjectId:Razor Trout}} -1 139 -1 137 -1 132 -1 140 -1 143 -1 153 -1 706 -1 699 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 {{spacechase0.JsonAssets/ObjectId:Razor Trout}} -1 132 -1 140 -1 141 -1 143 -1 144 -1 153 -1 707 -1 699 -1/378 .2 110 .2 583 .1 102 .2 390 .25 330 1","ShearwaterBridge": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 {{spacechase0.JsonAssets/ObjectId:Razor Trout}} -1 {{spacechase0.JsonAssets/ObjectId:Butterfish}} -1 {{spacechase0.JsonAssets/ObjectId:Puppyfish}} -1 143 -1 706 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 {{spacechase0.JsonAssets/ObjectId:Puppyfish}} -1 {{spacechase0.JsonAssets/ObjectId:Butterfish}} -1 138 -1 144 -1 706 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 {{spacechase0.JsonAssets/ObjectId:Butterfish}} -1 {{spacechase0.JsonAssets/ObjectId:Puppyfish}} -1 139 -1 699 -1 143 -1 706 -1 140 -1 269 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 699 -1 153 -1 707 -1 141 -1 144 -1 132 -1 269 -1/100 1 101 .31 103 .8 105 .7 106 .1 107 .65 114 .1",
 	  },
   "When": { "HasMod":"MoreFish", "HasSeenEvent": "5553210", } //patches Razor Trout
 },
@@ -549,7 +557,7 @@
    "Action": "EditData",
    "Target": "Data/Fish",
    "Entries": {
-   "{{spacechase0.JsonAssets/ObjectId:Razor Trout}}": "Razor Trout/85/dart/8/14/600 2600/spring summer fall winter/both/683 .4/3/.85/.5/10"
+   "{{spacechase0.JsonAssets/ObjectId:Razor Trout}}": "Razor Trout/85/dart/8/14/600 2600/spring summer fall winter/both/683 .4/2/.99/.5/10"
     },
     "When": { "HasSeenevent": "5553210" }  //patches Razor Trout
 },
@@ -3067,9 +3075,9 @@
 {	 //Morris - winter star
      "Action": "EditData",
      "Target": "Data/Festivals/winter25",
-	 "When": { "HasSeenEvent": "6665293" },
+	 "When": { "HasSeenEvent |contains=191393": false },
 	 "Fields": {
-	 "set-up": { 5: "warp MorrisTod 49 58" }
+	 "set-up": { 5: "warp MorrisTod 38 59" }
 	 },
 },
 
@@ -3082,21 +3090,12 @@
 	 },
 },
 
-{	 //Claire - winter star
-     "Action": "EditData",
-     "Target": "Data/Festivals/winter25",
-	 "When": { "HasSeenEvent": "3219873" },
-	 "Fields": {
-	 "set-up": { 7: "warp Claire 22 62" }
-	 },
-},
-
 {	 //Apples - winter star
      "Action": "EditData",
      "Target": "Data/Festivals/winter25",
 	 "When": { "HasSeenEvent": "7775927" },
 	 "Fields": {
-	 "set-up": { 8: "warp Apples 12 74" }
+	 "set-up": { 7: "warp Apples 12 74" }
 	 },
 },
 
@@ -3105,7 +3104,7 @@
      "Target": "Data/Festivals/winter25",
 	 "When": { "HasSeenEvent": "5978924" },
 	 "Fields": {
-	 "set-up": { 9: "warp Morgan 33 65" }
+	 "set-up": { 8: "warp Morgan 33 65" }
 	 },
 },
 
@@ -3935,7 +3934,7 @@
       "Action": "EditData",
       "Target": "data/festivals/winter25",
       "Entries": {
-        "Victor": "สงสัยจังเลยว่า ผมควรจะมอบของขวัญ ให้เธอเลยดีมั้ย? อืมม การกะเวลาให้ถูก คือกุญแจสำคัญ ของทุกอย่างสินะครับ$0"
+        "Victor": "สงสัยจังเลยว่า ผมควรจะมอบของขวัญ ให้พวกเขาเลยดีมั้ย?$0#$e#การกะเวลาให้ถูก คือกุญแจสำคัญ ของทุกอย่างสินะครับ!$1"
       }
     },
     {
@@ -7080,8 +7079,8 @@
 	
 	{ //Haley Schedule - Hangs Out With Sophia
 	 "Action": "EditData",
-	 "Target": "characters/schedules/haley",
-	 "When": { "HasSeenEvent": "8185295" },
+	 "Target": "characters/schedules/Haley",
+	 "When": { "HasSeenEvent": "8185295", "Spouse |contains=Sophia": false },
 	 "Entries": {
      "14": "730 HaleyHouse 8 7 1/820 HaleyHouse 18 16 2/940 HaleyHouse 2 18 2/1020 HaleyHouse 7 5 3/1340 HaleyHouse 8 5 2/1530 HaleyHouse 6 20 3/1610 HaleyHouse 14 17 0/1940 HaleyHouse 6 5 2/2040 HaleyHouse 2 5 2 Haley_Sleep",
 	 },
@@ -7120,7 +7119,7 @@
 	{ //Emily Schedule - Hangs Out With Sophia
 	 "Action": "EditData",
 	 "Target": "characters/schedules/Emily",
-	 "When": { "HasSeenEvent": "8185295" },
+	 "When": { "HasSeenEvent": "8185295", "Spouse |contains=Sophia": false },
 	 "Entries": {
      "20": "830 HaleyHouse 13 24 0/1010 HaleyHouse 14 23 0/1030 HaleyHouse 16 25 1/1210 HaleyHouse 13 22 2/1430 HaleyHouse 14 7 1/1620 Saloon 16 17 0/1830 Saloon 17 18 2/1910 Saloon 13 17 0/2100 Saloon 16 17 0/2130 Saloon 14 18 2/2230 HaleyHouse 19 4 1 Emily_Sleep",
 	 },
