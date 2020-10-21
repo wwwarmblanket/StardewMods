@@ -5,6 +5,10 @@
   "danceRejection": "โอ้ คุณอยากเต้นงั้นหรอ? อืม... ไว้คราวหน้าดีกว่ามั้ย?$1",
   "BusStop_12_8": "ขอโทษนะ ฉันกำลังจะขึ้นรถกลับบ้าน...$0",
   "movieTheaterClaire": "ฉันเห็นป้ายรับสมัครงานที่โรงหนัง แล้วก็เลยลองสมัครดู$1#$b#แล้วฉันก็ได้มายืนอยู่ที่นี่!$5#$e#นกนี่เพิ่มบรรยากาศให้โรงหนังได้ดีจริงๆ...$1",
+  "breakUp": "Oh... I see...$2#$b#This wasn't working out...$2#$e#It's difficult to maintain a long distance relationship...$2#$e#%Claire looks sad.",
+  "dumped_Girls": "...$2#$e#Please leave me alone...$2#$e#%Claire looks away.",
+  "secondChance_Girls": "Hi...$2",
+  "divorced": "...$2#$e#%Claire edges away from you.",
   
   //SPRING AND GENERAL DIALOGUE
   "Mon": "ฉันเหนื่อยเหลือเกิน...$2",

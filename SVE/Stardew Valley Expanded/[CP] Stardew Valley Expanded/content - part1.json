@@ -242,9 +242,9 @@
 {       //GRANDPAS SHED QUEST LINE - event #3 - Storage chest placement
 	 "Action": "EditData",
 	 "Target": "data/events/Farm",
-	 "When": { "HasMod": "flashshifter.immersivefarm2remastered", "HasSeenEvent": "2554902"  },
+	 "When": { "HasSeenEvent": "2554902" },
 	 "Entries": {
-	 "2554903": "continue/64 15/farmer 64 15 2 Robin 64 17 0/skippable/pause 1000/speak Robin \"Hey @!$1#$b#The storage chest is in the shed. You'll place hardwood inside it.$0\"/pause 1000/speak Robin \"After you've gathered the hardwood, mind writing a manifest for me - detailing the hardwood specifications? It'll really help me out!$0#$b#I'll pick up the manifest when you've completed the task!$1\"/pause 500/end dialogue Robin \"I'll pick up that hardwood manifest at your farm when you've completed the task!$1\""
+	 "2554903/k 2554904": "continue/64 15/farmer 64 15 2 Robin 64 17 0/skippable/pause 1000/speak Robin \"Hey @!$1#$b#The storage chest is in the shed. You'll place hardwood inside it.$0\"/pause 1000/speak Robin \"After you've gathered the hardwood, mind writing a manifest for me - detailing the hardwood specifications? It'll really help me out!$0#$b#I'll pick up the manifest when you've completed the task!$1\"/pause 500/end dialogue Robin \"I'll pick up that hardwood manifest at your farm when you've completed the task!$1\""
 	 
 	 },
 },
@@ -3086,7 +3086,7 @@
      "Target": "Data/Festivals/winter25",
 	 "When": { "HasSeenEvent": "103042015" },
 	 "Fields": {
-	 "set-up": { 6: "warp GuntherSilvian 38 59" }
+	 "set-up": { 6: "warp GuntherSilvian 38 61" }
 	 },
 },
 
