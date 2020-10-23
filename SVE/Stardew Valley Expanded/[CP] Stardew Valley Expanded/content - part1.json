@@ -206,7 +206,7 @@
 	 "Action": "EditData",
 	 "Target": "data/events/GrandpasShedRuins",
 	 "Entries": {
-	 "2554901/H": "none/-100 -100/farmer 1 1 1/end dialogue Lewis \"Ah, that old shed by the bus stop? It used to be your grandpa's.$0#$e#If I recall correctly, Robin said it's due for demolition soon.$0\""
+	 "2554901/H": "none/-100 -100/farmer 1 1 1/end dialogue Lewis \"อ้อ กระท่อมหลังเก่าใกล้ๆ กับป้ายรถประจำทางงั้นหรอ? นั่นเคยเป็นของปู่เธอนั่นแหละ$0#$e#ถ้าจำฉันไม่ผิด เหมือนโรบินจะบอกว่า ใกล้จะถึงกำหนดรื้อถอนแล้ว$0\""
 	 
 	 },
 },
@@ -216,7 +216,7 @@
 	 "Target": "data/events/Farm",
 	 "When": { "FarmhouseUpgrade": "3", "HasSeenEvent": "2554901", "HasMod": "flashshifter.immersivefarm2remastered", "FarmType":"Standard" },
 	 "Entries": {
-	 "2554902/H/w sunny/t 600 800": "continue/64 15/farmer 64 15 2 Robin 64 17 0/skippable/pause 1100/speak Robin \"Good morning @!$0#$b#I'm about to check the structural integrity of that abandoned shed on your property!$0#$b#I'm licensed by the 'Ferngill Republic Building Association' to make sure abandoned buildings aren't on the verge of collapsing...$0\"/pause 1000/faceDirection Robin 1 true/pause 1300/faceDirection Robin 0 true/pause 500/speak Robin \"If you have a moment, you can watch as I inspect the shed.$0\"/pause 500/globalFade/viewport -1000 -1000/changeLocation GrandpasShedRuins/warp Robin 16 7/warp farmer 16 10/faceDirection farmer 0 true/faceDirection Robin 0 true/playSound doorClose/pause 600/playSound doorClose/pause 400/stopMusic/pause 200/viewport 16 9 true/pause 1700/faceDirection Robin 3 true/pause 1600/faceDirection Robin 0 true/pause 250/faceDirection Robin 1 true/pause 1600/faceDirection Robin 2 true/pause 1000/animate Robin false true 200 34 35/textAboveHead Robin \"Hmm...\"/pause 3500/stopAnimation Robin/pause 800/speak Robin \"I could actually refurbish this shed if I had the necessary materials.$0#$b#You've given me a lot of business with those house upgrades. It's the least I could do!$1\"/pause 200/emote farmer 16/jump farmer/pause 1000/speak Robin \"I'm estimating 150 pieces of hardwood to start...#$b#Most of the wood is rotten and will need to be replaced.$0\"/pause 500/emote Robin 40/speak Robin \"That's a hefty amount of wood to carry to my workshop...so I'll bring a storage chest here tomorrow morning where you can drop off the hardwood.$0#$b#I'll see you tomorrow with that storage chest @!$1\"/globalFade/viewport -1000 -1000/pause 500/end dialogue Robin \"I'll put my craftsmanship skills to the test with this shed project!$1#$e#I'm crafting a special storage chest for the project. We'll need more than just hardwood to refurbish the shed.$0\"",
+	 "2554902/H/w sunny/t 600 800": "continue/64 15/farmer 64 15 2 Robin 64 17 0/skippable/pause 1100/speak Robin \"สวัสดี @!$0#$b#ฉันกำลังเช็คความสมบูรณ์ ของโครงสร้างกระท่อมร้าง ของคุณน่ะ!$0#$b#ฉันได้รับอนุญาตจาก 'สมาคมผู้รับเหมาก่อสร้าง แห่งสาธารณรัฐเฟิร์นกิลล์' เพื่อมาตรวจดูว่ากระท่อมนี้ จะไม่ถล่มลงมา...$0\"/pause 1000/faceDirection Robin 1 true/pause 1300/faceDirection Robin 0 true/pause 500/speak Robin \"ถ้าเธอพอจะมีเวลานะ เธอจะดู การตรวจสอบกระท่อมนี้ กับฉันก็ได้$0\"/pause 500/globalFade/viewport -1000 -1000/changeLocation GrandpasShedRuins/warp Robin 16 7/warp farmer 16 10/faceDirection farmer 0 true/faceDirection Robin 0 true/playSound doorClose/pause 600/playSound doorClose/pause 400/stopMusic/pause 200/viewport 16 9 true/pause 1700/faceDirection Robin 3 true/pause 1600/faceDirection Robin 0 true/pause 250/faceDirection Robin 1 true/pause 1600/faceDirection Robin 2 true/pause 1000/animate Robin false true 200 34 35/textAboveHead Robin \"หืมม...\"/pause 3500/stopAnimation Robin/pause 800/speak Robin \"ฉันสามารถปรับปรุงกระท่อมนี้ ให้เธอได้นะ ถ้ามีวัสดุที่จำเป็นเพียงพอ$0#$b#อันที่จริง  เธอก็ช่วยทำให้ ธุรกิจของฉันอยู่ได้ จากการปรับปรุงสิ่งปลูกสร้าง ในบ้านเธอมากมาย และนี่ก็เป็นอีกอย่างที่ฉันจะ ช่วยทำให้เธอได้!$1\"/pause 200/emote farmer 16/jump farmer/pause 1000/speak Robin \"ฉันว่าน่าจะต้องใช้ไม้เนื้อแข็ง  'Hardwood' ประมาณ 150 ท่อนเป็นอย่างแรก...#$b#ไม้เก่าพวกนี้ผุพังไปมากแล้ว และเราต้องรื้อมันออก$0\"/pause 500/emote Robin 40/speak Robin \"เท่ากับว่าจะมีท่อนไม้มากมาย ถูกขนไปที่ร้านของฉัน... งั้น พรุ่งนี้ฉันจะเตรียมหีบเก็บของ มาให้เธอในเช้าวันพรุ่งนี้ เพื่อที่เธอจะได้เอาไม้เนื้อแข็ง มาใส่ไว้$0#$b#แล้วพรุ่งนี้เจอกันนะ พร้อมกับหีบเก็บของ @!$1\"/globalFade/viewport -1000 -1000/pause 500/end dialogue Robin \"ฉันจะใช้โครงการปรับปรุง กระท่อมนี้แหละ เป็นตัวทดสอบ ทักษะช่างฝีมือทั้งหมดที่มี!$1#$e#ฉันจะสร้าง หีบเก็บของพิเศษขึ้นมา สำหรับโปรเจคนี้เลยด้วย เพราะเราอาจจะต้องเตรียม อย่างอื่นอีกนอกจากไม้เนื้อแข็ง ในการปรับปรุงกระท่อมน่ะ$0\"",
 	 
 	 },
 },
@@ -226,7 +226,7 @@
 	 "Target": "data/events/GrandpasShedOutside",
 	 "When": { "FarmhouseUpgrade": "3", "HasSeenEvent":"2554901", "HasMod |contains=flashshifter.immersivefarm2remastered": false },
 	 "Entries": {
-	 "2554902/H/w sunny/t 600 800": "continue/64 15/farmer 14 21 1 Robin 22 21 0/skippable/viewport 22 20 true/move farmer 6 0 1/pause 900/faceDirection Robin 3 true/pause 750/speak Robin \"Good morning @!$0#$b#I'm about to check the structural integrity of this abandoned shed!$0#$b#I'm licensed by the 'Ferngill Republic Building Association' to make sure abandoned buildings aren't on the verge of collapsing...$0\"/pause 1000/faceDirection Robin 0 true/pause 1300/faceDirection Robin 3 true/pause 500/speak Robin \"If you have a moment, you can watch as I inspect the shed.$0\"/pause 500/globalFade/viewport -1000 -1000/changeLocation GrandpasShedRuins/warp Robin 16 7/warp farmer 16 10/faceDirection farmer 0 true/faceDirection Robin 0 true/playSound doorClose/pause 600/playSound doorClose/pause 400/stopMusic/pause 200/viewport 16 9 true/pause 1700/faceDirection Robin 3 true/pause 1600/faceDirection Robin 0 true/pause 250/faceDirection Robin 1 true/pause 1600/faceDirection Robin 2 true/pause 1000/animate Robin false true 200 34 35/textAboveHead Robin \"Hmm...\"/pause 3500/stopAnimation Robin/pause 800/speak Robin \"I could actually refurbish this shed if I had the necessary materials.$0#$b#You've given me a lot of business with those house upgrades. It's the least I could do!$1\"/pause 200/emote farmer 16/jump farmer/pause 1000/speak Robin \"I'm estimating 150 pieces of hardwood to start...#$b#Most of the wood is rotten and will need to be replaced.$0\"/pause 500/emote Robin 40/speak Robin \"That's a hefty amount of wood to carry to my workshop...so I'll bring a storage chest here tomorrow morning where you can drop off the hardwood.$0#$b#I'll see you tomorrow @ with that storage chest!$1\"/globalFade/viewport -1000 -1000/pause 500/end dialogue Robin \"I'll put my craftsmanship skills to the test with this shed project!$1#$e#I'm crafting a special storage chest for the project. We'll need more than just hardwood to refurbish the shed.$0\"",
+	 "2554902/H/w sunny/t 600 800": "continue/64 15/farmer 14 21 1 Robin 22 21 0/skippable/viewport 22 20 true/move farmer 6 0 1/pause 900/faceDirection Robin 3 true/pause 750/speak Robin \"สวัสดี @!$0#$b#ฉันกำลังเช็คความสมบูรณ์ ของโครงสร้างกระท่อมร้าง ของคุณน่ะ!$0#$b#ฉันได้รับอนุญาตจาก 'สมาคมผู้รับเหมาก่อสร้าง แห่งสาธารณรัฐเฟิร์นกิลล์' เพื่อมาตรวจดูว่ากระท่อมนี้ จะไม่ถล่มลงมา...$0\"/pause 1000/faceDirection Robin 0 true/pause 1300/faceDirection Robin 3 true/pause 500/speak Robin \"ถ้าเธอพอจะมีเวลานะ เธอจะดู การตรวจสอบกระท่อมนี้ กับฉันก็ได้$0\"/pause 500/globalFade/viewport -1000 -1000/changeLocation GrandpasShedRuins/warp Robin 16 7/warp farmer 16 10/faceDirection farmer 0 true/faceDirection Robin 0 true/playSound doorClose/pause 600/playSound doorClose/pause 400/stopMusic/pause 200/viewport 16 9 true/pause 1700/faceDirection Robin 3 true/pause 1600/faceDirection Robin 0 true/pause 250/faceDirection Robin 1 true/pause 1600/faceDirection Robin 2 true/pause 1000/animate Robin false true 200 34 35/textAboveHead Robin \"หืมม...\"/pause 3500/stopAnimation Robin/pause 800/speak Robin \"ฉันสามารถปรับปรุงกระท่อมนี้ ให้เธอได้นะ ถ้ามีวัสดุที่จำเป็นเพียงพอ$0#$b#อันที่จริง  เธอก็ช่วยทำให้ ธุรกิจของฉันอยู่ได้ จากการปรับปรุงสิ่งปลูกสร้าง ในบ้านเธอมากมาย และนี่ก็เป็นอีกอย่างที่ฉันจะ ช่วยทำให้เธอได้!$1\"/pause 200/emote farmer 16/jump farmer/pause 1000/speak Robin \"ฉันว่าน่าจะต้องใช้ไม้เนื้อแข็ง  'Hardwood' ประมาณ 150 ท่อนเป็นอย่างแรก...#$b#ไม้เก่าพวกนี้ผุพังไปมากแล้ว และเราต้องรื้อมันออก$0\"/pause 500/emote Robin 40/speak Robin \"เท่ากับว่าจะมีท่อนไม้มากมาย ถูกขนไปที่ร้านของฉัน... งั้น พรุ่งนี้ฉันจะเตรียมหีบเก็บของ มาให้เธอในเช้าวันพรุ่งนี้ เพื่อที่เธอจะได้เอาไม้เนื้อแข็ง มาใส่ไว้$0#$b#แล้วพรุ่งนี้เจอกันนะ @ พร้อมกับหีบเก็บของ!$1\"/globalFade/viewport -1000 -1000/pause 500/end dialogue Robin \"ฉันจะใช้โครงการปรับปรุง กระท่อมนี้แหละ เป็นตัวทดสอบ ทักษะช่างฝีมือทั้งหมดที่มี!$1#$e#ฉันจะสร้าง หีบเก็บของพิเศษขึ้นมา สำหรับโปรเจคนี้เลยด้วย เพราะเราอาจจะต้องเตรียม อย่างอื่นอีกนอกจากไม้เนื้อแข็ง ในการปรับปรุงกระท่อมน่ะ$0\"",
 	 
 	 },
 },
@@ -244,7 +244,7 @@
 	 "Target": "data/events/Farm",
 	 "When": { "HasSeenEvent": "2554902" },
 	 "Entries": {
-	 "2554903/k 2554904": "continue/64 15/farmer 64 15 2 Robin 64 17 0/skippable/pause 1000/speak Robin \"Hey @!$1#$b#The storage chest is in the shed. You'll place hardwood inside it.$0\"/pause 1000/speak Robin \"After you've gathered the hardwood, mind writing a manifest for me - detailing the hardwood specifications? It'll really help me out!$0#$b#I'll pick up the manifest when you've completed the task!$1\"/pause 500/end dialogue Robin \"I'll pick up that hardwood manifest at your farm when you've completed the task!$1\""
+	 "2554903/k 2554904": "continue/64 15/farmer 64 15 2 Robin 64 17 0/skippable/pause 1000/speak Robin \"ไง @!$1#$b#หีบเก็บของ อยู่ในกระท่อมแล้วนะ เธอเอาไม้เนื้อแข็ง ไปใส่ในนั้นได้เลย$0\"/pause 1000/speak Robin \"หลังจากที่เธอ หาไม้เนื้อแข็งได้แล้ว อย่าลืมเขียน 'ใบรับสินค้า ไม้เนื้อแข็ง' ให้ฉันด้วย - ลงรายละเอียดเป็น คุณสมบัติของไม้เนื้อแข็ง ไว้ละกันเนอะ? นั่นจะช่วยฉันได้มากเลย!$0#$b#ฉันจะแวะไปเอาใบรับสินค้า เมื่อคุณเตรียมของไว้เรียบร้อย!$1\"/pause 500/end dialogue Robin \"ฉันจะแวะไปเอาใบรับสินค้า เมื่อคุณเตรียมของไว้เรียบร้อย!$1\""
 	 
 	 },
 },
@@ -254,7 +254,7 @@
 	 "Target": "data/events/Farm",
 	 "When": { "HasMod": "flashshifter.immersivefarm2remastered" },
 	 "Entries": {
-	 "2554904/t 600 2000/i {{spacechase0.JsonAssets/ObjectId:Hardwood Manifest}}": "continue/64 15/farmer 64 15 2 Robin 64 17 0/removeItem {{spacechase0.JsonAssets/ObjectId:Hardwood Manifest}}/skippable/pause 1000/speak Robin \"You got the hardwood and completed the paperwork! Thanks, @!$1\"/pause 500/emote Robin 40/speak Robin \"Mmm, I'll need 50 iron bars to fix the plumbing. There's also a lot of rusted metal to replace.$0\"/pause 1000/faceDirection Robin 1 true/pause 1000/faceDirection Robin 0 true/pause 500/speak Robin \"I'll place another storage chest in the shed for those iron bars.$1\"/pause 500/end dialogue Robin \"I know 50 iron bars is a hefty amount, but the rusted metal has to be replaced.$0#$e#Don't forget that paperwork!$1\"",              
+	 "2554904/t 600 2000/i {{spacechase0.JsonAssets/ObjectId:Hardwood Manifest}}": "continue/64 15/farmer 64 15 2 Robin 64 17 0/removeItem {{spacechase0.JsonAssets/ObjectId:Hardwood Manifest}}/skippable/pause 1000/speak Robin \"เธอหาไม้เนื้อแข็งมา แล้วก็เตรียมเอกสารไว้ครบถ้วนเลย! ขอบใจนะ @!$1\"/pause 500/emote Robin 40/speak Robin \"อืม.. ฉันต้องใช้เหล็ก 50 แท่งเพื่อซ่อมท่อประปา มีส่วนที่เป็นสนิมเยอะเลย ที่ต้องเปลี่ยนล่ะ$0\"/pause 1000/faceDirection Robin 1 true/pause 1000/faceDirection Robin 0 true/pause 500/speak Robin \"ฉันจะเอาหีบเก็บของอีกอัน ไปไว้ที่กระท่อมให้ เธอเอา แผ่นเหล็กพวกนั้น มาใส่ไว้ละกัน$1\"/pause 500/end dialogue Robin \"ฉันรู้ เหล็ก 50 แท่งมันเยอะพอสมควร แต่ยังไง ส่วนที่ขึ้นสนิม ก็ต้องถูกเปลี่ยนใหม่$0#$e#อย่าลืมเตรียมเอกสารไว้ล่ะ!$1\"",              
 	 
 	 },
 },
@@ -264,7 +264,7 @@
 	 "Target": "data/events/Farm",
 	 "When": { "HasMod": "flashshifter.immersivefarm2remastered" },
 	 "Entries": {
-	 "2554904/t 2010 2600/i {{spacechase0.JsonAssets/ObjectId:Hardwood Manifest}}": "continue/64 15/farmer 64 15 2 Robin 64 17 0/removeItem {{spacechase0.JsonAssets/ObjectId:Hardwood Manifest}}/skippable/pause 1000/speak Robin \"*yawn*...$2\"/pause 1000/speak Robin \"Oh, you got the hardwood and completed the paperwork! Thanks, @!$1\"/pause 500/emote Robin 40/speak Robin \"Mmm, I'll need 50 iron bars to fix the plumbing. There's also a lot of rusted metal to replace.$0\"/pause 1000/faceDirection Robin 1 true/pause 1000/faceDirection Robin 0 true/pause 500/speak Robin \"I'll place another storage chest in the shed for those iron bars.$1\"/pause 500/end dialogue Robin \"I know 50 iron bars is a hefty amount, but the rusted metal has to be replaced.$0#$e#Don't forget that paperwork!$1\"",              
+	 "2554904/t 2010 2600/i {{spacechase0.JsonAssets/ObjectId:Hardwood Manifest}}": "continue/64 15/farmer 64 15 2 Robin 64 17 0/removeItem {{spacechase0.JsonAssets/ObjectId:Hardwood Manifest}}/skippable/pause 1000/speak Robin \"*หาว*...$2\"/pause 1000/speak Robin \"โอ้ เธอหาไม้เนื้อแข็งมา แล้วก็เตรียมเอกสารไว้ครบถ้วนเลย! ขอบใจนะ @!$1\"/pause 500/emote Robin 40/speak Robin \"อืม.. ฉันต้องใช้เหล็ก 50 แท่งเพื่อซ่อมท่อประปา มีส่วนที่เป็นสนิมเยอะเลย ที่ต้องเปลี่ยนล่ะ$0\"/pause 1000/faceDirection Robin 1 true/pause 1000/faceDirection Robin 0 true/pause 500/speak Robin \"ฉันจะเอาหีบเก็บของอีกอัน ไปไว้ที่กระท่อมให้ เธอเอา แผ่นเหล็กพวกนั้น มาใส่ไว้ละกัน$1\"/pause 500/end dialogue Robin \"ฉันรู้ เหล็ก 50 แท่งมันเยอะพอสมควร แต่ยังไง ส่วนที่ขึ้นสนิม ก็ต้องถูกเปลี่ยนใหม่$0#$e#อย่าลืมเตรียมเอกสารไว้ล่ะ!$1\"",              
 	 
 	 },
 },
@@ -274,7 +274,7 @@
 	 "Target": "data/events/GrandpasShedOutside",
 	 "When": { "HasMod |contains=flashshifter.immersivefarm2remastered": false },
 	 "Entries": {
-	 "2554904/t 600 2000/i {{spacechase0.JsonAssets/ObjectId:Hardwood Manifest}}": "continue/64 15/farmer 64 15 2 Robin 64 17 0/removeItem {{spacechase0.JsonAssets/ObjectId:Hardwood Manifest}}/changeLocation Farm/viewport 64 15 true/skippable/pause 1000/speak Robin \"You got the hardwood and completed the paperwork! Thanks, @!$1\"/pause 500/emote Robin 40/speak Robin \"Mmm, I'll need 50 iron bars to fix the plumbing. There's also a lot of rusted metal to replace.$0\"/pause 1000/faceDirection Robin 1 true/pause 1000/faceDirection Robin 0 true/pause 500/speak Robin \"I'll place another storage chest in the shed for those iron bars.$1\"/pause 500/end dialogue Robin \"I know 50 iron bars is a hefty amount, but the rusted metal has to be replaced.$0#$e#Don't forget that paperwork!$1\"",              
+	 "2554904/t 600 2000/i {{spacechase0.JsonAssets/ObjectId:Hardwood Manifest}}": "continue/64 15/farmer 64 15 2 Robin 64 17 0/removeItem {{spacechase0.JsonAssets/ObjectId:Hardwood Manifest}}/changeLocation Farm/viewport 64 15 true/skippable/pause 1000/speak Robin \"เธอหาไม้เนื้อแข็งมา แล้วก็เตรียมเอกสารไว้ครบถ้วนเลย! ขอบใจนะ @!$1\"/pause 500/emote Robin 40/speak Robin \"อืม.. ฉันต้องใช้เหล็ก 50 แท่งเพื่อซ่อมท่อประปา มีส่วนที่เป็นสนิมเยอะเลย ที่ต้องเปลี่ยนล่ะ$0\"/pause 1000/faceDirection Robin 1 true/pause 1000/faceDirection Robin 0 true/pause 500/speak Robin \"ฉันจะเอาหีบเก็บของอีกอัน ไปไว้ที่กระท่อมให้ เธอเอา แผ่นเหล็กพวกนั้น มาใส่ไว้ละกัน$1\"/pause 500/end dialogue Robin \"ฉันรู้ เหล็ก 50 แท่งมันเยอะพอสมควร แต่ยังไง ส่วนที่ขึ้นสนิม ก็ต้องถูกเปลี่ยนใหม่$0#$e#อย่าลืมเตรียมเอกสารไว้ล่ะ!$0#$e#อย่าลืมเตรียมเอกสารไว้ล่ะ!$1\"",              
 	 
 	 },
 },
@@ -284,7 +284,7 @@
 	 "Target": "data/events/GrandpasShedOutside",
 	 "When": { "HasMod |contains=flashshifter.immersivefarm2remastered": false },
 	 "Entries": {
-	 "2554904/t 2010 2600/i {{spacechase0.JsonAssets/ObjectId:Hardwood Manifest}}": "continue/64 15/farmer 64 15 2 Robin 64 17 0/removeItem {{spacechase0.JsonAssets/ObjectId:Hardwood Manifest}}/changeLocation Farm/viewport 64 15 true/skippable/pause 1000/speak Robin \"*yawn*...$2\"/pause 1000/speak Robin \"Oh, you got the hardwood and completed the paperwork! Thanks, @!$1\"/pause 500/emote Robin 40/speak Robin \"Mmm, I'll need 50 iron bars to fix the plumbing. There's also a lot of rusted metal to replace.$0\"/pause 1000/faceDirection Robin 1 true/pause 1000/faceDirection Robin 0 true/pause 500/speak Robin \"I'll place another storage chest in the shed for those iron bars.$1\"/pause 500/end dialogue Robin \"I know 50 iron bars is a hefty amount, but the rusted metal has to be replaced.$0#$e#Don't forget that paperwork!$1\"",              
+	 "2554904/t 2010 2600/i {{spacechase0.JsonAssets/ObjectId:Hardwood Manifest}}": "continue/64 15/farmer 64 15 2 Robin 64 17 0/removeItem {{spacechase0.JsonAssets/ObjectId:Hardwood Manifest}}/changeLocation Farm/viewport 64 15 true/skippable/pause 1000/speak Robin \"*หาว*...$2\"/pause 1000/speak Robin \"โอ้ เธอหาไม้เนื้อแข็งมา แล้วก็เตรียมเอกสารไว้ครบถ้วนเลย! ขอบใจนะ @!$1\"/pause 500/emote Robin 40/speak Robin \"อืม.. ฉันต้องใช้เหล็ก 50 แท่งเพื่อซ่อมท่อประปา มีส่วนที่เป็นสนิมเยอะเลย ที่ต้องเปลี่ยนล่ะ$0\"/pause 1000/faceDirection Robin 1 true/pause 1000/faceDirection Robin 0 true/pause 500/speak Robin \"ฉันจะเอาหีบเก็บของอีกอัน ไปไว้ที่กระท่อมให้ เธอเอา แผ่นเหล็กพวกนั้น มาใส่ไว้ละกัน$1\"/pause 500/end dialogue Robin \"ฉันรู้ เหล็ก 50 แท่งมันเยอะพอสมควร แต่ยังไง ส่วนที่ขึ้นสนิม ก็ต้องถูกเปลี่ยนใหม่$0#$e#อย่าลืมเตรียมเอกสารไว้ล่ะ!$1\"",              
 	 
 	 },
 },
@@ -294,7 +294,7 @@
 	 "Target": "data/events/Farm",
 	 "When": { "HasMod": "flashshifter.immersivefarm2remastered" },
 	 "Entries": {
-	 "2554905/t 600 2000/i {{spacechase0.JsonAssets/ObjectId:Iron Manifest}}": "continue/64 15/farmer 64 15 2 Robin 64 17 0/removeItem {{spacechase0.JsonAssets/ObjectId:Iron Manifest}}/skippable/pause 1000/speak Robin \"These iron bars are perfect! Thanks for the detailed manifest too!$1\"/pause 500/emote Robin 40/speak Robin \"All there's left to do now is restoring the electricity.$0#$b#I'm estimating It'll take 20 battery packs...$0#$b#Drop them off in the storage chest when you collect them!$1\"/pause 500/end dialogue Robin \"Just 10 battery packs and I think that's all the materials I need to restore the shed!$1\"",
+	 "2554905/t 600 2000/i {{spacechase0.JsonAssets/ObjectId:Iron Manifest}}": "continue/64 15/farmer 64 15 2 Robin 64 17 0/removeItem {{spacechase0.JsonAssets/ObjectId:Iron Manifest}}/skippable/pause 1000/speak Robin \"แท่งเหล็กพวกนี้เยี่ยมไปเลย! ขอบใจสำหรับรายละเอียด ในใบรับสินค้าด้วย!$1\"/pause 500/emote Robin 40/speak Robin \"เท่านี้ก็เหลือแค่ระบบไฟ ที่จะต้องทำให้กลับมาใช้งานได้$0#$b#ฉันประเมินว่า น่าจะต้องใช้แบตเตอรี่ประมาณ 20 ชุด...$0#$b#เอาใส่ไว้ในหีบเก็บของ ในกระท่อมเมื่อเธอหาได้ครบแล้ว!$1\"/pause 500/end dialogue Robin \"ใช้แบตเตอรี่แค่ 10 ชุดนะ ฉันว่าเราน่าจะได้ของทั้งหมด ที่จำเป็น ในการปรับปรุงกระท่อมแล้ว!$1\"",
 	 
 	 },
 },
@@ -304,7 +304,7 @@
 	 "Target": "data/events/Farm",
 	 "When": { "HasMod": "flashshifter.immersivefarm2remastered" },
 	 "Entries": {
-	 "2554905/t 2010 2600/i {{spacechase0.JsonAssets/ObjectId:Iron Manifest}}": "continue/64 15/farmer 64 15 2 Robin 64 17 0/removeItem {{spacechase0.JsonAssets/ObjectId:Iron Manifest}}/skippable/pause 1000/speak Robin \"*yawn*...It's a bit late.$2\"/pause 1000/speak Robin \"Oh, these iron bars are perfect! Thanks for the detailed manifest too!$1\"/pause 500/emote Robin 40/speak Robin \"All there's left to do now is restoring the electricity.$0#$b#I'm estimating It'll take 20 battery packs...$0#$b#Drop them off in the storage chest when you collect them!$1\"/pause 500/end dialogue Robin \"Just 10 battery packs and I think that's all the materials I need to restore the shed!$1\"",
+	 "2554905/t 2010 2600/i {{spacechase0.JsonAssets/ObjectId:Iron Manifest}}": "continue/64 15/farmer 64 15 2 Robin 64 17 0/removeItem {{spacechase0.JsonAssets/ObjectId:Iron Manifest}}/skippable/pause 1000/speak Robin \"*หาว*...ดึกแล้วนะเนี่ย$2\"/pause 1000/speak Robin \"โอ้ แท่งเหล็กพวกนี้เยี่ยมไปเลย! ขอบใจสำหรับรายละเอียด ในใบรับสินค้าด้วย!$1\"/pause 500/emote Robin 40/speak Robin \"เท่านี้ก็เหลือแค่ระบบไฟ ที่จะต้องทำให้กลับมาใช้งานได้$0#$b#ฉันประเมินว่า น่าจะต้องใช้แบตเตอรี่ประมาณ 20 ชุด...$0#$b#เอาใส่ไว้ในหีบเก็บของ ในกระท่อมเมื่อเธอหาได้ครบแล้ว!$1\"/pause 500/end dialogue Robin \"ใช้แบตเตอรี่แค่ 10 ชุดนะ ฉันว่าเราน่าจะได้ของทั้งหมด ที่จำเป็น ในการปรับปรุงกระท่อมแล้ว!$1\"",
 	 
 	 },
 },
@@ -314,7 +314,7 @@
 	 "Target": "data/events/GrandpasShedOutside",
 	 "When": { "HasMod |contains=flashshifter.immersivefarm2remastered": false },
 	 "Entries": {
-	 "2554905/t 600 2000/i {{spacechase0.JsonAssets/ObjectId:Iron Manifest}}": "continue/-500 -500/farmer 64 15 2 Robin 64 17 0/removeItem {{spacechase0.JsonAssets/ObjectId:Iron Manifest}}/changeLocation Farm/viewport 64 15 true/skippable/pause 1000/speak Robin \"These iron bars are perfect! Thanks for the detailed manifest too!$1\"/pause 500/emote Robin 40/speak Robin \"All there's left to do now is restoring the electricity.$0#$b#I'm estimating It'll take 20 battery packs...$0#$b#Drop them off in the storage chest when you collect them!$1\"/pause 500/end dialogue Robin \"Just 10 battery packs and I think that's all the materials I need to restore the shed!$1\"",
+	 "2554905/t 600 2000/i {{spacechase0.JsonAssets/ObjectId:Iron Manifest}}": "continue/-500 -500/farmer 64 15 2 Robin 64 17 0/removeItem {{spacechase0.JsonAssets/ObjectId:Iron Manifest}}/changeLocation Farm/viewport 64 15 true/skippable/pause 1000/speak Robin \"แท่งเหล็กพวกนี้เยี่ยมไปเลย! ขอบใจสำหรับรายละเอียด ในใบรับสินค้าด้วย!$1\"/pause 500/emote Robin 40/speak Robin \"เท่านี้ก็เหลือแค่ระบบไฟ ที่จะต้องทำให้กลับมาใช้งานได้$0#$b#ฉันประเมินว่า น่าจะต้องใช้แบตเตอรี่ประมาณ 20 ชุด...$0#$b#เอาใส่ไว้ในหีบเก็บของ ในกระท่อมเมื่อเธอหาได้ครบแล้ว!$1\"/pause 500/end dialogue Robin \"ใช้แบตเตอรี่แค่ 10 ชุดนะ ฉันว่าเราน่าจะได้ของทั้งหมด ที่จำเป็น ในการปรับปรุงกระท่อมแล้ว!$1\"",
 	 
 	 },
 },
@@ -324,7 +324,7 @@
 	 "Target": "data/events/GrandpasShedOutside",
 	 "When": { "HasMod |contains=flashshifter.immersivefarm2remastered": false },
 	 "Entries": {
-	 "2554905/t 2010 2600/i {{spacechase0.JsonAssets/ObjectId:Iron Manifest}}": "continue/-500 -500/farmer 64 15 2 Robin 64 17 0/removeItem {{spacechase0.JsonAssets/ObjectId:Iron Manifest}}/changeLocation Farm/viewport 64 15 true/skippable/pause 1000/speak Robin \"*yawn*...It's a bit late.$2\"/pause 1000/speak Robin \"Oh, these iron bars are perfect! Thanks for the detailed manifest too!$1\"/pause 500/emote Robin 40/speak Robin \"All there's left to do now is restoring the electricity.$0#$b#I'm estimating It'll take 20 battery packs...$0#$b#Drop them off in the storage chest when you collect them!$1\"/pause 500/end dialogue Robin \"Just 10 battery packs and I think that's all the materials I need to restore the shed!$1\"",
+	 "2554905/t 2010 2600/i {{spacechase0.JsonAssets/ObjectId:Iron Manifest}}": "continue/-500 -500/farmer 64 15 2 Robin 64 17 0/removeItem {{spacechase0.JsonAssets/ObjectId:Iron Manifest}}/changeLocation Farm/viewport 64 15 true/skippable/pause 1000/speak Robin \"*หาว*...ดึกแล้วนะเนี่ย$2\"/pause 1000/speak Robin \"โอ้ แท่งเหล็กพวกนี้เยี่ยมไปเลย! ขอบใจสำหรับรายละเอียด ในใบรับสินค้าด้วย!$1\"/pause 500/emote Robin 40/speak Robin \"เท่านี้ก็เหลือแค่ระบบไฟ ที่จะต้องทำให้กลับมาใช้งานได้$0#$b#ฉันประเมินว่า น่าจะต้องใช้แบตเตอรี่ประมาณ 20 ชุด...$0#$b#เอาใส่ไว้ในหีบเก็บของ ในกระท่อมเมื่อเธอหาได้ครบแล้ว!$1\"/pause 500/end dialogue Robin \"ใช้แบตเตอรี่แค่ 10 ชุดนะ ฉันว่าเราน่าจะได้ของทั้งหมด ที่จำเป็น ในการปรับปรุงกระท่อมแล้ว!$1\"",
 	 
 	 },
 },
@@ -334,7 +334,7 @@
 	 "Target": "data/events/Farm",
 	 "When": { "HasMod": "flashshifter.immersivefarm2remastered" },
 	 "Entries": {
-	 "2554906/t 600 2000/i {{spacechase0.JsonAssets/ObjectId:Battery Pack Manifest}}": "continue/64 15/farmer 64 15 2 Robin 64 17 0/removeItem {{spacechase0.JsonAssets/ObjectId:Battery Pack Manifest}}/skippable/pause 1000/speak Robin \"Hey @! You collected all of the materials I requested! Incredible work!$1\"/pause 1000/speak Robin \"I'll start restoring the shed today!$0#$b#It just might be completed tomorrow!$1\"/pause 500/end dialogue Robin \"%Robin is busy.\"",
+	 "2554906/t 600 2000/i {{spacechase0.JsonAssets/ObjectId:Battery Pack Manifest}}": "continue/64 15/farmer 64 15 2 Robin 64 17 0/removeItem {{spacechase0.JsonAssets/ObjectId:Battery Pack Manifest}}/skippable/pause 1000/speak Robin \"ไง @! เธอหาของที่ฉันต้องการ มาได้ครบเลย! วิเศษไปเลย!$1\"/pause 1000/speak Robin \"ฉันจะเริ่มงานปรับปรุงกระท่อม ในวันนี้เลย!$0#$b#พรุ่งนี้ก็น่าจะเสร็จแล้วล่ะ!$1\"/pause 500/end dialogue Robin \"%โรบินกำลังยุ่งอยู่\"",
 	 
 	 },
 },
@@ -344,7 +344,7 @@
 	 "Target": "data/events/Farm",
 	 "When": { "HasMod": "flashshifter.immersivefarm2remastered" },
 	 "Entries": {
-	 "2554906/t 2010 2600/i {{spacechase0.JsonAssets/ObjectId:Battery Pack Manifest}}": "continue/64 15/farmer 64 15 2 Robin 64 17 0/removeItem {{spacechase0.JsonAssets/ObjectId:Battery Pack Manifest}}/skippable/pause 1000/speak Robin \"*yawn*...Couldn't have waited until tomorrow morning, huh.$2\"/pause 1000/speak Robin \"Oh, hey! You collected all of the materials I requested!$0\"/pause 1000/speak Robin \"I'll start restoring the shed first thing tomorrow.$0\"/pause 500/end dialogue Robin \"%Robin is busy.\"",
+	 "2554906/t 2010 2600/i {{spacechase0.JsonAssets/ObjectId:Battery Pack Manifest}}": "continue/64 15/farmer 64 15 2 Robin 64 17 0/removeItem {{spacechase0.JsonAssets/ObjectId:Battery Pack Manifest}}/skippable/pause 1000/speak Robin \"*หาว*... นี่จะรอให้ถึงพรุ่งนี้เช้าก่อน ไม่ได้หรือไงฮึ$2\"/pause 1000/speak Robin \"โอ้ ว่าไงนะ! เธอเตรียมของที่ฉันต้องการ ไว้ครบแล้วงั้นหรอ!$0\"/pause 1000/speak Robin \"พรุ่งนี้ฉันจะเริ่มงานปรับปรุงกระท่อม ให้เธอเป็นอย่างแรกเลย$0\"/pause 500/end dialogue Robin \"%โรบินกำลังยุ่งอยู่\"",
 	 
 	 },
 },
@@ -354,7 +354,7 @@
 	 "Target": "data/events/GrandpasShedOutside",
 	 "When": { "HasMod |contains=flashshifter.immersivefarm2remastered": false },
 	 "Entries": {
-	 "2554906/t 600 2000/i {{spacechase0.JsonAssets/ObjectId:Battery Pack Manifest}}": "continue/-500 -500/farmer 64 15 2 Robin 64 17 0/removeItem {{spacechase0.JsonAssets/ObjectId:Battery Pack Manifest}}/changeLocation Farm/viewport 64 15 true/skippable/pause 1000/speak Robin \"Hey @! You collected all of the materials I requested! Incredible work!$0\"/pause 1000/speak Robin \"I'll start restoring the shed today!$0#$b#It just might be completed tomorrow!$1\"/pause 500/end dialogue Robin \"%Robin is busy.\"",
+	 "2554906/t 600 2000/i {{spacechase0.JsonAssets/ObjectId:Battery Pack Manifest}}": "continue/-500 -500/farmer 64 15 2 Robin 64 17 0/removeItem {{spacechase0.JsonAssets/ObjectId:Battery Pack Manifest}}/changeLocation Farm/viewport 64 15 true/skippable/pause 1000/speak Robin \"ไง @! เธอหาของที่ฉันต้องการ มาได้ครบเลย! วิเศษไปเลย!$0\"/pause 1000/speak Robin \"ฉันจะเริ่มงานปรับปรุงกระท่อม ในวันนี้เลย!$0#$b#พรุ่งนี้ก็น่าจะเสร็จแล้วล่ะ!$1\"/pause 500/end dialogue Robin \"%โรบินกำลังยุ่งอยู่\"",
 	 
 	 },
 },
@@ -364,7 +364,7 @@
 	 "Target": "data/events/GrandpasShedOutside",
 	 "When": { "HasMod |contains=flashshifter.immersivefarm2remastered": false },
 	 "Entries": {
-	 "2554906/t 2010 2600/i {{spacechase0.JsonAssets/ObjectId:Battery Pack Manifest}}": "continue/-500 -500/farmer 64 15 2 Robin 64 17 0/removeItem {{spacechase0.JsonAssets/ObjectId:Battery Pack Manifest}}/changeLocation Farm/viewport 64 15 true/skippable/pause 1000/speak Robin \"*yawn*...Couldn't have waited until tomorrow morning, huh.$2\"/pause 1000/speak Robin \"Oh, hey! You collected all of the materials I requested!$0\"/pause 1000/speak Robin \"I'll start restoring the shed first thing tomorrow.$0\"/pause 500/end dialogue Robin \"%Robin is busy.\"",
+	 "2554906/t 2010 2600/i {{spacechase0.JsonAssets/ObjectId:Battery Pack Manifest}}": "continue/-500 -500/farmer 64 15 2 Robin 64 17 0/removeItem {{spacechase0.JsonAssets/ObjectId:Battery Pack Manifest}}/changeLocation Farm/viewport 64 15 true/skippable/pause 1000/speak Robin \"**หาว*... นี่จะรอให้ถึงพรุ่งนี้เช้าก่อน ไม่ได้หรือไงฮึ$2\"/pause 1000/speak Robin \"โอ้ ว่าไงนะ! เธอเตรียมของที่ฉันต้องการ ไว้ครบแล้วงั้นหรอ!$0\"/pause 1000/speak Robin \"พรุ่งนี้ฉันจะเริ่มงานปรับปรุงกระท่อม ให้เธอเป็นอย่างแรกเลย$0\"/pause 500/end dialogue Robin \"%โรบินกำลังยุ่งอยู่\"",
 	 
 	 },
 },
@@ -390,7 +390,7 @@
 	 "Target": "data/events/GrandpasShed",
 	 "When": { "HasSeenEvent": "2554906" },
 	 "Entries": {
-	 "2554907": "none/-500 -500/farmer -200 -200 0 Robin 13 13 0/skippable/viewport 16 9 true/playMusic jaunty/pause 2500/playSound doorClose/warp farmer 16 16/pause 300/move farmer 0 -2 0 true/pause 300/faceDirection Robin 1 true/pause 600/emote farmer 16/pause 200/speak Robin \"Hey @!$1\"/pause 200/faceDirection farmer 3 true/pause 700/speak Robin \"So... what do you think?$0\"/pause 500/jump farmer/pause 1000/speak Robin \"I feel like I did a great job!$0#$b#It wouldn't have been possible without the materials you've gathered.$1\"/pause 1000/faceDirection Robin 0/pause 750/speak Robin \"There was some leftover hardwood, so I crafted casks for the heck of it!$1#$b#This bottom floor would be great for aging wine...$0\"/pause 750/faceDirection Robin 1 true/pause 700/speak Robin \"Well, enjoy the refurbished shed @!$1\"/pause 500/end dialogue Robin \"Those plants upstairs in your shed came from Susan. She thought you'd appreciate plants in the greenhouse space!$1#$e#Mmm, I wonder if she wants a greenhouse built?$0\""
+	 "2554907": "none/-500 -500/farmer -200 -200 0 Robin 13 13 0/skippable/viewport 16 9 true/playMusic jaunty/pause 2500/playSound doorClose/warp farmer 16 16/pause 300/move farmer 0 -2 0 true/pause 300/faceDirection Robin 1 true/pause 600/emote farmer 16/pause 200/speak Robin \"อ้าว @!$1\"/pause 200/faceDirection farmer 3 true/pause 700/speak Robin \"ไง... เธอคิดว่าเป็นไง?$0\"/pause 500/jump farmer/pause 1000/speak Robin \"ฉันว่าฉันทำได้ดีเลยล่ะ!$0#$b#ถ้าไม่มีวัสดุที่เธอเตรียมมาให้ งานนี้คงไม่มีทางเป็นไปได้หรอก$1\"/pause 1000/faceDirection Robin 0/pause 750/speak Robin \"มีไม้เนื้อแข็งเหลืออยู่ ฉันก็เลยใช้มันสร้างถังบ่ม (cask) น่ะ!$1#$b#ห้องใต้ดินที่นี่... เหมาะสำหรับการบ่มไวน์ทีเดียว$0\"/pause 750/faceDirection Robin 1 true/pause 700/speak Robin \"งั้น ขอให้สนุกกับกระท่อมน้อย หลังใหม่นะ @!$1\"/pause 500/end dialogue Robin \"ต้นไม้พวกนั้นในกระท่อมของเธอ ซูซานเป็นคนให้มาน่ะ ซูซานคิดว่าเธอ น่าจะชอบต้นไม้ ที่ปลูกได้ในเรือนกระจกนะ!$1#$e#อืม  อยากรู้จังว่าซูซาน อยากจะสร้างเรื่อนกระจกบ้างมั้ย?$0\""
 	 },
 },
 
