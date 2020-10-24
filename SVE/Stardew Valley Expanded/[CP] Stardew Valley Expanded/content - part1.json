@@ -4279,7 +4279,7 @@
 	  "When": { "Date": "Spring 1" },
       "Entries": {
       "funReturn_Olivia": "สวัสดีตอนเย็นจ้ะ หวานใจของฉัน$1",
-      "funLeave_Olivia": "แม้ว่าฉันจะยังคิดถึง ความพลุกพล่านในเมือง แต่ฉันก็ยังรักหุบเขา ในฤดูใบไม้ผลิ$3#$e#ก่อนที่ฉันจะย้ายมาที่นี่ ฉันไม่เคยได้สูดอากาศบริสุทธิ์ แบบนี้เลย$1#$b#เราเดินไปคุยไปรอบๆ ป่ากันนะจ้ะ ถ้าคุณไม่ยุ่งแล้ว ฉันชอบที่จะเห็นทุกสิ่ง เริ่มเติบโตใหม่อีกครั้ง$3",
+      "funLeave_Olivia": "แม้ว่าฉันจะยังคิดถึง ความพลุกพล่านในเมือง แต่ฉันก็ยังรักหุบเขา ในฤดูใบไม้ผลิ$3#$e#ก่อนที่ฉันจะย้ายมาที่นี่ ฉันไม่เคยได้สูดอากาศบริสุทธิ์ แบบนี้เลย$1#$b#เราเดินไปคุยไปรอบๆ ป่ากันนะจ๊ะ ถ้าคุณไม่ยุ่งแล้ว ฉันชอบที่จะเห็นทุกสิ่ง เริ่มเติบโตใหม่อีกครั้ง$3",
         }
 	},
 	
@@ -4288,7 +4288,7 @@
       "Target": "Characters/Dialogue/MarriageDialogueOlivia",
 	  "When": { "Date": "Spring 2" },
       "Entries": {
-      "funReturn_Olivia": "ฉันตั้งตารอ วันที่จะไปเล่นโยคะแล้วล่ะจ๊ะ$1",
+      "funReturn_Olivia": "ฉันตั้งตารอ วันที่จะไปเล่นโยคะแล้วล่ะจ้ะ$1",
       "funLeave_Olivia": "อรุณสวัสดิ์จ้ะ ที่รัก$1#$eเช้านี้คุณดูดีทีเดียวนะ$3",
         }
 	},
@@ -4299,7 +4299,7 @@
 	  "When": { "Date": "Spring 5" },
       "Entries": {
       "funReturn_Olivia": "ตายจริง เหมือนฉันจะเมานิดๆ...$4",
-      "funLeave_Olivia": "อรุณสวัสดิ์จ๊ะ หวานใจของฉัน เอากาแฟซักหน่อยมั้ย?[395]$3",
+      "funLeave_Olivia": "อรุณสวัสดิ์จ้ะ หวานใจของฉัน เอากาแฟซักหน่อยมั้ย?[395]$3",
         }
 	},
 	
@@ -4318,8 +4318,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueOlivia",
 	  "When": { "Date": "Spring 9" },
       "Entries": {
-      "funReturn_Olivia": "Sometimes I look at you and can't believe that we found each other. We've been so lucky.$3#$e#I love you, @.$4",
-      "funLeave_Olivia": "Rise and shine, sweetie. I cooked breakfast![195]$1",
+      "funReturn_Olivia": "บางครั้งที่ฉันมองไปที่คุณ ก็รู้สึกว่าไม่อยากจะเชื่อเลย ว่าเราจะหากันจนเจอ เราช่างโชคดีอะไรอย่างนี้$3#$e#ฉันรักคุณนะ @$4",
+      "funLeave_Olivia": "แจกความสดใสจ้ะ ยอดรัก ฉันทำอาหารเช้าเสร็จแล้ว![195]$1",
         }
 	},
 	
@@ -4328,8 +4328,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueOlivia",
 	  "When": { "Date": "Spring 12" },
       "Entries": {
-      "funReturn_Olivia": "One of the people who I met while I was a trader called today to tip me off on a great investment.$3#$e#It's a little tempting, but I'm fine where I am.$3",
-      "funLeave_Olivia": "I'm feeling lazy today. I'm tempted to just stay inside and read.$6#$e#I do miss our library sometimes. I could pick any shelf and find a fascinating story to disappear into for hours.$3",
+      "funReturn_Olivia": "มีคนที่ฉันรู้จักตอนที่ฉันยังเป็นเทรดเดอร์อยู่โทรมาหาฉันและบอกความลับเกี่ยวกับการลงทุนที่ให้ผลตอบแทนดีเยี่ยม$3#$e#มันก็ดูน่าสนใจอยู่นะ แต่ฉันก็โอเคกับจุดที่ฉันอยู่ตอนนี้แล้วล่ะจ๊ะ$3",
+      "funLeave_Olivia": "วันนี้ฉันขี้เกียจจัง ฉันอยากจะอยู่ในบ้านแล้วก็อ่านหนังสือ$6#$e#บางทีฉันก็คิดถึงห้องสมุดที่บ้านเหมือนกันนะจ๊ะ ฉันจะเลือกชั้นสักชั้นแล้วก็เรื่องอะไรสนุกๆซักเล่ม แล้วก็จมดิ่งหายไปกับมันหลายชั่วโมง$3",
         }
 	},
 	
@@ -4338,8 +4338,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueOlivia",
 	  "When": { "Date": "Spring 15" },
       "Entries": {
-      "funReturn_Olivia": "Let's invite Victor over for dinner soon.$0#$b#I don't want him to feel like I'm leaving him behind by joining our family with yours. He should feel welcome here, too.$0",
-      "funLeave_Olivia": "Last night I had a dream about us growing old together.$1#$b#I know it's a little corny, sweetie. But it made me think about painting a portrait of us in our future, happy together.$3",
+      "funReturn_Olivia": "เราชวนวิคเตอร์มาทานมื้อค่ำด้วยกันเร็วๆ นี้เถอะจ้ะ$0#$b#ฉันไม่อยากจะให้เขารู้สึกว่า ถูกทิ้งไว้ข้างหลังคนเดียว จากการที่ฉันมาอยู่เป็นครอบครัวเดียวกับคุณ เขาควรจะต้องรู้สึกว่า ที่นี่ก็ต้อนรับเขาด้วยเหมือนกัน$0",
+      "funLeave_Olivia": "เมื่อคืนนี้ฉันฝันว่า เราได้อยู่ด้วยกันไปจนแก่$1#$b#ฉันรู้ว่านี้มันซ้ำซากจำเจไปหน่อยจ้ะ ที่รัก แต่มันก็ทำให้ฉันคิดว่ามันเป็นการวาดอนาคตของพวกเราบนผืนผ้าใบและมีความสุขด้วยกัน$3",
         }
 	},
 	
