@@ -4328,8 +4328,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueOlivia",
 	  "When": { "Date": "Spring 12" },
       "Entries": {
-      "funReturn_Olivia": "มีคนที่ฉันรู้จักตอนที่ฉันยังเป็นเทรดเดอร์อยู่โทรมาหาฉันและบอกความลับเกี่ยวกับการลงทุนที่ให้ผลตอบแทนดีเยี่ยม$3#$e#มันก็ดูน่าสนใจอยู่นะ แต่ฉันก็โอเคกับจุดที่ฉันอยู่ตอนนี้แล้วล่ะจ๊ะ$3",
-      "funLeave_Olivia": "วันนี้ฉันขี้เกียจจัง ฉันอยากจะอยู่ในบ้านแล้วก็อ่านหนังสือ$6#$e#บางทีฉันก็คิดถึงห้องสมุดที่บ้านเหมือนกันนะจ๊ะ ฉันจะเลือกชั้นสักชั้นแล้วก็เรื่องอะไรสนุกๆซักเล่ม แล้วก็จมดิ่งหายไปกับมันหลายชั่วโมง$3",
+      "funReturn_Olivia": "มีคนที่ฉันรู้จัก ตอนที่ฉัน ยังเป็นเทรดเดอร์อยู่ โทรมาหาฉันและบอกความลับ เกี่ยวกับการลงทุน ที่ให้ผลตอบแทนดีเยี่ยม$3#$e#มันก็ดูน่าสนใจอยู่นะ แต่ฉันก็โอเคกับจุดที่ฉันอยู่ตอนนี้แล้วล่ะจ๊ะ$3",
+      "funLeave_Olivia": "วันนี้ฉันขี้เกียจจัง ฉันอยากจะอยู่ในบ้าน แล้วก็อ่านหนังสือ$6#$e#บางทีฉันก็คิดถึง ห้องสมุดที่บ้านเหมือนกันนะจ๊ะ ฉันจะเลือกชั้นสักชั้น แล้วก็เรื่องอะไรสนุกๆ ซักเล่ม จากนั้นก็จมดิ่งหายไปกับมัน หลายชั่วโมง$3",
         }
 	},
 	
@@ -4348,8 +4348,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueOlivia",
 	  "When": { "Date": "Spring 16" },
       "Entries": {
-      "funReturn_Olivia": "I'd like to introduce you to some of my friends in the city sometime.$0#$e#I'm sure you'd get along well.$3",
-      "funLeave_Olivia": "Good morning, dear. I brewed us coffee. This is a special blend from Suki.[395]$3#$e#These coffee beans are only grown in the Gotoro Empire.$1",
+      "funReturn_Olivia": "ถ้ามีโอกาสฉันอยากจะแนะนำคุณ ให้รู้จักกับเพื่อนของฉันบางคนที่อยู่ในเมืองนะจ๊ะ$0#$e#ฉันว่าคุณต้องเข้ากันได้ดีแน่เลยละจ้ะ$3",
+      "funLeave_Olivia": "อรุณสวัสดิ์จ้ะ ที่รัก ฉันชงกาแฟไว้แล้วล่ะ นี่เป็นเมล็ดกาแฟพันธุ์ดีที่ได้มาจากซูกิเลยนะจ๊ะ[395]$3#$e#เมล็ดกาแฟพวกนี้ปลูกได้แค่ที่จักรวรรดิ์โตโตโร่น่ะจ้ะ$1",
         }
 	},
 	
@@ -4358,8 +4358,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueOlivia",
 	  "When": { "Date": "Spring 19" },
       "Entries": {
-      "funReturn_Olivia": "I may attend a wine tasting next week. Would you care to join me, @?$3",
-      "funLeave_Olivia": "Shall we dine at the saloon tonight, honey?$3",
+      "funReturn_Olivia": "ฉันอาจจะเข้าร่วมกิจกรรมการชิมไวน์ในสัปดาห์หน้าน่ะจ๊ะ คุณอยากจะไปด้วยกันกับฉันมั้ยจ๊ะ @?$3",
+      "funLeave_Olivia": "คืนนี้เราไปทานอาหารที่ซาลูนกันมั้ยจ๊ะ ที่รัก?$3",
         }
 	},
 	
@@ -4368,8 +4368,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueOlivia",
 	  "When": { "Date": "Spring 22" },
       "Entries": {
-      "funReturn_Olivia": "I don't regret giving up trading to come live with you on the farm.$3#$b#I've found so much peace here with you.$1",
-      "funLeave_Olivia": "Up early, as usual.$6#$e#Take this, dear. This energy tonic will aid you in your adventurers.[349]$0",
+      "funReturn_Olivia": "แันไม่เสียดายเลยที่เลิกทำธุรกิจการลงทุนและเก็งกำไรแล้วมาอยู่ที่ฟาร์มกับคุณ$3#$b#ฉันได้พบกับความสงบสุขมากมายเมื่อได้อยู่กับคุณที่นี่$1",
+      "funLeave_Olivia": "ตื่นเช้าอีกแล้วนะจ๊ะ$6#$e#เอานี้ไปสิ ที่รัก น้ำยานี้จะช่วยเป็นพลังให้คุณในการผจญภัยจ้ะ[349]$0",
         }
 	},
 	
@@ -4378,8 +4378,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueOlivia",
 	  "When": { "Date": "Spring 23" },
       "Entries": {
-      "funReturn_Olivia": "In the city... everything moved so fast. I was always on my way somewhere, never pausing to pay attention to the world around me.$0#$e#It feels nice to slow down and enjoy life with you, @.$3",
-      "funLeave_Olivia": "Good luck with the farm work today, dear.$3",
+      "funReturn_Olivia": "ในเมืองน่ะนะ... ทุกอย่างเคลื่อนที่ไปไวมาก ฉันก็มักจะมุ่งมั่นทำตามสิ่งที่ฉันต้องการ และไม่เคยหยุดใส่ใจกับโลกที่อยู่รอบๆ ตัวฉัน$0#$e#ตอนนี้มันดีมากเลยที่ได้ใช้ชีวิตช้าลงและมีความสุขกับคุณ @.$3",
+      "funLeave_Olivia": "ขอให้การทำงานในฟาร์มวันนี้ราบลื่นนะที่รัก$3",
         }
 	},
 	
@@ -4388,8 +4388,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueOlivia",
 	  "When": { "Date": "Spring 26" },
       "Entries": {
-      "funReturn_Olivia": "Have a productive day, honey?$3",
-      "funLeave_Olivia": "*yawn* Good morning.$3",
+      "funReturn_Olivia": "ได้ใช้วันนี้อย่างคุ้มค่ามั้ยจ๊ะ ที่รัก?$3",
+      "funLeave_Olivia": "*หาว* อรุณสวัสดิ์จ๊ะ$3",
         }
 	},
 	
