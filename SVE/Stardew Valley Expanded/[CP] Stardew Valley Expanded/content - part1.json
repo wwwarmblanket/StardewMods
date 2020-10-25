@@ -4558,8 +4558,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueOlivia",
 	  "When": { "Date": "Fall 9" },
       "Entries": {
-      "funReturn_Olivia": "The beauty of yoga is the enhanced flexibility it gives you, @...$4#$b#Working the fields on your farm will certainly keep your muscles toned too.$9#$e#%Olivia winks at you.",
-      "funLeave_Olivia": "I'm attending my acrobatics class this afternoon.$0#$e#Drop by and say hi if you have the time, honey.$3"
+      "funReturn_Olivia": "ความงดงามของโยคะ คือการที่มันสามารถ เพิ่มความยืดหยุ่นให้คุณได้ @...$4#$b#การทำงานในไร่ ก็ช่วยให้กล้ามเนื้อของคุณ แน่นขึ้นนะจ๊ะเนี่ย$9#$e#%โอลิเวียขยิบตาใส่คุณ",
+      "funLeave_Olivia": "ฉันจะไปเข้าคลาสแอโรบิก บ่ายนี้นะจ๊ะ$0#$e#ถ้าคุณว่าง ก็แวะมาทักทายคนอื่นๆ ได้นะที่รัก$3"
         }
 	},
 	
@@ -4568,8 +4568,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueOlivia",
 	  "When": { "Date": "Fall 12" },
       "Entries": {
-      "funReturn_Olivia": "Well, I'm certainly quite tispy after those drinks at the saloon...$4#$e#Pardon me, dear. I must get ready for sleep.$9",
-      "funLeave_Olivia": "Such a chilly fall day. Want to join me in the saloon later for a little pick-me-up, sweetie?$3",
+      "funReturn_Olivia": "ตายจริง ฉันว่าฉันเมานิดๆ หลังจากไปดื่ม ที่ซาลูนมานะเนี่ย...$4#$e#ขอโทษจริงๆ ที่รัก ตอนนี้ ฉันพร้อมนอนมากเลยล่ะจ้ะ$9",
+      "funLeave_Olivia": "วันนี้อากาศเย็นจริงๆ นะ คุณอยากจะตามไปที่ซาลูน แล้วก็รับฉันกลับด้วยเลยมั้ยจ้ะ? ที่รัก$3",
         }
 	},
 	
