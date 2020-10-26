@@ -4578,8 +4578,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueOlivia",
 	  "When": { "Date": "Fall 15" },
       "Entries": {
-      "funReturn_Olivia": "If you ever need help with number crunching for %farm Farm, let me know.$1",
-      "funLeave_Olivia": "It's days like these that make me want to just stay in bed.$2#$b#Or shop. Maybe I'll take a trip into the city to cheer myself up.$6",
+      "funReturn_Olivia": "ถ้าคุณอยากจะให้ช่วยทำ ข้อมูลด้านตัวเลข ของฟาร์ม %farm ละก็ บอกฉันได้นะจ๊ะ$1",
+      "funLeave_Olivia": "วันแบบนี้ ฉันอยากจะนอนแช่ อยู่แต่บนที่นอนจริงๆ เลยละจ้ะ$2#$b#ไม่ก็ออกไปช๊อปปิ้ง งั้นฉันว่าไปเที่ยวเล่นในเมือง ให้กระชุ่มกระชวย ซักหน่อยดีกว่าจ้ะ$6",
         }
 	},
 	
@@ -4588,8 +4588,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueOlivia",
 	  "When": { "Date": "Fall 19" },
       "Entries": {
-      "funReturn_Olivia": "You know, I could perhaps give you some private yoga lessons if you're interested.$3#$e#We would start off with the basics.$1",
-      "funLeave_Olivia": "Good morning, dear. Care for coffee?$1#$e#Voila![395]$3",
+      "funReturn_Olivia": "ถ้าคุณสนใจจริงๆ ฉันจัดคลาสโยคะแบบส่วนตัว ให้ได้นะจ๊ะ  รู้มั้ย$3#$e#เราจะเริ่มกันตั้งแต่พื้นฐาน แบบสุดๆ เลยล่ะจ้ะ$1",
+      "funLeave_Olivia": "อรุณสวัสดิ์จ้ะ ที่รัก กาแฟซักหน่อยมั้ย?$1#$e#แต๊น![395]$3",
         }
 	},
 	
@@ -4598,8 +4598,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueOlivia",
 	  "When": { "Date": "Fall 22" },
       "Entries": {
-      "funReturn_Olivia": "I finally managed to order a vintage that's in high demand from a vineyard just north of Grampleton. They gave me an extra bottle!$3#$e#I want you to have it, dear. Everyone should get to enjoy nice things once in a while, especially you.[348]$1",
-      "funLeave_Olivia": "Caroline purchased an astonishing pair of shoes. She's showing Jodi and I at the town square this afternoon.$6#$e#Oh, that reminds me. I'm running errands today, dear.$1",
+      "funReturn_Olivia": "ในที่สุดฉันก็ สามารถสั่งซื้อไวน์โลกเก่า ที่ทุกคนอยากจะแย่งกัน จากไร่องุ่นทางตอนเหนือ ของเมืองแกรมเพิลตันได้ เขากันไว้ให้ฉัน เป็นพิเศษเลยล่ะจ้ะ!$3#$e#ฉันอยากจะให้คุณเก็บมันไว้ ที่รัก ทุกคนควรจะได้เพลิดเพลิน ไปกับสิ่งดีๆ นาน ๆ ครั้ง คุณก็ด้วยนะจ๊ะ[348]$1",
+      "funLeave_Olivia": "แคโรไลน์ซื้อรองเท้าคู่งาม มาคู่นึง แล้วก็เอามาอวดโจดี้กับฉัน เมื่อตอนกลางวันด้วยล่ะจ้ะ$6#$e#โอ้ เกือบลืมไปเลย วันนี้ฉันมีธุระ ที่ต้องไปจัดการด้วยน่ะจ้ะ ที่รัก$1",
         }
 	},
 	
@@ -4608,8 +4608,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueOlivia",
 	  "When": { "Date": "Fall 23" },
       "Entries": {
-      "funReturn_Olivia": "My, my. Quite the chilly day.$0#$b#Perhaps we could settle on the couch with a nice cup of hot chocolate?$3#$e#There's a lovely mix from Grampleton in the cupboard.$1",
-      "funLeave_Olivia": "Would a different wallpaper look better in our living room...? Or maybe a nice shade of paint...$1#$e#%You tell Olivia you don't want the wallpaper changed.#$e#Oh, of course.$3#$b#I'm just speculating.$1",
+      "funReturn_Olivia": "แหม วันนี้หนาวดีจริงเชียว$0#$b#เรามานั่งเล่นบนโซฟาด้วยกัน กับช๊อกโกแลตร้อนดีๆ ซักแก้วดีมั้ยจ๊ะ?$3#$e#เรามีช๊อกโกแลตมิกซ์แสนอร่อย จากเมืองแกรมเพิลตัน อยู่ในตู้ด้วยนะจ๊ะ$1",
+      "funLeave_Olivia": "ห้องนั่งเล่นจะดูดีขึ้นมั้ยนะ ถ้าลองเปลี่ยนวอลเปเปอร์ เป็นลายอื่น...? หรือจะทาสีเอาดีนะ...$1#$e#%คุณบอกโอลิเวียว่า ไม่อยากเปลี่ยนวอลเปเปอร์#$e#โอ้ งั้นก็ได้จ้ะ$3#$b#ฉันแค่ลองคิดๆ ดูน่ะจ้ะ$1",
         }
 	},
 	
@@ -4618,8 +4618,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueOlivia",
 	  "When": { "Date": "Fall 26" },
       "Entries": {
-      "funReturn_Olivia": "Would you like to visit Grampleton soon? The most divine weather you'll ever experience is under the shade of the tall redwood trees.$3#$e#Maybe we can take a trip there together sometime, honey.$1", 
-      "funLeave_Olivia": "Morning, honey.$3",
+      "funReturn_Olivia": "คุณอยากจะไปเที่ยวชม เมืองแกรมเพิลตันเร็วๆ นี้บ้างมั้ยจ๊ะ? อากาศอันแสนบริสุทธิ์ที่สุด ที่คุณจะได้สัมผัส คือใต้ร่มเงาของต้นสนเรดวู้ด ที่สูงตระหง่าน$3#$e#บางทีเราน่าจะไปเที่ยวที่นั่น ด้วยกันบ้างนะจ้ะ ที่รัก$1", 
+      "funLeave_Olivia": "อรุณสวัสดิ์จ้า ที่รัก$3",
         }
 	},
 	
@@ -4628,7 +4628,7 @@
       "Target": "Characters/Dialogue/MarriageDialogueOlivia",
 	  "When": { "Date": "Winter 1" },
       "Entries": {
-      "funLeave_Olivia": "Winter puts a nice blush on your cheeks, @. It's very sweet.$4#$e#What a lovely time of year.$3",
+      "funLeave_Olivia": "ฤดูหนาวนี่ ช่วยเติมบลัชออนบนแก้มของคุณ ได้ดีเลยล่ะจ้ะ @ น่าเอ็นดูจริงๆ$4#$e#เป็นช่วงเวลาสุดแสนน่ารัก ของปีจริงๆ นะจ๊ะ$3",
         }
 	},
 	
@@ -4637,7 +4637,7 @@
       "Target": "Characters/Dialogue/MarriageDialogueOlivia",
 	  "When": { "Date": "Winter 2" },
       "Entries": {
-      "funReturn_Olivia": "I'm quite sore from yoga today...$2",
+      "funReturn_Olivia": "โยคะวันนี้ทำฉันเจ็บไปหมดทั้งตัว...$2",
       "funLeave_Olivia": "Stay warm today, sweetie.$0#$e#I'll be waiting with a glass of red wine so we can both warm you up when you're done with your work.$3",
         }
 	},
