@@ -3064,11 +3064,11 @@
      "When": { "Hearts:Sandy": "{{Range: 5, 14}}" },
 },
 
-{    //Adds advanced moves to Alex, Linus, Susan, and Andy
+{    //Adds additional fields
 	 "Action": "EditData",
      "Target": "Data/Festivals/winter25",
      "Entries": {
-     "set-up": "christmasTheme/-1000 -1000/farmer 12 54 1/changeToTemporaryMap Town-Christmas/loadActors Set-Up/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/advancedMove Alex true 2 18000 14 0 0 -2 1 6000 0 2 -14 0 2 9500/advancedMove Linus true 3 4000 0 3 -3 0 4 17000 3 0 0 -3 3 5000/advancedMove Susan false 4 0 0 3 2 0 2 200 3 14600 2 200 1 150 3 0 0 2 1 0 0 2 2 13000 3 2350 2 10000/advancedMove Andy false 6 0 0 3 1 15600 4 0 0 1 1 0 0 3 2 10000 1 2800 2 10000/playerControl christmas",
+     "set-up": "christmasTheme/-1000 -1000/farmer 12 54 1/changeToTemporaryMap Town-Christmas/loadActors Set-Up/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/pause 1/playerControl christmas",
      }
 },
 
