@@ -2924,7 +2924,7 @@
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-        "Martin": "Hey! This is awesome. Thanks!/350/I like this. Thanks!/184 186/Uhh... this really isn't for me./-75 196 197 199 200 205 219 218 231 242/Sorry. I'm not feeling it.../348 346 459 303 304 283 -4 80 648/A gift? Thanks!/270/"
+        "Martin": "ว้าว! นี่เจ๋งไปเลย ขอบใจ!/350/ผมชอบนะ ขอบใจ!/184 186/อ่า... ไม่ใช่แนวผมเลยน่ะ/-75 196 197 199 200 205 219 218 231 242/โทษนะ ผมไม่ต้องการน่ะ.../348 346 459 303 304 283 -4 80 648/ของขวัญเหรอ? ขอบใจ!/270/"
         } 
     },
 	
@@ -3074,9 +3074,9 @@
       "Target": "Characters/Dialogue/Martin",
 	  "When": { "HasFlag": "ccMovieTheater", "HasSeenEvent": "191393" },
       "Entries": {
-      "summer_Tue2": "Claire mentioned the air conditioning in the theater is perfect.$0#$b#She gets cold easilly...$2#$e#My previous manager had it on full blast because it attracted customers.$3",
-      "fall_Tue2": "My mom always says 'manners are key'. I try my best to be polite to everyone.$0#$e#Maybe that's why I got the job at the movie theater!$1",
-      "fall_Sun8": "Hey there, @. I could maybe talk to my manager and get you some free movie tickets!$0"
+      "summer_Tue2": "แคลร์บอกว่า แอร์ที่โรงหนังน่ะพอดีมาก$0#$b#เธอขี้หนาวน่ะ...$2#$e#ผู้จัดการคนก่อนของผม เปิดแอร์เย็นเจี๊ยบ เพราะดึงดูดลูกค้าได้น่ะ$3",
+      "fall_Tue2": "แม่ผมบอกเสมอว่า 'มารยาทคือสิ่งสำคัญ' ผมเลยพยายาม ที่จะสุภาพกับทุกคนน่ะ$0#$e#บางทีนั่นอาจเป็นเหตุผล ที่ผมได้งานที่โรงหนังก็ได้นะ!$1",
+      "fall_Sun8": "ไงครับ @ ผมอาจจะลองขอตั๋วฟรี สักใบสองใบ จากผู้จัดการให้คุณได้นะ!$0"
       }
     },
 	
@@ -3086,15 +3086,15 @@
       "Target": "Characters/Dialogue/Martin",
 	  "When": { "Spouse": "Claire" },
       "Entries": {
-	  "Mon": "Uhh. Hi. Wet day today.$0",
-	  "Mon2": "There wasn't many people on the bus this morning.$0",
-      "Mon6": "I don't know why, but I'm feeling great today.$1#$e#It's probably the breakfast my mom made me!$1",
-	  "Wed": "Hello.$0#$e#Err. Do you need assistance with anything, sir?^Err. Do you need assistance with anything, ma'am?",
-	  "Wed6": "Hey there @. Up to anything cool today?$0",
-	  "Thu": "Why does time move so slow when working?...$4",
-	  "Thu8": "How's Claire doing?$0#$e#I'm glad you two are living a happy life together.$0",
-	  "Fri": "I've been putting more hours in. I'm trying to save up as much as I can!$0",
-	  "Fri6": "Hi, @. Keeping yourself busy as always.$0#$e#Well, see you around.$6",
+	  "Mon": "อ่า ดีครับ วันนี้แฉะน่าดูเลย$0",
+	  "Mon2": "เช้านี้ไม่ค่อยมีคน บนรถบัสเลย$0",
+      "Mon6": "ไม่รู้ทำไม แต่วันนี้รู้สึกดีมากเลย$1#$e#สงสัยเป็นเพราะ ข้าวเช้าของแม่แน่เลย!$1",
+	  "Wed": "สวัสดีครับ$0#$e#เอ่อ คุณอยากให้ช่วยอะไรมั้ยครับ คุณผู้ชาย?^เอ่อ คุณอยากให้ช่วยอะไรมั้ยครับ คุณผู้หญิง?",
+	  "Wed6": "สวัสดีครับ @ วันนี้ได้ไปทำ อะไรเจ๋งๆ มั้ยครับ?$0",
+	  "Thu": "ทำไมเวลาเคลื่อนช้าจังนะ เวลาทำงาน?...$4",
+	  "Thu8": "แคลร์เป็นไงบ้างครับ?$0#$e#ดีใจที่คุณสองคน ใช้ชีวิตด้วยกัน อย่างมีความสุขนะ$0",
+	  "Fri": "ช่วงนี้ผมพยายาม ทำงานมากขึ้นน่ะครับ พยายามจะเก็บเงิน ให้มากที่สุดเท่าที่ทำได้น่ะ!$0",
+	  "Fri6": "ไงครับ @ ยุ่งเหมือนเคยเลยสินะ$0#$e#งั้น ไว้เจอกันนะครับ$6",
       }
     },
 
@@ -3103,10 +3103,10 @@
       "Action": "EditData",
       "Target": "Strings/StringsFromMaps",
       "Entries": {
-      "Martin_TheaterMessage_Tuesday": "Hey there. How may I help you?$0",
-      "Martin_TheaterMessage_Friday": "Cleanin' up after these birds is kind of a drag...$4",
-	  "Martin_TheaterMessage_Saturday": "If you want movie recommendations, let me know!$1",
-	  "Martin_TheaterMessage_Rain": "Pefect weather to stay indoors and watch a movie!$1",
+      "Martin_TheaterMessage_Tuesday": "สวัสดีครับ ให้ช่วยอะไรมั้ยครับ?$0",
+      "Martin_TheaterMessage_Friday": "เก็บกวาด สิ่งสกปรกของนกพวกนี้ ไม่ค่อยน่าอภิรมย์เอาซะเลย ...$4",
+	  "Martin_TheaterMessage_Saturday": "ถ้าอยากให้แนะนำหนังเรื่องไหน บอกผมได้เลยนะครับ!$1",
+	  "Martin_TheaterMessage_Rain": "อากาศเพอร์เฟ็คมาก ที่จะหลบร่ม ดูหนังสักเรื่องนะครับ!$1",
 	  }
     },
 	
@@ -3116,10 +3116,10 @@
       "Target": "Strings/StringsFromMaps",
 	  "When": { "Hearts:Martin": "8, 9, 10" },
       "Entries": {
-      "Martin_TheaterMessage_Tuesday": "Hey there, @. Watching a movie today?$1",
-      "Martin_TheaterMessage_Friday": "I've been working here for a while and I still don't know who owns these birds...$4",
-	  "Martin_TheaterMessage_Saturday": "Lot's of good showings today. Which one are you seeing?$0",
-	  "Martin_TheaterMessage_Rain": "Ever since you and Claire got married, I've been working more at the theater.$0#$b#I might get promoted soon if I keep it up!$1",
+      "Martin_TheaterMessage_Tuesday": "สวัสดีครับ @ วันนี้มาดูหนังเหรอครับ?$1",
+      "Martin_TheaterMessage_Friday": "ผมทำงานที่นี่มาสักพักแล้ว แต่ก็ยังไม่รู้เลยว่า ใครเป็นเจ้าของนกพวกนี้...$4",
+	  "Martin_TheaterMessage_Saturday": "โปรแกรมน่าดูทั้งนั้นเลยครับวันนี้ ไม่ทราบว่าดูเรื่องไหนดีครับ?$0",
+	  "Martin_TheaterMessage_Rain": "ตั้งแต่คุณแต่งงานกับแคลร์ ผมก็ทำงาน ที่โรงหนังมากขึ้นครับ$0#$b#ถ้าทำต่อ อาจจะได้เลื่อนขั้นก็ได้ครับ!$1",
 	  }
     },
    
@@ -3205,17 +3205,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I hope this movie is a good one.$1"
+            "Text": "หวังว่าหนังเรื่องนี้ จะเป็นหนังที่ดีนะครับ$1"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "This is getting good...$0"
+            "Text": "นี่เริ่มสนุกแล้วสิ...$0"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Thanks for inviting me!$1"
+            "Text": "ขอบคุณที่ชวนมานะ!$1"
           }
         },
         "ID": "reaction_2"
@@ -3228,17 +3228,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Come on! Lets grab a good seat before they're taken!$1"
+            "Text": "มาเร็ว! มาเลือกที่นั่งดีๆ ก่อนที่จะไม่มีเหลือกันเถอะ!$1"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "*gasping*$1"
+            "Text": "*สูดหายใจเฮือก*$1"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Interesting film. Acting was not bad...$0"
+            "Text": "เป็นหนังที่น่าสนใจนะ ฉากบู๊ก็ไม่ถึงกับแย่...$0"
           }
         },
         "ID": "reaction_3"
@@ -3251,17 +3251,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I have a feeling I'm gonna love this film!$1"
+            "Text": "รู้สึกได้เลยครับว่า ต้องชอบหนังเรื่องนี้มากแน่!$1"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "/shake Martin 2000/pause 500/message \"Martin is laughing.\"",
-            "Text": "Haha!$1"
+            "Text": "ฮ่าฮ่า!$1"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "That was a blast! Thanks, @!$1"
+            "Text": "นั่นมันเยี่ยมไปเลยครับ! ขอบคุณนะ @!$1"
           }
         },
         "ID": "reaction_4"
@@ -3274,13 +3274,13 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I'm feeling like getting some candy.$0"
+            "Text": "ผมอยากกินขนมอะไรสักอย่าง$0"
           },
           "DuringMovie": null,
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I enjoyed the movie. Thanks!$1"
+            "Text": "ผมชอบหนังนะ ขอบคุณครับ!$1"
           }
         },
         "ID": "reaction_5"
@@ -3293,17 +3293,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Didn't this movie do bad in the box office?$0"
+            "Text": "หนังเรื่องนี้ ทำเงินได้ไม่ดี ไม่ใช่เหรอครับ?$0"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Hmm...$4"
+            "Text": "หืม...$4"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I wouldn't watch that film again...$4"
+            "Text": "ผมคงไม่มีวัน ดูหนังนั่นซ้ำแน่นอน...$4"
           }
         },
         "ID": "reaction_6"
@@ -3318,7 +3318,7 @@
       "Action": "EditData",
       "Target": "data/festivals/spring24",
       "Entries": {
-        "Martin": "My mom told me to get out of the house and socialize.$4#$e#At least Claire is here...$6"
+        "Martin": "แม่บอกให้ผม ออกจากบ้านไปเข้าสังคมบ้าง$4#$e#อย่างน้อย แคลร์ก็มาด้วยล่ะนะ...$6"
       }
     },
 	
@@ -3326,7 +3326,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall16",
       "Entries": {
-        "Martin": "Hey there, @. Did you set up your grange display? It was empty when I checked it.$1#$e#Good luck in the contest.$0"
+        "Martin": "ดีครับ @ คุณตั้งการจัดแสดง ของคุณหรือยัง? มันโล่งเลยตอนผมเห็นล่าสุด$1#$e#โชคดีในการประกวดนะครับ$0"
       }
     },
 	
@@ -3335,7 +3335,7 @@
       "Target": "data/festivals/fall27",
       "When": { "IsOddYear": true },
       "Entries": {
-        "Martin": "I'm about to give up and grab some food.$2#$e#Are there consequences for cheating?$1#$e#%You tell Martin they shouldn't cheat the maze.#$e#Okay...$4"
+        "Martin": "ผมกำลังจะยอมแพ้ แล้วไปหาอะไรกินแล้ว$2#$e#ถ้าโกง จะเป็นอะไรหรือเปล่าครับ?$1#$e#%คุณบอกมาร์ติว่าไม่ควรโกงเขาวงกต#$e#ก็ได้...$4"
       }
     },
 	
@@ -3344,7 +3344,7 @@
       "Target": "data/festivals/fall27",
 	  "When": { "IsOddYear": false },
       "Entries": {
-        "Martin": "These monsters are super cool!$1"
+        "Martin": "มอนสเตอร์พวกนี้เจ๋งไปเลย!$1"
       }
     },
 	
@@ -3353,7 +3353,7 @@
       "Target": "data/festivals/winter25",
 	  "When": { "HasSeenEvent |contains=191393": false },
       "Entries": {
-        "Martin": "I'm getting paid overtime to show support for Joja! So is Claire!$1#$e#I can go home soon and spend the day with my parents.$0"
+        "Martin": "ผมได้ค่าโอที ในการแสดงการสนับสนุน โจจ้าด้วยครับ! แคลร์ก็ด้วย!$1#$e#ผมจะได้กลับบ้านเร็วๆ นี้ และใช้เวลากับพ่อแม่แล้ว$0"
       }
     },
 	
@@ -3362,7 +3362,7 @@
       "Target": "data/festivals/winter25",
 	  "When": { "HasSeenEvent": "191393" },
       "Entries": {
-        "Martin": "Claire said she'd be here, so I'm here too!$1"
+        "Martin": "แคลร์บอกว่าจะมา ผมเลยมาด้วยครับ!$1"
       }
     },
 
@@ -3374,7 +3374,7 @@
 	"Action": "EditData",
 	"Target": "data/events/jojamart",
 	"Entries": { 
-    "3219870/f Martin 500": "none/-500 -500/farmer 13 17 3 Martin 9 25 1 Morris 24 26 3 Claire 10 19 1 Sam 22 7 2 Pam 11 25 3 Andy 25 16 3 Jodi 9 8 0/positionOffset Morris -10 -15/animate Sam false true 100 40 40 41 41 42 42 41 41/animate Claire false true 125 48 49 50 51 52 53 54 55 57 58 59/skippable/pause 800/playMusic Hospital_Ambient/pause 700/viewport 13 25 true/pause 1500/speak Pam \"Come on, kiddo. I don't got all day.$0\"/pause 750/speak Martin \"Yes, ma'am! I understand. I'll ring this up for you now!\"/pause 1150/shake Martin 500/pause 800/speak Martin \"Err...$4#$b#How does this... Hmm.$4\"/pause 1200/speak Pam \"...$4\"/pause 1200/faceDirection Martin 0 true/pause 650/speak Martin \"Hey, Claire. Can you help me with this transaction?$2\"/pause 750/stopAnimation Claire/pause 500/faceDirection Claire 2 true/pause 500/speak Claire \"Um. Sure.$0\"/pause 600/move Claire 0 3 3/textAboveHead Pam \"Wastin' my time...\"/move Claire -3 0 3 true/pause 750/faceDirection Martin 1 true/pause 750/move Claire 0 4 1/move Claire 2 0 0/pause 400/faceDirection Martin 2 true/pause 1400/speak Claire \"Oh. You need to press the 'other items' button.\"/pause 500/speak Martin \"Ah! That was it!$1\"/pause 600/faceDirection Martin 1 true/pause 600/shake Martin 400/pause 400/playSound money/pause 650/faceDirection Claire 1 true/pause 600/speak Martin \"Would you like your receipt, ma'am?\"/speak Pam \"No.$4\"/globalFade/viewport -1000 -1000/warp Pam -50 -50/viewport 13 25 true/pause 800/faceDirection Martin 2 true/pause 600/faceDirection Claire 0 true/pause 600/speak Martin \"That lady is kinda scary.$4\"/pause 600/speak Claire \"She's a regular customer. So you will see her again.$0\"/pause 600/speak Martin \"...$4#$b#Well, anyway...$4#$b#Uh. Thanks for helping.$6\"/pause 800/speak Claire \"You're welcome.$1\"/pause 500/globalFade/viewport -1000 -1000/warp Claire 10 15/animate Claire false true 125 48 49 50 51 52 53 54 55 57 58 59/warp farmer 13 21/faceDirection farmer 2 true/faceDirection Martin 1 true/viewport 13 25 true/move farmer 0 4 3/move farmer -2 0 3/pause 750/speak Martin \"Hello, sir!$1^Hello, ma'am!$1#$b#Just this for you today?$0\"/pause 750/globalFade/viewport -1000 -1000/pause 500/playSound money/pause 800/speak Martin \"Have a nice day, sir!^Have a nice day, ma'am!\"/stopMusic/pause 1000/end dialogue Martin\"My co-worker is always there to save the day when I need help.$0\""     
+    "3219870/f Martin 500": "none/-500 -500/farmer 13 17 3 Martin 9 25 1 Morris 24 26 3 Claire 10 19 1 Sam 22 7 2 Pam 11 25 3 Andy 25 16 3 Jodi 9 8 0/positionOffset Morris -10 -15/animate Sam false true 100 40 40 41 41 42 42 41 41/animate Claire false true 125 48 49 50 51 52 53 54 55 57 58 59/skippable/pause 800/playMusic Hospital_Ambient/pause 700/viewport 13 25 true/pause 1500/speak Pam \"เร็วเข้า เด็กน้อย ฉันไม่ได้มีเวลาทั้งวันนะ$0\"/pause 750/speak Martin \"ครับ คุณผู้หญิง! ผมเข้าใจครับ จะรีบไปตามให้เดี๋ยวนี้ล่ะครับ!\"/pause 1150/shake Martin 500/pause 800/speak Martin \"เอ่อ...$4#$b#นี่มันทำยังไง... อืมม$4\"/pause 1200/speak Pam \"...$4\"/pause 1200/faceDirection Martin 0 true/pause 650/speak Martin \"เฮ้ แคลร์ เธอช่วยฉันคิดเงินอันนี้ได้มั้ย?$2\"/pause 750/stopAnimation Claire/pause 500/faceDirection Claire 2 true/pause 500/speak Claire \"อืม ได้สิ$0\"/pause 600/move Claire 0 3 3/textAboveHead Pam \"เสียเวลาชะมัด...\"/move Claire -3 0 3 true/pause 750/faceDirection Martin 1 true/pause 750/move Claire 0 4 1/move Claire 2 0 0/pause 400/faceDirection Martin 2 true/pause 1400/speak Claire \"อ๋อ นายต้องกดปุ่ม 'รายการอื่น' น่ะ\"/pause 500/speak Martin \"อ่อ! อย่างนี้เอง!$1\"/pause 600/faceDirection Martin 1 true/pause 600/shake Martin 400/pause 400/playSound money/pause 650/faceDirection Claire 1 true/pause 600/speak Martin \"รับใบเสร็จมั้ยครับ คุณผู้หญิง?\"/speak Pam \"ไม่$4\"/globalFade/viewport -1000 -1000/warp Pam -50 -50/viewport 13 25 true/pause 800/faceDirection Martin 2 true/pause 600/faceDirection Claire 0 true/pause 600/speak Martin \"ผู้หญิงคนนั้น แอบน่ากลัวแหะ$4\"/pause 600/speak Claire \"เธอเป็นลูกค้าประจำนะ นายได้เจอเธออีกแน่$0\"/pause 600/speak Martin \"...$4#$b#ยังไงก็เถอะ...$4#$b#เอ่อ ขอบใจนะที่ช่วย$6\"/pause 800/speak Claire \"ไม่เป็นไร$1\"/pause 500/globalFade/viewport -1000 -1000/warp Claire 10 15/animate Claire false true 125 48 49 50 51 52 53 54 55 57 58 59/warp farmer 13 21/faceDirection farmer 2 true/faceDirection Martin 1 true/viewport 13 25 true/move farmer 0 4 3/move farmer -2 0 3/pause 750/speak Martin \"สวัสดีครับ คุณผู้ชาย!$1^สวัสดีครับ คุณผู้หญิง!$1#$b#รับแค่นี้เหรอครับวันนี้?$0\"/pause 750/globalFade/viewport -1000 -1000/pause 500/playSound money/pause 800/speak Martin \"โชคดีนะครับ คุณผู้ชาย!^โชคดีนะครับ คุณผู้หญิง!\"/stopMusic/pause 1000/end dialogue Martin\"เพื่อนร่วมงานของฉัน ช่วยฉันไว้เสมอเลย เวลาที่ฉันมีปัญหา$0\""     
 	},
 },
 
