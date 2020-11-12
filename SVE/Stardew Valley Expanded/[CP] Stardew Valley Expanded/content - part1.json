@@ -6106,8 +6106,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Spring 1" },
       "Entries": {
-      "funReturn_Sophia": "นี่ คนบ๊อง! ฉันทำมื้อเย็นไว้ให้ ตอนที่เธอไม่อยู่ด้วยล่ะ! [727 231 207 199]$1",
-      "funLeave_Sophia": "Do you smell the pollen and nectar in the air!? Spring has arrived!$1#$e#I need to drop by the vineyard for the day. Gotta set up the grape trellises!$9#$b#Good luck today, silly! It'll be busy. Extra cuddles tonight!$1",
+      "funReturn_Sophia": "นี่ คนบ๊อง! เค้าทำมื้อเย็นไว้ให้ ตอนที่ตัวเองไม่อยู่ด้วยล่ะ! [727 231 207 199]$1",
+      "funLeave_Sophia": "ตัวเองได้กลิ่นละอองเกสร และน้ำหวานในอากาศไหม!? ฤดูใบไม้ผลิมาแล้ว!$1#$e#เดี๋ยวเค้าจะต้องแวะไปที่ ไร่องุ่นหน่อยละ จะต้องทำระแนงองุ่นแล้วล่ะ!$9#$b#ขอให้วันนี้เธอโชคดีนะ คนบ๊อง มันจะต้องเป็นวันที่ยุ่งแน่ๆ ไว้คืนนี้เค้าจะอ้อนมากเป็นพิเศษนะ!$1",
         }
 	},
 	
@@ -6116,8 +6116,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Spring 2" },
       "Entries": {
-      "funReturn_Sophia": "*yawn* sooo sleepy. Want to go to bed soon, @?$1#$e#Maybe I'll read in bed for a bit. In the middle of a manga!$9",
-      "funLeave_Sophia": "Hey, you! Good morning. Did you sleep okay?$1#$e#Thinking about maybe putting together a new cosplay soon!$9",
+      "funReturn_Sophia": "*หาว* ง่วงจังอ่าาา ตัวเองจะนอนยัง @?$1#$e#เค้าว่าจะอ่านการ์ตูน ก่อนนอนต่ออีกแปบนึง นี่กำลังค้างเลย หยุดไม่ได้!$9",
+      "funLeave_Sophia": "อ้าว ตัวเอง! อรุณสวัสดิ์ หลับสบายมั้ย?$1#$e#อ๋อ เค้ากำลังคิดว่าเราน่าจะลอง แต่งคอสเพลย์ เป็นตัวละครใหม่ด้วยกัน!$9",
         }
 	},
 	
@@ -6126,8 +6126,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Spring 3" },
       "Entries": {
-      "funReturn_Sophia": "Come closer, @.$4#$e#Closer...$4#$e#*smooch*$9!!!#$b#Love you!$9",
-      "funLeave_Sophia": "Yay! You're finally up!$9#$e#Craving anything for breakfast?$1",
+      "funReturn_Sophia": "มานี่หน่อย @$4#$e#ใกล้อีก...$4#$e#*ม๊วฟฟ*$9!!!#$b#รักนะ ตะเอง!$9",
+      "funLeave_Sophia": "เย้! ตัวเองตื่นแล้ว!$9#$e#หิวมั้ย อยากกินอะไรเป็นมื้อเช้าล่ะ?$1",
         }
 	},
 	
@@ -6136,8 +6136,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Spring 4" },
       "Entries": {
-      "funReturn_Sophia": "Blue Moon Vineyard is doing well. It's a bit tough managing it from here, but I don't mind.$1",
-      "funLeave_Sophia": "Good morning! If you're going out, mind picking up some snacks from Pierre's?$1#$e#I love snacks!$9",
+      "funReturn_Sophia": "ไร่องุ่นบลูมูนกำลังไปได้สวยเลยล่ะ ถึงมันจะขรุขระหน่อย ที่ต้องจัดการเรื่องต่างๆ จากที่นี้ แต่เค้าทำได้สบายมาก$1",
+      "funLeave_Sophia": "อรุณสวัสดิ์! ถ้าตัวเองจะไปข้างนอก ฝากไปซื้อขนมที่ร้านปิแอร์ ให้หน่อยได้มั้ย?$1#$e#เค้าชอบกินขนม!$9",
         }
 	},
 	
@@ -6146,8 +6146,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Spring 8" },
       "Entries": {
-      "funReturn_Sophia": "I had a productive day today!$9#$e#I love you.$4#$b#*smooch*!!!$9",
-      "funLeave_Sophia": "I-I had trouble breathing this morning...$2#$b#I-I'm okay...$6#$e#%You hug Sophia.",
+      "funReturn_Sophia": "วันนี้ งานของเค้าราบรื่นไปเลยล่ะ!$9#$e#เค้ารักตัวเองนะ$4#$b#*ม๊วฟฟ*!!!$9",
+      "funLeave_Sophia": "เช้านี้ ค-เค้ารู้สึก หายใจไม่สะดวกเลย...$2#$b#ค-เค้าไม่เป็นไร...$6#$e#%คุณกอดโซเฟีย",
         }
 	},
 	
@@ -6156,8 +6156,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Spring 9" },
       "Entries": {
-      "funReturn_Sophia": "I'm a little sore from the vineyard work today.$0",
-      "funLeave_Sophia": "Hey, you! I made us some coffee.[395]$4#$e#Hope you have a productive day, silly!$1",
+      "funReturn_Sophia": "เค้าได้แผลนิดหน่อย จากงานในไร่องุ่นวันนี้น่ะ$0",
+      "funLeave_Sophia": "นี่ ตัวเอง! เค้าชงกาแฟเผื่อตัวเองแล้วล่ะ[395]$4#$e#ขอให้งานวันนี้ราบรื่นนะ คนบ๊อง!$1",
         }
 	},
 	
@@ -6166,8 +6166,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Spring 10" },
       "Entries": {
-      "funReturn_Sophia": "Oh, I'm glad you're back! I missed you so much.$1",
-      "funLeave_Sophia": "*humming to herself*$9#$e#Oh! Hi, you!$1",
+      "funReturn_Sophia": "โอ้ ดีใจจัง ตัวเองกลับมาแล้ว! เค้าคิดถึงตัวเองม๊ากกมากก$1",
+      "funLeave_Sophia": "*กำลังฮัมเพลงอยู่คนเดียว*$9#$e#โอ้! อ้าว ตัวเอง!$1",
         }
 	},
 	
@@ -6176,8 +6176,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Spring 11" },
       "Entries": {
-      "funReturn_Sophia": "Hey, silly! I made dinner while you were out! [727 231 207 199]$1",
-      "funLeave_Sophia": "Um. Sooo tell me that story again about how you got my mermaid pendant!$1#$e#A ghost at the beach! So spooky!$9",
+      "funReturn_Sophia": "นี่ คนบ๊อง! เค้าทำมื้อเย็นไว้ให้ ตอนที่ตัวเองไม่อยู่ด้วยล่ะ! [727 231 207 199]$1",
+      "funLeave_Sophia": "อืมมม จะเล่าให้เค้าฟังอีกทีได้รึยัง ว่าตัวเองไปเอาสร้อยคอของนางเงือก 'mermaid pendant' มาได้ยังไง!$1#$e#ผีที่ชายหาดหรอ! กลัววว!$9",
         }
 	},
 	
@@ -6186,8 +6186,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Spring 15" },
       "Entries": {
-      "funReturn_Sophia": "I always thought I'd be alone my whole life.$2#$b#I'm happy we found each other, silly.$1#$e#*smooch*$9",
-      "funLeave_Sophia": "Hey, you! Up to anything fun today?$1#$e#OoOoh. Sounds important!$8",
+      "funReturn_Sophia": "เค้าเคยคิดมาโดยตลอดเลยว่า เค้าต้องอยู่ตัวคนเดียว ตามลำพังไปตลอดชีวิตแน่ๆ$2#$b#เค้าดีใจนะที่เราได้รักกัน คนบ๊อง$1#$e#*จุ๊บ*$9",
+      "funLeave_Sophia": "นี่ ตัวเอง! วันนี้มีอะไรสนุกๆ ต้องทำบ้างไหม?$1#$e#อู้วววว นี่เรื่องสำคัญเลยนะ!$8",
         }
 	},
 	
@@ -6196,8 +6196,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Spring 16" },
       "Entries": {
-      "funReturn_Sophia": "Hey, you! Here's an extra bottle of wine from today's shipment![{{spacechase0.JsonAssets/ObjectId:Blue Moon Wine}}]$1",
-      "funLeave_Sophia": "Good morning, you!$1#$e#Um. Want coffee?$9#$e#Here you go! It's fresh![395]$1",
+      "funReturn_Sophia": "นี่ ตัวเอง! ไวน์อีกขวดนึง ที่เหลือจากการจัดส่งของวันนี้![{{spacechase0.JsonAssets/ObjectId:Blue Moon Wine}}]$1",
+      "funLeave_Sophia": "อรุณสวัสดิ์ ตัวเอง!$1#$e#อื้ม เอากาแฟหน่อยมั้ย?$9#$e#อ่ะนี่! ชงร้อนๆ เลย![395]$1",
         }
 	},
 	
@@ -6206,8 +6206,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Spring 17" },
       "Entries": {
-      "funReturn_Sophia": "I found a nest of baby bunnies today.$1",
-      "funLeave_Sophia": "*yawn* Hi, you!$9",
+      "funReturn_Sophia": "วันนี้เค้าเจอ รังน้องกระต่ายน้อยด้วยล่ะ$1",
+      "funLeave_Sophia": "*หาว* อ้าว ตัวเอง!$9",
         }
 	},
 	
@@ -6216,8 +6216,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Spring 18" },
       "Entries": {
-      "funReturn_Sophia": "I have a doctors appointment soon...$2#$e#I don't wanna go.$6#$e#%You tell Sophia everything will be okay.#$e#Th-thanks.$1",
-      "funLeave_Sophia": "I'm thinking about dyeing my hair again soon! Maybe I should change the color?$1#$e#Mmm... no, I'll keep it 'cotton candy pink'!$9",
+      "funReturn_Sophia": "ใกล้จะถึงวันนัดหาหมอแล้วอ่า...$2#$e#ก็เค้าไม่อยากไปนี่นา$6#$e#%คุณบอกกับโซเฟียว่า ทุกอย่างจะเรียบร้อย#$e#ข-ขอบคุณนะ$1",
+      "funLeave_Sophia": "เค้าคิดว่า น่าจะต้องย้อมผมอีกรอบแล้ว! เค้าจะเปลี่ยนสีดีมั้ยนะ?$1#$e#งืมม... ไม่เอาดีกว่า เค้าเอาสี 'ชมพูขนมสายไหม' เหมือนเดิมนี่ล่ะ!$9",
         }
 	},
 	
@@ -6226,8 +6226,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Spring 22" },
       "Entries": {
-      "funReturn_Sophia": "Want to watch anime later? I'll make homemade snacks!$1",
-      "funLeave_Sophia": "Good luck with the farm work today, you!$9#$e#Drop by the vineyard later if you wanna say hi.$1",
+      "funReturn_Sophia": "เดี๋ยวเราดูอนิเมะด้วยกันมั้ย? เค้าจะทำขนมไว้กินไปด้วย!$1",
+      "funLeave_Sophia": "ขอให้งานในฟาร์มวันนี้ เรียบร้อยนะ ตัวเอง!$9#$e#แวะไปหาเค้าที่ไร่องุ่นได้นะ ถ้าอยากเจอ$1",
         }
 	},
 	
@@ -6236,8 +6236,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Spring 23" },
       "Entries": {
-      "funReturn_Sophia": "I saw bunnies running around the vineyard today!$1",
-      "funLeave_Sophia": "I made breakfast! Here![195]$1#$e#It's already salted.$9",
+      "funReturn_Sophia": "วันนี้เค้าเห็นกระต่าย กระโดดอยู่ที่ไร่องุ่นด้วยล่ะ!$1",
+      "funLeave_Sophia": "เค้าทำมื้อเช้าเสร็จแล้ว! อ้ะนี่![195]$1#$e#เค้าเหยาะเกลือไว้ในแล้วนะ$9",
         }
 	},
 	
@@ -6246,8 +6246,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Spring 25" },
       "Entries": {
-      "funReturn_Sophia": "Don't overwork yourself, silly. If you need a cuddle break, just ask.$1#$e#*smooch*$9",
-      "funLeave_Sophia": "Good morning, you! I made us coffee.[395]$4#$e#I'll be at the vineyard all day working! Cuddles tonight?$1#$e#%You pat Sophia on the head.#$e#!!!$9",
+      "funReturn_Sophia": "อย่าทำงานหักโหมไปล่ะ คนบ๊อง ถ้าตัวเองอยากให้โอ๋ ก็บอกเค้านะ$1#$e#*ม๊วฟ*$9",
+      "funLeave_Sophia": "อรุณสวัสดิ์ ตัวเอง! เค้าชงกาแฟไว้แล้วล่ะ[395]$4#$e#วันนี้เค้าต้องทำงาน ที่ไร่องุ่นทั้งวัน! คืนนี้ อ้อนๆ นะ?$1#$e#%คุณลูบหัวโซเฟีย#$e#!!!$9",
         }
 	},
 	
@@ -6256,8 +6256,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Summer 1" },
       "Entries": {
-      "funReturn_Sophia": "Dinner is served! [727 231 207 199]$1#$e#Um! Did you have a nice day?$9",
-      "funLeave_Sophia": "Hey, you! It's the first and busiest day of the season! Good luck today!$9#$e#I'll make dinner tonight. Don't worry.$1",
+      "funReturn_Sophia": "มื้อเย็นพร้อมแล้ว! [727 231 207 199]$1#$e#อืม! วันนี้ราบรื่นดีมั้ยตัวเอง?$9",
+      "funLeave_Sophia": "นี่ ตัวเอง! นี่เป็นวันแรกและวันที่ยุ่งสุดๆ ของฤดูนี้เลย! โชคดีนะจ้ะ!$9#$e#เดี๋ยวเค้าทำมื้อเย็น คืนนี้เอง ไม่ต้องห่วงนะ$1",
         }
 	},
 	
@@ -6266,8 +6266,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Summer 2" },
       "Entries": {
-      "funReturn_Sophia": "Do you want to live in Stardew Valley for the rest of your life, @?$0#$e#I was thinking maybe we'd move somewhere else later. Maybe the Fern Islands?$1#$e#We can talk more about it later. I definitely don't want to move anytime soon!$9#$e#S-sorry! I'm really chatty today.$1#$e#%You hug Sophia.",
-      "funLeave_Sophia": "I always thought I'd be alone my whole life.$2#$b#I'm happy we found each other, silly.$1#$e#*smooch*$9",
+      "funReturn_Sophia": "ตัวเองคิดว่าจะอาศัยอยู่ที่ สตาร์ดิวแวลลี่ ไปตลอดชีวิตเลยรึเปล่า @?$0#$e#เค้ากำลังคิดว่า บางทีหลังจากนี้ เราอาจจะย้ายไปที่อื่น อาจจะเป็นที่หมู่เกาะเฟิร์น?$1#$e#ไว้เราค่อยคุยเรื่องนี้ทีหลังก็ได้ เค้าก็ยังไม่อยากจะ ย้ายไปที่ไหนหรอก!$9#$e#ข-ขอโทษ! วันนี้เค้าพูดมากไปหน่อย$1#$e#%คุณกอดโซเฟีย",
+      "funLeave_Sophia": "เค้าเคยคิดมาโดยตลอดเลยว่า เค้าต้องอยู่ตัวคนเดียว ตามลำพังไปตลอดชีวิตแน่ๆ$2#$b#เค้าดีใจนะที่เราได้รักกัน คนบ๊อง$1#$e#*จุ๊บ*$9",
         }
 	},
 	
@@ -6276,8 +6276,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Summer 3" },
       "Entries": {
-      "funReturn_Sophia": "Hey! Here's some fiber from the weeding I did today.$1 [771]",
-      "funLeave_Sophia": "Yay! You're finally up!$9#$e#Craving anything for breakfast?$1#$e#There's so many weeds to remove today at the vineyard.$2",
+      "funReturn_Sophia": "เอ้านี่! วันนี้เค้าหาพวกไฟเบอร์มาได้ จากการกำจัดวัชพืชล่ะ$1 [771]",
+      "funLeave_Sophia": "เย้! ตื่นจนได้นะตัวเอง!$9#$e#อยากกินอะไรเช้านี้ล่ะ?$1#$e#วันนี้ต้องจัดการกับวัชพืช ที่ไร่องุ่นเยอะเลย$2",
         }
 	},
 	
@@ -6286,8 +6286,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Summer 4" },
       "Entries": {
-      "funReturn_Sophia": "It's perfect cuddle weather...$4#$e#Will I see you in bed soon, silly?$4",
-      "funLeave_Sophia": "Hey, good morning. Up to anything fun today?$1#$e#OoOoh. Sounds important!$8",
+      "funReturn_Sophia": "วันนี้อากาศดีเหมาะกับการกอดจัง...$4#$e#เดี๋ยวเราเจอกันที่เตียงนะ คบบ๊อง?$4",
+      "funLeave_Sophia": "นี่ ตัวเอง! วันนี้มีอะไรสนุกๆ ต้องทำบ้างไหม?$1#$e#อู้วววว นี่เรื่องสำคัญเลยนะ!$8",
         }
 	},
 	
@@ -6296,8 +6296,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Summer 8" },
       "Entries": {
-      "funReturn_Sophia": "Evening, silly. I made dinner! [727 231 207 199]$1#$e#You can eat it now or put it in the fridge.$0",
-      "funLeave_Sophia": "Good morning! Coffee for you![395]$1#$e#Those bussines I found at the vineyard in spring are getting bigger.$9",
+      "funReturn_Sophia": "ค่ำแล้วนะ คนบ๊อง เค้าทำมื้อเย็นไว้แล้ว! [727 231 207 199]$1#$e#ตัวเองจะกินเลย หรือเอาไว้ตู้เย็นไว้ก่อนก็ได้$0",
+      "funLeave_Sophia": "อรุณสวัสดิ์! นี่กาแฟจ้ะ![395]$1#$e#พุ่มไม้พวกนั้น ที่ฉันเห็นในไร่องุ่น ตอนฤดูใบไม้ผลิ ชักจะใหญ่ขึ้นแล้ว$9",
         }
 	},
 	
@@ -6306,8 +6306,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Summer 9" },
       "Entries": {
-      "funReturn_Sophia": "...$1#$e#...$4#$e#%Sophia stares at you with intent.",
-      "funLeave_Sophia": "I don't wanna work today...$2#$e#%You tell Sophia she can do it!#$e#Hehe. Thanks!$8",
+      "funReturn_Sophia": "...$1#$e#...$4#$e#%โซเฟียจ้องเขม็งมาที่คุณ",
+      "funLeave_Sophia": "เค้าไม่อยากไปทำงานวันนี้...$2#$e#%คุณบอกกับโซเฟียว่า เธอทำได้อยู่แล้ว!#$e#ฮิฮิ ขอบคุณนะ!$8",
         }
 	},
 	
@@ -6316,8 +6316,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Summer 10" },
       "Entries": {
-      "funReturn_Sophia": "We should go to the cosplay convention in Zuzu City next year! You'd love it!$1",
-      "funLeave_Sophia": "Good luck today, you!$1",
+      "funReturn_Sophia": "ไว้ปีหน้า พวกเราน่าจะไปงานคอสเพลย์ ในเมืองซูซูกันนะ! ตัวเองต้องชอบแน่ๆ!$1",
+      "funLeave_Sophia": "วันนี้โชคดีนะ ตัวเอง!$1",
         }
 	},
 	
@@ -6326,8 +6326,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Summer 11" },
       "Entries": {
-      "funReturn_Sophia": "You've been away so much lately...$2#$e#Did I do something wrong?$2",
-      "funLeave_Sophia": "I don't feel well today.$2",
+      "funReturn_Sophia": "เหมือนตัวเองดูห่างเหินไป...$2#$e#เค้าทำอะไรผิดหรือเปล่า$2",
+      "funLeave_Sophia": "วันนี้เค้ารู้สึกไม่ค่อยสบายเลย$2",
         }
 	},
 	
@@ -6336,8 +6336,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Summer 15" },
       "Entries": {
-      "funReturn_Sophia": "You know, I feel like my parents would be proud of me if they saw my life now.$1#$e#Your grandpa would be, too.$1",
-      "funLeave_Sophia": "Good moring.$1#$e#Don't worry about me, silly! Go on and do your thing!$9",
+      "funReturn_Sophia": "เค้าคิดว่า พ่อกับแม่ต้องภูมิใจ ในตัวเค้าแน่ๆ ถ้าได้เห็นว่าตอนนี้ ชีวิตเค้าเป็นยังไง รู้มั้ย$1#$e#คุณปู่ของตัวเองก็ด้วย$1",
+      "funLeave_Sophia": "อรุณสวัสดิ์$1#$e#ไม่ต้องเป็นห่วงเค้าหรอก คนบ๊อง! ตัวเองไปทำธุระของตัวเองเลย!$9",
         }
 	},
 	
@@ -6346,8 +6346,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Summer 16" },
       "Entries": {
-      "funReturn_Sophia": "Hey, hey! Um. Do you have a moment?$1#$e#Just... wanted to say I'm proud of everything you do.$9#$b#I love the life we started together. It's... like a magical paradise.$1#$b#Lets always be there for each other!$9",
-      "funLeave_Sophia": "Morning! I made coffee. [395]$1",
+      "funReturn_Sophia": "นี่ นี่! อืม ตัวเองว่างแปปนึงมั้ย?$1#$e#เค้าแค่... อยากจะบอกว่า เค้าภูมิใจกับทุกอย่าง ที่ตัวเองทำมา$9#$b#เค้าชอบชีวิตที่เรา เริ่มต้นมันด้วยกันมากเลย... มันเหมือนกับว่าเรา อยู่ในแดนสวรรค์เลยล่ะ$1#$b#ขอให้เราได้อยู่ด้วยกัน แบบนี้ตลอดไป!$9",
+      "funLeave_Sophia": "อรุณสวัสดิ์! เค้าชงกาแฟไว้แล้วล่ะ [395]$1",
         }
 	},
 	
@@ -6356,8 +6356,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Summer 17" },
       "Entries": {
-      "funReturn_Sophia": "Hey! Here's some honey from Blue Moon Vineyard.[340]$1#$e#Um. The kitchen cupboard is a good place for it?$1#$e#Or... you can do that thing where you put it in the shipping bin.$2",
-      "funLeave_Sophia": "@...$1#$e#@!$9#$e#S-sorry. I'm just being silly. Good morning!$8",
+      "funReturn_Sophia": "นี่! อ้ะ น้ำผึ้งจากไร่องุ่นบลูมูน[340]$1#$e#อืม ตู้เก็บของในครัว น่าจะเหมาะกับการเก็บเจ้านี่ไว้นะ ว่ามั้ย?$1#$e#หรือ... ตัวเองจะเอาไปใส่กล่อง สำหรับเอาไปขายก็ได้นะ$2",
+      "funLeave_Sophia": "@...$1#$e#@!$9#$e#ข-ขอโทษ เค้าทำตัวงี่เง่าไปหน่อย อรุณสวัสดิ์!$8",
         }
 	},
 	
@@ -6366,8 +6366,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Summer 18" },
       "Entries": {
-      "funReturn_Sophia": "Oh. You're back.$1",
-      "funLeave_Sophia": "Hey, you! Up to anything fun today?$1#$e#OoOoh. Sounds important!$8",
+      "funReturn_Sophia": "โอ้ กลับมาแล้วหรอ$1",
+      "funLeave_Sophia": "นี่ ตัวเอง! วันนี้มีอะไรสนุกๆ ต้องทำบ้างไหม?$1#$e#อู้วววว นี่เรื่องสำคัญเลยนะ!$8$8",
         }
 	},
 	
@@ -6376,8 +6376,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Summer 22" },
       "Entries": {
-      "funReturn_Sophia": "*yawn* Sooo sleepy.$1#$e#See you in bed soon?$1",
-      "funLeave_Sophia": "Want to watch anime later?$1",
+      "funReturn_Sophia": "*หาว* ง่วงจังงง$1#$e#เค้าจะไปนอนแล้วนะ ตัวเองล่ะ?$1",
+      "funLeave_Sophia": "เดี๋ยวเราดูอนิเมะด้วยกันมั้ย?$1",
         }
 	},
 	
@@ -6386,8 +6386,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Summer 23" },
       "Entries": {
-      "funReturn_Sophia": "*grumble* My tummy is speaking to me again.$1",
-      "funLeave_Sophia": "You kicked me last night.$2#$e#...$2",
+      "funReturn_Sophia": "*โครก* ท้องเค้าส่งเสียงทักทายเค้าอีกละ$1",
+      "funLeave_Sophia": "ตัวเองละเมอถีบเค้าเมื่อคืนอ่ะ$2#$e#...$2",
         }
 	},
 	
@@ -6396,8 +6396,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Summer 24" },
       "Entries": {
-      "funReturn_Sophia": "Hey! I got fiber from weeding. You love crafting with this stuff, right?$1 [771]",
-      "funLeave_Sophia": "If you want orange chicken sometime, I'll make you some.$1#$e#But not too much of it. You have to save some for me!$9",
+      "funReturn_Sophia": "นี่! เค้าหาไฟเบอร์มาได้ จากการกำจัดวัชพืชล่ะ ตัวเองชอบเอามันไปทำ ของคราฟใช่ม้า?$1 [771]",
+      "funLeave_Sophia": "ถ้าตัวเองอยากกินไก่ซอสส้ม เค้าทำให้ตัวเองกินได้นะ$1#$e#แต่ตัวเองห้ามกินคนเดียว จนหมดล่ะ ตัวเองต้องเหลือไว้ ให้เค้ากินด้วย!$9",
         }
 	},
 	
@@ -6406,8 +6406,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Summer 25" },
       "Entries": {
-      "funReturn_Sophia": "Blue Moon Vineyard is ready for fall!$9",
-      "funLeave_Sophia": "You're looking cute today, silly.$4#$e#*smooch*$9#$e#%You lock eyes with Sophia. She turns away and blushes.",
+      "funReturn_Sophia": "ไร่องุ่นบลูมูนเตรียมพร้อมแล้ว กับฤดูใบไม้ร่วงที่มาถึง!$9",
+      "funLeave_Sophia": "วันนี้ตัวเองดูน่ารักจัง คนบ๊อง$4#$e#*ม๊วฟ*$9#$e#%คุณจ้องมองไปที่โซเฟีย เธอหันหน้าหนีแล้วก็เขินแก้มแดง",
         }
 	},
 	
@@ -6416,8 +6416,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Fall 1" },
       "Entries": {
-      "funReturn_Sophia": "So... tried... from today...$2#$e#Um. Can you make dinner?$0",
-      "funLeave_Sophia": "Fall will be hectic as usual for me! Gotta harvest all the grapes.$1#$e#O-oh! It's okay. You need to focus on the farm work here. I'll be thinking about you.$9",
+      "funReturn_Sophia": "โอ้ย... เหนื่อยสุดๆ เลย... วันนี้...$2#$e#อืม ตัวเองมื้อเย็นทีได้มั้ย?$0",
+      "funLeave_Sophia": "ฤดูใบไม้ร่วงนี่ ทำให้เค้าตื่นเต้น ได้ตลอดจริงๆ! เค้าจะได้เก็บเกี่ยวองุ่น ทั้งหมด$1#$e#อ-โอ้! สบายมาก ตัวเองมีสมาธิกับงาน ในฟาร์มนี้เถอะ เค้าก็จะคิดถึงตัวเองนะ$9",
         }
 	},
 	
@@ -6426,8 +6426,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Fall 2" },
       "Entries": {
-      "funReturn_Sophia": "Want to share a bottle of Blue Moon wine?[{{spacechase0.JsonAssets/ObjectId:Blue Moon Wine}}]$9",
-      "funLeave_Sophia": "Hey, you! Good morning. Did you sleep okay?$1#$e#Thinking about maybe putting together a new cosplay soon!$9",
+      "funReturn_Sophia": "อยากดื่มไวน์บลูมูนด้วยกันมั้ย?[{{spacechase0.JsonAssets/ObjectId:Blue Moon Wine}}]$9",
+      "funLeave_Sophia": "อ้าว ตัวเอง! อรุณสวัสดิ์ หลับสบายมั้ย?$1#$e#อ๋อ เค้ากำลังคิดว่าเราน่าจะลอง แต่งคอสเพลย์ เป็นตัวละครใหม่ด้วยกัน!$9",
         }
 	},
 	
@@ -6436,8 +6436,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Fall 3" },
       "Entries": {
-      "funReturn_Sophia": "*sigh*...$2#$e#Oh. Um. Hey, you.$0",
-      "funLeave_Sophia": "Hey, you! I made us some coffee.[395]$4#$e#Hope you have a productive day, silly!$1",
+      "funReturn_Sophia": "*เฮ้อ*...$2#$e#โอ้ อืม ว่าไงตัวเอง$0",
+      "funLeave_Sophia": "นี่ ตัวเอง! เค้าชงกาแฟเผื่อตัวเองแล้วล่ะ[395]$4#$e#ขอให้งานวันนี้ราบรื่นนะ คนบ๊อง!$1",
         }
 	},
 	
@@ -6446,8 +6446,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Fall 4" },
       "Entries": {
-      "funReturn_Sophia": "I-I had trouble breathing today...$2#$e#I-I'm okay...$6#$e#%You hug Sophia and say you're here for her.",
-      "funLeave_Sophia": "Today was the day my parents died...$6#$b#I-I was alone for so long that I forgot what it's like to have a family.$12#$e#Thanks for being here for me, today.$13#$e#%Sophia is crying.#$e#%You hug Sophia. She smiles at you.",
+      "funReturn_Sophia": "เช้านี้ ค-เค้ารู้สึก หายใจไม่สะดวกเลย...$2#$b#ค-เค้าไม่เป็นไร...$6#$e#%คุณกอดโซเฟียและบอกเธอ ว่าคุณจะอยู่ข้างๆ เธอ",
+      "funLeave_Sophia": "วันนี้เป็นวันที่ พ่อกับแม่ของเค้าจากไป...$6#$b#ค- เค้าโดดเดี่ยวมานานเหลือเกิน จนลืมไปแล้วว่า การมีครอบครัวมันเป็นยังไง$12#$e#ขอบคุณที่อยู่ตรงนี้เพื่อเค้า ในวันนี้นะ$13#$e#%โซเฟียกำลังร้องไห้#$e#%คุณกอดโซเฟีย เธอยิ้มให้คุณ",
         }
 	},
 	
@@ -6456,8 +6456,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Fall 8" },
       "Entries": {
-      "funReturn_Sophia": "Hey! How was your day?$1",
-      "funLeave_Sophia": "I wonder if Haley is up to anything today? Maybe I'll text her soon.$1",
+      "funReturn_Sophia": "ไง! วันนี้เป็นไงมั่ง ตัวเอง?$1",
+      "funLeave_Sophia": "อยากรู้จังว่า วันนี้เฮลีย์จะทำอะไร? เค้าว่าจะส่งข้อความ ไปหาเธอดูซักหน่อยล่ะ$1",
         }
 	},
 	
@@ -6466,8 +6466,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Fall 9" },
       "Entries": {
-      "funReturn_Sophia": "Hey... I have a present for you.$1#$e#Here! Love you![688]$9#$e#I know you use 'light magic'. Thought maybe a totem could help you$1#$e#Oh! I bought it from some wizard overseas.$9",
-      "funLeave_Sophia": "I'm prepping my best bottles of wine for the fair.$1#$e#It'll be tough competition...$3",
+      "funReturn_Sophia": "นี่... เค้ามีของขวัญ ให้ตัวเองด้วยล่ะ$1#$e#อ้ะ! รักนะ![688]$9#$e#เค้ารู้ว่าตัวเองสามารถใช้ 'เวทมนตร์แสง' ได้ ก็เลยคิดว่าโทเทมนี้ น่าจะมีประโยชน์กับตัวเอง$1#$e#อ้อ! เค้าซื้อมาจากพ่อมด ที่มาจากที่อื่นน่ะ$9",
+      "funLeave_Sophia": "เค้ากำลังเตรียมไวน์ที่ดีที่สุด เพื่องานเทศกาลเลยล่ะ$1#$e#ต้องเป็นการแข่งขัน ที่ดุเดือดแน่ๆ...$3",
         }
 	},
 	
@@ -6476,8 +6476,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Fall 10" },
       "Entries": {
-      "funReturn_Sophia": "Hey, you! I was craving sweets today so I made dessert![232 234 223 220]$1#$e#*smooch*$9",
-      "funLeave_Sophia": "I've been up since 4am...$0#$e#Oh. Um. I couldn't sleep...$2",
+      "funReturn_Sophia": "อ้าว ตัวเอง! เค้าอยากกินอะไรหวานๆ ก็เลยทำขนมดูน่ะ![232 234 223 220]$1#$e#*ม๊วฟฟ*$9",
+      "funLeave_Sophia": "เค้าตื่นตั้งแต่ตี 4 แล้ว...$0#$e#อ้อ อืมม เค้านอนไม่หลับ...$2",
         }
 	},
 	
@@ -6486,8 +6486,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Fall 11" },
       "Entries": {
-      "funReturn_Sophia": "I lived alone in my parents' house for so long. It was a little scary, being there by myself when it got dark.$0#$b#So many sleepless nights...$2#$e#But now I actually look forward to the sun going down. Gives me an excuse to get close to you.$1#$e#Um. Want to cuddle tonight?$4",
-      "funLeave_Sophia": "Morning! I made breakfast.[195]$1",
+      "funReturn_Sophia": "ตอนที่เค้าอาศัยอยู่ ในบ้านของพ่อกับแม่ เมื่อก่อนน่ะ มันก็น่ากลัวนิดๆ นะ เวลาอยู่ที่นั่นคนเดียว หลังจากที่พระอาทิตย์ตกแล้ว$0#$b#นอนไม่หลับหลายคืนเลยด้วย...$2#$e#แต่ตอนนี้ เค้าอยากให้พระอาทิตย์ ตกเร็วๆ จะได้หาข้ออ้างอยู่ใกล้ๆ ตัวเองไง$1#$e#งืมม อยากอ้อนๆ คืนนี้มั้ย?$4",
+      "funLeave_Sophia": "อรุณสวัสดิ์! เค้าทำอาหารเช้าเสร็จแล้ว[195]$1",
         }
 	},
 	
@@ -6496,8 +6496,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Fall 15" },
       "Entries": {
-      "funReturn_Sophia": "Have everything ready for the fair tomorrow?$1",
-      "funLeave_Sophia": "Hey, you! Good morning. Did you sleep okay?$1#$e#Thinking about maybe putting together a new cosplay soon!$9",
+      "funReturn_Sophia": "ตัวเองเตรียมพร้อม สำหรับงานแฟร์วันพรุ่งนี้นึยัง?$1",
+      "funLeave_Sophia": "อ้าว ตัวเอง! อรุณสวัสดิ์ หลับสบายมั้ย?$1#$e#อ๋อ เค้ากำลังคิดว่าเราน่าจะลอง แต่งคอสเพลย์ เป็นตัวละครใหม่ด้วยกัน!$9",
         }
 	},
 	
@@ -6506,8 +6506,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Fall 17" },
       "Entries": {
-      "funReturn_Sophia": "It's perfect cuddle weather...$4",
-      "funLeave_Sophia": "*yawn* I'm sleepy.$2#$e#Um. Do you mind making coffee?$0",
+      "funReturn_Sophia": "บรรยากาศเหมาะกับการอ้อนจัง...$4",
+      "funLeave_Sophia": "*หาว* เค้าง่วงจัง$2#$e#งืม ตัวเองชงกาแฟหน่อยได้มั้ย?$0",
         }
 	},
 	
@@ -6516,8 +6516,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Fall 18" },
       "Entries": {
-      "funReturn_Sophia": "Hey, you. Are you done for the day?$1",
-      "funLeave_Sophia": "I'm selling a whole batch of iridium wine today.$1#$e#I worked really hard on this batch.$9",
+      "funReturn_Sophia": "อ้าวตัวเอง วันนี้งานเสร็จแล้วหรอ?$1",
+      "funLeave_Sophia": "วันนี้เค้าจะขายไวน์อิริเดียม ที่เตรียมไว้รอบนี้ทั้งหมดเลย$1#$e#รอบนี้เค้าตั้งใจทำสุดๆ เลยนะ$9",
         }
 	},
 	
@@ -6526,8 +6526,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Fall 22" },
       "Entries": {
-      "funReturn_Sophia": "*humming to herself*$9#$e#Oh! Hi, you!$1",
-      "funLeave_Sophia": "Don't worry about me, silly! Go on and do your thing!$9#$e#I'll be fine here.$1",
+      "funReturn_Sophia": "*กำลังฮัมเพลงอยู่คนเดียว*$9#$e#โอ้! อ้าว ตัวเอง!$1",
+      "funLeave_Sophia": "ไม่ต้องเป็นห่วงเค้าหรอก คนบ๊อง! ไปทำธุระของตัวเองเลย!$9#$e#เค้าอยู่ได้ สบายมาก$1",
         }
 	},
 	
@@ -6536,8 +6536,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Fall 23" },
       "Entries": {
-      "funReturn_Sophia": "Yay! You're back!$9#$e#%You pat Sophia on the head.",
-      "funLeave_Sophia": "Morning! Doing anything fun today?$1#$e#OoOoh. Sounds important!$8",
+      "funReturn_Sophia": "เย้! ตัวเองกลับมาแล้ว!$9#$e#%คุณลูบหัวโซเฟีย",
+      "funLeave_Sophia": "อรุณสวัสดิ์! วันนี้มีอะไรสนุกๆ ต้องทำบ้างไหม?$1#$e#อู้วววว นี่เรื่องสำคัญเลยนะ$8",
         }
 	},
 	
@@ -6546,8 +6546,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Fall 24" },
       "Entries": {
-      "funReturn_Sophia": "Find anything interesting today?$1#$e#I keep digging up arrowheads at the vineyard.$0",
-      "funLeave_Sophia": "H-hey, be careful in the mines, okay? I can't imagine what I'd do if anything happened to you...$2#$e#%You tell Sophia not to worry. She smiles at you.",
+      "funReturn_Sophia": "วันนี้ตัวเอง เจออะไรน่าสนใจมั้ย?$1#$e#เค้าขุดเจอหัวลูกธนู ที่ไร่องุ่นด้วยล่ะ$0",
+      "funLeave_Sophia": "น-นี่ ตอนลงเหมืองน่ะ ระวังตัวด้วยนะ โอเคมั้ย? เค้าคิดไม่ออกเลยว่า เค้าจะเป็นยังไงต่อไป ถ้าเกิดอะไรขึ้นกับตัวเอง$2#$e#คุณบอกโซเฟียว่าไม่ต้องกังวล เธอยิ้มให้กับคุณ",
         }
 	},
 	
@@ -6556,7 +6556,7 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Fall 25" },
       "Entries": {
-      "funReturn_Sophia": "I can't decide what material to use for my cosplay outfit...$2#$e#Hmm. Maybe I'll ask Emily, she's good at this stuff!$1",
+      "funReturn_Sophia": "เค้าตัดสินใจไม่ได้เลยว่า จะใช้วัสดุชิ้นไหนดีสำหรับ ชุดคอสเพลย์ที่เค้ากำลังทำอยู่$0#$e#อืมม ไว้ลองไปถามเอมิลี่ละกัน เธอถนัดเรื่องนี้อยู่แล้ว!$1",
         }
 	},
 	
@@ -6745,7 +6745,7 @@
       "Action": "EditData",
       "Target": "data/festivals/spring13",
       "Entries": {
-        "Sophia": "เฮ้ คุณน่ะ! อยากจะมาทานอาหาร กับแันสักหน่อยไหม?$4#$e#ฉันกินไปแล้วจานนึง จานนี้จะเป็น จานที่สองแล้วล่ะ$9"
+        "Sophia": "นี่ ตัวเองน่ะ! อยากจะมาทานอาหาร กับเค้าสักหน่อยไหม?$4#$e#เค้ากินไปแล้วจานนึง จานนี้จะเป็น จานที่สองแล้วล่ะ$9"
       },
       "When": {
         "Spouse": "Sophia"
@@ -6757,7 +6757,7 @@
       "Action": "EditData",
       "Target": "data/festivals/spring24",
       "Entries": {
-        "Sophia": "ฉันมาที่นี่เพื่อเค้กฟรีน่ะ$1"
+        "Sophia": "เค้ามาที่นี่เพราะเค้กฟรีน่ะ$1"
       }
     },
 
@@ -6765,7 +6765,7 @@
       "Action": "EditData",
       "Target": "data/festivals/spring24",
       "Entries": {
-        "Sophia": "เฮ้ เธอน่ะ!$9#$b#อยากจะมากินอาหาร เยอะแยะมากมายกับฉันไหม?$1"
+        "Sophia": "นี่ ตัวเอง!$9#$b#อยากจะมากินอาหาร เยอะแยะมากมายกับเค้าไหม?$1"
       },
       "When": {
         "Spouse": "Sophia"
@@ -6785,7 +6785,7 @@
       "Action": "EditData",
       "Target": "data/festivals/summer11",
       "Entries": {
-        "Sophia": "อยากจะไปว่ายน้ำ หลังจากที่เรากินเสร็จไหม?$1#$e#ฉันมีบิกินี่ตัวใหม่ล่ะ$4"
+        "Sophia": "อยากจะไปว่ายน้ำ หลังจากที่เรากินเสร็จไหม?$1#$e#เค้ามีบิกินี่ตัวใหม่ล่ะ$4"
       },
       "When": {
         "Spouse": "Sophia"
@@ -6805,7 +6805,7 @@
       "Action": "EditData",
       "Target": "data/festivals/summer28",
       "Entries": {
-        "Sophia": "เฮ้ เธอน่ะ เห็นแสงสลัวๆ ตรงนั้นไหม?$4#$e#พวกแมงกะพรุนแสงจันทร์ กำลังจะมาถึงท่าเรือแล้ว!$9#$e#%คุณกุมมือโซเฟียเอาไว้ เธอยิ้มให้คุณ"
+        "Sophia": "นี่ ตัวเอง เห็นแสงสลัวๆ ตรงนั้นไหม?$4#$e#พวกแมงกะพรุนแสงจันทร์ กำลังจะมาถึงท่าเรือแล้ว!$9#$e#%คุณกุมมือโซเฟียเอาไว้ เธอยิ้มให้คุณ"
       },
       "When": {
         "Spouse": "Sophia"
@@ -6825,7 +6825,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall16",
       "Entries": {
-        "Sophia": "วันนี้พวกเราจะต้อง แข่งกันเองแล้วล่ะ$1#$b#ขอให้คนที่เจ๋งที่สุด ชนะแล้วกันนะ!$3#$e#โอ้ อืม ฉันรักคุณ!$4#$b#โชคดีนะ!$9"
+        "Sophia": "วันนี้พวกเราจะต้อง แข่งกันเองแล้วล่ะ$1#$b#ขอให้คนที่เจ๋งที่สุด ชนะแล้วกันนะ!$3#$e#โอ้ อืม เค้ารักตัวเอง!$4#$b#โชคดีนะ!$9"
       },
       "When": {
         "Spouse": "Sophia"
@@ -6845,7 +6845,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall27",
       "Entries": {
-        "Sophia": "เฮ้ คุณน่ะ มาเอาอาหารเหมือนกันหรอ?$1#$e#เฮ้! อืม พวกสัตว์ประหลาดในกรง พวกนั้นน่ะ คุณเคยต่อสู้กับพวกมัน มาก่อนบ้างไหม?$0#$e#คุณกล้าหาญจังเลย พ่อฮีโร่ของฉัน$4"
+        "Sophia": "นี่ ตัวเอง มาเอาอาหารเหมือนกันหรอ?$1#$e#นี่! อืม พวกสัตว์ประหลาดในกรง พวกนั้นน่ะ ตัวเองเคยต่อสู้กับพวกมัน มาก่อนบ้างไหม?$0#$e#ตัวเองกล้าหาญจังเลย ฮีโร่ของฉัน$4"
       },
       "When": {
         "Spouse": "Sophia"
@@ -6857,7 +6857,7 @@
       "Target": "data/festivals/fall27",
 	  "When": { "IsOddYear": false },
       "Entries": {
-        "Sophia": "It's so dark... I can't see.$2",
+        "Sophia": "มืดจัง... มองอะไรไม่เห็นเลย$2",
       }
     },
 	
@@ -6874,7 +6874,7 @@
       "Action": "EditData",
       "Target": "data/festivals/winter8",
       "Entries": {
-        "Sophia": "ฉันอยากจะปั้น มนุษย์หิมะ!$9#$b#มาสิ! มาปั้นกันซักตัวเถอะ เจ้าบ๊อง$1#$e#โถ่ โอเค งั้นหลังจากการแข่งขัน ตกปลาก็ได้!$1"
+        "Sophia": "เค้าอยากจะปั้น มนุษย์หิมะ!$9#$b#มาสิ! มาปั้นกันซักตัวเถอะ คนบ๊อง$1#$e#โถ่ โอเค งั้นหลังจากการแข่งขัน ตกปลาก็ได้!$1"
       },
       "When": {
         "Spouse": "Sophia"
@@ -6894,7 +6894,7 @@
       "Action": "EditData",
       "Target": "data/festivals/winter25",
       "Entries": {
-        "Sophia": "เฮ้ คุณน่ะ! ฉันคิดว่าฉันจะไปลูบหัวดัสตี้ (Dusty) ซักหน่อย$1#$b#ดัสตี้เป็นเด็กที่ดีที่สุด ในเมืองเพลิแกน!$9#$e#โอ้ อืม เดี๋ยวอีกแปปฉันจะไป ร่วมโต๊ะนะ เก็บที่นั่งไว้ให้ฉันหน่อย ได้ไหม?$1"
+        "Sophia": "นี่ ตัวเอง! ฉันคิดว่าฉันจะไปลูบหัวดัสตี้ (Dusty) ซักหน่อย$1#$b#ดัสตี้เป็นเด็กที่ดีที่สุด ในเมืองเพลิแกน!$9#$e#โอ้ อืม เดี๋ยวอีกแปปเค้าจะไป ร่วมโต๊ะนะ จองที่นั่งไว้ให้เค้าหน่อย ได้ไหม?$1"
       },
       "When": {
         "Spouse": "Sophia"
@@ -7007,7 +7007,7 @@
       "Action": "EditData",
       "Target": "Data/Events/Town",
       "Entries": {
-      "8185295/f Sophia 2000/e 8185298/t 1000 1700/w sunny/d Mon Tue Wed Thu": "kindadumbautumn/-500 -500/farmer -198 -198 0 Sophia -199 -199 2 Haley -200 -200 2 Alex 53 69 0 Gus -202 -202 0 Andy -203 -203 3 Penny 35 89 2 Olivia 34 69 3 Caroline 32 69 1 Jodi 33 68 2 Maru 44 77 2 Lewis 45 61 1 Pierre 47 61 3 Victor -200 -200 3 Sam -189 -189 1 Evelyn 34 79 0 Marlon 33 106 2/addTemporaryActor Dusty 16 32 -600 -600 2/showFrame Penny 18/showFrame Maru 31/positionOffset Maru -20 15/pause 500/viewport 23 89 true/skippable/pause 2700/playSound doorClose/warp Sophia 20 89/pause 1300/showFrame Sophia 39/shake Sophia 750/pause 750/speak Sophia \"!!!$9\"/pause 500/showFrame Sophia 0/pause 1100/speed Sophia 1/move Sophia 0 2 1 true/pause 1300/playSound doorClose/warp Haley 20 89/pause 650/faceDirection Sophia 0/pause 50/speak Haley \"โซเฟีย! เดี๋ยวค่อยกลับมาใหม่นะ โอเคนะ?$1#$b#ฉัน 'รัก' การแต่งหน้ากับเธอ!\"/pause 200/speak Sophia \"แจ๋วเลย ฉันชอบแบบนั้นมากเลยล่ะ!$1\"/pause 800/showFrame Haley 16/pause 100/showFrame Haley 17/pause 100/showFrame Haley 18/pause 250/showFrame Haley 19/pause 250/showFrame Haley 18/pause 250/showFrame Haley 19/pause 250/showFrame Haley 18/pause 250/showFrame Haley 17/pause 100/showFrame Haley 16/pause 100/showFrame Haley 0/pause 400/faceDirection Haley 1 true/pause 150/faceDirection Haley 0/pause 300/warp Haley -400 -400/playSound doorClose/pause 1300/faceDirection Sophia 1/pause 200/speak Sophia \"ฉันรุ้สึก... เยี่ยม$1\"/pause 800/viewport move 2 0 4000 true/move Sophia 8 0 1/shake Sophia 400/pause 600/emote Sophia 8 true/pause 800/playSound dwop/showFrame Sophia 30/pause 2200/showFrame Sophia 35/pause 600/speak Sophia \"สการ์เลต! ยัยบ๊อง!$8\"/pause 500/showFrame Sophia 30/pause 200/showFrame Sophia 31/pause 500/showFrame Sophia 4/pause 500/faceDirection Sophia 0/pause 650/viewport move 2 0 5000 true/move Sophia 0 -19 0 true/viewport move 0 -2 9500 true/pause 2500/textAboveHead Sophia \"วันนี้เป็นวันที่ดีนะ!\"/pause 5500/textAboveHead Sophia \"*บ่นพึมพัม*\"/pause 3200/faceDirection Sophia 1/pause 200/speak Sophia \"อืม ฉันค่อนข้างจะหิว$1\"/pause 700/viewport move 2 0 3000 true/move Sophia 6 0 0 true/pause 1800/faceDirection Olivia 2 true/pause 300/speak Olivia \"โอ๊ะ ตายจริง โซเฟีย!$3#$b#วันนี้หนูดูสวยจังเลย!$1\"/pause 400/faceDirection Caroline 2/pause 200/speak Sophia \"ขอบคุณค่ะคุณเจนคินส์ (Ms. Jenkins) !$4\"/pause 800/faceDirection Caroline 1 true/pause 450/faceDirection Olivia 3 true/pause 750/faceDirection Sophia 1 true/pause 600/viewport move 2 0 5500 true/move Sophia 11 0 0/pause 1000/speak Sophia \"บางทีกัสอาจจะมีไก่ส้ม!$9\"/pause 500/move Sophia 0 -1 0/pause 550/warp Sophia -100 -100/playSound doorClose/pause 800/globalFade/viewport -1000 -1000/pause 50/changeLocation Saloon/warp Gus 12 17/warp Andy 5 20/animate Andy false true 100 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 25 26 27 27 27 27 27 27 27 27 27 26 25 24/viewport 14 18 true/pause 1500/warp Sophia 14 24/playSound doorClose/pause 500/faceDirection Gus 1 true/pause 200/faceDirection Gus 2 true/emote Gus 16 true/move Sophia 0 -4 0 true/pause 900/speak Gus \"โซเฟีย!$1\"/pause 300/speed Gus 3/move Gus 2 0 2/move Gus 0 1 2/pause 500/speak Sophia \"สวัสดีค่ะ กัส!$1\"/speak Gus \"ฉันรู้นะว่าเธอ ต้องการมากินอะไรที่นี่!$0#$b#ไก่ส้มตำหรับ เมืองแกรมเพิลตัน กำลังจะไปเสิร์ฟเธอแล้ว!$1\"/pause 200/jump Sophia/pause 1000/speak Sophia \"!!!$9\"/pause 300/speed Gus 1/move Gus 6 0 1 true/pause 600/globalFade/viewport -1000 -1000/halt/pause 50/changeLocation Town/warp Gus -205 -205/stopAnimation Andy/warp Andy -206 -206/warp Maru -300 -300/warp Alex 60 64/warp Sophia -207 -207/faceDirection Sophia 2 true/faceDirection Alex 2 true/warp Olivia -200 -200/warp Caroline -199 199/warp Jodi -198 -198/warp Evelyn -106 -106/warp Pierre -301 -301/warp Lewis -302 -302/viewport 45 72 true/pause 1500/warp Sophia 45 71/playSound doorClose/pause 1000/showFrame Sophia 39/pause 300/shake Sophia 600/pause 600/speak Sophia \"อร่อยจัง!$9\"/pause 1000/showFrame Sophia 0/pause 550/move Sophia 0 1 2/pause 250/faceDirection sophia 1 true/pause 500/viewport move 2 0 5500 true/move Sophia 11 0 2 true/pause 4600/playSound dog_bark/pause 1500/faceDirection Sophia 3 true/pause 300/speak Sophia \"น้องหมา!?$1\"/pause 500/move Sophia -2 0 0/move Sophia 0 -1 0/pause 650/playSound dog_bark/pause 900/playSound dog_bark true/speak Dusty \"!!!$1\"/pause 500/emote Sophia 20/viewport move 0 -1 2500 true/move Sophia 0 -2 3/move Sophia -1 0 3/pause 150/faceDirection Sophia 0 true/pause 600/speak Sophia \"อยากให้ลูบงั้นหรอ?$9\"/pause 300/playSound dog_bark true/speak Dusty \"!!!$4\"/pause 800/speak Sophia \"*ลูบหัวดัสตี้*$9\"/pause 500/playSound dog_pant/pause 500/playSound dog_pant/pause 500/playSound dog_pant/pause 800/playSound dog_bark/pause 1200/playSound dog_bark true/speak Dusty \"!!!$0\"/pause 500/textAboveHead Sophia \"เธอน่ารักจัง!\"/pause 400/playSound dog_bark/move Alex 0 4 3/pause 300/playSound dog_bark/pause 500/emote Alex 32 true/pause 400/stopMusic/globalFade/viewport -1000 -1000 true/warp Sophia 49 32/warp farmer 49 42/warp Victor 30 29/warp Sam 28 29/warp Lewis 41 14/faceDirection Lewis 0 true/pause 50/showFrame Sophia 22/pause 200/playMusic springtown/pause 600/viewport 49 33 true/move farmer 0 -7 0/pause 1300/showFrame Sophia 49/pause 250/emote Sophia 16 true/pause 800/speak Sophia \"เฮ้ เธอน่ะ!$1#$b#ฉันกำลังอ่านการ์ตูนอยู่!$9\"/pause 600/showFrame Sophia 22/pause 1100/showFrame Sophia 49/pause 600/speak Sophia \"อืม...$1#$b#ฉันจะออกจากบ้าน ให้บ่อยกว่านี้ ฉันคิดว่าการได้ใช้เวลา กับผู้คนดีกับฉันนะ$1\"/pause 1000/emote Sophia 40 true/pause 400/speak Sophia \"เฮ้! ฉันอยากจะให้คุณเห็นหน้านี้$1#$b#คุณจะต้องหัวเราะออกมาแน่ๆ !$9\"/pause 600/speed farmer 1/move farmer 0 -2 0 true/pause 250/globalFade/viewport -1000 -1000/halt/stopMusic/pause 1000/message \"โซเฟียเอารูปตลกๆ ในหนังสือการ์ตูนให้ดู พวกเราหัวเราะและคุย เกี่ยวกับวันนี้ของโซเฟีย เธอมีความสุขมากกว่าที่เคย!\"/pause 1000/end dialogue Sophia \"วันนี้ฉัน อารมณ์ดีมากเลยล่ะ!$1#$b#คุณล่ะ เป็นยังไงบ้าง?$9#$e#อู้ววววว! เข้าใจแล้ว!$1#$e#เฮ้ ไว้ค่อยคุยกันใหม่ทีหลังนะ?$9#$e#%โซเฟียยิ้มให้คุณ\"",
+      "8185295/f Sophia 2000/e 8185298/t 1000 1700/w sunny/d Mon Tue Wed Thu": "kindadumbautumn/-500 -500/farmer -198 -198 0 Sophia -199 -199 2 Haley -200 -200 2 Alex 53 69 0 Gus -202 -202 0 Andy -203 -203 3 Penny 35 89 2 Olivia 34 69 3 Caroline 32 69 1 Jodi 33 68 2 Maru 44 77 2 Lewis 45 61 1 Pierre 47 61 3 Victor -200 -200 3 Sam -189 -189 1 Evelyn 34 79 0 Marlon 33 106 2/addTemporaryActor Dusty 16 32 -600 -600 2/showFrame Penny 18/showFrame Maru 31/positionOffset Maru -20 15/pause 500/viewport 23 89 true/skippable/pause 2700/playSound doorClose/warp Sophia 20 89/pause 1300/showFrame Sophia 39/shake Sophia 750/pause 750/speak Sophia \"!!!$9\"/pause 500/showFrame Sophia 0/pause 1100/speed Sophia 1/move Sophia 0 2 1 true/pause 1300/playSound doorClose/warp Haley 20 89/pause 650/faceDirection Sophia 0/pause 50/speak Haley \"โซเฟีย! เดี๋ยวค่อยกลับมาใหม่นะ โอเคนะ?$1#$b#ฉัน 'รัก' การแต่งหน้ากับเธอ!\"/pause 200/speak Sophia \"แจ๋วเลย ฉันชอบแบบนั้นมากเลยล่ะ!$1\"/pause 800/showFrame Haley 16/pause 100/showFrame Haley 17/pause 100/showFrame Haley 18/pause 250/showFrame Haley 19/pause 250/showFrame Haley 18/pause 250/showFrame Haley 19/pause 250/showFrame Haley 18/pause 250/showFrame Haley 17/pause 100/showFrame Haley 16/pause 100/showFrame Haley 0/pause 400/faceDirection Haley 1 true/pause 150/faceDirection Haley 0/pause 300/warp Haley -400 -400/playSound doorClose/pause 1300/faceDirection Sophia 1/pause 200/speak Sophia \"ฉันรุ้สึก... เยี่ยม$1\"/pause 800/viewport move 2 0 4000 true/move Sophia 8 0 1/shake Sophia 400/pause 600/emote Sophia 8 true/pause 800/playSound dwop/showFrame Sophia 30/pause 2200/showFrame Sophia 35/pause 600/speak Sophia \"สการ์เลต! ยัยบ๊อง!$8\"/pause 500/showFrame Sophia 30/pause 200/showFrame Sophia 31/pause 500/showFrame Sophia 4/pause 500/faceDirection Sophia 0/pause 650/viewport move 2 0 5000 true/move Sophia 0 -19 0 true/viewport move 0 -2 9500 true/pause 2500/textAboveHead Sophia \"วันนี้เป็นวันที่ดีนะ!\"/pause 5500/textAboveHead Sophia \"*บ่นพึมพำ*\"/pause 3200/faceDirection Sophia 1/pause 200/speak Sophia \"อืม ฉันค่อนข้างจะหิว$1\"/pause 700/viewport move 2 0 3000 true/move Sophia 6 0 0 true/pause 1800/faceDirection Olivia 2 true/pause 300/speak Olivia \"โอ๊ะ ตายจริง โซเฟีย!$3#$b#วันนี้หนูดูสวยจังเลย!$1\"/pause 400/faceDirection Caroline 2/pause 200/speak Sophia \"ขอบคุณค่ะคุณเจนคินส์ (Ms. Jenkins) !$4\"/pause 800/faceDirection Caroline 1 true/pause 450/faceDirection Olivia 3 true/pause 750/faceDirection Sophia 1 true/pause 600/viewport move 2 0 5500 true/move Sophia 11 0 0/pause 1000/speak Sophia \"บางทีกัสอาจจะมีไก่ส้ม!$9\"/pause 500/move Sophia 0 -1 0/pause 550/warp Sophia -100 -100/playSound doorClose/pause 800/globalFade/viewport -1000 -1000/pause 50/changeLocation Saloon/warp Gus 12 17/warp Andy 5 20/animate Andy false true 100 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 25 26 27 27 27 27 27 27 27 27 27 26 25 24/viewport 14 18 true/pause 1500/warp Sophia 14 24/playSound doorClose/pause 500/faceDirection Gus 1 true/pause 200/faceDirection Gus 2 true/emote Gus 16 true/move Sophia 0 -4 0 true/pause 900/speak Gus \"โซเฟีย!$1\"/pause 300/speed Gus 3/move Gus 2 0 2/move Gus 0 1 2/pause 500/speak Sophia \"สวัสดีค่ะ กัส!$1\"/speak Gus \"ฉันรู้นะว่าเธอ ต้องการมากินอะไรที่นี่!$0#$b#ไก่ส้มตำหรับ เมืองแกรมเพิลตัน กำลังจะไปเสิร์ฟเธอแล้ว!$1\"/pause 200/jump Sophia/pause 1000/speak Sophia \"!!!$9\"/pause 300/speed Gus 1/move Gus 6 0 1 true/pause 600/globalFade/viewport -1000 -1000/halt/pause 50/changeLocation Town/warp Gus -205 -205/stopAnimation Andy/warp Andy -206 -206/warp Maru -300 -300/warp Alex 60 64/warp Sophia -207 -207/faceDirection Sophia 2 true/faceDirection Alex 2 true/warp Olivia -200 -200/warp Caroline -199 199/warp Jodi -198 -198/warp Evelyn -106 -106/warp Pierre -301 -301/warp Lewis -302 -302/viewport 45 72 true/pause 1500/warp Sophia 45 71/playSound doorClose/pause 1000/showFrame Sophia 39/pause 300/shake Sophia 600/pause 600/speak Sophia \"อร่อยจัง!$9\"/pause 1000/showFrame Sophia 0/pause 550/move Sophia 0 1 2/pause 250/faceDirection sophia 1 true/pause 500/viewport move 2 0 5500 true/move Sophia 11 0 2 true/pause 4600/playSound dog_bark/pause 1500/faceDirection Sophia 3 true/pause 300/speak Sophia \"น้องหมา!?$1\"/pause 500/move Sophia -2 0 0/move Sophia 0 -1 0/pause 650/playSound dog_bark/pause 900/playSound dog_bark true/speak Dusty \"!!!$1\"/pause 500/emote Sophia 20/viewport move 0 -1 2500 true/move Sophia 0 -2 3/move Sophia -1 0 3/pause 150/faceDirection Sophia 0 true/pause 600/speak Sophia \"อยากให้ลูบงั้นหรอ?$9\"/pause 300/playSound dog_bark true/speak Dusty \"!!!$4\"/pause 800/speak Sophia \"*ลูบหัวดัสตี้*$9\"/pause 500/playSound dog_pant/pause 500/playSound dog_pant/pause 500/playSound dog_pant/pause 800/playSound dog_bark/pause 1200/playSound dog_bark true/speak Dusty \"!!!$0\"/pause 500/textAboveHead Sophia \"เธอน่ารักจัง!\"/pause 400/playSound dog_bark/move Alex 0 4 3/pause 300/playSound dog_bark/pause 500/emote Alex 32 true/pause 400/stopMusic/globalFade/viewport -1000 -1000 true/warp Sophia 49 32/warp farmer 49 42/warp Victor 30 29/warp Sam 28 29/warp Lewis 41 14/faceDirection Lewis 0 true/pause 50/showFrame Sophia 22/pause 200/playMusic springtown/pause 600/viewport 49 33 true/move farmer 0 -7 0/pause 1300/showFrame Sophia 49/pause 250/emote Sophia 16 true/pause 800/speak Sophia \"เฮ้ เธอน่ะ!$1#$b#ฉันกำลังอ่านการ์ตูนอยู่!$9\"/pause 600/showFrame Sophia 22/pause 1100/showFrame Sophia 49/pause 600/speak Sophia \"อืม...$1#$b#ฉันจะออกจากบ้าน ให้บ่อยกว่านี้ ฉันคิดว่าการได้ใช้เวลา กับผู้คนดีกับฉันนะ$1\"/pause 1000/emote Sophia 40 true/pause 400/speak Sophia \"เฮ้! ฉันอยากจะให้คุณเห็นหน้านี้$1#$b#คุณจะต้องหัวเราะออกมาแน่ๆ !$9\"/pause 600/speed farmer 1/move farmer 0 -2 0 true/pause 250/globalFade/viewport -1000 -1000/halt/stopMusic/pause 1000/message \"โซเฟียเอารูปตลกๆ ในหนังสือการ์ตูนให้ดู พวกเราหัวเราะและคุย เกี่ยวกับวันนี้ของโซเฟีย เธอมีความสุขมากกว่าที่เคย!\"/pause 1000/end dialogue Sophia \"วันนี้ฉัน อารมณ์ดีมากเลยล่ะ!$1#$b#คุณล่ะ เป็นยังไงบ้าง?$9#$e#อู้ววววว! เข้าใจแล้ว!$1#$e#เฮ้ ไว้ค่อยคุยกันใหม่ทีหลังนะ?$9#$e#%โซเฟียยิ้มให้คุณ\"",
 	  }
     },
 	
