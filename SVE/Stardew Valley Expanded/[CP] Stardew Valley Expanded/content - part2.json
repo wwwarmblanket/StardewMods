@@ -372,7 +372,7 @@
 	"Action": "EditData",
 	"Target": "data/events/AuroraVineyard",
 	"Entries": {
-	"7776009/e 7776008": "none/-500 -500/Apples 20 36 0 farmer -100 -100 0/skippable/addTemporaryActor Peaches 16 32 21 36 0/addTemporaryActor Bear 32 32 20 34 2 true character/addTemporaryActor Junimo 16 32 -50 -50 0/addTemporaryActor Junimo1 16 32 28 36 2/addTemporaryActor Junimo2 16 32 31 35 2/addTemporaryActor Junimo3 16 32 19 23 3/addTemporaryActor Junimo4 16 32 25 25 1/addTemporaryActor Junimo5 16 32 25 27 2/addTemporaryActor Junimo6 16 32 22 6 0/addTemporaryActor Junimo7 16 32 24 5 0/addTemporaryActor Junimo8 16 32 28 6 0/addTemporaryActor Junimo9 16 32 8 6 3/addTemporaryActor Junimo10 16 32 11 7 1/animate Junimo7 false true 200 28 29 30 31/playMusic communityCenter/pause 1200/playSound junimoMeep1/pause 600/playSound junimoMeep1/pause 500/playSound junimoMeep1/pause 500/playSound junimoMeep1/pause 125/viewport 20 3 true/viewport move 0 2 16000 true/pause 350/playSound junimoMeep1/pause 500/playSound junimoMeep1/pause 600/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 500/jump Junimo10/pause 300/playSound junimoMeep1/pause 350/jump Junimo8/pause 300/playSound junimoMeep1/pause 450/playSound junimoMeep1/jump Junimo9/pause 400/playSound junimoMeep1/pause 550/playSound junimoMeep1/pause 450/playSound junimoMeep1/pause 340/playSound junimoMeep1/pause 500/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 350/playSound junimoMeep1/pause 500/playSound junimoMeep1/jump Junimo3/pause 350/playSound junimoMeep1/pause 525/playSound junimoMeep1/pause 450/playSound junimoMeep1/pause 300/jump Junimo4/pause 550/playSound junimoMeep1/pause 450/playSound junimoMeep1/pause 450/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 300/jump Junimo5/playSound junimoMeep1/pause 400/playSound junimoMeep1/jump Junimo3/pause 300/playSound junimoMeep1/pause 350/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 500/jump Junimo2/pause 400/playSound junimoMeep1/pause 475/playSound junimoMeep1/pause 450/animate Junimo2 false true 200 24 25 26 27/playSound junimoMeep1/jump Junimo1/pause 300/playSound junimoMeep1/pause 550/playSound junimoMeep1/pause 400/animate Junimo1 false true 1000 0 0 4 4 0 0/animate Junimo5 false true 200 20 21 22 23/warp farmer 20 40/playSound doorClose/pause 600/jump Bear/pause 250/move farmer 0 -2 0/speak Bear \"นี่ ทางนี้\"/pause 500/faceDirection Apples 1 true/pause 250/faceDirection Apples 2 true/pause 300/faceDirection Peaches 3 true/pause 150/playSound junimoMeep1/jump Apples/pause 100/faceDirection Peaches 2 true/pause 550/playSound junimoMeep1/speak Apples \"เพื่อนของแอปเปิล อยู่นี่!\"/pause 500/playSound junimoMeep1/pause 300/faceDirection Peaches 3 true/pause 150/playSound junimoMeep1/pause 350/playSound junimoMeep1/pause 100/faceDirection Apples 1 true/pause 300/playSound junimoMeep1/pause 450/playSound junimoMeep1/pause 300/jump Apples/pause 400/playSound junimoMeep1/speak Peaches \"*มี๊ป*?\"/pause 250/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 300/playSound junimoMeep1/speak Apples \"*มี๊ป*!!!$1\"/pause 500/faceDirection Peaches 2 true/pause 350/playSound junimoMeep1/pause 200/faceDirection Apples 2 true/pause 300/move Peaches 0 2 3/pause 100/playSound junimoMeep1/faceDirection farmer 1 true/pause 400/playSound junimoMeep1/pause 400/jump Peaches/pause 250/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 400/emote farmer 32/pause 300/playSound junimoMeep1/pause 200/jump Peaches/pause 300/playSound junimoMeep1/pause 500/playSound junimoMeep1/speak Apples \"พีชมีความสุช ที่ได้เจอเพื่อนของแอปเปิลล่ะ!$1\"/pause 500/faceDirection farmer 0 true/pause 300/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 200/jump Apples/pause 350/faceDirection Peaches 0 true/pause 300/playSound junimoMeep1/speak Apples \"มานี่จิ! หม่าม๊าสตาร์ฟรุต 'Mother Starfruit Tree'!$1\"/playSound junimoMeep1/pause 525/playSound junimoMeep1/globalFade/viewport -1000 -1000/changeLocation ApplesRoom/stopAnimation Junimo1/stopAnimation Junimo2/stopAnimation Junimo5/stopAnimation Junimo7/warp Apples 8 6/faceDirection Apples 2 true/warp Peaches 10 6/faceDirection Peaches 2 true/warp farmer 14 8/faceDirection farmer 3 true/warp Bear 14 6/faceDirection Bear 3 true/warp Junimo1 6 10/faceDirection Junimo1 0 true/warp Junimo2 7 8/faceDirection Junimo2 0 true/warp Junimo3 8 8/faceDirection Junimo3 0 true/warp Junimo4 8 9/faceDirection Junimo4 0 true/warp Junimo5 9 9/faceDirection Junimo5 0 true/warp Junimo6 9 11/faceDirection Junimo6 0 true/warp Junimo7 10 8/faceDirection Junimo7 0 true/warp Junimo8 11 9/faceDirection Junimo8 0 true/warp Junimo9 12 7/faceDirection Junimo9 3 true/warp Junimo10 12 6/faceDirection Junimo10 3 true/positionOffset Peaches -30 5/positionOffset Apples 25 2/positionOffset farmer -30 -15/positionOffset Junimo2 -5 -18/positionOffset Junimo3 18 -5/positionOffset Junimo4 -11 5/positionOffset Junimo5 5 -25/positionOffset Junimo6 -15 -27/positionOffset Junimo8 -9 -23/positionOffset Junimo9 -20 6/positionOffset Junimo7 0 10/animate Junimo2 false true 200 28 29 30 31/animate Junimo5 false true 190 29 30 31 28/animate Junimo6 false true 180 28 29 30 31/animate Junimo7 false true 195 30 31 28 29/animate Junimo10 false false 2500 12 12 12 0 0 12/animate Junimo9 false false 2400 12 12 12 8 8 12/playMusic junimoStarSong/viewport 9 8 true/pause 500/playSound junimoMeep1/pause 400/playSound junimoMeep1/jump Junimo3/pause 500/playSound junimoMeep1/pause 400/playSound junimoMeep1/jump Junimo1/pause 400/playSound junimoMeep1/pause 250/jump Junimo1/pause 400/playSound junimoMeep1/pause 500/playSound junimoMeep1/pause 300/faceDirection Apples 1 true/pause 200/playSound junimoMeep1/pause 150/faceDirection Peaches 3 true/pause 375/playSound junimoMeep1/pause 200/jump Apples/pause 200/jump Peaches/pause 150/playSound junimoMeep1/pause 450/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 350/faceDirection Apples 2 true/pause 300/playSound junimoMeep1/pause 100/faceDirection Peaches 2 true/pause 500/playSound junimoMeep1/pause 400/animate Apples false true 200 24 25 26 27/pause 250/playSound junimoMeep1/pause 100/animate Peaches false true 200 24 25 26 27/pause 350/playSound junimoMeep1/pause 300/jump Junimo2/playSound junimoMeep1/pause 350/jump Junimo4/pause 100/playSound junimoMeep1/pause 200/jump Junimo6/pause 200/playSound junimoMeep1/pause 100/jump Junimo4/pause 100/playSound junimoMeep1/pause 250/jump Junimo3/pause 250/playSound junimoMeep1/pause 100/jump Junimo8/pause 300/faceDirection Junimo6 1 true/pause 200/playSound junimoMeep1/pause 100/faceDirection Junimo6 2 true/pause 300/playSound junimoMeep1/pause 50/jump Junimo1/animate Junimo6 false true 200 20 21 22 23/pause 200/playSound junimoMeep1/jump Junimo9/pause 300/playSound junimoMeep1/pause 250/jump Junimo8/pause 200/playSound junimoMeep1/pause 150/faceDirection Junimo10 3 true/pause 200/animate Junimo10 false true 200 12 13 14 15/pause 200/playSound junimoMeep1/jump Junimo5/pause 450/playSound junimoMeep1/pause 200/jump Junimo7/pause 350/playSound junimoMeep1/pause 100/globalFade/viewport -1000 -1000/pause 1000/message \"เหล่าจูนิโม่ได้แบ่งปันความรู้ให้กับฉัน...\"/pause 350/stopMusic/pause 1000/playSound reward/message \"สตาร์ฟรุตที่ฉันปลูก จะขายได้มูลค่าสูงขึ้น!\"/pause 800/end dialogue Apples \"เพื่อนของแอปเปิลอยู่นี่! เพื่อนตนอื่นอาจจะมา เที่ยวเล่นกันอีก!$1#$b#แอปเปิลมีความสุข! แอปเปิลมีความสุข!$1#$e#%แอปเปิลกระโดดไปมาอย่างร่าเริง\""
+	"7776009/e 7776008": "none/-500 -500/Apples 20 36 0 farmer -100 -100 0/skippable/addTemporaryActor Peaches 16 32 21 36 0/addTemporaryActor Bear 32 32 20 34 2 true character/addTemporaryActor Junimo 16 32 -50 -50 0/addTemporaryActor Junimo1 16 32 28 36 2/addTemporaryActor Junimo2 16 32 31 35 2/addTemporaryActor Junimo3 16 32 19 23 3/addTemporaryActor Junimo4 16 32 25 25 1/addTemporaryActor Junimo5 16 32 25 27 2/addTemporaryActor Junimo6 16 32 22 6 0/addTemporaryActor Junimo7 16 32 24 5 0/addTemporaryActor Junimo8 16 32 28 6 0/addTemporaryActor Junimo9 16 32 8 6 3/addTemporaryActor Junimo10 16 32 11 7 1/animate Junimo7 false true 200 28 29 30 31/playMusic communityCenter/pause 1200/playSound junimoMeep1/pause 600/playSound junimoMeep1/pause 500/playSound junimoMeep1/pause 500/playSound junimoMeep1/pause 125/viewport 20 3 true/viewport move 0 2 16000 true/pause 350/playSound junimoMeep1/pause 500/playSound junimoMeep1/pause 600/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 500/jump Junimo10/pause 300/playSound junimoMeep1/pause 350/jump Junimo8/pause 300/playSound junimoMeep1/pause 450/playSound junimoMeep1/jump Junimo9/pause 400/playSound junimoMeep1/pause 550/playSound junimoMeep1/pause 450/playSound junimoMeep1/pause 340/playSound junimoMeep1/pause 500/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 350/playSound junimoMeep1/pause 500/playSound junimoMeep1/jump Junimo3/pause 350/playSound junimoMeep1/pause 525/playSound junimoMeep1/pause 450/playSound junimoMeep1/pause 300/jump Junimo4/pause 550/playSound junimoMeep1/pause 450/playSound junimoMeep1/pause 450/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 300/jump Junimo5/playSound junimoMeep1/pause 400/playSound junimoMeep1/jump Junimo3/pause 300/playSound junimoMeep1/pause 350/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 500/jump Junimo2/pause 400/playSound junimoMeep1/pause 475/playSound junimoMeep1/pause 450/animate Junimo2 false true 200 24 25 26 27/playSound junimoMeep1/jump Junimo1/pause 300/playSound junimoMeep1/pause 550/playSound junimoMeep1/pause 400/animate Junimo1 false true 1000 0 0 4 4 0 0/animate Junimo5 false true 200 20 21 22 23/warp farmer 20 40/playSound doorClose/pause 600/jump Bear/pause 250/move farmer 0 -2 0/speak Bear \"นี่ ทางนี้\"/pause 500/faceDirection Apples 1 true/pause 250/faceDirection Apples 2 true/pause 300/faceDirection Peaches 3 true/pause 150/playSound junimoMeep1/jump Apples/pause 100/faceDirection Peaches 2 true/pause 550/playSound junimoMeep1/speak Apples \"เพื่อนของแอปเปิล อยู่นี่!\"/pause 500/playSound junimoMeep1/pause 300/faceDirection Peaches 3 true/pause 150/playSound junimoMeep1/pause 350/playSound junimoMeep1/pause 100/faceDirection Apples 1 true/pause 300/playSound junimoMeep1/pause 450/playSound junimoMeep1/pause 300/jump Apples/pause 400/playSound junimoMeep1/speak Peaches \"*มี๊ป*?\"/pause 250/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 300/playSound junimoMeep1/speak Apples \"*มี๊ป*!!!$1\"/pause 500/faceDirection Peaches 2 true/pause 350/playSound junimoMeep1/pause 200/faceDirection Apples 2 true/pause 300/move Peaches 0 2 3/pause 100/playSound junimoMeep1/faceDirection farmer 1 true/pause 400/playSound junimoMeep1/pause 400/jump Peaches/pause 250/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 400/emote farmer 32/pause 300/playSound junimoMeep1/pause 200/jump Peaches/pause 300/playSound junimoMeep1/pause 500/playSound junimoMeep1/speak Apples \"พีชมีความสุช ที่ได้เจอเพื่อนของแอปเปิลล่ะ!$1\"/pause 500/faceDirection farmer 0 true/pause 300/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 200/jump Apples/pause 350/faceDirection Peaches 0 true/pause 300/playSound junimoMeep1/speak Apples \"มานี่จิ! หม่าม๊าสตาร์ฟรุต 'Mother Starfruit Tree'!$1\"/playSound junimoMeep1/pause 525/playSound junimoMeep1/globalFade/viewport -1000 -1000/changeLocation ApplesRoom/stopAnimation Junimo1/stopAnimation Junimo2/stopAnimation Junimo5/stopAnimation Junimo7/warp Apples 8 6/faceDirection Apples 2 true/warp Peaches 10 6/faceDirection Peaches 2 true/warp farmer 14 8/faceDirection farmer 3 true/warp Bear 14 6/faceDirection Bear 3 true/warp Junimo1 6 10/faceDirection Junimo1 0 true/warp Junimo2 7 8/faceDirection Junimo2 0 true/warp Junimo3 8 8/faceDirection Junimo3 0 true/warp Junimo4 8 9/faceDirection Junimo4 0 true/warp Junimo5 9 9/faceDirection Junimo5 0 true/warp Junimo6 9 11/faceDirection Junimo6 0 true/warp Junimo7 10 8/faceDirection Junimo7 0 true/warp Junimo8 11 9/faceDirection Junimo8 0 true/warp Junimo9 12 7/faceDirection Junimo9 3 true/warp Junimo10 12 6/faceDirection Junimo10 3 true/positionOffset Peaches -30 5/positionOffset Apples 25 2/positionOffset farmer -30 -15/positionOffset Junimo2 -5 -18/positionOffset Junimo3 18 -5/positionOffset Junimo4 -11 5/positionOffset Junimo5 5 -25/positionOffset Junimo6 -15 -27/positionOffset Junimo8 -9 -23/positionOffset Junimo9 -20 6/positionOffset Junimo7 0 10/animate Junimo2 false true 200 28 29 30 31/animate Junimo5 false true 190 29 30 31 28/animate Junimo6 false true 180 28 29 30 31/animate Junimo7 false true 195 30 31 28 29/animate Junimo10 false false 2500 12 12 12 0 0 12/animate Junimo9 false false 2400 12 12 12 8 8 12/playMusic junimoStarSong/viewport 9 8 true/pause 500/playSound junimoMeep1/pause 400/playSound junimoMeep1/jump Junimo3/pause 500/playSound junimoMeep1/pause 400/playSound junimoMeep1/jump Junimo1/pause 400/playSound junimoMeep1/pause 250/jump Junimo1/pause 400/playSound junimoMeep1/pause 500/playSound junimoMeep1/pause 300/faceDirection Apples 1 true/pause 200/playSound junimoMeep1/pause 150/faceDirection Peaches 3 true/pause 375/playSound junimoMeep1/pause 200/jump Apples/pause 200/jump Peaches/pause 150/playSound junimoMeep1/pause 450/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 350/faceDirection Apples 2 true/pause 300/playSound junimoMeep1/pause 100/faceDirection Peaches 2 true/pause 500/playSound junimoMeep1/pause 400/animate Apples false true 200 24 25 26 27/pause 250/playSound junimoMeep1/pause 100/animate Peaches false true 200 24 25 26 27/pause 350/playSound junimoMeep1/pause 300/jump Junimo2/playSound junimoMeep1/pause 350/jump Junimo4/pause 100/playSound junimoMeep1/pause 200/jump Junimo6/pause 200/playSound junimoMeep1/pause 100/jump Junimo4/pause 100/playSound junimoMeep1/pause 250/jump Junimo3/pause 250/playSound junimoMeep1/pause 100/jump Junimo8/pause 300/faceDirection Junimo6 1 true/pause 200/playSound junimoMeep1/pause 100/faceDirection Junimo6 2 true/pause 300/playSound junimoMeep1/pause 50/jump Junimo1/animate Junimo6 false true 200 20 21 22 23/pause 200/playSound junimoMeep1/jump Junimo9/pause 300/playSound junimoMeep1/pause 250/jump Junimo8/pause 200/playSound junimoMeep1/pause 150/faceDirection Junimo10 3 true/pause 200/animate Junimo10 false true 200 12 13 14 15/pause 200/playSound junimoMeep1/jump Junimo5/pause 450/playSound junimoMeep1/pause 200/jump Junimo7/pause 350/playSound junimoMeep1/pause 100/globalFade/viewport -1000 -1000/pause 1000/message \"เหล่าจูนิโม่ได้แบ่งปัน ความรู้ให้กับฉัน...\"/pause 350/stopMusic/pause 1000/playSound reward/message \"สตาร์ฟรุตที่ฉันปลูก จะขายได้มูลค่าสูงขึ้น!\"/pause 800/end dialogue Apples \"เพื่อนของแอปเปิลอยู่นี่! เพื่อนตนอื่นอาจจะมา เที่ยวเล่นกันอีก!$1#$b#แอปเปิลมีความสุข! แอปเปิลมีความสุข!$1#$e#%แอปเปิลกระโดดไปมา อย่างร่าเริง\""
 	}
 },
 
@@ -710,7 +710,7 @@
         "summer_10": "เครื่องปรับอากาศที่โรงหนังนี่ เยี่ยมไปเลย$0",
 		"summer_Wed4": "ฉันสามารถแนะนำหนังบางเรื่อง ที่คุณควรจะต้องดูได้นะ...$1",
         "fall_Tue4": "ใบไม้พวกนี้ ก็ขยันปลิวเข้ามาในโรงหนังได้นะ แล้วฉันก็ต้องคอยกวาดออก...$0#$e#บางครั้งเจ้าพวกนกก็ช่วยนะ$1",
-		"winter_Sun4": "ที่ที่ฉันอาศัยอยู่ไม่ค่อยมีงานให้เลือกมากหรอก พอมีตำแหน่งว่างที่โรงหนัง ฉันก็รีบคว้าเลย!$1#$e#มันสนุกมากเลย ที่ได้ทำงานที่นี่...$1",
+		"winter_Sun4": "ที่ที่ฉันอาศัยอยู่ ไม่ค่อยมีงานให้เลือกมากหรอก พอมีตำแหน่งว่างที่โรงหนัง ฉันก็รีบคว้าเลย!$1#$e#มันสนุกมากเลย ที่ได้ทำงานที่นี่...$1",
       }
     },
 
@@ -719,8 +719,8 @@
       "Action": "EditData",
       "Target": "Data/EngagementDialogue",
       "Entries": {
-        "Claire0": "This is the start of something wonderful...$4",
-        "Claire1": "This is the start of something wonderful...$4"
+        "Claire0": "นี่เหมือนเป็นการเริ่มต้น สิ่งที่ต่างๆ ที่แสนวิเศษ...$4",
+        "Claire1": "นี่เหมือนเป็นการเริ่มต้น สิ่งที่ต่างๆ ที่แสนวิเศษ...$4"
       }
     },
 
@@ -732,8 +732,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Spring 1" }, //Mon
       "Entries": {
-      "funReturn_Claire": "Work was exhausting today... but I did talk to some interesting people.",
-      "funLeave_Claire": "Happy new year. I have a feeling this year will be eventful...$1"
+      "funReturn_Claire": "งานวันนี้เหนื่อยจัง... แต่ฉันได้คุยกับ คนน่าสนใจด้วยล่ะ",
+      "funLeave_Claire": "สวัสดีปีใหม่นะ ปีนี้จะต้องเป็นปีที่มี เรื่องราวมากมายเลย...$1"
         }
 	},
     {
@@ -741,8 +741,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Spring 2" }, //Tue
       "Entries": {
-      "funReturn_Claire": "How was your day, dear?$1",
-      "funLeave_Claire": "Good morning. I got up early and made coffee. [395]$1"
+      "funReturn_Claire": "วันนี้เป็นยังไงบ้าง ที่รัก?$1",
+      "funLeave_Claire": "อรุณสวัสดิ์ ฉันตื่นเร็วน่ะ เลยชงกาแฟไว้ให้[395]$1"
         }
 	},
     {
@@ -750,8 +750,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Spring 3" }, //Wed
       "Entries": {
-      "funReturn_Claire": "I met some interesting people at work. Someone traveled from Zuzu city!$5",
-      "funLeave_Claire": "I'm going to work soon. What will you be doing today?$1"
+      "funReturn_Claire": "วันนี้ฉันเจอคนน่าสนใจที่ทำงานด้วยล่ะ บางคนเดินทางมาจากเมืองซูซูเลยนะ!$5",
+      "funLeave_Claire": "อีกเดี๋ยว ฉันต้องไปทำงานแล้วนะ วันนี้คุณจะทำอะไรบ้างหรอ?$1"
         }
 	},
     {
@@ -759,8 +759,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Spring 4" }, //Thu
       "Entries": {
-      "funReturn_Claire": "My skin is getting a bit pale... a little sunshine should help.$1",
-      "funLeave_Claire": "What's on the calendar today for you?$1#$e#Sounds fun!$5"
+      "funReturn_Claire": "ผิวของฉันดูซีดๆ ไปหน่อย... แสงแดดอ่อนๆ นี่น่าจะช่วยได้นะ$1",
+      "funLeave_Claire": "วันนี้บนปฏิทินของคุณ มีเขียนอะไรไว้บ้าง หื้ม?$1#$e#น่าสนุกดีออก!$5"
         }
 	},
     {
@@ -768,8 +768,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Spring 7" }, //Sun
       "Entries": {
-      "funReturn_Claire": "Welcome home! How was your day?$1",
-      "funLeave_Claire": "The smell of breakfast woke you? Well, dig in! [201 195 194 210 211]$5#$e#I made it the way you like it...$1"
+      "funReturn_Claire": "กลับมาแล้วหรอ! วันนี้เป็นไงมั้ง หื้ม?$1",
+      "funLeave_Claire": "คุณตื่นเพราะกลิ่น อาหารเช้ารึเปล่าเนี่ย หื้ม? มาๆ กินเลย![201 195 194 210 211]$5#$e#ฉันทำของที่คุณชอบ ทั้งนั้นเลยนะ...$1"
         }
 	}, 
     {
@@ -777,8 +777,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Spring 8" }, //Mon
       "Entries": {
-      "funReturn_Claire": "You always watch out for me. It's very encouraging...$1",
-      "funLeave_Claire": "Good morning. You managed to roll out of bed...$1#$e#I have work today. Visit me if you have the time!$6"
+      "funReturn_Claire": "การที่คุณคอยมองดูฉันเสมอ มันทำให้ฉันมีความมั่นใจมากขึ้น...$1",
+      "funLeave_Claire": "อรุณสวัสดิ์ ลุกออกจากเตียง ได้แล้วหรอ...$1#$e#วันนี้ฉันมีงานน่ะ ถ้าคุณว่าง แวะไปหาฉันได้นะ!$6"
         }
 	},
     {
@@ -786,8 +786,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Spring 9" }, //Tue
       "Entries": {
-      "funReturn_Claire": "Sorry. I'm a little sweat from aerobics class. I need to take a shower.$0",
-      "funLeave_Claire": "I have my aerobics class today. There's a dance sequence I've been practicing. I hope it goes well!$1"
+      "funReturn_Claire": "โทษที เหงื่อฉันออกนิดหน่อย จากการเต้นแอโรบิกน่ะ ฉันไปอาบน้ำก่อนนะ$0",
+      "funLeave_Claire": "วันนี้ฉันมีคลาสแอโรบิกล่ะ มีลำดับท่าเต้น ที่ฉันกำลังซ้อมอยู่ด้วย น่าจะไปได้สวยนะ!$1"
         }
 	},
     {
@@ -795,8 +795,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Spring 10" }, //Wed
       "Entries": {
-      "funReturn_Claire": "Hello, dear. Welcome back.$1#$e#Oh, mine? My day was gratifying.$5",
-      "funLeave_Claire": "I'm going to work soon. What will you be doing today?$0"
+      "funReturn_Claire": "ไง ที่รัก ยินดีต้อนรับกลับบ้านนะ$1#$e#โอ้ ฉันหรอ? วันนี้ถือว่าน่าพอใจสำหรับฉันเลยล่ะ$5",
+      "funLeave_Claire": "อีกเดี๋ยว ฉันต้องไปทำงานแล้วนะ วันนี้คุณจะทำอะไรบ้างหรอ?$0"
         }
 	},
     {
@@ -804,8 +804,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Spring 11" }, //Thu
       "Entries": {
-      "funReturn_Claire": "I washed the dishes and swept the house while you were out.$1#$e#I had a rather productive day!$5",
-      "funLeave_Claire": "I have a feeling something good will happen today.$1#$e#Well, I'm heading to work soon. Need anything from the store?$0"
+      "funReturn_Claire": "ตอนที่คุณออกไปข้างนอก ฉันล้างจานแล้วก็ กวาดบ้านแล้วนะ$1#$e#วันนี้ได้ทำอะไร ซะคุ้มค่าเลย!$5",
+      "funLeave_Claire": "วันนี้ฉันรู้สึกว่า จะต้องมีอะไรดีๆ เกิดขึ้นแน่เลย$1#$e#อ้อ เดี๋ยวฉันจะออกไปทำงานแล้วนะ คุณอยากได้อะไรจากร้านมั้ย?$0"
         }
 	},
     {
@@ -813,8 +813,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Spring 14" }, //Sun
       "Entries": {
-      "funReturn_Claire": "You know, I never imagined I'd move to Stardew Valley. Is this destiny?$1",
-      "funLeave_Claire": "Good morning. I made us coffee. [395]$1"
+      "funReturn_Claire": "คุณรู้มั้ย ฉันไม่เคยจินตนาการ มาก่อนเลย ว่าจะได้ย้ายมาอยู่ที่สตาร์ดิว แวลลีย์แห่งนี้ นี่เป็นโชคชะตาใช่มั้ย?$1",
+      "funLeave_Claire": "อรุณสวัสดิ์ ฉันชงกาแฟไวให้แล้วนะ[395]$1"
         }
 	},
     {
@@ -822,8 +822,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Spring 15" }, //Mon
       "Entries": {
-      "funReturn_Claire": "Maybe I'll work up the courage and make more friends with some people in town.$1",
-      "funLeave_Claire": "*yawn*...$0#$b#I'm tired today...$2#$e#%You hug Claire.#$e#...$5"
+      "funReturn_Claire": "ฉันน่าจะต้องลอง เพิ่มความกล้าสักหน่อย แล้วก็หาคนในเมืองสักคน เป็นเพื่อนดู$1",
+      "funLeave_Claire": "*หาว*...$0#$b#วันนี้ฉันเพลียจัง...$2#$e#%คุณกอดแคลร์#$e#...$5"
         }
 	},
     {
@@ -831,8 +831,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Spring 16" }, //Tue
       "Entries": {
-      "funReturn_Claire": "I've been craving bruschetta all day.$0#$e#Honestly? I think I could eat it forever.$5",
-      "funLeave_Claire": "The weather is getting warmer!$6"
+      "funReturn_Claire": "ฉันอยากจะกิน บรูสเกต้า มาทั้งวันแล้วเนี่ย$0#$e#ถามจริง? ฉันกินมันได้ตลอดชีวิตเลยล่ะ$5",
+      "funLeave_Claire": "อากาศเริ่มอุ่นขึ้นแล้วล่ะ!$6"
         }
 	},
     {
@@ -840,8 +840,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Spring 17" }, //Wed
       "Entries": {
-      "funReturn_Claire": "I used to eat frozen meals for dinner... but now I find myself reading cook books and making real meals.$1#$e#I have a surprise planned the next time I cook!$6",
-      "funLeave_Claire": "It's fun living with you. I... thought I'd be alone all my life.$1#$e#%You hug Claire.#$e#Hehe!$7"
+      "funReturn_Claire": "ฉันเคยกินแต่อาหารแช่แข็ง เป็นมื้อเย็นมาก่อนนะ... แต่ตอนนี้ฉันอ่านหนังสือ คู่มือสอนทำอาหาร แล้วฉันก็ทำอาหารได้จริงๆ$1#$e#คราวหน้าฉันวางแผนว่า จะทำอาหารสุดตะลึงด้วย!$6",
+      "funLeave_Claire": "การได้อยู่กับคุณ เป็นเรื่องที่สนุกมาก ฉัน... คิดว่าชีวิตนี้จะต้องอยู่คนเดียว ตลอดไปซะอีก$1#$e#%คุณดึงแคลร์เข้ามากอด#$e#ฮิฮิ!$7"
         }
 	},
     {
@@ -849,8 +849,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Spring 18" }, //Thu
       "Entries": {
-      "funReturn_Claire": "We should take a trip to Zuzu City in the future and watch the opera.$1",
-      "funLeave_Claire": "There's a particular aroma coming from you... it smells nice.$1#$e#...$5"
+      "funReturn_Claire": "เราน่าจะไปเที่ยวเมืองซูซู และดูโอเปร่าซักหน่อยเนอะ$1",
+      "funLeave_Claire": "มีกลิ่นหอมเฉพาะตัว มาจากตัวคุณตัวล่ะ... มันดีมากเลย$1#$e#...$5"
         }
 	},
     {
@@ -858,8 +858,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Spring 21" }, //Sun
       "Entries": {
-      "funReturn_Claire": "Um. I was thinking...$1#$b#Perhaps we can try raising some birds? I'd handle all the work!$5",
-      "funLeave_Claire": "Ooo... You look handsome today, @. I see you shaved.^Ooo... You look beautiful today, @. I love the way you did your hair."
+      "funReturn_Claire": "อืม ฉันกำลังคิดว่า...$1#$b#เราจะลองเลี้ยงนกกันดูบ้าง ดีมั้ย? ฉันจะจัดการทุกอย่างเอง$5",
+      "funLeave_Claire": "โอววว... วันนี้คุณหล่อมากเลย @ คุณโกนหนวดนี่^โอววว... วันนี้คุณสวยมากเลย @ ฉันชอบทรงผมนี้ของคุณจัง"
         }
 	},
     {
@@ -867,8 +867,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Spring 22" }, //Mon
       "Entries": {
-      "funReturn_Claire": "Work was uneventful today...$0",
-      "funLeave_Claire": "I brewed some coffee for us. [395]$1#$e#%You tell Claire to have a nice day at work.#$e#Hehe... you have a nice day too, dear.$5"
+      "funReturn_Claire": "งานวันนี้ไม่ได้เรื่องเลย...$0",
+      "funLeave_Claire": "ฉันชงกาแฟไว้ให้คุณด้วยนะ [395]$1#$e#%คุณบอกแคลร์ว่า ขอให้งานราบรื่น#$e#ฮิฮิ...ขอให้งานของคุณ ราบรื่นเหมือนกันนะ ที่รัก$5"
         }
 	},
     {
@@ -876,8 +876,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Spring 23" }, //Tue
       "Entries": {
-      "funReturn_Claire": "Oh. You smell a sweet scent? It's coming from this...[220 221 222 223 234 611 612 608]$1#$e#The look on your face... Hehe!$7",
-      "funLeave_Claire": "Will we live in the valley forever?$1#$e#Sorry. That was a strange question to ask.$0#$e#%You smile at Claire.#$e#...$5"
+      "funReturn_Claire": "โอ้ คุณได้กลิ่นหอมใช่มั้นละ? มันมาจากนี่ไง...[220 221 222 223 234 611 612 608]$1#$e#ดูทำหน้าเข้าสิ... ฮิฮิ!$7",
+      "funLeave_Claire": "เราจะอาศัยอยู่ที่หุบเขานี้ ไปตลอดเลยมั้ย?$1#$e#ขอโทษนะ มันแปลกใช่มั้ย ที่มาถามแบบนี้$0#$e#%คุณส่งยิ้มให้แคลร์#$e#...$5"
         }
 	},
     {
@@ -885,8 +885,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Spring 25" }, //Thu
       "Entries": {
-      "funReturn_Claire": "I discovered a beautiful piece of classical music we could dance to together.$1#$e#It gets easier when you get into the rhythm.$5",
-      "funLeave_Claire": "Your bed head is adorable...$4"
+      "funReturn_Claire": "ฉันเจอเพลงคลาสสิค ที่ประพันธ์ไว้ไพเราะมากเพลงนึง เหมาะสำหรับเราเอาไว้ เต้นรำด้วยกัน$1#$e#มันจะง่ายนะ ถ้าคุณจับจังหวะได้$5",
+      "funLeave_Claire": "ผมยุ่งๆ ของคุณตอนตื่นนอนนี่ น่าเอ็นดูเชียว...$4"
         }
 	},
     {
@@ -894,8 +894,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Spring 28" }, //Sun
       "Entries": {
-      "funReturn_Claire": "Good evening, dear. How was your day?$1",
-      "funLeave_Claire": "The weather is finally getting warmer.$1"
+      "funReturn_Claire": "สวัสดีตอนเย็น ที่รัก วันนี้เป็นไงบ้าง?$1",
+      "funLeave_Claire": "อากาศเริ่มอุ่นขึ้นแล้วล่ะ$1"
         }
 	},
     {
@@ -912,8 +912,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Summer 2" }, //Tue
       "Entries": {
-      "funReturn_Claire": "I had a great day today...$1",
-      "funLeave_Claire": "I'm ready for hot weather, perfect blue skies, and apricot pies!$5#$e#I'll do what I can do help around the house. I know the start of a season is a lot of work.$1#$e#Good luck today!$6"
+      "funReturn_Claire": "วันนี้เยี่ยมไปเลยล่ะ...$1",
+      "funLeave_Claire": "มาเลย ฤดูร้อน ฉันพร้อมแล้ว ท้องฟ้าสีคราม และพายแอปริคอต!$5#$e#ฉันจะช่วยงานในบ้านเอง ก็ฤดูนี้มีงานต้องทำ เยอะแยะนี่นา$1#$e#สู้ๆ นะ!$6"
         }
 	},
     {
@@ -921,8 +921,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Summer 3" }, //Wed
       "Entries": {
-      "funReturn_Claire": "Dinner is ready! I hope you worked up a appetite today! [224 231 214 212 197]$5",
-      "funLeave_Claire": "The mermaid's pendant you gave me is beautiful. I'll always cherish it.$1#$e#I'll make dinner tonight.$1"
+      "funReturn_Claire": "อาหารเย็นพร้อมแล้วนะ! นี่น่าจะช่วยให้คุณเจริญอาหาร! [224 231 214 212 197]$5",
+      "funLeave_Claire": "สร้อยคอนางเงือกที่คุณให้ฉัน มันสวยงามมากจริงๆ ฉันจะดูแลมันอย่างดีเลย$1#$e#เดี๋ยวฉันจะเตรียมมื้อค่ำไว้นะ$1"
         }
 	},
     {
@@ -930,8 +930,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Summer 4" }, //Thu
       "Entries": {
-      "funReturn_Claire": "Welcome home! How was your day?$1",
-      "funLeave_Claire": "I'm going to work soon. What will you be doing today?$1"
+      "funReturn_Claire": "ยินดีต้อนรับกลับบ้าน! วันนี้เป็นไงบ้าง?$1",
+      "funLeave_Claire": "อีกเดี๋ยว ฉันต้องไปทำงานแล้วนะ วันนี้คุณจะทำอะไรบ้างหรอ?$1"
         }
 	}, 
     {
@@ -939,8 +939,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Summer 8" }, //Mon
       "Entries": {
-      "funReturn_Claire": "Oh, it's %time? The day went by so fast...$0",
-      "funLeave_Claire": "%Claire doesn't notice you.#$e#Oh! You're up! Good morning.$1#$e#I'm about to head out to work.$0"
+      "funReturn_Claire": "โอ้ %time แล้วหรอเนี่ย? วันเวลานี่ผ่านไปไวจัง...$0",
+      "funLeave_Claire": "%แคลร์ไม่ได้สังเกตเห็นคุณ#$e#โอ้! ตื่นแล้วหรอ! อรุณสวัสดิ์$1#$e#ฉันกำลังเตรียมตัว ออกไปทำงานน่ะ$0"
         }
 	},
     {
@@ -948,8 +948,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Summer 9" }, //Tue
       "Entries": {
-      "funReturn_Claire": "I envy your craftsmanship. All the lovely machines and devices you've made are wonderful creations.$1",
-      "funLeave_Claire": "Emily and I are going to dance together today.$1#$e#Have you given thought about joining the aerobics class?$5#$b#I could teach you some things...$1"
+      "funReturn_Claire": "ฉันอิจฉาฝีมือทำงานคราฟ ของคุณจริงๆ มีแต่เครื่องมือและอุปกรณ์ ที่น่ารักทั้งนั้น นี่เป็นการสร้างสรรค์ ที่ยอดเยี่ยมมาก$1",
+      "funLeave_Claire": "วันนี้เอมิลีกับฉัน จะเต้นด้วยกันล่ะ$1#$e#คุณเคยคิดจะเข้าร่วม คลาสแอโรบิกบ้างมั้ย?$5#$b#ฉันสอนคุณได้นะ...$1"
         }
 	},
     {
@@ -957,8 +957,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Summer 10" }, //Wed
       "Entries": {
-      "funReturn_Claire": "I feel like I can understand what animals are thinking when I look at them...$1#$b#I wonder if there's a wizard or witch who can talk to animals?$0#$e#You talk to the local wizard... can they understand animals?$1",
-      "funLeave_Claire": "Morning, dear. I brewed us coffee. [395]$1"
+      "funReturn_Claire": "ฉันว่า เหมือนฉันจะเข้าว่าพวกสัตว์ กำลังคิดอะไรอยู่ เวลาที่ฉันมองพวกมัน...$1#$b#ฉันสงสัยว่า มีพ่อมดหรือแม่มดคนไหน ที่คุยกับสัตว์ได้บ้าง?$0#$e#คุณลองถาม พ่อมดคนนั้นให้หน่อยสิ... พวกเขาเข้าใจภาษาสัตว์รึเปล่า?$1",
+      "funLeave_Claire": "อรุณสวัสดิ์ ที่รัก ฉันชงกาแฟไว้แล้วนะ[395]$1"
         }
 	},
     {
@@ -966,8 +966,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Summer 14" }, //Sun
       "Entries": {
-      "funReturn_Claire": "I'm going to try a new recipe I found online the next time I cook dinner.$1#$b#I know you'll love it.$5#$e#Oh? Yes?$1#$e#...$4#$e#Oh! You're silly!$7",
-      "funLeave_Claire": "My manager said we're expecting a number of customers today...$0#$e#It'll be a busy day.$0"
+      "funReturn_Claire": "คราวหน้า ฉันว่าจะลองทำเมนูใหม่ ที่อ่านเจอในเน็ต เป็นมื้อเย็นดูน่ะ$1#$b#ฉันว่าคุณต้องชอบแน่ๆ$5#$e#โอ๊ะ? อะไรนะ?$1#$e#...$4#$e#ฮึ้ย! คนบ้า!$7",
+      "funLeave_Claire": "ผู้จัดการบอกฉันว่า คาดว่าจะมีลูกค้าจำนวนมาก วันนี้...$0#$e#ต้องเป็นวันที่ยุ่งแน่ๆ$0"
         }
 	},
     {
@@ -975,8 +975,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Summer 15" }, //Mon
       "Entries": {
-      "funReturn_Claire": "Ever since I was a little girl, I wanted to be an actress.$1#$e#Did you feel the same with farming or adventuring?$5",
-      "funLeave_Claire": "I thought I'd make two helpings for breakfast. Here, dear. [201 195 194 210 211]$1"
+      "funReturn_Claire": "ตอนเด็กๆ ฉันก็เคยฝันไว้นะ ว่าอยากจะเป็นนักแสดง$1#$e#แล้วของคุณล่ะ เหมือนกับที่ได้มาทำฟาร์ม หรือผจญภัยบ้างมั้ย?$5",
+      "funLeave_Claire": "ฉันว่า ฉันน่าจะต้องลองหาตัวช่วย ในการเตรียมมื้อเช้าไว้สินะ นี่จ้ะ ที่รัก[201 195 194 210 211]$1"
         }
 	},
     {
@@ -984,8 +984,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Summer 16" }, //Tue
       "Entries": {
-      "funReturn_Claire": "*yawn* I'm very... sleepy.$2#$e#Um. I'm going to start getting ready for bed.$0",
-      "funLeave_Claire": "I wish the weather stayed like this forever...$1"
+      "funReturn_Claire": "*หาว* ฉํนง่วงมาก... ง่วงสุดๆ$2#$e#อืม ฉันจะเตรียมตัวเข้านอนแล้วล่ะ$0",
+      "funLeave_Claire": "ฉันอยากให้อากาศ เป็นแบบนี้ไปตลอดเลย...$1"
         }
 	},
     {
@@ -993,8 +993,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Summer 17" }, //Wed
       "Entries": {
-      "funReturn_Claire": "Spending time with me must be boring...$2#$e#Sorry... I have some thoughts.$2#$e#%Claire doesn't want to talk.",
-      "funLeave_Claire": "Good morning. You managed to roll out of bed...$1#$e#I'm heading to work soon.$0"
+      "funReturn_Claire": "การใช้เวลาอยู่กับฉันคง จะน่าเบื่อสินะ...$2#$e#ขอโทษ... ฉันแค่บ่นกับตัวเองน่ะ$2#$e#%แคลร์ไม่อยากคุยอะไรตอนนี้",
+      "funLeave_Claire": "อรุณสวัสดิ์ ลุกออกจากเตียง ได้แล้วหรอ...$1#$e#ฉันกำลังจะออกไปทำงานน่ะ$0"
         }
 	},
     {
@@ -1002,8 +1002,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Summer 18" }, //Thu
       "Entries": {
-      "funReturn_Claire": "I ordered something on the internet. It'll arrive in the mail in a couple days.$1#$e#Oh. What is it? You'll need to wait to find out...$1",
-      "funLeave_Claire": "Sorry about my mood last night. I'll make it up to you.$2#$e#%You hug Claire.#$e#Hehe...$7"
+      "funReturn_Claire": "ฉันสั่งของบางอย่าง มาจากในเน็ตล่ะ พัสดุน่าจะมาถึงวันสองวัน นี้แหละ$1#$e#โอ้ มันคืออะไรน่ะหรอ? คุณต้องรอดูตอนมันมาถึง...$1",
+      "funLeave_Claire": "ขอโทษที่ฉัน เหวี่ยงใส่คุณเมื่อคืนนี้นะ ฉันผิดไปแล้ว$2#$e#%คุณกอดแคลร์#$e#ฮิฮิ...$7"
         }
 	},
     {
@@ -1011,8 +1011,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Summer 21" }, //Sun
       "Entries": {
-      "funReturn_Claire": "I've been craving apricots. Do you think we could grow some on the farm?$1#$e#I know a few recipes that use them...$5",
-      "funLeave_Claire": "Good morning. I got up early and made coffee. [395]$1"
+      "funReturn_Claire": "ฉันอยากกินผลแอปริคอตจัง คุณว่าเราจะปลูกมัน ในฟาร์มได้มั้ย?$1#$e#ฉันรู้เมนู ที่ใช้มันเป็นส่วนผสม อยู่บ้างนะ...$5",
+      "funLeave_Claire": "อรุณสวัสดิ์ ฉันตื่นเร็วน่ะ ชงกาแฟไว้แล้วนะ[395]$1"
         }
 	},
     {
@@ -1020,9 +1020,9 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Summer 22" }, //Mon
       "Entries": {
-      "funReturn_Claire": "Surprise! This is what I ordered you.[787]$5#$e#Well, do you like it? I noticed you've used these in your crafts...$1",
-      "funLeave_Claire": "I think your gift is arriving in the mail today.$1",
-	  "summer_22": "Surprise! This is what I got for you![787]$5#$e#Well, do you like it? I noticed you've used these in your crafts...$1", //accounts for rainy day
+      "funReturn_Claire": "เซอร์ไพร์! ฉันสั่งเจ้านี่มาให้คุณล่ะ! [787]$5#$e#เป็นไง คุณชอบมั้ย? ฉันจำได้ว่า คุณต้องใช้มันคราฟของน่ะ$1",
+      "funLeave_Claire": "ฉันว่า ของขวัญที่สั่งไว้ให้คุณ น่าจะมาถึงวันนี้น้า$1",
+	  "summer_22": "เซอร์ไพร์! ฉันสั่งเจ้านี่มาให้คุณล่ะ! [787]$5#$e#เป็นไง คุณชอบมั้ย? ฉันจำได้ว่า คุณต้องใช้มันคราฟของน่ะ$1", //accounts for rainy day
         }
 	},
     {
@@ -1030,8 +1030,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Summer 23" }, //Tue
       "Entries": {
-      "funReturn_Claire": "I get all the dance practice I need at aerobics class on Tuesdays.$1#$e#My favorite part is talking to everyone before and after...$5",
-      "funLeave_Claire": "Good morning.$1#$e#Good luck with your errands today.$5"
+      "funReturn_Claire": "ฉันซ้อมท่าเต้น ที่จะไปใช้ในคลาสแอโรบิก วันอังคารนี้ ได้หมดทุกท่าแล้ว$1#$e#ฉันชอบตอนที่ ได้พูดคุยกับทุกคน ทั้งก่อนเริ่มและหลังเลิกคลาสจัง...$5",
+      "funLeave_Claire": "อรุณสวัสดิ์$1#$e#ขอให้ธุระที่ต้องจัดการในวันนี้ ราบรื่นนะ$5"
         }
 	},
     {
@@ -1039,8 +1039,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Summer 24" }, //Wed
       "Entries": {
-      "funReturn_Claire": "Do you mind making dinner? I'm exhausted from work...$0",
-      "funLeave_Claire": "*giggle* Oh my. Your bed head...$5"
+      "funReturn_Claire": "วันนี้คุณช่วยทำมื้อเย็นได้มั้ย? งานวันนี้สูบพลังฉันมากเลย...$0",
+      "funLeave_Claire": "*คิกคัก* ตายแล้ว ดูผมยุ่งๆ หลังตื่นนอนของคุณสิ...$5"
         }
 	},
     {
@@ -1048,8 +1048,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Summer 25" }, //Thu
       "Entries": {
-      "funReturn_Claire": "It's fun living with you. I... thought I'd be along all my life.$1#$e#%You hug Claire.#$e#Hehe!$7",
-      "funLeave_Claire": "We should bake something together soon. I know the perfect recipe...$4"
+      "funReturn_Claire": "การได้อยู่กับคุณ เป็นเรื่องที่สนุกมาก ฉัน... คิดว่าชีวิตนี้จะต้องอยู่คนเดียว ตลอดไปซะอีก$1#$e#%คุณดึงแคลร์เข้ามากอด#$e#ฮิฮิ!$7",
+      "funLeave_Claire": "ไว้ครั้งหน้า เราอบขนมด้วยกันนะ ฉันเจอสูตรขนมดีๆ ด้วยล่ะ...$4"
         }
 	},
     {
@@ -1057,8 +1057,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Fall 1" }, //Mon
       "Entries": {
-      "funReturn_Claire": "My diet's improved since I met you. I used to eat frozen Joja meals everyday.$1#$e#I love cooking homemade meals.$5",
-      "funLeave_Claire": "It's starting to get colder...$2#$e#Um. Let's keep the fireplace on. Okay?$0"
+      "funReturn_Claire": "เหมือนโภชนาการ ด้านอาหารของฉัน จะดีขึ้นเรื่อยๆ ตั้งแต่ที่ได้พบคุณล่ะ ก่อนหน้านี้ฉันกินแต่ อาหารแช่แข็งของโจจ้า$1#$e#ฉันชอบทำอาหารจัง$5",
+      "funLeave_Claire": "นี่มันชักจะหนาวแล้วนะเนี่ย...$2#$e#อืม เราจุดเตาผิงทิ้งไว้ หน่อยละกันนะ ได้มั้ย?$0"
         }
 	},
     {
@@ -1066,8 +1066,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Fall 2" }, //Tue
       "Entries": {
-      "funReturn_Claire": "This place reminds me of the countryside. There's so much room!$1",
-      "funLeave_Claire": "I enjoy waking up early in the morning, listening to the birds start their day.$1"
+      "funReturn_Claire": "ที่นี้ทำให้ฉันนึกถึง บ้านในชนบท มีห้องเยอะเลย!$1",
+      "funLeave_Claire": "ฉันชอบตื่นเช้านะ แล้วก็ฟังเสียงพวกนกร้อง เริ่มต้นวันใหม่$1"
         }
 	},
     {
@@ -1075,8 +1075,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Fall 3" }, //Wed
       "Entries": {
-      "funReturn_Claire": "We should pick mushroom in cindersap forest together.$5#$e#There's a recipe I want to try that calls for mushrooms...$1",
-      "funLeave_Claire": "It's a little chilly this morning...$2"
+      "funReturn_Claire": "เราน่าจะไปเก็บเห็ด ในป่าซินเดอร์แซปด้วยกันนะ$5#$e#มีเมนูที่ฉันอยากจะลองทำ มันต้องใช้เห็ดน่ะ...$1",
+      "funLeave_Claire": "เช้านี้ อากาศเย็นหน่อยๆ นะ...$2"
         }
 	},
     {
@@ -1084,8 +1084,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Fall 4" }, //Thu
       "Entries": {
-      "funReturn_Claire": "Um. Do you know someone named 'Pam'?#$e#Oh. She just... caused some trouble at work today.$2#$e#I'll talk to you about it in bed.",
-      "funLeave_Claire": "Good morning. Care for a cup of coffee? [395]$1"
+      "funReturn_Claire": "คุณรู้จักคนที่ชื่อ 'แพม' มะ?#$e#โอ้ ป้านั่น... ก่อเรื่อง ตอนที่ฉันกำลังทำงานน่ะ$2#$e#เดี๋ยวฉันเล่าให้ฟังที่เตียงนะ",
+      "funLeave_Claire": "อรุณสวัสดิ์ เอากาแฟซักแก้วมั้ย? [395]$1"
         }
 	},
     {
@@ -1093,8 +1093,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Fall 7" }, //Sun
       "Entries": {
-      "funReturn_Claire": "I appreciate my co-worker, Martin. He helps me out so much at work.$1#$e#I sometimes catch him glancing at me...$1",
-      "funLeave_Claire": "Your outfit looks great today...$1"
+      "funReturn_Claire": "ฉันประทับใจมาร์ติน เพื่อนร่วมงานของฉันมากเลย เขาช่วยงานฉัน หลายอย่างเลยล่ะ$1#$e#บางที ฉันจับได้นะ ว่าเขาจ้องมาที่ฉัน...$1",
+      "funLeave_Claire": "วันนี้ชุดคุณดูดีจัง...$1"
         }
 	}, 
     {
@@ -1102,8 +1102,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Fall 8" }, //Mon
       "Entries": {
-      "funReturn_Claire": "You're always adding and changing the scenery of our farm... I love it.$1",
-      "funLeave_Claire": "I don't want to work today...$2#$e#%You hug Claire, encouraging her.#$e#Hehe... thanks.$7"
+      "funReturn_Claire": "คุณมักจะปรับทิวทัศน์ ของฟาร์มเราอยู่เสมอเลย... ฉันชอบนะ$1",
+      "funLeave_Claire": "วันนี้ฉัน ไม่อยากไปทำงานเลย...$2#$e#%คุณกอดแคลร์ และให้กำลังใจเธอ#$e#ฮิฮิ... ขอบคุณ$7"
         }
 	},
     {
@@ -1111,8 +1111,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Fall 9" }, //Tue
       "Entries": {
-      "funReturn_Claire": "I'm sore from exercising today...$2",
-      "funLeave_Claire": "Good morning, dear.$1#$e#I have aerobics class today.$0#$b#Do you want me to get you anything at the store while I'm out?$1"
+      "funReturn_Claire": "วันนี้ออกกำลังกาย หักโหมไปหน่อย เมื่อยจัง...$2",
+      "funLeave_Claire": "อรุณสวัสดิ์ ที่รัก$1#$e#วันนี้ฉันมีคลาสเต้นแอโรบิกนะ$0#$b#คุณอยากให้ฉัน แวะซื้ออะไรที่ร้าน ตอนฉันไปข้างนอกรึเปล่า?$1"
         }
 	},
     {
@@ -1120,8 +1120,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Fall 10" }, //Wed
       "Entries": {
-      "funReturn_Claire": "I just finished making dinner. I thought we'd eat something healthy tonight. [196 609 610 200 607 650]$1",
-      "funLeave_Claire": "*yawn*...$5#$e#That was a big yawn.$6#$e#Um. Have a great day today...$1"
+      "funReturn_Claire": "ฉันเตรียมอาหารเย็น เสร็จพอดีเลย ฉันว่าวันนี้ เราควรจะทานอะไร ที่มันดีต่อสุขภาพซักหน่อย[196 609 610 200 607 650]$1",
+      "funLeave_Claire": "*หาว*...$5#$e#หาวอะไรจะขนาดนี้$6#$e#อืม ขอให้เป็นวันที่ดีนะ...$1"
         }
 	},
     {
@@ -1129,8 +1129,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Fall 11" }, //Thu
       "Entries": {
-      "funReturn_Claire": "I may be getting sick...$2#$b#I've felt horrible all day.$2#$e#I think I'll relax tomorrow...$0",
-      "funLeave_Claire": "*Sigh*... I don't feel well today.$3#$e#I might have caught something...$2#$e#I need to get ready for work...$2"
+      "funReturn_Claire": "ฉันรู้สึกเหมือนจะป่วยเลย...$2#$b#ฉันรู้สึกไม่ดีทั้งวัน$2#$e#พรุ่งนี้ ฉันว่า ฉันต้องคลายเครียดหน่อย...$0",
+      "funLeave_Claire": "*เฮ้อ*... วันนี้ฉันรู้สึกไม่ค่อยสบายเลย$3#$e#คงจะไปติดหวัดมามั้ง...$2#$e#ฉันต้องเตรียมตัว ไปทำงานแล้ว...$2"
         }
 	},
     {
@@ -1138,8 +1138,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Fall 14" }, //Sun
       "Entries": {
-      "funReturn_Claire": "I get nervous when you head off to the mines...$2#$e#I can't lose you...$2#$e#%You tell Claire nothing bad will happen.#$e#I'll hold you to that...$1",
-      "funLeave_Claire": "Do you hear the crows outside?...$0#$e#I hope they aren't pecking at the crops...$2"
+      "funReturn_Claire": "ฉันกังวลนะ เวลาที่คุณจะออกไปลงเหมือง...$2#$e#ฉันไม่อยากเสียคุณไป...$2#$e#%คุณบอกกับแคลร์ ว่าจะไม่มีเรื่องร้ายเกิดขึ้น#$e#คุณสัญญาแล้วนะ$1",
+      "funLeave_Claire": "คุณได้ยินเสียงอีกา ข้างนอกมั้ย?...$0#$e#หวังว่ามันจะ ไม่ฉกพืชผักไปนะ...$2"
         }
 	},
     {
