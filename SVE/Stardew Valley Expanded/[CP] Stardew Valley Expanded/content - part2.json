@@ -1374,7 +1374,7 @@
       "Target": "Strings/StringsFromMaps",
       "Entries": {
       "Claire_TheaterMessage_Monday": "ไง! ให้ฉันแนะนำอะไรมั้ย?$1",
-	  "Claire_TheaterMessage_Wednesday": "ฉันได้ดูหนังฟรีตลอด!$1#$b#สิทธิพิเศษ ของการทำงานที่นี้เลย!$5",
+	  "Claire_TheaterMessage_Wednesday": "ฉันได้ดูหนังฟรีตลอด!$1#$b#สิทธิพิเศษ ของการทำงานที่นี่เลย!$5",
 	  "Claire_TheaterMessage_Thursday": "บอกฉันได้เลยนะ ถ้าคุณต้องการอะไรเพิ่ม$1",
 	  "Claire_TheaterMessage_Friday": "ระบบการจัดการของที่นี่ ดีกว่าของโจจ้าอีก...$5",
 	  "Claire_TheaterMessage_Sunday": "สัตว์ป่าพวกนี้ ช่วยสร้างบรรยากาศ ให้กับโรงหนังได้เลย$1#$b#อย่างกับ'เวทมนตร์' แหน่ะ!$5"
@@ -1539,7 +1539,7 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "คุณรู้ใั้ย ฉันไม่เคยเล่นเกมนี้ชนะเลย ฉันต้องดูมัน จริงจัง!$1"
+            "Text": "คุณรู้มั้ย ฉันไม่เคยเล่นเกมนี้ชนะเลย ฉันต้องดูมัน จริงจัง!$1"
           },
           "DuringMovie": {
             "ResponsePoint": null,
@@ -1607,7 +1607,7 @@
       "Action": "EditData",
       "Target": "data/festivals/spring13",
       "Entries": {
-        "Claire": "Those deviled eggs are tempting...$1"
+        "Claire": "ดูไข่ปีศาจ (ไข่ยัดไส้) พวกนั้นสิ น่ากินจัง...$1"
       }
     },
 	
@@ -1615,7 +1615,7 @@
       "Action": "EditData",
       "Target": "data/festivals/spring13",
       "Entries": {
-        "Claire": "Not a cloud in the sky. The weather today is perfect.$1#$e#*sips juice*$5"
+        "Claire": "ไม่มีเมฆสักก้อนบนฟ้าเลย อากาศวันนี้ดีมากๆ$1#$e#*จิบน้ำผลไม้*$5"
       },
       "When": {
         "Spouse": "Claire"
@@ -1627,7 +1627,7 @@
       "Action": "EditData",
       "Target": "data/festivals/spring24",
       "Entries": {
-        "Claire": "The flowers here are beautiful. There's such a large variety.$1"
+        "Claire": "ดอกไม้พวกนี้สวยจังนะ ละลานตาไปหมด$1"
       }
     },
 
@@ -1635,7 +1635,7 @@
       "Action": "EditData",
       "Target": "data/festivals/spring24",
       "Entries": {
-        "Claire": "I've been practicing the flower dance in preparation for today.$6#$e#Um. Are you ready?$4"
+        "Claire": "ฉันซ้อมเต้นระบำดอกไม้ ไว้สำหรับวันนี้เลยนะ$6#$e#อื้ม คุณพร้อมยัง?$4"
       },
       "When": {
         "Spouse": "Claire"
@@ -1647,7 +1647,7 @@
       "Action": "EditData",
       "Target": "data/festivals/summer11",
       "Entries": {
-        "Claire": "%She's lost in a trance."
+        "Claire": "%เธอกำลังงุนงง"
       }
     },
 	
@@ -1655,7 +1655,7 @@
       "Action": "EditData",
       "Target": "data/festivals/summer11",
       "Entries": {
-        "Claire": "Come dance with me, dear.$4#$e#Hehe!$7"
+        "Claire": "มาเต้นกับฉันสิ ที่รัก$4#$e#ฮิฮิ!$7"
       },
       "When": {
         "Spouse": "Claire"
@@ -1667,7 +1667,7 @@
       "Action": "EditData",
       "Target": "data/festivals/summer28",
       "Entries": {
-        "Claire": "Is it just me, or is it getting colder?$2#$e#I should've layered up more...$0",
+        "Claire": "นี่ฉันรู้สึกคนเดียวรึเปล่า หรือมันหนาวขึ้นจริงๆ?$2#$e#ฉันน่าจะใส่ชุดมาหนาๆ หน่อย...$0",
       }
     },
 	
@@ -1675,7 +1675,7 @@
       "Action": "EditData",
       "Target": "data/festivals/summer28",
       "Entries": {
-        "Claire": "Is it just me, or is it getting colder?$2#$b#I should've layered up more...$0#$e#Maybe we can cuddle together in bed when we get back...$5"
+        "Claire": "นี่ฉันรู้สึกคนเดียวรึเปล่า หรือมันหนาวขึ้นจริงๆ?$2#$b#ฉันน่าจะใส่ชุดมาหนาๆ หน่อย...$0#$e#หรือกลับบ้านแล้ว เรานอนกอดกันบนเตียง ก็ดีนะ......$5"
       },
       "When": {
         "Spouse": "Claire"
@@ -1687,7 +1687,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall16",
       "Entries": {
-        "Claire": "These hens are adorable...$5#$e#They're from Marnie's Ranch you say?$1",
+        "Claire": "แม่ไก่พวกนั้นน่ารักจัง...$5#$e#คุณบอกว่าน้องๆ พวกนี้ มาจากฟาร์มของมานีใช่มั้ย?$1",
       }
     },
 	
@@ -1695,7 +1695,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall16",
       "Entries": {
-        "Claire": "Is your grange display ready, dear?$1#$e#Don't mind me! I'm just admiring Marnie's farm animals.$5"
+        "Claire": "คุณจัดเตรียมแผงสินค้าของคุณเสร็จแล้วหรอ ที่รัก?$1#$e#อ๋อ ไม่ต้องสนใจฉันหรอก! ฉันกำลังลันล้ากับสัตว์เลี้ยง ของมานีเลยล่ะ$5"
       },
       "When": {
         "Spouse": "Claire"
@@ -1707,7 +1707,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall27",
       "Entries": {
-        "Claire": "This hand-crafted grape juice from Blue Moon Vineyard is tempting...$1",
+        "Claire": "น้ำองุ่นคั้นมือจากไร่องุ่นบลูมูน น่าชิมจังเลย...$1",
       }
     },
 	
@@ -1715,7 +1715,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall27",
       "Entries": {
-        "Claire": "Spreading goat butter on these pumpkin roles gives them an appetizing taste.$5#$e#You look nice tonight...$1"
+        "Claire": "แหม พอทาเนยจากนมแพะ ลงไปบนโรลฟักทองแล้ว ดูน่ากินสุดๆ ไปเลย$5#$e#คืนนี้คุณดูดีจัง...$1"
       },
       "When": {
         "Spouse": "Claire"
@@ -1727,7 +1727,7 @@
       "Action": "EditData",
       "Target": "data/festivals/winter8",
       "Entries": {
-        "Claire": "So... c-cold...$2"
+        "Claire": "หน-... น-นาวว...$2"
       }
     },
 	
@@ -1735,7 +1735,7 @@
       "Action": "EditData",
       "Target": "data/festivals/winter8",
       "Entries": {
-        "Claire": "H-hello, d-dear. V-very chilly today...$2#$e#%You hug Claire and warm her.#$e#...$4#$b#Um. Good luck ice fishing.$7"
+        "Claire": "ห-หวัดดี ท-ที่รัก ว-วันนี้ หน-หนา- ววว...$2#$e#%คุณกอดแคลร์ และให้ความอบอุ่นกับเธอ#$e#...$4#$b#อืม ขอให้โชคดี ในการแข่งตกปลานะ$7"
       },
       "When": {
         "Spouse": "Claire"
@@ -1749,7 +1749,7 @@
       "Target": "data/festivals/winter25",
 	  "When": { "HasSeenEvent": "3219873" },
       "Entries": {
-        "Claire": "What are you thankful for, @?$1#$e#I'm thankful for having a friendly community to spend Winter Star with...$1"
+        "Claire": "คุณส่งคำขอบคุณถึงอะไรหรอ @?$1#$e#ฉันขอบคุณ ที่ได้อยู่ร่วมกับชุมชนที่เป็นมิตร และได้ร่วมเฉลิมฉลอง ในเทศกาลแห่งดวงดาว ด้วยกันในที่แห่งนี้...$1"
       }
     },
 	
@@ -1758,7 +1758,7 @@
       "Target": "data/festivals/winter25",
 	  "When": { "HasSeenEvent |contains=191393": false, "HasSeenEvent |contains=3219873": false },
       "Entries": {
-        "Claire": "Morris wanted Joja employees here today...$0#$e#Your town's festival is nice.$1"
+        "Claire": "มอริส อยากให้พนักงานโจจ้า อยู่ที่นี้ในวันนี้...$0#$e#เทศกาลในเมืองของคุณดีจัง$1"
       }
     },
 	
@@ -1767,7 +1767,7 @@
       "Target": "data/festivals/winter25",
 	  "When": { "HasSeenEvent": "191393", "HasSeenEvent |contains=3219873": false },
       "Entries": {
-        "Claire": "It was nice of your Mayor to invite me...$1"
+        "Claire": "เป็นเรื่องที่ดีมากเลย ที่นายกเทศมนตรีของคุณ ให้ฉันร่วมงานด้วย...$1"
       }
     },
 	
@@ -1775,7 +1775,7 @@
       "Action": "EditData",
       "Target": "data/festivals/winter25",
       "Entries": {
-        "Claire": "I'm thankful for the wonderful life we are living together on %farm farm...$1"
+        "Claire": "ฉันอยากจะขอบคุณ สำหรับสิ่งที่แสนวิเศษในชีวิต ที่เราได้อยู่ด้วยกันในฟาร์ม %farm แห่งนี้...$1"
       },
       "When": {
         "Spouse": "Claire"
@@ -1788,7 +1788,7 @@
 	"Action": "EditData",
 	"Target": "data/events/jojamart",
 	"Entries": { 
-    "3219870/y 1/z summer/z fall/z winter/f Claire 50": "none/-500 -500/farmer -300 -300 0 Morris 24 26 3 Claire 9 25 1 Sam 2 21 2 Pam 6 15 1 Andy 25 16 3 Jodi 19 5 0/addTemporaryActor ShaneJoja 16 32 17 18 2/positionOffset Morris -3 -20/animate Sam false true 100 40 40 41 41 42 42 41 41/animate ShaneJoja false true 100 16 17 18 19 20 21 22 23 24 25 26 27/showFrame Claire 32/skippable/pause 800/playMusic Hospital_Ambient/pause 350/viewport 13 25 true/pause 2000/showFrame Claire 33 true/pause 700/shake Claire 500/pause 500/showFrame Claire 32 true/pause 700/speak Claire \"So... tired.$2#$b#I'm... falling... asleep...$2\"/pause 1100/shake Claire 400/pause 400/showFrame Claire 33/pause 1000/emote Claire 24/pause 500/playSound doorClose/warp farmer 13 29/pause 350/move farmer 0 -4 0/pause 850/faceDirection farmer 3 true/pause 650/move farmer -2 0 3/pause 1250/showFrame Claire 32 true/pause 850/showFrame Claire 4 true/emote Claire 16 true/pause 800/speak Claire \"O-oh! Apologies...$2#$b#Um. Welcome to Joja Mart.$0#$b#How may I help you?$1\"/pause 400/end dialogue Claire \"Please don't tell my manager I was dozing off on my shift...$2#$e#I'd be reprimanded...$2\""
+    "3219870/y 1/z summer/z fall/z winter/f Claire 50": "none/-500 -500/farmer -300 -300 0 Morris 24 26 3 Claire 9 25 1 Sam 2 21 2 Pam 6 15 1 Andy 25 16 3 Jodi 19 5 0/addTemporaryActor ShaneJoja 16 32 17 18 2/positionOffset Morris -3 -20/animate Sam false true 100 40 40 41 41 42 42 41 41/animate ShaneJoja false true 100 16 17 18 19 20 21 22 23 24 25 26 27/showFrame Claire 32/skippable/pause 800/playMusic Hospital_Ambient/pause 350/viewport 13 25 true/pause 2000/showFrame Claire 33 true/pause 700/shake Claire 500/pause 500/showFrame Claire 32 true/pause 700/speak Claire \"โอย... เหนื่อย$2#$b#ฉัน... ง่วงงง... จะตายอยู่แล้ว...$2\"/pause 1100/shake Claire 400/pause 400/showFrame Claire 33/pause 1000/emote Claire 24/pause 500/playSound doorClose/warp farmer 13 29/pause 350/move farmer 0 -4 0/pause 850/faceDirection farmer 3 true/pause 650/move farmer -2 0 3/pause 1250/showFrame Claire 32 true/pause 850/showFrame Claire 4 true/emote Claire 16 true/pause 800/speak Claire \"อ-โอ้! ขออภัย...$2#$b#เอ่อ ยินดีต้อนรับสู่ร้านโจจ้า$0#$b#ให้ฉันช่วยอะไรมั้ยคะ?$1\"/pause 400/end dialogue Claire \"ได้โปรด อย่าแจ้งผู้จัดการ ว่าฉันเผลอหลับในขณะทำงาน...$2#$e#ฉันอาจจะถูกตำหนิ...$2\""
 	},
 },
 
@@ -1802,9 +1802,9 @@
 	"Action": "EditData",
 	"Target": "data/events/saloon",
 	"Entries": { 
-    "3219871/f Claire 500/t 1200 1700": "none/-500 -500/farmer -100 -100 0 Claire 10 20 0 Gus 10 18 2 Andy 2 20 1 Sam 33 18 0 MarlonFay 8 6 3 Wizard 6 6 1/animate Wizard false true 100 4 4 4 4 19 19 19 19 19 19 19 19 19 19 19 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 19 19 19 19 19 19 19 19 19 19 19 19 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 19 19 19 19 19 19 19 19 19 19 19 19 4 4 4 4 4 4 4 4 4 4 19 19 19 19 19 19 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 19 19 19 19 19 19 19 19 19 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 19 19 19 19 19 19 19 19 19 19 19 4 4 4 4 4 4 4 4 4 4/animate Andy true true 100 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 25 26 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 26 25 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24/skippable/pause 800/viewport 14 20 true/pause 2000/playSound doorClose/warp farmer 14 24/pause 350/move farmer 0 -4 0 true/pause 500/speak Claire \"Hello. May I have the healthy garden salad please?$1\"/pause 650/speak Gus \"Of course, ma'am!$1#$b#That'll be 220g.$0\"/pause 500/speak Claire \"O-oh... 220g? But it was 200g last week...$2\"/pause 250/speak Gus \"My other supplier moved, so I had to find another. The ingredients are higher quality, but more expensive.$0\"/pause 600/shake Claire 400/pause 400/speak Claire \"...$2\"/pause 750/faceDirection farmer 3 true/pause 1000/question fork0 \"(What should I do?)#Offer to help pay#Do nothing\"/fork 3219871_HelpPay/pause 1000/addConversationTopic claireSaloon/faceDirection farmer 0 true/pause 1000/speak Claire \"Thank you for your time...$2\"/pause 750/faceDirection Claire 1 true/pause 150/move Claire 2 0 1/move Claire 0 1 2/move Claire 2 0 1/move Claire 0 4 2 true/globalFade/viewport -1000 -1000/pause 500/end dialogue Claire \"I don't think I'll ever get used to the taste of frozen Joja meals...$2\"",
+    "3219871/f Claire 500/t 1200 1700": "none/-500 -500/farmer -100 -100 0 Claire 10 20 0 Gus 10 18 2 Andy 2 20 1 Sam 33 18 0 MarlonFay 8 6 3 Wizard 6 6 1/animate Wizard false true 100 4 4 4 4 19 19 19 19 19 19 19 19 19 19 19 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 19 19 19 19 19 19 19 19 19 19 19 19 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 19 19 19 19 19 19 19 19 19 19 19 19 4 4 4 4 4 4 4 4 4 4 19 19 19 19 19 19 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 19 19 19 19 19 19 19 19 19 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 19 19 19 19 19 19 19 19 19 19 19 4 4 4 4 4 4 4 4 4 4/animate Andy true true 100 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 25 26 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 26 25 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24/skippable/pause 800/viewport 14 20 true/pause 2000/playSound doorClose/warp farmer 14 24/pause 350/move farmer 0 -4 0 true/pause 500/speak Claire \"หวัดดี ฉันขอสลัดสวนครัวเพื่อสุขภาพ จานนึงค่ะ$1\"/pause 650/speak Gus \"ได้เลย คุณผู้หญิง!$1#$b#ทั้งหมด 220g ครับ$0\"/pause 500/speak Claire \"อ-โอ้... 220g หรอคะ? แต่อาทิตย์ที่แล้วมัน 200g นี่นา...$2\"/pause 250/speak Gus \"พอดีว่าผู้ส่งสินค้าที่ส่งประจำ เขาเลิกไปน่ะ เราเลยเปลี่ยนเจ้าน่ะครับ วัตถุดิบดีกว่า แต่ก็แพงกว่าเดิม$0\"/pause 600/shake Claire 400/pause 400/speak Claire \"...$2\"/pause 750/faceDirection farmer 3 true/pause 1000/question fork0 \"(ฉันจะทำอย่างไรดี?)#ช่วยออกค่าอาหาร#ยืนดูเฉยๆ\"/fork 3219871_HelpPay/pause 1000/addConversationTopic claireSaloon/faceDirection farmer 0 true/pause 1000/speak Claire \"ขอบคุณที่สละเวลาค่ะ...$2\"/pause 750/faceDirection Claire 1 true/pause 150/move Claire 2 0 1/move Claire 0 1 2/move Claire 2 0 1/move Claire 0 4 2 true/globalFade/viewport -1000 -1000/pause 500/end dialogue Claire \"ฉันไม่คิดว่า ฉันจะทำใจให้ชิน กับอาหารแช่แข็งของโจจ้าได้...$2\"",
 	
-	"3219871_HelpPay": "addConversationTopic claireSaloonPaid/friendship Claire 50/pause 500/faceDirection farmer 2 true/pause 250/move farmer 0 1 2/move farmer -2 0 3/move farmer 0 -1 0/move farmer 0 0 3/pause 750/faceDirection Claire 1 true/pause 750/speak Claire \"Oh? Hi...$2\"/pause 600/emote farmer 40/pause 300/speak Claire \"You're offering to help pay for my meal?$2#$b#Um...$2#$b#Thank you...$0#$b#I-I promise to pay you back.$1\"/pause 200/emote farmer 32/move farmer -1 0 3/pause 500/startJittering/pause 150/playSound money/pause 150/stopJittering/pause 850/faceDirection Claire 0 true/pause 600/speak Claire \"One healthy garden salad please.$1\"/pause 300/globalFade/viewport -1000 -1000/pause 500/end dialogue Claire \"Thank you for helping me pay for my meal...$1#$b#Um. I'm a bit embarrassed.$2#$e#A scene like that just shows I'm grasping for pennies...$2\""
+	"3219871_HelpPay": "addConversationTopic claireSaloonPaid/friendship Claire 50/pause 500/faceDirection farmer 2 true/pause 250/move farmer 0 1 2/move farmer -2 0 3/move farmer 0 -1 0/move farmer 0 0 3/pause 750/faceDirection Claire 1 true/pause 750/speak Claire \"โอ้? สวัสดีค่ะ...$2\"/pause 600/emote farmer 40/pause 300/speak Claire \"คุณบอกว่า จะช่วยฉันจ่ายค่าอาหารหรอ?$2#$b#อืม...$2#$b#ขอบคุณนะ...$0#$b#ฉ-ฉันสัญญาว่า จะจ่ายคืนคุณนะ$1\"/pause 200/emote farmer 32/move farmer -1 0 3/pause 500/startJittering/pause 150/playSound money/pause 150/stopJittering/pause 850/faceDirection Claire 0 true/pause 600/speak Claire \"ขอสลัดสวนครัวเพื่อสุขภาพ จานนึงค่ะ$1\"/pause 300/globalFade/viewport -1000 -1000/pause 500/end dialogue Claire \"ขอบคุณที่ช่วย จ่ายค่าอาหารของฉันนะ...$1#$b#อืม ฉันอายนิดหน่อยน่ะ$2#$e#ณ จุดๆ นั้น ทำให้ฉันดูเหมือนคนยากไร้...$2\""
 	},
 },
 
@@ -1812,9 +1812,9 @@
 	"Action": "EditData",
 	"Target": "data/events/saloon",
 	"Entries": { 
-    "3219871/f Claire 500/t 1710 2200": "Saloon1/-500 -500/farmer -100 -100 0 Claire 10 20 0 Gus 10 18 2 Lewis 9 22 3 Marnie 8 22 1 Andy 2 20 1 Clint 19 23 3 Willy 17 22 2 Shane 25 18 2 Pam 7 18 1 Pierre 18 20 0 Sam 33 18 0 MarlonFay 8 6 3 Wizard 6 6 1/animate Lewis false true 100 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 22 23 23 23 23 23 22 22 22 23 23 23 23 23 23 23 23 23 23 23 22 19/animate Marnie false true 100 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 21 22 23 23 23 23 23 23 23 23 22 21/animate Shane false true 100 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 21 22 23 24 24 24 24 24 24 24 23 22 21/animate Wizard false true 100 4 4 4 4 19 19 19 19 19 19 19 19 19 19 19 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 19 19 19 19 19 19 19 19 19 19 19 19 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 19 19 19 19 19 19 19 19 19 19 19 19 4 4 4 4 4 4 4 4 4 4 19 19 19 19 19 19 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 19 19 19 19 19 19 19 19 19 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 19 19 19 19 19 19 19 19 19 19 19 4 4 4 4 4 4 4 4 4 4/animate Andy true true 100 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 25 26 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 26 25 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24/skippable/pause 800/viewport 14 20 true/pause 2000/playSound doorClose/warp farmer 14 24/pause 350/move farmer 0 -4 0 true/pause 500/speak Claire \"Hello. May I have the healthy garden salad please?$1\"/pause 650/speak Gus \"Of course, ma'am!$1#$b#That'll be 220g.$0\"/pause 500/speak Claire \"O-oh... 220g? But it was 200g last week...$2\"/pause 250/speak Gus \"My other supplier moved, so I had to find another. The ingredients are higher quality, but more expensive.$0\"/pause 600/shake Claire 400/pause 400/speak Claire \"...$2\"/pause 750/faceDirection farmer 3 true/pause 1000/question fork0 \"(What should I do?)#Offer to help pay#Do nothing\"/fork 3219871_HelpPay/pause 1000/addConversationTopic claireSaloon/faceDirection farmer 0 true/pause 1000/speak Claire \"Thank you for your time...$2\"/pause 750/faceDirection Claire 1 true/pause 150/move Claire 2 0 1/move Claire 0 1 2/move Claire 2 0 1/move Claire 0 4 2 true/globalFade/viewport -1000 -1000/pause 500/end dialogue Claire \"I don't think I'll ever get used to the taste of frozen Joja meals...$2\"",
+    "3219871/f Claire 500/t 1710 2200": "Saloon1/-500 -500/farmer -100 -100 0 Claire 10 20 0 Gus 10 18 2 Lewis 9 22 3 Marnie 8 22 1 Andy 2 20 1 Clint 19 23 3 Willy 17 22 2 Shane 25 18 2 Pam 7 18 1 Pierre 18 20 0 Sam 33 18 0 MarlonFay 8 6 3 Wizard 6 6 1/animate Lewis false true 100 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 22 23 23 23 23 23 22 22 22 23 23 23 23 23 23 23 23 23 23 23 22 19/animate Marnie false true 100 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 21 22 23 23 23 23 23 23 23 23 22 21/animate Shane false true 100 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 21 22 23 24 24 24 24 24 24 24 23 22 21/animate Wizard false true 100 4 4 4 4 19 19 19 19 19 19 19 19 19 19 19 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 19 19 19 19 19 19 19 19 19 19 19 19 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 19 19 19 19 19 19 19 19 19 19 19 19 4 4 4 4 4 4 4 4 4 4 19 19 19 19 19 19 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 19 19 19 19 19 19 19 19 19 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 19 19 19 19 19 19 19 19 19 19 19 4 4 4 4 4 4 4 4 4 4/animate Andy true true 100 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 25 26 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 26 25 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24/skippable/pause 800/viewport 14 20 true/pause 2000/playSound doorClose/warp farmer 14 24/pause 350/move farmer 0 -4 0 true/pause 500/speak Claire \"หวัดดี ฉันขอสลัดสวนครัวเพื่อสุขภาพ จานนึงค่ะ$1\"/pause 650/speak Gus \"ได้เลย คุณผู้หญิง!$1#$b#ทั้งหมด 220g ครับ$0\"/pause 500/speak Claire \"อ-โอ้... 220g หรอคะ? แต่อาทิตย์ที่แล้วมัน 200g นี่นา...$2\"/pause 250/speak Gus \"พอดีว่าผู้ส่งสินค้าที่ส่งประจำ เขาเลิกไปน่ะ เราเลยเปลี่ยนเจ้าน่ะครับ วัตถุดิบดีกว่า แต่ก็แพงกว่าเดิม$0\"/pause 600/shake Claire 400/pause 400/speak Claire \"...$2\"/pause 750/faceDirection farmer 3 true/pause 1000/question fork0 \"(ฉันจะทำอย่างไรดี?)#ช่วยออกค่าอาหาร#ยืนดูเฉยๆ\"/fork 3219871_HelpPay/pause 1000/addConversationTopic claireSaloon/faceDirection farmer 0 true/pause 1000/speak Claire \"ขอบคุณที่สละเวลาค่ะ...$2\"/pause 750/faceDirection Claire 1 true/pause 150/move Claire 2 0 1/move Claire 0 1 2/move Claire 2 0 1/move Claire 0 4 2 true/globalFade/viewport -1000 -1000/pause 500/end dialogue Claire \"ฉันไม่คิดว่า ฉันจะทำใจให้ชิน กับอาหารแช่แข็งของโจจ้าได้...$2\"",
 	
-	"3219871_HelpPay": "addConversationTopic claireSaloonPaid/friendship Claire 50/pause 500/faceDirection farmer 2 true/pause 250/move farmer 0 1 2/move farmer -2 0 3/move farmer 0 -1 0/move farmer 0 0 3/pause 750/faceDirection Claire 1 true/pause 750/speak Claire \"Oh? Hi...$2\"/pause 600/emote farmer 40/pause 300/speak Claire \"You're offering to help pay for my meal?$2#$b#Um...$2#$b#Thank you...$0#$b#I-I promise to pay you back.$1\"/pause 200/emote farmer 32/move farmer -1 0 3/pause 500/startJittering/pause 150/playSound money/pause 150/stopJittering/pause 850/faceDirection Claire 0 true/pause 600/speak Claire \"One healthy garden salad please.$1\"/pause 300/globalFade/viewport -1000 -1000/pause 500/end dialogue Claire \"Thank you for helping me pay for my meal...$1#$b#Um. I'm a bit embarrassed.$2#$e#A scene like that just shows I'm grasping for pennies...$2\""
+	"3219871_HelpPay": "addConversationTopic claireSaloonPaid/friendship Claire 50/pause 500/faceDirection farmer 2 true/pause 250/move farmer 0 1 2/move farmer -2 0 3/move farmer 0 -1 0/move farmer 0 0 3/pause 750/faceDirection Claire 1 true/pause 750/speak Claire \"โอ้? สวัสดีค่ะ...$2\"/pause 600/emote farmer 40/pause 300/speak Claire \"คุณบอกว่า จะช่วยฉันจ่ายค่าอาหารหรอ?$2#$b#อืม...$2#$b#ขอบคุณนะ...$0#$b#ฉ-ฉันสัญญาว่า จะจ่ายคืนคุณนะ$1\"/pause 200/emote farmer 32/move farmer -1 0 3/pause 500/startJittering/pause 150/playSound money/pause 150/stopJittering/pause 850/faceDirection Claire 0 true/pause 600/speak Claire \"ขอสลัดสวนครัวเพื่อสุขภาพ จานนึงค่ะ$1\"/pause 300/globalFade/viewport -1000 -1000/pause 500/end dialogue Claire \"ขอบคุณที่ช่วย จ่ายค่าอาหารของฉันนะ...$1#$b#อืม ฉันอายนิดหน่อยน่ะ$2#$e#ณ จุดๆ นั้น ทำให้ฉันดูเหมือนคนยากไร้...$2\""
 	},
 },
 
@@ -1823,7 +1823,7 @@
 	"Target": "data/events/town",
 	"When": { "HasSeenEvent |contains=191393": false, "HasSeenevent |contains=5553210": false },
 	"Entries": { 
-    "3219872/e 3219871/f Claire 1000/w sunny/t 1100 1500": "spring_day_ambient/-500 -500/farmer 89 57 2 Claire -200 -200 2 Abigail 74 54 2 Olivia 86 51 1 MorrisTod 88 51 3 Clint 97 77 0/addTemporaryActor ClaireJoja 16 32 97 60 2/skippable/showFrame ClaireJoja 35 true/positionOffset ClaireJoja -45 32/viewport 95 61 true/move farmer 0 4 2/pause 500/faceDirection farmer 1 true/pause 1000/move farmer 5 0 1/pause 1000/showFrame ClaireJoja 31 true/pause 750/showFrame ClaireJoja 30 true/pause 500/speak Claire \"Oh. Hello.$8\"/pause 500/emote farmer 32/speak Claire \"I'm on my break.$9#$b#This is a screenplay I'm reading. I own too many to count...$9\"/pause 1000/speak Claire \"Um. Have you heard of 'Ursula's Labyrinth'?$8\"/pause 500/emote farmer 8/speak Claire \"It's an old thriller movie, but one of my favorites.$9#$b#Each time I read this screenplay, I discover a hidden detail I missed before...$11\"/pause 750/showFrame ClaireJoja 31 true/pause 400/showFrame ClaireJoja 35 true/pause 750/speak Claire \"I've wanted to become an actress ever since I was a little girl.$8#$b#I chase that dream everyday...$9\"/pause 1350/showFrame ClaireJoja 31/pause 500/showFrame ClaireJoja 30/pause 500/speak Claire \"Sorry. Shift starts again soon.$10#$b#Um. It was a pleasure talking to you...$11\"/pause 300/globalFade/viewport -1000 -1000/pause 500/friendship Claire 50/end dialogue Claire \"I enjoyed our chat at the park, although short.$0#$b#You're the only Stardew Valley resident I talk to on a regular basis.$1#$e#I live out on the countryside. Not many people out there... but the property is cheap.$1\"" 
+    "3219872/e 3219871/f Claire 1000/w sunny/t 1100 1500": "spring_day_ambient/-500 -500/farmer 89 57 2 Claire -200 -200 2 Abigail 74 54 2 Olivia 86 51 1 MorrisTod 88 51 3 Clint 97 77 0/addTemporaryActor ClaireJoja 16 32 97 60 2/skippable/showFrame ClaireJoja 35 true/positionOffset ClaireJoja -45 32/viewport 95 61 true/move farmer 0 4 2/pause 500/faceDirection farmer 1 true/pause 1000/move farmer 5 0 1/pause 1000/showFrame ClaireJoja 31 true/pause 750/showFrame ClaireJoja 30 true/pause 500/speak Claire \"โอ้ หวัดดี$8\"/pause 500/emote farmer 32/speak Claire \"ฉันกำลังอยู่ในเวลาพักน่ะ$9#$b#นี่คือบทภาพยนตร์ ที่ฉันกำลังอ่านอยู่น่ะ ฉันมีหลายเรื่องเลยล่ะ...$9\"/pause 1000/speak Claire \"อืม คุณเคยได้ยินเรื่อง 'เขาวงกตของเออซูล่า' มั้ย?$8\"/pause 500/emote farmer 8/speak Claire \"มันเป็นภาพยนตร์ เขย่าขวัญสมัยก่อนน่ะ แต่เป็นหนึ่งในหนัง ที่ฉันชอบเลยล่ะ$9#$b#ทุกครั้งที่ฉัน เอาบทภาพยนตร์นี่มาอ่าน ฉันจะเจอรายละเอียด หรือบางอย่างที่พลาดไป ก่อนหน้านี้แหละ...$11\"/pause 750/showFrame ClaireJoja 31 true/pause 400/showFrame ClaireJoja 35 true/pause 750/speak Claire \"ฉันอยากจะเป็นนักแสดง อยากเป็นมาตั้งแต่ ตอนที่ยังเป็นเด็กหญิงตัวเล็กๆ$8#$b#ฉันพยายาม ไล่ตามความฝันทุกวัน...$9\"/pause 1350/showFrame ClaireJoja 31/pause 500/showFrame ClaireJoja 30/pause 500/speak Claire \"อ่า โทษที ต้องกลับไปทำงานแล้วล่ะ$10#$b#อืม ดีใจนะ ที่ได้พูดคุยกับคุณ...$11\"/pause 300/globalFade/viewport -1000 -1000/pause 500/friendship Claire 50/end dialogue Claire \"ถึงมันจะแป๊บเดียว แต่ฉันสนุกมาก ที่ได้คุยกับคุณที่สวน$0#$b#คุณเป็นคนในเมือง สตาร์ดิว แวลลีย์ คนเดียว ที่ฉันสามารถพูดคุย แบบสบายๆ ได้$1#$e#ฉันอาศัยอยู่นอกเมืองน่ะ ไม่ค่อยมีคนที่นั่นหรอก... แต่ค่าครองชีพถูกดีนะ$1\"" 
 	},
 },
 
@@ -1832,7 +1832,7 @@
 	"Target": "data/events/town",
 	"When": { "HasSeenevent":"5553210" },
 	"Entries": { 
-    "3219872/e 3219871/f Claire 1000/w sunny/t 1100 1500": "spring_day_ambient/-500 -500/farmer 88 8 2 Claire -200 -200 2 Abigail 74 54 2 Olivia 86 51 1 MorrisTod 88 51 3 Clint 97 77 0/addTemporaryActor ClaireJoja 16 32 95 12 2/skippable/showFrame ClaireJoja 35 true/positionOffset ClaireJoja -27 -10/viewport 94 13 true/move farmer 0 4 2/pause 500/faceDirection farmer 1 true/pause 1000/move farmer 4 0 1/pause 1000/showFrame ClaireJoja 31 true/pause 750/showFrame ClaireJoja 30 true/pause 500/speak Claire \"Oh. Hello.$8\"/pause 500/emote farmer 32/speak Claire \"I'm on my break.$8#$b#This is a screenplay I'm reading. I own too many to count...$9\"/pause 1000/speak Claire \"Um. Have you heard of 'Ursula's Labyrinth'?$9\"/pause 500/emote farmer 8/speak Claire \"It's an old thriller movie, but one of my favorites.$8#$b#Each time I read this screenplay, I discover a hidden detail I missed before...$9\"/pause 750/showFrame ClaireJoja 31 true/pause 400/showFrame ClaireJoja 35 true/pause 750/speak Claire \"I've wanted to become an actress ever since I was a little girl.$8#$b#I chase that dream everyday...$9\"/pause 1350/showFrame ClaireJoja 31/pause 500/showFrame ClaireJoja 30/pause 500/speak Claire \"Sorry. Shift starts again soon.$10#$b#Um. It was a pleasure talking to you...$11\"/pause 300/globalFade/viewport -1000 -1000/pause 500/friendship Claire 50/end dialogue Claire \"I enjoyed our chat at the park, although short.$0#$b#You're the only Stardew Valley resident I talk to on a regular basis.$1#$e#I live out on the countryside. Not many people out there... but the property is cheap.$1\"" 
+    "3219872/e 3219871/f Claire 1000/w sunny/t 1100 1500": "spring_day_ambient/-500 -500/farmer 88 8 2 Claire -200 -200 2 Abigail 74 54 2 Olivia 86 51 1 MorrisTod 88 51 3 Clint 97 77 0/addTemporaryActor ClaireJoja 16 32 95 12 2/skippable/showFrame ClaireJoja 35 true/positionOffset ClaireJoja -27 -10/viewport 94 13 true/move farmer 0 4 2/pause 500/faceDirection farmer 1 true/pause 1000/move farmer 4 0 1/pause 1000/showFrame ClaireJoja 31 true/pause 750/showFrame ClaireJoja 30 true/pause 500/speak Claire \"โอ้ หวัดดี$8\"/pause 500/emote farmer 32/speak Claire \"ฉันกำลังอยู่ในเวลาพักน่ะ$8#$b#นี่คือบทภาพยนตร์ ที่ฉันกำลังอ่านอยู่น่ะ ฉันมีหลายเรื่องเลยล่ะ...$9\"/pause 1000/speak Claire \"อืม คุณเคยได้ยินเรื่อง 'เขาวงกตของเออซูล่า' มั้ย?$9\"/pause 500/emote farmer 8/speak Claire \"มันเป็นภาพยนตร์ เขย่าขวัญสมัยก่อนน่ะ แต่เป็นหนึ่งในหนัง ที่ฉันชอบเลยล่ะ$8#$b#ทุกครั้งที่ฉัน เอาบทภาพยนตร์นี่มาอ่าน ฉันจะเจอรายละเอียด หรือบางอย่างที่พลาดไป ก่อนหน้านี้แหละ...$9\"/pause 750/showFrame ClaireJoja 31 true/pause 400/showFrame ClaireJoja 35 true/pause 750/speak Claire \"ฉันอยากจะเป็นนักแสดง อยากเป็นมาตั้งแต่ ตอนที่ยังเป็นเด็กหญิงตัวเล็กๆ$8#$b#ฉันพยายาม ไล่ตามความฝันทุกวัน...$9\"/pause 1350/showFrame ClaireJoja 31/pause 500/showFrame ClaireJoja 30/pause 500/speak Claire \"อ่า โทษที ต้องกลับไปทำงานแล้วล่ะ$10#$b#อืม ดีใจนะ ที่ได้พูดคุยกับคุณ...$11\"/pause 300/globalFade/viewport -1000 -1000/pause 500/friendship Claire 50/end dialogue Claire \"ถึงมันจะแป๊บเดียว แต่ฉันสนุกมาก ที่ได้คุยกับคุณที่สวน$0#$b#คุณเป็นคนในเมือง สตาร์ดิว แวลลีย์ คนเดียว ที่ฉันสามารถพูดคุย แบบสบายๆ ได้$1#$e#ฉันอาศัยอยู่นอกเมืองน่ะ ไม่ค่อยมีคนที่นั่นหรอก... แต่ค่าครองชีพถูกดีนะ$1\"" 
 	},
 },
 
@@ -1841,7 +1841,7 @@
 	"Target": "data/events/town",
 	"When": { "HasFlag":"ccMovieTheater", "HasSeenevent |contains=5553210": false },
 	"Entries": { 
-    "3219872/e 191393/e 3219871/f Claire 1000/w sunny/t 1100 1500": "spring_day_ambient/-500 -500/farmer 89 57 2 Claire -200 -200 2 Abigail 74 54 2 Olivia 86 51 1 MorrisTod 88 51 3 Clint 97 77 0/addTemporaryActor ClaireTheater 16 32 97 60 2/skippable/showFrame ClaireTheater 35 true/positionOffset ClaireTheater -45 32/viewport 95 61 true/move farmer 0 4 2/pause 500/faceDirection farmer 1 true/pause 1000/move farmer 5 0 1/pause 1000/showFrame ClaireTheater 31 true/pause 750/showFrame ClaireTheater 30 true/pause 500/speak Claire \"Oh. Hello.$12\"/pause 500/emote farmer 32/speak Claire \"I'm on my break.$12#$b#This is a screenplay I'm reading. I own too many to count...$13\"/pause 1000/speak Claire \"Um. Have you heard of 'Ursula's Labyrinth'?$13\"/pause 500/emote farmer 8/speak Claire \"It's an old thriller movie, but one of my favorites.$12#$b#Each time I read this screenplay, I discover a hidden detail I missed before...$13\"/pause 750/showFrame ClaireTheater 31 true/pause 400/showFrame ClaireTheater 35 true/pause 750/speak Claire \"I've wanted to become an actress ever since I was a little girl.$12#$b#I chase that dream everyday...$13\"/pause 1350/showFrame ClaireTheater 31/pause 500/showFrame ClaireTheater 30/pause 500/speak Claire \"Sorry. Shift starts again soon.$14#$b#Um. It was a pleasure talking to you...$15\"/pause 300/globalFade/viewport -1000 -1000/pause 500/friendship Claire 50/end dialogue Claire \"I enjoyed our chat at the park, although short.$0#$b#You're the only Stardew Valley resident I talk to on a regular basis.$1#$e#I live out on the countryside. Not many people out there... but the property is cheap.$1\"" 
+    "3219872/e 191393/e 3219871/f Claire 1000/w sunny/t 1100 1500": "spring_day_ambient/-500 -500/farmer 89 57 2 Claire -200 -200 2 Abigail 74 54 2 Olivia 86 51 1 MorrisTod 88 51 3 Clint 97 77 0/addTemporaryActor ClaireTheater 16 32 97 60 2/skippable/showFrame ClaireTheater 35 true/positionOffset ClaireTheater -45 32/viewport 95 61 true/move farmer 0 4 2/pause 500/faceDirection farmer 1 true/pause 1000/move farmer 5 0 1/pause 1000/showFrame ClaireTheater 31 true/pause 750/showFrame ClaireTheater 30 true/pause 500/speak Claire \"โอ้ หวัดดี$12\"/pause 500/emote farmer 32/speak Claire \"ฉันกำลังอยู่ในเวลาพักน่ะ$12#$b#นี่คือบทภาพยนตร์ ที่ฉันกำลังอ่านอยู่น่ะ ฉันมีหลายเรื่องเลยล่ะ...$13\"/pause 1000/speak Claire \"อืม คุณเคยได้ยินเรื่อง 'เขาวงกตของเออซูล่า' มั้ย?$13\"/pause 500/emote farmer 8/speak Claire \"มันเป็นภาพยนตร์ เขย่าขวัญสมัยก่อนน่ะ แต่เป็นหนึ่งในหนัง ที่ฉันชอบเลยล่ะ$12#$b#ทุกครั้งที่ฉัน เอาบทภาพยนตร์นี่มาอ่าน ฉันจะเจอรายละเอียด หรือบางอย่างที่พลาดไป ก่อนหน้านี้แหละ...$13\"/pause 750/showFrame ClaireTheater 31 true/pause 400/showFrame ClaireTheater 35 true/pause 750/speak Claire \"ฉันอยากจะเป็นนักแสดง อยากเป็นมาตั้งแต่ ตอนที่ยังเป็นเด็กหญิงตัวเล็กๆ$12#$b#ฉันพยายาม ไล่ตามความฝันทุกวัน...$13\"/pause 1350/showFrame ClaireTheater 31/pause 500/showFrame ClaireTheater 30/pause 500/speak Claire \"อ่า โทษที ต้องกลับไปทำงานแล้วล่ะ$14#$b#อืม ดีใจนะ ที่ได้พูดคุยกับคุณ...$15\"/pause 300/globalFade/viewport -1000 -1000/pause 500/friendship Claire 50/end dialogue Claire \"ถึงมันจะแป๊บเดียว แต่ฉันสนุกมาก ที่ได้คุยกับคุณที่สวน$0#$b#คุณเป็นคนในเมือง สตาร์ดิว แวลลีย์ คนเดียว ที่ฉันสามารถพูดคุย แบบสบายๆ ได้$1#$e#ฉันอาศัยอยู่นอกเมืองน่ะ ไม่ค่อยมีคนที่นั่นหรอก... แต่ค่าครองชีพถูกดีนะ$1\"" 
 	},
 },
 
@@ -1861,7 +1861,7 @@
 	"Target": "data/events/town",
 	"When": { "HasSeenEvent": "191393", "HasFlag |contains=ccMovieTheater": false },
 	"Entries": { 
-    "3219877/f Claire 1000/w sunny/t 1100 1500/k 3219875": "spring_day_ambient/-500 -500/farmer 85 53 1 Claire -100 -100 0/addTemporaryActor ClaireJoja 16 32 95 53 0/showFrame ClaireJoja 8 true/pause 1000/viewport 95 53 true/move farmer 7 0 1 true/pause 2250/speak Claire \"...$8\"/pause 2000/showFrame ClaireJoja 12 true/pause 1000/speak Claire \"Oh. Hi...$8#$b#Um. No one... told me.$8\"/pause 1100/showFrame ClaireJoja 8/pause 1500/speak Claire \"I suppose I'll... go home now.$8\"/pause 1150/globalFade/viewport -1000 -1000/pause 500/end dialogue Claire \"I'm out of work...$2#$e#S-sorry...$2#$e#%Claire doesn't want to talk.\""  //there's some moral ambiguity for you. I considered making this a mature event, but decided not to. Your actions do affect people. Take that into mind...
+    "3219877/f Claire 1000/w sunny/t 1100 1500/k 3219875": "spring_day_ambient/-500 -500/farmer 85 53 1 Claire -100 -100 0/addTemporaryActor ClaireJoja 16 32 95 53 0/showFrame ClaireJoja 8 true/pause 1000/viewport 95 53 true/move farmer 7 0 1 true/pause 2250/speak Claire \"...$8\"/pause 2000/showFrame ClaireJoja 12 true/pause 1000/speak Claire \"โอ้ หวัดดี...$8#$b#อืม ไม่มีใคร... บอกฉันเลย$8\"/pause 1100/showFrame ClaireJoja 8/pause 1500/speak Claire \"ฉันว่าฉัน... จะกลับบ้านแล้ว$8\"/pause 1150/globalFade/viewport -1000 -1000/pause 500/end dialogue Claire \"ฉันตกงานแล้ว...$2#$e#ข-ขอโทษ...$2#$e#%แคลร์ไม่ต้องการจะคุย\""  //there's some moral ambiguity for you. I considered making this a mature event, but decided not to. Your actions do affect people. Take that into mind...
 	},
 },
 
@@ -1870,7 +1870,7 @@
 	"Target": "data/events/town",
 	"When": { "HasSeenEvent": "3219872", "HasSeenEvent |contains=191393": false, "HasFlag |contains=ccMovieTheater": false },
 	"Entries": { 
-    "3219873/e 3219871/f Claire 1500/w sunny/t 1100 1500": "springtown/-500 -500/farmer -100 -100 1 Claire -200 -200 2 Caroline -101 -101 2 Lewis 30 56 2 Sam 32 64 3 Sebastian 30 64 1 Pierre 46 48 0 Abigail 31 65 0 Alex 53 69 0 Haley 54 69 0 Evelyn 62 57 0 Olivia 43 60 1 Emily 44 59 2 Robin 47 57 2 Marnie 47 59 0 Jodi 45 60 3/addTemporaryActor ClaireJoja 16 32 38 58 2/showFrame ClaireJoja 35/positionOffset Emily -20 15/positionOffset Olivia -20 15/positionOffset Jodi -20 15/positionOffset Marnie -15 0/positionOffset Robin -11 -5/pause 800/skippable/viewport 43 59 true/pause 1750/shake Olivia 500/pause 300/speak Olivia \"Did Caroline forget about aerobics class today?...$2\"/pause 800/shake Jodi 500/pause 300/speak Jodi \"Maybe she got caught up with gardening in her greenhouse.$0\"/pause 1000/playSound doorClose/warp Caroline 44 57/pause 225/faceDirection Robin 3 true/pause 220/faceDirection Marnie 3 true/pause 100/faceDirection Emily 1 true/pause 130/faceDirection Olivia 0 true/pause 200/faceDirection Emily 0 true/pause 120/faceDirection Jodi 0 true/pause 200/showFrame ClaireJoja 31/pause 300/showFrame ClaireJoja 27/shake Caroline 500/pause 300/speak Caroline \"Sorry about the locked door, ladies!$1#$b#Let's go work up a sweat!$1\"/pause 400/globalFade/viewport -1000 -1000/warp Emily -200 -200/warp Jodi -200 -200/warp Robin -200 -200/warp Marnie -200 -200/warp Olivia -200 -200/warp Caroline -200 -200/playSound doorClose/pause 600/playSound doorClose/pause 500/playSound doorClose/pause 1500/warp ClaireJoja 44 59/warp farmer 32 59/showFrame ClaireJoja 8 true/positionOffset ClaireJoja 10 -15/viewport 43 59 true/move farmer 10 0 1 true/pause 2200/speak Claire \"Aerobics?...$8\"/pause 1250/showFrame ClaireJoja 12 true/pause 500/speak Claire \"Oh. Hello, @.$9\"/pause 800/showFrame ClaireJoja 8/pause 800/speak Claire \"I overheard some ladies in town...$8#$b#There's an aerobics class?$9\"/pause 650/speak Claire \"$q -1 null#It looks like a lot of fun...#$r -1 0 claire_event1#Yeah. They meet up once a week.#$r -1 0 claire_event2#Does it interest you?#$r -1 0 claire_event3#It's really nothing special.\"/pause 1000/showFrame ClaireJoja 12/pause 800/speak Claire \"Your community has so much personality...$9#$b#A very different feeling from my home in the countryside.$11\"/pause 1000/speak Claire \"$q -1 null#There isn't many people out there...#$r -1 0 claire_event4#You should join our community activities.#$r -1 0 claire_event5#Sounds like a peaceful life.\"/pause 650/showFrame ClaireJoja 0/pause 500/showFrame ClaireJoja 34/pause 700/speak Claire \"I... I don't know. I'm just an outsider.$10\"/pause 900/emote farmer 40/pause 300/speak Claire \"Um. Give it a chance?...$8\"/pause 1350/showFrame ClaireJoja 0 true/pause 1000/showFrame ClaireJoja 12 true/pause 1000/speak Claire \"I'll think about it...$9\"/pause 1000/speak Claire \"Well, I'm going to finish reading this screenplay before my break is over.$9#$b#It was a pleasure talking to you.$11\"/pause 500/emote farmer 32/pause 250/faceDirection farmer 2 true/pause 200/faceDirection farmer 3 true/pause 250/move farmer -7 0 3 true/pause 750/globalFade/viewport -1000 -1000 true/halt/warp ClaireJoja 44 59/warp farmer -50 -50/viewport 43 59 true/pause 1750/showFrame ClaireJoja 8 true/pause 1250/shake ClaireJoja 375/pause 1000/move ClaireJoja 0 -2 0/pause 750/warp ClaireJoja -51 -51/playSound doorClose/addConversationTopic claireAerobics/pause 1500/globalFade/viewport -1000 -1000/friendship Claire 50/pause 1000/end dialogue Claire \"I joined the aerobics class! Everyone in there really accepts me.$1#$b#I don't work Tuesdays... so it fits my schedule.$5#$e#Your community festivals sound interesting...$1\"" 
+    "3219873/e 3219871/f Claire 1500/w sunny/t 1100 1500": "springtown/-500 -500/farmer -100 -100 1 Claire -200 -200 2 Caroline -101 -101 2 Lewis 30 56 2 Sam 32 64 3 Sebastian 30 64 1 Pierre 46 48 0 Abigail 31 65 0 Alex 53 69 0 Haley 54 69 0 Evelyn 62 57 0 Olivia 43 60 1 Emily 44 59 2 Robin 47 57 2 Marnie 47 59 0 Jodi 45 60 3/addTemporaryActor ClaireJoja 16 32 38 58 2/showFrame ClaireJoja 35/positionOffset Emily -20 15/positionOffset Olivia -20 15/positionOffset Jodi -20 15/positionOffset Marnie -15 0/positionOffset Robin -11 -5/pause 800/skippable/viewport 43 59 true/pause 1750/shake Olivia 500/pause 300/speak Olivia \"แคโรไคลน์ลืมว่า วันนี้มีคลาสแอโรบิก รึเปล่านะ?...$2\"/pause 800/shake Jodi 500/pause 300/speak Jodi \"บางทีเราอาจจะเจอเธอ กำลังทำสวน อยู่ในเรือนกระจกก็ได้นะ$0\"/pause 1000/playSound doorClose/warp Caroline 44 57/pause 225/faceDirection Robin 3 true/pause 220/faceDirection Marnie 3 true/pause 100/faceDirection Emily 1 true/pause 130/faceDirection Olivia 0 true/pause 200/faceDirection Emily 0 true/pause 120/faceDirection Jodi 0 true/pause 200/showFrame ClaireJoja 31/pause 300/showFrame ClaireJoja 27/shake Caroline 500/pause 300/speak Caroline \"ขอโทษที่ดันล๊อกประตูไว้นะจ๊ะ สาวๆ!$1#$b#เรามาเริ่มกิจกรรม รีดเหงื่อกันเถอะ!$1\"/pause 400/globalFade/viewport -1000 -1000/warp Emily -200 -200/warp Jodi -200 -200/warp Robin -200 -200/warp Marnie -200 -200/warp Olivia -200 -200/warp Caroline -200 -200/playSound doorClose/pause 600/playSound doorClose/pause 500/playSound doorClose/pause 1500/warp ClaireJoja 44 59/warp farmer 32 59/showFrame ClaireJoja 8 true/positionOffset ClaireJoja 10 -15/viewport 43 59 true/move farmer 10 0 1 true/pause 2200/speak Claire \"แอโรบิก?...$8\"/pause 1250/showFrame ClaireJoja 12 true/pause 500/speak Claire \"โอ้ สวัสดี @$9\"/pause 800/showFrame ClaireJoja 8/pause 800/speak Claire \"ฉันได้ยินมาจาก พวกผู้หญิงในเมือง...$8#$b#เรามีคลาสแอโรบิกด้วยหรอ?$9\"/pause 650/speak Claire \"$q -1 null#มันฟังดูน่าสนุกจัง...#$r -1 0 claire_event1#ใช่แล้ว พวกเขาจะมาเจอกัน สัปดาห์ละครั้ง#$r -1 0 claire_event2#คุณสนใจหรอ?#$r -1 0 claire_event3#ก็งั้นๆ แหละ ไม่เห็นน่าสนใจ\"/pause 1000/showFrame ClaireJoja 12/pause 800/speak Claire \"ชุมชนของคุณ มีความเป็นตัวของตัวเองดีจัง...$9#$b#มันให้ความรู้สึก แตกต่างกับที่บ้านฉัน ในชนบทเลย$11\"/pause 1000/speak Claire \"$q -1 null#ที่นั่นมีคนอาศัยอยู่ ไม่ค่อยเยอะหรอก...#$r -1 0 claire_event4#คุณน่าจะลองร่วม กิจกรรมของชุมชนดูนะ#$r -1 0 claire_event5#ฟังดูเป็นชีวิตที่สงบสุขนะ\"/pause 650/showFrame ClaireJoja 0/pause 500/showFrame ClaireJoja 34/pause 700/speak Claire \"ฉ... ฉันไม่รู้ ว่าจะดีมั้ย ฉันเป็นแค่คนนอก$10\"/pause 900/emote farmer 40/pause 300/speak Claire \"อืม ลองดูน่ะหรอ?...$8\"/pause 1350/showFrame ClaireJoja 0 true/pause 1000/showFrame ClaireJoja 12 true/pause 1000/speak Claire \"ฉันขอไปคิดดูก่อนนะ...$9\"/pause 1000/speak Claire \"อ่อ ฉันกะจะอ่านบทภาพยนตร์นี้ ในจบก่อนหมดเวลาพักน่ะ$9#$b#ดีใจที่ได้คุยกับคุณนะ$11\"/pause 500/emote farmer 32/pause 250/faceDirection farmer 2 true/pause 200/faceDirection farmer 3 true/pause 250/move farmer -7 0 3 true/pause 750/globalFade/viewport -1000 -1000 true/halt/warp ClaireJoja 44 59/warp farmer -50 -50/viewport 43 59 true/pause 1750/showFrame ClaireJoja 8 true/pause 1250/shake ClaireJoja 375/pause 1000/move ClaireJoja 0 -2 0/pause 750/warp ClaireJoja -51 -51/playSound doorClose/addConversationTopic claireAerobics/pause 1500/globalFade/viewport -1000 -1000/friendship Claire 50/pause 1000/end dialogue Claire \"ฉันได้เข้าคลาสแอโรบิกแล้วล่ะ! ทุกคนต้อนรับฉันดีมากเลย$1#$b#ฉันหยุดวันอังคารพอดีเลย... ลงล๊อกในตารางฉันเลย$5#$e#งานเทศกาล ในชุมชนของคุณก็น่าสนใจนะ$1\"" 
 	},
 },
 
