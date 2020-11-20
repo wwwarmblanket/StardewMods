@@ -1147,8 +1147,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Fall 15" }, //Mon
       "Entries": {
-      "funReturn_Claire": "Let's get some rest, dear. It's a big day tomorrow.$1#$e#*yawn*...$5",
-      "funLeave_Claire": "Are you prepared for the town fair? I know you've been working hard this season.$1#$e#I wonder what baby animals there will be..$5"
+      "funReturn_Claire": "เราเข้านอนกันเถอะ ที่รัก พรุ่งนี้เป็นวันสำคัญนะ$1#$e#*หาว*...$5",
+      "funLeave_Claire": "เตรียมพร้อมสำหรับเทศกาล ในวันพรุ่งนี้หรือยัง หื้ม? ก็ คุณทำงานหนัก ตลอดทั้งฤดูนี้เลยนี่นา$1#$e#อยากรู้จังว่า สัตว์ตัวน้อยวันพรุ่งนี้ จะมีตัวอะไรบ้างนะ..$5"
         }
 	},
     {
@@ -1156,8 +1156,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Fall 17" }, //Wed
       "Entries": {
-      "funReturn_Claire": "I washed the dishes and swept the house when I got back from work.$1#$e#I felt like being produtive today...$5",
-      "funLeave_Claire": "Today is going to be great. I can feel it...$1"
+      "funReturn_Claire": "พอฉันเลิกงานกลับมาบ้านปุ๊บ ฉันก็ล้างจานแล้วก็ กวาดบ้านเลยล่ะ$1#$e#วันนี้ใช้เวลาซะคุ้มเลย...$5",
+      "funLeave_Claire": "วันนี้ ต้องเป็นวันที่ยอดเยี่ยมแน่ๆ ฉันรู้สึกได้เลยล่ะ...$1"
         }
 	},
     {
@@ -1165,8 +1165,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Fall 18" }, //Thu
       "Entries": {
-      "funReturn_Claire": "I saw a family of birds nesting in a tree today.$5#$b#There must have been dozens of them...$1",
-      "funLeave_Claire": "It's breezy this morning.$0#$e#And freezing...$2"
+      "funReturn_Claire": "วันนี้ฉันเห็นครอบครัวนก ทำรังอยู่บนต้นไม้ด้วยล่ะ$5#$b#จะต้องมีพวกมัน อยู่เป็นโหลเลยแน่ๆ...$1",
+      "funLeave_Claire": "เช้านี้สดชื่นจัง.$0#$e#แล้วก็หนาวด้วย บรื้ออ...$2"
         }
 	},
     {
@@ -1174,8 +1174,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Fall 21" }, //Sun
       "Entries": {
-      "funReturn_Claire": "Can you make dinner tonight please? I don't feel like cooking...$0",
-      "funLeave_Claire": "I drank a cup of green tea this morning. I feel much more energetic.$1"
+      "funReturn_Claire": "วันนี้คุณช่วยทำมื้อเย็นได้มั้ย? วันนี้ฉันไม่มีอารมณ์จะทำน่ะ...$0",
+      "funLeave_Claire": "เมื่อเช้าฉันดื่มชาเขียวด้วยนะ ตอนนี้รู้สึกพลังเต็มเปี่ยมเลย$1"
         }
 	},
     {
@@ -1183,8 +1183,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Fall 22" }, //Mon
       "Entries": {
-      "funReturn_Claire": "I made a mushroom dish from fresh forage in the forest! I think it turned out well.[205]$5#$e#Well, what do you think?$1",
-      "funLeave_Claire": "You always watch out for me. It's very encouraging...$1#$e#Please... you're making me blush...$4"
+      "funReturn_Claire": "ฉันลองทำอาหารเมนูเห็ด จากเห็ดสดๆ ที่เก็บมาจากป่าแล้วล่ะ! ฉันว่ามันอร่อยใช้เลยล่ะ[205]$5#$e#เป็นไง ใช้ได้มั้ย?$1",
+      "funLeave_Claire": "การที่คุณคอยมองดูฉันเสมอ มันทำให้ฉันมีความมั่นใจมากขึ้น...$1#$e#อย่าสิ... คุณทำฉันเขินนะ...$4"
         }
 	},
     {
@@ -1192,8 +1192,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Fall 24" }, //Wed
       "Entries": {
-      "funReturn_Claire": "The weather gets colder by the day...$0",
-      "funLeave_Claire": "Good morning. You managed to roll out of bed...$1#$e#Um. I'm heading to work soon. Have a productive day, dear.$1"
+      "funReturn_Claire": "วันนี้อากาศเริ่มหนาวขึ้นอีกแล้ว...$0",
+      "funLeave_Claire": "อรุณสวัสดิ์ คุณลุกจากเตียงได้ซะที...$1#$e#อื้ม ฉันกำลังจะไปทำงานแล้วนะ ขอให้เป็นวันที่ราบรื่นนะ ที่รัก$1"
         }
 	},
     {
@@ -1201,8 +1201,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Fall 25" }, //Thu
       "Entries": {
-      "funReturn_Claire": "I hope you're hungry! Dinner is served. [236 235]$5#$e#Do you like it? I deviated a little from the recipe...$1",
-      "funLeave_Claire": "I feel like cooking something festive tonight.$1#$e#I'll surprise you...$5"
+      "funReturn_Claire": "ฉันว่าคุณต้องหิวแน่ๆ! อาหารเย็นพร้อมแล้ว[236 235]$5#$e#คุณชอบมั้ย? ฉันลองดัดแปลงสูตร จากเดิมนิดหน่อย...$1",
+      "funLeave_Claire": "คืนนี้ฉันว่าจะทำอาหาร อะไรซักอย่าง ให้มันมีความรื่นเริงซักหน่อย$1#$e#คุณรอเซอร์ไพรส์ จากฉันได้เลย...$5"
         }
 	},
     {
@@ -1210,8 +1210,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Fall 28" }, //Sun
       "Entries": {
-      "funReturn_Claire": "Did you see the weather report? It's supposed to snow tonight...$0#$e#Um. Do you mind if we use an extra blanket?$2",
-      "funLeave_Claire": "Good morning, dear. I brewed coffee. [395]$1"
+      "funReturn_Claire": "คุณได้ดูพยากรณ์อากาศรึยัง? เห็นว่าคืนนี้หิมะจะตกล่ะ...$0#$e#อืม คุณจะว่าอะไรมั้ย ถ้าเราจะเตรียมผ้าห่มเพิ่มอีก?$2",
+      "funLeave_Claire": "อรุณสวัสดิ์ ที่รัก ฉันชงกาแฟไว้แล้วนะ[395]$1"
         }
 	},
     {
@@ -1219,8 +1219,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Winter 1" }, //Mon
       "Entries": {
-      "funReturn_Claire": "It's like walking inside a freezer outside.$2#$e#I'm happy I can back to warm home... and you.$4#$e#%You hug Claire to warm her.#$e#Hehe...$7",
-      "funLeave_Claire": "The snow last night blanketed the entire valley. Isn't it pretty?$1"
+      "funReturn_Claire": "อากาศข้างนอก ยังกับเดินอยู่ในตู้เย็น$2#$e#ฉันดีใจสุดๆ ที่มีบ้านแสนอบอุ่นให้กลับมา และมีคุณด้วย$4#$e#%คุณกอดแคลร์ให้เธออุ่น#$e#ฮิฮิ...$7",
+      "funLeave_Claire": "หิมะที่ตกเมื่อคืน ปกคลุมไปทั่วทั้งหุบเขาเลย สวยเหมือนกันเนอะ?$1"
         }
 	},
     {
@@ -1228,8 +1228,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Winter 2" }, //Tue
       "Entries": {
-      "funReturn_Claire": "I don't know how you work outside in this cold.$1",
-      "funLeave_Claire": "*yawn* Good morning.$1"
+      "funReturn_Claire": "ฉันไม่รู้จริงๆ ว่าคุณทนหนาว เวลาอยู่ข้างนอกได้ยังไง$1",
+      "funLeave_Claire": "*หาว* อรุณสวัสดิ์$1"
         }
 	},
     {
@@ -1237,8 +1237,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Winter 3" }, //Wed
       "Entries": {
-      "funReturn_Claire": "Good evening, dear.$1",
-      "funLeave_Claire": "Oh, you have work to do outside? Don't catch a cold...$0"
+      "funReturn_Claire": "กลับมาแล้วหรอ ที่รัก$1",
+      "funLeave_Claire": "โอ้ วันนี้คุณต้องออกไป ทำงานข้างนอกหรอ? อย่าให้เป็นหวัดนะ...$0"
         }
 	},
     {
@@ -1246,8 +1246,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Winter 4" }, //Thu
       "Entries": {
-      "funReturn_Claire": "sigh*... it's cold.$0#$e#Would you mind if I turned the thermostat up?#$e#%You hug Claire to warm her.#$e#Hehe...$7",
-      "funLeave_Claire": "Your bed head is adorable.$5#$e#Oh! It's already %time? I need to start heading to work.$0"
+      "funReturn_Claire": "เฮ้อ*... หนาวจัง$0#$e#คุณจะว่าอะไรมั้ย ถ้าฉันนะขอเร่งฮีตเตอร์ ขึ้นอีกหน่อย?#$e#%คุณสวมกอดแคลร์ เพื่อให้เธออุ่น#$e#ฮิฮิ...$7",
+      "funLeave_Claire": "ดูผมยุ่งๆ ของคุณหลังตื่นนอนสิ น่ารักเชียว$5#$e#โอ้! ตอนนี้ %time แล้วหรอเนี่ย? ฉันต้องออกไปทำงานแล้วล่ะ$0"
         }
 	},
     {
@@ -1255,8 +1255,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Winter 7" }, //Sun
       "Entries": {
-      "funReturn_Claire": "Oh, it's %time? The day went by so fast...$0",
-      "funLeave_Claire": "I'm going to work soon. What will you be doing today?$0"
+      "funReturn_Claire": "โอ้! %time แล้วหรอเนี่ย? วันเวลานี่ผ่านไปไวจริงๆ...$0",
+      "funLeave_Claire": "เดี๋ยวฉันต้องออกไปทำงานแล้วล่ะ วันนี้คุณมีอะไรต้องทำมั้ย?$0"
         }
 	}, 
     {
@@ -1264,8 +1264,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Winter 9" }, //Tue
       "Entries": {
-      "funReturn_Claire": "That espresso helped me stay attentive during aerobics class today.$1",
-      "funLeave_Claire": "I needed something strong to wake myself up, so I made triple shot espressos. [253]$1"
+      "funReturn_Claire": "เจ้าเอสเพรสโซเมื่อเช้านี้ ช่วยฉันให้กระปรี้กระเปร่า กับคลาสแอโรบิกได้$1",
+      "funLeave_Claire": "เช้านี้อยากได้อะไร 'แรงๆ' ช่วยปลุกให้ฉันตื่น ฉันก็เลยจัดกาแฟเอสเพรสโซ 3 ช็อตซะเลย[253]$1"
         }
 	},
     {
@@ -1273,8 +1273,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Winter 10" }, //Wed
       "Entries": {
-      "funReturn_Claire": "Could you cook dinner tonight? I'm very tired...$0",
-      "funLeave_Claire": "*yawn*... I want to fall back asleep.$2"
+      "funReturn_Claire": "วันนี้คุณช่วยทำ อาหารเย็นหน่อยได้มั้ย? ฉันเหนื่อยจัง...$0",
+      "funLeave_Claire": "*หาว*... โอ้ยง่วง อยากกลับไปนอนบนเตียง$2"
         }
 	},
     {
@@ -1282,8 +1282,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Winter 11" }, //Thu
       "Entries": {
-      "funReturn_Claire": "I'm sick and tired of being so cold all the time...$2",
-      "funLeave_Claire": "I didn't sleep well last night...$2"
+      "funReturn_Claire": "ฉันไม่สบาย แล้วก็เบื่อ กับการเป็นหวัดตลอด...$2",
+      "funLeave_Claire": "เมื่อคืนฉันหลับไม่ค่อยสนิทเลย...$2"
         }
 	},
     {
@@ -1291,8 +1291,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Winter 14" }, //Sun
       "Entries": {
-      "funReturn_Claire": "I feel like I can understand what animals are thinking when I look at them...$1#$b#I wonder if there's a wizard or witch who can talk to animals?$0#$e#You talk to the local wizard... can they understand animals?$1",
-      "funLeave_Claire": "The smell of breakfast woke you? Well, dig in! [201 195 194 210 211]$5#$e#I made it the way you like it...$1"
+      "funReturn_Claire": "ฉันว่า เหมือนฉันจะเข้าว่าพวกสัตว์ กำลังคิดอะไรอยู่ เวลาที่ฉันมองพวกมัน...$1#$b#ฉันสงสัยว่า มีพ่อมดหรือแม่มดคนไหน ที่คุยกับสัตว์ได้บ้าง?$0#$e#คุณลองถาม พ่อมดคนนั้นให้หน่อยสิ... พวกเขาเข้าใจภาษาสัตว์รึเปล่า?$1",
+      "funLeave_Claire": "คุณตื่นเพราะกลิ่น อาหารเช้ารึเปล่าเนี่ย หื้ม? มาๆ กินเลย![201 195 194 210 211]$5#$e#ฉันทำของที่คุณชอบ ทั้งนั้นเลยนะ...$1"
         }
 	},
     {
@@ -1300,8 +1300,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Winter 15" }, //Mon
       "Entries": {
-      "funReturn_Claire": "Will we live in the valley forever?$1#$e#Sorry. That was a strange question to ask.$0#$e#%You smile at Claire.#$e#...$5",
-      "funLeave_Claire": "Morning, dear.$1#$e#Um. I'm closing at work today so I'll be home late. Eat dinner without me.$1"
+      "funReturn_Claire": "เราจะอาศัยอยู่ที่หุบเขานี้ ไปตลอดเลยมั้ย?$1#$e#ขอโทษนะ มันแปลกใช่มั้ย ที่มาถามแบบนี้$0#$e#%คุณยิ้มให้แคลร์#$e#...$5",
+      "funLeave_Claire": "อรุณสวัสดิ์ ที่รัก$1#$e#อืม วันนี้ฉันต้องอยู่ปิดร้าน ฉันจะกลับบ้านดึกหน่อย คุณทานมื้อเย็นไปก่อนเลยนะ$1"
         }
 	},
     {
@@ -1309,8 +1309,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Winter 16" }, //Tue
       "Entries": {
-      "funReturn_Claire": "I've become good friends with some of the ladies at my weekly aerobics class.$1#$e#Um... You should join me sometime.$5",
-      "funLeave_Claire": "On days like this, I want to drink fresh green tea and relax.$1"
+      "funReturn_Claire": "ฉันได้เป็นเพื่อนสนิทกับสาวๆ บางคน ในคลาสแอโรบิกด้วยล่ะ$1#$e#อืม... คุณน่าจะลองมา เข้าคลาสกับฉันดูบ้างนะ$5",
+      "funLeave_Claire": "ในวันแบบนี้ ฉันอยากจะดื่ม ชาเขียวให้สดชื่น และรีแลกซ์สักหน่อย$1"
         }
 	},
     {
@@ -1318,8 +1318,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Winter 18" }, //Thu
       "Entries": {
-      "funReturn_Claire": "I almost slipped on ice walking home from work...$2#$e#Be careful walking outside.$2",
-      "funLeave_Claire": "I enjoy waking up early in the morning, listening to the birds start their day.$1"
+      "funReturn_Claire": "ฉันเกือบจะลื่นบนน้ำแข็ง ตอนเดินกลับบ้านด้วย...$2#$e#ระวังเวลาที่คุณ ต้องเดินข้างนอกด้วยนะ$2",
+      "funLeave_Claire": "ฉันชอบตื่นเช้านะ แล้วก็ฟังเสียงพวกนกร้อง เริ่มต้นวันใหม่$1"
         }
 	},
     {
@@ -1327,8 +1327,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Winter 21" }, //Sun
       "Entries": {
-      "funReturn_Claire": "Would you mind if I turned the thermostat up? I'm freezing...$2",
-      "funLeave_Claire": "Good morning, dear. I made us some coffee.[395]$1"
+      "funReturn_Claire": "คุณจะว่าอะไรมั้ย ถ้าฉันนะขอเร่งฮีตเตอร์ ขึ้นอีกหน่อย? ฉันหนาวววว...$2",
+      "funLeave_Claire": "อรุณสวัสดิ์ ที่รัก ฉันชงกาแฟไว้แล้ว[395]$1"
         }
 	},
     {
@@ -1336,8 +1336,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Winter 22" }, //Mon
       "Entries": {
-      "funReturn_Claire": "I'm going to try a new recipe I found online the next time I cook dinner.$1#$b#I know you'll love it.$5#$e#Oh? Yes?$1#$e#...$4#$e#Oh! You're silly!$7",
-      "funLeave_Claire": "You finally rolled out of bed. Good morning.$1"
+      "funReturn_Claire": "คราวหน้า ฉันว่าจะลองทำเมนูใหม่ ที่อ่านเจอในเน็ต เป็นมื้อเย็นดูน่ะ$1#$b#ฉันว่าคุณต้องชอบแน่ๆ$5#$e#โอ๊ะ? อะไรนะ?$1#$e#...$4#$e#ฮึ้ย! คนบ้า!$7",
+      "funLeave_Claire": "กลิ้งลงจากเตียงได้ซะทีนะ ฮิฮิ อรุณสวัสดิ์$1"
         }
 	},
     {
@@ -1345,8 +1345,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Winter 23" }, //Tue
       "Entries": {
-      "funReturn_Claire": "I was almost hit by an icicle walking home from work...$2#$e#I'm okay. It just startled me.$1",
-      "funLeave_Claire": "Ooo... You look handsome today, @. I see you shaved.$4^Ooo... You look beautiful today, @. I love the way you did your hair.$4"
+      "funReturn_Claire": "ฉันเกือบจะโดน แท่งน้ำแข็งแหลม ตกลงมาใส่ ตอนที่เดินกลับบ้านด้วยล่ะ...$2#$e#ฉันไม่เป็นไรหรอก แค่ตกใจนิดหน่อย$1",
+      "funLeave_Claire": "โอววว... วันนี้คุณหล่อมากเลย @ คุณโกนหนวดนี่$4^โอววว... วันนี้คุณสวยมากเลย @ ฉันชอบทรงผมนี้ของคุณจัง$4"
         }
 	},
     {
@@ -1354,8 +1354,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Winter 24" }, //Wed
       "Entries": {
-      "funReturn_Claire": "Dinner is ready, dear. Willy caught these this morning. They're very fresh! [733]$5",
-      "funLeave_Claire": "I'm making a festive dinner for us tonight. Something to look forward to...$1#$e#Um. Good luck today.$5"
+      "funReturn_Claire": "มื้อเย็นพร้อมแล้วล่ะ ที่รัก วิลลี่จับเจ้านี้มาได้เมื่อเช้านี้ พวกมันสดมากเลย! [733]$5",
+      "funLeave_Claire": "วันนี้อยากจะทำมื้อค่ำ ที่มันให้ความรู้สึกคึกคักซักหน่อย อะไรที่แบบต้องตั้งตาคอย...$1#$e#อื้ม ขอให้วันนี้โชคดีนะ$5"
         }
 	},
     {
@@ -1363,8 +1363,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Winter 28" }, //Sun
       "Entries": {
-      "funReturn_Claire": "Snow is starting to thaw...$1#$e#I'm more than ready for warmer weather.$5",
-      "funLeave_Claire": "What's on the calendar today for you?$1#$e#Sounds fun!$5"
+      "funReturn_Claire": "หิมะกำลังเริ่มละลายแล้ว...$1#$e#ฉันพร้อมซะยิ่งกว่าพร้อม สำหรับอากาศที่อุ่นขึ้น$5",
+      "funLeave_Claire": "Wวันนี้บนปฏิทินของคุณ มีเขียนอะไรไว้บ้าง หื้ม?$1#$e#น่าสนุกจัง!$5"
         }
 	},
 
@@ -1373,11 +1373,11 @@
       "Action": "EditData",
       "Target": "Strings/StringsFromMaps",
       "Entries": {
-      "Claire_TheaterMessage_Monday": "Hi! Can I get you anything?$1",
-	  "Claire_TheaterMessage_Wednesday": "I see movies for free!$1#$b#Perks of working here!$5",
-	  "Claire_TheaterMessage_Thursday": "Let me know if you want any concessions.$1",
-	  "Claire_TheaterMessage_Friday": "Management here is much better than Joja...$5",
-	  "Claire_TheaterMessage_Sunday": "The wildlife adds to the atmosphere of the theater.$1#$b#It's 'magical'!$5"
+      "Claire_TheaterMessage_Monday": "ไง! ให้ฉันแนะนำอะไรมั้ย?$1",
+	  "Claire_TheaterMessage_Wednesday": "ฉันได้ดูหนังฟรีตลอด!$1#$b#สิทธิพิเศษ ของการทำงานที่นี้เลย!$5",
+	  "Claire_TheaterMessage_Thursday": "บอกฉันได้เลยนะ ถ้าคุณต้องการอะไรเพิ่ม$1",
+	  "Claire_TheaterMessage_Friday": "ระบบการจัดการของที่นี่ ดีกว่าของโจจ้าอีก...$5",
+	  "Claire_TheaterMessage_Sunday": "สัตว์ป่าพวกนี้ ช่วยสร้างบรรยากาศ ให้กับโรงหนังได้เลย$1#$b#อย่างกับ'เวทมนตร์' แหน่ะ!$5"
 	  }
     },
 	
@@ -1387,10 +1387,10 @@
       "Target": "Strings/StringsFromMaps",
 	  "When": { "Spouse": "Claire" },
       "Entries": {
-      "Claire_TheaterMessage_Monday": "Hi, dear. Seeing a movie today?$1",
-	  "Claire_TheaterMessage_Wednesday": "Visiting me at work? Hehe!$7",
-	  "Claire_TheaterMessage_Thursday": "Don't show any signs of affection towards me at work. I'd get in trouble...$1",
-      "Claire_TheaterMessage_Sunday": "Do you see all the birds? Aren't they wonderful?$1"
+      "Claire_TheaterMessage_Monday": "ว่าไง ที่รัก แวะมาดูหนังหรอ?$1",
+	  "Claire_TheaterMessage_Wednesday": "คุณแวะมาหาฉันหรอเนี่ย? ฮิฮิ!$7",
+	  "Claire_TheaterMessage_Thursday": "นี่ คุณอย่าทำตัวมีพิรุธสิ ว่าเรารู้จักกันส่วนตัว เวลาฉันทำงานอยู่ เดี๋ยวก็งานเข้าหรอก...$1",
+      "Claire_TheaterMessage_Sunday": "คุณเห็นนกพวกนั้นมั้ย? พวกมันวิเศษไปเลยเนอะ?$1"
 	  }
     },
 
@@ -1470,17 +1470,17 @@
         "BeforeMovie": {
           "ResponsePoint": null,
           "Script": "",
-          "Text": "I've seen this movie already, But I don't mind watching it again.$1"
+          "Text": "ฉันดูเรื่องนี้ไปแล้วแหละ แต่ดูกับคุณอีกรอบได้นะ$1"
         },
         "DuringMovie": {
           "ResponsePoint": null,
           "Script": "",
-          "Text": "*whisper* I love this part...$5"
+          "Text": "*กระซิบ* ฉันชอบฉากนี้...$5"
         },
         "AfterMovie": {
           "ResponsePoint": null,
           "Script": "",
-          "Text": "Thanks for taking me to this.$1"
+          "Text": "ขอบคุณที่ชวนฉันมานะ$1"
         }
       },
         "ID": "reaction_0"
@@ -1493,7 +1493,7 @@
         "BeforeMovie": {
           "ResponsePoint": null,
           "Script": "",
-          "Text": "I'm a little nervous about watching this...$2"
+          "Text": "ฉันกลัวๆ นิดหน่อย เวลาดูอะไรแนวนี้น่ะ...$2"
         },
         "DuringMovie": {
           "ResponsePoint": null,
@@ -1503,7 +1503,7 @@
         "AfterMovie": {
           "ResponsePoint": null,
           "Script": "",
-          "Text": "I don't know how I felt about that film...$2"
+          "Text": "บอกไม่ถูกเลย ว่ารู้สึกยังไงกับหนังเรื่องนี้...$2"
         }
       },
         "ID": "reaction_1"
@@ -1516,17 +1516,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Someone famous made the music for this film.$1"
+            "Text": "รู้มั้ย คนแต่งเพลงประกอบ หนังเรื่องนี้ ดังมากนะ$1"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "*whisper* Wumbus is such a charming character.$1"
+            "Text": "*กระซิบ* วัมบัสเป็นตัวละครที่มีสเน่ห์นะ$1"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "That was a great movie!$5"
+            "Text": "เรื่องนี้คือเจ๋งอ่ะ!$5"
           }
         },
         "ID": "reaction_2"
@@ -1539,17 +1539,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "You know, I never did beat this game. I'll watch it, though!$1"
+            "Text": "คุณรู้ใั้ย ฉันไม่เคยเล่นเกมนี้ชนะเลย ฉันต้องดูมัน จริงจัง!$1"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I wonder who will win!$3"
+            "Text": "อยากรู้จังว่าใครจะชนะ!$3"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "That was great. I want to play the game now!$3"
+            "Text": "สนุกมาก ดูจบแล้วอยากไปเล่นเกมเลย!$3"
           }
         },
         "ID": "reaction_3"
@@ -1562,17 +1562,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I have a good feeling about this movie...$1"
+            "Text": "เรื่องนี้แบบดู ฟีลกู้ด จังเลย...$1"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "/shake Claire 3000/pause 500/message \"Claire is laughing!\"",
-            "Text": "Hehe!$6"
+            "Text": "ฮิฮิ!$6"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I may purchase the screenplay of this film to read.$1"
+            "Text": "ฉันว่าฉันจะซื้อ บทภาพยนตร์ของหนังเรื่องนี้ ไปอ่านล่ะ$1"
           }
         },
         "ID": "reaction_4"
@@ -1585,13 +1585,13 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Um. Thank you for the invite, @.$1"
+            "Text": "อื้ม ขอบคุณที่ชวนมาในวันนี้นะ @$1"
           },
           "DuringMovie": null,
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "That was fun...$1"
+            "Text": "สนุกดีนะ...$1"
           }
         },
         "ID": "reaction_5"
