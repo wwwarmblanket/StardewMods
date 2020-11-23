@@ -2396,8 +2396,8 @@
 	  "Target": "characters/dialogue/Scarlett",
 	  "When": { "HasSeenEvent": "8185295", },
 	  "Entries": {
-      "5": "Hey there!$1#$e#SOOooo how's the farmin' coming along? Makin' any good money?$0#$e#Wow! Glad you're doin' good for yourself!$1",
-	  "13": "Woohoo! It's @! Been a hot minute, huh?$1#$e#I'm hanging out with this dork today.$0",
+      "5": "เฮ้ เป็นไง!$1#$e#เออ ที่ฟาร์มเป็นไงมั้งอ่ะ? ทำตังได้ดีป่าว?$0#$e#วู้ว! ดีๆ ทำดี ทำได้ ทำต่อไป!$1",
+	  "13": "ยะฮู้! @ นี่เอง! เหมือนไฟกำลังลนเลยนะ หื้ม?$1#$eวันนี้ฉันจะป่วนอยู่กับ ยัยบ๊องนี่แหละ$0",
        }
     },
 	
@@ -2433,7 +2433,7 @@
       "Action": "EditData",
       "Target": "data/festivals/spring13",
       "Entries": {
-        "Scarlett": "Hey there!$1"
+        "Scarlett": "เฮ้ ว่าไง!$1"
       }
     },
 	
@@ -2457,7 +2457,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall27",
       "Entries": {
-        "Scarlett": "เทศกาลภูติของเมืองคุณเจ๋งไปเลย!#$e#พ่อมดของพวกเรา ที่อยู่ที่ทุ่งแกรมเพิลตัน ก็ทำเขาวงกต ให้พวกเราเหมือนกัน$0#$b#บางทีปีหน้า คุณอาจจะมาเที่ยว พร้อมโซเฟียดูดีมั้ย?$1"
+        "Scarlett": "เทศกาลภูติ ของเมืองคุณเจ๋งไปเลย!#$e#พ่อมดของพวกเรา ที่อยู่ที่ทุ่งแกรมเพิลตัน ก็ทำเขาวงกต ให้พวกเราเหมือนกัน$0#$b#บางทีปีหน้า คุณอาจจะมาเที่ยว พร้อมโซเฟียดูดีมั้ย?$1"
       }
     },
 
@@ -2506,7 +2506,7 @@
     "Action": "EditData",
     "Target": "Data/NPCGiftTastes",
     "Entries": {
-    "GuntherSilvian": "What an inquisitive gift! Thank you./207 557 212 104 106 107 108 109 121 122 124 125 578/You shouldn't have./72 96 97 98 99 100 101 103 105 110 111 112 113 114 115 116 117 118 119 120 123 126 127 579 580 581 582 583 584 585 586 587 588 589 -2 -7 -12 -75 -79 -80/I'll take this for now.../346 -4/Oh.../167 78/Thank you./-15 -28 -81/"
+    "GuntherSilvian": "ช่างเป็นของขวัญ ที่กระตุ้นความอยากรู้อยากเห็น ขึ้นมาเลยครับ! ขอบคุณ/207 557 212 104 106 107 108 109 121 122 124 125 578/ขอบคุณมากๆ ครับ ที่อุส่าห์ลำบากหามาให้/72 96 97 98 99 100 101 103 105 110 111 112 113 114 115 116 117 118 119 120 123 126 127 579 580 581 582 583 584 585 586 587 588 589 -2 -7 -12 -75 -79 -80/ผมจะเก็บไว้ก่อนล่ะกัน.../346 -4/เอ่อ.../167 78/ขอบคุณ./-15 -28 -81/"
   }
 },
 	
@@ -2605,7 +2605,7 @@
       "Action": "EditData",
       "Target": "data/festivals/spring13",
       "Entries": {
-        "GuntherSilvian": "Emily, Penny, and the kids are proud of the eggs they painted.$0#$e#I heard the fruit jello is delicious..."
+        "GuntherSilvian": "เอมิลี เพนนี และพวกเด็กๆ ภูมิใจกับไข่ ที่พวกเขาระบายสีลงไป$0#$e#ผมไม่ยินมาว่า เยลลี่ผลไม้อร่อยนะครับ..."
       }
     },
 
@@ -2613,7 +2613,7 @@
       "Action": "EditData",
       "Target": "data/festivals/spring24",
       "Entries": {
-        "GuntherSilvian": "The flower dance is a traditional and symbolic means of expressing our 'tribute' to the passing seasons.$0#$e#There's a book in the library that covers all sorts of ceremonial dances.$1"
+        "GuntherSilvian": "ระบำดอกไม้ เป็นประเพณีดั้งเดิม และสัญลักษณ์ที่แสดงถึง 'ความเคารพ' ของพวกเรา ต่อการเปลี่ยนแปลงของ ฤดูกาลที่ผ่านไป$0#$e#มีหนังสือในห้องสมุด ที่เล่าถึง การเต้นรำในงานเฉลิมฉลองต่างๆ ทุกแบบเลยครับ$1"
       }
     },
 	
@@ -2621,7 +2621,7 @@
       "Action": "EditData",
       "Target": "data/festivals/summer11",
       "Entries": {
-        "GuntherSilvian": "Mmm... slow roast ham...$1"
+        "GuntherSilvian": "อืม... ขาหมูย่างไฟอ่อนๆ...$1"
       }
     },
 	
@@ -2629,7 +2629,7 @@
       "Action": "EditData",
       "Target": "data/festivals/summer28",
       "Entries": {
-        "GuntherSilvian": "Recent discoveries have found 'Moonlight Jellies' possess a magical aura..."
+        "GuntherSilvian": "จากการค้นพบล่าสุด เรารู้ว่า 'กระพรุนแสงจันทร์' ปลดปล่อยพลังเวทออกมา..."
       }
     },
 
@@ -2637,7 +2637,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall16",
       "Entries": {
-        "GuntherSilvian": "These grange displays detail the very livelihood of each farm.$1"
+        "GuntherSilvian": "แผงจัดแสดงสินค้าพวกนี้ บ่งบอกถึง วิถีความเป็นอยู่ของฟาร์มนั้นๆ$1"
       }
     },
 	
@@ -2645,7 +2645,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall27",
       "Entries": {
-        "GuntherSilvian": "Good evening, Mr. @^Good evening, Ms. @.#$e#I believe I recall Pierre saying something about treasure in the maze...$1"
+        "GuntherSilvian": "สายัณห์สวัสดิ์ครับ คุณ @^สายัณห์สวัสดิ์ครับ คุณ @#$e#ผมคุ้นๆ ว่า ปิแอร์พูดถึงขุมทรัพย์บางอย่าง ที่อยู่ในเขาวงกต...$1"
       }
     },
 	
@@ -2653,7 +2653,7 @@
       "Action": "EditData",
       "Target": "data/festivals/winter8",
       "Entries": {
-        "GuntherSilvian": "Rumor has it there's a plethora of artifacts buried underneath the very soil we're standing on.$1"
+        "GuntherSilvian": "มีข่าวลือว่า มีโบราณวัตถุจำนวนมาก ฝังอยู่ใต้พื้นดินที่เรายืนอยู่$1"
       }
     },
 	
@@ -2661,7 +2661,7 @@
       "Action": "EditData",
       "Target": "data/festivals/winter25",
       "Entries": {
-        "GuntherSilvian": "Merry Winter Star, Mr. @.^Merry Winter Star, Ms. @."
+        "GuntherSilvian": "สุขสันต์วันเทศกาลแห่งดวงดาวครับ คุณ @^สุขสันต์วันเทศกาลแห่งดวงดาวครับ คุณ @"
       }
     },
 
@@ -2715,17 +2715,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Ah. Journey of The Prairie King. I've heard good reviews about this film."
+            "Text": "อ้อ ราชาทุ่งหญ้าผจญภัย หนังเรื่องนี้ถูกพูดถึง ในทางที่ดีนะครับ"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Haha! Fantastic!$1"
+            "Text": "ฮ่าฮ่า! วิเศษมาก!$1"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "The hero always wins.$1"
+            "Text": "ผู้กล้าย่อมได้รับชัยชนะเสมอ$1"
           }
         },
         "ID": "reaction_2"
@@ -2738,17 +2738,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Ahh... The smell of fresh buttered popcorn...$1"
+            "Text": "อาา... กลิ่นหอมของป๊อบคอร์น คั่วเนยสดใหม่...$1"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Charming...$1"
+            "Text": "กินใจ เหลือเกิน...$1"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Thank you for inviting me.$0"
+            "Text": "ขอบคุณที่ชวนผมมานะครับ$0"
           }
         },
         "ID": "reaction_3"
@@ -2761,13 +2761,13 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "they don't build these like they used to."
-          },
+            "Text": "พวกเขาไม่ได้ถ่ายทำมัน ให้เหมือนภาคที่แล้ว"
+          },ก
           "DuringMovie": null,
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Thank you, @.$1"
+            "Text": "ขอบคุณครับ @$1"
           }
         },
         "ID": "reaction_5"
@@ -2780,17 +2780,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Ahh... The smell of fresh buttered popcorn...$1"
+            "Text": "อาา... กลิ่นหอมของป๊อบคอร์น คั่วเนยสดใหม่...$1"
           },
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "No, no, no...$2"
+            "Text": "ไม่ ไม่ ไม่...$2"
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "It was certainly... an experience to say the least.$0"
+            "Text": "เอาเป็นว่า... นี่เป็นประสบการณ์ ที่จะพูดถึงมัน น้อยที่สุดละกันครับ$0"
           }
         },
         "ID": "reaction_6"
@@ -2811,14 +2811,14 @@
      "Action": "EditData",
      "Target": "Data/ExtraDialogue",
      "Entries": {
-     "ArchaeologyHouse_Gunther_Room": "Please don't go upstairs.$5",
+     "ArchaeologyHouse_Gunther_Room": "กรุณาอย่าขึ้นไปชั้นบน$5",
 	 }
 },
 {
      "Action": "EditData",
      "Target": "Strings/Locations",
      "Entries": {
-     "ArchaeologyHouse_Gunther_Room": "I shouldn't enter Gunther's room uninvited...",
+     "ArchaeologyHouse_Gunther_Room": "ฉันไม่สามารถ เข้าห้องของกันเธอร์ได้ โดยไม่ได้รับอนุญาติ...",
 	 }
 },
 
@@ -2829,9 +2829,9 @@
     "Action": "EditData",
     "Target": "Data/Events/archaeologyhouse",
     "Entries": {
-    "2468000/f GuntherSilvian 500": "none/-500 -500/farmer 7 14 1 GuntherSilvian 14 11 0 Gunther -100 -100 0 Victor 22 4 2 Susan 22 17 2/addTemporaryActor BookMess 174 64 10 11 2 false/positionOffset BookMess 0 -15/showFrame Susan 23 true/positionOffset Susan 25 -5/showFrame Victor 34 true/positionOffset Victor 0 -15/positionOffset GuntherSilvian -10 20/pause 750/playMusic jaunty/pause 600/viewport 14 12 true/skippable/move farmer 7 0 0 true/pause 1500/speak Gunther \"*sigh*...$2#$b#Those kids made a mess again.$2\"/pause 1000/faceDirection GuntherSilvian 1 true/pause 200/faceDirection GuntherSilvian 2 true/pause 800/speak Gunther \"Ah, hello Mr. @. Apologies for the clutter.$5^Ah, hello Ms. @. Apologies for the clutter.$5#$b#It'll be cleaned momentarily!$1\"/pause 500/emote farmer 8/pause 250/speak Gunther \"Penny is normally good on these kind of things, but she was in a rush today after class.$5\"/pause 1000/question fork0 \"#Help put back the books#Go on your way\"/fork HelpGunther_2468000/pause 400/speak Gunther \"I'll be at the front desk soon. These books need to be put away.$5\"/pause 750/end dialogue GuntherSilvian \"Perhaps Penny could spend a lesson teaching those kids how to properly put away books in alphabetical order.$5#$e#I could assist in the lecture.$1\"",
+    "2468000/f GuntherSilvian 500": "none/-500 -500/farmer 7 14 1 GuntherSilvian 14 11 0 Gunther -100 -100 0 Victor 22 4 2 Susan 22 17 2/addTemporaryActor BookMess 174 64 10 11 2 false/positionOffset BookMess 0 -15/showFrame Susan 23 true/positionOffset Susan 25 -5/showFrame Victor 34 true/positionOffset Victor 0 -15/positionOffset GuntherSilvian -10 20/pause 750/playMusic jaunty/pause 600/viewport 14 12 true/skippable/move farmer 7 0 0 true/pause 1500/speak Gunther \"*เฮ้อ*...$2#$b#พวกเด็กๆ ทำรกอีกแล้ว$2\"/pause 1000/faceDirection GuntherSilvian 1 true/pause 200/faceDirection GuntherSilvian 2 true/pause 800/speak Gunther \"อ้อ สวัสดีครับ คุณ @ ขออภัยจริงๆ ในความไม่เป็นระเบียบเช่นนี้$5^อ้อ สวัสดีครับ คุณ @ ขออภัยจริงๆ ในความไม่เป็นระเบียบเช่นนี้$5#$b#จะทำเก็บกวาดเดี๋ยวนี้ครับ!$1\"/pause 500/emote farmer 8/pause 250/speak Gunther \"ปกติแล้ว เพนนี จะดูแลพวกเด็กๆ ในเรื่องนี้เป็นอย่างดี แต่วันนี้ดูเหมือนเธอจะมีธุระด่วน หลังเลิกคลาส$5\"/pause 1000/question fork0 \"#ช่วยเก็บหนังสือเข้าที่#ไปทำอย่างอื่น\"/fork HelpGunther_2468000/pause 400/speak Gunther \"อีกเดี๋ยว ผมจะกลับไปประจำที่้โต๊ะครับ ขอจัดการกับหนังสือพวกนี้ก่อน$5\"/pause 750/end dialogue GuntherSilvian \"บางที น่าจะให้เพนนี ลองสอนพวกเด็กๆ ให้เก็บหนังสือให้เป็นระเบียบ เรียงตามตัวอักษรอย่างถูกต้อง$5#$e#ผมก็จะช่วยสอนด้วยครับ$1\"",
 	
-	"HelpGunther_2468000": "friendship GuntherSilvian 125/pause 400/emote farmer 40/pause 200/speak Gunther \"Ah. You'll help put away the books?$5#$b#You can start on the right.$5\"/pause 400/globalFade/viewport -1000 -1000/halt/pause 500/warp BookMess -50 -50/playSound newRecipe/pause 600/playSound stoneStep/pause 900/playSound newRecipe/pause 750/playSound stoneStep/pause 1000/speak Gunther \"Thank you kindly for the help, Mr. @.$5^Thank you kindly for the help, Ms. @.$5\"/pause 1000/end dialogue GuntherSilvian \"Perhaps Penny could spend a lesson teaching those kids how to properly put away books in alphabetical order.$5#$e#I could assist in the lecture.$1\""
+	"HelpGunther_2468000": "friendship GuntherSilvian 125/pause 400/emote farmer 40/pause 200/speak Gunther \"อาา คุณะช่วยเก็บหนังสือหรอครับ?$5#$b#งั้นคุณเริ่มจากทางด้านขวา$5\"/pause 400/globalFade/viewport -1000 -1000/halt/pause 500/warp BookMess -50 -50/playSound newRecipe/pause 600/playSound stoneStep/pause 900/playSound newRecipe/pause 750/playSound stoneStep/pause 1000/speak Gunther \"ขอบคุณที่ให้ความช่วยเหลือครับ คุณ @$5^ขอบคุณที่ให้ความช่วยเหลือครับ คุณ @$5\"/pause 1000/end dialogue GuntherSilvian \"บางที น่าจะให้เพนนี ลองสอนพวกเด็กๆ ให้เก็บหนังสือให้เป็นระเบียบ เรียงตามตัวอักษรอย่างถูกต้อง$5#$e#ผมก็จะช่วยสอนด้วยครับ$1\""
 	},
 },
 
@@ -2846,7 +2846,7 @@
     "Target": "Data/Events/archaeologyhouse",
 	"When": { "HasSeenEvent": "2468000" },
     "Entries": {
-    "2468001/f GuntherSilvian 1000": "none/-500 -500/farmer 27 13 0 GuntherSilvian 34 8 2 Gunther -100 -100 0 Abigail 11 9 0 Elliott 20 5 2 Penny 19 10 2 Vincent 16 11 2 Jas 16 10 1/animate Jas true true 100 22/showFrame Vincent 24 true/showFrame Penny 18 true/showFrame Elliott 33 true/animate GuntherSilvian false true 500 17 18/pause 500/playMusic libraryTheme/pause 500/skippable/viewport 32 8 true/move farmer 0 -5 0/move farmer 4 0 1 true/speak Gunther \"Hmm... fascinating.$5\"/pause 1500/stopAnimation GuntherSilvian/pause 600/showFrame GuntherSilvian 20 true/pause 750/speak Gunther \"Ah, Mr. @.$5^Ah, Ms. @.$5#$b#I'm just taking a gander at the wonderful minerals, gems, and artifacts you donated.$1#$b#There's a great many mysteries waiting to be explored in this very room.$5\"/pause 800/showFrame GuntherSilvian 0 true/pause 600/faceDirection farmer 2 true/pause 500/speak Gunther \"All of this was possible because of your efforts.$1#$b#With the knowledge we've gained from these treasures, we can now ask ourselves 'the' question...$5\"/pause 500/speak Gunther \"$q -1 null#What is the history of Stardew Valley?...#$r -1 0 gunther_event1#Other civilizations once existed here.#$r -1 0 gunther_event2#Magic at every corner.#$r -1 0 gunther_event3#A violent past...#$r -1 0 gunther_event4#There isn't enough for me to come to a conclusion.\"/pause 1000/showFrame GuntherSilvian 20 true/pause 650/speak Gunther \"No matter how you look at it, Stardew Valley is a magical place, with sacred importance...$5\"/pause 800/faceDirection farmer 1 true/pause 875/speak Gunther \"Together, we'll make a discovery that'll change the world.$5\"/pause 500/end dialogue GuntherSilvian \"The museum has gotten visitors outside country - other researchers like myself.$1#$e#They all pursue a greater understanding of the history of this region.$5\"" 
+    "2468001/f GuntherSilvian 1000": "none/-500 -500/farmer 27 13 0 GuntherSilvian 34 8 2 Gunther -100 -100 0 Abigail 11 9 0 Elliott 20 5 2 Penny 19 10 2 Vincent 16 11 2 Jas 16 10 1/animate Jas true true 100 22/showFrame Vincent 24 true/showFrame Penny 18 true/showFrame Elliott 33 true/animate GuntherSilvian false true 500 17 18/pause 500/playMusic libraryTheme/pause 500/skippable/viewport 32 8 true/move farmer 0 -5 0/move farmer 4 0 1 true/speak Gunther \"หืมมม... น่าหลงใหลเสียจริง$5\"/pause 1500/stopAnimation GuntherSilvian/pause 600/showFrame GuntherSilvian 20 true/pause 750/speak Gunther \"อาา คุณ @$5^อาา คุณ @$5#$b#ผมกำลังชื่นชม หินแร่ อัญมณี และวัตถุโบราณที่แสนอัศจรรย์ ที่คุณบริจาคมาครับ$1#$b#มันมีปริศนามากมาย ที่รอคอยการค้นพบ อยู่ภายในห้องนี้$5\"/pause 800/showFrame GuntherSilvian 0 true/pause 600/faceDirection farmer 2 true/pause 500/speak Gunther \"ทั้งหมดนี้เกิดขึ้นได้ เพราะความช่วยเหลือของคุณ$1#$b#จากองค์ความรู้ที่เราได้มา จากสมบัติพวกนี้ ตอนนี้เราก็สามารถ 'ถาม' คำถามเหล่านี้กับตัวเองได้...$5\"/pause 500/speak Gunther \"$q -1 null#ประวัติความเป็นมาของ สตาร์ดิว แวลลีย์ คืออะไร?...#$r -1 0 gunther_event1#เคยมีอารยธรรมอื่น อยู่ที่นี่มาก่อน#$r -1 0 gunther_event2#มีเวทมนตร์อยู่ทุกแห่งหน#$r -1 0 gunther_event3#อดีตอันแสนโหดร้าย...#$r -1 0 gunther_event4#ข้อมูลยังไม่เพียงพอ ที่ฉันจะสรุปได้ในตอนนี้\"/pause 1000/showFrame GuntherSilvian 20 true/pause 650/speak Gunther \"ครับ ไม่ว่าคุณจะมองยังไง สตาร์ดิว แวลลีย์ ก็เป็นดินแดนมหัศจรรย์ ที่เต็มไปด้วยมนต์ขลัง...$5\"/pause 800/faceDirection farmer 1 true/pause 875/speak Gunther \"ด้วยความร่วมมือกัน เราจะสามารถค้นพบ สิ่งที่จะเปลี่ยนแปลงโลก$5\"/pause 500/end dialogue GuntherSilvian \"เริ่มมีผู้เยี่ยมเยือนจากต่างถิ่น มาที่พิพิธภัณฑ์แล้วล่ะครับ - นักวิจัยคนอื่นๆ เช่นเดียวกับผม$1#$e#พวกเขาไขว่คว้า ที่จะเข้าใจในประวัติศาสตร์ ของภูมิภาคนี้ให้มากยิ่งขึ้น$5\"" 
 	},
 },
 
