@@ -3468,7 +3468,7 @@
       "Action": "EditData",
       "Target": "data/festivals/spring13",
       "Entries": {
-        "MorrisTod": "Ah, @! Enjoying ourselves today?$1#$e#A well put-together festival is certain to win the hearts of the townsfolk!$5"
+        "MorrisTod": "อ๊า @! เป็นไงครับ สนุกดีมั้ย?$1#$e#เทศกาลที่เกิดจาก การร่วมมือกันเป็นอย่างดี จะเอาชนะใจชาวเมืองได้!$5"
       }
     },
 
@@ -3476,7 +3476,7 @@
       "Action": "EditData",
       "Target": "data/festivals/spring24",
       "Entries": {
-        "MorrisTod": "I must say, Olivia looks charming.$1#$e#Erm. Perhaps I will ask her to take my hand in a dance?$1"
+        "MorrisTod": "ผมพูดได้เต็มปากเลยว่า โอลิเวียดูมีสเน่ห์ซะจริง$1#$e#เอิ่มม บางทีผมน่าจะลอง ชวนเธอเต้นรำดู ดีมั้ย?$1"
       }
     },
 	
@@ -3485,7 +3485,7 @@
       "Target": "data/festivals/spring24",
 	  "When": { "Spouse": "Olivia" },
       "Entries": {
-        "MorrisTod": "This location is undeveloped and rural. Perhaps I'll look into creating a development project for next years festival?$0"
+        "MorrisTod": "ที่แห่งนี้ไม่ได้รับการพัฒนา แถมยังอยู่ห่างไกลอีก บางทีผมน่าจะลองเสนอ โครงการด้านการพัฒนาชุมชน ในเทศกาลปีหน้าดู ดีมั้ยครับ?$0"
       }
     },
 	
@@ -3493,7 +3493,7 @@
       "Action": "EditData",
       "Target": "data/festivals/summer11",
       "Entries": {
-        "MorrisTod": "The governor is in a mighty good mood today. I expect a superb performance from your soup ingredients, @.$0#$e#Don't disappoint me now! It'd be a shame if the governor thought ill of the valley...$1"
+        "MorrisTod": "ท่านผู้ว่าฯ ดูจะมีอารมณดีทีเดียวนะครับ ผมคาดหวังในวัตถุดิบ อันแสนจะคับคั่งไปด้วยคุณภาพ ที่คุณนำมาใส่ในซุปนะครับ @$0#$e#อย่าทำให้ผมผิดหวังล่ะ! มันจะเป็นเรื่องน่าอับอาย หากท่านผู้ว่าฯ เกิดรู้สึกแย่กับหุบเขานี้ขึ้นมา$1"
       }
     },
 	
@@ -3501,7 +3501,7 @@
       "Action": "EditData",
       "Target": "data/festivals/summer28",
       "Entries": {
-        "MorrisTod": "I think I see a faint glow in the ocean. Is that them?$3"
+        "MorrisTod": "ผมว่าผมเห็นแสงจางๆ ในมหาสมุทร นั่นพวกมันหรอ?$3"
       }
     },
 
@@ -3509,7 +3509,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall16",
       "Entries": {
-        "MorrisTod": "The fortune teller told me I will become very rich one day! Haha!$1"
+        "MorrisTod": "แม่หมอพยากรณ์นั่น บอกผมว่า วันนึงผมจะกลายเป็นคนรวย! ฮ่าฮ่า!$1"
       }
     },
 	
@@ -3517,7 +3517,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall27",
       "Entries": {
-        "MorrisTod": "These 'Castle Village' sentries are expensive to hire...$3#$e#The security and well-being of the townsfolk is a top priority.$0"
+        "MorrisTod": "ทหารยามแห่ง 'แคสเซิลวิลเลจ' มีค่าตัวแพงมาก...$3#$e#ความปลอดภัย และความเป็นอยู่ที่ดี ของชาวเมือง เป็นสิ่งสำคัญที่สุด$0"
       }
     },
 	
@@ -3525,7 +3525,7 @@
       "Action": "EditData",
       "Target": "data/festivals/winter8",
       "Entries": {
-        "MorrisTod": "Inform either Lewis or I when you're ready to commence the competition, @.$0#$e#Ah, and good luck...$1"
+        "MorrisTod": "แจ้งเลวิสหรือผมให้ทราบด้วย เมื่อคุณพร้อมที่จะ เริ่มการแข่งขัน @$0#$e#อ้อ แล้วก็ ขอให้โชคดี...$1"
       }
     },
 	
@@ -3589,7 +3589,7 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "อา @ ภาพยนจร์เรื่องนี้ตรงกับ ความสนใจของผมสุดๆ เลย! พวกเราควรจะจองที่นั่ง ไว้ก่อนไหม?$1"
+            "Text": "อา @ ภาพยนตร์เรื่องนี้ตรงกับ ความสนใจของผมสุดๆ เลย! พวกเราควรจะจองที่นั่ง ไว้ก่อนไหม?$1"
           },
           "DuringMovie": {
             "ResponsePoint": null,
@@ -3599,7 +3599,7 @@
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "ตอนที่ชมภาพยนตร์เรื่องนั้น ผมรุ้สึกเหมือนได้ กลับไปเป็นหนุ่มอีกครั้ง! เป็นประสบการณ์ที่ น่าพึงพอใจอย่าง ไม่ต้องสงสัยเลย!$1"
+            "Text": "ตอนที่ชมภาพยนตร์เรื่องนั้น ผมรู้สึกเหมือนได้ กลับไปเป็นหนุ่มอีกครั้ง! เป็นประสบการณ์ที่ น่าพึงพอใจอย่าง ไม่ต้องสงสัยเลย!$1"
           }
         },
         "ID": "reaction_2"
@@ -3645,7 +3645,7 @@
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "เอาล่ะ ผมต้อวพูดว่า มันค่อนข้างจะน่าสนใจ แล้วเจอกันใหม่นะ @$0"
+            "Text": "เอาล่ะ ผมต้องพูดว่า มันค่อนข้างจะน่าสนใจ แล้วเจอกันใหม่นะ @$0"
           }
         },
         "ID": "reaction_4"
@@ -3722,7 +3722,7 @@
     "Target": "Data/Events/town",
 	"When": { "HasSeenEvent |contains=191393": false },
     "Entries": {
-    "6663501/k 191393/y 1/w sunny/t 900 1600/f MorrisTod 500": "playful/-500 -500/farmer -125 -125 3 Morris 31 73 0 Olivia 27 65 3 Caroline 26 66 0 Jodi 26 64 2 Pierre 47 50 1 Penny 79 46 2 Alex 53 69 0 Gus 36 69 0 Haley 52 69 0 Lewis 31 56 2 Pam 76 69 2 Victor 96 65 1 George 61 64 2/showFrame Penny 18/viewport 31 73 true/skippable/viewport move 0 -2 4000 true/move Morris 0 -8 0/pause 400/faceDirection Morris 3 true/pause 100/speak Morris \"สวัสดีสาวๆ ! วันนี้เป็นวันที่ดีนะ!$1\"/pause 600/faceDirection Olivia 2 true/pause 150/faceDirection Olivia 1/pause 100/faceDirection Caroline 1 true/pause 150/emote Olivia 8 true/pause 100/emote Caroline 16 true/pause 150/faceDirection Jodi 1 true/pause 100/speak Olivia \"สวัสดีตอนบ่าย มอร์ริส$0\"/speak Caroline \"...$2\"/pause 300/viewport move 0 -2 3000 true/move Morris 0 -6 0 true/pause 500/faceDirection Olivia 2 true/pause 150/faceDirection Olivia 3/pause 100/faceDirection Caroline 0 true/pause 150/faceDirection Jodi 2 true/pause 1300/speak Lewis \"อา มอร์ริส กำลังทักทายชาวเมืองอยู่หรอ?$0\"/speak Morris \"ฮ่า ๆ! ใช่แล้ว! ในวันที่สวยงามขนาดนี้ ผมจะไม่ทำได้ยังไงล่ะ?$1#$b#คุณทำได้เยี่ยมมาก ทำต่อไปนะคุณนายก!$4\"/speak Lewis \"เอ่อ... ขอบใจ มอร์ริส!$1\"/pause 400/viewport move 2 0 9000 true/move Morris 17 0 0 true/pause 2000/textAboveHead Morris \"ช่างเป็นวันที่สวยงามจริงๆ !\"/pause 3000/textAboveHead Morris \"ฮ่าๆ !\"/pause 4000/viewport move 0 -2 2500 true/move Morris 0 -5 0/move Pierre 1 0 2 true/pause 800/emote Pierre 16 true/pause 300/speak Morris \"อา! ปีแอร์! ผมหวังจริงๆ ว่าคุณจะสบายดี ในวันที่สวยงามเช่นนี้!$5\"/pause 500/speak Pierre \"...$2\"/pause 1000/move Pierre -2 0 0/warp Pierre -100 -100/pause 600/emote Morris 40/speak Morris \"...$3\"/pause 700/move Morris 6 0 1 true/pause 800/stopMusic/globalFade/viewport -1000 -1000/warp Morris 63 53/warp Pierre 46 48/warp farmer 84 53/pause 300/playMusic springtown/viewport 73 53 true/move Morris 9 0 1 true/move farmer -9 0 3 true/pause 2500/speak Morris \"สวัสดี @!$1#$b#ผมชอบการได้เจอคุณ ที่ร้านค้าโจจ้าจัง!$4#$b#คุณมีความสุขกับอากาศดีๆ ในวันนี้ใช่ไหม?$1\"/pause 750/question fork0 \"#ทำไมนายถึงมีความสุขจัง?#ฉันคิดว่าอากาศก็ดีนะ\"/pause 200/fork 6663501_WhyHappy/pause 300/speak Morris \"ใช่แล้ว! วันนี้อากาศดีจริงๆ !$1#$b#วันนี้ผมอารมณ์ดีมากเลยล่ะ!$4#$b#เนื่องจากคุณเป็นคนที่ ใกล้เคียงกับคำว่า 'เพื่อนของผม' มากที่สุดในเมืองนี้ ถ้าไม่นับแอนดี้น่ะนะ ให้โอกาสผม บอกคุณหน่อยก็แล้วกัน ว่าเพราะอะไร$5\"/pause 100/switchEvent 6663501_WhyHappy2",
+    "6663501/k 191393/y 1/w sunny/t 900 1600/f MorrisTod 500": "playful/-500 -500/farmer -125 -125 3 Morris 31 73 0 Olivia 27 65 3 Caroline 26 66 0 Jodi 26 64 2 Pierre 47 50 1 Penny 79 46 2 Alex 53 69 0 Gus 36 69 0 Haley 52 69 0 Lewis 31 56 2 Pam 76 69 2 Victor 96 65 1 George 61 64 2/showFrame Penny 18/viewport 31 73 true/skippable/viewport move 0 -2 4000 true/move Morris 0 -8 0/pause 400/faceDirection Morris 3 true/pause 100/speak Morris \"สวัสดีสาวๆ ! วันนี้เป็นวันที่ดีนะ!$1\"/pause 600/faceDirection Olivia 2 true/pause 150/faceDirection Olivia 1/pause 100/faceDirection Caroline 1 true/pause 150/emote Olivia 8 true/pause 100/emote Caroline 16 true/pause 150/faceDirection Jodi 1 true/pause 100/speak Olivia \"สวัสดีตอนบ่าย มอร์ริส$0\"/speak Caroline \"...$2\"/pause 300/viewport move 0 -2 3000 true/move Morris 0 -6 0 true/pause 500/faceDirection Olivia 2 true/pause 150/faceDirection Olivia 3/pause 100/faceDirection Caroline 0 true/pause 150/faceDirection Jodi 2 true/pause 1300/speak Lewis \"อา มอร์ริส กำลังทักทายชาวเมืองอยู่หรอ?$0\"/speak Morris \"ฮ่าๆ ! ใช่แล้ว! ในวันที่สวยงามขนาดนี้ ผมจะไม่ทำได้ยังไงล่ะ?$1#$b#คุณทำได้เยี่ยมมาก ทำต่อไปนะคุณนายก!$4\"/speak Lewis \"เอ่อ... ขอบใจ มอร์ริส!$1\"/pause 400/viewport move 2 0 9000 true/move Morris 17 0 0 true/pause 2000/textAboveHead Morris \"ช่างเป็นวันที่สวยงามจริงๆ !\"/pause 3000/textAboveHead Morris \"ฮ่าๆ !\"/pause 4000/viewport move 0 -2 2500 true/move Morris 0 -5 0/move Pierre 1 0 2 true/pause 800/emote Pierre 16 true/pause 300/speak Morris \"อา! ปีแอร์! ผมหวังจริงๆ ว่าคุณจะสบายดี ในวันที่สวยงามเช่นนี้!$5\"/pause 500/speak Pierre \"...$2\"/pause 1000/move Pierre -2 0 0/warp Pierre -100 -100/pause 600/emote Morris 40/speak Morris \"...$3\"/pause 700/move Morris 6 0 1 true/pause 800/stopMusic/globalFade/viewport -1000 -1000/warp Morris 63 53/warp Pierre 46 48/warp farmer 84 53/pause 300/playMusic springtown/viewport 73 53 true/move Morris 9 0 1 true/move farmer -9 0 3 true/pause 2500/speak Morris \"สวัสดี @!$1#$b#ผมชอบการได้เจอคุณ ที่ร้านค้าโจจ้าจัง!$4#$b#คุณมีความสุขกับอากาศดีๆ ในวันนี้ใช่ไหม?$1\"/pause 750/question fork0 \"#ทำไมนายถึงมีความสุขจัง?#ฉันคิดว่าอากาศก็ดีนะ\"/pause 200/fork 6663501_WhyHappy/pause 300/speak Morris \"ใช่แล้ว! วันนี้อากาศดีจริงๆ !$1#$b#วันนี้ผมอารมณ์ดีมากเลยล่ะ!$4#$b#เนื่องจากคุณเป็นคนที่ ใกล้เคียงกับคำว่า 'เพื่อนของผม' มากที่สุดในเมืองนี้ ถ้าไม่นับแอนดี้น่ะนะ ให้โอกาสผม บอกคุณหน่อยก็แล้วกัน ว่าเพราะอะไร$5\"/pause 100/switchEvent 6663501_WhyHappy2",
 
     "6663501_WhyHappy": "pause 400/speak Morris \"ประธานของบริษัทโจจ้า ประทับใจกับผลงานของผม ในสตาร์ดิวแวลลี่!$1#$b#ในที่สุด ผมก็อยู่ในสายตาของ คนที่นั่งในตำแหน่งสูงๆ แล้ว!$5#$b#ผมสมควรได้รับการขึ้นตำแหน่ง และมีคนในสังกัดมากขึ้น... ครอบครัวโจจ้าที่ เพิ่มมากขึ้นยังไงล่ะ!$4#$b#ในที่สุด คอนโดมิเนียมที่ผมเล็งอยู่ ก็มาอยู่ในอุ้งมือของผมแล้ว$5\"/pause 500/question fork0 \"#ฟังดูเป็นการเลื่อนตำแหน่ง ที่คุณควรจะได้รับมันนะ#เงินไม่ใช่ทุกอย่างหรอกนะ\"/fork 6663501_MoneyIsNotEverything/pause 500/speak Morris \"ผมทำงานหลายวันหลายคืน เพื่อทำให้มั่นใจได้ว่า ความก้าวหน้าใน อาชีพการงานนี้ จะเกิดขึ้นอย่างแน่นอน$4#$b#ในที่สุดผลจาก การลงแรงของผม ก็ได้รับการตอบแทนแล้ว$5\"/pause 300/emote Morris 40/pause 150/speak Morris \"มาคุยกับผมที่ร้านโจจ้านะ ผมจะมอบส่วนลดล่วงหน้า ให้กับคุณ$1\"/pause 300/end dialogue Morris \"สวัสดี @! ในการจับจ่ายที่ร้่นโจจ้าครั้งหน้า อย่าลืมนึกถึงส่วนลดนี่นะ![336]\"",
     
