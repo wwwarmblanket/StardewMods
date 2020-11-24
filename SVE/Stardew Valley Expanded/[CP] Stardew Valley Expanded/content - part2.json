@@ -3335,7 +3335,7 @@
       "Target": "data/festivals/fall27",
       "When": { "IsOddYear": true },
       "Entries": {
-        "Martin": "ผมกำลังจะยอมแพ้ แล้วไปหาอะไรกินแล้ว$2#$e#ถ้าโกง จะเป็นอะไรหรือเปล่าครับ?$1#$e#%คุณบอกมาร์ติว่าไม่ควรโกงเขาวงกต#$e#ก็ได้...$4"
+        "Martin": "ผมกำลังจะยอมแพ้ แล้วไปหาอะไรกินแล้ว$2#$e#ถ้าโกง จะเป็นอะไรหรือเปล่าครับ?$1#$e#%คุณบอกมาร์ติว่า ไม่ควรโกงเขาวงกต#$e#ก็ได้...$4"
       }
     },
 	
@@ -3801,9 +3801,9 @@
     "Action": "EditData",
     "Target": "Data/ExtraDialogue",
     "Entries": {
-    "Morris_BuyMovieTheater": "Ah, @. Have you considered the construction project proposal?$0#$b#$q -1 -1#We could make this happen for a small investment of... *cough*... 500,000g...$h#$r -1 -1 Yes#Yes#$r -1 -1 No#No",
-    "Morris_TheaterBought": "Half a mil...!$1#$b#*Ahem*... I mean...$0#$b#Excellent! Our Joja Construction Team will begin work on the new building tonight! Thank you for supporting our work.$4#$b#I'll ensure your name is engraved somewhere on site...$0",
-	"Morris_NoMoreCD": "This development project will improve the quality of life of Stardew Valley!$1"
+    "Morris_BuyMovieTheater": "อ่า @ คุณได้พิจารณาข้อเสนอ ในโครงการก่อสร้างแล้วหรือยัง?$0#$b#$q -1 -1#เราสามารถทำให้มันเป็นความจริงได้ โดยการใช้เงินทุนแค่นิดหน่อย ก็แค่... *แค่ก*... 500,000g...เบาๆ$h#$r -1 -1 Yes#ตกลง#$r -1 -1 No#ปฏิเสธ",
+    "Morris_TheaterBought": "ครึ่งล้า-...!$1#$b#*อะแฮ่ม*... ผมหมายถึง...$0#$b#เยี่ยมยอด! ทีมก่อสร้างของเราจะเริ่มการสร้าง อาคารหลังใหม่ในคืนนี้! ขอบคุณที่สนับสนุนงานของเรา$4#$b#ไม่ต้องห่วง จะมีชื่อของคุณสลักไว้ ตรงไหนสักที่แน่นอน...$0",
+	"Morris_NoMoreCD": "โปรเจคพัฒนาชุมชนนี่ จะช่วยยกระดับคุณภาพชีวิต ของสตาร์ดิว แวลลีเลยนะ!$1"
  }
 },
 
@@ -3812,7 +3812,7 @@
     "Target": "data/events/farm",
 	"When": { "HasSeenEvent": "6665290" },
     "Entries": {
-    "6666291/w sunny/t 600 800/k 6665291": "continue/-200 -200/farmer -20 -20 2 Morris -21 -21 0/pause 1800/speak Morris \"Ah, good morning @! I bring exciting news for you!$1#$b#Joja headquarters has approved the construction of a new Joja 'entertainment opportunity' to replace the Warehouse.$0#$b#We just need an investor willing to support our vision!$4\"/pause 1000/speak Morris \"Speak to me at my desk at the Joja Mart if you're interested!$1\"/pause 650/end"
+    "6666291/w sunny/t 600 800/k 6665291": "continue/-200 -200/farmer -20 -20 2 Morris -21 -21 0/pause 1800/speak Morris \"อ่า สวัสดียามเช้าที่สดใส @! ผมมีข่าวน่าตื่นเต้นมาแจ้งคุณ!$1#$b#สำนักงานใหญ่โจจ้า ได้อนุมัติโครงการใหม่ของโจจ้า เพื่อ 'มิติใหม่แห่งความบันเทิง' แทนที่โกดังเก็บของเก่า$0#$b#ที่เราต้องการตอนนี้ เพียงแค่ นักลงทุนที่อยากจะสนับสนุน ในวิสัยทัศน์ของพวกเรา!$4\"/pause 1000/speak Morris \"มาคุยกันที่โต๊ะของผม ในร้านโจจ้าได้ ถ้าคุณสนใจ!$1\"/pause 650/end"
 	}
 },
 
@@ -3821,7 +3821,7 @@
     "Target": "Data/Events/farm",
 	"When": { "HasFlag": "ccMovieTheaterJoja" },
     "Entries": {
-    "6665291/f MorrisTod 2500/e 6665290/w sunny/H": "continue/-500 -500/farmer -30 -30 0 Pierre -29 -29 0/skippable/pause 1500/speak Pierre \"Good morning, @.$1\"/pause 1000/speak Pierre \"The Pelican Town mayoral election is being held in a couple days. I understand it's a late notice, but...$0#$b#Until yesterday, no one else was running against Lewis.$2\"/pause 700/emote farmer 8/pause 150/speak Pierre \"Oh, who's running against Lewis?$0#$b#Morris, of course...$2\"/pause 700/speak Pierre \"You should think about who you'll vote for...$0\"/pause 500/end dialogue Lewis \"It's been many years since anyone has contended against my position as Mayor.$0#$e#With what transpired with the community center... *sigh*$2#$b#Morris may be an actual contender...$0\""
+    "6665291/f MorrisTod 2500/e 6665290/w sunny/H": "continue/-500 -500/farmer -30 -30 0 Pierre -29 -29 0/skippable/pause 1500/speak Pierre \"Good morning, @.$1\"/pause 1000/speak Pierre \"การเลือกตั้งผู้ว่าเทศมนตรี แห่งเมืองเพลิแกน จะมาถึงในอีกสองสามวันนี้ ผมรู้ว่ามันอาจจะสายเกินไป ที่จะมาพูดเรื่องนี้นะ แต่ว่า...$0#$b#ที่ผ่านตั้งแต่ก่อนนู้น มาจนถึงเมื่อวานเนี่ย ไม่มีใครเคยลงแข่งกับเลวิสน่ะ$2\"/pause 700/emote farmer 8/pause 150/speak Pierre \"โอ้, จะมีใครละ ที่แข่งกับเลวิสได้?$0#$b#มอร์ริสหรอ อืม ก็ใช่...$2\"/pause 700/speak Pierre \"คุณต้องคิดแล้วล่ะ ว่าคุณจะลงคะแนนให้ใคร...$0\"/pause 500/end dialogue Lewis \"มันก็เป็นเรื่องที่มีมาเนิ่นนานแล้ว ที่มีคนคัดค้านในการดำรงตำแหน่ง นายกเทศมนตรีของฉัน$0#$e#เพราะเรื่องที่เกิดขึ้น กับศูนย์ชุมชน... *เฮ้อ*$2#$b#มอร์ริสก็คงเป็น คู่แข่งของฉันในตอนนี้ล่ะ...$0\""
 	},
 },
 
@@ -3829,7 +3829,7 @@
     "Action": "EditData",
     "Target": "Data/Events/town",
     "Entries": {
-    "6665292/e 6665291/w sunny/t 900 1700/H": "none/-500 -500/farmer 28 77 0 Morris 28 67 2 Jodi 25 67 1 Kent 25 68 1 Pam 31 67 3 Andy 30 69 0 Demetrius 27 70 0 Robin 28 70 0 Gus 31 68 3/positionOffset Gus -14 25/positionOffset Robin -3 -4/positionOffset Demetrius 3 4/positionOffset Andy -10 20/positionOffset Pam -8 20/positionOffset Kent 7 10/animate Morris false true 4000 0 4 0 12/pause 750/playMusic springtown/pause 600/skippable/viewport 28 75 true/viewport move 0 -1 5000 true/move farmer 0 -5 0 true/pause 900/speak Morris \"Pelican town's leadership for the past two decades have lead to the decay of the public's health and well-being!$3#$b#Destroyed bridges, a faulty busline, abandoned buildings, mismanaged festivals!$3#$b#With my leadership, Joja has fixed all of these problems!$5\"/pause 500/speak Morris \"If elected Mayor, I promise a new age of infrastructure!$0#$b#Paved lit roads! Public works projects! Electric grids! Next generation transporation!$4#$b#Elect me, Morris Tod, for Mayor! Let's pave a way to greatness here in Stardew Valley!$1\"/pause 1000/shake Andy 400/textAboveHead Andy \"You said it!\"/pause 500/shake Jodi 400/textAboveHead Jodi \"You have my vote!\"/pause 1080/shake Demetrius 300/textAboveHead Demetrius \"Inspiring speach!\"/pause 400/faceDirection Robin 3 true/pause 600/globalFade/viewport -1000 -1000/warp Demetrius -100 -100/warp Robin -100 -100/warp Andy -100 -100/warp Kent 21 73/warp Jodi 23 73/faceDirection Jodi 3 true/warp Pam 33 65/faceDirection Pam 1 true/warp Gus 35 65/stopAnimation Morris/faceDirection Morris 2 true/pause 300/viewport 28 69 true/pause 400/move farmer 0 -3 0 true/pause 650/speak Morris \"Ah, @! I saw you in the crowd during my speach!$0#$b#I've come to realize the only way to truly make change here is to be elected Mayor!$1#$b#I believe the odds are in my favor, if these crowd sizes show any merit!$4\"/pause 700/speak Morris \"Apologies for cutting our conversation short.$0#$b#I must continue on the campaign trail!$1\"/pause 400/end dialogue Morris \"I saw Lewis today. He seemed quite nervous!$1#$e#@, If I win this election, I promise I'll make the valley a place everyone can truly call home.$0\""  
+    "6665292/e 6665291/w sunny/t 900 1700/H": "none/-500 -500/farmer 28 77 0 Morris 28 67 2 Jodi 25 67 1 Kent 25 68 1 Pam 31 67 3 Andy 30 69 0 Demetrius 27 70 0 Robin 28 70 0 Gus 31 68 3/positionOffset Gus -14 25/positionOffset Robin -3 -4/positionOffset Demetrius 3 4/positionOffset Andy -10 20/positionOffset Pam -8 20/positionOffset Kent 7 10/animate Morris false true 4000 0 4 0 12/pause 750/playMusic springtown/pause 600/skippable/viewport 28 75 true/viewport move 0 -1 5000 true/move farmer 0 -5 0 true/pause 900/speak Morris \"การบริหารจัดการ เมืองเพลิแกนแห่งนี้ ในช่วงสองทศวรรษที่ผ่านมา มีแต่สิ่งจะนำไปสู่ความถดถอย ของระบบสาธารณสุข และชีวิตความเป็นอยู่ที่ดี ของชาวเมือง!$3#$b#สะพานที่ผุพัง เส้นทางรถประจำทางที่ถูกยกเลิก อาคารที่ถูกทิ้งร้าง การจัดการเทศกาลที่ผิดพลาด! น้ำรอการระบาย (-_-?)$3#$b#แต่ด้วยการนำของผม โจจ้าได้ซ่อมแซม และแก้ไขปัญหาพวกนี้ทั้งหมด!$5\"/pause 500/speak Morris \"ถ้าผมได้รับเลือกเป็นนายกเทศมนตรี ผมสัญญาได้เลย ระบบโครงสร้างพื้นฐานสมัยใหม่ จะมาสู่ที่นี้แน่!$0#$b#ถนนลาดยาง! โครงการจากภาครัฐ! ระบบโครงข่ายไฟฟ้า! การคมนาคมยุคใหม่$4#$b#เลือกผม มอร์ริส ท็อด เป็นนายกเทศมนตรี! และปูทางสู่ความยิ่งใหญ่ให้ สตาร์ดิวแวลลี!$1\"/pause 1000/shake Andy 400/textAboveHead Andy \"พูดอีกก็ถูกอีก!\"/pause 500/shake Jodi 400/textAboveHead Jodi \"เอาคะแนนฉันไปเลย!\"/pause 1080/shake Demetrius 300/textAboveHead Demetrius \"ปราศรัยได้กินใจ!\"/pause 400/faceDirection Robin 3 true/pause 600/globalFade/viewport -1000 -1000/warp Demetrius -100 -100/warp Robin -100 -100/warp Andy -100 -100/warp Kent 21 73/warp Jodi 23 73/faceDirection Jodi 3 true/warp Pam 33 65/faceDirection Pam 1 true/warp Gus 35 65/stopAnimation Morris/faceDirection Morris 2 true/pause 300/viewport 28 69 true/pause 400/move farmer 0 -3 0 true/pause 650/speak Morris \"อ่า @! ผมเห็นคุณอยู่ท่ามกลางฝูงชน ตอนที่กำลังกล่าวปราศรัย!$0#$b#ผมตระหนักได้ว่า วิธีเดียวที่จะเปลี่ยนแปลงที่นี่ ได้อย่างแท้จริง คือการได้เป็นนายกเทศมนตรี!$1#$b#ผมเชื่อว่า ตอนนี้ผมมีคะแนนนำอยู่ ดูจากฝูงชนที่ชื่มชอบในตัวผม!$4\"/pause 700/speak Morris \"ขออภัยจริงๆ ที่ต้องตัดบทการสนทนาของเรา$0#$b#ผมต้องไปหาเสียงต่อแล้ว!$1\"/pause 400/end dialogue Morris \"วันนี้ผมเห็นเลวิสด้วย ดูเหมือนเขาจะประหม่า!$1#$e#@ ถ้าผมชนะการเลือกตั้ง ผมสัญญาเลยว่า จะทำให้สตาร์ดิวแวลลีแห่งนี้ เป็นสถานที่ที่ทุกคนเรียกว่า บ้าน ได้อย่างแท้จริง$0\""  
 	},
 },
 
