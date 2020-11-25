@@ -3966,14 +3966,14 @@
 	 "fall_Tue10": "อ่า ผมเฝ้ารอที่จะได้ลิ้มรส ซุปครีมข้นล็อบสเตอร์ ในวันหยุดสุดสัปดาห์จริงๆ$1",
 	 "fall_Wed10": "ผมไม่เคยคิดมาก่อนเลย ว่าจะได้เป็นนายกเทศมนตรี ก็เป็นชีวิตการทำงานที่แปลกดี ว่ามั้ย?$0",
 	 "fall_Thu10": "บางทีผมน่าจะลอง วางกล่องรับข้อเสนอแนะดู...$0",
-	 "fall_Fri10": "อ้า @! ถนนใหม่เป็นยังไงมั่ง?$0#$b#เพื่อนสนิทของผม เป็นผู้รับเหมาน่ะ - Certainly made securing the development project a breeze in the wind!$1",
-	 "fall_Sat10": "สภาประจำเมือง เป็นการรวมกลุ่ม คนที่น่าสนใจไว้ด้วยกัน...$0",
+	 "fall_Fri10": "อ้า @! ถนนใหม่เป็นยังไงมั่ง?$0#$b#ก็เพื่อนสนิทของผม เป็นผู้ได้รับสัมปทานไง ยิ่งเป็นการสร้างหลักประกัน ให้โครงการพัฒนาชุมชน ผ่านฉลุย!$1",
+	 "fall_Sat10": "สภาประจำเมือง เป็นการรวมกลุ่มของ คนที่น่าสนใจ ไว้ด้วยกัน...$0",
 	 "fall_Sun10": "ขอให้เป็นวันที่ดี @$0",
 	 "winter_Tue10": "ร้านของปิแอร์กำลังลำบาก ผมต้องหาทางช่วยเหลือ...$2#$e#บางทีถ้าลองให้ร้านโจจ้า ขายของที่แตกต่างออกไปล่ะ? หรือไม่ต้องขายเมล็ดผัก?$0#$e#ไม่ ไม่ ผมจะไม่หว่านล้อมอะไรกับองค์กร ...$3",
-	 "winter_Thu10": "I had to 'pull some strings' to remain as a manager for Joja Mart, while also serving as Mayor.#$e#I'm friends with powerful people. Perhaps I'll introduce you one day...$4",
-	 "winter_Fri10": "Although Lewis and I don't meet eye to eye on policy, there is much I can learn from him.$1",
-	 "winter_Sat10": "I'm bone-tired lately. I should take a vacation soon...",
-	 "winter_Sun10": "I have a responsibility for the general welfare of Pelican Town.$0#$b#If you think of any improvements, do please inform me!$1#$e#Yes, yes. I'm aware of Pierre's store struggling.$0",
+	 "winter_Thu10": "ผมยังคงต้อง 'ใช้เส้นสาย' เพื่อให้ยังอยู่ในตำแหน่งผู้จัดการร้านโจจ้าได้ ขณะเดียวกัน ก็เป็นนายกเทศมนตรีไปด้วย#$e#ผมเป็นเพื่อนกับพวก คนใหญ่คนโตนะ บางทีสักวันนึง ผมจะแนะนำคุณกับพวกเขา...$4",
+	 "winter_Fri10": "ถึงแม้ว่าเลวิสกับผมจะเห็นต่างกันเรื่องนโยบายก็เถอะ แต่ก็มีหลายสิ่งที่ผมสามารถเรียนรู้จากเขาได้$1",
+	 "winter_Sat10": "ผมเหนื่อยจนร่างใกล้จะแหลกแล้ว ผมจะต้องหาวันพักร้อนแล้วล่ะ...",
+	 "winter_Sun10": "ผมมีหน้าที่รับผิดชอบต่อ สวัสดิการขั้นพื้นฐาน ของเมืองเพลิแกน$0#$b#ถ้าคุณคิดว่ามีตรงไหน ที่ต้องได้รับการพัฒนา แจ้งให้ผมทราบได้เลย!$1#$e#ใช่ ใช่ ผมก็ยังคิดเรื่องที่ร้านของปิแอร์ กำลังตกที่นั่งลำบาก$0",
 	 
 	 }
 },
@@ -3993,31 +3993,31 @@
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/lewis",
 	 "Entries": {
-     "election": "*sigh* Being Mayor for as long as I was... you get caught up with yourself and lose sight of your duties to the public...$2#$b#I believe Morris will be a good Mayor, and bring positive change to the valley.$2#$e#I still get to plan and host festivals as the event coordinater!$1#$e#I'll look at this as an opportunity to focus on myself, retire, and spend time with those I care about.$0#$e#Hmm. I wonder if Marnie would be interested in going to the saloon tonight.$1",
+     "election": "*เฮ้อ* การเป็นนายกเทศมนตรี ที่ยาวนานของฉัน... เหมือนกับการที่คุณ หมกมุ่นอยู่กับตัวเอง และละทิ้งหน้าที่ของคุณต่อสังคม...$2#$b#ฉันเชื่อว่ามอร์ริส จะเป็นนายกเทศมนตรีที่ดี และนำพาหุบเขา ให้เปลี่ยนแปลงไปในทางบวก$2#$e#ฉันยังได้รับมอบหมายให้ วางแผนและจัดงานเทศกาล ในฐานะผู้ประสานงานกิจกรรม!$1#$e#ฉันจะคิดว่านี่เป็น โอกาสที่ฉันจะได้ใส่ใจตัวเอง เตรียมเกษียณ และใช้เวลากับคนที่ฉันห่วงใย$0#$e#หืม อยากรู้จังว่าคืนนี้ มานีสนใจจะไปซาลูนมั้ยนะ$1",
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/abigail",
 	 "Entries": {
-     "election": "What will happen to our store?...$2#$e#Dad's been really upset.$2",
-	 "jojaEmporium": "Mom got a job in the city. Dad isn't giving up on the store.$2"
+     "election": "แล้วจะเกิดอะไรขึ้น กับร้านของเรา?...$2#$e#พ่อดูไม่พอใจสุดๆ$2",
+	 "jojaEmporium": "แม่ได้งานในเมืองแล้ว แต่พ่อยังไม่ยอมแพ้เรื่องร้านน่ะ$2"
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/caroline",
 	 "Entries": {
-     "election": "I don't trust Morris...$2#$e#Our store is in jeopardy. I might need to find part-time work in the city.$2",
-	 "jojaEmporium": "I'm earning a modest amount from my clerk position. Still getting used to the long commute...$2#$e#I didn't think I'd return to my office job.$2"
+     "election": "ฉันไม่เชื่อมอร์ริสหรอก...$2#$e#ร้านของเรากำลังอยู่ในวิกฤต ฉันอาจจำเป็นต้องหา งานพาร์ทไทม์ในเมือง$2",
+	 "jojaEmporium": "ฉันมีรายรับประมาณนึง ที่ได้จากงานธุรการของฉัน นี่ก็ยังชินกับการเดินทางนานๆ อยู่นะ...$2#$e#ฉันไม่คิดมาก่อนเลย ว่าจะต้องกลับไปทำงานออฟฟิศ$2"
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/pierre",
 	 "Entries": {
-     "election": "Morris must have cheated! It isn't possible he won the election!$3#$e#Pierre's General Store is done for...$2",
-	 "jojaEmporium": "Caroline went back to her day job to keep the store afloat.$2#$b#We will overcome this!$3#$e#Oh. @. Give Morris my regards next time you chat with him!$1#$e#%Pierre called me out..."
+     "election": "มอร์ริสมันต้องโกงแน่ๆ! ไม่มีทางที่คนแบบนั้น จะชนะการเลือกตั้ง!$3#$e#แล้วสิ่งที่ร้านปิแอร์ทำ ตลอดเวลาที่ผ่านมา...$2",
+	 "jojaEmporium": "แคโรไลน์ต้องกลับไปทำงาน เพื่อช่วยให้ร้านอยู่รอด$2#$b#เราจะผ่านมันไปให้ได้!$3#$e#โอ้ @ ฝากแสดงความนับถือของฉัน กับมอร์ริสด้วย ถ้าคุณได้คุยกับเขาครั้งหน้า!$1#$e#%ปิแอร์ตะโกนบอกฉัน..."
      },
 },
 {
