@@ -4311,11 +4311,11 @@
 	 "When": { "Hearts:Sandy": "5, 6, 7, 8, 9, 10", "HasMod |contains=foggy.LfL": false },
 	 "Entries": {
      "Sat": "หวัดดี @! แปลกใจละสิ ที่เห็นฉันในสตาร์ดิวแวลลีวันนี้?$0#$e#แล้ว... ตอนนี้ฟาร์มเข้าที่เข้าทางรึยังจ๊ะ?$1",
-	 "HaleyHouse_13_20": "วันนี้ฉันจะอยู่กับเอมิลี่ทั้งวัน!$1",
+	 "HaleyHouse_13_20": "วันนี้ฉันจะอยู่กับเอมิลีทั้งวัน!$1",
 	 "HaleyHouse_20_6": "หวัดดี @$0",
-	 "HaleyHouse_19_4": "เอ่อ ฉันกับเอมิลี่ยังนอนกันอยู่นะ เธอควรออกไปซะ...$2",
-	 "HaleyHouse_7_16": "วันนี้เอมิลี่ชวนฉันมานอนค้างล่ะ$0",
-	 "HaleyHouse_5_20": "วันนี้เอมิลี่ชวนฉันมานอนค้างล่ะ$0",
+	 "HaleyHouse_19_4": "เอ่อ ฉันกับเอมิลียังนอนกันอยู่นะ เธอควรออกไปซะ...$2",
+	 "HaleyHouse_7_16": "วันนี้เอมิลีชวนฉันมานอนค้างล่ะ$0",
+	 "HaleyHouse_5_20": "วันนี้เอมิลีชวนฉันมานอนค้างล่ะ$0",
 	 "Town_22_64": "อ่าว ว่าไงจ้ะ @ ลานกลางเมืองของคุณดีจัง",
 	 "Town_101_68": "ฉันชอบสวนนี้จัง!$1",
 	 "Saloon_17_20": "อยากจะดื่มด้วยกันกับฉันมั้ยจ้ะ ที่รัก?$0",
@@ -4354,7 +4354,7 @@
       "Action": "EditData",
       "Target": "data/festivals/spring13",
       "Entries": {
-        "Sandy": "The ice cold punch is tasty! Have you tried it?$0"
+        "Sandy": "พั้นซ์เกล็ดหิมะอร่อยสุดๆ! เธอได้ชิมรึยังจ้ะ?$0"
       }
     },
 
@@ -4362,7 +4362,7 @@
       "Action": "EditData",
       "Target": "data/festivals/spring24",
       "Entries": {
-        "Sandy": "Aren't the flowers beautiful? I feel like I'm in heaven...$1#$e#Emily was practicing her dance moves until midnight.$0"
+        "Sandy": "ดอกไม้พวกนี้สวยจัง ว่ามั้ย? อย่างกับฉันกำลัง อยู่บนสวรรค์แน่ะ...$1#$e#เอมิลีฝึกเต้นถึงเมื่อคืนเลย$0"
       }
     },
 	
@@ -4370,7 +4370,7 @@
       "Action": "EditData",
       "Target": "data/festivals/summer11",
       "Entries": {
-        "Sandy": "I may dance with Emily soon. Care to join?$0#$e#*whisper* It's okay if you're not good at it.$1"
+        "Sandy": "เดี๋ยวฉันจะไปเต้นกับเอมิลีนะ เต้นด้วยกันมั้ย?$0#$e#*กระซิบ* ถึงเธอจะเต้นไม่เก่ง ก็ไม่เป็นไรหรอกจ้า$1"
       }
     },
 	
@@ -4378,7 +4378,7 @@
       "Action": "EditData",
       "Target": "data/festivals/summer28",
       "Entries": {
-        "Sandy": "Hi there, honey. To tell you the truth, I've been looking forward to this moment!$1"
+        "Sandy": "ว่าไงจ๊ะ ที่รัก พูดกันตรงๆ เลย ว่าฉันรอช่วงเวลานี้ แบบใจจดใจจ่อเลยล่ะ!$1"
       }
     },
 
@@ -4386,7 +4386,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall16",
       "Entries": {
-        "Sandy": "That clown's makeup is really good. I wonder how long it took him...$0"
+        "Sandy": "ตัวตลกคนนั้น แต่งหน้าได้เนียบสุดๆ เลย อยากรู้จังว่าเขาใช้เวลา แต่งหน้านานแค่ไหน...$0"
       }
     },
 	
@@ -4394,7 +4394,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall27",
       "Entries": {
-        "Sandy": "Why hello, honey.$0#$b#Have you seen the monsters yet?$0#$e#Yep. I saw them. They were... scary.$2#$b#It's incredible you fight those... things.$0"
+        "Sandy": "อ่าว เจอกันอีกแล้ว ที่รัก$0#$b#เธอเห็นมอนสเตอร์พวกนั้นรึยัง?$0#$e#อ่าฮะ ฉันไปดูมาแล้ว พวกมันแบบ... น่ากลัวสุดๆ$2#$b#เหลือเชื่อไปเลย ที่เธอสู้กับตัวอะไร... พวกนั้น$0"
       }
     },
 	
@@ -4402,7 +4402,7 @@
       "Action": "EditData",
       "Target": "data/festivals/winter8",
       "Entries": {
-        "Sandy": "You don't see snow in the desert!$1"
+        "Sandy": "เธอจะไม่เห็นหิมะในทะเลทราย!$1"
       }
     },
 	
@@ -4410,7 +4410,7 @@
       "Action": "EditData",
       "Target": "data/festivals/winter25",
       "Entries": {
-        "Sandy": "Hey, @! Merry Winter Star!$1#$e#Your town's Winter Star tree is delightful.$0"
+        "Sandy": "นี่ @! สุขสันต์วันเทศกาล แห่งดวงดาวฤดูหนาว!$1#$e#เทศกาลแห่งดวงดาวฤดูหนาว ของเมืองเธอ รื่นเริงจริงๆ$0"
       }
     },
 
@@ -4870,7 +4870,7 @@
     "Action": "EditData",
     "Target": "Data/Events/communitycenter",
     "Entries": {
-	"Punch": "pause 100/skippable/showFrame Morris 12/textAboveHead Morris \"ฮ่าห์!\"/pause 500/speak Morris \"มันไม่มีความหมายอะไรเลย! ผมแค่จัดการลดราคาสินค้าลง 75% แล้วลูกค้าทั้งหมดก็จะ คลานกลับมาอ้อนวอนขออภัย จากผมเอง! คุณจะได้เห็นดีแน่!$h\"/shake Pierre 500/pause 1000/speak Pierre \"ไม่... ไม่ใช่ครั้งนี้ มอร์ริส$u#$b#ผมคิดว่ามันถึงเวลา ที่เราจะจบเรื่องนี้ได้แล้วล่ะ$u\"/pause 500/speak Morris \"โอ้? และคุณจะเสนอให้ เราทำยังไงดีล่ะ?$u\"/playMusic event1/pause 2000/animate Pierre false true 200 20 21/positionOffset Pierre 8 8/pause 1500/speak Morris \"ฮ่าห์! ป่าเถื่อน...\"/move Morris 0 1 2/speak Pierre \"ถ้านายกลัวเกินกว่าจะสู้กับฉัน งั้นก็ส่งเพื่อนร่วมงาน ของนายมาซักคน! หรือพนักงานโจจ้า เป็นพวกขี้ขลาดกันหม?$u\"/faceDirection Morris 1 true/pause 50/faceDirection Morris 0/shake Morris 1000/pause 1500/speak Morris \"ดูถูกฉันยังไงได้ที่นายพอใจ... แต่นายอย่าบังอาจมาดูถูก ชื่อโจจ้าเด็ดขาด!$u\"/speed Morris 4/move Morris 0 -1 3/showFrame Morris 20/positionOffset Morris -4 -4/animate Morris false true 200 20 21/pause 2000/stopAnimation Morris/showFrame Morris 22/playSound clubhit/stopAnimation Pierre/showFrame Pierre 22/pause 500/jump Caroline/textAboveHead Caroline \"ปีแอร์!\"/speed Caroline 4/move Caroline 0 4 1 true/animate Morris false true 200 20 21/animate Pierre false true 200 20 21/pause 500/faceDirection Andy 3/pause 500/speed Susan 4/move Susan 0 -1 3/speed Susan 4/move Susan -1 0 3 true/pause 200/jump Robin/showFrame Robin 19/pause 400/textAboveHead Andy \"ฮ่า! เยี่ยมเลย!\"/pause 1000/jump Lewis/stopAnimation Morris/showFrame Morris 22/playSound clubhit/shake Pierre 200/stopAnimation Pierre/showFrame Pierre 22/pause 500/animate Morris false true 200 20 21/animate Pierre false true 200 20 21/pause 2000/stopAnimation Morris/showFrame Morris 22/playSound clubhit/shake Pierre 200/stopAnimation Pierre/showFrame Pierre 22/pause 500/jump Caroline/speak Morris \"คุณอ่อนแอกว่า พวกผักผลไม้ของนาย ซะอีก!$u\"/animate Morris false true 200 20 21/animate Pierre false true 200 20 21/pause 2000/speak Pierre \"ส่วนวิธีออกหมัดของนาย ก็เหมือนกับโจจ้า...$u#$b#เน้นปริมาณ ไม่เน้นคุณภาพ!\"/pause 1000/stopAnimation Morris/showFrame Morris 22/playSound clubhit/shake Pierre 200/stopAnimation Pierre/showFrame Pierre 22/pause 500/animate Morris false true 200 20 21/animate Pierre false true 200 20 21/pause 1000/pause 500/textAboveHead Susan \"โอ้ ไม่นะ!\"/pause 2000/stopAnimation Pierre/stopAnimation Morris/showFrame Pierre 17/showFrame Morris 20/pause 100/showFrame Pierre 18/showFrame Morris 23/playSound clubhit/shake Morris 250/pause 50/showFrame Pierre 17/showFrame Morris 20/pause 1000/showFrame Morris 20/pause 100/showFrame Pierre 18/showFrame Morris 23/playSound clubhit/shake Morris 250/pause 50/showFrame Morris 20/showFrame Pierre 17/pause 1000/showFrame Morris 20/pause 100/showFrame Pierre 18/showFrame Morris 23/playSound clubhit/shake Morris 250/pause 50/showFrame Morris 20/showFrame Pierre 17/pause 1000/shake Pierre 1000/showFrame Morris 19/pause 1000/showFrame Pierre 17/positionOffset Pierre 4 0/pause 100/positionOffset Pierre 4 0/showFrame Pierre 18/pause 100/positionOffset Pierre 4 0/showFrame Pierre 19/playSound clubSmash/warp Morris -2000 -2000/specificTemporarySprite morrisFlying/pause 2000/playSound barrelBreak/showFrame Pierre 4/pause 2000/move Pierre 1 0 0/pause 1000/playSound dwop/faceDirection Pierre 1 true/pause 50/faceDirection Pierre 2/pause 100/showFrame Pierre 23/playSound stoneStep/pause 500/globalFade/viewport -9999 -9999/pause 4000/message \"มอร์ริสและพรรคพวก ร้านโจจ้าของเขา ก็ไม่เคยได้กลับมาอีกเลย\"/pause 500/end position 52 20",	
+	"Punch": "pause 100/skippable/showFrame Morris 12/textAboveHead Morris \"ฮ่าห์!\"/pause 500/speak Morris \"มันไม่มีความหมายอะไรเลย! ผมแค่จัดการลดราคาสินค้าลง 75% แล้วลูกค้าทั้งหมดก็จะ คลานกลับมาอ้อนวอนขออภัย จากผมเอง! คุณจะได้เห็นดีแน่!$h\"/shake Pierre 500/pause 1000/speak Pierre \"ไม่... ไม่ใช่ครั้งนี้ มอร์ริส$u#$b#ฉันคิดว่ามันถึงเวลา ที่เราจะจบเรื่องนี้ได้แล้วล่ะ$u\"/pause 500/speak Morris \"โอ้? และคุณจะเสนอให้ เราทำยังไงดีล่ะ?$u\"/playMusic event1/pause 2000/animate Pierre false true 200 20 21/positionOffset Pierre 8 8/pause 1500/speak Morris \"ฮ่าห์! ป่าเถื่อน...\"/move Morris 0 1 2/speak Pierre \"ถ้านายกลัวเกินกว่าจะสู้กับฉัน งั้นก็ส่งเพื่อนร่วมงาน ของนายมาซักคน! หรือพนักงานโจจ้า เป็นพวกขี้ขลาดกันหมด?$u\"/faceDirection Morris 1 true/pause 50/faceDirection Morris 0/shake Morris 1000/pause 1500/speak Morris \"ดูถูกผมยังไงก็ได้ที่คุณพอใจ... แต่คุณอย่าบังอาจมาดูถูก ชื่อโจจ้าเด็ดขาด!$u\"/speed Morris 4/move Morris 0 -1 3/showFrame Morris 20/positionOffset Morris -4 -4/animate Morris false true 200 20 21/pause 2000/stopAnimation Morris/showFrame Morris 22/playSound clubhit/stopAnimation Pierre/showFrame Pierre 22/pause 500/jump Caroline/textAboveHead Caroline \"ปีแอร์!\"/speed Caroline 4/move Caroline 0 4 1 true/animate Morris false true 200 20 21/animate Pierre false true 200 20 21/pause 500/faceDirection Andy 3/pause 500/speed Susan 4/move Susan 0 -1 3/speed Susan 4/move Susan -1 0 3 true/pause 200/jump Robin/showFrame Robin 19/pause 400/textAboveHead Andy \"ฮ่า! เยี่ยมเลย!\"/pause 1000/jump Lewis/stopAnimation Morris/showFrame Morris 22/playSound clubhit/shake Pierre 200/stopAnimation Pierre/showFrame Pierre 22/pause 500/animate Morris false true 200 20 21/animate Pierre false true 200 20 21/pause 2000/stopAnimation Morris/showFrame Morris 22/playSound clubhit/shake Pierre 200/stopAnimation Pierre/showFrame Pierre 22/pause 500/jump Caroline/speak Morris \"คุณอ่อนแอกว่า พวกผักผลไม้ของคุณ ซะอีก!$u\"/animate Morris false true 200 20 21/animate Pierre false true 200 20 21/pause 2000/speak Pierre \"ส่วนวิธีออกหมัดของนาย ก็เหมือนกับโจจ้า...$u#$b#เน้นปริมาณ ไม่เน้นคุณภาพ!\"/pause 1000/stopAnimation Morris/showFrame Morris 22/playSound clubhit/shake Pierre 200/stopAnimation Pierre/showFrame Pierre 22/pause 500/animate Morris false true 200 20 21/animate Pierre false true 200 20 21/pause 1000/pause 500/textAboveHead Susan \"โอ้ ไม่นะ!\"/pause 2000/stopAnimation Pierre/stopAnimation Morris/showFrame Pierre 17/showFrame Morris 20/pause 100/showFrame Pierre 18/showFrame Morris 23/playSound clubhit/shake Morris 250/pause 50/showFrame Pierre 17/showFrame Morris 20/pause 1000/showFrame Morris 20/pause 100/showFrame Pierre 18/showFrame Morris 23/playSound clubhit/shake Morris 250/pause 50/showFrame Morris 20/showFrame Pierre 17/pause 1000/showFrame Morris 20/pause 100/showFrame Pierre 18/showFrame Morris 23/playSound clubhit/shake Morris 250/pause 50/showFrame Morris 20/showFrame Pierre 17/pause 1000/shake Pierre 1000/showFrame Morris 19/pause 1000/showFrame Pierre 17/positionOffset Pierre 4 0/pause 100/positionOffset Pierre 4 0/showFrame Pierre 18/pause 100/positionOffset Pierre 4 0/showFrame Pierre 19/playSound clubSmash/warp Morris -2000 -2000/specificTemporarySprite morrisFlying/pause 2000/playSound barrelBreak/showFrame Pierre 4/pause 2000/move Pierre 1 0 0/pause 1000/playSound dwop/faceDirection Pierre 1 true/pause 50/faceDirection Pierre 2/pause 100/showFrame Pierre 23/playSound stoneStep/pause 500/globalFade/viewport -9999 -9999/pause 4000/message \"มอร์ริสและพรรคพวก ร้านโจจ้าของเขา ก็ไม่เคยได้กลับมาอีกเลย\"/pause 500/end position 52 20",	
 	},
 },
 
@@ -5421,9 +5421,9 @@
 	  "Sun": "...$2",
 	  "fall_Tue": "...$2",
 	  "winter_Fri6": "...$2",
-	  "fall_Wed": "The town has certainly become quite developed since Morris became Mayor.$0#$e#That emporium sells some fine trinkets...$1",
-	  "summer_Tue": "The town has certainly become quite developed since Morris became Mayor.$0#$e#That emporium sells some fine trinkets...$1",
-	  "winter_Wed": "The town has certainly become quite developed since Morris became Mayor.$0#$e#That emporium sells some fine trinkets...$1"
+	  "fall_Wed": "เมืองนี้ค่อนข้างพัฒนาไปมาก ตั้งแต่ที่มอร์ริส มาเป็นนายกเทศมนตรี$0#$e#ห้างนั้นขายของใช้ได้...$1",
+	  "summer_Tue": "เมืองนี้ค่อนข้างพัฒนาไปมาก ตั้งแต่ที่มอร์ริส มาเป็นนายกเทศมนตรี$0#$e#ห้างนั้นขายของใช้ได้...$1",
+	  "winter_Wed": "เมืองนี้ค่อนข้างพัฒนาไปมาก ตั้งแต่ที่มอร์ริส มาเป็นนายกเทศมนตรี$0#$e#ห้างนั้นขายของใช้ได้...$1"
 	  },
 },
 
@@ -5437,8 +5437,8 @@
 	  "Town_38_14": "ถังพวกนี้ดูเป็นระเบียบ ซูซานค่อนข้างมีทักษะ ในการสภาพดี$0",
 	  "Town_47_87": "ขอโทษ @ มันไม่ใช่เวลาที่ดีที่สุด ที่จะพูดคุย...$2",
 	  "Summit_17_17": "สวัสดี @ ฉันมาที่นี่เพื่อมาชมวิว เหมือนกัน$1",
-	  "AnimalShop_13_5": "Wh-what are you doing here!?$4",
-	  "AnimalShop_30_16": "Marnie invited me for dinner.$1",
+	  "AnimalShop_13_5": "มะ-มาทำอะไรที่นี่!?$4",
+	  "AnimalShop_30_16": "มานีชวนฉันมาทานมื้อค่ำ$1",
 	  },
 },
 
@@ -5473,7 +5473,7 @@
 	  "MarnieShed_14_7": "ฉันจะมีชีสขาย เร็วๆ นี้$1",
 	  "MarnieShed_12_5": "%มานี กำลังยุ่งอยู่กับ การจัดเก็บเครื่องมือของเธอ",
 	  "MarnieShed_11_6": "เครื่องทอผ้าเหล่านี้ ทำงานได้อย่างมหัศจรรย์ กับขนแกะดิบ$1#$b#ฉันไม่เคยเสียเวลา กับการประดิษฐ์ ฉันซื้อจากซูซาน หรือ จากเมืองอื่น$0",
-	  "AnimalShop_12_5": "@! Leave at once!$4",
+	  "AnimalShop_12_5": "@! ออกไปเดี๋ยวนี้!$4",
 	  },
 },
 
@@ -5498,8 +5498,8 @@
 	  "Town_106_100": "พืชผลของฉันแข็งแรงดี!$1",
 	  "Town_105_100": "พืชผลของฉันแข็งแรงดี!$1",
 	  "Town_104_100": "พืชผลของฉันแข็งแรงดี!$1",
-	  "claireSaloon": "I feel awful for that young women...$2#$e#I see her working a lot, but earning so little.$0",
-	  "claireSaloonPaid": "That was kind of you to help pay for that customer's meal, @.$0#$e#I wish I could help in those situations, but if I did that on every occasion, the saloon would go out of business...$2"
+	  "claireSaloon": "ผมรู้สึกเสียใจจริงๆ กับหญิงสาวคนนั้น...$2#$e#ผมเห็นเธอทำงานอย่างหนัก แต่กลับได้ค่าตอบแทบน้อยนิด$0",
+	  "claireSaloonPaid": "คุณช่างใจดีจริงๆ ที่ช่วยค่าอาหารให้ลูกค้าคนนั้น @$0#$e#ผมเองก็อยากจะช่วย เวลาเจอเหตุการณ์ แบบนั้นเหมือนกัน แต่ถ้าผมทำมันทุกครั้ง ซาลูนก็คงจะอยู่ไม่รอด...$2"
 	  },
 },
 
