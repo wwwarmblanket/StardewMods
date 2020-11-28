@@ -4008,7 +4008,7 @@
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/caroline",
 	 "Entries": {
-     "election": "ฉันไม่เชื่อมอร์ริสหรอก...$2#$e#ร้านของเรากำลังอยู่ในวิกฤต ฉันอาจจำเป็นต้องหา งานพาร์ทไทม์ในเมือง$2",
+     "election": "ฉันไม่เชื่อมอร์ริสหรอก...$2#$e#ร้านของเรากำลังอยู่ในวิกฤต ฉันอาจจะต้องไปหา งานพาร์ทไทม์ในเมือง$2",
 	 "jojaEmporium": "ฉันมีรายรับประมาณนึง ที่ได้จากงานธุรการของฉัน นี่ก็ยังชินกับการเดินทางนานๆ อยู่นะ...$2#$e#ฉันไม่คิดมาก่อนเลย ว่าจะต้องกลับไปทำงานออฟฟิศ$2"
      },
 },
@@ -4024,188 +4024,188 @@
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/clint",
 	 "Entries": {
-     "election": "So... Morris is Mayor now...$2#$e#I wonder how Lewis is doing...$0",
-	 "jojaEmporium": "There's a parking lot behind my house.$2#$e#I'll miss that park...$2"
+     "election": "งั้น... ตอนนี้มอร์ริสก็เป็น นายกเทศมนตรีแล้ว...$2#$e#แล้วเลวิสจะทำยังไงต่อไปล่ะ...$0",
+	 "jojaEmporium": "ตอนนี้มีที่จอดรถ อยู่หลังบ้านฉันแทน$2#$e#ฉันคงคิดถึงสวนนั่น...$2"
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/demetrius",
 	 "Entries": {
-     "election": "Joja Co. has a poor history respecting the environment. And now Morris is our Mayor...$2#$e#Robin is worried her carpentry trade will be replaced with a cheaper alternative...$2",
+     "election": "บริษัทโจจ้า มีประวัติไม่ดีในเรื่อง ความสำนึกต่อสิ่งแวดล้อม แล้วตอนนี้มอร์ริสก็เป็นนายกฯ ของพวกเรา...$2#$e#โรบินกำลังเป็นกังวล เรื่องกิจการงานไม้ของเธอ จะถูกแทนที่ด้วยอะไรอย่างอื่น ที่ถูกกว่า...$2",
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/robin",
 	 "Entries": {
-     "election": "If I wanted roads developed outside the home I built, I would've done it myself...$3#$e#I'm afraid Morris will try running my carpentry trade out of business...$2",
+     "election": "ถ้าฉันอยากได้ ถนนตัดใหม่รอบเมืองละก็ ฉันจะทำมันเอง...$3#$e#ฉันกลัวว่ามอร์ริส จะพยายามทำให้ กิจการงานไม้ของฉัน เจ๊งน่ะสิ...$2",
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/willy",
 	 "Entries": {
-     "election": "I suppose I'll be anglin' more Joja CD's and cola...$2",
+     "election": "สงสัยฉันจะตกแผ่นซีดี กับกระป๋องโจจ้าโคล่า ได้เยอะกว่าเดิม...$2",
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/elliott",
 	 "Entries": {
-     "election": "A change in leadership could be a great thing for a small community.$0#$e#I do have my reservations about Morris...$2#$b#But he did win the election, which means he has the faith of the majority.$0",
+     "election": "การเปลี่ยนผู้นำ เป็นสิ่งที่ดีในชุมชนเล็กๆ นะครับ$0#$e#ผมยังสงสัยในตัวมอร์ริสนะ...$2#$b#แต่ถ้าเขาชนะการเลือกตั้ง ก็หมายความว่า คนส่วนใหญ่เชื่อมั่นในตัวเขา$0",
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/emily",
 	 "Entries": {
-     "election": "Lewis looks so sad...$2#$e#I know! I'll sew him some new socks!$0",
+     "election": "เลวิสดูเศร้าจัง...$2#$e#รู้แล้ว! ฉันจะเย็บถุงเท้าใหม่ให้เขา!$0",
      },
 },	
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/george",
 	 "Entries": {
-     "election": "Hmmph! Morris will bring about much needed change here.$0",
+     "election": "ฮึ่ม! มอร์ริสจะทำให้ที่นี่ เปลี่ยนแปลงไปมาก$0",
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/gus",
 	 "Entries": {
-     "election": "A more developed Pelican Town could excite tourism and help the saloon financially!$1",
+     "election": "เมืองเพลิแกนที่ได้รับ การพัฒนามากขึ้น จะช่วยดึงดูดนักท่องเที่ยวมา และก็จะช่วยกิจการ ของซาลูนด้วย!$1",
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/haley",
 	 "Entries": {
-     "election": "I'm SO looking forward to actual roads. My shoes always get muddy.$0",
-	 "jojaEmporium": "Oh my god! There's a new shopping center in town now!$1"
+     "election": "ฉันรอถนน ที่เป็นถนนจริงๆ แบบใจดใจจ่อเลยล่ะ รองเท้าฉันเลอะโคลนตลอด$0",
+	 "jojaEmporium": "พระเจ้าช่วย! ตอนนี้มีห้างสรรพสินค้าใหม่ ในเมืองแล้ว!$1"
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/harvey",
 	 "Entries": {
-     "election": "Must say, I didn't expect Morris to pull out a victory.$0",
+     "election": "บอกตามตรง ผมคาดไม่ถึงเลยว่า มอร์ริสจะได้รับชัยชนะ$0",
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/jas",
 	 "Entries": {
-     "election": "Why isn't Lewis Mayor anymore?$2",
+     "election": "ทำไมลุงเลวิส ไม่ได้เป็นนายกฯ ต่อแล้วคะ?$2",
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/jodi",
 	 "Entries": {
-     "election": "I'm overjoyed Morris won! He's a man of his word!$1",
-	 "jojaEmporium": "Have you been to the emporium yet, @?$0"
+     "election": "ฉันดีใจสุดๆ ไปเลยที่มอร์ริสชนะ! เขาเป็นคนพูดจริงทำจริงนะ!$1",
+	 "jojaEmporium": "เธอได้ไปเอ็มโพเลี่ยมยังจ๊ะ @?$0"
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/alex",
 	 "Entries": {
-     "election": "I've never voted before. That was fun.$0",
+     "election": "ฉันไม่เคยเลือกตั้ง มาก่อนเลยอ่ะ ก็หนุกดีนะ$0",
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/leah",
 	 "Entries": {
-	 "election": "I don't want paved roads by my house...$2"
+	 "election": "ฉันไม่อยากได้ถนนลาดยาง ข้างบ้านฉันนะ...$2"
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/marnie",
 	 "Entries": {
-     "election": "Lewis needs our support more than ever, @.$2#$e#I'll bake one of his favorite meals to chear him up...$2",
-	 "jojaEmporium": "There's a road beside our property now.$0#$e#It looks nice, but I prefer a natural dirt road...$2"
+     "election": "เลวิสคงต้องการกำลังใจมากๆ ตอนนี้ @$2#$e#ฉันจะทำเมนูที่เขาชอบมากๆ ไปให้ เพื่อช่วยเขาสดใสขึ้นหน่อย...$2",
+	 "jojaEmporium": "ตอนนี้มีถนนอยู่ข้างบ้าน ของฉันแล้ว$0#$e#มันก็ดูดีนะ แต่ฉันชอบถนนดินลูกรัง แบบธรรมชาติๆ มากกว่า...$2"
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/maru",
 	 "Entries": {
-     "election": "I imagine there will be light pollution from the paved lit roads.$2#$b#It'll make stargazing difficult...$2",
+     "election": "ฉันจินตนาการได้เลยว่า จะต้องมีแสงรบกวนจาก ไฟส่องถนนมากขึ้น$2#$b#แสงพวกนั้นจะรบกวน การดูดาวของฉัน...$2",
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/pam",
 	 "Entries": {
-     "election": "Hah! 'Bout time there was change in leadership here.$1#$e#More tourism means a bigger paycheck for me! All aboard!$1",
+     "election": "ฮ่าห์! ถึงเวลาเปลี่ยนผู้นำแล้ว$1#$e#นักท่องเที่ยวเพิ่มขึ้น หมายถึงค่าจ้างฉันเพิ่มขึ้น! มาเลย ขึ้นรถมาให้หมด!$1",
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/penny",
 	 "Entries": {
-     "election": "Our little community won't ever be the same...$2",
+     "election": "ชุมชนเล็กๆ ของเรา คงจะไม่เหมือนเดิมอีกแล้ว...$2",
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/sam",
 	 "Entries": {
-     "election": "Hey there. Can you believe my boss is the Mayor of Pelican Town now? Crazy!$1",
-	 "jojaEmporium": "Did you see me during that ceremony? Got a new uniform for work!$1"
+     "election": "เฮ้ ว่าไง ใครจะไปเชื่อว่าหัวหน้าของฉัน จะได้เป็นนายกฯ? โครตแจ่ม!$1",
+	 "jojaEmporium": "คุณเห็นฉันตอนพิธีเปิดป่าว? ได้ยูนิฟอร์มใหม่ ไว้ใส่ตอนทำงานด้วยอ้ะ!$1"
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/sebastian",
 	 "Entries": {
-     "election": "I don't care about the election results.$5#$e#Nope. I didn't vote.$0",
-	 "jojaEmporium": "Can't smoke on the roof of the emporium...$0#$e#It's a shame. I almost thought it was a cool place.$0"
+     "election": "ฉันไม่สนใจเรื่อง ผลการเลือกตั้งหรอก$5#$e#ไม่อ่ะ ฉันไม่ได้ลงคะแนน$0",
+	 "jojaEmporium": "ฉันไปสูบบุหรี่บนดาดฟ้า ของเอ็มโพเลี่ยมไม่ได้...$0#$e#น่าเสียดายชะมัด อุส่าห์คิดไว้ว่าต้องเป็นที่ๆ เจ๋งแน่ๆ$0"
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/shane",
 	 "Entries": {
-     "election": "Morris won... What a series of events.$0#$e#My aunt isn't taking it too well...$2",
+     "election": "มอร์ริสชนะหรอ... ลำดับเหตุการณ์เป็นไงน่ะ$0#$e#ป้าฉันดูไม่ค่อยสบอารมณ์...$2",
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/vincent",
 	 "Entries": {
-     "election": "Mommy has been really happy lately!$1#$e#Did something happen?$0",
+     "election": "แม่ผมดูอารมณ์ดีสุดๆ ไปเลย!$1#$e#เกิดอะไรขึ้นหรอฮะ?$0",
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/wizard",
 	 "Entries": {
-     "election": "The election? Yes, I'm aware of it.#$e#I don't concern myself with those matters...",
+     "election": "การเลือกตั้งงั้นรึ? อ้อ ข้ารู้เรื่องนั้นแล้ว#$e#ไม่ใช่อะไรที่ข้าต้องไปใส่ใจ กับเรื่องพวกนั้นหรอก...",
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/sandy",
 	 "Entries": {
-     "election": "I heard you guys have a different Mayor now!$1#$e#What's he like?$0",
+     "election": "ฉันได้ยิมมาว่าพวกเธอได้นายกฯ คนใหม่แล้วนี่!$1#$e#เขาเป็นคนแบบไหนหรอ?$0",
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/victor",
 	 "Entries": {
-     "election": "Morris has experience in real estate development. It's something good for the community.$3",
+     "election": "มอร์ริสมีประสบการณ์ ด้านการพัฒนาที่อยู่อาศัย มาก่อนด้วยนะครับ ซึ่งนั่นเป็นอะไรที่ดี ต่อชุมชนครับ$3",
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/olivia",
 	 "Entries": {
-	 "jojaEmporium": "The emporium rooftop is lavish! I must dine there again with Morris.$3#$e#He has a charming personality...$1"
+	 "jojaEmporium": "ดาดฟ้าของเอ็มโพเรี่ยม อลังการสุดๆ เลยจ้ะ! ฉันคงต้องไปดินเนอร์ กับมอร์ริสอีกสักครั้ง$3#$e#เขาเป็นคนมีสเน่ห์ ไม่เบาเลยนะจ๊ะ...$1"
      },
 },
 {
@@ -4213,52 +4213,52 @@
 	 "Target": "characters/dialogue/olivia",
 	 "When": { "Spouse": "Olivia" },
 	 "Entries": {
-     "election": "Oh, dear! Morris won the mayoral election!$1#$b#Let us celebrate with a glass of wine!$3",
-	 "jojaEmporium": "The emporium rooftop is lavish! We must dine up there, dear.$3"
+     "election": "โอ้ ตายจริง! มอร์ริสชนะการเลือกตั้ง นายกเทศมนตรี!$1#$b#เราคงต้องเปิดไวน์ ฉลองกันหน่อยแล้วละจ้ะ!$3",
+	 "jojaEmporium": "ดาดฟ้าของเอ็มโพเรี่ยม อลังการสุดๆ เลยจ้ะ! เราต้องไปดินเนอร์กัน ที่นั่นนะจ๊ะ ที่รัก$3"
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/sophia",
 	 "Entries": {
-     "election": "Why... why does it have to be Joja?$2#$e#...$6",
+     "election": "ทำไม... ทำไมต้องเป็นโจจ้าด้วย?$2#$e#...$6",
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/marlonfay",
 	 "Entries": {
-     "election": "Good day, @.$0#$e#No. I don't carry any opinions about the election results...$0",
+     "election": "เป็นวันที่ดีนะ @$0#$e#ไม่ล่ะ ข้าไม่ขอออกความเห็นอะไร กับผลการเลือกตั้ง...$0",
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/susan",
 	 "Entries": {
-     "election": "Things couldn't be worse, dear. Morris is our Mayor now...$2#$e#I will never forgive Joja for trapping me behind boulders.$3",
+     "election": "ไม่มีอะไรจะเลวร้าย ไปกว่านี้แล้ว ที่รัก ตอนนี้มอร์ริสเป็น นายกเทศมนตรีของเรา...$2#$e#ฉันไม่มีวันให้อภัย เรื่องที่โจจ้าทำให้ฉัน ติดอยู่หลังก้อนหินพวกนั้น$3",
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/gunthersilvian",
 	 "Entries": {
-     "election": "It was a close election, but the results were as clear as a polished gem stone.$5",
+     "election": "นี่เลือกตั้งแบบปิด (close election) ก็จริง แต่ผลคะแนนนั้น ใสสะอาดดุจเพชรที่เจียระไน$5",
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/claire",
 	 "Entries": {
-	 "election": "My manager is a Mayor now. Who would've thought...$0",
-     "jojaEmporium": "I think the trucks at the ceremony were a bit much...$0",
+	 "election": "ผู้จัดการของฉันได้เป็นนายกฯ ใครจะไปคิด...$0",
+     "jojaEmporium": "ฉันว่าการเอารถบรรทุก มาในงานพิธีเปิด มันออกจะเกินไปซักหน่อย...$0",
      },
 },
 {
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/martin",
 	 "Entries": {
-	 "election": "I'm not old enough to vote.$4",
-     "jojaEmporium": "That ceremony was really cool. I liked the part with the balloons!$1",
+	 "election": "ผมยังเด็กเกินไป ก็เลยเลือกตั้งไม่ได้$4",
+     "jojaEmporium": "พิธีเปิดอย่างแจ่มเลยนะครับ ผมชอบตอนที่ปล่อยบอลลูน!$1",
      },
 },
 
@@ -4310,18 +4310,18 @@
 	 "Target": "characters/dialogue/Sandy",
 	 "When": { "Hearts:Sandy": "5, 6, 7, 8, 9, 10", "HasMod |contains=foggy.LfL": false },
 	 "Entries": {
-     "Sat": "Hi, @! Surprised to see me in Stardew Valley today?$0#$e#So... how's the farm shaping up?$1",
-	 "HaleyHouse_13_20": "I'm spending the day with Emily!$1",
-	 "HaleyHouse_20_6": "Hi, @.$0",
-	 "HaleyHouse_19_4": "Um. Emily and I are sleeping. Please leave...$2",
-	 "HaleyHouse_7_16": "Emily invited me to sleep over tonight.$0",
-	 "HaleyHouse_5_20": "Emily invited me to sleep over tonight.$0",
-	 "Town_22_64": "Hi there, @. Your town plaza is nice.",
-	 "Town_101_68": "I love the park!$1",
-	 "Saloon_17_20": "Care to have a drink with me, honey?$0",
-	 "Forest_71_50": "Why hello there, @.$1#$b#Cindersap forest is... beautiful. I don't often see so many trees all in one place.",
-	 "Beach_53_24": "The ocean is breathtaking.$0",
-	 "CommunityCenter_11_23": "Isn't it lovely seeing everyone gathered in one place?$1",
+     "Sat": "หวัดดี @! แปลกใจละสิ ที่เห็นฉันในสตาร์ดิวแวลลีวันนี้?$0#$e#แล้ว... ตอนนี้ฟาร์มเข้าที่เข้าทางรึยังจ๊ะ?$1",
+	 "HaleyHouse_13_20": "วันนี้ฉันจะอยู่กับเอมิลี่ทั้งวัน!$1",
+	 "HaleyHouse_20_6": "หวัดดี @$0",
+	 "HaleyHouse_19_4": "เอ่อ ฉันกับเอมิลี่ยังนอนกันอยู่นะ เธอควรออกไปซะ...$2",
+	 "HaleyHouse_7_16": "วันนี้เอมิลี่ชวนฉันมานอนค้างล่ะ$0",
+	 "HaleyHouse_5_20": "วันนี้เอมิลี่ชวนฉันมานอนค้างล่ะ$0",
+	 "Town_22_64": "อ่าว ว่าไงจ้ะ @ ลานกลางเมืองของคุณดีจัง",
+	 "Town_101_68": "ฉันชอบสวนนี้จัง!$1",
+	 "Saloon_17_20": "อยากจะดื่มด้วยกันกับฉันมั้ยจ้ะ ที่รัก?$0",
+	 "Forest_71_50": "มาเจอกันได้ยังไงเนี่ย @$1#$b#ป่าซินเดอร์แซปช่าง... สวยงามจริงๆ ฉันไม่ค่อยได้เห็นต้นไม้เยอะๆ แบบนี้อยู่ในที่เดียวกัน",
+	 "Beach_53_24": "มหาสมุทรช่างงดงาม จนแทบจะหยุดหายใจเลย$0",
+	 "CommunityCenter_11_23": "มันน่ารักมากเลยนะ ที่เห็นทุกคนมารวมตัว ในที่เดียวกัน เนอะ?$1",
      },
 },
 
