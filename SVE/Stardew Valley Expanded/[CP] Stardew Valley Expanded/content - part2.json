@@ -5548,8 +5548,8 @@
 	 "Target": "characters/dialogue/George",
 	 "When": { "Season": "Spring" },
 	 "Entries": {
-     "Mon2": "Andy brought over fresh leeks. He knows where the good ones grow!$1#$e#If I had my legs I'd pick them myself... Hmmph.$2",
-	 "Mon6": "@! My good friend Andy dropped off some leeks. I want you to have one![20]$1#$e#Lot's of leeks grow naturally here.$0",
+     "Mon2": "แอนดี้แวะเอาต้นหอมสดๆ มาให้ เขารู้ว่าพวกต้นดีๆ ขึ้นอยู่ที่ไหน!$1#$e#ถ้าขาฉันยังดีอยู่ ฉันจะไปเก็บพวกมันเอง... ฮึ่ม$2",
+	 "Mon6": "@! แอนดี้เพื่อนรักของฉัน เก็บต้นหอมมาฝาก เอ้า เธอเอามันไปด้วยสิ![20]$1#$e#ที่นี้มีต้นหอมมากมาย ขึ้นเองตามธรรมชาติ$0",
      },
 },
 
@@ -5557,8 +5557,8 @@
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/Jodi",
 	 "Entries": {
-     "fall_Sun": "Caroline, Olivia and I are good friends. I tell them everything.",
-	 "Tue4": "Olivia offered me private yoga lessons.$0#$e#Maybe I'll start attending the weekly acrobatics class. It'll be good to get out of the house more often.$0",
+     "fall_Sun": "แคโรไลน์ โอลิเวีย แล้วก็ฉัน เราเป็นเพื่อนรักกัน ฉันเล่าทุกอย่าง ให้พวกเขาฟังหมดล่ะจ้ะ",
+	 "Tue4": "โอลิเวียชวนฉันเรียน คลาสโยคะแบบส่วนตัว$0#$e#ฉันอาจจะลองไปร่วม คลาสแอโรบิกประจำสัปดาห์ดู มันน่าจะดีกว่า ถ้าได้ออกไปนอกบ้านบ่อยขึ้น$0",
      },
 },
 
@@ -5591,7 +5591,7 @@
       //adds a new dialogue string to Penny
      "Action": "EditData",
      "Target": "Strings/scheduledialogue/Penny",
-     "Entries": { "marriage_mother": "Hello, mother.$1" }
+     "Entries": { "marriage_mother": "หวัดดีค่ะ คุณแม่$1" }
 },
 
 //pam gets to spot at 10:10am
@@ -5610,8 +5610,8 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Penny",
       "Entries": {
-	  "SamHouse_5_15": "Sam's treating me tonight. Isn't that nice?$0",
-	  "Saloon_11_20": "Have you tried these sliders?$1#$b#The sauce Gus serves with them is delcious.$0",
+	  "SamHouse_5_15": "คืนนี้แซมเลี้ยงฉันล่ะ ก็ดีออกนี่นา?$0",
+	  "Saloon_11_20": "คุณชิมสไลด์เดอร์ พวกนี้รึยัง?$1#$b#ซอสที่กัสเสิร์ฟคู่กับมัน อร่อยมากเลยล่ะ$0",
 	  },
 },
 
@@ -5659,10 +5659,10 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sam",
       "Entries": {
-	  "ArchaeologyHouse_44_13": "%Sam is hard at work.",
-	  "SebastianRoom_1_8": "We're gonna stomp the dungeon boss with this plus 15 INT potion!$1",
-	  "SamHouse_7_15": "I'm takin' Penny out to grab a bite to eat at the saloon.$0",
-	  "Saloon_12_20": "Hey, Gus! Another round of sliders!$1",
+	  "ArchaeologyHouse_44_13": "%แซมกำลังวุ่นกับงาน",
+	  "SebastianRoom_1_8": "เรากำลังจะไปรุมตื้บบอส ในดันเจี้ยนด้วยน้ำยาเพิ่มค่า Int 15 แต้มนี่!$1", 
+	  "SamHouse_7_15": "ฉันกำลังจะชวนเพนนี ออกไปหาอะไรกินที่ซาลูน$0",
+	  "Saloon_12_20": "เฮ้ กัส! ขอสไลด์เดอร์เพิ่มอีกจาน!$1",
 	  },
 },
 
@@ -5700,7 +5700,7 @@
       "Target": "Characters/Dialogue/Clint",
 	  "When": { "HasMod": "flashshifter.immersivefarm2remastered" },
       "Entries": {
-	  "Introduction": "Er... hi. I'm Clint.#$e#I'm the town blacksmith. If you ever need to upgrade your tools, I'm your guy.#$e#Those tools I made for you working out? Spent a couple days smithing them.$1",
+	  "Introduction": "เอ่อ... หวัดดี ฉันคลินท์#$e#ฉันเป็นช่างตีเหล็กประจำเมือง ถ้าเธอต้องการ อัพเกรดอุปกรณ์ละก็ ฉันจะทำให้เอง#$e#เครื่องมือพวกนั้นที่ฉันทำให้เธอไว้ ใช้ได้รึเปล่า? ก็ใช้เวลา 2-3 วัน ในการตีพวกมันขึ้นมาน่ะนะ$1",
 	  }
 },
 
@@ -5765,8 +5765,8 @@
 	  "Town_103_104": "หลังจากเก็บเกี่ยวในครั้งนี้ ฉันจะมีอาหารเพียงพอ!$1",
 	  "Town_110_104": "ใครบางคน ลืมทำความสะอาดมัน$2",
 	  "Summit_14_13": "เธอขึ้นมาบนนี้เหมือนกัน @?$0",
-	  "LeahHouse_5_5": "Can you give me any tips on this art piece, Elliott?$0",
-	  "BlueMoonVineyard_44_44": "Feel the ocean breeze on your face?$1",
+	  "LeahHouse_5_5": "คุณมีเคล็ดลับอะไรจะแนะนำ กับงานศิลป์ชั้นนี้มั้ย เอลเลียต?$0",
+	  "BlueMoonVineyard_44_44": "เหมือนมีลมทะเล พัดผ่านหน้าคุณเลย ใช่ม้า?$1",
 	  },
 },
 
@@ -5794,8 +5794,8 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Elliott",
       "Entries": {
-	  "LeahHouse_7_5": "Ah! What an astonishing painting, Leah. I feel the emotion!$0",
-	  "BlueMoonVineyard_45_44": "The fresh air from the sea ignites my passion to write!$1",
+	  "LeahHouse_7_5": "อา! ช่างเป็นภาพวาดที่น่าอัศจรรย์จริงๆ ลีอา สื่ออารมณ์ได้ดี!$0",
+	  "BlueMoonVineyard_45_44": "อากาศบริสุทธิ์จากทะเล ช่วยจุดประกาย ให้กับงานเขียนของฉัน!$1",
 	  },
 },
 
@@ -5825,8 +5825,8 @@
       "Target": "Characters/Dialogue/Alex",
       "Entries": { 
 	  "Town_53_69": "สวัสดี มาหาเจ้าดัสตี้เหรอ?$0",
-	  "JoshHouse_10_19": "Haley and I are hanging out today.$0",
-	  "Saloon_34_18": "%Alex is focused on the arcade game.",
+	  "JoshHouse_10_19": "วันนี้เฮลีย์กับฉัน จะไปเที่ยวด้วยกัน$0",
+	  "Saloon_34_18": "%อเล็กซ์กับลังจดจ่อกับตู้เกม",
 	  },
 },
 
@@ -5835,7 +5835,7 @@
       "Target": "Characters/Dialogue/Alex",
 	  "When": { "Hearts:Alex": "5, 6, 7, 8, 8, 10, 11, 12, 13, 14" },
       "Entries": { 
-	  "Town_53_69": "You're a good boy, Dusty! Ready for a treat?$1" 
+	  "Town_53_69": "แกเป็นเด็กดีจริงๆ ดัสตี้! อยากกินขนมรึยัง?$1" 
 	  },
 },
 
@@ -5894,7 +5894,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sebastian",
       "Entries": {
-	  "SebastianRoom_3_7": "Victor, your charm frees Abigail from the Warlock's enchanted spell! The goblin death knights prepare to strike...$0",
+	  "SebastianRoom_3_7": "วิคเตอร์ เครื่องรางของนาย ช่วยให้อบิเกลรอดจาก เวทย์ครอบงำจิตใจ ของพวกวอร์ล็อค! พวกอัศวินก็อบลินแห่งความตาย กำลังเตรียมโจมตีกลับ...$0",
 	  },
 },
 
@@ -5926,8 +5926,8 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Abigail",
       "Entries": {
-	  "SebastianRoom_3_10": "I rolled a critical fail...$2",
-	  "Town_53_69": "I don't really talk to Alex much... but when he's not around, I love to give Dusty lots and lots of headpats.$0",
+	  "SebastianRoom_3_10": "ฉันทอยไม่ได้ อดได้ค่าคริติคอล...$2",
+	  "Town_53_69": "ฉันไม่ค่อยได้คุยกับอเล็กซ์หรอก... แต่เวลาที่เขาไม่ได้อยู่แถวนั้น ฉันชอบไปลูบหัวดัสตี้นะ ลูบๆๆ หนักมาก$0",
 	  },
 },
 
@@ -5957,7 +5957,7 @@
       "Target": "Characters/Dialogue/Pierre",
       "Entries": {
 	  "Town_46_48": "สวัสดี @ ฉันกำลังเก็บของใส่ใน ถังจัดส่ง เทศมนตรีเลวิส จะจัดการพวกมันในตอนเช้า$1",
-	  "Town_27_30": "Not now, farmer @.$2",
+	  "Town_27_30": "ไม่ใช่ตอนนี้ ชาวไร่ @$2",
 	  },
 },
 
@@ -5966,12 +5966,12 @@
       "Target": "Characters/Dialogue/Pierre",
 	  "When": { "HasSeenEvent": "5553213" },
       "Entries": {
-	  "winter_Fri": "We don't really get customers anymore...$2",
-	  "summer_Mon": "Maybe if I cut prices and secure a different supplier... Hmm...$2#$e#%Pierre is mumbling to himself.",
-	  "fall_Sat": "I'm trying to get used to Caroline having a day job.$0#$e#Things are different now...$2",
-	  "Sun": "I'm reporting a loss in sales across the board...$2#$e#That emporium spells doom for the shop.$2",
-	  "fall_Mon": "Consider purchasing your seeds here and support local businesses!$0",
-	  "winter_Thu": "I'll never recognize Morris as Mayor.$3",
+	  "winter_Fri": "เราไม่มีลูกค้าอีกแล้ว...$2",
+	  "summer_Mon": "บางทีฉันคงต้องลอง ขายตัดราคา และลองหาคู่ค้าเจ้าอื่น... Hmm...$2#$e#%ปีแอร์บ่นพึมพำกับตัวเอง",
+	  "fall_Sat": "ฉันพยายามทำใจให้ชิน ที่แคโรไลน์ต้องออกไปทำงาน$0#$e#ตอนนี้อะไรๆ ก็เปลี่ยนไปหมด...$2",
+	  "Sun": "ยอดขายของฉัน ติดลบทั้งกระดาน...$2#$e#ห้างเอ็มโพเลี่ยม คือหายนะของร้าน$2",
+	  "fall_Mon": "ลองซื้อเมล็ดพืชจากที่นี่ และสนับนุนธุรกิจท้องถิ่นดูสิ!$0",
+	  "winter_Thu": "ฉันจะไม่มีวันยอมรับหรอกว่า มอร์ริสเป็นนายกเทศมนตรี$3",
 	  },
 },
 
@@ -6017,12 +6017,12 @@
       "Target": "Characters/Dialogue/Caroline",
 	  "When": { "HasSeenEvent": "5553213" },
       "Entries": {
-	  "BusStop_12_8": "Pardon me, @. I'm heading to work...$2",
-	  "Sun": "It's hard to relax when you're stressing about so many things...$2",
-	  "fall_Tue": "I miss the park. The town didn't need that parking lot.$2",
-	  "winter_Sat": "We had our heat turned off.$2#$e#We're fortunate we have a fireplace...$2",
-	  "summer_Wed": "Hi, @.#$e#Please excuse me. I'm a bit tired...$2",
-	  "DayEnd_WarpRoom_2_2": "@. Did you cheat to get in here?...$2"
+	  "BusStop_12_8": "ขอตัวนะจ๊ะ @ ฉันกำลังจะไปทำงาน...$2",
+	  "Sun": "มันยากนะที่จะได้รีแลกซ์ ในตอนที่มีแต่เรื่องเครียด มารุมเร้าเต็มไปหมด...$2",
+	  "fall_Tue": "ฉันคิดถึงสวน เมืองของเราไม่ต้องการ ที่จอดรถนั่น$2",
+	  "winter_Sat": "เราต้องปิดฮีทเตอร์น่ะ$2#$e#โชคดีนะ ที่เรายังมีเตาผิง...$2",
+	  "summer_Wed": "ว่าไงจ๊ะ @#$e#ขอโทษนะ ฉันเหนื่อยนิดหน่อย...$2",
+	  "DayEnd_WarpRoom_2_2": "@ นี่เธอถึงกับโกง เพื่อจะเข้ามาที่นี่หรอ?...$2"
 	  },
 },
 
@@ -6040,10 +6040,10 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Caroline",
       "Entries": {
-	  "claireAerobics": "Oh, @! We have a new person in our workout sessions!$0#$b#Her name is Claire. She seemed nervous when asking how to join.$1#$e#I think she'll fit in just fine.$0",
-	  "Town_97_104": "I enjoy visiting the community garden.$0",
-	  "Town_101_101": "I enjoy visiting the community garden.$0",
-	  "Town_25_30": "*sigh* Pierre...$2",
+	  "claireAerobics": "โอ้ @! เรามีสมาชิกคนใหม่ มาร่วมคลาสออกกำลังกาย ด้วยล่ะจ้ะ!$0#$b#เธอมีชื่อว่าแคลร์ เธอดูประหม่านะ ตอนที่มาขอร่วมคลาสด้วย$1#$e#ฉันว่าเดี๋ยวเธอก็คงปรับตัวได้$0",
+	  "Town_97_104": "ฉันชอบที่จะไปเแวะในสวน ของชุมชน$0",
+	  "Town_101_101": "ฉันชอบที่จะไปเแวะในสวน ของชุมชน$0",
+	  "Town_25_30": "*เฮ้อ* ปีแอร์...$2",
 	  },
 },
 
@@ -6090,8 +6090,8 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Shane",
       "Entries": {
-	  "Town_15_16": "Jas wanted to go to the playground today.$6",
-	  "AnimalShop_6_17": "Up to you what we do today, Jas.$6",
+	  "Town_15_16": "วันนี้แจสอยากไปเล่น ที่สนามเด็กเล่นน่ะ$6",
+	  "AnimalShop_6_17": "แจส วันนี้แล้วแต่เธอเลยนะ ว่าเราจะทำอะไรดี$6",
 	  },
 },
 
@@ -6127,8 +6127,8 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Jas",
       "Entries": {
-	  "Town_16_13": "Look at me, Shane! Jump-jump-jump!$1",
-	  "AnimalShop_6_15": "Let's go to the playground!$1",
+	  "Town_16_13": "ดูหนูสิ ลุงเชน! โดด-โดด-และก็โดด!$1",
+	  "AnimalShop_6_15": "หนูอยากไปสนามเด็กเล่น!$1",
 	  },
 },
 
@@ -6201,15 +6201,15 @@
    "Action": "EditData",
    "Target": "data/events/forest",
    "Entries": { 
-   "1000021/f Jas 2000/z winter/z fall/w sunny/d Mon Tue Wed Thu Sat/t 1200 1600": "none/-500 -500/Jas 27 12 0 farmer -400 -400 3/addTemporaryActor Suki 16 32 -50 -50 3/positionOffset Jas 15 5/pause 500/skippable/viewport 27 12 true/pause 250/playMusic jaunty/pause 1000/speak Jas \"Hi, Suki!\"/pause 400/speak Suki \"Hello, Jas. Done playing jump rope for today?\"/pause 300/jump Jas/pause 900/speak Jas \"When my legs aren't tired anymore, I'll go play again!$1\"/pause 800/speak Suki \"I have something for you... It's one of my daughter's favorites!\"/pause 350/jump Jas/pause 900/textAboveHead Jas \"For me!? Thank you!!!\"/pause 1250/globalFade/viewport -1000 -1000/pause 1000/playMusic spring_day_ambient/pause 500/warp Jas 38 11/warp farmer 48 13/move Jas 0 0 1/move farmer 0 0 3/pause 500/viewport 39 11 true/move farmer -3 0 3/textAboveHead Jas \"Hello!!\"/move farmer -1 0 3/move farmer -1 0 3/move farmer -3 0 0/move farmer 0 -2 3/pause 500/speak Jas \"@! Suki is here today!$0#$b#She brought me a treat!$1\"/pause 500/question fork0 \"#That's very sweet of her.#What did she give you?\"/fork 1000021_Treat/switchEvent 1000021_Treat1",
+   "1000021/f Jas 2000/z winter/z fall/w sunny/d Mon Tue Wed Thu Sat/t 1200 1600": "none/-500 -500/Jas 27 12 0 farmer -400 -400 3/addTemporaryActor Suki 16 32 -50 -50 3/positionOffset Jas 15 5/pause 500/skippable/viewport 27 12 true/pause 250/playMusic jaunty/pause 1000/speak Jas \"หวัดดีค่ะ คุณซูกิ!\"/pause 400/speak Suki \"สวัสดีจ้ะ แจส ไม่กระโดดเชือกต่อแล้วหรอจ้ะ?\"/pause 300/jump Jas/pause 900/speak Jas \"ถ้าหนูหายเมื่อยขาแล้ว หนูจะกระโดดอีกรอบ!$1\"/pause 800/speak Suki \"ป้ามีอะไรจะให้หนูด้วยจ้ะ... นี่เป็นหนึ่งในบรรดา ของที่ลูกสาวป้าชอบล่ะ!\"/pause 350/jump Jas/pause 900/textAboveHead Jas \"ให้หนูหรอคะ!? ขอบคุณค่า!!!\"/pause 1250/globalFade/viewport -1000 -1000/pause 1000/playMusic spring_day_ambient/pause 500/warp Jas 38 11/warp farmer 48 13/move Jas 0 0 1/move farmer 0 0 3/pause 500/viewport 39 11 true/move farmer -3 0 3/textAboveHead Jas \"ดีค่า!!\"/move farmer -1 0 3/move farmer -1 0 3/move farmer -3 0 0/move farmer 0 -2 3/pause 500/speak Jas \"พี่ @! วันนี้คุณซูกิมานี่ด้วยล่ะ!$0#$b#เธอให้ขนมอันนี้กับหนูด้วย!$1\"/pause 500/question fork0 \"#มันหวานเกินไปสำหรับเธอนะ#ซูกิให้อะไรมาหรอ?\"/fork 1000021_Treat/switchEvent 1000021_Treat1",
 
-   "1000021_Treat": "pause 500/jump Jas/pause 1000/speak Jas \"She gave me a Gotoro lollipop this time! She always brings me something new.$1\"/pause 900/move Jas 0 0 3/pause 700/emote Jas 28/pause 800/move Jas 0 0 1/pause 350/speak Jas \"I'm sad we're fighting the Gotoro Empire. I thought maybe they were evil, but Suki is nice. They're just like us.$3\"/emote farmer 16/pause 600/playMusic echos/pause 1000/speak Jas \"Why do we have to fight each other, @?$3\"/pause 500/question fork1 \"#War is complicated, but let's hope there will be peace again soon.#We'll finish the fight they started.\"/fork 1000021_GotoroFriends/pause 1000/stopMusic/speak Jas \"...$2\"/pause 500/shake Jas 1000/pause 1500/speed Jas 4/move Jas 0 3 1/move farmer 0 0 1/speed Jas 4/move Jas 16 0 1 true/pause 500/emote farmer 28/pause 200/shake Jas 3000/globalFade/viewport -1000 -1000/pause 700/friendship Jas -750/end dialogue Jas \"...$2#$e#%Jas looks sad.\"",
+   "1000021_Treat": "pause 500/jump Jas/pause 1000/speak Jas \"คราวนี้เธอให้ลูกอม โกโตโรมาค่ะ! เธอมักจะเอาอะไรใหม่ๆ มาให้หนู$1\"/pause 900/move Jas 0 0 3/pause 700/emote Jas 28/pause 800/move Jas 0 0 1/pause 350/speak Jas \"หนูเศร้าจัง ที่เราต้องสู้กับจักรวรรดิ์โกโตโร หนูคิดว่าพวกเขาเป็นคนใจร้าย แต่คุณซูกิใจดีมากเลย เหมือนกับพวกเรา$3\"/emote farmer 16/pause 600/playMusic echos/pause 1000/speak Jas \"ทำไมพวกเราต้องสู้กันเองด้วยละคะ @?$3\"/pause 500/question fork1 \"#สงครามเป็นอะไรที่ซับซ้อนน่ะ แต่เรามาภาวนาให้สันติสุข กลับมาเหมือนเดิมกันเถอะ#เราจะเป็นคนจบการต่อสู้ ที่พวกเขาเริ่ม\"/fork 1000021_GotoroFriends/pause 1000/stopMusic/speak Jas \"...$2\"/pause 500/shake Jas 1000/pause 1500/speed Jas 4/move Jas 0 3 1/move farmer 0 0 1/speed Jas 4/move Jas 16 0 1 true/pause 500/emote farmer 28/pause 200/shake Jas 3000/globalFade/viewport -1000 -1000/pause 700/friendship Jas -750/end dialogue Jas \"...$2#$e#%แจสดูเศร้า\"",
    
-   "1000021_Treat1": "pause 500/jump Jas/pause 1000/speak Jas \"She gave me a Gotoro lollipop this time! She always brings me something new.$1\"/pause 900/move Jas 0 0 3/pause 700/emote Jas 28/pause 800/move Jas 0 0 1/pause 350/speak Jas \"I'm sad we're fighting the Gotoro Empire. I thought maybe they were evil, but Suki is nice. They're just like us.$3\"/emote farmer 16/pause 600/playMusic echos/pause 1000/speak Jas \"Why do we have to fight each other, @?$3\"/pause 500/question fork0 \"#War is complicated, but let's hope there will be peace again soon.#We'll finish the fight they started.\"/fork 1000021_GotoroFriends1/pause 1000/stopMusic/speak Jas \"...$2\"/pause 500/shake Jas 1000/pause 1500/speed Jas 4/move Jas 0 3 1/move farmer 0 0 1/speed Jas 4/move Jas 16 0 1 true/pause 500/emote farmer 28/pause 200/shake Jas 3000/globalFade/viewport -1000 -1000/pause 700/friendship Jas -750/end dialogue Jas \"...$2#$e#%Jas looks sad.\"",
+   "1000021_Treat1": "pause 500/jump Jas/pause 1000/speak Jas \"คราวนี้เธอให้ลูกอม โกโตโรมาค่ะ! เธอมักจะเอาอะไรใหม่ๆ มาให้หนู$1\"/pause 900/move Jas 0 0 3/pause 700/emote Jas 28/pause 800/move Jas 0 0 1/pause 350/speak Jas \"หนูคิดว่าพวกเขาเป็นคนใจร้าย แต่คุณซูกิใจดีมากเลย เหมือนกับพวกเรา$3\"/emote farmer 16/pause 600/playMusic echos/pause 1000/speak Jas \"ทำไมพวกเราต้องสู้กันเองด้วยละคะ @?$3\"/pause 500/question fork0 \"#สงครามเป็นอะไรที่ซับซ้อนน่ะ แต่เรามาภาวนาให้สันติสุข กลับมาเหมือนเดิมกันเถอะ#เราจะเป็นคนจบการต่อสู้ ที่พวกเขาเริ่ม\"/fork 1000021_GotoroFriends1/pause 1000/stopMusic/speak Jas \"...$2\"/pause 500/shake Jas 1000/pause 1500/speed Jas 4/move Jas 0 3 1/move farmer 0 0 1/speed Jas 4/move Jas 16 0 1 true/pause 500/emote farmer 28/pause 200/shake Jas 3000/globalFade/viewport -1000 -1000/pause 700/friendship Jas -750/end dialogue Jas \"...$2#$e#%แจสดูเศร้า\"",
    
-   "1000021_GotoroFriends": "pause 700/speak Jas \"...$3\"/pause 850/speak Jas \"นั่นทำให้หนูมีความสุข หนูพนันว่า ซูกิจะมีความสุข เหมือนกัน$3#$b#หนูไม่ต้องการให้ใครเจ็บปวด หนูอยากให้ทุกคน เป็นเพื่อนกัน$0#$b#ถ้าหนู สามารถเป็นเพื่อน กับซูกิ บางที... เราทุกคนคง สามารถเป็นเพื่อนกับ อาณาจักรโกโทโร่ ได้ในสักวัน$1\"/pause 750/move Jas 0 2 1/move farmer 0 0 2/move Jas 2 0 0/pause 500/speak Jas \"หนูจะกลับบ้าน และ เอาลูกอมให้ป้ามานีดู!$1#$b#พี่ควรไปที่รถเข็นของซูกิ วันนี้เธอนำของดีมามากมาย$0\"/pause 1000/move Jas 6 0 1 true/pause 300/move farmer 0 0 1/pause 500/globalFade/viewport -1000 -1000 true/pause 1300/friendship Jas 50/end dialogue Jas \"พี่ซื้อของจากซูกิ บ้างไหม? บางครั้ง เธอมีสิ่งที่หายากมาก!$1\"",
+   "1000021_GotoroFriends": "pause 700/speak Jas \"...$3\"/pause 850/speak Jas \"นั่นทำให้หนูมีความสุข หนูพนันว่า คุณซูกิจะมีความสุข เหมือนกัน$3#$b#หนูไม่ต้องการให้ใครเจ็บปวด หนูอยากให้ทุกคน เป็นเพื่อนกัน$0#$b#ถ้าหนู สามารถเป็นเพื่อน กับคุณซูกิ บางที... เราทุกคนคง สามารถเป็นเพื่อนกับ จักรวรรดิ์โกโตโร ได้ในสักวัน$1\"/pause 750/move Jas 0 2 1/move farmer 0 0 2/move Jas 2 0 0/pause 500/speak Jas \"หนูจะกลับบ้าน และ เอาลูกอมให้ป้ามานีดู!$1#$b#พี่ควรไปที่รถเข็นของคุณซูกิ วันนี้เธอนำของดีมามากมาย$0\"/pause 1000/move Jas 6 0 1 true/pause 300/move farmer 0 0 1/pause 500/globalFade/viewport -1000 -1000 true/pause 1300/friendship Jas 50/end dialogue Jas \"พี่ซื้อของจากคุณซูกิ บ้างไหม? บางครั้ง เธอมีสิ่งที่หายากมาก!$1\"",
    
-   "1000021_GotoroFriends1": "pause 700/speak Jas \"...$3\"/pause 850/speak Jas \"That'd make me happy. I bet Suki would be happy too.$3#$b#I don't want anyone to be hurt. I want everyone to be friends.$0#$b#If I can be friends with Suki, maybe we can all make friends with the Gotoro Empire someday.$1\"/pause 750/move Jas 0 2 1/move farmer 0 0 2/move Jas 2 0 0/pause 500/speak Jas \"I'm going to go home and show Aunt Marnie this lollipop!$1#$b#You should visit Suki's cart. She brought a lot of good stuff today.$0\"/pause 1000/move Jas 6 0 1 true/pause 300/move farmer 0 0 1/pause 500/globalFade/viewport -1000 -1000 true/pause 1300/friendship Jas 50/end dialogue Jas \"Did you buy something from Suki? She has really rare stuff sometimes!$1\""
+   "1000021_GotoroFriends1": "pause 700/speak Jas \"...$3\"/pause 850/speak Jas \"นั่นทำให้หนูมีความสุข หนูพนันว่า คุณซูกิจะมีความสุข เหมือนกัน$3#$b#หนูไม่ต้องการให้ใครเจ็บปวด หนูอยากให้ทุกคน เป็นเพื่อนกัน$0#$b#ถ้าหนู สามารถเป็นเพื่อน กับคุณซูกิ บางที... เราทุกคนคง สามารถเป็นเพื่อนกับ จักรวรรดิ์โกโตโร ได้ในสักวัน$1\"/pause 750/move Jas 0 2 1/move farmer 0 0 2/move Jas 2 0 0/pause 500/speak Jas \"หนูจะกลับบ้าน และ เอาลูกอมให้ป้ามานีดู!$1#$b#พี่ควรไปที่รถเข็นของคุณซูกิ วันนี้เธอนำของดีมามากมาย$0\"/pause 1000/move Jas 6 0 1 true/pause 300/move farmer 0 0 1/pause 500/globalFade/viewport -1000 -1000 true/pause 1300/friendship Jas 50/end dialogue Jas \"พี่ซื้อของจากคุณซูกิ บ้างไหม? บางครั้ง เธอมีสิ่งที่หายากมาก!$1\""
    },
    "When": { "MatureEvents": true }
 },
@@ -6232,9 +6232,9 @@
    "Entries": {
    "1000022/f Kent 2500/e 1000018/w sunny/z winter/t 800 1400": "none/14 18/farmer 11 26 0 Kent 14 14 0/shake Kent 1100/textAboveHead Kent \"วิลเลียม...\"/stopMusic/playMusic spring_day_ambient/move farmer 0 -2 0/move farmer 2 0 0/move farmer 0 -5 0/pause 800/emote farmer 8/pause 1500/faceDirection Kent 1 true/pause 250/faceDirection Kent 2 true/pause 1600/faceDirection Kent 1 true/pause 250/faceDirection Kent 0 true/pause 1800/speak Kent \"ฉันไม่คิดมาก่อนเลยว่าจะเจอ ใครข้างบนนี้  เส้นทางปีนเขานี่มันไม่ได้ ปีนง่ายเท่าไหร่$0\"/pause 1350/speak Kent \"...$0\"/pause 2000/emote Kent 40/pause 1000/speak Kent \"...$2#$b#ยังอยู่ตรงนี้อีกหรอ หืม?$2\"/pause 1000/question fork0 \"#ไม่พูดอะไร#โทษที ฉันจะไปแล้ว\"/fork 1000022_AreYouOkay/pause 1000/speak Kent \"...เอาละ ลาก่อน$2\"/pause 500/globalFade/viewport -1000 -1000/pause 700/end dialogueWarpOut Kent \"บางครั้ง ฉันที่ยอดเขา เพื่อคิด...$2#$b#เป็นเรื่องดี ที่ได้อยู่นเดียวสักพัก$0\"",
    
-   "1000022_AreYouOkay": "pause 1000/faceDirection Kent 1 true/pause 200/faceDirection Kent 2 true/pause 800/speak Kent \"มายืนข้างๆ ฉัน @$2\"/pause 650/faceDirection Kent 1 truw/pause 250/faceDirection Kent 0 true/pause 800/viewport move 0 -2 2500 true/move farmer 0 -5 0/pause 2500/speak Kent \"บอกกับฉัน คุณรู้อะไรเกี่ยวกับ อาณาจักรโกโทโร่ ?$2\"/pause 750/move farmer 0 0 1/pause 850/speak Kent \"$q -1 null#(ฉันควรพูดอะไร)#$r -1 0 kent_event1#เราทำกำลัง ทำสงครามกับเขา#$r -1 0 kent_event2#อาณาจักรโกโทโร่ เป็นศัตรูของเรา#$r -1 0 kent_event3#ฉันไม่รู้เกี่ยวกับพวกเขา สักเท่าไหร่\"/pause 850/move farmer 0 0 0/pause 1400/speak Kent \"ดีละ ถ้าอย่างนั้น คุณไม่รู้จัก อาณาจักรโกโทโร่ เหมือนที่ฉันรู้$2\"/pause 1000/speak Kent \"สิ่งที่ฉันเห็น$2\"/pause 1200/speak Kent \"ประสบการณ์ที่ฉันมี$2\"/pause 500/stopMusic/pause 1000/speak Kent \"ผู้คนที่ตายจากไป...$2\"/pause 1650/speak Kent \"คนดีและผู้บริสุทธิ์มากมาย...$2\"/pause 1500/emote Kent 12/pause 500/move farmer 0 0 1/pause 700/shake Kent 1500/pause 800/speak Kent \"!!!$3\"/pause 500/shake Kent 25000/playMusic shaneTheme/emote farmer 16 true/pause 300/speak Kent \"เราฆ่าคนไปมากมาย ผู้บริสุทธิ์นับไม่ถ้วน แล้วอะไรล่ะ!? ภาษี!?$3#$b#พวกเราหลายคน เสียชีวิตในนามของ สมาคม! ผู้บริสุทธิ์ ทั้งชายและหญิง!!!$3#$b#เราไม่ได้ทำอะไร แต่เราเป็นเบี้ยหมากรุก บนกระดานหมากรุก ของพวกมหาเศรษฐี!!! เราไม่มี ความเป็นมนุษย์เลย สำหรับพวกเขา!!$3\"/pause 500/speak Kent \"$q -1 null#(ฉันต้องพูดอะไรบางอย่าง)#$r -1 0 kent_event4#ปิดปากเงียบ#$r -1 0 kent_event5#บอกให้เคนท์หยุด\"/shake Kent 25000/speak Kent \"เมืองทั้งเมือง และ หมู่บ้าน ที่เราโจมตี!!! ครอบครัวทั้งหมด ที่ถูกเราแยกจากกัน!!!$3#$b#ชาวเมืองโกโทโร่ถูกสังหาร!!!$3#$b#ทะ.. ที่นั่น... มีหมู่บ้านชาวไร่เหมือนหุบเขา สตาร์ดิว... พวกเราทำลายมันไปทั้งหมด!$3\"/pause 500/speak Kent \"$q -1 null#(ฉันควรทำอย่างไร)#$r -1 0 kent_event6#สงบใจเคนท์ลง#$r -1 0 kent_event7#ปิดปากเงียบ\"/speak Kent \"ฉันนึกถึงแต่ตัวเอง!!!$3#$b#ฉันละทิ้งคำสั่ง และฉันถูกจับ!!! ฉันควรตายแทนพวกเขา!!$3#$b#วิลเลียม! ฉันขอโทษ!$3\"/shake Kent 20000/pause 1000/speak Kent \"การทรมาน... เสียงกรีดร้อง... ความอดอยาก... การแยกจาก...$3\"/shake Kent 6000/pause 2000/speak Kent \"ฉัน... ฉัน...!!!!!!$3\"/pause 500/jump farmer/pause 1000/playMusic spring_day_ambient/pause 500/move Kent 0 0 3/pause 2000/speak Kent \"...$2\"/pause 1500/question fork1 \"#มันเจ็บปวดนะที่เห็นคุณเป็นแบบนี้#คุณทำให้ฉันกลัวนะ...\"/fork 1000022_ScaredAndConfused/stopMusic/pause 1200/speak Kent \"...$2\"/switchEvent 1000022_ScaredAndConfused",
+   "1000022_AreYouOkay": "pause 1000/faceDirection Kent 1 true/pause 200/faceDirection Kent 2 true/pause 800/speak Kent \"มายืนข้างๆ ฉัน @$2\"/pause 650/faceDirection Kent 1 truw/pause 250/faceDirection Kent 0 true/pause 800/viewport move 0 -2 2500 true/move farmer 0 -5 0/pause 2500/speak Kent \"บอกกับฉัน คุณรู้อะไรเกี่ยวกับ อาณาจักรโกโตโร ?$2\"/pause 750/move farmer 0 0 1/pause 850/speak Kent \"$q -1 null#(ฉันควรพูดอะไร)#$r -1 0 kent_event1#เราทำกำลัง ทำสงครามกับเขา#$r -1 0 kent_event2#อาณาจักรโกโตโร เป็นศัตรูของเรา#$r -1 0 kent_event3#ฉันไม่รู้เกี่ยวกับพวกเขา สักเท่าไหร่\"/pause 850/move farmer 0 0 0/pause 1400/speak Kent \"งั้นหรอ ถ้าอย่างนั้นคุณคงไม่รู้จัก จักรวรรดิ์โกโตโร เหมือนกับที่ฉันรู้$2\"/pause 1000/speak Kent \"สิ่งที่ฉันเห็น$2\"/pause 1200/speak Kent \"ประสบการณ์ที่ฉันมี$2\"/pause 500/stopMusic/pause 1000/speak Kent \"ผู้คนที่ตายจากไป...$2\"/pause 1650/speak Kent \"คนดีและผู้บริสุทธิ์มากมาย...$2\"/pause 1500/emote Kent 12/pause 500/move farmer 0 0 1/pause 700/shake Kent 1500/pause 800/speak Kent \"!!!$3\"/pause 500/shake Kent 25000/playMusic shaneTheme/emote farmer 16 true/pause 300/speak Kent \"เราฆ่าคนไปมากมาย ผู้บริสุทธิ์นับไม่ถ้วน แล้วอะไรล่ะ!? ภาษี!?$3#$b#พวกเราหลายคน เสียชีวิตในนามของ สมาคม! ผู้บริสุทธิ์ ทั้งชายและหญิง!!!$3#$b#เราไม่ได้ทำอะไร แต่เราเป็นตัวเบี้ย บนกระดานหมากรุก ของพวกมหาเศรษฐี!!! เราไม่มี ความเป็นมนุษย์เลย สำหรับพวกเขา!!$3\"/pause 500/speak Kent \"$q -1 null#(ฉันต้องพูดอะไรบางอย่าง)#$r -1 0 kent_event4#ปิดปากเงียบ#$r -1 0 kent_event5#บอกให้เคนท์หยุด\"/shake Kent 25000/speak Kent \"เมืองทั้งเมือง และ หมู่บ้าน ที่เราโจมตี!!! ครอบครัวทั้งหมด ที่ถูกเราแยกจากกัน!!!$3#$b#ชาวเมืองโกโตโรถูกสังหาร!!!$3#$b#ทะ.. ที่นั่น... มีหมู่บ้านชาวไร่เหมือนหุบเขา สตาร์ดิว... พวกเราทำลายมันไปทั้งหมด!$3\"/pause 500/speak Kent \"$q -1 null#(ฉันควรทำอย่างไร)#$r -1 0 kent_event6#สงบใจเคนท์ลง#$r -1 0 kent_event7#ปิดปากเงียบ\"/speak Kent \"ฉันนึกถึงแต่ตัวเอง!!!$3#$b#ฉันละทิ้งคำสั่ง และฉันถูกจับ!!! ฉันควรตายแทนพวกเขา!!$3#$b#วิลเลียม! ฉันขอโทษ!$3\"/shake Kent 20000/pause 1000/speak Kent \"การทรมาน... เสียงกรีดร้อง... ความอดอยาก... การแยกจาก...$3\"/shake Kent 6000/pause 2000/speak Kent \"ฉัน... ฉัน...!!!!!!$3\"/pause 500/jump farmer/pause 1000/playMusic spring_day_ambient/pause 500/move Kent 0 0 3/pause 2000/speak Kent \"...$2\"/pause 1500/question fork1 \"#มันเจ็บปวดนะ ที่เห็นคุณเป็นแบบนี้#คุณทำให้ฉันกลัวนะ...\"/fork 1000022_ScaredAndConfused/stopMusic/pause 1200/speak Kent \"...$2\"/switchEvent 1000022_ScaredAndConfused",
    
-   "1000022_ScaredAndConfused": "pause 2000/emote Kent 28/pause 300/speak Kent \"ฉันขอโทษที่ระเบิดออกมา @$2\"/pause 600/move Kent 0 0 2/pause 700/animate Kent false true 999999 16/pause 1100/playMusic echos/pause 1000/speak Kent \"แพทย์บอกว่าฉัน มีอาการเครียดหลัง ผ่านเหตุการณ์ร้าย แบบรุนแรง... พวกเขาอาจพูดถูก$2\"/pause 1300/speak Kent \"ฉันไม่เหมือนเดิมตั้งแต่ ฉันออกจากหุบเขา คนที่ฉันเคยเป็น... ฉันคิดว่าเขาจะกลับมา$2#$b#ฉันไม่สามารถให้อภัย อาณาจักรโกโทโร่ ที่ทรมาน และ ฆ่าเพื่อนของฉัน$2#$b#แต่ไม่ใช่ทุกคน ที่เลวร้าย$2#$b#ตามสถานีข่าว บอกเราเป็นคนดี และสงคราม เป็นสงครามระหว่าง คนดีและคนเลว$2\"/pause 1500/speak Kent \"ความเป็นจริง? ฉันคิดว่าเราเป็นคนเลว$2\"/pause 2000/speak Kent \"จำนวนการสังหาร และความตาย ที่เรานำมา สู่อาณาจักร ไม่เคยมีมาก่อน และทั้งหมด ด้วยความแปลกประหลาด ของเทคโนโลยีที่ทันสมัย$2#$b#สิ่งที่พวกเราทำลายไป เทียบไม่ได้เลยกับที่พวกเขาทำกับเราตอนระเบิดประตูเพชรพลอยนั่น\"/pause 1200/speak Kent \"...ฉันหวังว่าสงครามนี้ จะสิ้นสุดลงในไม่ช้า$2\"/pause 1000/playMusic spring_day_ambient/pause 1250/stopAnimation Kent/pause 1250/move Kent 0 0 3/pause 1000/speak Kent \"คุณรู้ไหม ฉันคิดว่าคุณเป็นคนดี ขอบคุณที่รับฟังฉัน ความใจดีมันมีอยู่จริงๆ$0#$b#ฉันรู้ว่ามันน่าตกใจ และหนักหนา สำหรับคุณ บางครั้งฉัน...$0#$b#แค่ต้องการใครสักคน ที่รับฟัง ฉันดูข่าว และพวกเขาก็โกหก ครอบครัวของฉัน ไม่เข้าใจ... การมีคนรับฟัง มันช่วยอย่างมาก$2\"/pause 1500/move Kent 0 0 2/pause 1500/move Kent 0 0 3/pause 1000/speak Kent \"ฉันต้องใช้เวลากับภรรยา และลูกๆ ของฉัน$0\"/pause 600/move Kent 0 1 2/move farmer 0 0 2/move Kent 0 3 2/pause 1100/emote Kent 40/pause 200/speak Kent \"และได้โปรด เก็บทุกสิ่งที่คุณได้ยิน เก็บไว้เป็นความลับ @$0#$b#หากผู้บังคับบัญชา ได้ยินเข้า จะเป็นโอกาสที่ดี ที่พวกเขาจะจับฉัน$2#$b#แต่ฉันเชื่อใจคุณ$2\"/pause 500/emote farmer 36/pause 500/globalFade/viewport -1000 -1000/mail KentSummit/pause 700/end dialogue Kent \"ขอบคุณที่รับฟัง @$2#$b#การจัดการ กับปัญหาเหล่านี้ อาจเป็นไปไม่ได้ เมื่ออยู่คนเดียว ฉันดีใจที่ ฉันมีเพื่อนสนิท ที่ไว้วางใจได้$1\""
+   "1000022_ScaredAndConfused": "pause 2000/emote Kent 28/pause 300/speak Kent \"ฉันขอโทษที่ระเบิดอารมณ์ใส่เธอ @$2\"/pause 600/move Kent 0 0 2/pause 700/animate Kent false true 999999 16/pause 1100/playMusic echos/pause 1000/speak Kent \"หมอบอกว่าฉันมีภาวะเครียด หลังผ่านเหตุการณ์ร้ายแรง... อืม พวกเขาพูดถูกแล้วล่ะ$2\"/pause 1300/speak Kent \"ฉันคงกลับเป็นเหมือนเดิม ไม่ได้อีกแล้ว นับตั้งแต่ที่ฉันได้ออกจาก หุบเขานี้ไป ฉันคนเดิมเมื่อสมัยก่อน... ฉันคิดว่าตัวฉันคนนั้น คงไม่มีวันกลับคืนมาได้อีก$2#$b#ฉันจะไม่มีวันอภัยให้กับ จักรวรรดิ์โกโตโร ที่ทำให้ฉันต้องทุกข์ทรมาน และเข่นฆ่าเพื่อนของฉันไป$2#$b#แต่มนุษย์ก็คือมนุษย์ ไม่ใช่ว่าทุกคนต้องเป็นคนเลว$2#$b#สำนักข่าวที่นี่ ต่างพากันประโคมว่าเรานั้นคือคนดี ส่วนสงครามก็คือ การต่อสู้ระหว่าง ความดีและความชั่ว$2\"/pause 1500/speak Kent \"จะให้เชื่อจริงหรอ? ฉันคิดว่าพวกเราน่ะ คือคนเลว$2\"/pause 2000/speak Kent \"จากปริมาณผู้คนที่ถูกฆ่าสังหาร ความตายที่เรามอบให้กับ จักรวรรดิ์โกโตโร อย่างที่ไม่เคยมีมาก่อน ทั้งหมดนั่นเกิดจาก ความน่าสะพรึง ของเทคโนโลยีสมัยใหม่$2#$b#การโจมตีที่เราทำลงไปนั้น ก็ไม่ได้ใกล้เคียงกับสิ่งที่พวกเขา เคยทำกับเราตอนที่ระเบิด ใส่ปากอ่าวมณี\"/pause 1200/speak Kent \"...ฉันก็หวังว่าสงคราม จะจบลงโดยเร็ว$2\"/pause 1000/playMusic spring_day_ambient/pause 1250/stopAnimation Kent/pause 1250/move Kent 0 0 3/pause 1000/speak Kent \"ฉันคิดว่าเธอเป็นคนดีเลยล่ะ รู้มั้ย ขอบใจที่ช่วยรับฟังนะ พวกนี้ก็เหมือนกับของ ที่ต้องแลกมาด้วยภาษีราคาแพง$0#$b#ฉันรู้ว่านี่คงทำให้เธอ ตื่นตระหนกและตกที่นั่งลำบาก บางที ฉัน...$0#$b#ก็แค่ต้องการใครสักคนที่รับฟัง ฉันได้ดูข่าวพวกนั้น และเรื่องที่พวกเขาป้ายสีตีไข่ ครอบครัวของฉันกลับไม่เข้าใจ... การมีคนอื่นมารับฟัง แบบนี้ ช่วยได้มากเลยล่ะ$2\"/pause 1500/move Kent 0 0 2/pause 1500/move Kent 0 0 3/pause 1000/speak Kent \"ฉันคงต้องแบ่งเวลาให้กับภรรยา และลูกๆ แล้วล่ะ$0\"/pause 600/move Kent 0 1 2/move farmer 0 0 2/move Kent 0 3 2/pause 1100/emote Kent 40/pause 200/speak Kent \"แล้วก็นะ ช่วยเก็บเรื่องที่เธอได้ฟังในวันนี้ เป็นความลับทีนะ @$0#$b#ถ้าได้ยินไปถึงหู ของผู้บังคับบัญชาของฉัน เขาคงจะใช้โอกาสนี้ จับฉันขังเอาไว้$2#$b#แต่ฉันเชื่อใจเธอนะ$2\"/pause 500/emote farmer 36/pause 500/globalFade/viewport -1000 -1000/mail KentSummit/pause 700/end dialogue Kent \"ขอบคุณที่ช่วยรับฟังฉัน ที่ยอดเขานั่น @$2#$b#การต่อสู้กับเรื่องราวพวกนี้ คงจะเป็นไปไม่ได้ หากคุณอยู่ตัวคนเดียว ฉันดีใจที่มีเพื่อนรักที่ ไว้ใจได้อย่างคุณ$1\""
    },
    "When": { "MatureEvents": true }
 },
@@ -6580,7 +6580,7 @@
 	 "Entries": {
      "1000027/f Pam 2000/t 1000 1600/z spring/z summer/z fall": "winter_day_ambient/-500 -500/farmer 14 23 0 Pam 14 11 0/skippable/pause 500/viewport 16 14 true/textAboveHead Pam \"*ถอนหายใจ*...\"/move farmer 0 -10 0/emote farmer 8/pause 200/move Pam 0 0 2/emote Pam 16/speak Pam \"อ๊า! อย่าทำแบบนั้นให้ฉันกลัวนะ!$3\"/pause 100/emote farmer 28/pause 600/move Pam 0 0 1/pause 850/emote Pam 12/pause 600/move Pam 0 0 2/pause 500/speak Pam \"ช่วงนี้ฉันรู้สึกประหม่า$2\"/pause 1000/speak Pam \"ฉันอยากบอกกับเธอ ฉันรู้สึกเบื่อทุกๆ อย่าง$2\"/pause 200/question fork0 \"#มีอะไร รบกวนคุณรึเปล่า?#โอเค ฉันหวังว่าเธอจะรู้สึกดี บาย\"/fork 1000027_WhatsBotheringYou/pause 500/speak Pam \"...$2\"/pause 500/globalFade/viewport -1000 -1000/pause 700/end dialogue Pam \"เธอไม่ควรล้อเล่นกับ ความคิดของฉัน$2#$e#%แพม ไม่ต้องการจะพูดอะไร\"",
 	 
-	 "1000027_WhatsBotheringYou": "pause 800/speak Pam \"...$2\"/pause 700/move Pam 0 0 0/pause 650/playMusic echos/pause 1000/speak Pam \"เชื่อหรือไม่ ตอนที่ฉันอายุเท่าเธอ ฉันมีความฝัน$2#$b#ฉันอยากขับเครื่องบิน และอยู่บนท้องฟ้า ไม่... ไม่ใช่อย่างนั้น$2\"/pause 1500/speak Pam \"ถ้าฉันพยายามอย่างหนัก กับการเรียนเรื่องการบิน ชีวตของฉันคงแตกต่าง จากตอนนี้$2\"/pause 500/emote Pam 28/pause 450/move Pam 0 0 2/pause 650/speak Pam \"ฉันทำผิดพลาดในชีวิต @ ตอนนี้ฉันเป็นแค่หญิงชรา$2\"/pause 600/shake Pam 1000/pause 600/move Pam 0 0 0/pause 800/shake Pam 500/pause 1250/speak Pam \"การหย่าร้าง เป็นความผิดของฉัน ฉันให้เฮนรี่ เป็นโลกแห่งความ เศร้าและความเจ็บปวด$2#$b#ฉันรู้ว่าฉันแยกเขา ออกจากเพนนี และจากนั้น ไปใช้จ่ายในสิ่งเล็กๆ น้อยๆ ที่ซาลูน เพื่อลืมทุกอย่าง$2\"/pause 1000/stopAnimation Pam/pause 1250/speak Pam \"ฉันติดอยู่กับการเป็น คนขับรถตลอดชีวิต ไม่มีความทะเยอทะยาน ไม่มีความฝันอีกต่อไป ไม่มีสักอย่าง...$2\"/pause 500/question fork1 \"#ทุกอย่างจะดีขึ้น#เพียงแต่ ถ้าคุณทำดีกว่านี้ ชีวิตจะดีกว่านี้\"/fork 1000027_DidntKnow/pause 500/move Pam 0 0 2/stopMusic/pause 1000/emote Pam 12/pause 500/speak Pam \"ฉันคิดว่าฉันสบายดี$0#$b#ตอนนี้ ออกไปจากที่นี่เถอะ$2\"/globalFade/viewport -1000 -1000/pause 700/friendship Pam -1000/end dialogue Pam \"ฉันรู้ว่า ฉันสามารถทำมันได้ แต่...$2#$b#ชิ...$3#$e#ซื้อเบียร์ให้ฉัน ในคืนนี้$1\"",
+	 "1000027_WhatsBotheringYou": "pause 800/speak Pam \"...$2\"/pause 700/move Pam 0 0 0/pause 650/playMusic echos/pause 1000/speak Pam \"เชื่อหรือไม่ ตอนที่ฉันอายุเท่าเธอ ฉันมีความฝัน$2#$b#ฉันอยากขับเครื่องบิน และอยู่บนท้องฟ้า ไม่... ไม่ใช่อย่างนั้น$2\"/pause 1500/speak Pam \"ถ้าฉันพยายามอย่างหนัก กับการเรียนเรื่องการบิน ชีวิตของฉันคงแตกต่าง จากตอนนี้$2\"/pause 500/emote Pam 28/pause 450/move Pam 0 0 2/pause 650/speak Pam \"ฉันทำผิดพลาดในชีวิต @ ตอนนี้ฉันเป็นแค่หญิงชรา$2\"/pause 600/shake Pam 1000/pause 600/move Pam 0 0 0/pause 800/shake Pam 500/pause 1250/speak Pam \"การหย่าร้าง เป็นความผิดของฉัน ฉันให้เฮนรี่ เป็นโลกแห่งความเศร้า และความเจ็บปวด$2#$b#ฉันรู้ว่าฉันแยกเขา ออกจากเพนนี และจากนั้น ไปใช้จ่ายในสิ่งเล็กๆ น้อยๆ ที่ซาลูน เพื่อลืมทุกอย่าง$2\"/pause 1000/stopAnimation Pam/pause 1250/speak Pam \"ฉันติดอยู่กับการเป็น คนขับรถตลอดชีวิต ไม่มีความทะเยอทะยาน ไม่มีความฝันอีกต่อไป ไม่มีสักอย่าง...$2\"/pause 500/question fork1 \"#ทุกอย่างจะดีขึ้น#เพียงแต่ ถ้าคุณทำดีกว่านี้ ชีวิตจะดีกว่านี้\"/fork 1000027_DidntKnow/pause 500/move Pam 0 0 2/stopMusic/pause 1000/emote Pam 12/pause 500/speak Pam \"ฉันคิดว่าฉันสบายดี$0#$b#ตอนนี้ ออกไปจากที่นี่เถอะ$2\"/globalFade/viewport -1000 -1000/pause 700/friendship Pam -1000/end dialogue Pam \"ฉันรู้ว่า ฉันสามารถทำมันได้ แต่...$2#$b#ชิ...$3#$e#ซื้อเบียร์ให้ฉัน ในคืนนี้$1\"",
 	 
 	 "1000027_DidntKnow": "pause 750/stopMusic/pause 1000/move Pam 0 0 2/pause 800/speak Pam \"ฉันไม่ได้ต้องการ ความเห็นอกเห็นใจ$4#$b#ความรู้สึกเหล่านี้ เป็นเรื่องที่ปกติ$2#$b#เธอไม่จำเป็นต้อง พูดคำนุ่มๆ ไม่มีอะไร ที่จะเปลี่ยนแปลง สถานการณ์หรือชีวิต ของฉัน ฉันเป็นตัวของตัวเอง$4\"/pause 1000/speak Pam \"หากคุณต้องการ เป็นกำลังใจให้ฉันจริงๆ ซื้อเบียร์ให้กับฉัน ในคืนนี้$4\"/pause 400/globalFade/viewport -1000 -1000/pause 700/end dialogue Pam \"เธอจะซื้อเครื่องดื่มให้ฉัน ได้ไหม? มันจะเป็นกำลังใจให้ฉัน อย่างแน่นอน$1\""
 	 },
