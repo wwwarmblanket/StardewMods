@@ -5709,7 +5709,18 @@
 	 "Target": "characters/schedules/Leah",
 	 "When": { "HasSeenEvent |contains=5553210": false },
 	 "Entries": {
+	 "Tue": "700 LeahHouse 12 14 0/930 Forest 112 31 3 leah_sculpt/1240 Forest 113 31 2 leah_draw/1510 Forest 111 36 2/1540 Forest 111 39 0/1610 LeahHouse 6 5 0/1730 LeahHouse 12 14 0/1930 LeahHouse 3 4 2 leah_sleep",
      "Sun": "610 LeahHouse 17 10 0/640 Forest 112 39 0/800 Forest 109 38 1/820 Forest 112 34 0/840 Forest 109 39 2/900 Town 97 104 3/1130 Town 100 104 2/1200 Town 103 104 2/1230 Town 104 104 2/1300 Town 108 104 2/1330 Town 110 104 0/1400 Town 105 63 2/1800 LeahHouse 18 10 0/2100 LeahHouse 3 4 2 leah_sleep",
+     "winter_Sun": "700 LeahHouse 17 10 0/830 Summit 14 13 0/1600 LeahHouse 3 4 2 leah_sleep"
+	  },
+},
+
+{       //LEAH SCHEDULE EDITS
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Leah",
+	 "When": { "HasSeenEvent": "5553210" },
+	 "Entries": {
+     "Sun": "610 LeahHouse 17 10 0/640 Forest 112 39 0/800 Forest 109 38 1/820 Forest 112 34 0/840 Forest 109 39 2/900 Town 97 104 3/1130 Town 100 104 2/1200 Town 103 104 2/1230 Town 104 104 2/1300 Town 108 104 2/1330 Town 110 104 0/1400 Town 88 103 2/1800 LeahHouse 18 10 0/2100 LeahHouse 3 4 2 leah_sleep",
      "winter_Sun": "700 LeahHouse 17 10 0/830 Summit 14 13 0/1600 LeahHouse 3 4 2 leah_sleep"
 	  },
 },
@@ -5720,17 +5731,6 @@
 	 "When": { "Season |contains=Winter": false },
 	 "Entries": {
 	 "Tue": "700 LeahHouse 12 14 0/930 Forest 112 31 3 leah_sculpt/1240 Forest 113 31 2 leah_draw/1510 Forest 111 36 2/1540 Forest 111 39 0/1610 LeahHouse 6 5 0/1730 LeahHouse 12 14 0/1930 LeahHouse 3 4 2 leah_sleep",
-	  },
-},
-
-{       //LEAH SCHEDULE EDITS
-	 "Action": "EditData",
-	 "Target": "characters/schedules/Leah",
-	 "When": { "HasSeenEvent": "5553210" },
-	 "Entries": {
-	 "Tue": "700 LeahHouse 12 14 0/930 Forest 112 31 3 leah_sculpt/1240 Forest 113 31 2 leah_draw/1510 Forest 111 36 2/1540 Forest 111 39 0/1610 LeahHouse 6 5 0/1730 LeahHouse 12 14 0/1930 LeahHouse 3 4 2 leah_sleep",
-     "Sun": "610 LeahHouse 17 10 0/640 Forest 112 39 0/800 Forest 109 38 1/820 Forest 112 34 0/840 Forest 109 39 2/900 Town 97 104 3/1130 Town 100 104 2/1200 Town 103 104 2/1230 Town 104 104 2/1300 Town 108 104 2/1330 Town 110 104 0/1400 Town 88 103 2/1800 LeahHouse 18 10 0/2100 LeahHouse 3 4 2 leah_sleep",
-     "winter_Sun": "700 LeahHouse 17 10 0/830 Summit 14 13 0/1600 LeahHouse 3 4 2 leah_sleep"
 	  },
 },
 
