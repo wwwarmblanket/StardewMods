@@ -5171,7 +5171,7 @@
 	"Action": "EditData",
 	"Target": "data/events/jenkinshouse",
     "When": { "Relationship:Victor": "Dating", "Relationship:Olivia": "Dating" },
-	"Entries":{ 
+	"Entries": { 
     "6469705/i 446": "none/-500 -500/farmer 20 42 0 Victor 19 37 2 Olivia 21 37 2/pause 900/playSound doorClose/pause 300/positionOffset Victor 30 10/positionOffset Olivia -25 14/viewport 20 39 true/skippable/move farmer 0 -2 0/pause 500/emote farmer 16/speak Olivia \"สวัสดีจ่ะ ที่รัก...$1\"/speak Victor \"นี่ คุณ!$1\"/pause 500/speak Olivia \"ฉันซื้อไวน์ รสเลิศมาขวดหนึ่ง  ... อยากชิมมั้ยจ๊ะ @?$4\"/pause 200/speak Victor \"ผมเพิ่งซื้อเกมเล่นสองคน มาครับ! สนใจเล่นมั้ยครับ?$4\"/pause 500/emote farmer 32/globalFade/viewport -1000 -1000/pause 200/end dialogue Olivia \"เธอเป็นที่ต้อนรับเสมอ ที่บ้านของเรานะจ๊ะ ที่รัก $1\"",
     }
 },
@@ -5182,7 +5182,7 @@
     "When": { "Relationship:Victor": "Dating", "Relationship:Olivia": "Dating" },
 	"Entries": { 
     "6469705": "none/-500 -500/farmer 20 42 0 Victor 19 37 2 Olivia 21 37 2/friendship Victor -1250/friendship Olivia -1250/pause 900/playSound doorClose/pause 300/positionOffset Victor 30 10/positionOffset Olivia -25 14/viewport 20 39 true/skippable/move farmer 0 -2 0/pause 500/emote farmer 16/speak Olivia \"...$5\"/speak Victor \"...$5\"/pause 500/speak Olivia \"เธอสนุกกับ การเล่น ปริศนานี่มากมั้ย @?$5\"/pause 200/speak Victor \"คุณแม่กับผมได้คุยกัน เรื่องคุณแล้วครับ $2#$b#คิดว่าจะหลบไปได้ตลอด สินะครับ?$5\"/pause 800/speak Olivia \"เดตกับเราทั้งสองคน แล้วจะแกล้งไม่รู้หรือ? ฉันควรสั่งห้าม ไม่ให้เธอได้เข้ามาที่บ้านของเราอีกเลย$5#$e#คุณมีเรื่อง ที่ต้องอธิบายแล้วล่ะ...$5\"/pause 100/globalFade/viewport -1000 -1000/pause 1500/message \"ฉันพูดจนรอดมาได้ไงไม่รู้ ฉันต้องตัดสินใจแล้วล่ะ ว่าจะคบใครต่อ...\"/pause 1300/message \"ฉันเสียมิตรภาพ ของโอลิเวียและวิคเตอร์ ไปมากโขเลย...\"/end dialogue Olivia \"*ถอนหายใจ* อย่าเล่นกับความรู้สึก ของคนอื่นแบบนั้น มันไร้อารยธรรม...$2#$e#%โอลิเวียหันหน้าหนีคุณ\"",
-	}
+    }
 },
 
     //ANDY NPC
