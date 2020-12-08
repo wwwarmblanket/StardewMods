@@ -5096,7 +5096,7 @@
     },
 	
 	{ 
-	  //OLIVIA 6 HEART EVENT
+	  //OLIVIA 8 HEART EVENT
       "Action": "EditData",
       "Target": "Data/Events/Saloon",
       "Entries": {
