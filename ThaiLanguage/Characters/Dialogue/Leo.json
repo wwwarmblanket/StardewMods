@@ -16,15 +16,15 @@
         }
     ],
     "content": {
-        "Mon": "Hi... Everything okay?",
-        "Mon4": "I've learned a lot from my parrot family...#$b#But I'm sure there's a lot more out there I don't know.$s",
-        "Tue": "When Sun is angry, it feels good in the jungle.#$e#Sun can't find us beneath the leaves. We trick him! Haha...$h",
-        "Wed": "...Sorry... I'm shy today.$3",
-        "Wed2": "Be careful in the volcano... the spirits don't like outsiders.",
-        "Thu": "Have you met the others like you?#$b#I don't talk to them much. I feel safer with my own kind...$3",
-        "Fri": "One time... I was at the top of the volcano at night, and I saw lights far, far away.#$b#I wonder if there are other bird families out there?$3",
-        "Fri3": "I wonder if I could see your home from the top of the volcano?",
-        "Sat": "...I'm sad today.$s#$e#You go on... have fun. Let me be sad.$s",
-        "Sun": "When it rains, strange birds visit.#$b#I try to speak to them... but they fly away.$s#$b#I guess they don't want to be friends...$s"
+        "Mon": "หวัดดี... ทุกอย่างเรียบร้อยดีนะ?",
+        "Mon4": "ครอบครัวนกแก้ว สอนอะไรหลายอย่างให้ผม..#$b#แต่ผมมั่นใจว่า มันยังมีอีกหลายอย่าง ที่ผมไม่รู้$s",
+        "Tue": "การได้อยู่ในป่า ยามที่ดวงอาทิตย์โมโหน่ะ มันดีมากเลย#$e#ดวงอาทิตย์หาเรา ใต้กองใบไม้ไม่เจอหรอก พวกเราใช้ลูกเล่นกับเขา! ฮ่าๆ...$h",
+        "Wed": "...โทษทีนะ... วันนี้ผมอาย$3",
+        "Wed2": "ระวังภูเขาไฟไว้ด้วย... พวกวิญญาณ ไม่ชอบคนนอก",
+        "Thu": "คุณเคยเจอ คนที่คล้ายคุณบ้างไหม?#$b#ผมไม่ค่อยคุยกับพวกเขาหรอก ผมรู้สึกปลอดภัย เมื่ออยู่กับตัวเองมากกว่า...$3",
+        "Fri": "มีคืนนึง... ผมไปที่จุดสูงสุดของภูเขาไฟ แล้วเห็นแสงไฟที่อยู่ไกลลิบ#$b#ผมสงสัยว่าที่ตรงนั้น มีนกฝูงอื่นอาศัยอยู่รึเปล่านะ?$3",
+        "Fri3": "ผมสงสัยจังว่า ผมจะมองเห็นบ้านของคุณ จากยอดภูเขาไฟได้มั้ยนะ?",
+        "Sat": "...วันนี้ผมเศร้าจัง$s#$e#คุณ... ไปสนุกเถอะ ปล่อยผมเศร้าแบบนี้แหละ$s",
+        "Sun": "เมื่อฝนตก พวกนกแปลกๆ จะมา#$b#ผมลองคุยกับพวกเค้า... แต่พวกเค้าก็บินหนีไป$s#$b#ผมคิกว่าพวกเค้าคง ไม่อยากเป็นเพื่อนกับผม...$s"
     }
 }
