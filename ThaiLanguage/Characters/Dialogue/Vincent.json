@@ -17,6 +17,11 @@
     ],
     "content": {
         "Introduction": "อ๊ะ คนแปลกหน้า! ผมชื่อวินเซนท์ครับ#$b#คุณแม่บอกผมว่า ห้ามคุยกับคน แปลกหน้า... แต่กับคุณ น่าจะไม่เป็นไร",
+        "Resort_Entering": "That was fun! I wanna be a boat captain some day!",
+        "Resort_Leaving": "I wanna come back soon!",
+        "Resort_Shore": "I wanna see a shark!$h",
+        "Resort": "If you look close, you can see little bugs jumping out of the sand.$h",
+        "reject_869": "Oooh! Nice find!#$b#Mom wouldn't let me keep him, though...$s",
         "Mon": "ผมอยากเป็น เหมือนพี่เมื่อโตขึ้นจัง!$h#$e#โอเค ลาก่อนนะ!",
         "Mon4": "ผมดีใจที่พ่อกลับมา... แต่เขาดูไม่เหมือน ที่ผมจำได้อะ... พ่อไม่ค่อยอยู่บ้าน... ผมคิดถึงตอนที่ ได้เล่นกับพ่อจัง$s",
         "Tue": "*เฮ้อ*... วันนี้แม่ ไม่อนุญาตให้ผม เคี้ยวหมากฝรั่งอีกแล้ว$s",

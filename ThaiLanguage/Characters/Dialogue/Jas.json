@@ -17,6 +17,11 @@
     ],
     "content": {
         "Introduction": "...$u#$b#สวัสดีค่ะ...$u",
+        "Resort_Entering": "I see a crab!",
+        "Resort_Leaving": "I've got sand in my shoe...$s",
+        "Resort_Shore": "I'm collecting seashells... I'm gonna make a necklace!",
+        "Resort": "Aunt Marnie told me not to get burnt... But when I walk fast, it feels cool, so I think I'll be okay.$h",
+        "reject_869": "Ew, gross!$s",
         "Mon": "โอ้...พี่กำลังมองหา ป้ามานีอยู่หรอคะ?$u",
         "Mon4": "สวัสดีค่ะ พี่ชาย @^สวัสดีค่ะ พี่สาว @#$e#การอยู่ในฟาร์ม มันสนุกดีนะคะ$h",
         "Tue": "อะไรนะคะ? *หัวเราะ*$h#$e#...สวัสดีค่ะ",

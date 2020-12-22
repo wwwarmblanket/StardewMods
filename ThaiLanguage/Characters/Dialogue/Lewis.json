@@ -17,6 +17,11 @@
     ],
     "content": {
         "Introduction": "คืนแรกในกระท่อมเก่าๆ เป็นอย่างไรบ้างล่ะ?#$e#ปู่ของคุณ บ่นเกี่ยวกับเตียงโง่ๆ นั่นตลอดเลย แต่ฉันว่าลึกๆแล้ว เขาก็รักบ้านหลังนั้นนะ",
+        "Resort": "I'm impressed, @. You've really fixed up the place!$h",
+        "Resort_Leaving": "Everyone aboard! We're heading back to the valley!",
+        "Resort_Shore": "Vacation opportunities like this could really expand the local economy!#$e#I'd better not stay in the sun too long, or my moustache will dry out.",
+        "Resort_Chair": "Hehe... look at this place! I don't know how you did it, but this little vacation spot is the talk of the town.$h",
+        "Resort_Bar": "Hehe... Gus is really in his element.",
         "pamHouseUpgrade": "@ ฉันได้ยินว่าเธอทำเพื่อ แพม และ เพนนี... และมันเป็นการช่วยเหลือ กันในชุมชนที่ฉันอยากเห็น ในเมืองเพลิแกนแห่งนี้!$h",
         "pamHouseUpgradeAnonymous": "@ เธอเคยได้ยินไหม? บางคนจ่ายเงินให้ โรบิน เพื่อสร้างบ้านใหม่ให้ แพม และ เพนนี! ยังไงก็ตาม โรบิน ไม่ได้บอกฉันว่าคนๆ นั้นเป็นใคร#$e#ไม่ว่าใครจะเป็นคนจ่ายก็ตาม ฉันอยากเห็นการช่วยเหลือ ของคนในชุมชนแบบนี้ ในเมืองพิลิแกนแห่งนี้!$h",
         "willyCrabs": "*ฟุดฟิด*... *ฟุดฟิด*... ได้กลิ่นนั้นไหม? ฉันสามารถจับปูได้ทั้งวัน...$u",

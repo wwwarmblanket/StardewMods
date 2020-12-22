@@ -17,6 +17,12 @@
     ],
     "content": {
         "Mon": "ผมไม่รู้จักคุณ มาคุยกับผมทำไม?",
+        "Resort_Entering": "Buh... hope the bar's open.",
+        "Resort_Leaving": "Welp... got my year's supply of Vitamin D. Now I can play video games with the blinds shut the rest of the year.",
+        "Resort_Shore": "That's right... I'm not wearing any shoes or socks.#$b#Some call it a public health risk.#$b#The crabs seem to enjoy it, though.$h",
+        "Resort_Chair": "Hoo... Feels good to rest these hams.#$b#If anyone needs me, I'll just be sitting here, marinating.",
+        "Resort_Bar": "Phew... feels good to have a cold drink...#$e#Or maybe a few...",
+        "Resort": "Okay, this sand is piping hot. I regret not wearing shoes.$s",
         "danceRejection": "...ไม่$s",
         "pamHouseUpgrade": "ผมได้ยินมาว่า คุณสร้างบ้านให้แพม... นั่นช่างมีน้ำใจจริงๆ...#$b#คุณรู้ไหมผมเองก็ ต้องการเงินซักแสนนึง...#$e#*อะแฮ่ม* ...อ่า ...แค่ล้อเล่นน่ะ ...แหะๆ",
         "pamHouseUpgradeAnonymous": "ผมได้ยินมาว่า มีคนสร้างบ้านให้แพม... *ถอยหายใจ*... แล้วแพมไปทำอะไรเหรอถึง สมควรได้รับความช่วยเหลือ แบบนั้น??",

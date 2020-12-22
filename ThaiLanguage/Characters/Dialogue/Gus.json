@@ -17,6 +17,11 @@
     ],
     "content": {
         "Introduction": "สวัสดี! ฉันชื่อกัส เป็นเชฟ แล้วก็เป็น เจ้าของสตาร์ดรอปซาลูน#$e#เข้ามาสิ ถ้าคุณต้องหาเครื่องดื่ม ฉันมีกาแฟร้อนๆ และเบียร์เย็นๆ ด้วยนะ$h",
+        "accept_865": "*sniff* sniff* ... that sharp smell!#$b#*slurp* *slurp* ... that zesty taste! That gritty texture!#$b#It can only be gourmet tomato salt! I'll trade you for it.",
+        "Resort_Entering": "Hey, @! Glad you're here. I'm gonna be serving up some good stuff from behind the bar.",
+        "Resort_Leaving": "I'll see you back home, @.",
+        "Resort": "Meet me at the bar if you need a beverage.",
+        "IslandSouth_14_21": "Hey, need a drink? I've got some special beverages that showcase local ingredients from this island.$h",
         "willyCrabs": "เค้กปูพวกนี้ อาจจะเป็นเค้กที่ดีที่สุด ที่ฉันเคยทำมาเลยล่ะ...",
         "Mon": "ใช่, ฉันรู้เรื่องราวเยอะแยะ เกี่ยวกับผู้คนแถวนี้#$e#มันอาจจะเป็นข้อดีอย่างหนึ่ง ของการเป็น บาร์เทนเดอร์ก็ได้นะ$h#$e#แต่บางทีฉันก็ได้ยิน มันมากเกินไปเหมือนกัน...",
         "pamHouseUpgrade": "เฮ้ ฉันได้ข่าวมาว่าเธอ ไปช่วยอะไรแพมมาบ้าง เธอนี่ช่างมีน้ำใจดีงามมากๆ เลย!$h#$e#แต่น่าเศร้า ฉันไม่คิดว่ามัน จะทำให้เธอเลิก 'ดื่ม' นะ...",

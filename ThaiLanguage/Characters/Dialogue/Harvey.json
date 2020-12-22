@@ -17,6 +17,12 @@
     ],
     "content": {
         "Introduction": "ยินดีที่ได้รู้จัก ผมชื่อ ฮาร์วีย์ เป็นแพทย์ประจำท้องถิ่น#$e#ผมดำเนินการตรวจสุขภาพ และรักษาให้ประชาชน ทั้งหมดของเมืองเพลิแกน เป็นงานที่คุ้มค่า#$e#ผมหวังว่าคุณ จะพบงานที่คุ้มค่าเหมือนกันนะ$h",
+        "Resort_Entering": "Sunscreen? Check...#$b#Sun hat? Check...",
+        "Resort_Leaving": "If you get burnt, a little aloe vera cream might help soothe the skin.",
+        "Resort_Shore": "I combed the whole beach for glass. We wouldn't want anyone to get a cut on their foot!",
+        "Resort_Chair": "It's nice to have an opportunity to relax now and then.#$b#The trouble is actually letting go of your worries...$s",
+        "Resort_Bar": "It's important to stay hydrated in this heat. I'm going to ask Gus if he has any coconut water!$h",
+        "Resort": "I'll let you in on a little secret... I can only swim with floaties.$s",
         "danceRejection": "โอ้! ขอโทษด้วย... ผม เอ่อ... ตั้งใจจะชวนคนอื่นอยู่แล้วน่ะ$s",
         "divorced": "ผ... ผมไม่สามารถมองไปที่คุณได้ ได้โปรดอย่าสร้าง ความเจ็บปวดให้ผมอีกเลย$s",
         "breakUp": "...ค...คุณ...?$s#$b#*อึก*... ผ... ผมคิดว่า ผมกำลังป่วย...$s",

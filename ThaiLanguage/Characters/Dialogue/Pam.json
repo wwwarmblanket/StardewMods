@@ -17,6 +17,11 @@
     ],
     "content": {
         "Introduction": "ไง เด็กน้อย ฉันชื่อแพม#$e#ถ้าเธอไม่ทำตัวงี่เง่า เราก็จะเข้ากันได้ดี",
+        "Resort_Shore": "Looks like there's some unique fish swimmin' around. Next time I'll have to bring my pole!",
+        "Resort": "Heh... Willy gave us each a piece of his fish jerky on the ride over. Delicious!",
+        "Resort_Chair": "Now this is comfort! I might even take my shoes off!$h#$e#Better not look too closely at my feet, kid.",
+        "Resort_Bar": "It's a special occasion, kid... I'm ordering something unique. Make it a double!$h",
+        "reject_867": "Wow, would you look at that... It's like something out of the future.#$b#Hehe, sorry kid... I can't use that. There's more buttons than I have brain cells!$h",
         "pamHouseUpgrade": "ฉันไม่อยากเชื่อ ว่าเธอจะซื้อบ้านใหม่ให้ฉัน! มีลับลมคมในรึเปล่า?#$e#โทษที ฉันไม่ค่อยคุ้น กับการที่มีคนมาทำดี ด้วยเท่าไร...$s",
         "pamHouseUpgradeAnonymous": "ฉันไม่อยากเชื่อเลยว่า จะมีใครบางคนซื้อบ้านให้ฉัน! ฉันแปลกใจมากมันเป็น การล้อเล่นอะไรรึเปล่า?#$e#โทษที ฉันไม่ค่อยคุ้น กับการที่มีคนมาทำดี ด้วยเท่าไร...$s",
         "MovieInvitation": "เดทกลางดึกกับยายแก่แพม ใช่ไหม? ฮะ!$h^เป็นผู้หญิงเที่ยวกลางคืน กับยายแก่แพม ใช่ไหม? ฮะ!$h#$b#แน่นอนสิ เด็กน้อย... แล้วเจอกันที่นั่น",

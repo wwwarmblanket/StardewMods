@@ -17,6 +17,13 @@
     ],
     "content": {
         "Introduction": "เธอเจอกับทุกๆ คนในเมืองหรือยัง มันฟังดูลำบากเนอะ",
+        "Resort": "Wow, look at these structures!$h#$b#I can tell they were made by a master builder. I'm really impressed!",
+        "Resort_Leaving": "That was fun!$h",
+        "Resort_Shore": "Hey, look! I can see another island from here.",
+        "Resort_Chair": "Hey @. You know, I was just thinking about how far the town has come since you first moved here.#$b#You should really be proud of all you've done!$h",
+        "Resort_Bar": "This is so relaxing...",
+        "reject_865": "Veggie salt? Sounds good, but I don't need it.",
+        "reject_866": "Hmm... when I think of flowers, I think of Evelyn. Maybe show this to her?",
         "pamHouseUpgrade": "แผนการทำงานเล็กๆ ของเราเป็นไปได้ด้วยดี ใช่มั้ย? แพมและเพนนี ดูมีความสุขจริงๆ",
         "pamHouseUpgradeAnonymous": "แผนการทำงานเล็กๆ ของเราเป็นไปได้ด้วยดี ใช่มั้ย? แพมและเพนนี ดูมีความสุขจริงๆ",
         "MovieInvitation": "โอ้... มีตั๋วสองใบสำหรับคืนนี้ ใช่มั้ย? ฟังดูเข้าท่า! ฉันจะพบเธอที่นั่น$h",

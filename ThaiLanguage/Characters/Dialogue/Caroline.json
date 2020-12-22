@@ -17,6 +17,12 @@
     ],
     "content": {
         "Introduction": "สวัสดี! คุณคงเป็น @ เจ้าของฟาร์ม ที่ย้ายเข้ามาใหม่ ฉันชื่อแคโรไลน์#$e#สามีของฉัน เปิดร้านค้าที่นี่ คุณเคยเจอ ลูกสาวของฉันอบิเกลรึยัง? เธอผิวออกซีดๆ และมีผมสีม่วงน่ะ",
+        "Resort_Entering": "Willy gave us each a piece of his fish jerky. I'm still chewing on it.",
+        "Resort_Leaving": "I'll sleep well tonight!$h",
+        "Resort_Shore": "The water is so warm here compared to the valley. It's really pleasant!",
+        "Resort_Chair": "%Caroline is trying to nap.",
+        "Resort_Bar": "I told Gus to surprise me, and he made an iced green tea with mango zest. How nice!$h",
+        "Resort": "Hi @. Are you here to relax, or to do work?",
         "Mon": "ฉันไม่อยากให้แอ็บบี้ ใช้เวลาอยู่แต่ในห้องเลย",
         "Mon_inlaw_Abigail": "ไงจ๊ะ @ เธอสนุกกับชีวิตแต่งงานมั้ย? ฉันหวังไว้อยู่นะ!",
         "Mon8": "#$1 Caroline23#ตอนที่พวกเรา ย้ายมาที่เมืองเพลิแกน ฉันแอบเดินไปที่ หอคอยของพ่อมด ด้วยล่ะ อย่าบอกปีแอร์นะ เขาเป็นคนขี้หวงน่ะ#$e#อบิเกลเกิดหลังจากที่เรา ย้ายมาที่นี่ปีนึง ฉันสงสัยจังว่า เธอเคยสัมผัสชีวิต นอกหมู่บ้านรึเปล่า?",
