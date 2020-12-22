@@ -18,7 +18,7 @@
     "content": {
         "name": "Spirit's Eve",
         "conditions": "Town/2200 2350",
-        "shop": "BO 113 5000 1 O 746 750 5 BL 746 2000 1 BO 47 350 -1",
+        "shop": "BO 113 5000 1 O 746 750 5 BL 746 2000 1 BO 47 350 -1 F 2870 4000 -1",
         "set-up": "spirits_eve/-1000 -1000/farmer 12 54 1/changeToTemporaryMap Town-Halloween/loadActors Set-Up/advancedMove Maru true 0 2 2 0 0 3 -11 0 0 -7 5 0 0 2 4 0/advancedMove Alex true -4 0 4 4000 4 0 4 5000/advancedMove Jas true 1 1500 4 1000/advancedMove Pam true 0 1 1 5000 0 -1 1 5000/advancedMove Shane true -7 0 0 2 2 9000 0 -2 7 0 4 9000/advancedMove Demetrius true 3 18000 4 3000/addTemporaryActor Skeleton 16 32 30 59 2 false Monster/advancedMove Skeleton true 0 1 3 4000 2 0 0 -1 4 2000 -1 0 3 1000 2 2000 0 -1 4 4000 -1 0 0 1 2 5000/addTemporaryActor Skeleton 16 32 35 58 2 false Monster/playerControl halloween",
         "Abigail_spouse": "เธอบอกฉันว่า มีอะไรอยู่ข้างหน้านะ ไม่ ฉันไปไม่ได้... นั่นแมงมุม...$s",
         "Leah_spouse": "ฉันว่าฉันกินเหล้าฟักทอง มากเกินไปหน่อย...",
@@ -60,6 +60,7 @@
         "Sandy": "ฉันได้ยินว่า ที่นั่นฝนตกล่ะ นั่นใช่เหตุผลที่คุณ มาที่นี่มั้ย?$h#$e#จริงๆแล้ว บางครั้ง ฉันก็คิดถึงฝนนะ..$s",
         "Jas": "เพราะป้ามานีห้ามค่ะ! หนูอยากเข้าไป ในเขาวงกตนี่นา! ไม่เห็นจะน่ากลัว สักหน่อย!$s",
         "Vincent": "แม่ไม่ให้ผม เข้าไปในเขาวงกตล่ะ *เศร้า*$s",
-        "Marlon": "อย่าอยู่ใกล้กรง มากเกินไปล่ะ"
+        "Marlon": "อย่าอยู่ใกล้กรง มากเกินไปล่ะ",
+        "Leo": "%Leo's unblinking eyes are glued to the screen. You're unable to get his attention."
     }
 }
