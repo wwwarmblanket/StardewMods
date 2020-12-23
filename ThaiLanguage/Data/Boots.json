@@ -34,9 +34,9 @@
         "515": "Cowboy Boots/(รองเท้าคาวบอย) มันคือรองเท้าที่ดูดีที่สุด ในยุคนี้แล้ว/250/2/2/11/Cowboy Boots",
         "804": "Emily's Magic Boots/(รองเท้าวิเศษของเอมิลี่) เอมิลี่ตัดเย็บให้ด้วยความรัก ย่อยสลายได้ 100%!/250/4/4/13/Emily's Magic Boots",
         "806": "Leprechaun Shoes/(รองเท้าเลพริคอน) ส่วนที่เป็นหัวเข็มขัดทำจากทองคำเชียวนะ/250/2/1/14/Leprechaun Shoes",
-        "853": "Cinderclown Shoes/These magic shoes belonged to a famous Dwarvish jester./1000/6/5/15",
-        "854": "Mermaid Boots/Mermaid scales gives these boots a protective aura./1000/5/8/16",
-        "855": "Dragonscale Boots/These shimmering boots are extremely tough./1000/7/0/17",
-        "878": "Crystal Shoes/These sparkling shoes will keep your feet very safe./1000/3/5/18"
+        "853": "Cinderclown Shoes/(รองเท้าตัวตลกซินเดอร์) รองเท้าวิเศษเหล่านี้ เป็นของตัวตลกคนแคระ ที่มีชื่อเสียง/1000/6/5/15/Cinderclown Shoes",
+        "854": "Mermaid Boots/(รองเท้านางเงือก) ด้วยเกล็ดนางเงือก ช่วยให้รองเท้าเหล่านี้ มีออร่าป้องกัน/1000/5/8/16/Mermaid Boots",
+        "855": "Dragonscale Boots/(รองเท้าเกล็ดมังกร) รองเท้าที่ส่องแสง ระยิบระยับเหล่านี้ มีความเหนียวอย่างมาก/1000/7/0/17/Dragonscale Boots",
+        "878": "Crystal Shoes/(รองเท้าคริสตัล) รองเท้าที่ส่องแสง ระยิบระยับเหล่านี้ จะทำให้เท้าของคุณ รู้สึกปลอดภัย/1000/3/5/18/Crystal Shoes"
     }
 }
