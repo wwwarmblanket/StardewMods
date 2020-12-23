@@ -33,6 +33,10 @@
         "514": "Space Boots/(รองเท้าอวกาศ) รองเท้าที่มีสีม่วงแวววาว ที่เกิดจากการถักทอ ด้วยเส้นใยอิริเดียม/450/4/4/10/Space Boots",
         "515": "Cowboy Boots/(รองเท้าคาวบอย) มันคือรองเท้าที่ดูดีที่สุด ในยุคนี้แล้ว/250/2/2/11/Cowboy Boots",
         "804": "Emily's Magic Boots/(รองเท้าวิเศษของเอมิลี่) เอมิลี่ตัดเย็บให้ด้วยความรัก ย่อยสลายได้ 100%!/250/4/4/13/Emily's Magic Boots",
-        "806": "Leprechaun Shoes/(รองเท้าเลพริคอน) ส่วนที่เป็นหัวเข็มขัดทำจากทองคำเชียวนะ/250/2/1/14/Leprechaun Shoes"
+        "806": "Leprechaun Shoes/(รองเท้าเลพริคอน) ส่วนที่เป็นหัวเข็มขัดทำจากทองคำเชียวนะ/250/2/1/14/Leprechaun Shoes",
+        "853": "Cinderclown Shoes/These magic shoes belonged to a famous Dwarvish jester./1000/6/5/15",
+        "854": "Mermaid Boots/Mermaid scales gives these boots a protective aura./1000/5/8/16",
+        "855": "Dragonscale Boots/These shimmering boots are extremely tough./1000/7/0/17",
+        "878": "Crystal Shoes/These sparkling shoes will keep your feet very safe./1000/3/5/18"
     }
 }
