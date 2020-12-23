@@ -28,6 +28,8 @@
         "WrongFishTypeCoral": "{0} สามารถเลี้ยง {0} ได้เท่านั้น",
         "CantPutInPonds": "{0} พวกเราไม่มีความสุขในนี้บ่อเลย",
         "NoFish": "สามารถเลี้ยงปลาในบ่อนี้ได้",
-        "PondFull": "บ่อนี้เต็มแล้ว"
+        "PondFull": "บ่อนี้เต็มแล้ว",
+        "Paint_Region_Roof": "Roof",
+        "Paint_Region_Building": "Roof"
     }
 }

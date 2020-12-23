@@ -366,6 +366,25 @@
         "MovieTheater_Marcello2": "มาร์เซลโล: เป็นซอสทาขนมปังที่เยี่ยมยอดอะไรขนาดนี้! ฉันคิดว่าฉันจะไปเอา มัสตาร์ดรสเผ็ดผสมธัญพืช 12 ชนิดมาอีก ฮิฮิ!",
         "MovieTheater_Morris": "อย่างที่คุณเห็น ภาพยนตร์ประสบความสำเร็จ เป็นอย่างมาก!$h#$b#อะไรนะ...? ผลตอบแทนสำหรับการลงทุนของคุณ? คืออย่างนี้นะ มันค่อนข้างจะยาก คุณก็รู้... อาจจะต้องใช้เวลาซักพัก คุณเข้าใจอยู่แล้วนี่... *งึมงัมๆ*$2",
         "MovieTheater_Morris2": "อา นี่คือหุ้นส่วนการลงทุนที่สำคัญมากของเรา! มีความสุขกับการแสดงนะครับ และอย่าลืมที่จะซื้อ ป๊อปคอร์นโจจ้าระหว่างทาง ด้วยล่ะ!$h",
-        "MovieTheater_CranePlay": "อยากจะเล่นตู้คีบมั้ย? (ราคา {0}g)"
+        "MovieTheater_CranePlay": "อยากจะเล่นตู้คีบมั้ย? (ราคา {0}g)",
+        "IslandShrine_Shrine": "When dark clouds cry, begin your quest^To seek the fabled gem-birds four^Each day, one north, south, east, or west^Arrange their gifts upon my door",
+        "Pirates1": "GREEN: You were always Momma's favorite! WaaaAaAa",
+        "Pirates2": "RED: Mamma mia! Calm down, brother. Youch!",
+        "Pirates3": "WELL-DRESSED PIRATE: *ahem*... Yar.#...#...Not convincing, huh?#*sigh*...#To tell you the truth, I don't really want to be a pirate. I'd rather grow palms.#Unfortunately, there's no money in the palm business...",
+        "Pirates4": "BLACKGULL: Yar, matey. Ye must have a keen eye to've spotted our secret cove. Yo ho!",
+        "Pirates5": "GRIM PIRATE: From yonder seas, a chilling tale, a nightmare sure to haunt your sleep...#'Twas midnight when I lost me hands... to a savage monster o' the deep...#Yar, 'tis true...#...#...#..............#..............................................#Alright, I'm just kidding. I actually lost them while trying to fish an eggshell out of the blender.#Alas... me famous cake batter days are over...",
+        "Pirates6": "He's in a stupor...",
+        "Pirates8": "BARTENDER: Oi guv!... Grog and tasties are fer da pirates only.",
+        "Pirates7_0": "DART MAN: Care for a game o' darts? You've got 20 darts to score exactly 301 points.",
+        "Pirates7_1": "DART MAN: How about we make things more interesting. Hit exactly 301 points within 15 darts and I'll be impressed, matey!",
+        "Pirates7_2": "DART MAN: Ah, good to see ya again, matey! Let's see if you can score 301 points within... 10 darts!",
+        "Pirates7_3": "DART MAN: Ahoy! If it isn't me matey... ol' steady-hands! How about a game o' darts for old times' sake?",
+        "Pirates7_Win_Perfect": "DART MAN: Well, shiver me timbers! That's a perfect game!",
+        "Pirates7_Win": "DART MAN: Well, sink me! That's some good throwing!",
+        "Pirates7_WinPrize": "Here's a little something for ya.",
+        "Pirates7_WinNoPrize": "Come back again any time!",
+        "Pirates7_Lose": "DART MAN: Yar... Better luck next time...",
+        "PirateBartender_PirateClothes": "BARTENDER: Oi! I never seen the likes o' you, before. But if ye got the pirate look, then 'ave one on me! Har Har!",
+        "PirateBartender_PirateClothes_NoMore": "BARTENDER: Back fer more, eh? Har Har! You've had enough, matey..."
     }
 }
