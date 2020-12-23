@@ -6,6 +6,8 @@
 [สอนใช้ Github ฉบับเร่งด่วน!](https://www.youtube.com/watch?v=e39kzyoK-RQ)
 #### ชื่อกลาง (สำคัญมากๆ ต้องแปลตามนี้เท่านั้น)
 [Stardew Valley Glossary](https://docs.google.com/spreadsheets/d/1DBdyvEI9XNAWEPpptKmIHfUj0gGdAFzyjHH9oR7U0Zc/edit?usp=sharing)
+#### ระบบฐานข้อมูลคำทับศัพท์ของสำนักงานราชบัณฑิตยสภา (ใช้สำหรับแปลทับศัพท์)
+[Transliteration](https://transliteration.orst.go.th)
 #### พูดคุยได้เกี่ยวกับการแปล
 [Discord ทีมพัฒนา Mod ภาษาไทย](https://discordapp.com/invite/TkP42Xm)
 
