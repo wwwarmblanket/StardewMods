@@ -2667,17 +2667,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I'm excited to see this one... I want to learn everything about the world!"
+            "Text": "ผมตื่นเต้นอ่ะ... ผมอยากจะรู้ทุกสิ่งทุกอย่าง เกี่ยวกับโลกใบนี้!"
           },
           "DuringMovie": {
             "ResponsePoint": null,
-            "Script": "/jump Leo/pause 400/playSound reward/message \"Leo is glued to the screen!\"",
+            "Script": "/jump Leo/pause 400/playSound reward/message \"ลีโอติดหนึบกับจอไปแล้ว!\"",
             "Text": ""
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Did you see that? They showed the fern islands... that's where I'm from!$h"
+            "Text": "คุณเห็นนั่นรึเปล่า? เค้าถ่ายเกาะเฟิร์นด้วย... ผมมาจากที่นั่นอ่ะ!$h"
           }
         },
         "ID": "reaction_3"
@@ -2690,17 +2690,17 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I'm really happy to be here. This is all so interesting!"
+            "Text": "ผมดีใจมากเลยที่ได้มาที่นี่ มันน่าสนใจไปหมดเลย!"
           },
           "DuringMovie": {
             "ResponsePoint": null,
-            "Script": "/pause 500/emote Leo 32/message \"Leo seems very interested in the movie.\"",
+            "Script": "/pause 500/emote Leo 32/message \"ดูเหมือนว่าลีโอจะสนใจหนังเรื่องนี้เอามากๆ\"",
             "Text": ""
           },
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Wow... it was like magic!"
+            "Text": "ว้าว... นั่นมันเหมือนเวทมนตร์เลย!"
           }
         },
         "ID": "reaction_4"
