@@ -693,7 +693,7 @@
         "Forge_InsufficientCinderShards": "คุณมีผลึกลาวา (Cinder Shards) ไม่เพียงพอ.",
         "Forge_Unforge": "ไม่สำเนา",
         "Item_Tooltip_Forged": "สำเนา",
-        "LocalJoinPrompt": "กดปุ่ม Start เพิ่มร่วมเกม",
+        "LocalJoinPrompt": "กดปุ่ม Start เพื่อร่วมเกม",
         "StartLocalMulti": "เริ่มเซิร์ฟเวอร์ท้องถิ่น",
         "DropOutLocalMulti": "ออกจากเกม",
         "ChooseOne": "เลือกเพียงหนึ่งอย่าง:",
