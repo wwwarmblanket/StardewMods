@@ -38,7 +38,7 @@
         "QuestionDialogue_Yes": "แน่นอน",
         "QuestionDialogue_No": "ไม่",
         "GenericPlayerTerm": "ชาวไร่",
-        "Possessive_Pronoun_Male": "his",
-        "Possessive_Pronoun_Female": "her"
+        "Possessive_Pronoun_Male": "ของเขา",
+        "Possessive_Pronoun_Female": "ของเธอ"
     }
 }
