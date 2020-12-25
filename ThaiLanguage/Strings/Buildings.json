@@ -29,7 +29,7 @@
         "CantPutInPonds": "{0} พวกเราไม่มีความสุขในนี้บ่อเลย",
         "NoFish": "สามารถเลี้ยงปลาในบ่อนี้ได้",
         "PondFull": "บ่อนี้เต็มแล้ว",
-        "Paint_Region_Roof": "Roof",
-        "Paint_Region_Building": "Roof"
+        "Paint_Region_Roof": "หลังคา",
+        "Paint_Region_Building": "หลังคา"
     }
 }
