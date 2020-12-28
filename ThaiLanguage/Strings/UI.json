@@ -719,7 +719,7 @@
         "Forge_valid": "กดปุ่มเปืด / ปิด เพื่อเริ่มขั้นตอน!",
         "Chat_BuildingBuild": "{0} ได้ร้องขอให้สร้าง {1} {2}!",
         "Chat_BuildingMagicBuild": "{0} ได้ซัมม่อน {1} {2} ขึ้นมา!",
-        "Chat_HouseUpgrade": "{0} ได้รับการร้องขอ ให้ก่อสร้างบ้านของ {1} !",
+        "Chat_HouseUpgrade": "{0} ได้รับการร้องขอ ให้ก่อสร้างบ้าน {1} !",
         "Chat_CommunityUpgrade": "{0} ได้รับการร้องขอ ให้พัฒนาศูนย์กลางชุมชน!",
         "Chat_AcceptedSpecialOrder": "{0} ยอมรับคำขอพิเศษ '{1}'!",
         "Chat_CompletedSpecialOrder": "คำขอพิเศษ '{0}' ได้สำเร็จลงแล้ว!",
