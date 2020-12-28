@@ -617,7 +617,7 @@
         "PondQuery_StatusRequestPending_Demanding1": "\"เราอยากได้ {0}! เราอยากได้ {0}!\"",
         "PondQuery_StatusRequestPending_Demanding2": "\"{2} อยู่ไหน? พวกเราจะเอา {0}!\"",
         "PondQuery_StatusRequestPending_Stiff0": "\"พวกเราต้องการ {0}...\"",
-        "PondQuery_StatusRequestPending_Stiff1": "\"{0} จะทำให้เราสามารถสร้างประชากรเพิ่มได้\"",
+        "PondQuery_StatusRequestPending_Stiff1": "\"{0} จะทำให้เราสามารถสร้าง ประชากรเพิ่มได้\"",
         "PondQuery_StatusRequestPending_Stiff2": "\"พวกเราตัดสินใจแล้วว่าต้องการ {0}\"",
         "PondQuery_StatusRequestPending_Carnivore0": "\"เราหิว... ขอ {0} หน่อยได้ป่าว?\"",
         "PondQuery_StatusRequestPending_Carnivore1": "\"ช่วยหา {0} เป็นอาหารมื้อเย็น ให้พวกเราหน่อยได้มั้ย?\"",
