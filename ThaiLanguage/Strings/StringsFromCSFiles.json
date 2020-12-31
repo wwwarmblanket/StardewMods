@@ -1063,7 +1063,7 @@
         "CataloguePage.cs.10148": "เฉพาะเจ้าของฟาร์มเท่านั้นที่ทำลายสิ่งก่อสร้างได้",
         "CataloguePage.cs.10149": "ใครซักคนอยู่ในนั้น!",
         "CataloguePage.cs.10152": "คุณสร้างสิ่งนั้นตรงั้นไม่ได้",
-        "ChatBox.cs.10261": " คำสั่งไม่ถูกต้อง ::",
+        "ChatBox.cs.10261": " Invalid Command ::",
         "ChatBox.cs.10262": " Invalid Command Arguments ::",
         "CooperativeMenu.cs.10318": "Join Valley",
         "CooperativeMenu.cs.10319": "Host Valley",
