@@ -700,7 +700,7 @@
         "Carpenter_PaintBuildings": "ทาสีสิ่งก่อสร้าง",
         "Carpenter_CannotPaint": "ไม่สามารถทาสี ให้สิ่งก่อสร้างนี้ได้",
         "Carpenter_CannotPaint_Permission": "คุณไม่ได้รับอนุญาต ให้ทาสีสิ่งก่อสร้างนี้",
-        "Carpenter_SelectBuilding_Paint": "เลือกสิ่งก่อสร้าง ที่จะทาสี",
+        "Carpenter_SelectBuilding_Paint": "เลือกสิ่งก่อสร้างที่จะทาสี",
         "GameMenu_MoveBuildingPermissions": "การใช้โหมด ย้ายสิ่งก่อสร้าง",
         "GameMenu_MoveBuildingPermissions_Off": "โฮสต์เท่านั้น",
         "GameMenu_MoveBuildingPermissions_Owned": "เจ้าของสิ่งก่อสร้าง เพียงเท่านั้น",
