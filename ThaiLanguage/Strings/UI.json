@@ -656,7 +656,7 @@
         "Options_GamepadMode_ForceOn": "บังคับเปิด",
         "Options_GamepadMode_ForceOff": "บังคับปิด",
         "AGO_Label": "การตั้งค่าขั้นสูง:",
-        "AGO_CCB": "บันเดิ้ลในศูนย์ชุมชน (Community Center Bundles):",
+        "AGO_CCB": "บันเดิ้ลในศูนย์ชุมชน:",
         "AGO_CCB_Tooltip": "ให้ใส่ของที่กำหนด ลงไปในชุดบันเดิ้ล ซึ่งวางอยู่ตามจุดต่าง ๆ ในศูนย์ชุมชน",
         "AGO_CCB_Normal": "แบบธรรมดา",
         "AGO_CCB_Remixed": "แบบรีมิกซ์",
