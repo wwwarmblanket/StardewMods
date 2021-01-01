@@ -16,13 +16,13 @@
         }
     ],
     "content": {
-        "House": "Building/-50 -10/Roof/-25 0/Trim/-25 -8",
-        "Log Cabin": "Building/-20 20/Roof/-15 5/Trim/-10 5",
-        "Stone Cabin": "Building/-15 25/Roof/-15 5/Trim/-5 5",
-        "Plank Cabin": "Building/-55 -20/Roof/-10 5/Trim/-55 -30",
-        "Stable": "Building/-20 5/Roof/-25 0/Trim/-15 0",
-        "Big Shed": "Building/-45 -10/Roof/-20 5/Trim/-25 0",
-        "Deluxe Coop": "Building/-25 0/Roof/-15 5/Trim/-25 0",
-        "Deluxe Barn": "Building/-15 0/Roof/-10 5/Trim/-10 5/"
+        "House": "อาคาร/-50 -10/หลังคา/-25 0/ขอบและประตู/-25 -8",
+        "Log Cabin": "อาคาร/-20 20/หลังคา/-15 5/ขอบและประตู/-10 5",
+        "Stone Cabin": "อาคาร/-15 25/หลังคา/-15 5/ขอบและประตู/-5 5",
+        "Plank Cabin": "อาคาร/-55 -20/หลังคา/-10 5/ขอบและประตู/-55 -30",
+        "Stable": "อาคาร/-20 5/หลังคา/-25 0/ขอบและประตู/-15 0",
+        "Big Shed": "อาคาร/-45 -10/หลังคา/-20 5/ขอบและประตู/-25 0",
+        "Deluxe Coop": "อาคาร/-25 0/หลังคา/-15 5/ขอบและประตู/-25 0",
+        "Deluxe Barn": "อาคาร/-15 0/หลังคา/-10 5/ขอบและประตู/-10 5/"
     }
 }
