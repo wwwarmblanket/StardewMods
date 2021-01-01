@@ -1611,7 +1611,7 @@
         "FishingQuest.cs.13274": "\n \n- รางวัล {0}g",
         "FishingQuest.cs.13275": "\n- คุณต้องใช้ปลาสดๆ",
         "FishingQuest.cs.13277": "คุยกับ {0}",
-        "ItemDeliveryQuest.cs.13285": "นำไปส่ง",
+        "ItemDeliveryQuest.cs.13285": "Delivery",
         "ItemDeliveryQuest.cs.13299": "ตามหา",
         "ItemDeliveryQuest.cs.13300": "ฉันอยู่ในร้านค้าเพื่อหา",
         "ItemDeliveryQuest.cs.13301": "ฉันอยากได้ด่วนมากสำหรับ",
