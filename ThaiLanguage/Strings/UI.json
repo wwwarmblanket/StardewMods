@@ -317,7 +317,7 @@
         "OptionsPage_ScreenshotHeader": "จับภาพหน้าจอ",
         "Client_RemotelyDisconnected": "เซิร์ฟเวอร์ได้ปิดการเชื่อมต่อ",
         "Carpenter_CantDemolish_FarmhandOnline": "ไม่สามารถรื้อถอนขณะที่ คนงานในบ้านนี้ยังออนไลน์",
-        "Carpenter_DemolishCabinConfirm": "นี่จะเป็นการเอา {0} ออกจากเกมอย่างถาวร คุณแน่ใจหรือไม่ว่าอยากรื้อถอนบ้านนี้?",
+        "Carpenter_DemolishCabinConfirm": "นี่จะเป็นการเอา {0} ออกจากเกมอย่างถาวร คุณแน่ใจหรือไม่ว่า อยากรื้อถอนกระท่อมหลังนี้?",
         "Client_WaitForHostAvailability": "กำลังรอให้อีเว้นท์ของโฮสจบ...",
         "Client_WaitForHostLoad": "กำลังรอให้โฮสตั้งค่าเสร็จ...",
         "Chat_UnknownUserName": "???",
