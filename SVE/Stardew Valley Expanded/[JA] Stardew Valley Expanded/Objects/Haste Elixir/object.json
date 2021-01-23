@@ -5,6 +5,8 @@
 	"Edibility": 2,
 	"EdibleIsDrink": true,
 	"CanSell": false,
+	"CategoryTextOverride": "Potion",
+	"CategoryColorOverride": "125, 30, 150, 255",
 	"EdibleBuffs": 
 	{
         "Farming": 0,

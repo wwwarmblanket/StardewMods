@@ -1,12 +1,12 @@
 {
 	"Name": "Grampleton Orange Chicken",
 	"Description": "(ไก่กรอบซอสส้มแกรมเพิลตัน) ไก่ทอดกรอบสีเหลืองทองอร่าม เสิร์ฟพร้อมข้าวสวย",
-	"Category": "Cooking",
+	//"Category": "Fruit",
 	"Edibility": 65,
 	"EdibleIsDrink": false,
 	"EdibleBuffs": 
 	{
-        "Farming": 2,
+        "Farming": 3,
         "Fishing": 0,
         "Mining": 0,
         "Luck": 0,
@@ -25,9 +25,13 @@
 	"CanSell": false,
 	"Price": 400,
 	"IsColored": false,
+	"Recipe": null,
+	"CategoryTextOverride": "Cooking",
+	"CategoryColorOverride": "220, 60, 0, 255",
 	"GiftTastes":
 	{
-	    "Love": [ "Sophia", "Andy", "Sam" ],
-		"Like": [ "Martin" ]
+	    "Love": [ "Sophia" ],
+		"Dislike": [ "Marnie" ],
+		"Hate": [ "Leah" ]
 	},
 }
