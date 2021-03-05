@@ -8601,7 +8601,7 @@
       "Target": "data/festivals/fall27",
 	  "When": { "IsOddYear": false },
       "Entries": {
-        "Andy": "เห็ดผัดพวกนี้ อย่างเยี่ยมเลย กัสทำลาย สถิติตัวเองแล้วสิ$0#$e#ฉันได้ยินอะไรเกี่ยวกับ น้ำพุของเมืองหายไปนี่แหละ ...$2",
+        "Andy": "เห็ดผัดพวกนี้อย่างเยี่ยมเลย กัสทำลายสถิติตัวเองแล้วสิ$0#$e#ฉันได้ยินอะไรเกี่ยวกับ น้ำพุของเมืองหายไปนี่แหละ ...$2",
       }
     },
 	
@@ -8666,9 +8666,7 @@
 	 "Action": "EditData",
 	 "Target": "data/events/forest",
 	 "Entries": {
-     "5000003/w sunny/f Andy 2000/z winter/t 900 1500": "spring_day_ambient/-500 -500/farmer 93 74 2 Andy 77 84 0 MarlonFay 7 20 2 Wizard 7 22 0 Abigail 8 29 0 Marnie 54 21 0 Leah 112 34 0 Shane 86 54 3/pause 500/skippable/viewport 90 82 true/move farmer 0 10 3 true/move Andy 3 0 0 true/pause 1600/playSound leafrustle/pause 800/move Andy 4 0 0 true/pause 2300/playSound leafrustle/pause 300/emote farmer 8/pause 400/move Andy 0 0 1/pause 300/emote Andy 16/pause 250/speak Andy \"อ้าวชาวไร่! คุณมาเจอฉันตอนเก็บของป่าพอดีเลย$1\"/pause 1000/speak Andy \"หาอาหารได้เยอะเลยวันนี้ เพราะฝนก็เลยทำให้ เจ้าพวกนี้ผุดขึ้นมาเยอะแยะ$0\"/pause 500/move farmer -5 0 3/pause 400/speak Andy \"ฉันสนุกกับการหาอาหารในป่า ถ้าเป็นไปได้ล่ะก็นะ จะให้เป็นงานหลักของฉันไปเลย$1#$b#ได้เงินไม่มากนักหรอก ในการหาของป่า ถึงฉันจะไม่ได้ดีไปกว่าเจ้าลีนัสเลย ฉันคนนึงล่ะที่เพลิดเพลินกับ การได้นอนในบ้านร้อนๆ ที่มีตู้เย็น$2\"/pause 1000/move Andy 0 0 2/pause 1200/move Andy 0 0 1/pause 500/speak Andy \"ยุ่งอยู่เหรอ? ฉันอยากจะคุยกับคุณอยู่พอดี$0\"/pause 500/question fork0 \"เดินไปที่หน้าผากัน?#ได้เลย#ไม่ล่ะ ขอบคุณ\"/fork 5000003_Cliff/pause 800/speak Andy \"...$2\"/pause 1500/speak Andy \"ขอให้โชคดีนะ$0\"/pause 500/globalFade/viewport -1000 -1000/pause 500/friendship Andy -250/pause 500/end",
-
-     "5000003_Cliff": "pause 600/speak Andy \"ออกไปจากพุ่มไม้นี้กันเถอะ$0\"/pause 500/globalFade/viewport -1000 -1000/pause 300/warp Andy 81 99/warp farmer 83 99/pause 100/move Andy 0 0 2/move farmer 0 0 2/pause 100/viewport 82 100 true/playMusic ocean/pause 2500/move Andy 0 0 3/pause 1000/move Andy 0 0 2/pause 1000/speak Andy \"อืมมม ไอ้เจ้าเชนนั่นเป็นคนทิ้งขยะนี่ไว้ ฉันไม่เกี่ยวนะ$2#$b#เขาเคยมาดื่มที่นี่บ่อยๆ แต่ไม่เห็นมาสักพักแล้วล่ะ$0\"/pause 300/faceDirection farmer 3/pause 1000/speak Andy \"ฉันก็ทำแบบเดียวกันกับบ้าน ที่ถูกทิ้งร้างของอเล็กซ์ซ่า เชนกับฉันไม่ได้คุยกันมากนัก แต่เรามีบางสิ่งที่เหมือนกัน$0\"/pause 1000/speak Andy \"เราสองคนสนับสนุนโจจ้า และเป็นนักดื่มที่ดื่มหนักมากๆ หึ$1\"/pause 1000/move farmer 0 0 2/pause 1500/speak Andy \"ทุกๆ อย่างมักจะยากขึ้น เมื่อต้องอยู่ตัวคนเดียว ฉันไม่มีคนที่จะโทรหาเยอะนัก แม้แต่เพื่อนสนิทในชีวิตฉัน$2\"/pause 200/emote Andy 40/pause 400/speak Andy \"คุณรู้ไหม ว่าฉันพยายามจะคุยกับ เทศมนตรีเลวิสเพื่อให้โซเฟีย ซูซาน และฉัน รับช่วงต่อฟาร์มของคุณปู่มาตลอด มันเป็นที่ดินที่ดีที่ถูกทิ้งร้าง$0#$b#แต่เลวิสก็ทำอะไรไม่ได้ เพราะปู่ของคุณ เป็นเจ้าของโฉนดที่ดินนั้นอยู่$2#$b#แล้วคุณก็โผล่มาเอามันไป โยบะส่งมาได้ถูกคนจริงๆ$0\"/pause 300/faceDirection farmer 3/pause 500/shake Andy 1000/pause 1200/showFrame Andy 22/pause 700/stopMusic/speak Andy \"... ฉันต้องการจะพูดอะไรน่ะเหรอ$8\"/pause 1300/playMusic musicboxsong/pause 500/speak Andy \"ฉันภูมิใจในตัวคุณมาก$8\"/pause 200/emote farmer 16/pause 100/speak Andy \"ไม่ได้โกหกนะ ฉันเคยอิจฉาคุณด้วยล่ะ คุณเพิ่งจะเริ่มทำฟาร์ม ได้ไม่นานมันพูดยากแหะ ฉันทำงานนี้มาตลอดชีวิต และทำได้ไม่ดีเท่าไหร่นัก$8\"/pause 700/move Andy 0 0 2/pause 600/move Andy 0 0 1/pause 500/speak Andy \"อย่างแรกเลย ฉันคิดว่าคุณจะย้ายออกไป เพราะทำงานฟาร์มไม่ไหว เด็กเมืองที่ทำงานออฟฟิศ เปลี่ยนมาทำงานในฟาร์ม ฟังดูหนักน่าดูเลยล่ะ$0#$b#แต่คุณก็ไม่ได้เป็นแบบนั้น คุณคอยพัฒนาอยู่ตลอด และแสดงให้ฉันรู้ว่าฉันคิดผิด ฉันบอกได้เลยล่ะว่า คุณดูจะถนัดเรื่องพวกนี้มากๆ เลยนะ$2#$b#คุณทำให้การค้าขาย เข้ามาในเมืองนี้มากขึ้น ด้วยผลจาก %farm ฟาร์ม ชาวไร่ที่นี่ ทำยอดขายได้เยอะขึ้นมากเลย$0\"/pause 400/shake Andy 1000/pause 700/speak Andy \"นี่แหละสิ่งที่ฉันพยายามจะบอก...\"/pause 750/move Andy 0 0 2/pause 750/showFrame Andy 22/pause 1000/speak Andy \"ขอบคุณนะ$8\"/pause 1000/move Andy 0 0 2/pause 1200/speak Andy \"ขอบคุณที่ให้กำลังใจฉัน ให้เป็นคนที่ดียิ่งขึ้น รวมไปถึงฟาร์มแฟร์เฮเว่น ของฉันด้วย มันช่วยชีวิตของฉัน ได้มากกว่าที่คิดอีก$0\"/pause 1000/emote farmer 32/playMusic ocean/pause 1300/faceDirection farmer 2/pause 1000/faceDirection Andy 2 true/pause 2000/speak Andy \"วิวดีนะ จากตรงนี้น่ะ$0#$b#คงต้องพูดว่านี่คือความฝัน ของเฟิร์นกิลเลี่ยนเลยล่ะ ที่ได้อยู่ในสตาร์ดิวแวลลี่$1#$b#ขอบคุณนะ ที่มาเป็นเพื่อนกับฉันน่ะ @\"/pause 1200/move Andy 0 0 1/pause 1000/faceDirection farmer 3/pause 1200/speak Andy \"เอาล่ะ ต้องกลับไปทำงานต่อแล้ว ยังทำไม่เสร็จเลย$0\"/pause 1000/speak Andy \"แล้วไว้เจอกันนะ ฉันอยากจะให้อะไรบางอย่าง$1\"/pause 200/globalFade/viewport -1000 -1000/pause 250/friendship Andy 50/end dialogue Andy \"ขอบคุณสำหรับทุกอย่าง @ ฉันรู้ว่าอาจจะทำตัวแปลกๆ หรือมีความคิดแย่ๆ ไปบ้าง แต่นั่นก็ไม่ได้จะทำให้ เราเป็นเพื่อนกันไม่ได้นะ$1#$b#รับไว้สิ ฉันเจอมันระหว่างหาของป่าอยู่ ไม่รู้ว่าคืออะไร บางทีคุณอาจจะใช้มันก็ได้ [114]$0#$e#ขอให้มีวันที่ดีนะ ตั้งใจและโชคดีกับการทำงานล่ะ$1\"",
+     "5000003/w sunny/f Andy 2000/z winter/t 900 1500": "spring_day_ambient/-500 -500/farmer 91 74 2 Andy 77 84 0 MarlonFay 7 20 2 Wizard 7 22 0 Abigail 8 29 0 Marnie 54 21 0 Leah 112 34 0 Shane 86 54 3/pause 500/skippable/viewport 90 84 true/move farmer 0 10 3 true/move Andy 3 0 0 true/pause 1600/playSound leafrustle/pause 800/move Andy 4 0 0 true/pause 2300/playSound leafrustle/pause 300/emote farmer 8/pause 400/move Andy 0 0 1/pause 300/emote Andy 16/pause 250/speak Andy \"อ้าวชาวไร่! คุณมาเจอฉันตอนเก็บของป่าพอดีเลย$1#$b#หาอาหารได้เยอะเลยวันนี้ เพราะฝนก็เลยทำให้ เจ้าพวกนี้ผุดขึ้นมาเยอะแยะ$0\"/pause 500/move farmer -3 0 3/pause 400/speak Andy \"ฉันสนุกกับการหาอาหารในป่า ถ้าเป็นไปได้ล่ะก็นะ จะให้เป็นงานหลักของฉันไปเลย$1#$b#ได้เงินไม่มากนักหรอก ในการหาของป่า ถึงฉันจะไม่ได้ดีไปกว่าเจ้าลีนัสเลย ฉันคนนึงล่ะที่เพลิดเพลินกับ การได้นอนในบ้านร้อนๆ ที่มีตู้เย็น$2\"/pause 1000/move Andy 0 0 2/pause 1200/move Andy 0 0 1/pause 500/speak Andy \"ยุ่งอยู่เหรอ? ฉันอยากจะคุยกับคุณอยู่พอดี$0\"/pause 750/globalFade/viewport -1000 -1000/pause 300/warp Andy 45 106/warp farmer 45 108/pause 100/faceDirection Andy 1 true/faceDirection farmer 1 true/pause 100/viewport 45 108 clamp true/playMusic ocean/pause 3500/speak Andy \"ทุกๆ อย่างมักจะยากขึ้น เมื่อต้องอยู่ตัวคนเดียว @#$b#ฉันไม่มีคนที่จะโทรหาเยอะนัก แม้แต่เพื่อนสนิทในชีวิตฉัน$2\"/pause 300/emote Andy 40/pause 400/speak Andy \"คุณรู้ไหม ว่าฉันพยายามจะคุยกับ เทศมนตรีเลวิสเพื่อให้โซเฟีย ซูซาน และฉัน รับช่วงต่อฟาร์มของคุณปู่มาตลอด มันเป็นที่ดินที่ดีที่ถูกทิ้งร้าง$0#$b#แต่เลวิสก็ทำอะไรไม่ได้ เพราะปู่ของคุณ เป็นเจ้าของโฉนดที่ดินนั้นอยู่$2#$b#แล้วคุณก็โผล่มาเอามันไป โยบะส่งมาได้ถูกคนจริงๆ$0\"/pause 500/faceDirection farmer 0/pause 650/shake Andy 700/pause 1100/stopMusic/speak Andy \"... ฉันต้องการจะพูดอะไรน่ะเหรอ$0\"/pause 1300/playMusic musicboxsong/pause 500/speak Andy \"ฉันภูมิใจในตัวคุณมาก$0\"/pause 800/faceDirection Andy 2 true/pause 500/speak Andy \"ไม่ได้โกหกนะ ฉันเคยอิจฉาคุณด้วยล่ะ คุณเพิ่งจะเริ่มทำฟาร์ม ได้ไม่นานมันพูดยากแหะ ฉันทำงานนี้มาตลอดชีวิต และทำได้ไม่ดีเท่าไหร่นัก$5#$b#อย่างแรกเลย ฉันคิดว่าคุณจะย้ายออกไป เพราะทำงานฟาร์มไม่ไหว เด็กเมืองที่ทำงานออฟฟิศ เปลี่ยนมาทำงานในฟาร์ม ฟังดูหนักน่าดูเลยล่ะ$2#$b#แต่คุณก็ไม่ได้เป็นแบบนั้น คุณคอยพัฒนาอยู่ตลอด และแสดงให้ฉันรู้ว่าฉันคิดผิด ฉันบอกได้เลยล่ะว่า คุณดูจะถนัดเรื่องพวกนี้มากๆ เลยนะ$0#$b#คุณทำให้การค้าขาย เข้ามาในเมืองนี้มากขึ้น ด้วยผลจาก %farm ฟาร์ม ชาวไร่ที่นี่ ทำยอดขายได้เยอะขึ้นมากเลย$3\"/pause 600/faceDirection Andy 1 true/pause 800/shake Andy 700/pause 1000/speak Andy \"นี่แหละสิ่งที่ฉันพยายามจะบอก...\"/pause 750/faceDirection Andy 2 true/pause 750/showFrame Andy 22/pause 1000/speak Andy \"ขอบคุณนะ$8\"/pause 1000/faceDirection Andy 2 true/pause 700/speak Andy \"ขอบคุณที่ให้กำลังใจฉัน ให้เป็นคนที่ดียิ่งขึ้น รวมไปถึงฟาร์มแฟร์เฮเว่น ของฉันด้วย มันช่วยชีวิตของฉัน ได้มากกว่าที่คิดอีก$0\"/pause 500/emote farmer 32/playMusic ocean/pause 1000/faceDirection Andy 1/pause 1000/faceDirection farmer 1 true/pause 2000/speak Andy \"วิวดีนะ จากตรงนี้น่ะ$0#$b#คงต้องพูดว่านี่คือความฝัน ของเฟิร์นกิลเลี่ยนเลยล่ะ ที่ได้อยู่ในสตาร์ดิวแวลลี่$1#$b#ขอบคุณนะ ที่มาเป็นเพื่อนกับฉันน่ะ @\"/pause 1500/globalFade/viewport -1000 -1000/pause 250/friendship Andy 50/end dialogue Andy \"ขอบคุณสำหรับทุกอย่าง @ ฉันรู้ว่าอาจจะทำตัวแปลกๆ หรือมีความคิดแย่ๆ ไปบ้าง แต่นั่นก็ไม่ได้จะทำให้ เราเป็นเพื่อนกันไม่ได้นะ$1#$b#รับไว้สิ ฉันเจอมันระหว่างหาของป่าอยู่ ไม่รู้ว่าคืออะไร บางทีคุณอาจจะใช้มันก็ได้ [114]$0#$e#ขอให้มีวันที่ดีนะ ตั้งใจและโชคดีกับการทำงานล่ะ$1\"",
 	 },
 },
 
@@ -8754,6 +8752,20 @@
       "Target": "Characters/Susan",
       "FromFile": "assets/CharacterFiles/OverworldSprites/Susan/Susan.png"
     },
+	
+	{
+      //Susan's beach portraits
+      "Action": "Load",
+      "Target": "Portraits/Susan_Beach",
+      "FromFile": "assets/CharacterFiles/Portraits/Susan/Susan_Beach.png"
+    },
+	
+    {
+      //Susan's beach sprites
+      "Action": "Load",
+      "Target": "Characters/Susan_Beach",
+      "FromFile": "assets/CharacterFiles/OverworldSprites/Susan/Susan_Beach.png"
+    },	
 	
 	{
       //Susan's Fake Schedule
@@ -8924,7 +8936,7 @@
           "DuringMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "ฉันง่วงนอน ...$2"
+            "Text": "ฉันง่วงนอน...$2"
           },
           "AfterMovie": {
             "ResponsePoint": null,
@@ -9076,9 +9088,9 @@
     "Target": "Data/CraftingRecipes",
 	"When": { "HasSeenEvent": "1000083" },
 	"Fields": { 
-	"Keg": { 0: "388 20 334 1 335 1 725 1" },
-	"Cask": { 0: "388 15 725 1" },
-	"Preserves Jar": { 0: "390 10 388 15 382 5" },
+	"Keg": { 0: "388 20 335 1 725 1" },
+	"Cask": { 0: "388 20" },
+	"Preserves Jar": { 0: "388 25 390 20 382 4" },
 	},
 },
 {
@@ -9108,7 +9120,7 @@
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-      "Sophia": "อู้ววว! ฉันชอบเจ้านี่มากๆ เลย!/577 595/คุณน่ารักจัง! ขอบใจนะ!/220 221 232 237 240 -80 428 373 376 74 797 279 446/โอ้.../-75 -81 18 20 22 16 396 406 408 404 399 398 372 393 397/ม-ไม่เอา! เอามันออกไปห่างๆ ฉันเลยนะ!/346 303 459 149 798 151 155 -4/อืม ขอบใจ!/18 -18 -79 -2 -7 -26 -75 -80 72 446 348 395 613 634 635 636 637 638 724 459 402/"
+      "Sophia": "อู้ววว! นี่เป็นหนึ่งในสิ่งที่ฉันชอบ ฉันจะเก็บมันไว้เสมอ!/577 595/สำหรับฉันหรอ! ขอบคุณมากๆ นะ!/872 220 221 232 237 240 -80 428 373 376 797 446/โอ้... เรื่องนี้ฉันไม่รู้/456 393 457 397 199 215 242 244/ม-ไม่เอา! เอามันออกไปห่างๆ ฉันเลยนะ!/346 303 459 149 798 151 155 -4/อืม ขอบใจ!/-75 -81 18 -18 -79 -2 -7 -26 -75 -80 72 446 348 395 613 634 635 636 637 638 724 459 402/"
       }
     },
 	
@@ -9187,6 +9199,28 @@
     },
 	
 	{
+      //Sophia's beach portraits
+      "Action": "Load",
+      "Target": "Portraits/Sophia_Beach",
+      "FromFile": "assets/CharacterFiles/Portraits/Sophia/Sophia_Beach.png"
+    },
+	
+	{
+      //Sophia's older beach portraits
+      "Action": "EditImage",
+      "Target": "Portraits/Sophia_Beach",
+	  "When": { "OlderSophiaPortraits": true },
+      "FromFile": "assets/CharacterFiles/Portraits/Sophia/Sophia_Older_Beach.png"
+    },
+	
+    {
+      //Sophia's beach sprites
+      "Action": "Load",
+      "Target": "Characters/Sophia_Beach",
+      "FromFile": "assets/CharacterFiles/OverworldSprites/Sophia/Sophia_Beach.png"
+    },	
+	
+	{
       //Sophia's Schedule
       "Action": "Load",
       "Target": "Characters/schedules/Sophia",
@@ -9203,16 +9237,6 @@
 	  "winter_Tue": "610 SophiaHouse 8 36 0/720 BlueMoonVineyard 35 44 2/830 Town 95 94 1 Sophia_Phone/1210 Town 78 95 2/1320 Town 53 69 0/1600 Saloon 14 20 0/1740 SophiaHouse 20 8 2 Sophia_Read/2150 SophiaHouse 28 7 3 Sophia_Sleep"
        }
     },
-	
-	{
-	  //Sophia Community Center
-	  "Action": "EditData",
-	  "Target": "characters/schedules/Sophia",
-	  "When": { "HasSeenEvent": "191393", "Spouse": "Sophia", "Day": "22"  },
-	  "Entries": {
-        "marriage_Mon": "1030 CommunityCenter 9 19 2 Sophia_read/1800 BusStop -1 23 3",
-     },
-},
 	
 	{
       //Sophias's Schedule Dialogue
@@ -9256,16 +9280,6 @@
 	    "marriage_Wed": "730 BlueMoonVineyard 23 17 0 \"Strings\\schedules\\Sophia:marriage.015\"/1200 BlueMoonVineyard 25 21 0 Sophia_Farm1 \"Strings\\schedules\\Sophia:marriage.002\"/1230 BlueMoonVineyard 16 23 2 Sophia_Farm2 \"Strings\\schedules\\Sophia:marriage.006\"/1300 BlueMoonVineyard 23 25 1 Sophia_Farm1 \"Strings\\schedules\\Sophia:marriage.009\"/1330 BlueMoonVineyard 14 27 2 Sophia_Farm2 \"Strings\\schedules\\Sophia:marriage.008\"/1400 BlueMoonVineyard 21 29 1 Sophia_Farm1 \"Strings\\schedules\\Sophia:marriage.007\"/1430 BlueMoonVineyard 25 31 2 Sophia_Farm2 \"Strings\\schedules\\Sophia:marriage.011\"/1500 BlueMoonVineyard 17 33 1 Sophia_Farm1 \"Strings\\schedules\\Sophia:marriage.012\"/1530 BlueMoonVineyard 33 38 0 \"Strings\\schedules\\Sophia:marriage.013\"/1610 BlueMoonVineyard 24 17 0 \"Strings\\schedules\\Sophia:marriage.014\"/1710 BusStop -1 23 3",
         "marriage_Thu": "700 BlueMoonVineyard 23 17 0 \"Strings\\schedules\\Sophia:marriage.015\"/1130 BlueMoonVineyard 38 17 0 \"Strings\\schedules\\Sophia:marriage.013\"/1200 BlueMoonVineyard 40 15 1 \"Strings\\schedules\\Sophia:marriage.009\"/1220 BlueMoonVineyard 42 17 0 \"Strings\\schedules\\Sophia:marriage.000\"/1240 BlueMoonVineyard 46 14 3 \"Strings\\schedules\\Sophia:marriage.010\"/1300 BlueMoonVineyard 50 17 0 \"Strings\\schedules\\Sophia:marriage.010\"/1320 BlueMoonVineyard 37 21 2 Sophia_Farm2 \"Strings\\schedules\\Sophia:marriage.006\"/1400 BlueMoonVineyard 45 23 1 Sophia_Farm1 \"Strings\\schedules\\Sophia:marriage.008\"/1430 BlueMoonVineyard 39 25 2 Sophia_Farm2 \"Strings\\schedules\\Sophia:marriage.011\"/1500 BlueMoonVineyard 40 27 1 Sophia_Farm1 \"Strings\\schedules\\Sophia:marriage.007\"/1530 BlueMoonVineyard 41 31 2 Sophia_Farm2 \"Strings\\schedules\\Sophia:marriage.012\"/1600 BlueMoonVineyard 38 33 2 Sophia_Farm1 \"Strings\\schedules\\Sophia:marriage.012\"/1630 BlueMoonVineyard 25 17 0 \"Strings\\schedules\\Sophia:marriage.014\"/1720 BusStop -1 23 3",
 	   }
-	},
-	
-	{
-      //Seb Test
-      "Action": "EditData",
-      "Target": "Characters/Schedules/Sebastian",
-	  //"When": { "Season |contains=Winter": false },
-      "Entries": {
-	    "marriage_Tue": "700 BlueMoonVineyard 23 17 0/1720 BusStop -1 23 3"
-       }
 	},
 	
 	{
@@ -9543,7 +9557,7 @@
 	  "When": { "Date": "Summer 18" },
       "Entries": {
       "funReturn_Sophia": "โอ้ กลับมาแล้วหรอ$1",
-      "funLeave_Sophia": "นี่ ตัวเอง! วันนี้มีอะไรสนุกๆ ต้องทำบ้างไหม?$1#$e#อู้วววว นี่เรื่องสำคัญเลยนะ!$8$8",
+      "funLeave_Sophia": "นี่ ตัวเอง! วันนี้มีอะไรสนุกๆ ต้องทำบ้างไหม?$1#$e#อู้วววว นี่เรื่องสำคัญเลยนะ!$8",
         }
 	},
 	
@@ -9622,7 +9636,7 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Fall 4" },
       "Entries": {
-      "funReturn_Sophia": "เช้านี้ ค-เค้ารู้สึก หายใจไม่สะดวกเลย...$2#$b#ค-เค้าไม่เป็นไร...$6#$e#%คุณกอดโซเฟียและบอกเธอ ว่าคุณจะอยู่ข้างๆ เธอ",
+      "funReturn_Sophia": "เช้านี้ ค-เค้ารู้สึก หายใจไม่สะดวกเลย...$2#$e#ค-เค้าไม่เป็นไร...$6#$e#%คุณกอดโซเฟียและบอกเธอ ว่าคุณจะอยู่ข้างๆ เธอ",
       "funLeave_Sophia": "วันนี้เป็นวันที่ พ่อกับแม่ของเค้าจากไป...$6#$b#ค- เค้าโดดเดี่ยวมานานเหลือเกิน จนลืมไปแล้วว่า การมีครอบครัวมันเป็นยังไง$12#$e#ขอบคุณที่อยู่ตรงนี้เพื่อเค้า ในวันนี้นะ$13#$e#%โซเฟียกำลังร้องไห้#$e#%คุณกอดโซเฟีย เธอยิ้มให้คุณ",
         }
 	},
@@ -9732,7 +9746,7 @@
       "Target": "Characters/Dialogue/MarriageDialogueSophia",
 	  "When": { "Date": "Fall 25" },
       "Entries": {
-      "funReturn_Sophia": "เค้าตัดสินใจไม่ได้เลยว่า จะใช้วัสดุชิ้นไหนดีสำหรับ ชุดคอสเพลย์ที่เค้ากำลังทำอยู่$0#$e#อืมม ไว้ลองไปถามเอมิลี่ละกัน เธอถนัดเรื่องนี้อยู่แล้ว!$1",
+      "funReturn_Sophia": "เค้าตัดสินใจไม่ได้เลยว่า จะใช้วัสดุชิ้นไหนดีสำหรับ ชุดคอสเพลย์ที่เค้ากำลังทำอยู่$2#$e#อืมม ไว้ลองไปถามเอมิลี่ละกัน เธอถนัดเรื่องนี้อยู่แล้ว!$1",
         }
 	},
 	
@@ -10333,7 +10347,7 @@
       "Action": "EditData",
       "Target": "Data/Events/SophiaHouse",
       "Entries": {
-	  "8185296/f Sophia 2500/e 8185295/w sunny": "kindadumbautumn/-500 -500/Sophia -200 -200 2 farmer 17 26 3 Pam -199 -199 2/addTemporaryActor SophiaJPK 16 32 10 23 0/pause 1000/viewport 17 26 true/skippable/viewport move -1 0 3500/move farmer -7 0 0 true/pause 4000/faceDirection SophiaJPK 1 true/pause 200/faceDirection SophiaJPK 2 true/pause 700/jump SophiaJPK/pause 1000/speak Sophia \"ดีจ้า!$19#$b#นี่คือชุดคอสเพลย์ คิงแพร์รี (Prairie King) ของฉัน!$15#$b#ฉันยุ่งกับมันซักพัก แล้วมันก็เสร็จทันงานคอมมิกค่อน ของเมืองซูซูด้วย (Zuzu City Comicon)!$15\"/pause 900/move SophiaJPK 0 1 2/pause 300/speak Sophia \"ฮ-เฮ้ ฉันมีการแสดงเล็กๆ ที่อยากให้คุณดูด้วย$15#$b#*อะแฮ่ม* ออกไปข้างนอกกันเถอะ คู่หู$17\"/pause 400/globalFade/viewport -1000 -1000/stopMusic/pause 100/changeLocation BlueMoonVineyard/pause 50/warp SophiaJPK 31 22/warp farmer 31 28/pause 50/viewport 31 25 true/pause 1500/speak Sophia \"แกล้งทำเป็นว่ามีศัตรูอยู่รอบๆ ตัวฉันนะ โอเค๊?$18#$b#*อะแฮ่ม*$17\"/pause 1250/playSound dwop/showFrame SophiaJPK 19/pause 200/playMusic cowboy_outlawsong/pause 1250/speak Sophia \"เฮ้ คืองี้ ฉันเห็นแกอยู่แถวนี้สักพักแล้ว$17#$b#พาเพื่อนๆ มาด้วย... นี่แกเป็นคนประเภทไหน กันเนี่ย...$17\"/pause 1200/speak Sophia \"แกทำให้ฉันไม่มีทางเลือก...$17\"/pause 1600/playSound dwop/showFrame SophiaJPK 16/pause 350/playSound Cowboy_gunshot/pause 250/playSound Cowboy_gunshot/pause 250/playSound Cowboy_gunshot/pause 250/faceDirection SophiaJPK 1 true/pause 250/showFrame SophiaJPK 17/pause 250/playSound Cowboy_gunshot/pause 250/playSound Cowboy_gunshot/pause 250/playSound Cowboy_gunshot/pause 250/faceDirection SophiaJPK 2 true/pause 250/faceDirection SophiaJPK 3 true/pause 250/showFrame SophiaJPK 18/pause 200/playSound Cowboy_gunshot/pause 250/playSound Cowboy_gunshot/pause 250/playSound Cowboy_gunshot/pause 250/faceDirection SophiaJPK 2 true/pause 900/showFrame SophiaJPK 19/pause 1000/speak Sophia \"เฮ้ นั่นคือนักแม่นปืนของฉัน$17#$b#พอไม่มีอาวุธ พวกแกก็ไม่เท่าไหร่เลยนี่!$17\"/pause 1200/showFrame SophiaJPK 20/pause 600/showFrame SophiaJPK 19/pause 300/showFrame SophiaJPK 21/pause 700/showFrame SophiaJPK 19/pause 700/speak Sophia \"เพื่อนของนายกลัวจน วิ่งหนีไปแล้วแน่ะ$17#$b#ฉันคือราชินีแพร์รี (prairie queen) เข้าใจใช่มั้ย?$17\"/pause 700/emote SophiaJPK 16 true/pause 300/playSound dwop/showFrame SophiaJPK 16/pause 400/speak Sophia \"พวกฉวยโอกาส! พวกแกซ่อนอาวุธ ไว้ตั้งแต่แรกเลยงั้นสินะ...$17\"/pause 1000/speak Sophia \"เราจะทำให้เรื่องนี้มันจบสวย หรือจบไม่สวยก็ได้$17\"/pause 700/showFrame SophiaJPK 0/playSound dwop/playMusic Cowboy_singing/pause 800/viewport move 0 1 3000 true/move SophiaJPK 0 4 2/pause 300/speak Sophia \"ก็.. อืม.. นั่นคือการแสดงส่วนแรกน่ะ$18#$b#ส่วนที่สองฉันจะต้อง กลิ้งตัวไปรอบๆ แต่ฉันไม่อยากจะให้ ชุดคอสเพลย์ของฉันเปื้อน$18#$b#พวกตัวร้ายหยิบ อาวุธลับออกมา!$19\"/pause 1000/jump SophiaJPK/emote SophiaJPK 16 true/pause 1000/speak Sophia \"โอ้! ฉันต้องรีบไป ขึ้นรถประจำทางแล้ว!$19#$b#อืม มากับฉันสิ @!$15\"/globalFade/viewport -1000 -1000/stopMusic/playMusic 50s/pause 50/changeLocation Busstop/warp SophiaJPK 12 12/warp farmer 13 12/warp Pam 12 10/faceDirection SophiaJPK 0 true/faceDirection farmer 0 true/pause 50/positionOffset farmer 0 28/viewport 17 12 true/pause 1000/speak Pam \"เอาล่ะเด็กๆ! ไปเมืองซูซูกันเถอะ!$1\"/pause 300/faceDirection Pam 1 true/pause 200/faceDirection Pam 0 true/pause 300/move Pam 0 -1 0/warp Pam -99 -99/pause 900/faceDirection SophiaJPK 1 true/pause 450/faceDirection farmer 3 true/pause 300/speak Sophia \"โทษทีนะ คุณมาไม่ได้ เจ้าบ๊อง$16#$b#อืม คราวหน้าเราจะหาตั๋ว ให้คุณล่วงหน้านะ$16\"/pause 200/emote farmer 28/pause 300/speak Sophia \"เฮ้ เข้ามาใกล้กว่านี้หน่อยสิ$18\"/pause 900/showFrame farmer 101 true/showFrame SophiaJPK 22 true/emote SophiaJPK 20 true/emote farmer 20 true/pause 1000/faceDirection farmer 3 true/pause 100/showFrame SophiaJPK 4 true/pause 500/speak Sophia \"บ๊ายบายนะ$18\"/pause 500/faceDirection SophiaJPK 0 true/pause 350/faceDirection SophiaJPK 0 true/pause 300/move SophiaJPK 0 -2 0 true/pause 500/faceDirection farmer 0 true/pause 1100/faceDirection SophiaJPK 1 true/pause 250/faceDirection SophiaJPK 2 true/pause 500/playSound dwop/showFrame SophiaJPK 19/pause 400/speak Sophia \"ไว้เจอกันคราวหน้านะ คู่หู$17\"/pause 1000/showFrame SophiaJPK 0/pause 500/faceDirection SophiaJPK 1 true/pause 250/faceDirection SophiaJPK 0 true/pause 400/move SophiaJPK 0 -1 0/warp SophiaJPK -80 -80/globalFade/viewport -1000 -1000/playSound busDriveOff/pause 3000/message \"บางทีคราวหน้าฉันอาจจะได้ เข้าไปในศูนย์ประชุมเมืองซูซู ด้วยกันกับโซเฟีย!\"/pause 200/friendship Sophia 125/end dialogue Sophia \"เฮ้ เธอน่ะ! ที่ศูนย์ประชุม ฉันมีความสุขมากเลยนะ! ได้เจอสการ์เลต แล้วก็เพื่อนคนอื่นๆ ด้วยล่ะ#$b#การแสดงของฉัน ได้รับความนิยมมากเลยล่ะ! ชนะรางวัลที่ 3 ด้วยนะ เหลือเชื่อใช่ไหมล่ะ?$9#$e#โอ้ อืม ฉันยังต้องแสดง ให้เธอดูทีหลังอยู่นี่นา...$4#$e#*ส่งจูบ*$9\"",
+	  "8185296/f Sophia 2500/e 8185295/w sunny": "kindadumbautumn/-500 -500/Sophia -200 -200 2 farmer 17 26 3 Pam -199 -199 2/addTemporaryActor SophiaJPK 16 32 10 23 0/pause 1000/viewport 17 26 true/skippable/viewport move -1 0 3500/move farmer -7 0 0 true/pause 4000/faceDirection SophiaJPK 1 true/pause 200/faceDirection SophiaJPK 2 true/pause 700/jump SophiaJPK/pause 1000/speak Sophia \"ดีจ้า!$19#$b#นี่คือชุดคอสเพลย์ คิงแพร์รี (Prairie King) ของฉัน!$15#$b#ฉันยุ่งกับมันซักพัก แล้วมันก็เสร็จทันงานคอมมิกค่อน ของเมืองซูซูด้วย (Zuzu City Comicon)!$15\"/pause 900/move SophiaJPK 0 1 2/pause 300/speak Sophia \"ฮ-เฮ้ ฉันมีการแสดงเล็กๆ ที่อยากให้คุณดูด้วย$15#$b#*อะแฮ่ม* ออกไปข้างนอกกันเถอะ คู่หู$17\"/pause 400/globalFade/viewport -1000 -1000/stopMusic/pause 100/changeLocation BlueMoonVineyard/pause 50/warp SophiaJPK 31 22/warp farmer 31 28/pause 50/positionOffset farmer 24 7/viewport 31 25 true/pause 1500/speak Sophia \"แกล้งทำเป็นว่ามีศัตรูอยู่รอบๆ ตัวฉันนะ โอเค๊?$18#$b#*อะแฮ่ม*$17\"/pause 1250/playSound dwop/showFrame SophiaJPK 19/pause 200/playMusic cowboy_outlawsong/pause 1250/speak Sophia \"เฮ้ คืองี้ ฉันเห็นแกอยู่แถวนี้สักพักแล้ว$17#$b#พาเพื่อนๆ มาด้วย... นี่แกเป็นคนประเภทไหน กันเนี่ย...$17\"/pause 1200/speak Sophia \"แกทำให้ฉันไม่มีทางเลือก...$17\"/pause 1600/playSound dwop/showFrame SophiaJPK 16/pause 350/playSound Cowboy_gunshot/pause 250/playSound Cowboy_gunshot/pause 250/playSound Cowboy_gunshot/pause 250/faceDirection SophiaJPK 1 true/pause 250/showFrame SophiaJPK 17/pause 250/playSound Cowboy_gunshot/pause 250/playSound Cowboy_gunshot/pause 250/playSound Cowboy_gunshot/pause 250/faceDirection SophiaJPK 2 true/pause 250/faceDirection SophiaJPK 3 true/pause 250/showFrame SophiaJPK 18/pause 200/playSound Cowboy_gunshot/pause 250/playSound Cowboy_gunshot/pause 250/playSound Cowboy_gunshot/pause 250/faceDirection SophiaJPK 2 true/pause 900/showFrame SophiaJPK 19/pause 1000/speak Sophia \"เฮ้ นั่นคือนักแม่นปืนของฉัน$17#$b#พอไม่มีอาวุธ พวกแกก็ไม่เท่าไหร่เลยนี่!$17\"/pause 1200/showFrame SophiaJPK 20/pause 600/showFrame SophiaJPK 19/pause 300/showFrame SophiaJPK 21/pause 700/showFrame SophiaJPK 19/pause 700/speak Sophia \"เพื่อนของนายกลัวจน วิ่งหนีไปแล้วแน่ะ$17#$b#ฉันคือราชินีแพร์รี (prairie queen) เข้าใจใช่มั้ย?$17\"/pause 700/emote SophiaJPK 16 true/pause 300/playSound dwop/showFrame SophiaJPK 16/pause 400/speak Sophia \"พวกฉวยโอกาส! พวกแกซ่อนอาวุธ ไว้ตั้งแต่แรกเลยงั้นสินะ...$17\"/pause 1000/speak Sophia \"เราจะทำให้เรื่องนี้มันจบสวย หรือจบไม่สวยก็ได้$17\"/pause 1600/showFrame SophiaJPK 0/playSound dwop/playMusic Cowboy_singing/pause 800/viewport move 0 1 3000 true/move SophiaJPK 0 4 2/pause 300/speak Sophia \"ก็.. อืม.. นั่นคือการแสดงส่วนแรกน่ะ$18#$b#ส่วนที่สองฉันจะต้อง กลิ้งตัวไปรอบๆ แต่ฉันไม่อยากจะให้ ชุดคอสเพลย์ของฉันเปื้อน$18#$b#พวกตัวร้ายหยิบ อาวุธลับออกมา!$19\"/pause 1000/jump SophiaJPK/emote SophiaJPK 16 true/pause 1000/speak Sophia \"โอ้! ฉันต้องรีบไป ขึ้นรถประจำทางแล้ว!$19#$b#อืม มากับฉันสิ @!$15\"/globalFade/viewport -1000 -1000/stopMusic/playMusic 50s/pause 50/changeLocation Busstop/warp SophiaJPK 12 12/warp farmer 13 12/warp Pam 12 10/faceDirection SophiaJPK 0 true/faceDirection farmer 0 true/pause 50/positionOffset farmer 0 28/viewport 17 12 true/pause 1000/speak Pam \"เอาล่ะเด็กๆ! ไปเมืองซูซูกันเถอะ!$1\"/pause 300/faceDirection Pam 1 true/pause 200/faceDirection Pam 0 true/pause 300/move Pam 0 -1 0/warp Pam -99 -99/pause 900/faceDirection SophiaJPK 1 true/pause 450/faceDirection farmer 3 true/pause 300/speak Sophia \"โทษทีนะ คุณมาไม่ได้ เจ้าบ๊อง$16#$b#อืม คราวหน้าเราจะหาตั๋ว ให้คุณล่วงหน้านะ$16\"/pause 200/emote farmer 28/pause 300/speak Sophia \"เฮ้ เข้ามาใกล้กว่านี้หน่อยสิ$18\"/pause 900/showFrame farmer 101 true/showFrame SophiaJPK 22 true/emote SophiaJPK 20 true/emote farmer 20 true/pause 1000/faceDirection farmer 3 true/pause 100/showFrame SophiaJPK 4 true/pause 500/speak Sophia \"บ๊ายบายนะ$18\"/pause 500/faceDirection SophiaJPK 0 true/pause 350/faceDirection SophiaJPK 0 true/pause 300/move SophiaJPK 0 -2 0 true/pause 500/faceDirection farmer 0 true/pause 1100/faceDirection SophiaJPK 1 true/pause 250/faceDirection SophiaJPK 2 true/pause 500/playSound dwop/showFrame SophiaJPK 19/pause 400/speak Sophia \"ไว้เจอกันคราวหน้านะ คู่หู$17\"/pause 1000/showFrame SophiaJPK 0/pause 500/faceDirection SophiaJPK 1 true/pause 250/faceDirection SophiaJPK 0 true/pause 400/move SophiaJPK 0 -1 0/warp SophiaJPK -80 -80/globalFade/viewport -1000 -1000/playSound busDriveOff/pause 3000/message \"บางทีคราวหน้าฉันอาจจะได้ เข้าไปในศูนย์ประชุมเมืองซูซู ด้วยกันกับโซเฟีย!\"/pause 200/friendship Sophia 125/end dialogue Sophia \"เฮ้ เธอน่ะ! ที่ศูนย์ประชุม ฉันมีความสุขมากเลยนะ! ได้เจอสการ์เลต แล้วก็เพื่อนคนอื่นๆ ด้วยล่ะ#$b#การแสดงของฉัน ได้รับความนิยมมากเลยล่ะ! ชนะรางวัลที่ 3 ด้วยนะ เหลือเชื่อใช่ไหมล่ะ?$9#$e#โอ้ อืม ฉันยังต้องแสดง ให้เธอดูทีหลังอยู่นี่นา...$4#$e#*ส่งจูบ*$9\"",
 	  }
     },
 	
