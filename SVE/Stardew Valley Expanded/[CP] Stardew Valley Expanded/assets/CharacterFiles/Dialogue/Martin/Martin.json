@@ -3,6 +3,11 @@
   "Introduction": "โอ้ หวัดดี คุณคือเจ้าของใหม่ของฟาร์ม %farm สินะ ผู้จัดการเคยจัดประชุม เรื่องของคุณเลยนา!$0#$b#ผมทำงานพาร์ทไทม์ ที่ร้านโจจ้า$1#$e#เอ่ออ ช่วยลืมที่ผมพูด เรื่องประชุมเมื่อกี้ที มันอาจทำให้ผมงานเข้า$4",
   "Town_92_44": "%'ทางเข้าของพนังงาน'",
   "BusStop_12_8": "%คนขับรถบัส: จะขึ้นรถมั้ยครับคุณผู้ชาย ถ้าไม่ขึ้นก็ถอยไปหน่อยครับ^%%คนขับรถบัส: จะขึ้นรถมั้ยครับคุณผู้หญิง ถ้าไม่ขึ้นก็ถอยไปหน่อยครับ",
+  "Resort_Entering": "This island is so cool!$1",
+  "Resort_Leaving": "I'm gonna tell my mom and dad about this place!$1",
+  "Resort_Shore": "The water feels really nice on my feet. I think I'll go swimming!$0",
+  "Resort_Chair": "It's really awesome your community has fun get-togethers like this.$0#$e#My hometown is boring...$4",
+  "Resort": "I forgot to put on sunscreen.$4#$e#I think I got sunburned. My back's all itchy$4",
   
   
   //SPRING AND GENERAL DIALOGUE
@@ -45,6 +50,17 @@
   "winter_Sat4": "แม่ผมกำลัง ถักผ้าพันคอ ให้ผมอยู่แหละ$0#$e#หวังว่าครั้งนี้ มันคงไม่ใหญ่เกินไป...$4",
   "winter_Sat8": "ผมไม่ค่อยได้ไปแวะ ที่ซาลูนในเมืองหรอกครับ บางทีเราน่าจะ ไปแวะหาอะไรกินกัน!$0",
   "winter_Sun4": "ทำฟาร์มตอนฤดูหนาวนี่ เป็นยังไงอ่ะครับ? คุณคงมีเวลาว่างแบบสุดๆ ไปเลย$0",
-  "winter_Sun8": "ไง @ อย่าทำงานหักโหมไปล่ะ!$0"
+  "winter_Sun8": "ไง @ อย่าทำงานหักโหมไปล่ะ!$0",
+  
+  
+  //EVENT DIALOGUE
+  "martin_event1": "Th-that's.. Uh. I'm doing some research, it's...$4",
+  "martin_event2": "... Yeah. Not much to do, at home, and this place has...$0",
+  "martin_event3": "...Yeah, you're probably right.$6",
+  "martin_event4": "I mean, definitely a little weird. But I've got a good reason...$0",
+  "martin_event5": "Thanks, @. I'll go get her.$0",
+  "martin_event6": "... Okay, it's your choice. Gunther will probably let her rest at the museum, I guess.$3",
+  "martin_event7": "Yeah... I guess I really do.$6",
+  "martin_event8": "... That's not fair, @.$3"
 
 }

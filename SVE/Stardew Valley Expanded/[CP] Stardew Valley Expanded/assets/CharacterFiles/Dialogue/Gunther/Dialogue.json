@@ -2,6 +2,12 @@
 { 
   //SPECIAL DIALOGUE
   //Unused: "Introduction": "You must be Mr. @. Pleasure to meet you.$5^You must be Ms. @. Pleasure to meet you.$5",
+  "Resort_Entering": "Willy takes pride in that boat of his. Overheard it was his father's.$0",
+  "Resort_Leaving": "Perhaps I'll secure a private tour of the island sometime...$0",
+  "Resort_Shore": "Have you met my colleague? He excavates here on the island.",
+  "Resort_Chair": "Many mysteries on this island, ripe for disovery.$0",
+  "Resort_Bar": "Thank you kindly for bartending, Gus.$1",
+  "Resort": "%Gunther is busy investigating an artifact.",
   
   //SPRING AND GENERAL DIALOGUE
   "spring_1": "*สูดน้ำมูก* เกสรดอกไม้นี่...$2",

@@ -1,5 +1,11 @@
 
 {
+//SPECIAL DIALOGUE
+"Resort_Entering": "Apples here!$1",
+"Resort_Leaving": "Everyone go home now? Apples come too!$1",
+"Resort_Shore": "No one see Apples! Only Apples-friend!$1",
+"Resort": "Other-friends here!$0#$e#%Apples is excited.",
+
 //SPRING DIALOGUE
 "Mon": "นี่คุณเพื่อนใหม่ จะมาเล่นด้วยกันหรอ?$0#$e#*ปิ้ง*#$e#%แอปเปิล กระโดดไปมาด้วยความดีใจ",
 "Mon6": "แอปเปิลหิวจัง แอปเปิลอยากได้ สตาร์ฟรุต! สตาร์ฟรุต เป็นของชอบของแอปเปิล!$0#$e#สตาร์ฟรุต! สตาร์ฟรุต!$1",

@@ -6,5 +6,10 @@
   "AerobicsClass.000": "วันนี้ได้มาคลาสแอโรบิกกับพวกเรา สนุกไหม? เธอจ๋า$1",
   "AerobicsClass.001": "%แคลร์ส่งยิ้มมาให้คุณ ขณะที่เธอเต้นไปด้วย",
   "AerobicsClass.002": "ฉันตั้งตาคอยวันนี้ ทุกๆ สัปดาห์เลย...$1",
-  "NightMarket.000": "พวกเครื่องประดับนี่ เตะตาฉันมากเลย...$1#$b#วันนี้สนุกกับ ตลาดนัดกลางคือไหม เธอจ๋า?$5"
+  "AerobicsClass.003": "Aerobics doesn't meet on days it rains...$1#$b#But that doesn't prevent me from getting dance practice in.$5",
+  "NightMarket.000": "พวกเครื่องประดับนี่ เตะตาฉันมากเลย...$1#$b#วันนี้สนุกกับ ตลาดนัดกลางคือไหม เธอจ๋า?$5",
+  "MovieTheater.000": "Hi, dear. I can recommend you some movies to see...$1",
+  "MovieTheater.001": "Visiting me at work? Hehe...$4",
+  "MovieTheater.002": "I should be home at around 9pm, okay? Don't eat dinner without me!$1",
+  "MovieTheater.003": "Hi, dear. Are you seeing a movie with someone today?$1"
 }
