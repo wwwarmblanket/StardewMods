@@ -364,8 +364,8 @@
      "Target": "Strings/SpecialOrderStrings",
      "Entries": {
      "Robin4_Name": "Stone Bridge",
-     "Robin4_Text": "Robin needs 900 stone to build a bridge on my property. It'll make traveling to the shed much easier!",
-     "Robin4_Objective_1_Text": "Drop off stone at Robin's chest at her workshop.",
+     "Robin4_Text": "โรบินต้องการหิน 900 ก้อน เพื่อสร้างสะพานบนที่ดินของคุณ มันจะทำให้การไปที่กระท่อม ง่ายขึ้นทีเดียว!",
+     "Robin4_Objective_1_Text": "นำหินไปไปวางไว้ ในหีบของโรบิน ที่ร้านของเธอ",
 	    }
     },
 
@@ -376,7 +376,7 @@
 	 "Target": "data/events/Farm",
 	 "When": { "HasSeenEvent": "2554907", "FarmType": "Standard" },
 	 "Entries": {
-	 "2554908/t 900 1800/H": "none/-500 -500/farmer -200 -200 0 Robin 13 13 0/skippable/pause 1000/speak Robin \"Hi, @!$1#$b#I was reading a stone masonry magazine and I was inspired to try my hand at it!#$b#If you supplied me with the stone, I could build a little bridge to your shed.$0#$b#How does that sound?$1\"/pause 200/emote farmer 32/pause 300/speak Robin \"To be on the safe side, I think this project will require 900 pieces of stone.#$b#You can drop off the stone in my storage chest at my workshop!$0\"/pause 500/end"
+	 "2554908/t 900 1800/H": "none/-500 -500/farmer -200 -200 0 Robin 13 13 0/skippable/pause 1000/speak Robin \"ว่าไง @!$1#$b#ฉันพึ่งได้อ่านนิตสาร งานก่ออิฐฉาบปูนมาน่ะ แล้วก็เลยมีแรงบันดาลใจ อยากจะลองดูสักตั้ง!#$b#ถ้าเธอหาหินมาให้ฉันละก็ ฉันจะสร้างสะพานน้อยน่ารัก ข้ามไปที่กระท่อมของเธอ$0#$b#เป็นไง น่าสนใจใช่มั้ยละ ว่าม้า?$1\"/pause 200/emote farmer 32/pause 300/speak Robin \"เพื่อความปลอดภัย ฉันคิดว่าโปรเจ็กต์นี้ จำเป็นต้องใช้หิน 900 ก้อน#$b#เธอสามารถเอาหิน ไปส่งไว้ที่หีบเก็บของ ที่ร้านของฉันได้เลยนะ!$0\"/pause 500/end"
 	    },
     },
 	
@@ -396,7 +396,7 @@
 	 "Target": "data/events/Farm",
 	 "When": { "FarmType": "Standard" },
 	 "Entries": {
-	 "2554909/n BridgeBuilt/t 600 1150/H": "continue/64 15/farmer 64 15 2 Robin 64 17 0/skippable/pause 1000/speak Robin \"Morning, @! You gathered all the stone I requested!$1#$b#I'll get started on the bridge first thing tomorrow!$0\"/pause 500/end",              
+	 "2554909/n BridgeBuilt/t 600 1150/H": "continue/64 15/farmer 64 15 2 Robin 64 17 0/skippable/pause 1000/speak Robin \"หวัดดีตอนเช้า  @! เธอรวบรวมหินมาได้ทั้งหมด ตามที่ฉันต้องการเลยนะเนี่ย!$1#$b#วันพรุ่งนี้ ฉันจะเริ่มสร้างสะพาน เป็นอย่างแรกเลย!$0\"/pause 500/end",              
 	    },
     },
 
