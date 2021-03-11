@@ -201,7 +201,7 @@
 	  "Target": "Strings/UI",
 	  "When": { "HasMod |contains=flashshifter.GrandpasFarm": false },
 	  "Entries": {
-	  "Character_FarmStandard": "Immersive Farm 2 Remastered_A huge plot of land suited for multiplayer. Features tillable grass and secrets to discover.",
+	  "Character_FarmStandard": "Immersive Farm 2 Remastered ผืนที่ดินขนาดใหญ่ เหมาะสำหรับผู้เล่นหลายคน  มีต้นหญ้าที่เก็บเกี่ยวได้ และความลับที่รอคอยให้ค้นหา",
 	  }
 	},
 	
