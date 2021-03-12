@@ -2,7 +2,7 @@
   "Name": "Adventurer Gear",
   "Price": 2500,
   "ProvidesLight": false,
-  "Description": "Two pairs of boots and a small dagger.",
+  "Description": "(อุปกรณ์นักผจญภัย) รองเท้าบูท 2 คู่ กับกริชขนาดเล็ก",
   "ProvidesLight": false,
   "CanPurchase": false,
 }
