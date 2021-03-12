@@ -2,7 +2,7 @@
   "Name": "Iridium Skull Lamp-post",
   "Price": 17500,
   "ProvidesLight": false,
-  "Description": "It's made of pure iridium. Provides a moderate amount of light.",
+  "Description": "(เสาโคมไฟหัวกะโหลกอิริเดียม) ทำจากอิริเดียมบริสุทธิ์ ให้แสงสว่างระดับปานกลาง",
   "ProvidesLight": true,
   "CanPurchase": false,
 }
