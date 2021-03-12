@@ -2,7 +2,7 @@
   "Name": "Coal Box",
   "Price": 2000,
   "ProvidesLight": false,
-  "Description": "A decorative piece for your farm.",
+  "Description": "(กล่องใส่ถ่านหิน) ใช้ตกแต่งฟาร์มของคุณ",
   "ProvidesLight": false,
   "CanPurchase": false,
 }
