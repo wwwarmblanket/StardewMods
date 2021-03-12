@@ -462,8 +462,8 @@
      "Target": "Strings/SpecialOrderStrings",
      "Entries": {
      "Clint3_Name": "A Strange Commission",
-     "Clint3_Text": "Clint needs 30 gold bars for a project. In return, he'll clear away thicket near my shed. He says there's something special there!",
-	 "Clint3_Objective_1_Text": "Drop off gold bars at Clint's ingot shelf.",
+     "Clint3_Text": "คลินท์ต้องการทองคำ 30 แท่งในการทำโครงการบางอย่าง แลกกับการที่เขา จะจัดการพวกพุ่มไม้หนารอบๆ กระท่อมของคุณ เขาบอกว่ามีอะไรบางอย่าง ที่พิเศษอยู่ที่นั่น!",
+	 "Clint3_Objective_1_Text": "นำท่องทองคำไปไว้ ในตู้เก็บแร่ของคลินท์",
 	    }
     },
 
@@ -484,7 +484,7 @@
 	 "Target": "data/events/Blacksmith",
 	 "When": { "HasSeenEvent": "2554909", "FarmType": "Standard" },
 	 "Entries": {
-	 "2554910/y 2/k 6665293/H": "continue/-500 -500/farmer 13 1 0 Clint 3 13 2 Lewis 3 15 0/pause 500/viewport 7 14 true/pause 1000/speak Lewis \"I look forward to it. Thank you!$0\"/pause 500/faceDirection Lewis 1 true/pause 300/faceDirection Lewis 2 true/pause 300/move Lewis 0 1 1/move Lewis 2 0 2/move Lewis 0 3 2/warp Lewis -40 -40/playSound doorClose/pause 700/shake Clint 500/pause 700/speak Clint \"Hmm... I wonder how I'm gonna get the gold for his commission.$2\"/pause 1000/playSound doorClose/warp farmer 5 19/pause 400/move farmer 0 -2 3/move farmer -2 0 0/move farmer 0 -2 0 true/speak Clint \"Hey, @. You dropped by at a good time.$0\"/pause 500/emote farmer 8/pause 500/speak Clint \"I need to source 30 gold bars for a... project. Was wonderin' if you were interested, seeing as you're an adventurer and all.$0\"/pause 500/emote farmer 40/pause 200/speak Clint \"For payment, I was thinking I could use one of my new tools to clear away thicket on your farm.$0#$b#That big shed of yours is near natural hot springs. I'd clear a path for you.$0\"/pause 500/jump farmer/pause 1000/speak Clint \"Great. Thanks for the help. You can drop off the gold bars at my ingot shelf in the corner there.$0\"/pause 500/faceDirection farmer 1 true/pause 650/globalFade/viewport -1000 -1000/end dialogueWarpOut Clint \"Oh. What's the project? I can't really talk about it.$0\""
+	 "2554910/y 2/k 6665293/H": "continue/-500 -500/farmer 13 1 0 Clint 3 13 2 Lewis 3 15 0/pause 500/viewport 7 14 true/pause 1000/speak Lewis \"ฉันจะรอคอย อย่างใจจดใจจ่อเลย ขอบใจนะ!$0\"/pause 500/faceDirection Lewis 1 true/pause 300/faceDirection Lewis 2 true/pause 300/move Lewis 0 1 1/move Lewis 2 0 2/move Lewis 0 3 2/warp Lewis -40 -40/playSound doorClose/pause 700/shake Clint 500/pause 700/speak Clint \"ฮึ่มม... ฉันไม่รู้เลย ว่าจะไปหาทองคำ ตามที่เขาว่าจ้าง มาจากที่ไหนดี$2\"/pause 1000/playSound doorClose/warp farmer 5 19/pause 400/move farmer 0 -2 3/move farmer -2 0 0/move farmer 0 -2 0 true/speak Clint \"เฮ้ @ คุณแวะมาได้จังหวะพอดี$0\"/pause 500/emote farmer 8/pause 500/speak Clint \"ฉันจำเป็นต้องใช้ทองคำ 30 แท่งเพื่อจะทำ... โครงการนึงน่ะ คุณสนใจมั้ยล่ะ เพราะฉันเห็นว่าคุณก็เป็น นักผจญภัยคนนึง เหมือนกันน่ะนะ$0\"/pause 500/emote farmer 40/pause 200/speak Clint \"ส่วนค่าจ้าง ฉันคิดว่า ฉันจะใช้เครื่องมือใหม่ของฉัน จัดการพุ่มไม้หนา ที่อยู่ในฟาร์มของคุณ$0#$b#กระท่อมใหญ่ของคุณ ที่อยู่ใกล้ๆ กับ น้ำพุร้อนธรรมชาตินั่นน่ะ ฉันจะเปิดทางเดิน ไปที่นั้นให้คุณเอง$0\"/pause 500/jump farmer/pause 1000/speak Clint \"เยี่ยม ขอบใจที่ช่วยนะ คุณเอาทองแท่งพวกนั้น ไปวางที่ตู้เก็บแร่ตรงมุมนั้น$0\"/pause 500/faceDirection farmer 1 true/pause 650/globalFade/viewport -1000 -1000/end dialogueWarpOut Clint \"โอ้ โครงการอะไรน่ะหรอ? ฉันพูดถึงมันไม่ได้จริงๆ$0\""
 	 },
     },
 	
@@ -494,7 +494,7 @@
 	 "Target": "data/events/Blacksmith",
 	 "When": { "HasSeenEvent": "2554909", "FarmType": "Standard" },
 	 "Entries": {
-	 "2554910/y 2/e 6665293/H": "continue/-500 -500/farmer 13 1 0 Clint 3 13 2 MorrisTod 3 15 0/pause 500/viewport 7 14 true/pause 1000/speak MorrisTod \"Marvelouse. I await the results!$1\"/pause 500/faceDirection MorrisTod 1 true/pause 300/faceDirection MorrisTod 2 true/pause 300/move MorrisTod 0 1 1/move MorrisTod 2 0 2/move MorrisTod 0 3 2/warp MorrisTod -40 -40/playSound doorClose/pause 700/shake Clint 500/pause 700/speak Clint \"Hmm... I wonder how I'm gonna get the gold for his commission.$2\"/pause 1000/playSound doorClose/warp farmer 5 19/pause 400/move farmer 0 -2 3/move farmer -2 0 0/move farmer 0 -2 0 true/speak Clint \"Hey, @. You dropped by at a good time.$0\"/pause 500/emote farmer 8/pause 500/speak Clint \"I need to source 30 gold bars for a... project. Was wonderin' if you were interested, seeing as you're an adventurer and all.$0\"/pause 500/emote farmer 40/pause 200/speak Clint \"For payment, I was thinking I could use one of my new tools to clear away thicket on your farm.$0#$b#That big shed of yours is near natural hot springs. I'd clear a path for you.$0\"/pause 500/jump farmer/pause 1000/speak Clint \"Great. Thanks for the help. You can drop off the gold bars at my ingot shelf in the corner there.$0\"/pause 500/faceDirection farmer 1 true/pause 650/globalFade/viewport -1000 -1000/end dialogueWarpOut Clint \"Oh. What's the project? I can't really talk about it.$0\""
+	 "2554910/y 2/e 6665293/H": "continue/-500 -500/farmer 13 1 0 Clint 3 13 2 MorrisTod 3 15 0/pause 500/viewport 7 14 true/pause 1000/speak MorrisTod \"ดีเลิศประเสริฐศรี ฉันจะคอยดูผลลัพธ์ที่ออกมา!$1\"/pause 500/faceDirection MorrisTod 1 true/pause 300/faceDirection MorrisTod 2 true/pause 300/move MorrisTod 0 1 1/move MorrisTod 2 0 2/move MorrisTod 0 3 2/warp MorrisTod -40 -40/playSound doorClose/pause 700/shake Clint 500/pause 700/speak Clint \"ฮึ่มม... ฉันไม่รู้เลย ว่าจะไปหาทองคำ ตามที่เขาว่าจ้าง มาจากที่ไหนดี$2\"/pause 1000/playSound doorClose/warp farmer 5 19/pause 400/move farmer 0 -2 3/move farmer -2 0 0/move farmer 0 -2 0 true/speak Clint \"เฮ้ @ คุณแวะมาได้จังหวะพอดี$0\"/pause 500/emote farmer 8/pause 500/speak Clint \"ฉันจำเป็นต้องใช้ทองคำ 30 แท่งเพื่อจะทำ... โครงการนึงน่ะ คุณสนใจมั้ยล่ะ เพราะฉันเห็นว่าคุณก็เป็น นักผจญภัยคนนึง เหมือนกันน่ะนะ$0\"/pause 500/emote farmer 40/pause 200/speak Clint \"ส่วนค่าจ้าง ฉันคิดว่า ฉันจะใช้เครื่องมือใหม่ของฉัน จัดการพุ่มไม้หนา ที่อยู่ในฟาร์มของคุณ$0#$b#กระท่อมใหญ่ของคุณ ที่อยู่ใกล้ๆ กับ น้ำพุร้อนธรรมชาตินั่นน่ะ ฉันจะเปิดทางเดิน ไปที่นั้นให้คุณเอง$0\"/pause 500/jump farmer/pause 1000/speak Clint \"เยี่ยม ขอบใจที่ช่วยนะ คุณเอาทองแท่งพวกนั้น ไปวางที่ตู้เก็บแร่ตรงมุมนั้น$0\"/pause 500/faceDirection farmer 1 true/pause 650/globalFade/viewport -1000 -1000/end dialogueWarpOut Clint \"โอ้ โครงการอะไรน่ะหรอ? ฉันพูดถึงมันไม่ได้จริงๆ$0\""
 	 },
     },
 	
@@ -514,7 +514,7 @@
 	 "Target": "data/events/Farm",
 	 "When": { "FarmType": "Standard" },
 	 "Entries": {
-	 "2554911/n GoldenStatueCommission/H": "continue/95 49/farmer 64 15 2 Clint 64 17 0/pause 1000/speak Clint \"Hey, uhh.. I looked around the thicket by your shed. Looks like I was right. It does lead somewhere nice...$0#$b#A path will be cleared by tomorrow. Thanks again for helping out, @.$0\"/pause 500/end dialogue Clint \"I don't really question what people commission from me.$0#$e#Lot of hot springs in the mountains. It's great one is close to your property.$0\""
+	 "2554911/n GoldenStatueCommission/H": "continue/95 49/farmer 64 15 2 Clint 64 17 0/pause 1000/speak Clint \"เฮ้ เอ่ออ.. ฉันลองไปสำรวจดูรอบๆ พุ่มไม้หนาแถวๆ กระท่อมมาแล่วน่ะ เหมือนฉันจะคิดถูกนะ มันมีเส้นทางไป สู่สถานที่เจ๋งๆ ...$0#$b#พรุ่งนี้น่าจะ เคลียร์เส้นทางได้เรียบร้อย ขอบใจอีกครั้ง สำหรับความช่วยเหลือ @$0\"/pause 500/end dialogue Clint \"ฉันไม่เคยตั้งคำถาม เรื่องที่คนว่าจ้างให้ฉันทำอะไร$0#$e#มีน้ำพุร้อนมากมายบนภูเขา แถมมีบ่อที่เยี่ยมมากอันนึง อยู่ใกล้กระท่อมคุณด้วย$0\""
 	 },
     },
 	
@@ -575,8 +575,8 @@
 	"When": { "HasSeenEvent |contains=6665293": false },
     "Entries": {
        "Lewis2_Name": "Expanding My Farmland",
-       "Lewis2_Text": "Sign the property deed and submit a 250,000g direct payment using the red ledger.",
-       "Lewis2_Objective_1_Text": "Turn in the property deed to Lewis.",
+       "Lewis2_Text": "ลงทะเบียนใบโฉนดที่ดิน และจ่ายค่าธรรมเนียม 250,000g โดยจดลงในสมุดบัญชีสีแดง",
+       "Lewis2_Objective_1_Text": "ส่งโฉนดที่ดินให้เลวิส",
 	}
 },
 
@@ -594,7 +594,7 @@
 	 "Target": "data/events/farmhouse",
 	 "When": { "HasMod": "flashshifter.GrandpasFarm", "FarmType": "Standard", "HasSeenEvent |contains=6665293": false }, //= Summer 17th year 3 minimum, Grandpa's Farm is being played on
 	 "Entries": {
-	 "8033858/t 800 1700/j 268/w sunny/H": "continue/-500 -500/farmer 95 49 2 Lewis 95 51 0/pause 1000/playSound stoneStep/pause 300/playSound stoneStep/pause 300/playSound stoneStep/pause 300/playSound stoneStep/pause 300/pause 800/message \"Someone's knocking on the front door.\"/changeLocation farm/pause 500/playSound doorOpen/pause 500/positionOffset farmer 0 -20/positionOffset Lewis 10 -25/viewport 95 49 clamp true/pause 1000/speak Lewis \"Hello, @. Hard at work on the farm today I see.$0#$b#May I take a moment of your time? There's something I want to talk to you about!$0\"/pause 650/emote farmer 8 true/pause 1500/faceDirection Lewis 1 true/pause 500/speak Lewis \"Follow me over there, past those fences.$0\"/pause 600/faceDirection farmer 1 true/pause 500/globalFade/viewport -1000 -1000/faceDirection farmer 1 true/faceDirection Lewis 3 true/warp farmer 120 57/warp Lewis 122 57/pause 500/viewport 121 57 clamp true/pause 1400/jump Lewis/pause 1000/speak Lewis \"I haven't hopped a fence like that since I was a youngin!$1\"/pause 1200/faceDirection Lewis 2 true/pause 1000/faceDirection Lewis 3 true/pause 300/faceDirection Lewis 0 true/pause 1000/faceDirection Lewis 3 true/pause 400/speak Lewis \"You've been cultivating %farm Farm for a couple years now. Have you thought about expanding?$0#$b#There's a lot of good land here next to your property.$0\"/pause 600/emote farmer 40/speak Lewis \"This is roughly one acre, which would cost 250,000g when all is said and done.$0#$b#Visit me at my estate when you've reached your decision, @.$1\"/pause 600/globalFade/viewport -1000 -1000/warp Lewis -50 -50/viewport 121 57 clamp true/pause 1700/faceDirection farmer 2 true/pause 1250/message \"Should I expand the farm?\"/pause 800/question fork0 \"#Expanded the farm.#Don't expanded the farm.\"/fork 8033858_ExpandFarm/pause 750/message \"All right. I'm not purchasing more land. I should let Lewis know.\"/pause 500/end dialogue Lewis \"Ah, you don't need to expand your farmland? Thank you for letting me know, @.$0#$e#Some areas of Stardew Valley should just remain how they are.$0\"",
+	 "8033858/t 800 1700/j 268/w sunny/H": "continue/-500 -500/farmer 95 49 2 Lewis 95 51 0/pause 1000/playSound stoneStep/pause 300/playSound stoneStep/pause 300/playSound stoneStep/pause 300/playSound stoneStep/pause 300/pause 800/message \"มีใครบางคนกำลังเคาะประตู\"/changeLocation farm/pause 500/playSound doorOpen/pause 500/positionOffset farmer 0 -20/positionOffset Lewis 10 -25/viewport 95 49 clamp true/pause 1000/speak Lewis \"สวัสดี @ กำลังง่วนกับงานในฟาร์ม เหมือนเดิมเลยนะ$0#$b#ฉันขอเวลาสักประเดี๋ยวนึงสิ? มีบางอย่างที่ฉันต้องคุยกับเธอหน่อย!$0\"/pause 650/emote farmer 8 true/pause 1500/faceDirection Lewis 1 true/pause 500/speak Lewis \"ตามฉันไปที่นั่น หลังรั้วพวกนั้น$0\"/pause 600/faceDirection farmer 1 true/pause 500/globalFade/viewport -1000 -1000/faceDirection farmer 1 true/faceDirection Lewis 3 true/warp farmer 120 57/warp Lewis 122 57/pause 500/viewport 121 57 clamp true/pause 1400/jump Lewis/pause 1000/speak Lewis \"ฉันไม่ได้ปีนรั้วแบบนี้ มาตั้งแต่สมัยที่เป็น วัยรุ่นแล้วนู้นนน!$1\"/pause 1200/faceDirection Lewis 2 true/pause 1000/faceDirection Lewis 3 true/pause 300/faceDirection Lewis 0 true/pause 1000/faceDirection Lewis 3 true/pause 400/speak Lewis \"เธอเองก็ทำฟาร์ม %farm นี้มาได้ 2 ปีกว่าแล้วนะ เธอคิดอยากจะขยับขยายพื้นที่ บ้างมั้ยล่ะ?$0#$b#แถวเนี้ยมีที่ดินดีๆ มากมาย ติดกับที่ดินของเธอ$0\"/pause 600/emote farmer 40/speak Lewis \"นี่เป็นที่ดินขนาดประมาณ 1 เอเคอร์ ตีราคาประเมินทุกอย่างแล้ว น่าจะอยู่ที่ 250,000g$0#$b#แวะมาหาฉันที่บ้านได้ ถ้าเธอตัดสินใจได้แล้ว @$1\"/pause 600/globalFade/viewport -1000 -1000/warp Lewis -50 -50/viewport 121 57 clamp true/pause 1700/faceDirection farmer 2 true/pause 1250/message \"ฉันจะขยายฟาร์มดีมั้ยนะ?\"/pause 800/question fork0 \"#ขยายฟาร์ม#ไม่ขยายฟาร์ม\"/fork 8033858_ExpandFarm/pause 750/message \"เอาล่ะ ฉันจะไม่ซื้อที่ดินเพิ่มหรอก ฉันจะไปบอกเลวิสให้รู้ละกัน\"/pause 500/end dialogue Lewis \"อ่าา เธอไม่ต้องการ ขยายฟาร์มงั้นหรอ? ขอบใจที่มาบอกให้ฉันรู้นะ @$0#$e#พื้นที่บางส่วนของ สตาร์ดิวแวลลี่ คงต้องถูกปล่อยทิ้งไว้ แบบนั้นต่อไป$0\"",
 	  
      },
 },
@@ -604,7 +604,7 @@
 	 "Target": "data/events/farm",
 	 "When": { "HasMod": "flashshifter.GrandpasFarm", "FarmType": "Standard", "HasSeenEvent |contains=6665293": false },
 	 "Entries": {
-	 "8033858_ExpandFarm": "pause 400/addMailReceived PlayerWillExpandFarm/pause 100/message \"All right. I'll purchase more land. I should let Lewis know.\"/pause 500/end dialogue Lewis \"Land value in Stardew Valley has skyrocketed this past year.$0\""
+	 "8033858_ExpandFarm": "pause 400/addMailReceived PlayerWillExpandFarm/pause 100/message \"เอาล่ะ ฉันจะซื้อที่ดินเพิ่ม ฉันจะไปบอกเลวิสให้รู้ละกัน\"/pause 500/end dialogue Lewis \"ราคาที่ดินใน สตาร์ดิวแวลลี่ พุ่งทะยานยังกับจรวด เมื่อปีที่ผ่านมาน่ะ$0\""
 	 },
 },
 
@@ -809,7 +809,7 @@
 {    "Action": "EditData", "Target": "Characters/Dialogue/Claire", "Entries": { "reject_{{spacechase0.JsonAssets/ObjectId:Property Deed}}": "%This needs to be given to someone else..." }},
 {    "Action": "EditData", "Target": "Characters/Dialogue/Martin", "Entries": { "reject_{{spacechase0.JsonAssets/ObjectId:Property Deed}}": "%This needs to be given to someone else..." }},
 {    "Action": "EditData", "Target": "Characters/Dialogue/Lewis", "When": { "HasSeenEvent": "6665293" }, "Entries": { "reject_{{spacechase0.JsonAssets/ObjectId:Property Deed}}": "%This needs to be given to someone else..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/MorrisTod", "When": { "HasSeenEvent |contains=6665293": false }, "Entries": { "reject_{{spacechase0.JsonAssets/ObjectId:Property Deed}}": "%This needs to be given to someone else..." }},
+{    "Action": "EditData", "Target": "Characters/Dialogue/MorrisTod", "When": { "HasSeenEvent |contains=6665293": false }, "Entries": { "reject_{{spacechase0.JsonAssets/ObjectId:Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้ใครคนอื่น..." }},
 
 
 
