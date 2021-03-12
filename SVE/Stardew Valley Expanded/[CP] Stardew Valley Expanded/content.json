@@ -159,6 +159,11 @@
     "MigrateLegacyNames": [ "TownEast" ]
   },
   {
+    "Name": "Custom_Garden",
+    "FromMapFile": "Assets/Maps/NewLocations/Garden.tbin",
+	"When": { "HasSeenEvent |contains=1000024": false },
+  }, 
+  {
     "Name": "Custom_BlueMoonVineyard",
     "FromMapFile": "Assets/Maps/NewLocations/BlueMoonVineyard.tbin"
   },
@@ -426,14 +431,6 @@
     "FromFile": "assets/Maps/MapPatches/CrimsonBadlandsUnlocked.tbin",
 	"ToArea": { "X": 15, "Y": 0, "Width": 12, "Height": 9 },
     "When": { "HasSeenEvent": "1305677" }
-},
-{
-    "Action": "EditMap",
-    "Target": "Maps/Custom_TownEast",
-    "FromFile": "assets/Maps/MapPatches/TownEastUnlocked.tbin",
-	"ToArea": { "X": 15, "Y": 13, "Width": 3, "Height": 3 },
-    "When": { "HasSeenEvent": "1000024" },
-	"Update": "OnLocationChange"
 },
 {
     "Action": "EditMap",
@@ -925,7 +922,7 @@
 {   //Grandpa Shed outside tracking
 	"Action": "EditData",
 	"Target": "Mods/Bouhm.NPCMapLocations/Locations",
-	"When": { "HasMod |contains=flashshifter.GrandpasFarm, flashshifter.immersivefarm2remastered": false },
+	"When": { "HasMod |contains=flashshifter.GrandpasFarm, flashshifter.immersivefarm2remastered": false, "FarmType |contains=Standard": false },
 	"Entries": {
 
 	"Custom_GrandpasShedOutside": {
@@ -1019,6 +1016,58 @@
    },	
   },
 },
+
+{   //New town east map
+	"Action": "EditData",
+	"Target": "Mods/Bouhm.NPCMapLocations/Locations",
+	"When": { "HasSeenEvent |contains=1000024": false },
+	"Entries": {
+	//Map tracking Garden
+	"Custom_Garden": {
+	"MapVectors": [
+    {
+     "TileX": 0,
+	 "TileY": 0,
+	 "MapX": 985,
+	 "MapY": 438
+	},
+	{
+	 "TileX": 40,
+	 "TileY": 30,
+	 "MapX": 985,
+	 "MapY": 438
+	}
+   ],	
+	"MapTooltip": {
+	"X": 948,
+	"Y": 406,
+	"Width": 76,
+	"Height": 66,
+	"PrimaryText": "Old Community Garden"
+	}
+   },
+  },
+},
+
+{   //Fake tracking grampleton fields
+	"Action": "EditData",
+	"Target": "Mods/Bouhm.NPCMapLocations/Locations",
+	"When": { "HasMod": "flashshifter.GrampletonFields" },
+	"Entries": {
+	"Custom_GrampletonFields": { "MapVectors": [ { "TileX": 0, "TileY": 0, "MapX": 0, "MapY": 0 }, { "TileX": 0, "TileY": 0, "MapX": 0, "MapY": 0 } ],},
+  },
+},
+
+{   //Fake grandpa shed outside tracking
+	"Action": "EditData",
+	"Target": "Mods/Bouhm.NPCMapLocations/Locations",
+	"When": { "HasMod": "flashshifter.GrandpasFarm, flashshifter.immersivefarm2remastered", "FarmType": "Standard" },
+	"Entries": {
+    "Custom_GrandpasShedOutside": { "MapVectors": [ { "TileX": 0, "TileY": 0, "MapX": 0, "MapY": 0 }, { "TileX": 0, "TileY": 0, "MapX": 0, "MapY": 0 } ],},
+ },
+},
+
+
 
 ///////////////////////
 
@@ -2327,6 +2376,70 @@
 	}
 },
 
+//Garden and Town East patches
+
+{   //Pelican Town
+    "Action": "EditMap",
+    "Target": "Maps/Town",
+    "FromFile": "assets/Maps/MapPatches/Garden_Town.tbin",
+	"ToArea": { "X": 114, "Y": 92, "Width": 1, "Height": 4 },
+    "When": { "HasSeenEvent |contains=1000024": false }
+},
+{   //Joja Pelican Town
+    "Action": "EditMap",
+    "Target": "Maps/Town",
+    "FromFile": "assets/Maps/MapPatches/Garden_Town_Joja.tbin",
+	"ToArea": { "X": 114, "Y": 93, "Width": 1, "Height": 4 },
+    "When": { "HasSeenEvent": "5553210", "HasSeenEvent |contains=1000024": false }
+},
+{   //Shearwater Bridge
+    "Action": "EditMap",
+    "Target": "Maps/Custom_ShearwaterBridge",
+    "FromFile": "assets/Maps/MapPatches/Garden_ShearwaterBridge.tbin",
+	"ToArea": { "X": 0, "Y": 39, "Width": 9, "Height": 1 },
+    "When": { "HasSeenEvent |contains=1000024": false }
+},
+
+
+//New
+
+{    //Lewis crop field event
+	 "Action": "EditData",
+	 "Target": "data/events/Custom_Garden",
+	 "Entries": { 
+     "1011124/k 1000024/H/t 600 1800/y 2/w sunny": "sweet/-500 -500/farmer 12 28 1 Lewis 22 28 0/pause 300/viewport 22 28 clamp true/skippable/move farmer 8 0 1/pause 500/emote farmer 8/pause 400/faceDirection Lewis 3 true/pause 1150/faceDirection Lewis 0 true/pause 1000/speak Lewis \"This garden space has been abandoned for a while. It used to be the community garden before we relocated it near the library.$0#$b#With no one taking care of the field, it's seen better days.$2#$b#It's a shame this is the first thing travelers from Grampleton see when they visit Pelican Town...$2\"/pause 400/emote Lewis 40/pause 600/faceDirection Lewis 3 true/pause 350/speak Lewis \"I know you have your hands full with %farm Farm, but if you were to fix up this plot of land, you could use it to grow whatever you like.$1#$b#I tried offering it to Andy, but he said he didn't want a 'handout' from me.$2#$b#What do you say, @?$0\"/speak Lewis \"$q -1 null#Do you want this plot of land?#$r -1 0 lewis_event1#I can clean up and utilize this crop field.#$r -1 0 lewis_event2#Sorry. I'm overwhelmed with my own farm.\"/pause 1000/move Lewis 0 0 2/pause 850/move Lewis 0 0 3/pause 1050/speak Lewis \"Well, I have a pile of paperwork.$2#$b#Have a nice day, @!$1\"/pause 200/globalFade/viewport -1000 -1000/pause 300/end dialogue Lewis \"I know you'll make some good use out of the land, @.$0\"",
+	 },
+},
+{   //Removes barrels at garden
+    "Action": "EditMap",
+    "Target": "Maps/Custom_Garden",
+    "FromFile": "assets/Maps/MapPatches/GardenUnlocked.tbin",
+	"ToArea": { "X": 20, "Y": 25, "Width": 4, "Height": 3 },
+    "When": { "HasSeenEvent": "1011124" },
+	"Update": "OnLocationChange"
+},
+
+
+
+//Old code 
+/*
+{    //Lewis crop field event
+	 "Action": "EditData",
+	 "Target": "data/events/Custom_TownEast",
+	 "Entries": { 
+     "1000024/t 600 1800/y 2/w sunny/H": "sweet/-500 -500/farmer 9 21 1 Lewis 15 17 0/pause 300/viewport 16 17 true/skippable/move farmer 4 0 0/pause 300/emote farmer 8/pause 300/move farmer 0 -4 1/pause 400/move Lewis 0 0 3/pause 400/emote Lewis 16/pause 700/faceDirection Lewis 0 true/pause 1000/speak Lewis \"This garden space has been abandoned for a while. It used to be the community garden before we relocated it near the library.$0#$b#With no one taking care of the field, it's seen better days.$2#$b#It's a shame this is the first thing travelers from Grampleton see when they visit Pelican Town...$2\"/pause 600/move Lewis 0 0 0/pause 300/emote Lewis 40/pause 300/emote Lewis 16/pause 150/move Lewis 0 0 3/pause 250/speak Lewis \"I know you have your hands full with %farm Farm, but if you were to fix up this plot of land, you could use it to grow whatever you like.$1#$b#I tried offering it to Andy, but he said he didn't want a 'handout' from me.$2#$b#What do you say, @?$0\"/speak Lewis \"$q -1 null#Do you want this plot of land?#$r -1 0 lewis_event1#I can clean up and utilize this crop field.#$r -1 0 lewis_event2#Sorry. I'm overwhelmed with my own farm.\"/pause 1000/move Lewis 0 0 2/pause 850/move Lewis 0 0 3/pause 1050/speak Lewis \"Well, I have a pile of paperwork.$2#$b#Have a nice day, @!$1\"/pause 200/globalFade/viewport -1000 -1000/pause 300/end dialogueWarpOut Lewis \"I know you'll make some good use out of the land, @.$0\"",
+	 },
+},*/
+{   //Removes barrels at town east
+    "Action": "EditMap",
+    "Target": "Maps/Custom_TownEast",
+    "FromFile": "assets/Maps/MapPatches/TownEastUnlocked.tbin",
+	"ToArea": { "X": 15, "Y": 13, "Width": 3, "Height": 3 },
+    "When": { "HasSeenEvent": "1000024" },
+	"Update": "OnLocationChange"
+},
+
+
 // CUT CONTENT
 
 /*
@@ -2910,7 +3023,7 @@
      "When": { "HasSeenEvent": "5407917" },
 	 "Fields": {
 	 "303": { 1: "450" }, //pale ale
-	 "340": { 1: "300" }, //mead
+	 "459": { 1: "300" }, //mead
 	 "346": { 1: "300" }, //beer
 	 },
 	 "Update": "OnTimeChange"
@@ -4015,6 +4128,11 @@
      "Action": "Load",
 	 "Target": "Data/Events/Custom_BlueMoonVineyard",
 	 "FromFile": "assets/XNBs/BlueMoonVineyard.xnb"
+},
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Custom_Garden",
+	 "FromFile": "assets/XNBs/Garden.xnb"
 },
 {
      "Action": "Load",
@@ -10110,7 +10228,7 @@
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-      "Sophia": "อู้ววว! นี่เป็นหนึ่งในสิ่งที่ฉันชอบ ฉันจะเก็บมันไว้เสมอ!/577 595/สำหรับฉันหรอ! ขอบคุณมากๆ นะ!/872 220 221 232 237 240 -80 428 373 376 797 446/โอ้... เรื่องนี้ฉันไม่รู้/456 393 457 397 199 215 242 244/ม-ไม่เอา! เอามันออกไปห่างๆ ฉันเลยนะ!/346 303 459 149 798 151 155 -4/อืม ขอบใจ!/-75 -81 18 -18 -79 -2 -7 -26 -75 -80 72 446 348 395 613 634 635 636 637 638 724 459 402/"
+      "Sophia": "อู้ววว! นี่เป็นหนึ่งในสิ่งที่ฉันชอบ ฉันจะเก็บมันไว้เสมอ!/577 595/สำหรับฉันหรอ! ขอบคุณมากๆ นะ!/872 220 221 232 237 240 -80 428 376 446/โอ้... เรื่องนี้ฉันไม่รู้/456 393 457 397 199 215 242 244/ม-ไม่เอา! เอามันออกไปห่างๆ ฉันเลยนะ!/346 303 459 149 798 151 155 -4/อืม ขอบใจ!/-75 -81 18 -18 -79 -2 -7 -26 -75 -80 72 446 348 395 613 634 635 636 637 638 724 459 402/"
       }
     },
 	
@@ -16469,7 +16587,7 @@
 	"Target": "data/events/busstop",
 	"When": { "HasSeenEvent": "3219972", "Relationship:Claire |contains=Married, Engaged, Dating": false },
 	"Entries": { 
-    "3219973/f Martin 2000/t 1800 2200/z winter/w sunny": "spring_night_ambient/-500 -500/Martin 15 11 0 Claire 17 11 0/changeLocation BusStop_NoBus/positionOffset Martin -15 -4/viewport 17 12 clamp true/skippable/pause 3000/shake Martin 500/pause 1500/faceDirection Martin 1 true/pause 500/speak Martin \"It was busy today, huh? Haven't seen it like that in a while.$0\"/pause 500/faceDirection Claire 3 true/pause 500/speak Claire \"It was, yes... Honestly, I'm exhausted. I feel like I could fall asleep on the ride home.$1\"/pause 300/speak Martin \".. Uh huh.$6\"/pause 1500/faceDirection Claire 0 true/pause 1000/faceDirection Martin 0 true/pause 2500/shake Martin 500/pause 1250/faceDirection Martin 1 true/pause 500/speak Martin \"Claire...$2\"/pause 650/faceDirection Claire 3 true/pause 500/speak Claire \"Yes?$1\"/pause 400/speak Martin \"...Nothing, I thought I saw something over there, but I think it was a squirrel.$4\"/pause 500/speak Claire \"Oh, all right.$0\"/pause 1000/faceDirection Claire 0 true/pause 1200/faceDirection Martin 0 true/pause 2500/shake Martin 750/pause 1250/speak Martin \"...Claire.$2\"/pause 500/faceDirection Claire 3 true/pause 600/speak Claire \"... Yes?$0\"/pause 800/shake Martin 400/pause 700/speak Martin \"...$2#$b#There's something I want to talk to you about.$2\"/pause 500/speak Claire \"Oh? Is something wrong?$2\"/pause 500/faceDirection Martin 1 true/pause 500/speak Martin \"No, nothing's wrong, I...$4\"/pause 1000/shake Martin 500/pause 1000/speak Martin \"You've been good to me since I started at Joja, Really really good.$6\"/pause 500/speak Claire \"Oh, it's nothing. I'm just glad I was finally able to make a friend there.$1#$b#It's not like Shane or Morris were likely to open up.$5\"/pause 400/speak Martin \"Friends... right.$6\"/pause 1000/shake Martin 300/pause 700/stopMusic/speak Martin \"Claire.. The thing is, um. I've never had to say this to anyone before. But.. I kind of like you as more than a friend.$6#$b#...Like.. a lot more, probably.$6\"/pause 1650/speak Martin \".. I thought about it a lot. And I know I'm younger than you, but.. But we make each other happy, don't we?$6#$b#Do you think.. is there any way that maybe you'd like to be with me? Even a little? If not now, then someday?$6\"/pause 1000/emote Claire 40/pause 1000/speak Martin \"... Say something, Claire. Please?$2\"/pause 1000/speak Claire \"...$1#$b#Oh, Martin... I'm glad you said something.$1\"/speak Martin \"!!! Does that mean...$0\"/pause 500/speak Claire \"No, no. Martin, listen to me. You've got a whole life ahead of you. Especially now that you're seeing more of the world...$2#$b#I'm your friend, and I'll always be your friend. But it wouldn't be fair for me to promise more.$2#$b#You have so much ahead of you and so much to learn, and over the next few years you're going to change so much...$1#$b#When it comes down to it... we're just too different to be anything but friends.$2\"/pause 800/playMusic spring_night_ambient/pause 500/faceDirection Martin 2 true/pause 400/showFrame Martin 16 true/pause 1750/speed Claire 1/move Claire -1 0 3/pause 800/speak Claire \"Martin.. It doesn't mean I don't care about you. I really do. I love spending time together, the little jokes we make between shifts, riding the bus home together.$1#$b#I do. It's just.. It's not that kind of feeling for me. It can't be.$2\"/pause 1000/shake Martin 500/pause 1000/speak Martin \"...$2\"/pause 650/speak Claire \"..Martin, are you okay?$2\"/pause 800/shake Martin 300/pause 700/speak Martin \"..I'll be fine.$2\"/pause 1000/speak Claire \"I'm going to go for a little walk to give you some space. I'll be back before the bus gets here, okay?$2\"/pause 1000/faceDirection Claire 2 true/pause 300/speed Claire 1/move Claire 0 2 3/speed Claire 1/move Claire -1 0 2/speed Claire 1/move Claire 0 2 2 true/pause 200/showFrame Martin 0 true/pause 500/speak Martin \"Claire.. I...$2\"/pause 650/faceDirection Claire 1 true/pause 300/faceDirection Claire 0 true/pause 500/speak Claire \"Yes?$1\"/pause 700/speak Martin \"... Thank you. I do still want to be friends.$6\"/pause 500/speak Claire \"Good. I was hoping you would...$2#$b#I'll be back soon.$1\"/pause 1000/faceDirection Claire 1 true/pause 300/faceDirection Claire 2 true/pause 300/speed Claire 1/move Claire 0 8 2 true/pause 1750/faceDirection Martin 1 true/pause 300/faceDirection Martin 0 true/pause 1500/shake Martin 500/pause 1000/addConversationTopic MartinConfession/globalFade/viewport -1000 -1000/pause 1000/end"
+    "3219973/f Martin 2000/t 1800 2200/z winter/w sunny": "spring_night_ambient/-500 -500/Martin 15 11 0 Claire 17 11 0/changeLocation Custom_BusStop_NoBus/positionOffset Martin -15 -4/viewport 17 12 clamp true/skippable/pause 3000/shake Martin 500/pause 1500/faceDirection Martin 1 true/pause 500/speak Martin \"It was busy today, huh? Haven't seen it like that in a while.$0\"/pause 500/faceDirection Claire 3 true/pause 500/speak Claire \"It was, yes... Honestly, I'm exhausted. I feel like I could fall asleep on the ride home.$1\"/pause 300/speak Martin \".. Uh huh.$6\"/pause 1500/faceDirection Claire 0 true/pause 1000/faceDirection Martin 0 true/pause 2500/shake Martin 500/pause 1250/faceDirection Martin 1 true/pause 500/speak Martin \"Claire...$2\"/pause 650/faceDirection Claire 3 true/pause 500/speak Claire \"Yes?$1\"/pause 400/speak Martin \"...Nothing, I thought I saw something over there, but I think it was a squirrel.$4\"/pause 500/speak Claire \"Oh, all right.$0\"/pause 1000/faceDirection Claire 0 true/pause 1200/faceDirection Martin 0 true/pause 2500/shake Martin 750/pause 1250/speak Martin \"...Claire.$2\"/pause 500/faceDirection Claire 3 true/pause 600/speak Claire \"... Yes?$0\"/pause 800/shake Martin 400/pause 700/speak Martin \"...$2#$b#There's something I want to talk to you about.$2\"/pause 500/speak Claire \"Oh? Is something wrong?$2\"/pause 500/faceDirection Martin 1 true/pause 500/speak Martin \"No, nothing's wrong, I...$4\"/pause 1000/shake Martin 500/pause 1000/speak Martin \"You've been good to me since I started at Joja, Really really good.$6\"/pause 500/speak Claire \"Oh, it's nothing. I'm just glad I was finally able to make a friend there.$1#$b#It's not like Shane or Morris were likely to open up.$5\"/pause 400/speak Martin \"Friends... right.$6\"/pause 1000/shake Martin 300/pause 700/stopMusic/speak Martin \"Claire.. The thing is, um. I've never had to say this to anyone before. But.. I kind of like you as more than a friend.$6#$b#...Like.. a lot more, probably.$6\"/pause 1650/speak Martin \".. I thought about it a lot. And I know I'm younger than you, but.. But we make each other happy, don't we?$6#$b#Do you think.. is there any way that maybe you'd like to be with me? Even a little? If not now, then someday?$6\"/pause 1000/emote Claire 40/pause 1000/speak Martin \"... Say something, Claire. Please?$2\"/pause 1000/speak Claire \"...$1#$b#Oh, Martin... I'm glad you said something.$1\"/speak Martin \"!!! Does that mean...$0\"/pause 500/speak Claire \"No, no. Martin, listen to me. You've got a whole life ahead of you. Especially now that you're seeing more of the world...$2#$b#I'm your friend, and I'll always be your friend. But it wouldn't be fair for me to promise more.$2#$b#You have so much ahead of you and so much to learn, and over the next few years you're going to change so much...$1#$b#When it comes down to it... we're just too different to be anything but friends.$2\"/pause 800/playMusic spring_night_ambient/pause 500/faceDirection Martin 2 true/pause 400/showFrame Martin 16 true/pause 1750/speed Claire 1/move Claire -1 0 3/pause 800/speak Claire \"Martin.. It doesn't mean I don't care about you. I really do. I love spending time together, the little jokes we make between shifts, riding the bus home together.$1#$b#I do. It's just.. It's not that kind of feeling for me. It can't be.$2\"/pause 1000/shake Martin 500/pause 1000/speak Martin \"...$2\"/pause 650/speak Claire \"..Martin, are you okay?$2\"/pause 800/shake Martin 300/pause 700/speak Martin \"..I'll be fine.$2\"/pause 1000/speak Claire \"I'm going to go for a little walk to give you some space. I'll be back before the bus gets here, okay?$2\"/pause 1000/faceDirection Claire 2 true/pause 300/speed Claire 1/move Claire 0 2 3/speed Claire 1/move Claire -1 0 2/speed Claire 1/move Claire 0 2 2 true/pause 200/showFrame Martin 0 true/pause 500/speak Martin \"Claire.. I...$2\"/pause 650/faceDirection Claire 1 true/pause 300/faceDirection Claire 0 true/pause 500/speak Claire \"Yes?$1\"/pause 700/speak Martin \"... Thank you. I do still want to be friends.$6\"/pause 500/speak Claire \"Good. I was hoping you would...$2#$b#I'll be back soon.$1\"/pause 1000/faceDirection Claire 1 true/pause 300/faceDirection Claire 2 true/pause 300/speed Claire 1/move Claire 0 8 2 true/pause 1750/faceDirection Martin 1 true/pause 300/faceDirection Martin 0 true/pause 1500/shake Martin 500/pause 1000/addConversationTopic MartinConfession/globalFade/viewport -1000 -1000/pause 1000/end"
 	},
 },
 
@@ -21220,14 +21338,6 @@
 	 },
 },
 
-{       //LEWIS EVENT
-	 "Action": "EditData",
-	 "Target": "data/events/Custom_TownEast",
-	 "Entries": { 
-     "1000024/t 600 1800/y 2/w sunny": "sweet/-500 -500/farmer 9 21 1 Lewis 15 17 0/pause 300/viewport 16 17 true/skippable/move farmer 4 0 0/pause 300/emote farmer 8/pause 300/move farmer 0 -4 1/pause 400/move Lewis 0 0 3/pause 400/emote Lewis 16/speak Lewis \"อ่า สวัสดี @$0#$b#ผมกำลังกลับจาก แกรมเพิลตัน มันเป็นการข้ามเขต แกรมเพิลตัน$1#$b#ผมมีธุระกับ นายกเทศมนตรี เคนดรา$0\"/pause 550/move Lewis 0 0 0/pause 1000/move Lewis 0 0 3/pause 300/speak Lewis \"สนามที่นี่ มันเคยถูกทิ้งไปสักพัก มันเคยเป็นสวนชุมชน ก่อนที่เรา จะย้ายไปอยู่ใกล้กับ ห้องสมุด$0#$b#เมื่อไม่มีใครดูแลสนาม มันเริ่มทรุดโทรมขึ้น$2#$b#มันเป็นความอัปยศ มันเป็นสิ่งแรก ที่นักเดินทางจาก แกรมเพิลตัน จะเห็น เมื่อพวกเขาไปเยี่ยม เมืองเพลิแกน...$2\"/pause 600/move Lewis 0 0 0/pause 300/emote Lewis 40/pause 300/emote Lewis 16/pause 150/move Lewis 0 0 3/pause 250/speak Lewis \"ผมรู้ว่าคุณมีงานล้นมือ จาก %farm ฟาร์ม แต่ถ้าคุณต้องการ จัดการกับที่ดินนี้ คุณสามารถใช้มัน เพื่อปลูกสิ่งที่คุณต้องการ$1#$b#ผมพยายามเสนอให้กับ แอนดี้ แต่เขาบอกเขา ไม่ต้องการ 'ของให้ทาน' จากผม$2#$b#คุณจะว่ายังไง @?$0\"/speak Lewis \"$q -1 null#คุณต้องการที่ดินนี้ไหม?#$r -1 0 lewis_event1#ฉันสามารถดูแล และ จัดการสนามนี้ได้#$r -1 0 lewis_event2#ขอโทษ แต่ฉันมีงานล้นมือ\"/pause 1000/move Lewis 0 0 2/pause 850/move Lewis 0 0 3/pause 1050/speak Lewis \"โอเค ฉันมีงาน และ มีเอกสารมากมาย$2#$b#ขอให้เป็นวันที่ดี @!$1\"/pause 200/globalFade/viewport -1000 -1000/pause 300/end dialogueWarpOut Lewis \"I know you'll make some good use out of the land, @.$0\"",
-	 },
-},
-
 {       //LEWIS EVENT 2
      "Action": "EditData",
      "Target": "data/events/mountain",
@@ -21412,7 +21522,7 @@
 
         //    Me: (>o.o)> ("Why are you looking through here still!?")        <(._.")>  :You
 
-{       //ENTER LOST WOODS
+{    //ENTER JUNIMMO WOODS
 	 "Action": "EditData",
 	 "Target": "data/events/Custom_JunimoWoods",
 	 "Entries": {
@@ -21420,7 +21530,7 @@
 	 },
 },
 
-{    //Patches warp to lost woods
+{    //Patches warp to junimo woods
      "Action": "EditMap",
      "Target": "Maps/Forest",
      "FromFile": "Assets/Maps/MapPatches/JunimoWoodsUnlocked.tbin",
@@ -22671,7 +22781,7 @@
 		 "TownEast.3": "คุณอยากนั่งริมหาด แต่ตัวละครของคุณไม่มีท่านั่งให้ใช้น่ะสิ",
 		 "TownEast.4": "ต้นไม้ต้นนี้ต้องอายุมากกว่า 100 ปีแน่",
 		 "TownEast.5": "มันคือพลั่ว เครื่องมือพวกนี้ใช้ขุดดิน",
-		 "TownEast.6": "ไร่เพาะปลูกถูกถอดทิ้ง...",
+		 "TownEast.6": "This garden space hasn't been used in a long time.",
 		 "ShearwaterBridge.1": "@ เมืองเพลิแกน^> ทุ่งในแกรมเพิลตัน",
          "GrampletonFields.1": "@ ทุ่งในแกรมเพิลตัน^@ สตาร์ดิวแวลลีย์^> แกรมเพิลตัน",
          "GrampletonFields.2": "@ สตาร์ดิวแวลลีย์^> แกรมเพิลตัน",
