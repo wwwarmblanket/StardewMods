@@ -1,6 +1,6 @@
 {
 	"Name": "Property Deed",
-	"Description": "It needs to be given to an authority figure for review.",
+	"Description": "(โฉนดที่ดิน) จำเป็นต้องให้หน่วยงาน ที่มีอำนาจตรวจสอบก่อน",
 	"Price": 0,
 	"CanTrash": false,
     "CanSell": false,
