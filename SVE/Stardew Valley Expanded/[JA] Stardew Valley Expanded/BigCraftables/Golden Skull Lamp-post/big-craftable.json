@@ -2,7 +2,7 @@
   "Name": "Golden Skull Lamp-post",
   "Price": 7500,
   "ProvidesLight": false,
-  "Description": "It's made of pure gold. Provides a moderate amount of light.",
+  "Description": "(เสาโคมไฟหัวกะโหลกทองคำ) ทำจากทองคำบริสุทธิ์ ให้แสงสว่างระดับปานกลาง",
   "ProvidesLight": true,
   "CanPurchase": false,
 }
