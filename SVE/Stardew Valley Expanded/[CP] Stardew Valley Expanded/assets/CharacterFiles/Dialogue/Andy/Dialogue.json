@@ -4,12 +4,12 @@
   "Introduction": "ดูนั่นสิ? นี่มันเจ้าของฟาร์มคนใหม่ ที่ทุกคนพูดถึงกัน ในที่สุดก็ย้ายไปที่หุบเขา ฉันเจอแล้วล่ะ$0#$b#ฉันทำงานที่ ฟาร์มแฟร์เฮเวน มาหลายปีแล้ว มันไม่มากแต่เป็นงานสุจริต$1#$e#คุณโชคดีที่คุณได้รับ ทรัพย์สินจากคุณปู่ของคุณ มาฟรีๆ$2",
   "claireSaloonPaid": "นั่นเป็นเรื่องที่เจ๋งมาก ที่คุณยื่นมือไปช่วยผู้หญิงคนนั้น ตอนที่อยู่ในซาลูน ชาวไร่$0#$e#กัสไม่สามารถจะให้ฟรี หรือให้ข้อยกเว้นกับทุกคนได้ อย่างว่าล่ะ การเป็นเจ้าของกิจการมันยาก",
   "claireSaloon": "ได้ยินเรื่องผู้หญิงคนนั้น ที่ซาลูนแล้ว$0#$e#เงิน 20g มันก็ไม่ได้มากมายอะไรหรอก แต่บางที มันก็ต่างตรงที่จะได้กินข้าวสักมื้อ หรือไม่ได้กินอะไรเลย$0",
-  "Resort_Entering": "Willy said you helped 'em repair their boat. Mighty kind of you, farmer!$0",
-  "Resort_Leaving": "Now that there was a vacation!$1",
-  "Resort_Shore": "This heat is takin' a toll on me. Might take a dip in the ocean.$2",
-  "Resort_Chair": "%Andy is gazing at the gem sea.",
-  "Resort_Bar": "*glug glug glug*$6",
-  "Resort": "I reckon there's good forage on this island if you look hard enough.$0#$e#Huh? What in the name of Yoba is a 'golden walnut'?$2",
+  "Resort_Entering": "วิลลี่บอกว่าคุณช่วยพวกเขา ซ่อมเรือจองพวกเขา คุณเจ๋งมากชาวไร่!$0",
+  "Resort_Leaving": "ตอนนี้นั้นเป็นวันหยุดพักผ่อน!$1",
+  "Resort_Shore": "ความร้อนนี้ส่งผลให้ฉัน อาจจะนอนแช่น้ำในมหาสมุทร$2",
+  "Resort_Chair": "%แอนดี้จ้องมองไปที่ทะเลอัญมณี",
+  "Resort_Bar": "*กลั๊ก กลั๊ก กลั๊ก*$6",
+  "Resort": "ฉันคิดว่าบนเกาะนี้มี แหล่งอาหารที่ดี หากคุณกำลังลำบาก$0#$e#ห๊ะ? ชื่อของโยบะคือ 'วอลนัทสีทอง' ?$2",
  
   //SPECIFIC MAP AND COORDINATES DIALOGUE
   "Custom_AndyHouse_9_6": "ในนามของโยบะ คุณทำอะไรเนี่ย!? ผมอยู่บนเตียงนะ! ออกไปเดี๋ยวนี้!$7",
