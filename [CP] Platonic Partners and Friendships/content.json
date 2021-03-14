@@ -1,0 +1,201 @@
+{
+    "Format": "1.20.0",
+    "ConfigSchema":
+    {
+        "PlatonicNPCs":
+        {
+            "AllowValues": "Abigail, Alex, Elliott, Emily, Haley, Harvey, Leah, Maru, Penny, Sam, Sebastian, Shane",
+            "Default": "Abigail, Alex, Elliott, Emily, Haley, Harvey, Leah, Maru, Penny, Sam, Sebastian, Shane",
+            "AllowMultiple": true,
+            "AllowBlank": true,
+            "Description": "Which characters' romantic dialogue and events are replaced with platonic alternatives. By default, all characters are set to platonic. If you want to pursue a character romantically, delete their name from the list."
+        },
+        "RelationshipLabel":
+        {
+            "Default": "partners",
+            "Description": "How you would like to describe your relationship if you 'marry' a platonic partner, e.g. 'roommates,' 'life partners,' 'business partners'."
+        },
+        "SocialMenuLabel":
+        {
+            "Default": "partner",
+            "Description": "How you would like the person/people you're married or platonically partnered to to be labeled in the social menu, e.g. 'partner,' 'wife,' 'spouse,' 'best bud'."
+        },
+        "TermofEndearment":
+        {
+            "Default": "@",
+            "Description": "What you would like a platonic partner to call you. First letter should be capitalized."
+        },
+        "EnableAsexuality":
+        {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "When true, your platonic partner won't say anything 'suggestive'. You can disable this if you want a partnership that is aromantic, but not asexual.)"
+        },
+        "EnablePortraitEdits":
+        {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Determines whether minor portrait edits (mostly removing blushing) will be applied to NPCs in the platonic list."
+        },
+        "UseLovePortraits":
+        {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Determines whether dialogue and events will use characters' 'love' portraits. If EnablePortraitEdits is true, these portraits will not blush."
+        },
+        "EnableSpriteEdits":
+        {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Determines whether wedding dresses will be recolored for NPCs in the platonic list. (This option does nothing if you have DSV installed, since DSV instead replaces wedding outfits with unique commitment ceremony outfits designed by DSV team member Airyn.)"
+        },
+        "EnableScheduleChanges":
+        {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "When true, blocks some vanilla schedule changes that imply romantic rivalry; e.g., if you're platonic with Haley, reaching 6 hearts with her won't make Alex stop visiting her house.)"
+        },
+        "Auncle":
+        {
+            "Default": "Nini",
+            "Description": "Determines what title you want to be used by NPCs with a niece/nephew/nibling-like relationship with you; e.g. Aunt, Uncle, Nini, etc. Only applicable with certain mods installed."
+        },
+        "SpousesReactExInvolvement": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "When using the Spouses React to Death mod, implements platonic edits for some events with an ex-partner visiting the hospital after player 'death'. Set to false if you have ex involvement disabled in Spouses React."
+        },
+    },
+    "DynamicTokens": [
+    {
+        "Name": "DialogueYear",
+        "Value": null,
+        "When":
+        {
+            "Year": "1",
+        },
+    },
+    {
+        "Name": "DialogueYear",
+        "Value": "_2",
+        "When":
+        {
+            "Year |contains=1": false
+        },
+    }, ],
+    "Changes": [
+    {
+        "Action": "Include",
+        "FromFile": "assets/NPCs/Abigail.json",
+        "When":
+        {
+            "PlatonicNPCs": "Abigail"
+        }
+    },
+    {
+        "Action": "Include",
+        "FromFile": "assets/NPCs/Alex.json",
+        "When":
+        {
+            "PlatonicNPCs": "Alex"
+        }
+    },
+    {
+        "Action": "Include",
+        "FromFile": "assets/NPCs/Emily.json",
+        "When":
+        {
+            "PlatonicNPCs": "Emily"
+        }
+    },
+    {
+        "Action": "Include",
+        "FromFile": "assets/NPCs/Elliott.json",
+        "When":
+        {
+            "PlatonicNPCs": "Elliott"
+        }
+    },
+    {
+        "Action": "Include",
+        "FromFile": "assets/NPCs/Haley.json",
+        "When":
+        {
+            "PlatonicNPCs": "Haley"
+        }
+    },
+    {
+        "Action": "Include",
+        "FromFile": "assets/NPCs/Harvey.json",
+        "When":
+        {
+            "PlatonicNPCs": "Harvey"
+        }
+    },
+    {
+        "Action": "Include",
+        "FromFile": "assets/NPCs/Leah.json",
+        "When":
+        {
+            "PlatonicNPCs": "Leah"
+        }
+    },
+    {
+        "Action": "Include",
+        "FromFile": "assets/NPCs/Maru.json",
+        "When":
+        {
+            "PlatonicNPCs": "Maru"
+        }
+    },
+    {
+        "Action": "Include",
+        "FromFile": "assets/NPCs/Penny.json",
+        "When":
+        {
+            "PlatonicNPCs": "Penny"
+        }
+    },
+    {
+        "Action": "Include",
+        "FromFile": "assets/NPCs/Sam.json",
+        "When":
+        {
+            "PlatonicNPCs": "Sam"
+        }
+    },
+    {
+        "Action": "Include",
+        "FromFile": "assets/NPCs/Sebastian.json",
+        "When":
+        {
+            "PlatonicNPCs": "Sebastian"
+        }
+    },
+    {
+        "Action": "Include",
+        "FromFile": "assets/NPCs/Shane.json",
+        "When":
+        {
+            "PlatonicNPCs": "Shane"
+        }
+    },
+    {
+        "Action": "Include",
+        "FromFile": "assets/GenericTweaks.json",
+        "When":
+        {
+            "HasValue:{{PlatonicNPCs}}": "true",
+        }
+    },
+    {
+        "Action": "Include",
+        "FromFile": "assets/ScheduleChanges.json",
+        "When":
+        {
+            "EnableScheduleChanges": "true",
+            "HasMod |contains=missmarlot.bachelorsstayfriends": "false"
+        }
+    }]
+}
