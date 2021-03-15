@@ -27,12 +27,12 @@
   "refusal_botherB": "อาจจะเป็นโอกาสหน้าครับ$1",
   "refusal_no_heartsA": "นั่นดูสวยดีนะครับ คุณซื้อมันมาจากวิญญาณ ที่ชายหาดหรือเปล่าครับ?$0#$b#ผมเคยอ่านเกี่ยวกับ วิญญาณชาวประมงเฒ่า ที่ขายสร้อยคอของนางเงือก (mermaid pendants) ครับ$6",
   "refusal_no_heartsB": "แล้วไงงั้นหรือครับ นี่คือสิ่งที่จะเกิดขึ้นนะครับ คุณ @ ผมจะเดินออกไป แล้วแกล้งทำเป็นว่า คุณไม่เคยทำแบบนี้นะครับ$0",
-  "Resort_Entering": "What a beautiful remote beach!$1",
-  "Resort_Leaving": "There's sand stuck in my hair...$2#$b#Nothing a hot shower can't solve! Back to Stardew Valley!$1",
-  "Resort_Shore": "I wonder which one of those islands is home to the First Slash adventurer guild...$1",
-  "Resort_Chair": "Have you explored much of the island, @?$3#$b#A place like this is bound to harbor a great many mysteries.$1",
-  "Resort_Bar": "Gus has quite the tropical drink menu! I think I'll have the 'Ring Fruit Sunrise'!$1",
-  "Resort": "I've read about that volcano in an adventurer book.$3#$b#A clan of dwarves used lava as an energy source!$1",
+  "Resort_Entering": "เป็นชายหาดห่างไกล ที่สวยอะไรอย่างนี้!$1",
+  "Resort_Leaving": "มีทรายติดผมผมแหละครับ...$2#$b#ไม่ใช่อะไร ที่ฝักบัวอุ่นๆ แก้ไม่ได้หรอกครับ! มุ่งกลับสตาร์ดิว แวลลี่!$1",
+  "Resort_Shore": "ผมสงสัยจังครับ ว่าเกาะไหนกันนะ ที่เป็นที่ตั้งกิลด์ ของชาวคมแรก...$1",
+  "Resort_Chair": "คุณสำรวจเกาะ ไปเยอะหรือยังครับ คุณ @?$3#$b#ที่แบบนี้ ต้องเต็มไปด้วย ปริศนายิ่งใหญ่ มากมายแน่นอนครับ$1",
+  "Resort_Bar": "กัสมีเมนูเขตร้อน ที่น่าสนใจทีเดียวครับ! ผมคิดว่า ผมจะลอง 'ริงฟรุตซันไรส์ (Ring Fruit Sunrise)'ล่ะครับ!$1",
+  "Resort": "ผมอ่านเรื่องภูเขาไฟลูกนั้น มาจากหนังสือ ของนักผจญภัยด้วยล่ะครับ$3#$b#มีเผ่าคนแคระ ที่ใช้ลาวาเป็นเชื้อเพลิงด้วยครับ!$1",
   
   //SPECIFIC TILE DIALOGUE
   "Custom_JenkinsHouse_23_25": "คุณโซเฟียกับผมจะดู 'โรงเรียนวายร้ายของฉัน' กันครับวันนี้ น่าจะสนุกนะครับ$3",
