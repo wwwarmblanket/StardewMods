@@ -1,13 +1,13 @@
 {
 //SPECIAL DIALOGUE
-"Introduction": "Hmmm?$0#$e#Oh, hello.$0",
-"Resort_Entering": "Hmm... I sense monsters on the other side of the island.$0",
-"Resort_Leaving": "I appreciated the change in scenery.$0",
-"Resort_Shore": "The First Slash guild protects these islands. They're distinguished by their blue cloaks and use of long spears.$0",
-"Resort_Chair": "The magic barrier is holding strong here on this remote beach.$0",
-"Resort_Bar": "Coconut water will do fine, Gus. Need to keep my senses sharp.$0",
-"Resort": "Hmm. Festivities on an island inhabited by monsters...$0#$e#I trust you'll assist in keeping watch with me, @.$0",
-"Custom_AdventurerSummit_62_5": "%Marlon is unresponsive.",
+"Introduction": "หืมมม?$0#$e#อ้า สวัสดี$0",
+"Resort_Entering": "หืม... ข้ารู้สึกได้ถึงมอนสเตอร์ ที่อีกฝากหนึ่งของเกาะล่ะ$0",
+"Resort_Leaving": "ได้เปลี่ยนบรรยากาศบ้างก็ดี$0",
+"Resort_Shore": "กิลด์ของชาวคมแรก ปกป้องเกาะพวกนี้ พวกเขามีเอกลักษณ์เฉพาะ ด้วยเสื้อคลุมสีฟ้า และอาวุธหอกน่ะ$0",
+"Resort_Chair": "เกราะเวทมนตร์ ที่เกาะห่างไกลนี่ แข็งแรงดีแหะ$0",
+"Resort_Bar": "น้ำมะพร้าวก็พอแล้วล่ะกัส ข้าต้องให้ ประสาทสัมผัสตื่นตัวไว้น่ะ$0",
+"Resort": "หืม จัดเทศกาลสังสรรค์ กันบนเกาะที่มีมอนสเตอร์...$0#$e#ข้าคงต้องเชื่อใจฝีมือเจ้า ในการช่วยข้าสอดส่องแล้วล่ะ @$0",
+"Custom_AdventurerSummit_62_5": "%มาร์ลอนไม่มีการตอบสนอง",
 
 //SPRING AND GENERAL DIALOGUE
 
