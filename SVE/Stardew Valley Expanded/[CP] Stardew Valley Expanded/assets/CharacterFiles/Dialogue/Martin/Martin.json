@@ -3,11 +3,11 @@
   "Introduction": "โอ้ หวัดดี คุณคือเจ้าของใหม่ของฟาร์ม %farm สินะ ผู้จัดการเคยจัดประชุม เรื่องของคุณเลยนา!$0#$b#ผมทำงานพาร์ทไทม์ ที่ร้านโจจ้า$1#$e#เอ่ออ ช่วยลืมที่ผมพูด เรื่องประชุมเมื่อกี้ที มันอาจทำให้ผมงานเข้า$4",
   "Town_92_44": "%'ทางเข้าของพนังงาน'",
   "BusStop_12_8": "%คนขับรถบัส: จะขึ้นรถมั้ยครับคุณผู้ชาย ถ้าไม่ขึ้นก็ถอยไปหน่อยครับ^%%คนขับรถบัส: จะขึ้นรถมั้ยครับคุณผู้หญิง ถ้าไม่ขึ้นก็ถอยไปหน่อยครับ",
-  "Resort_Entering": "This island is so cool!$1",
-  "Resort_Leaving": "I'm gonna tell my mom and dad about this place!$1",
-  "Resort_Shore": "The water feels really nice on my feet. I think I'll go swimming!$0",
-  "Resort_Chair": "It's really awesome your community has fun get-togethers like this.$0#$e#My hometown is boring...$4",
-  "Resort": "I forgot to put on sunscreen.$4#$e#I think I got sunburned. My back's all itchy$4",
+  "Resort_Entering": "เกาะนี่เจ๋งไปเลย!$1",
+  "Resort_Leaving": "ผมจะไปเล่าเรื่องเกาะนี้ ให้พ่อแม่ฟัง!$1",
+  "Resort_Shore": "น้ำนี่รู้สึกดีมากเลยเวลาโดนเท้า ผมว่าผมไปว่ายน้ำดีกว่า!$0",
+  "Resort_Chair": "มันเจ๋งมากเลยนะ ที่ชุมชนคุณ รวมตัวกันทำอะไรสนุกๆ แบบนี้ด้วย$0#$e#บ้านเกิดผมอย่างเซ็งเลย...$4",
+  "Resort": "ผมลืมทากันแดดอ่ะ$4#$e#ผมว่าผมโดนแดดเผาล่ะละ หลังคันไปหมดเลย$4",
   
   
   //SPRING AND GENERAL DIALOGUE
@@ -17,7 +17,7 @@
   "Sat": "*เฮ้อ*... วันนี้ไม่อยากทำงานเลยอ่า$2#$e#โอ้ะ อ่า รับอะไรดีครับ?$4",
   "Sat2": "นี่ คุณคิดยังไงกับแคลร์หรอ ก็เพื่อนร่วมงานผมไง?$0#$e#เธอแบบ อย่างเจ๋งเลยนะ$6",
   "Sat6": "@ นี่! สบายดีเปล่า!?$1#$e#ผมกำลังดื่มกาแฟ ที่แม่ชงเมื่อเช้านี้!$1#$e#วันนี้ต้องแจ่มแม๊วสุดๆ !$1",
-  "Sun": "บางทีผมก็ขึ้นรถบัสจากที่่นี่ เพื่อไปยืมหนังสือที่ห้องสมุด$0#$e#ผู้ชายเคราแพะคนนั้น ไม่ค่อยจะพูดสักเท่าไหร่นะ$0",
+  "Sun": "บางทีผมก็ขึ้นรถบัสจากที่นี่ เพื่อไปยืมหนังสือที่ห้องสมุด$0#$e#ผู้ชายเคราแพะคนนั้น ไม่ค่อยจะพูดสักเท่าไหร่นะ$0",
   "Sun2": "หืม...$4#$e#...$4#$e#โอ้! ไง!$1#$b#แค่กำลังคิดอะไรเพลินๆ ไม่ต้องใส่ใจหรอก$0",
   "Sun6": "ใกล้จะถึงการสอบครั้งใหญ่แล้วสิ! ต้องเตรียมตัวให้ดีๆ$1#$e#ห้องสมุดในเมืองของคุณ มีหนังสือน่าสนใจ เยอะเลยแหละ$0",
   
@@ -54,13 +54,13 @@
   
   
   //EVENT DIALOGUE
-  "martin_event1": "Th-that's.. Uh. I'm doing some research, it's...$4",
-  "martin_event2": "... Yeah. Not much to do, at home, and this place has...$0",
-  "martin_event3": "...Yeah, you're probably right.$6",
-  "martin_event4": "I mean, definitely a little weird. But I've got a good reason...$0",
-  "martin_event5": "Thanks, @. I'll go get her.$0",
-  "martin_event6": "... Okay, it's your choice. Gunther will probably let her rest at the museum, I guess.$3",
-  "martin_event7": "Yeah... I guess I really do.$6",
-  "martin_event8": "... That's not fair, @.$3"
+  "martin_event1": "นะ-นั่นมัน.. เอ่อ ผมทำงานวิจัยอยู่น่ะ มัน...$4",
+  "martin_event2": "... ช่าย ไม่ค่อยมีอะไรทำที่บ้าน แล้วที่นี่ก็มี...$0",
+  "martin_event3": "...ครับ คุณพูดถูกแล้วล่ะ.$6",
+  "martin_event4": "คือผมหมายความว่า มันแปลกนิดหน่อย แต่ผมมีเหตุผลที่ดีนะ...$0",
+  "martin_event5": "ขอบใจนะ @ ผมจะไปหาเธอ$0",
+  "martin_event6": "... โอเค แล้วแต่คุณเลย กันเธอร์คงให้เธอพักที่พิพิธภัณฑ์ แหละมั้งครับ$3",
+  "martin_event7": "ช่าย... ผมคงเป็นอย่างนั้น จริงๆ แหละ$6",
+  "martin_event8": "... ไม่แฟร์เลยครับ @$3"
 
 }
