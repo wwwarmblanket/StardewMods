@@ -2,10 +2,10 @@
 {
   //SPECIAL DIALOGUE
   "Introduction": "อืม... หวัดดีฮะ! เราชื่อมอร์แกนฮะ เป็นลูกศิษย์ของแมกนัส ราสโมเดียส คุณชื่ออะไรหรอฮะ?$0#$e#ยินดีที่ได้พบคุณ!$1",
-  "Resort_Entering": "Whoa! The volcano looks so big this close!$5",
-  "Resort_Leaving": "Nyahaha! That was fun! I want to visit the island again soon!$3",
-  "Resort_Shore": "The birds act kinda strange...$0#$e#I duck my head as they fly by.$8",
-  "Resort": "Can you feel the mana here, @? It's really strong.$1#$e#I think it's coming from the volcano!$5",
+  "Resort_Entering": "โอ้โห! ภูเขาไฟดูใหญ่มากเลยฮะ เวลามองใกล้ๆ แบบนี้!$5",
+  "Resort_Leaving": "อะฮะฮ่า! นั่นมันสนุกมากเลยฮะ! เราอยากไปเที่ยวเกาะ อีกรอบเร็วๆ จังเลยฮะ!$3",
+  "Resort_Shore": "พวกนก ทำตัวประหลาดๆ แหะ...$0#$e#ผมก้มหลบตลอดเลย เวลาพวกมันบินผ่าน$8",
+  "Resort": "คุณรู้สึกถึงมานาที่นี่มั้ยฮะ @? มันแรงมากเลย$1#$e#เราว่ามันมาจาก ภูเขาไฟแหละฮะ!$5",
 
   //SPRING DIALOGUE	
   "spring_12": "อาจารย์แมกนัสกับเราจะ เข้าไปในป่าลึกวันพรุ่งนี้$1#$b#เราคงไม่ได้ไปร่วมงานเทศกาล ในเมืองหรอกฮะ$0#$e#อาจารย์เจอสถานที่ที่มี พลังเวทย์เข้มข้น เราล่ะ ตื่นเต้นมากเลย!$3",
