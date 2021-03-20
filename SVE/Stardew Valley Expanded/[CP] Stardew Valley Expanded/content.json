@@ -22306,10 +22306,10 @@
 	"Target": "data/events/haleyhouse",
 	"When": { "Relationship:Sophia": "dating", "Relationship:Claire": "dating", "Relationship:Olivia": "dating" },
 	"Entries": { 
-	"195019/f Olivia 2500/f Sophia 2500/f Claire 2500/f Haley 2500/f Emily 2500/f Penny 2500/f Abigail 2500/f Leah 2500/f Maru 2500/o Abigail/o Penny/o Leah/o Emily/o Maru/o Haley/o Shane/o Harvey/o Sebastian/o Sam/o Elliott/o Alex/e 38/e 2123343/e 10/e 901756/e 54/e 15/i 446/k 195012": "playful/-1000 -1000/farmer 8 19 1 Haley 18 18 1 Emily 19 17 2 Penny 20 17 2 Maru 21 17 2 Leah 22 18 3 Abigail 20 20 0 Sophia 18 20 0 Olivia 23 19 3 Claire 22 20 0/positionOffset Abigail -10 -15/pause 1000/message \"For some reason, you decide to place your hand in your pocket...\"/pause 500/message \"You touch the rabbit's foot, and feel a sense of relief...\"/move farmer 5 0 1 true/viewport 17 19 true/move false/pause 500/faceDirection Haley 3 true/faceDirection Emily 3 true/faceDirection Penny 3 true/faceDirection Maru 3 true/faceDirection Leah 3 true/faceDirection Sophia 3 true/faceDirection Claire 3 true/faceDirection Abigail 3 true/textAboveHead Haley \"Hi!\"/textAboveHead Abigail \"Hey there!\"/textAboveHead Leah \"Look who it is!\"/pause 500/pause 2000/move farmer 4 0 1/emote farmer 32/pause 500/speak Sophia \"Hey, you!$1\"/speak Abigail \"We were just gossiping about Mayor Lewis and Marnie...$h\"/pause 500/speak Penny \"Personally, I don't think there's anything fishy going on between them...\"/pause 500/speak Haley \"Hah! Were you born yesterday?$h\"/jump Penny/emote Penny 12/fade/viewport -1000 -1000/pause 1500/message \"You spent a short while with the group.\"/pause 1000/message \"It was an uneventful gathering!\"/pause 500/end",
-    "195012/f Olivia 2500/f Sophia 2500/f Claire 2500/f Haley 2500/f Emily 2500/f Penny 2500/f Abigail 2500/f Leah 2500/f Maru 2500/o Abigail/o Penny/o Leah/o Emily/o Maru/o Haley/o Shane/o Harvey/o Sebastian/o Sam/o Elliott/o Alex/e 38/e 2123343/e 10/e 901756/e 54/e 15/k 195019": "playful/-1000 -1000/farmer 8 19 1 Haley 18 18 1 Emily 19 17 2 Penny 20 17 2 Maru 21 17 2 Leah 22 18 3 Abigail 20 20 0 Sophia 18 20 0 Olivia 23 19 3 Claire 22 20 0 Pierre -1000 -1000 1/positionOffset Abigail -10 -15/move farmer 5 0 1 true/viewport 17 19 true/move false/pause 500/startJittering/faceDirection farmer 2 true/animate farmer false true 100 94/jump farmer/pause 2000/stopAnimation farmer/showFrame farmer 0/stopJittering/playSound thudStep/faceDirection farmer 3 true/showFrame farmer 7 true/startJittering/faceDirection Haley 3 true/faceDirection Emily 3 true/faceDirection Sophia 3 true/faceDirection Claire 3 true/faceDirection Penny 3 true/faceDirection Maru 3 true/faceDirection Leah 3 true/faceDirection Abigail 3 true/textAboveHead Haley \"Not so fast!\"/textAboveHead Abigail \"Hold it!\"/textAboveHead Leah \"Stop!\"/pause 3000/stopJittering/showFrame farmer 6 true/pause 500/faceDirection farmer 1/move farmer 3 0 1/playMusic none/emote farmer 28/pause 500/speak Abigail \"Never thought you'd find all your 'girlfriends' in one room, huh @?$a\"/pause 500/speak Leah \"I... I thought you were different than other men...$s^You tricked all of us into thinking we loved you... You're horrible...$a\"/pause 500/speak Penny \"How could you do this to us, @?$s\"/pause 500/speak Maru \"You think you're real smooth, don't you? Thought you'd sample the whole 'buffet', huh? What a sleeze...$a\"/pause 500/speak Sophia \"*sniff*...$6\"/speak Emily \"Th... That night in the tent... you whispered such sweet things to me in the dark...$s#$b#Now I have to face each day knowing it was all a lie.$s\"/pause 500/playMusic ragtime/speak Haley \"Well, us women stick together! And we're not going to put up with this!$a^Well, we're not going to put up with your abuse any longer!$a\"/textAboveHead Leah \"That's right!\"/pause 500/textAboveHead Claire \"You said it!\"/pause 500/speak Abigail \"Well? What do you have to say for yourself?$a\"/pause 1000/question fork1 \"#I'm sorry... what I did was wrong.#Ladies, calm down! I can explain...\"/fork choseToExplain/pause 500/textAboveHead Maru \"Hmmph...\"/pause 500/speak Abigail \"Nice try, but that's not going to cut it...$u\"/pause 1000/playMusic none/speak Haley \"...so we've come to a decision... isn't that right, girls?$u\"/pause 500/speak Penny \"...yes.$s\"/speak Leah \"Absolutely.$a\"/pause 1000/jump Haley/jump Abigail/jump Emily/jump Leah/jump Maru/jump Claire/jump Olivia/jump Sophia/jump Penny/pause 1000/speak Maru \"We're all gonna give you the cold shoulder!$a\"/faceDirection farmer 2 true/animate farmer false true 100 94/jump farmer/playSound slimedead/pause 2000/fade/viewport -2000 -2000/dump girls 3/end warpOut",
-    "choseToExplain": "pause 100/textAboveHead Haley \"I doubt it...\"/pause 500/resetVariable/question fork2 \"#I thought we were just friends! I didn't know it was so serious!#Pierre pressured me! He wanted to sell more bouquets!#Ladies, this is completely normal! It's just a lifestyle choice...\"/pause 100/fork lifestyleChoice/textAboveHead Haley \"Liar!\"/textAboveHead Maru \"Yeah, right!\"/speak Emily \"Do you really expect us to believe that? You're just digging yourself into a deeper hole...$a\"/pause 500/speak Olivia \"My dear, you're putting on quite the embarrassing charade...$2\"/pause 500/faceDirection Haley 2/playMusic none/speak Haley \"...I think we've come to a decision... isn't that right, girls?$u\"/pause 500/speak Penny \"...yes.$s\"/speak Leah \"Absolutely.$a\"/faceDirection Haley 3/pause 1000/jump Haley/jump Abigail/jump Emily/jump Claire/jump Olivia/jump Sophia/jump Leah/jump Maru/jump Penny/pause 1000/jump Haley/jump Claire/jump Olivia/jump Sophia/jump Abigail/jump Emily/jump Leah/jump Maru/jump Penny/pause 1000/jump Haley/jump Abigail/jump Claire/jump Olivia/jump Sophia/jump Emily/jump Leah/jump Maru/jump Penny/pause 1000/speak Maru \"We're all gonna give you the cold shoulder!$a\"/faceDirection farmer 2 true/animate farmer false true 100 94/jump farmer/playSound slimedead/pause 2000/fade/viewport -2000 -2000/dump girls 4/end warpOut",
-    "lifestyleChoice": "pause 100/speak Penny \"Hmmph! I don't know what's considered 'normal' in Zuzu City, but I'm definitely not okay with this arrangement!$a\"/speak Maru \"It's not a 'choice' if none of us even know about it!$a\"/pause 100/speak Claire \"You dare insult us further?...$3\"/speak Abigail \"You can't weasel your way out of this one, @.$a\"/pause 1000/faceDirection Haley 2/playMusic none/speak Haley \"...I think we've come to a decision... isn't that right, girls?$u\"/pause 500/speak Penny \"...yes.$s\"/speak Leah \"Absolutely.$a\"/faceDirection Haley 3/pause 1000/jump Haley/jump Abigail/jump Claire/jump Olivia/jump Sophia/jump Emily/jump Leah/jump Maru/jump Penny/pause 1000/jump Haley/jump Abigail/jump Emily/jump Claire/jump Olivia/jump Sophia/jump Leah/jump Maru/jump Penny/pause 1000/jump Haley/jump Abigail/jump Emily/jump Leah/jump Claire/jump Olivia/jump Sophia/jump Maru/jump Penny/pause 1000/speak Maru \"We're all gonna give you the cold shoulder!$a\"/faceDirection farmer 2 true/animate farmer false true 100 94/jump farmer/playSound slimedead/pause 2000/fade/viewport -2000 -2000/dump girls 4/end warpOut"
+	"195019/f Olivia 2500/f Sophia 2500/f Claire 2500/f Haley 2500/f Emily 2500/f Penny 2500/f Abigail 2500/f Leah 2500/f Maru 2500/o Abigail/o Penny/o Leah/o Emily/o Maru/o Haley/o Shane/o Harvey/o Sebastian/o Sam/o Elliott/o Alex/e 38/e 2123343/e 10/e 901756/e 54/e 15/i 446/k 195012": "playful/-1000 -1000/farmer 8 19 1 Haley 18 18 1 Emily 19 17 2 Penny 20 17 2 Maru 21 17 2 Leah 22 18 3 Abigail 20 20 0 Sophia 18 20 0 Olivia 23 19 3 Claire 22 20 0/positionOffset Abigail -10 -15/pause 1000/message \"เพราะเหตุผลอะไรสักอย่าง คุณตัดสินใจใส่มือของคุณไว้ในกระเป๋ากางเกง...\"/pause 500/message \"คุณรู้สึกถึงอุ้งเท้ากระต่าย(rabbit's foot) และรู้สึกโล่งใจ...\"/move farmer 5 0 1 true/viewport 17 19 true/move false/pause 500/faceDirection Haley 3 true/faceDirection Emily 3 true/faceDirection Penny 3 true/faceDirection Maru 3 true/faceDirection Leah 3 true/faceDirection Sophia 3 true/faceDirection Claire 3 true/faceDirection Abigail 3 true/textAboveHead Haley \"ไง!\"/textAboveHead Abigail \"สวัสดี!\"/textAboveHead Leah \"ดูสิใครมา!\"/pause 500/pause 2000/move farmer 4 0 1/emote farmer 32/pause 500/speak Sophia \"นี่ คุณ!$1\"/speak Abigail \"พวกเรากำลังเม้าท์เรื่องเทศมนตรีเลวิส กับมาร์นีอยู่พอดีเลย...$h\"/pause 500/speak Penny \"ส่วนตัวนะ ฉันคิดว่าไม่มีอะไร ไม่ชอบมาพากล เกี่ยวกับพวกเขา หรอกค่ะ...\"/pause 500/speak Haley \"โอ้ย! หล่อนเพิ่งเกิดเมื่อวานเหรอยะ?$h\"/jump Penny/emote Penny 12/fade/viewport -1000 -1000/pause 1500/message \"คุณเม้าท์กับสาวๆ อยู่พักหนึ่ง\"/pause 1000/message \"เป็นการรวมตัวที่ไม่มีอะไร!\"/pause 500/end",
+    "195012/f Olivia 2500/f Sophia 2500/f Claire 2500/f Haley 2500/f Emily 2500/f Penny 2500/f Abigail 2500/f Leah 2500/f Maru 2500/o Abigail/o Penny/o Leah/o Emily/o Maru/o Haley/o Shane/o Harvey/o Sebastian/o Sam/o Elliott/o Alex/e 38/e 2123343/e 10/e 901756/e 54/e 15/k 195019": "playful/-1000 -1000/farmer 8 19 1 Haley 18 18 1 Emily 19 17 2 Penny 20 17 2 Maru 21 17 2 Leah 22 18 3 Abigail 20 20 0 Sophia 18 20 0 Olivia 23 19 3 Claire 22 20 0 Pierre -1000 -1000 1/positionOffset Abigail -10 -15/move farmer 5 0 1 true/viewport 17 19 true/move false/pause 500/startJittering/faceDirection farmer 2 true/animate farmer false true 100 94/jump farmer/pause 2000/stopAnimation farmer/showFrame farmer 0/stopJittering/playSound thudStep/faceDirection farmer 3 true/showFrame farmer 7 true/startJittering/faceDirection Haley 3 true/faceDirection Emily 3 true/faceDirection Sophia 3 true/faceDirection Claire 3 true/faceDirection Penny 3 true/faceDirection Maru 3 true/faceDirection Leah 3 true/faceDirection Abigail 3 true/textAboveHead Haley \"รีบไปไหน!\"/textAboveHead Abigail \"เดี๋ยวก่อน!\"/textAboveHead Leah \"หยุดนะ!\"/pause 3000/stopJittering/showFrame farmer 6 true/pause 500/faceDirection farmer 1/move farmer 3 0 1/playMusic none/emote farmer 28/pause 500/speak Abigail \"ไม่คิดว่าจะได้มาเจอ 'แฟน' ทุกคนในห้องเดียวกันใช่มั้ยล่ะ ฮึ @?$a\"/pause 500/speak Leah \"ฉัน... ฉันอุตส่าห์คิดว่าเธอต่างจากผู้ชายคนอื่นๆ...$s^เธอหลอกพวกเราทุกคน ให้หลงรักเธอสินะ... เธอมันโหดร้าย...$a\"/pause 500/speak Penny \"คุณทำอย่างนี้กับพวกเราได้ไงกันคะ @?$s\"/pause 500/speak Maru \"เธอคิดว่าเนียนมากเลยสินะ? คิดว่าจะลองชิมทั้ง 'บุฟเฟ่ห์' ได้สินะ? ชั้นต่ำ...$a\"/pause 500/speak Sophia \"*กระซิก*...$6\"/speak Emily \"คะ... คืนนั้นที่เต้นท์... เธอพร่ำคำหวานมากมายกับฉันในความมืด...$s#$b#ตอนนี้ฉันต้องตื่นมาทุกวัน เพื่อรับรู้ว่ามันเป็นแค่คำโกหกสินะ$s\"/pause 500/playMusic ragtime/speak Haley \"เอาล่ะ พวกเราสาวๆ ต้องอยู่ข้างเดียวกัน! และพวกเราจะไม่ทนกับเรื่องนี้เด็ดขาด!$a^เอาล่ะ พวกเราจะไม่ทนให้นายล่วงเกินอีกแล้ว!$a\"/textAboveHead Leah \"ใช่แล้ว!\"/pause 500/textAboveHead Claire \"ตามนั้น!\"/pause 500/speak Abigail \"ไง? มีอะไรจะแก้ตัวมั้ย?$a\"/pause 1000/question fork1 \"#ขอโทษนะ... ที่ทำฉันผิดไปแล้วจริงๆ #สาวๆ ใจเย็นๆ นะ ฉันอธิบายได้...\"/fork choseToExplain/pause 500/textAboveHead Maru \"ฮึ่ม...\"/pause 500/speak Abigail \"พยายามดีนี่ แต่นั่นไม่พอหรอกนะ...$u\"/pause 1000/playMusic none/speak Haley \"...พวกเราตัดสินใจแล้ว... ใช่มั้ยสาวๆ ?$u\"/pause 500/speak Penny \"...ค่ะ$s\"/speak Leah \"แน่นอนที่สุด$a\"/pause 1000/jump Haley/jump Abigail/jump Emily/jump Leah/jump Maru/jump Claire/jump Olivia/jump Sophia/jump Penny/pause 1000/speak Maru \"พวกเราจะไม่สนเธออีกต่อไป!$a\"/faceDirection farmer 2 true/animate farmer false true 100 94/jump farmer/playSound slimedead/pause 2000/fade/viewport -2000 -2000/dump girls 3/end warpOut",
+    "choseToExplain": "pause 100/textAboveHead Haley \"ฟังไม่ขึ้นอ่ะ...\"/pause 500/resetVariable/question fork2 \"#ฉันคิดว่าพวกเราเป็นแค่เพื่อนกัน! ฉันไม่รู้นี่ว่าจะจริงจังขนาดนี้!#ปิแอร์กดดันฉัน! เขาอยากขายช่อดอกไม้ได้มากขึ้น!#สาวๆ นี่มันปกติสุดๆ เลยนะ! แค่เป็นสไตส์การใช้ชีวิต...\"/pause 100/fork lifestyleChoice/textAboveHead Haley \"โกหก!\"/textAboveHead Maru \"ใช่ ใช่!\"/speak Emily \"หวังจริงๆ เหรอว่าเราจะเชื่อน่ะ? เธอขุดหลุมกลบตัวเองลึกขึ้นแท้ๆ ...$a\"/pause 500/speak Olivia \"ที่รัก เธอกำลังทำให้ตัวเองขายหน้าครั้งใหญ่เลยนะ ...$2\"/pause 500/faceDirection Haley 2/playMusic none/speak Haley \"...ฉันว่าพวกเราตัดสินใจกันได้แล้วล่ะ ถูกมั้ย สาวๆ?$u\"/pause 500/speak Penny \"...ใช่ค่ะ$s\"/speak Leah \"แน่นอนที่สุด$a\"/faceDirection Haley 3/pause 1000/jump Haley/jump Abigail/jump Emily/jump Claire/jump Olivia/jump Sophia/jump Leah/jump Maru/jump Penny/pause 1000/jump Haley/jump Claire/jump Olivia/jump Sophia/jump Abigail/jump Emily/jump Leah/jump Maru/jump Penny/pause 1000/jump Haley/jump Abigail/jump Claire/jump Olivia/jump Sophia/jump Emily/jump Leah/jump Maru/jump Penny/pause 1000/speak Maru \"พวกเราจะไม่สนเธออีกต่อไป!$a\"/faceDirection farmer 2 true/animate farmer false true 100 94/jump farmer/playSound slimedead/pause 2000/fade/viewport -2000 -2000/dump girls 4/end warpOut",
+    "lifestyleChoice": "pause 100/speak Penny \"ฮึ่ม! ฉันไม่รู้หรอกนะคะ ว่าอะไรที่มัน 'ปกติ' ที่เมืองซูซู แต่ฉันไม่โอเคกับเรื่องนี้แน่นอนค่ะ!$a\"/speak Maru \"มันไม่ใช่ 'การตัดสินใจ' ถ้าไม่มีใครในพวกเรารู้เรื่องด้วยสักคน!$a\"/pause 100/speak Claire \"คุณกล้าดูถูกพวกเราขนาดนั้นเลยเหรอ?...$3\"/speak Abigail \"นายดิ้นออกจากเรื่องนี้ไม่หลุดหรอกนะ @$a\"/pause 1000/faceDirection Haley 2/playMusic none/speak Haley \".....ฉันว่าพวกเราตัดสินใจกันได้แล้วล่ะ ใช่มั้ย สาวๆ?$u\"/pause 500/speak Penny \"...ค่ะ$s\"/speak Leah \"แน่นอนที่สุด$a\"/faceDirection Haley 3/pause 1000/jump Haley/jump Abigail/jump Claire/jump Olivia/jump Sophia/jump Emily/jump Leah/jump Maru/jump Penny/pause 1000/jump Haley/jump Abigail/jump Emily/jump Claire/jump Olivia/jump Sophia/jump Leah/jump Maru/jump Penny/pause 1000/jump Haley/jump Abigail/jump Emily/jump Leah/jump Claire/jump Olivia/jump Sophia/jump Maru/jump Penny/pause 1000/speak Maru \"พวกเราจะไม่สนเธออีกต่อไป!$a\"/faceDirection farmer 2 true/animate farmer false true 100 94/jump farmer/playSound slimedead/pause 2000/fade/viewport -2000 -2000/dump girls 4/end warpOut"
 	
 	},
 },
@@ -22560,8 +22560,8 @@
      "Action": "EditData",
      "Target": "Strings/StringsFromMaps",
      "Entries": {
-	     "Backwoods.1": "= {{FarmName}} Farm^> Mountain> Emerald Farm",
-	     "Forest.1": "` {{FarmName}} Farm^> Pelican Town^> Marnie's Ranch^= Fairhaven Farm^= Blue Moon Vineyard",
+	     "Backwoods.1": "= ฟาร์ม {{FarmName}}^> ถูเขา> ฟาร์มมรกต",
+	     "Forest.1": "`ฟาร์ม {{FarmName}} ^> เมืองเพลิแกน^> ฟาร์มปศุสัตว์ของมานี^= ฟาร์มแฟร์เฮเวน^= ไร่องุ่นบลูมูน",
          "Forest.5": "มันคือกล่องขายสินค้าของมานี",
 	     "Forest.6": "มันคือแปลงผักผลไม้ของมานี",
          "Forest.7": "มีสินค้าหลายชนิดถูกจัดเก็บไว้ตรงนี้",
@@ -22680,7 +22680,7 @@
 		 "PelicanTown.56": "\"ด้วยความอาลัย แด่โรเบิร์ต และอลิซ\"",
 		 "PelicanTown.57": "คุณลูบหัวดัสตี้ไปหลายที",
 		 "PelicanTown.58": "ประตูล็อกอยู่",
-		 "PelicanTown.59": "@ Blue Moon Vineyard^> Beach",
+		 "PelicanTown.59": "@ ไร่องุ่นบลูมูน^> ชายหาด",
 		 "Beach.1": "ซากนี่อยู่ตรงนี้มาหลายปีแล้ว",
 		 "Beach.2": "\"เอส.เอส. เกรนเจอร์\"",
 		 "Beach.3": "\"ดับเบิ้ลยู.อาร์. มอลลี่ บลูม\"",
@@ -22700,7 +22700,7 @@
 		 "Mountain.9": "ในถังนี้มีแต่หิน",
 		 "Mountain.10": "ในถังนี้มีถ่านหินอยู่ครึ่งถัง",
 		 "Mountain.11": "มีผลึกอยู่ในนี้หลายอันเลย..",
-		 "Mountain.12": "` Adventurer Guild^` Mine^@ Railroad^@ Pelican Town^> Quarry",
+		 "Mountain.12": "` กิลด์ของนักผจญภัย^` เหมือง^@ รางรถไฟ^@ เมืองเพลิแกน^> เหมืองหิน",
          "RailRoad.1": "@ โรงอาบน้ำ^> ฟาร์มมรกต^` สถานีรถไฟ^` ยอดเขา",
 		 "RailRoad.2": "-บ้านของซูซาน-^-ฟาร์มมรกต (Emerald farm)-",
 		 "RailRoad.3": "ซูซานเก็บอุปกรณ์ทำฟาร์มไว้ตรงนี้",
@@ -22725,7 +22725,7 @@
 		 "RailRoad.22": "ซูซานใช้ปุ๋ยพิเศษที่ทำขึ้นเอง",
 		 "RailRoad.23": "มันเป็นถังปุ๋ย",
 		 "RailRoad.24": "ป้ายนี้กำลังถูกหุบเขากลืนกิน",
-		 "RailRoad.25": "This large boulder blocks your path...",
+		 "RailRoad.25": "หินยักษ์นี่ปิดทางคุณอยู่...",
 		 "Summit.1": "-ด้วยความอาลัย แด่อิซาเบลล์-^^\"ภรรยาที่รัก อาจารย์ และนักผจญภัย\"^\"ขอเจ้าจงหลับให้สบายเถิด ดอกไม้ของข้า\"",
 		 "Summit.2": "เป็นทิวทัศน์ของสตาร์ดิวแวลลี่ที่สวยงามอะไรขนาดนี้",
 		 "Summit.3": "นี่มันคือ... อะไรสักอย่าง! ใช่แล้ว! อะไรสักอย่าง!",
@@ -22756,7 +22756,7 @@
 		 "BlueMoonVineyard.10": "โซเฟียเก็บของหลายอย่างไว้ในหีบของเธอ",
 		 "BlueMoonVineyard.11": "องุ่นถูกล้างและเหยียบในบ่อน้ำหินนี้",
 		 "BlueMoonVineyard.12": "คุณรู้สึกถึงลมทะเลบนใบหน้า",
-		 "BlueMoonVineyard.13": "'BLUE MOON VINEYARD'",
+		 "BlueMoonVineyard.13": "'ไร่องุ่นบลูมูน'",
 		 "LostWoods.1": "มีข้อความจางๆ บนแผ่นหินหนาๆ นี่:^^\"ตามเห็ดไป\"",
 		 "LostWoods.2": "ซากปรักหักพังพวกนี้ต้องอายุมากกว่า 100 ปีแล้วแน่ๆ",
 		 "LostWoods.3": "ต้นไม้นี่มาทำอะไรในป่าลึกขนาดนี้นะ? ไม่มีทางที่มันจะรอดด้วย แสงแดดน้อยนิดแค่นี้หรอก",
@@ -23064,10 +23064,10 @@
 		 "AuroraVineyard.21": "เก้าอี้ยาวตัวนี้เหม็นอับและทรุดโทรม",
 		 "AuroraVineyard.22": "หน้าจอทีวีถูกตีจนยุบเข้าไป",
 		 "AuroraVineyard.23": "มีแมงมุมอาศัยอยู่ในนี้",
-		 "AuroraVineyard.24": "The couch smells very musty.",
-		 "AuroraVineyard.25": "The plastic bag has a 'JOJA' logo on it. It hasn't been here long.",
-		 "AuroraVineyard.26": "The barrel is empty, and slowly rotting away.",
-		 "AuroraVineyard.27": "It's a soggy moving box. Nothing is in it.",
+		 "AuroraVineyard.24": "เก้าอี้ยาวมีกลิ่นเหม็นอับ",
+		 "AuroraVineyard.25": "ถุงพลาสติกมีโกโก้ 'โจจ้า' บนถุง ดูเหมือนเพิ่งจะอยู่ตรงนี้มาไม่นาน",
+		 "AuroraVineyard.26": "ถังว่างเปล่า และกำลังค่อยๆ ผุพัง",
+		 "AuroraVineyard.27": "มันคือลังย้ายของชุ่มน้ำ ไม่มีอะไรอยู่ข้างใน",
 		 "AuroraVineyard.28": "???",
 		 "OliviaCellar.1": "วิทยุเครื่องนี้กำลังเล่นเพลงคลาสสิคอยู่ เสียงไวโอลินช่างไพเราะ",
 		 "OliviaCellar.2": "มีหมุดปักไร่องุ่นทุกที่ที่อยู่ในสาธารณรัฐเฟิร์นกิลล์ ของไร่องุ่นบลูมูนก็อยู่บนนี้ด้วย",
@@ -23168,7 +23168,7 @@
 		 "Ice-Festival.10": "เทศกาลน้ำแข็งจัดขึ้นหลายไมล์ลึกเข้าไปในป่าซินเดอร์แซป",
 		 "Ice-Festival.11": "เต้นท์กลางป่าลึกขนาดนี้เหรอ? ลินัสต้องออกมากางมันไว้ก่อนแน่เลย",
 		 "Ice-Festival.12": "วิลลี่จับปลาได้หลายตัวแล้ว เขาต้องกำลังวอร์มอัพแน่ๆ",
-		 "Ice-Festival.13": "You warm yourself by the fire.",
+		 "Ice-Festival.13": "คุณผิงไฟให้ตัวเองอุ่น",
 		 "Town-Winter-Star.1": "ลินัสสร้างกระท่อมน้ำแข็ง",
 		 "Town-Winter-Star.2": "คุณเติมจานของคุณจนเต็มไปด้วยไก่งวง มันฝรั่งบด ถั่ว และขนมปัง คุณกินทั้งหมดในคำเดียวและกลั้วคอด้วยแอปเปิ้ลไซเดอร์ อื้ม อาโหร่ยยย! กัสทำลายสถิติตัวเองนะครั้งนี้!",
 		 "Town-Winter-Star.3": "คุณอยากเลียแคนดี้เคน... ก็เลยเลียซะเลย^^ ยี้! มันเป็นพลาสติก คุณไม่น่าเลียมันเลย",
@@ -23218,7 +23218,7 @@
 		 "AdventureGuildSVE.19": "\"บัญชีของใช้และเสบียง - 10.05.12 - D3\"^^\"คทา 4 ด้าม\"^\"กริช 6 ด้าม\"^\"ดาบ 9 เล่ม\"^^----ยา----^^\"ยาปลุกวีรบุรุษ 10 ขวด\"^\"ยาเกราะวัฒนะ 5 ขวด\"",
 		 "AdventureGuildSVE.20": "แร่และอัญมณีที่สะสมได้จากการสำรวจเหมือง",
 		 "AdventureGuildSVE.21": "ชุดนักผจญภัยถูกทำขึ้นบนโต๊ะนี้",
-		 "AdventureGuildSVE.22": "Shop is closed for the day.^^-Marlon",
+		 "AdventureGuildSVE.22": "วันนี้ร้านปิด^^-มาร์ลอน",
 		 "AnimalShopSVE.1": "\"ตำนานแห่งชาร์เนีย\"",
 		 "AnimalShopSVE.2": "\"1 ข้อความ\"",
 		 "AnimalShopSVE.3": "\"ฟาร์มปศุสัตว์ของมาร์นี\"",
@@ -23246,11 +23246,11 @@
 		 "BlacksmithSVE.1": "มันคือโต๊ะทำงานของคลินท์",
 		 "BlacksmithSVE.2": "มีถ่านหิน (coal) จำนวนหนึ่งอยู่ในกล่องนี้",
 		 "BlacksmithSVE.3": "กล่องเก็บของของคลินท์ถูกล็อค",
-		 "BlacksmithSVE.4": "The barrel is filled with various ores.",
-		 "BlacksmithSVE.5": "Iron ingots stacked on top of each other.",
-		 "BlacksmithSVE.6": "There's copper ingots and a single gold ingot.",
-		 "BlacksmithSVE.7": "Decorative ore nodes that came from a volcano.",
-		 "BlacksmithSVE.8": "A bunch of paperwork containing shipment details.",
+		 "BlacksmithSVE.4": "ถังใส่แร่หินต่างๆ ไว้มากมาย",
+		 "BlacksmithSVE.5": "ก้อนโลหะถูกวางซ้อนกันไว้",
+		 "BlacksmithSVE.6": "มีก้อนทองแดงหลายก้อน และก้อนทองหนึ่งก้อน",
+		 "BlacksmithSVE.7": "ปุ่มแร่สวยงามที่มาจากภูเขาไฟ",
+		 "BlacksmithSVE.8": "เอกสารเกี่ยวกับการขนส่ง",
          	 "HaleyHouseSVE.1": "'ไม่มีข้อความ'",
 		 "HaleyHouseSVE.2": "\"การเดินพลังจักรวาลของคุณ - ศาสตร์แห่งโยบะ\"",
 		 "HaleyHouseSVE.3": "มันคือโทรทัศน์จอแบน",
@@ -23456,21 +23456,21 @@
 		 "MorrisOffice.1": "มีผ้าห่มและหมอนอยู่ในกล่อง",
 		 "MorrisOffice.2": "คอลเลกชั่นเหล้าสก๊อตเก่าแก่",
 		 "LanceSpeak": "ชาวคมแรกสามารถใช้คนที่มีพรสวรรค์อย่างเจ้าได้แน่นอน...$0",
-		 "LanceSpeak1": "We are the spearhead that'll enforce a safe world, rid of monsters.$0",
-		 "LanceSpeak2": "I was trained in the magical arts by my master.#$b#You show potential...$1",
-		 "LanceBeach1": "The ability to walk on water and scale cliffs at such speed...$9#$b#You are certainly full of surprises...$7",
-		 "LanceBeach2": "Patrolling the islands has its benefits...$9",
-		 "LanceBeach3": "Patrolling the islands has its benefits...$9",
-		 "LanceBeach4": "Your abilities are perplexing.$1#$b#I wonder if you're hiding your true power from me...$5",
-		 "LanceBeach5": "Perfect day for dungeon crawling.$0#$b#Good luck, adventurer.$5",
-		 "Junimo1": "*meep*$0", //blue
-		 "Junimo2": "*meep*$1", //grey
-		 "Junimo3": "*meep*$2", //yellow
-		 "Junimo4": "*meep*$3", //red
-		 "Junimo5": "*meep*$4", //purple
-		 "Junimo6": "*meep*$5", //green
-		 "Junimo7": "*meep*$6", //orange
-		 "Peaches": "*meep* Apple's-friend! Apple's-friend!$1", //pink
+		 "LanceSpeak1": "พวกเราเป็นดั่งปลายหอก ที่จะเฉือนมอนสเตอร์ให้สิ้น ให้โลกได้ยืนหยัดอย่างปลอดภัย$0",
+		 "LanceSpeak2": "ข้าฝึกศาสตร์การใช้มนตร์ จากอาจารย์ของข้า#$b#เจ้าดูมีแววนะ...$1",
+		 "LanceBeach1": "สามารถเดินบนน้ำ ปีนป่ายผาได้อย่างรวดเร็ว เช่นนั้น...$9#$b#เจ้านี่เต็มไปด้วย ความน่าประหลาดใจจริงๆ ...$7",
+		 "LanceBeach2": "การเดินตรวจตราเกาะน่ะ มีประโยชน์ของมันอยู่...$9",
+		 "LanceBeach3": "การเดินตรวจตราเกาะน่ะ มีประโยชน์ของมันอยู่...$9",
+		 "LanceBeach4": "ความสามารถของเจ้า มันจับใจยิ่งนัก$1#$b#ข้าสงสัยนัก ว่าเจ้าซ่อนพลังที่แท้จริง ไว้จากข้าหรือเปล่า...$5",
+		 "LanceBeach5": "เป็นวันที่สมบูรณ์แบบ สำหรับการผจญดันเจี้ยน ยิ่งนัก$0#$b#จงโชคดี นักผจญภัย$5",
+		 "Junimo1": "*มีบบบบบ*$0", //blue
+		 "Junimo2": "*มิม*$1", //grey
+		 "Junimo3": "*มึ๊บ*$2", //yellow
+		 "Junimo4": "*มิ มิบ*$3", //red
+		 "Junimo5": "*ม่บ*$4", //purple
+		 "Junimo6": "*ม-มิบ-มิ๊บ*$5", //green
+		 "Junimo7": "*มิพ*$6", //orange
+		 "Peaches": "*มี๊บ* เพื่อนของแอปเปิล! เพื่อนของแอปเปิลนี่นา!$1", //pink
 		 "AdventurerSummit.1": "คุณไม่ควรใช้เรือโดยไม่ขออนุญาตนะ",
 		 "AdventurerSummit.2": "แร่และอัญมณีถูกอัดแน่นอยู่เต็มถัง",
 		 "AdventurerSummit.3": "มันคือกระถางต้นไม้เปล่าจากร้านของมาร์นี",
