@@ -1,12 +1,12 @@
 {
 //SPECIAL DIALOGUE
 "Introduction": "อา นี่มัน @ ชาวไร่นี่นา ยินดีต้อนรับสู่หุบเขานะครับ ผมชื่อมอร์ริส ผู้จัดการของร้านโจจ้า สาขาเมืองเพลิแกน$0#$b#ถ้าคุณต้องการเมล็ดพันธุ์ ราคาถูกและคุณภาพดี ไม่มีที่ไหนดีไปกว่า ร้านโจจ้าแล้วล่ะครับ!$1#$e#ผมจะไม่เสียเวลา พูดถึงร้านของปีแอร์นะครับ เมล็ดพันธุ์ของร้านโจจ้า ดีกว่าเยอะครับ$3",
-"Resort_Entering": "Ah, yes. We've arrived!$1",
-"Resort_Leaving": "I must say that there are several improvements that could be made to the resort.$0",
-"Resort_Shore": "Real-estate development has great potential on this island...$4#$e#Err... that volcano may prove to be troublesome though...$2",
-"Resort_Chair": "I've worked many long weeks. I deserve a day to relax!$1",
-"Resort_Bar": "Bartender! I'd like a top-shelf mixed drink please!$1",
-"Resort": "There's good business opportunity on this small remote beach!$5",
+"Resort_Entering": "อา ใช่แล้ว พวกเรามาถึงแล้วสินะ!$1",
+"Resort_Leaving": "ผมต้องบอกเลยว่า รีสอร์ทนี่ยังมีจุดที่ ต้องแก้ไขพัฒนา อีกหลายจุดเลย$0",
+"Resort_Shore": "การพัฒนาโครงการอสังหาฯ มีศักยภาพมากเลยบนเกาะนี้ ...$4#$e#เอ่อ... แต่ภูเขาไฟนั่น น่าจะเป็นปัญหาแหะ...$2",
+"Resort_Chair": "ผมทำงานยาวนาน มาหลายสัปดาห์แล้ว ผมสมควรที่จะได้พักสักวันนะ!$1",
+"Resort_Bar": "บาร์เทนเดอร์! ผมขอเหล้าผสมอย่างดีด้วย!$1",
+"Resort": "หาดห่างไกลเล็กๆ นี่ มีโอกาสทางธุรกิจ ที่งามมากเลยล่ะ!$5",
 
 //SPECIFIC TILE DIALOGUE
 "Town_43_59": "คูปองลดราคา 50 เปอร์เซนต์ ! มารับไปตอนที่ยังมีอยู่!$1",
