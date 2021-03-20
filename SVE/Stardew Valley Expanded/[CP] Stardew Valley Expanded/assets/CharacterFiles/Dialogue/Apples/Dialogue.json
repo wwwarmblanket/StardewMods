@@ -1,10 +1,10 @@
 
 {
 //SPECIAL DIALOGUE
-"Resort_Entering": "Apples here!$1",
-"Resort_Leaving": "Everyone go home now? Apples come too!$1",
-"Resort_Shore": "No one see Apples! Only Apples-friend!$1",
-"Resort": "Other-friends here!$0#$e#%Apples is excited.",
+"Resort_Entering": "แอปเปิลมาแย้ว!$1",
+"Resort_Leaving": "ทุกคน จะกลับบ้านแย้วเหยอ? แอปเปิลกลับด้วยจิ!$1",
+"Resort_Shore": "ไม่มีใครเห็นแอปเปิลได้หรอก ! ให้เห็นได้แค่ เพื่อนของแอปเปิล!$1",
+"Resort": "เพื่อนคนอื่น อยู่นี่ด้วย!$0#$e#%แอปเปิลตื่นเต้น",
 
 //SPRING DIALOGUE
 "Mon": "นี่คุณเพื่อนใหม่ จะมาเล่นด้วยกันหรอ?$0#$e#*ปิ้ง*#$e#%แอปเปิล กระโดดไปมาด้วยความดีใจ",
