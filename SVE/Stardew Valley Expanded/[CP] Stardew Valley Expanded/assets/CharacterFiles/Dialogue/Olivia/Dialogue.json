@@ -27,12 +27,12 @@
   "refusal_botherB": "ยังไม่ใช่ตอนนี้$0",
   "refusal_no_heartsA": "โอ๊ะ! ฉันได้ยินมาว่าเจ้านี่เป็นหนึ่งใน ประเพณีของแถบนี้ น่ารักจังเลย$6#$b#นี่วางแผน จะเอาให้ใครหรือยังเนี่ย?$1",
   "refusal_no_heartsB": "นี่ไม่ใช่เรื่องตลกเลยนะ ที่จะมาพูดเล่นแบบนี้น่ะ การแต่งงานมันสำคัญมาก สำหรับฉัน$2",
-  "Resort_Entering": "Ah, the resort! What a sight to be seen!$1",
-  "Resort_Leaving": "This trip was wonderful! I must come back here again soon.$3",
-  "Resort_Shore": "The sunshine is doing wonders for my skin.$1#$b#Would you care to try my sunscreen, dear? It's made with organics.$3",
-  "Resort_Chair": "This beach is quite exquisite!$3#$e#I wonder how much it'd cost to build a house here.$6",
-  "Resort_Bar": "I may have had a drink too many...$4",
-  "Resort": "My, my. I may actually prefer this resort over Sautine City.$1#$e#The community really makes it special, wouldn't you say?$3",
+  "Resort_Entering": "โอ้ว รีสอร์ทนี่! ช่างน่ามองอะไรขนาดนี้!$1",
+  "Resort_Leaving": "ทริปนี้เยี่ยมยอดไปเลย! ฉันจะต้องกลับมาอีกเร็วๆ นี้แน่$3",
+  "Resort_Shore": "แสงอาทิตย์นี่ดีกับผิวฉัน อย่างน่าอัศจรรย์เลย$1#$b#เธออยากลองทาครีมกันแดด ของฉันมั้ยจ๊ะที่รัก? มันออร์แกนิคนะ$3",
+  "Resort_Chair": "หาดนี่ ยอดเยี่ยมใช้ได้เลยนะเนี่ย!$3#$e#สงสัยจังว่า ถ้าสร้างบ้านที่นี่ จะต้องเสียเท่าไหร่$6",
+  "Resort_Bar": "ฉันคงดื่มเกินไปนิดหน่อย...$4",
+  "Resort": "ตายละ ตาย ฉันอาจจะชอบรีสอร์ทที่นี่ มากกว่าเมืองเซาทีน จริงๆ ก็ได้นะเนี่ย$1#$e#ชุมชนทำให้มันพิเศษน่ะ เธอว่างั้นมั้ย?$3",
   
   
   //JOJA JOB QUESTION
@@ -46,7 +46,7 @@
   "Custom_JenkinsHouse_19_5": "ฉันจะนอนแล้วที่รัก ค่อยวันหลังนะ!$5",
   "Custom_JenkinsHouse_5_8": "@ ฉันใช้ห้องน้ำอยู่ ออกไปก่อน!$5",
   "SeedShop_21_20": "%โอลิเวียกำลังตั้งสมาธิ กับการเล่นโยคะของเธอ",
-  "Custom_SophiaHouse_6_22": "Hi, sweetie! I'm putting in an order to Sophia right now.$3",
+  "Custom_SophiaHouse_6_22": "ไงจ๊ะ ที่รัก! ฉันกำลังวางออเดอร์ ให้โซเฟียเลย$3",
 
   //SPRING AND GENERAL DIALOGUE
   "spring_1": "ฉันดีใจที่ ฤดูใบไม้ผลิกลับมาอีกครั้ง ฉันเริ่มจะเบื่อกับอากาศหนาวๆ แล้วน่ะสิ$1",
