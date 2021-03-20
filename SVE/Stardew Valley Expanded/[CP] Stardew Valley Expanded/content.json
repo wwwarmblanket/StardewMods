@@ -23471,14 +23471,14 @@
 		 "Junimo6": "*meep*$5", //green
 		 "Junimo7": "*meep*$6", //orange
 		 "Peaches": "*meep* Apple's-friend! Apple's-friend!$1", //pink
-		 "AdventurerSummit.1": "You shouldn't use the boat without permission.",
-		 "AdventurerSummit.2": "Minerals and gems are packed the barrel.",
-		 "AdventurerSummit.3": "It's an empty flower pot from Marnie's.",
-		 "AdventurerSummit.4": "The barrel is stuffed with arrows.",
-		 "AdventurerSummit.5": "How did you get this location message? That shouldn't be possible!",
-		 "AdventurerSummit.6": "The crate is stocked with rations.",
-		 "AdventurerSummit.7": "A crate filled with coal.",
-		 "AdventurerSummit.8": "The door is locked..."
+		 "AdventurerSummit.1": "คุณไม่ควรใช้เรือโดยไม่ขออนุญาตนะ",
+		 "AdventurerSummit.2": "แร่และอัญมณีถูกอัดแน่นอยู่เต็มถัง",
+		 "AdventurerSummit.3": "มันคือกระถางต้นไม้เปล่าจากร้านของมาร์นี",
+		 "AdventurerSummit.4": "ถังเต็มไปด้วยลูกธนู",
+		 "AdventurerSummit.5": "คุณได้ข้อความของสถานที่นี้ได้ยังไงกัน มันไม่น่าจะเป็นไปได้นี่!",
+		 "AdventurerSummit.6": "ลังนี้เต็มไปด้วยเสบียง",
+		 "AdventurerSummit.7": "ถังที่เต็มไปด้วยถ่านหิน",
+		 "AdventurerSummit.8": "ประตูถูกล็อค..."
 	    }
 	}
   ]
