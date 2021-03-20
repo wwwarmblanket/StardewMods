@@ -3252,11 +3252,11 @@
     "Action": "EditData",
     "Target": "Strings/SpecialOrderStrings",
     "Entries": {
-       "MarlonFay_Name": "A Mysterious Venture",
-       "MarlonFay_Text": "I'm looking for someone who's adept at crafting and won't ask any questions. Job details enclosed upon acceptance.",
-       "MarlonFay_Objective_1_Text": "Drop off cherry bombs at Marlon's chest.",
-	   "MarlonFay_Objective_2_Text": "Drop off bombs.",
-	   "MarlonFay_Objective_3_Text": "Drop off mega bombs.",
+       "MarlonFay_Name": "การผจญภัยปริศนา",
+       "MarlonFay_Text": "ข้ากำลังมองหาคนที่เก่งประดิษฐ์ และไม่ถามมาก รายละเอียดงานจะเปิดเผยเมื่อรับงาน",
+       "MarlonFay_Objective_1_Text": "ส่งมอบระเบิดลูกเล็ก (cherry bomb) ไว้ในกล่องของมาร์ลอน",
+	   "MarlonFay_Objective_2_Text": "ส่งมอบระเบิด (bombs)",
+	   "MarlonFay_Objective_3_Text": "ส่งมอบระเบืดลูกใหญ่ (mega bomb)",
 	}
 },
 
@@ -3273,7 +3273,7 @@
     "Action": "EditData",
     "Target": "Data/Events/Custom_AdventurerSummit",
     "Entries": {
-    "5407921/n CompletedCamillaTask/t 600 1800": "continue/-500 -500/MarlonFay 30 25 0 Jadu -50 -50 0 farmer 33 25 3 Abigail 35 26 2/addTemporaryActor BombCrate 32 32 29 24 2 false/positionOffset BombCrate 0 16/showFrame Abigail 80 true/addTemporaryActor GilSprite 19 32 35 26 2/pause 800/viewport 32 25 clamp true/pause 1750/emote MarlonFay 40/pause 800/faceDirection MarlonFay 1 true/pause 500/Speed MarlonFay 1/move MarlonFay 1 0 1/pause 400/speak MarlonFay \"These bombs are in exceptional condition. Thank you for your service, @.$1#$b#A wizard from Castle Village is arriving here any moment now to retrieve them.$0\"/pause 600/screenFlash 2/playSound wand/warp Jadu 32 30/pause 400/faceDirection MarlonFay 2 true/pause 250/faceDirection farmer 2 true/pause 300/Speed Jadu 1/move Jadu 0 -3 0/playMusic cm:CamillasTower/pause 1000/speak Jadu \"Greetings Marlon, and friends...$0\"/pause 500/textAboveHead Abigail \"*snore*\"/pause 1500/speak MarlonFay \"Pleased to make your acquaintance again, Jadu.#$b#The bombs you came for are ready, courtesy of @ here who created them.\"/pause 500/speak Jadu \"Allow me to inspect them.$0\"/pause 400/advancedMove Jadu false -2 0 0 -1 -1 0 0 -1/pause 500/faceDirection farmer 3 true/pause 500/faceDirection MarlonFay 3 true/pause 500/move farmer -1 0 0/move farmer 0 -1 3/pause 150/showFrame Jadu 8 true/pause 1350/speak Jadu \"Hmm...$0\"/pause 1500/showFrame Jadu 4 true/pause 500/speak Jadu \"Yes. These bombs will serve Castle Village's vanguard well.$1#$b#Impeccable craftsmanship. It rivals Bex's work.$0\"/pause 1250/showFrame Jadu 8 true/pause 600/showFrame Jadu 11 true/pause 400/shake Jadu 1000/pause 400/playSound wand/screenFlash 1/warp BombCrate -30 -30/pause 1000/showFrame Jadu 8 true/pause 750/showFrame Jadu 4 true/pause 500/speak Jadu \"Thank you...$0\"/pause 1000/showFrame Jadu 0 true/pause 600/showFrame Jadu 19 true/pause 250/showFrame Jadu 16 true/pause 400/shake Jadu 600/stopMusic/pause 250/playSound wand/screenFlash 2/warp Jadu -50 -50/pause 1650/faceDirection MarlonFay 0 true/pause 200/move MarlonFay 0 -1 0/pause 100/faceDirection MarlonFay 1 true/pause 500/speak MarlonFay \"@. Follow me to my quarters. I want to show you something.\"/pause 500/globalFade/viewport -1000 -1000/playMusic cm:SDV_Fireplace/warp GilSprite -30 -30/changeLocation AdventureGuild/warp farmer 4 5/faceDirection farmer 1 true/warp GilSprite -20 -20/warp Abigail -20 -20/warp MarlonFay 5 5/faceDirection MarlonFay 0 true/viewport 7 6 true/pause 1500/shake MarlonFay 500/pause 150/playSound newRecipe/pause 800/faceDirection MarlonFay 3 true/pause 400/speak MarlonFay \"This order ledger has been collecting dust for a long time...$2#$b#Maybe you'll find some use for it.$0\"/pause 500/playSound reward/message \"I can now use the adventurer guild ledger to order new decorations!\"/pause 500/faceDirection MarlonFay 3 true/pause 500/speak MarlonFay \"Keep up the great work, @.$0\"/pause 500/globalFade/viewport -1000 -1000/end dialogueWarpOut MarlonFay \"Any of those lamps or barrels in the ledger interest you?$0#$e#Err. The potted plants are from Marnie's.$2\""
+    "5407921/n CompletedCamillaTask/t 600 1800": "continue/-500 -500/MarlonFay 30 25 0 Jadu -50 -50 0 farmer 33 25 3 Abigail 35 26 2/addTemporaryActor BombCrate 32 32 29 24 2 false/positionOffset BombCrate 0 16/showFrame Abigail 80 true/addTemporaryActor GilSprite 19 32 35 26 2/pause 800/viewport 32 25 clamp true/pause 1750/emote MarlonFay 40/pause 800/faceDirection MarlonFay 1 true/pause 500/Speed MarlonFay 1/move MarlonFay 1 0 1/pause 400/speak MarlonFay \"ระเบิดพวกนี้ สภาพดีมาก ขอบใจเจ้าสำหรับงานนี้นะ @$1#$b#พ่อมดจากแคสเซิลวิลเลจ กำลังจะมารับมันแล้วล่ะ$0\"/pause 600/screenFlash 2/playSound wand/warp Jadu 32 30/pause 400/faceDirection MarlonFay 2 true/pause 250/faceDirection farmer 2 true/pause 300/Speed Jadu 1/move Jadu 0 -3 0/playMusic cm:CamillasTower/pause 1000/speak Jadu \"ทักทาย มาร์ลอน และสหาย...$0\"/pause 500/textAboveHead Abigail \"*คร่อกฟี้*\"/pause 1500/speak MarlonFay \"ยินดีที่ได้พบอีกครั้ง จาดู#$b#ระเบิดที่เจ้ามารับพร้อมแล้ว ต้องขอบคุณ @ ตรงนี้ที่สร้างมันมาให้\"/pause 500/speak Jadu \"ให้ข้าตรวจดูมันเสียหน่อย$0\"/pause 400/advancedMove Jadu false -2 0 0 -1 -1 0 0 -1/pause 500/faceDirection farmer 3 true/pause 500/faceDirection MarlonFay 3 true/pause 500/move farmer -1 0 0/move farmer 0 -1 3/pause 150/showFrame Jadu 8 true/pause 1350/speak Jadu \"อืมม...$0\"/pause 1500/showFrame Jadu 4 true/pause 500/speak Jadu \"อืมฮึ ระเบิดพวกนี้ จะช่วยทหารกองหน้า แห่งแคสเซิลวิลเลจ ได้เป็นอย่างดีแน่$1#$b#ช่างเป็นการประดิษฐ์ ที่ไร้ที่ติจริงๆ เทียบได้กับงานของเบ็กซ์ เลยทีเดียว$0\"/pause 1250/showFrame Jadu 8 true/pause 600/showFrame Jadu 11 true/pause 400/shake Jadu 1000/pause 400/playSound wand/screenFlash 1/warp BombCrate -30 -30/pause 1000/showFrame Jadu 8 true/pause 750/showFrame Jadu 4 true/pause 500/speak Jadu \"ขอบคุณ...$0\"/pause 1000/showFrame Jadu 0 true/pause 600/showFrame Jadu 19 true/pause 250/showFrame Jadu 16 true/pause 400/shake Jadu 600/stopMusic/pause 250/playSound wand/screenFlash 2/warp Jadu -50 -50/pause 1650/faceDirection MarlonFay 0 true/pause 200/move MarlonFay 0 -1 0/pause 100/faceDirection MarlonFay 1 true/pause 500/speak MarlonFay \"@ ตามข้ามาที่ห้องหน่อยสิ ข้ามีอะไรให้ดูหน่อยน่ะ\"/pause 500/globalFade/viewport -1000 -1000/playMusic cm:SDV_Fireplace/warp GilSprite -30 -30/changeLocation AdventureGuild/warp farmer 4 5/faceDirection farmer 1 true/warp GilSprite -20 -20/warp Abigail -20 -20/warp MarlonFay 5 5/faceDirection MarlonFay 0 true/viewport 7 6 true/pause 1500/shake MarlonFay 500/pause 150/playSound newRecipe/pause 800/faceDirection MarlonFay 3 true/pause 400/speak MarlonFay \"บัญชีนี่อมฝุ่นมานานแล้ว...$2#$b#บางทีเจ้าอาจจะหาทาง ทประโยชน์จากมันได้$0\"/pause 500/playSound reward/message \"ตอนนี้ฉันสามารถใช้บัญชีของกิลด์ของนักผจญภัยสั่งของตกแต่งใหม่ๆ ได้แล้ว!\"/pause 500/faceDirection MarlonFay 3 true/pause 500/speak MarlonFay \"ทำดีอย่างนี้ต่อไปล่ะ @$0\"/pause 500/globalFade/viewport -1000 -1000/end dialogueWarpOut MarlonFay \"มีโคมไฟ หรือถังในบัญชีที่ถูกใจเจ้าบ้างมั้ย?$0#$e#อ่า กระถางต้นไม้พวกนั้น มาจากร้านของมาร์นีน่ะ$2\""
 	}
 },
 
@@ -3356,10 +3356,10 @@
     "Action": "EditData",
     "Target": "Strings/SpecialOrderStrings",
     "Entries": {
-       "Clint2_Name": "The Railroad Boulder",
-       "Clint2_Text": "I need these materials to craft an explosive powerful enough to destroy the boulder blocking the summit.",
-       "Clint2_Objective_1_Text": "Drop off iridium ore at Clint's crate.",
-	   "Clint2_Objective_2_Text": "Drop off coal at Clint's crate."
+       "Clint2_Name": "หินปิดทางรถไฟ",
+       "Clint2_Text": "ฉันต้องการวัสดุพวกนี้เพื่อทำระเบิดที่แรงพอจะทำลายหินปิดทางไปยอดเขาได้",
+       "Clint2_Objective_1_Text": "ใส่แร่อิริเดียมในกล่องของคลินท์",
+	   "Clint2_Objective_2_Text": "ใส่ถ่านหินในกล่องของคลินท์"
 	}
 },
 
@@ -3377,7 +3377,7 @@
 	 "Target": "data/events/Railroad",
 	 "When": { "HasWalletItem": "SkullKey", "HasWalletItem": "RustyKey" },
 	 "Entries": {
-	 "8050107/t 600 1500/H": "continue/-500 -500/farmer 33 26 1 Clint 45 26 0 MarlonFay 14 19 0 Susan 43 51 0/positionOffset MarlonFay 4 15/positionOffset Susan -12 -6/viewport 44 32 clamp true/viewport move 0 -1 5000 true/skippable/move farmer 10 0 1 true/pause 6250/faceDirection Clint 3 true/pause 500/speak Clint \"Oh. Hi, @.$0\"/pause 500/faceDirection Clint 0 true/pause 500/speak Clint \"Lewis hired me to get rid of this boulder. It's gonna require an explosive that packs a punch.$0#$b#Problem is, the materials I need to make it aren't exactly easy to come by...$2\"/pause 500/jump farmer/pause 1150/faceDirection Clint 3 true/pause 500/speak Clint \"You'll help me out? That's kind of you.$0#$b#Meet me at my house. We can go over the list of materials I need.$1\"/pause 500/globalFade/viewport -1000 -1000/end dialogue Lewis \"Ah, the summit boulder? I commissioned Clint for some of his handiwork to deal with it.$0\""
+	 "8050107/t 600 1500/H": "continue/-500 -500/farmer 33 26 1 Clint 45 26 0 MarlonFay 14 19 0 Susan 43 51 0/positionOffset MarlonFay 4 15/positionOffset Susan -12 -6/viewport 44 32 clamp true/viewport move 0 -1 5000 true/skippable/move farmer 10 0 1 true/pause 6250/faceDirection Clint 3 true/pause 500/speak Clint \"โอ้ ไง @$0\"/pause 500/faceDirection Clint 0 true/pause 500/speak Clint \"เลวิสจ้างฉันมากำจัดหินนี่น่ะ มันต้องให้ระเบิดอย่างแรงเลย$0#$b#ปัญหาคือ วัสดุที่ใช้ทำ หาไม่ได้ง่ายๆ น่ะสิ...$2\"/pause 500/jump farmer/pause 1150/faceDirection Clint 3 true/pause 500/speak Clint \"เธอจะช่วยหาเหรอ? มีน้ำใจมากเลย$0#$b#มาเจอฉันที่บ้านนะ เราจะได้มาดูรายการของที่ต้องใช้กัน$1\"/pause 500/globalFade/viewport -1000 -1000/end dialogue Lewis \"อ้อ หินปิดทางไปยอดเขาน่ะเหรอ? ฉันจ้างคลินท์ให้ใช้ฝีมือจัดการกับมันแล้วล่ะ$0\""
 	 },
 },
 
@@ -3385,7 +3385,7 @@
 	 "Action": "EditData",
 	 "Target": "data/events/Blacksmith",
 	 "Entries": {
-	 "8050108/e 8050107": "continue/-500 -500/farmer 5 19 0 Clint 7 12 0/pause 700/viewport 8 15 true/skippable/move farmer 0 -3 1/move farmer 2 0 0/move farmer 0 -1 0/pause 1300/emote farmer 40/pause 500/faceDirection Clint 3 true/pause 200/faceDirection Clint 2 true/pause 300/emote Clint 16 true/speak Clint \"Oh! Hey, @.$0#$b#Sorry. Didn't hear you over the furnace.$1\"/pause 1000/move Clint 0 1 2/pause 500/speak Clint \"I need coal and iridium ore to make a bomb powerful enough to destroy that boulder.$0#$b#You can drop off the materials in that crate to your right.$0\"/pause 500/faceDirection farmer 1 true/pause 500/speak Clint \"Er... thanks for helping me.$0#$b#Check your journal for the specific amounts.$0\"/pause 500/faceDirection farmer 0 true/pause 500/emote farmer 32 true/pause 400/globalFade/viewport -1000 -1000/pause 500/end dialogue Clint \"So uhh... how are you going to get that iridium, anyway?$0\""
+	 "8050108/e 8050107": "continue/-500 -500/farmer 5 19 0 Clint 7 12 0/pause 700/viewport 8 15 true/skippable/move farmer 0 -3 1/move farmer 2 0 0/move farmer 0 -1 0/pause 1300/emote farmer 40/pause 500/faceDirection Clint 3 true/pause 200/faceDirection Clint 2 true/pause 300/emote Clint 16 true/speak Clint \"อ้าว! ไง @$0#$b#โทษทีนะ ฉันไม่ได้ยินเสียงนายเลย เพราะเสียงเตาหลอมน่ะ$1\"/pause 1000/move Clint 0 1 2/pause 500/speak Clint \"ฉันต้องใช้ถ่านหิน กับแร่อิริเดียม ถึงจะทำระเบิดที่แรงพอ ทำลายหินนั่นได้$0#$b#เธอเอาของ มาใส่ไว้ที่กล่อง ทางขวามือเธอได้เลยนะ$0\"/pause 500/faceDirection farmer 1 true/pause 500/speak Clint \"เอ่อ... ขอบใจที่มาช่วยนะ$0#$b#ดูบันทึกของนายแล้วกัน ว่าต้องใช้จำนวนเท่าไหร่$0\"/pause 500/faceDirection farmer 0 true/pause 500/emote farmer 32 true/pause 400/globalFade/viewport -1000 -1000/pause 500/end dialogue Clint \"แล้ว เอ่อ... เธอจะไปหาแร่อิริเดียม นั่นมาได้ยังไงเหรอ?$0\""
 	 },
 },
 
@@ -3393,7 +3393,7 @@
 	 "Action": "EditData",
 	 "Target": "data/events/farmhouse",
 	 "Entries": {
-	 "8050109/n RailroadBoulderRemoved/t 600 630": "none/-500 -500/Clint -10 -10 0/pause 1500/playSound thunder_small/pause 3000/message \"An explosion was heard during the morning...\"/pause 1500/addConversationTopic railroadBoulder/end"
+	 "8050109/n RailroadBoulderRemoved/t 600 630": "none/-500 -500/Clint -10 -10 0/pause 1500/playSound thunder_small/pause 3000/message \"เสียงระเบิดดังก้องในยามเช้า...\"/pause 1500/addConversationTopic railroadBoulder/end"
 	 },
 },
 
@@ -3403,7 +3403,7 @@
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/Clint",
 	 "Entries": {
-	 "railroadBoulder": "Er... that boulder is gone now.$0#$e#I'd check out the summit, but it's too far a climb for me.$0",
+	 "railroadBoulder": "อ่า... หินนั่นไม่มีละ$0#$e#ฉันก็อยากลองไปยอดเขาดูนะ แต่มันไกลเกินที่จะปีน สำหรับฉันน่ะ$0",
      },
 },
 
@@ -3411,7 +3411,7 @@
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/Lewis",
 	 "Entries": {
-	 "railroadBoulder": "The boulder removal was a success!$1#$e#Say, do you think this'll improve my public relations?$0",
+	 "railroadBoulder": "การกำจัดหินเป็นไปด้วยดี!$1#$e#นี่ เธอคิดว่ามันจะทำให้ฉัน มีความสัมพันธ์ กัยสาธารณชนดีขึ้นมั้ย?$0",
      },
 },
 
@@ -3419,7 +3419,7 @@
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/Susan",
 	 "Entries": {
-	 "railroadBoulder": "@! The summit is open again!$1",
+	 "railroadBoulder": "@! ยอดเขาเปิดอีกครั้งแล้ว!$1",
      },
 },
 
@@ -3427,7 +3427,7 @@
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/Leah",
 	 "Entries": {
-	 "railroadBoulder": "Since we can get to the summit now, maybe I'll start hiking again.$0",
+	 "railroadBoulder": "ในเมื่อพวกเรา ขึ้นยอดเขาได้แล้วตอนนี้ บางทีฉันอาจจะกลับไป ปีนเขาอีกก็ได้$0",
      },
 },
 
@@ -3435,7 +3435,7 @@
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/Kent",
 	 "Entries": {
-	 "railroadBoulder": "So, the summit is open?$0#$e#Would be nice to get my mind off things with a long walk.$1",
+	 "railroadBoulder": "สรุปคือ ยอดเขาขึ้นได้แล้วสินะ?$0#$e#คงดีเหมือนกัน ที่จะไปเดินเล่นยาวๆ ให่สมองโล่งเสียหน่อย$1",
      },
 },
 
@@ -3444,7 +3444,7 @@
 	 "Target": "characters/dialogue/Linus",
 	 "When": { "Season": "Spring" },
 	 "Entries": {
-	 "railroadBoulder": "Good forage can be found at the summit, @. There's plenty to go around!$0#$b#Here, I'll share some with you.[20]$1",
+	 "railroadBoulder": "ของป่าดีๆ เจอได้บนยอดเขาแหละ @ มีเพียบเลยล่ะ!$0#$b#นี่ ฉันแบ่งให้[20]$1",
      },
 },
 
@@ -3453,7 +3453,7 @@
 	 "Target": "characters/dialogue/Linus",
 	 "When": { "Season": "Summer" },
 	 "Entries": {
-	 "railroadBoulder": "Good forage can be found at the summit, @. There's plenty to go around!$0#$b#Here, I'll share some with you.[396]$1",
+	 "railroadBoulder": "ของป่าดีๆ เจอได้บนยอดเขาแหละ @ มีเพียบเลยล่ะ!$0#$b#นี่ ฉันแบ่งให้[396]$1",
      },
 },
 
@@ -3462,7 +3462,7 @@
 	 "Target": "characters/dialogue/Linus",
 	 "When": { "Season": "Fall" },
 	 "Entries": {
-	 "railroadBoulder": "Good forage can be found at the summit, @. There's plenty to go around!$0#$b#Here, I'll share some with you.[422]$1",
+	 "railroadBoulder": "ของป่าดีๆ เจอได้บนยอดเขาแหละ @ มีเพียบเลยล่ะ!$0#$b#นี่ ฉันแบ่งให้[422]$1",
      },
 },
 
@@ -3471,7 +3471,7 @@
 	 "Target": "characters/dialogue/Linus",
 	 "When": { "Season": "Winter" },
 	 "Entries": {
-	 "railroadBoulder": "Good forage can be found at the summit, @. There's plenty to go around!$0#$b#Here, I'll share some with you [414]$1",
+	 "railroadBoulder": "ของป่าดีๆ เจอได้บนยอดเขาแหละ @ มีเพียบเลยล่ะ!$0#$b#นี่ ฉันแบ่งให้ [414]$1",
      },
 },
 
@@ -3492,7 +3492,7 @@
       "Target": "Characters/Dialogue/Kent",
 	  "When": { "HasSeenEvent": "8050109" },
       "Entries": {
-	  "Summit_11_13": "Hiking has become a hobby of mine. Good workout and pretty view.$1",
+	  "Summit_11_13": "การปีนเขากลายเป็น งานอดิเรกผมไปแล้วล่ะ ได้ออกกำลังดี แล้ววิวก็สวยด้วย$1",
 	  },
 },
 
@@ -3509,7 +3509,7 @@
       "Target": "Characters/Dialogue/Leah",
 	  "When": { "HasSeenEvent": "8050109" },
       "Entries": {
-	  "Summit_11_13": "You hiked up here too, @?$0",
+	  "Summit_11_13": "เธอก็มาปีนเขาเหมือนกันเหรอ @?$0",
 	  },
 },
 
@@ -3531,8 +3531,8 @@
       "Target": "Characters/Dialogue/Susan",
 	  "When": { "HasSeenEvent": "8050109" },
       "Entries": {
-	  "Summit_11_13": "Breathtaking up here.$0",
-	  "Summit_21_25": "I wonder what her story was...$2"
+	  "Summit_11_13": "สวยจนเกือยลืมหายในเลยนะ บนนี้น่ะ$0",
+	  "Summit_21_25": "สงสัยจังว่า เรื่องราวของเธอเป็นยังไง...$2"
 	  },
 },
 
@@ -3551,7 +3551,7 @@
      "Target": "Characters/Dialogue/Linus",
 	 "When": { "HasSeenEvent": "8050109" },
      "Entries": {
-	 "Summit_17_20": "Nature isn't afraid of showing you her true beauty. The view up here is proof enough of that.$1",
+	 "Summit_17_20": "ธรรมชาติไม่กลัว ที่จะแสดงความงามทีแท้จรง ให้พวกเราเห็นเลยนะ วิวบนนี้นี่แหละ พอที่จะเป็นข้อพิสูจน์เลย$1",
 	  },
 },
 
