@@ -3252,7 +3252,7 @@
     "Action": "EditData",
     "Target": "Strings/SpecialOrderStrings",
     "Entries": {
-       "MarlonFay_Name": "การผจญภัยปริศนา",
+       "MarlonFay_Name": "A Mysterious Venture",
        "MarlonFay_Text": "ข้ากำลังมองหาคนที่เก่งประดิษฐ์ และไม่ถามมาก รายละเอียดงานจะเปิดเผยเมื่อรับงาน",
        "MarlonFay_Objective_1_Text": "ส่งมอบระเบิดลูกเล็ก (cherry bomb) ไว้ในกล่องของมาร์ลอน",
 	   "MarlonFay_Objective_2_Text": "ส่งมอบระเบิด (bombs)",
@@ -3356,7 +3356,7 @@
     "Action": "EditData",
     "Target": "Strings/SpecialOrderStrings",
     "Entries": {
-       "Clint2_Name": "หินปิดทางรถไฟ",
+       "Clint2_Name": "The Railroad Boulder",
        "Clint2_Text": "ฉันต้องการวัสดุพวกนี้เพื่อทำระเบิดที่แรงพอจะทำลายหินปิดทางไปยอดเขาได้",
        "Clint2_Objective_1_Text": "ใส่แร่อิริเดียมในกล่องของคลินท์",
 	   "Clint2_Objective_2_Text": "ใส่ถ่านหินในกล่องของคลินท์"
