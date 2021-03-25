@@ -16156,7 +16156,7 @@
       "Target": "Characters/Dialogue/Martin",
 	  "When": { "HasMod": "Hana.GenderNeutralityMod" },
       "Entries": {
-      "BusStop_12_8": "%คนขับรสบัส: จะขึ้นรถไม่ครับ ไม่งั้นก็ถอยไป",
+      "BusStop_12_8": "%คนขับรสบัส: จะขึ้นรถไม๊ครับ ไม่งั้นก็ถอยไป",
 	  "fall_Tue": "หวัดดี$0",
       }
     },
