@@ -18185,7 +18185,7 @@
     "Target": "Data/Events/farm",
 	"When": { "HasSeenEvent": "191393", "Day": "21" },
     "Entries": {
-	"221961715": "continue/-1000 -1000/farmer 64 15 2 Lewis 64 13 0/skippable/pause 1000/speak Lewis \"Hello, @. I wanted to stop by and tell you 'Community Day' will be tomorrow.$0#$b#The whole town is showing up at the community center at around 1pm. It'd be a delight if you attended!$0\"/pause 500/globalFade/viewport -1000 -1000/pause 1000/message \"Starting now, there will be gatherings at the community center on the 22nd of every season!\"/pause 1000/end dialogue Lewis \"It'll be just like old times...$0#$e#I'm still not sure how you did it, @.$0\""
+	"221961715": "continue/-1000 -1000/farmer 64 15 2 Lewis 64 13 0/skippable/pause 1000/speak Lewis \"สวัสดี @ ฉันแวะมาบอกเธอว่า ในวันพรุ่งนี้จะเป็น 'วันพบปะชุมชน'$0#$b#ชาวเมืองทุกคน จะไปรวมตัวกันที่ศูนย์ชุมชน ในเวลาประมาณ 1 PM และคงดีเยี่ยมมากๆ ถ้าเธอไปร่วมงานด้วย!$0\"/pause 500/globalFade/viewport -1000 -1000/pause 1000/message \"นับตั้งแต่นี้ไป เราจะไปรวมกัน ที่ศูนย์ชุมชน ในวันที่ 22 ของทุกฤดู!\"/pause 1000/end dialogue Lewis \"เหมือนวันวาน ได้ย้อนกลับคืนมา...$0#$e#จนถึงตอนนี้ ยังก็ยังไม่แน่ใจเลย ว่าเธอทำได้ยังไง @$0\""
 	},
 },
 
@@ -18252,25 +18252,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Lewis",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Lewis": "It's days like this that make me proud to be the Mayor.$1" }
+	 "Entries": { "CommunityDay_Lewis": "การที่เรามีวันเวลาเช่นวันนี้ ทำให้ฉันภูมิใจ ที่ได้เป็นนายกเทศมนตรีซะจริง$1" }
 },
 {    //Summer Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Lewis",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Lewis": "I wonder if I should ask Marnie to go for a little stroll with me.$0" }
+	 "Entries": { "CommunityDay_Lewis": "ถ้าฉันจะชวนมานี เดินเที่ยวเล่นซักหน่อย จะดีมั้ยน้า$0" }
 },
 {    //Fall Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Lewis",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Lewis": "I don't know about you, but I'm just about ready to go curl up by the fire with some hot apple cider.$0" }
+	 "Entries": { "CommunityDay_Lewis": "ฉันก็ไม่รู้เรื่องเธอเท่าไหร่นะ แต่ว่าตอนนี้ ฉันพร้อมที่จะนอนขดตัว อยู่ข้างๆ กองไฟ และน้ำแอปเปิ้ลไซเดอร์ร้อนๆ$0" }
 },
 {    //Winter Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Lewis",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Lewis": "Another year coming to a close..I feel like it was a good one, don't you?$0" }
+	 "Entries": { "CommunityDay_Lewis": "ปีอีกปีนึง กำลังใกล้เข้ามาซะแล้วสิ.. ฉันคิดว่ามันน่าจะเป็นปีที่ดีนะ ว่ามั้ย?$0" }
 },
 
 
