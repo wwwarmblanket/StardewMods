@@ -18708,7 +18708,7 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Sophia",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Sophia": "โอ้โห ฉันไม่รู้เลยว่ามีคน สะสมหนังสือการ์ตูนที่นี่ แถมยังมีถึงเล่มล่าสุด้วยอ่า ฉันต้องแวะมาดูทีนี่บ่อยๆ แล้วล่ะ!$1" }
+	 "Entries": { "CommunityDay_Sophia": "โอ้โห ฉันไม่รู้เลยว่ามีคน สะสมหนังสือการ์ตูนที่นี่ แถมยังมีถึงเล่มล่าสุดด้วยอ่า ฉันต้องแวะมาดูทีนี่บ่อยๆ แล้วล่ะ!$1" }
 },
 {    //Summer Dialogue
 	 "Action": "EditData",
@@ -18777,25 +18777,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Maru",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Maru": "It's fun to see my dad learning something new, instead of being the one doing the lecturing.$0" }
+	 "Entries": { "CommunityDay_Maru": "ก็สนุกดีนะ ที่ได้เห็นพ่อเรียนรู้สิ่งใหม่ๆ บ้าง แทนที่จะเป็นคนบรรยาย อยู่คนเดียว$0" }
 },
 {    //Summer Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Maru",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Maru": "This is a great chance for me to pick people's brains on inventions that could come in handy for the town.$0" }
+	 "Entries": { "CommunityDay_Maru": "นี่ถือเป็นโอกาสที่ดีนะ ที่จะได้เลือกความคิดจากผู้คน มาสร้างนวัตกรรม ที่มีประโยชน์ให้กับเมือง$0" }
 },
 {    //Fall Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Maru",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Maru": "Maybe this is my chance to strike up a conversation with Sebastian.$0" }
+	 "Entries": { "CommunityDay_Maru": "บางทีนี้อาจจะเป็นโอกาสให้ฉัน หาเรื่องคุยกับเซบาสเตียนได้$0" }
 },
 {    //Winter Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Maru",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Maru": "I help Harvey a little more often in the winter.$0#$b#Lots of people coming in with colds...$2#$b#Make sure you bundle up.$3" }
+	 "Entries": { "CommunityDay_Maru": "ฉันจะไปช่วยฮาร์วีย์ บ่อยกว่าปกตินิดหน่อย ในฤดูหนาวน่ะ$0#$b#มีหลายคนเลยล่ะ ที่เป็นหวัดมา...$2#$b#อย่าลืมทำร่างกาย ให้อบอุ่นไว้ล่ะ$3" }
 },
 {    //MARU Community Day Schedule - MARRIED
 	 "Action": "EditData",
@@ -18809,25 +18809,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Maru",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Maru_Married": "I haven't seen my dad this passionate about learning something new in a while.$1#$b#Maybe we should bring him around the farm and show him some of the stuff I've been cooking up.$0" }
+	 "Entries": { "CommunityDay_Maru_Married": "ฉันไม่ได้เห็นพ่อกระตือรืนล้น ที่จะเรียนรู้สิ่งใหม่ๆ มาพักนึงแล้ว$1#$b#บางทีเราน่าจะลองพาเขา ไปดูรอบฟาร์มของเรา แล้วก็โชว์สิ่งประดิษฐ์ ของฉันด้วย$0" }
 },
 {    //Summer Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Maru",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Maru_Married": "I feel like I'm in a little bubble with you at the farm sometimes - our own little world.$0#$b#It's nice to get out once in a while and see everyone again.$1" }
+	 "Entries": { "CommunityDay_Maru_Married": "บางครั้งฉันก็รู้สึกว่า เหมือนฉันล่องลอย อยู่ในฟองสบู่กับคุณในฟาร์ม - ในโลกเล็กๆ ของพวกเรา$0#$b#ก็ดีเหมือนกันนะ ที่ได้ออกมาข้างนอก และเจอกับคนอื่นๆ บ้าง$1" }
 },
 {    //Fall Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Maru",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Maru_Married": "I've never really understood Sebastian that well...I like to think we're friends, though. Maybe we should invite him to the farm sometime.$0" }
+	 "Entries": { "CommunityDay_Maru_Married": "ฉันไม่ค่อยจะเข้าใจ เซบาสเตียนซักเท่าไหร่... แต่ยังไงฉันก็คิดว่า เราเป็นเพื่อนกัน บางทีเราน่าจะชวนเขา มาที่ฟาร์มบ้าง$0" }
 },
 {    //Winter Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Maru",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Maru_Married": "You look so cute when you bundle up for winter.$4" }
+	 "Entries": { "CommunityDay_Maru_Married": "คุณดูน่ารักดีนะ เวลาคุณใส่ชุดหนาๆ ในฤดูหนาวแบบนี้$4" }
 },
 
 
