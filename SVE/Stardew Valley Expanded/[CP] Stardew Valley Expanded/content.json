@@ -18856,13 +18856,13 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Demetrius",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Demetrius": "ต้องไปเก็บอุปกรณ์การวิจัยของผม ก่อนที่ฤดูหนาวจะมาถึง$3#$b#ความเย็นสามารถทำลาย ชิ้นส่วนที่บอบบางได้$5" }
+	 "Entries": { "CommunityDay_Demetrius": "ต้องไปเก็บอุปกรณ์ การวิจัยของผม ก่อนที่ฤดูหนาวจะมาถึง$3#$b#ความเย็นสามารถทำลาย ชิ้นส่วนที่บอบบางได้$5" }
 },
 {    //Winter Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Demetrius",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Demetrius": "จะว่าอะไรมั้ย ถ้าผมจะขอไปตรวจสอบ ถ้ำในฟาร์มของคุณบ้าง ในบ้างครั้ง? มีการทดลองบางอย่างที่ ผมอยากจะทำดูหน่อย$0" }
+	 "Entries": { "CommunityDay_Demetrius": "จะว่าอะไรมั้ย ถ้าผมจะขอไปตรวจสอบ ถ้ำในฟาร์มของคุณบ้าง ในบางครั้ง? มีการทดลองบางอย่างที่ ผมอยากจะทำดูหน่อย$0" }
 },
 
 
@@ -18886,7 +18886,7 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Robin",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Robin": "บางทีฉันก็อาจจะแอบย่อง มาหาพวกอุปกรณ์เสริม จากที่นี้บ้าง$0#$b#ก็เมืองนั้น มีไว้เพื่อให้คนได้ทำงานด้วยกัน และเป็นน้ำหนึ่งใจเดียวกันนี่$1" }
+	 "Entries": { "CommunityDay_Robin": "บางทีฉันก็อาจจะแอบย่อง มาหาพวกอุปกรณ์เสริม จากที่นี่บ้าง$0#$b#ก็เมืองนั้น มีไว้เพื่อให้คนได้ทำงานด้วยกัน และเป็นน้ำหนึ่งใจเดียวกันนี่$1" }
 },
 {    //Fall Dialogue
 	 "Action": "EditData",
@@ -18933,7 +18933,7 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Sebastian",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Sebastian": "...คิดว่าฉันเสนอหน้าอยู่ ในงานนี่นานพอรึยัง$0" }
+	 "Entries": { "CommunityDay_Sebastian": "...คิดว่าฉันเสนอหน้าอยู่ ในงานนี้นานพอรึยัง$0" }
 },
 {    //SEBASTIAN Community Day Schedule - MARRIED
 	 "Action": "EditData",
@@ -18965,7 +18965,7 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Sebastian",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Sebastian_Married": "นี่ มาบอกฉันนะ ถ้าคุณเบื่อที่นี้แล้ว ฉันอยากจะกลับไปที่ฟาร์ม แล้วก็ซุกตัว อยู่ข้างกองไฟแล้ว$1" }
+	 "Entries": { "CommunityDay_Sebastian_Married": "นี่ มาบอกฉันนะ ถ้าคุณเบื่อที่นี่แล้ว ฉันอยากจะกลับไปที่ฟาร์ม แล้วก็ซุกตัว อยู่ข้างกองไฟ$1" }
 },
 
 
@@ -19000,7 +19000,7 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Clint",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Clint": "เตาหลอมและหม้อต้ม ที่อยู่ที่นี้ มีสภาพดีมาก แบบไม่น่าเชื่อเลยนะ พอมาลองย้อนไปคิดดูว่า ที่นี้ถูกปล่อยทิ้งไว้ นานขนาดไหน$0#$b#ถ้าคุณยังดูแลมันสม่ำเสมอนะ  เครื่องจักรแบบนี้ สามารถอยู่ได้ต่อไป ได้อีกหลายสิบปี$0" }
+	 "Entries": { "CommunityDay_Clint": "เตาหลอมและหม้อต้ม ที่อยู่ที่นี่ มีสภาพดีมาก แบบไม่น่าเชื่อเลยนะ พอมาลองย้อนไปคิดดูว่า ที่นี่ถูกปล่อยทิ้งไว้ นานขนาดไหน$0#$b#ถ้าคุณยังดูแลมันสม่ำเสมอนะ  เครื่องจักรแบบนี้ สามารถอยู่ได้ต่อไป ได้อีกหลายสิบปี$0" }
 },
 
 
@@ -19017,7 +19017,7 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Haley",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Haley": "ท่านนายก ขอให้ฉันถ่ายภาพทุกคน เมื่อจบงานกิจกรรมครั้งนี้ การถ่ายภาพ[บุคคล เป็นอะไรที่แบบ น่าเบื่อออออ จะตายไป$0" }
+	 "Entries": { "CommunityDay_Haley": "ท่านนายก ขอให้ฉันถ่ายภาพทุกคน เมื่อจบงานกิจกรรมครั้งนี้ การถ่ายภาพบุคคล เป็นอะไรที่แบบ น่าเบื่อออออ จะตายไป$0" }
 },
 {    //Summer Dialogue
 	 "Action": "EditData",
