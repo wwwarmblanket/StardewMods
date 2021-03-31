@@ -18844,19 +18844,19 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Demetrius",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Demetrius": "Harvey's been telling me about some of the science behind healthy food.$0#$b#It's not my usual field, but I can definitely see the importance.$1" }
+	 "Entries": { "CommunityDay_Demetrius": "ฮาร์วีย์บอกผมเกี่ยวกับ วิทยาศาสตร์บางอย่างที่อยู่ เบื้องหลังอาหารเพื่อสุขภาพ$0#$b#มันไม่ใช่สาขาปกติของผม แต่ผมเห็นความสำคัญ อย่างแน่นอน$1" }
 },
 {    //Summer Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Demetrius",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Demetrius": "These events are a good opportunity to spend some quality time with Maru outside the lab.$0" }
+	 "Entries": { "CommunityDay_Demetrius": "งานเหล่านี้เป็นโอกาสดี ที่จะได้ใช้เวลาอย่างมีคุณภาพ ร่วมกับมารุนอกห้องแล็บ$0" }
 },
 {    //Fall Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Demetrius",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Demetrius": "Gotta go pick up some of my research equipment before the winter hits.$3#$b#The cold can damage some of the more sensitive pieces.$5" }
+	 "Entries": { "CommunityDay_Demetrius": "ต้องไปหยิบอุปกรณ์การวิจัยของผม ก่อนที่ฤดูหนาวจะมาถึง$3#$b#ความเย็นสามารถทำลาย ชิ้นส่วนที่บอบบางกว่านี้ได้$5" }
 },
 {    //Winter Dialogue
 	 "Action": "EditData",
@@ -18880,7 +18880,7 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Robin",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Robin": "I can tell that the work put into repairing this place was done with love.$0" }
+	 "Entries": { "CommunityDay_Robin": "ฉันสามารถบอกได้ว่า งานที่นำมาซ่อมแซม สถานที่แห่งนี้ ทำด้วยความรัก$0" }
 },
 {    //Summer Dialogue
 	 "Action": "EditData",
