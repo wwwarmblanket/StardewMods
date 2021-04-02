@@ -19085,25 +19085,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Emily",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Emily": "Do you think it'd be cute if I made everyone matching outfits for the next Community Day?$0" }
+	 "Entries": { "CommunityDay_Emily": "คุณคิดว่ามันน่ารักมั้ย ถ้าฉันจะทำเสื้อทีม ให้พวกเราทุกคน ในงานพบปะชุมชนครั้งหน้า?$0" }
 },
 {    //Summer Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Emily",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Emily": "Haley and I are supposed to be working on making some toys for the kids, but she doesn't seem very invested...$2" }
+	 "Entries": { "CommunityDay_Emily": "เฮลีย์กับฉันกะว่า จะทำของเล่นให้พวกเด็กๆ น่ะ แต่ดูเหมือนเธอทำแบบ ไม่ค่อยลงทุนเท่าไหร่...$2" }
 },
 {    //Fall Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Emily",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Emily": "Hmm... I'm thinking about integrating some amethysts into a shirt design for Abigail.$0#$b#Don't tell her, it's a surprise!$1" }
+	 "Entries": { "CommunityDay_Emily": "หืม... ฉันว่าจะลองเอาอเมทิสต์ ไปตกแต่งไว้ ในการออกแบบเสื้อ ให้อบิเกลดูด้วยล่ะ$0#$b#อย่าบอกเธอนะ มันเป็นเซอร์ไพรส์!$1" }
 },
 {    //Winter Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Emily",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Emily": "I'm taking a trip out to the desert to visit Sandy next week!$0" }
+	 "Entries": { "CommunityDay_Emily": "อาทิตย์หน้า ฉันมีทริปไปเที่ยวทะเลทราย และแวะไปหาแซนดี้ล่ะ!$0" }
 },
 {    //EMILY Community Day Schedule - MARRIED
 	 "Action": "EditData",
@@ -19117,25 +19117,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Emily",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Emily_Married": "If I made us matching outfits for next Community Day, would you wear yours with me?$1" }
+	 "Entries": { "CommunityDay_Emily_Married": "ถ้าฉันจะทำเสื้อคู่ไว้ใส่ใน งานพบปะชุมชนครั้งหน้า คุณจะใส่คู่กับฉันมั้ย?$1" }
 },
 {    //Summer Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Emily",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Emily_Married": "Can you please tell Haley to bring over the supplies I need? Sometimes I feel like you have better luck communicating with her than I do...$2" }
+	 "Entries": { "CommunityDay_Emily_Married": "คุณช่วยบอกเฮลีย์ทีได้มั้ย ว่าให้เอาของใช้ ที่ฉันต้องการมาให้หน่อย? บางทีฉันก็รู้สึกว่า คุณมีดวง ที่ได้คุยกับเธอ มากกว่าฉัน...$2" }
 },
 {    //Fall Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Emily",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Emily_Married": "I'm designing something special for you. You can't see it till it's done, though. I want to make sure it's perfect.$4" }
+	 "Entries": { "CommunityDay_Emily_Married": "ฉันออกแบบอะไรบางอย่าง ที่พิเศษมากๆ ไว้ให้คุณด้วยนะ คุณไม่มีทางได้เห็นมันหรอก จนกว่าฉันจะทำเสร็จ ฉันต้องแน่ใจก่อนว่า มันเพอร์เฟคแล้ว$4" }
 },
 {    //Winter Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Emily",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Emily_Married": "We should use this opportunity to make cute outfits together!$0" }
+	 "Entries": { "CommunityDay_Emily_Married": "เราควรจะใช้โอกาสนี้ มาทำเสื้อผ้าน่ารักๆ ด้วยกัน!$0" }
 },
 
 
@@ -19152,25 +19152,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Sandy",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Sandy": "I'm so happy Emily invited me today! It was a long trip, but I'm having so much fun.$0" }
+	 "Entries": { "CommunityDay_Sandy": "ฉันดีใจมาก ที่เอมิลีช่วนฉันมาในวันนี้! ถึงจะต้องเดินทางมาไกล แต่ฉันสนุกมากๆ$0" }
 },
 {    //Summer Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Sandy",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Sandy": "Emily's always been so crafty. I'm jealous.$0#$b#I'll just have to take advantage of it and have her make me some cute dresses.$1" }
+	 "Entries": { "CommunityDay_Sandy": "เอมีลีมีความช่างประดิษฐ์ ประดอยตลอด ฉันละอิจฉาจริงๆ$0#$b#เพราะงั้นฉันก็เลย ถือโอกาสหลอกล่อให้เธอ ทำชุดน่ารักๆ ให้ฉันซะเลย$1" }
 },
 {    //Fall Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Sandy",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Sandy": "It's nice to come here during the fall to see the trees change. We don't exactly get anything you'd call ‘weather' in the desert.$0" }
+	 "Entries": { "CommunityDay_Sandy": "มันดีมากเลย ที่ได้มาที่นี้ในช่วงฤดูใบไม้ร่วง เลยได้ดูใบไม้เปลี่ยนสีด้วย นี่ถ้าอยู่ทะเลทรายน่ะนะ ไม่มีทางรู้จักหรอก คำว่า 'สภาพอากาศ' น่ะ$0" }
 },
 {    //Winter Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Sandy",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Sandy": "I have a little surprise planned for Emily's upcoming visit...$0#$b#Don't tell her, but it may or may not involve some brand new crafting materials.$1" }
+	 "Entries": { "CommunityDay_Sandy": "ฉันว่าจะเตรียมแผน เซอร์ไพรส์เล็กๆ ให้เอมิลี ในการมาที่นี่ครั้งหน้า...$0#$b#ห้ามบอกเธอล่ะ ใบ้ให้ก็ได้ ว่ามันอาจจะเกี่ยว หรือไม่เกี่ยว กับอุปกรณ์คราฟ แบรนด์ใหม่ก็ได้นะ$1" }
 },
 
 
@@ -19187,25 +19187,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Alex",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Alex": "We've got enough people hanging around here for a pickup game. Think people would play if I promise to go easy on them?$3" }
+	 "Entries": { "CommunityDay_Alex": "เรามีคนอยู่แถวๆ นี้ มากพอที่จะเล่นบอล ได้สักเกมเลยนะเนี่ย คิดว่าพวกเขาจะเล่นกันมั้ย ถ้าฉันสัญญาว่าจะอ่อนให้อ้ะ?$3" }
 },
 {    //Summer Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Alex",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Alex": "Aw man, it's too late now, but we should have moved the lemonade stand here for the kids to enjoy.$2" }
+	 "Entries": { "CommunityDay_Alex": "โถ่ พวก หมดละ มาช้าไปแล้ว แต่ว่าเราควรจะย้าย ซุ้มน้ำมะนาวนี่ออก เพื่อให้เด็กๆ ได้เล่นกัน$2" }
 },
 {    //Fall Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Alex",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Alex": "Okay, race time. Last one to the spa is a rotten egg!$1" }
+	 "Entries": { "CommunityDay_Alex": "โอเค ถึงเวลาแข่งแล้ว ใครไปถึงที่สปาช้าสุด คือไอ้อ่อน!$1" }
 },
 {    //Winter Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Alex",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Alex": "I get a little antsy getting cooped up in the winter.. just more of an outdoors guy. Glad this gives me an excuse to get out of the house.$0" }
+	 "Entries": { "CommunityDay_Alex": "ฉันไม่ค่อยชอบใจ ที่ต้องหมกตัวอุดอู้ ในช่วงฤดูหนาว.. เพราะฉันเป็นพวก ชอบกิจกรรมกลางแจ้งอ่านะ ก็เลยเป็นข้ออ้างที่ดี ให้หาเรื่องออกจากบ้านได้$0" }
 },
 {    //ALEX Community Day Schedule - MARRIED
 	 "Action": "EditData",
@@ -19219,25 +19219,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Alex",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Alex_Married": "I'm thinking of organizing a pickup game. Promise you'll be on my team?$3" }
+	 "Entries": { "CommunityDay_Alex_Married": "ฉันวางแผนว่าจะทีม แข่งบอลเล่นๆ กันน่ะ สัญญาสิว่าคุณจะอยู่ทีมผม นะ?$3" }
 },
 {    //Summer Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Alex",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Alex_Married": "Next year, let's make enough lemonade to bring all the kids.$0#$b#It'll be a fun family contribution.$1" }
+	 "Entries": { "CommunityDay_Alex_Married": "ปีหน้า เรามาทำน้ำมะนาว ให้พอสำหรับแจกเด็กๆ ทุกคนกันนะ$0#$b#มันจะต้องเป็น กิจกรรมครอบครัว แสนสนุกแน่นอนเลยล่ะ$1" }
 },
 {    //Fall Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Alex",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Alex_Married": "Hey honey, we're about to race to the spa. Cheer me on?$1" }
+	 "Entries": { "CommunityDay_Alex_Married": "นี่ ที่รัก พวกเรากำลังจะแข่งกันจากที่นี่ ไปจนถึงที่สปาน่ะ เชียร์ฉันด้วยสิ นะ?$1" }
 },
 {    //Winter Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Alex",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Alex_Married": "I love being able to snuggle up with you when it's cold, but it's nice to get out a little, too.$0" }
+	 "Entries": { "CommunityDay_Alex_Married": "ฉันชอบที่จะได้ซุกตัว อยู่กับคุณเวลาหนาวๆ นะ แต่ถ้าได้ไปข้างนอกบ้าง ก็ดีเหมือนกันนะ$0" }
 },
 
 
