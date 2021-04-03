@@ -19254,25 +19254,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/George",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_George": "Community Day..I don't care about any community.$0#$b#*grumble* Dragged here right in the middle of my shows.$0" }
+	 "Entries": { "CommunityDay_George": "วันพบปะชุมชนเรอะ.. ฉันไม่สนชุมชน อะไรพวกนั้นหรอก อุบ๊ะ!$0#$b#*พึมพำ* ถูกลากมาที่นี่ซะได้ กำลังดูรายการที่ชอบอยู่เนี่ย$0" }
 },
 {    //Summer Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/George",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_George": "*grumbles* Wonder if they've got anything good to eat in the kitchen over there.$0" }
+	 "Entries": { "CommunityDay_George": "*พึมพำ* คงจะมีอะไร ที่กินได้ อยู่ตรงครัวฝั่งโน้น อยู่หรอกนะ$0" }
 },
 {    //Fall Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/George",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_George": "*sigh* Gotta admit.. It's nice to warm my old bones by this fire.$2#$b#I ain't as young as I used to be.$0" }
+	 "Entries": { "CommunityDay_George": "*เฮ้อ* ก็คงต้องทำใจยอมรับ.. มันดีจริงๆ ทีได้เติมความอบอุ่น ให้กับกระดูกและร่ายกายแก่ๆ ของฉัน ด้วยเจ้ากองไฟอันนี้$2#$b#ฉันไม่ใช่คนหนุ่มๆ เหมือนแต่ก่อนแล้ว$0" }
 },
 {    //Winter Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/George",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_George": "*grumble* No leeks here this time. There better be some in spring. I never get to eat what I like.$0" }
+	 "Entries": { "CommunityDay_George": "*พึมพำ* ไม่มีต้นหอมยักษ์ ที่นี่ ตอนนี้ ถ้าเป็นฤดูใบไม้ผลิ คงจะหาได้บ้าง เชอะ ฉันไม่เคยจะได้กิน ของที่อยากจะกิน$0" }
 },
 
 
@@ -19290,25 +19290,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Evelyn",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Evelyn": "George is always whining, but he was so excited last night about seeing everyone today that he could barely get to sleep.$0#$b#Don't let him fool you, dear.$1" }
+	 "Entries": { "CommunityDay_Evelyn": "จอร์จมันจะขี้วีน อยู่ตลอดนั่นแหละจ้ะ แต่เมื่อคืนเขาดูตื่นเต้นมาก ที่จะได้เจอกับทุกคนในวันนี้ จนแทบจะไม่ได้นอนเลยล่ะจ้ะ$0#$b#อย่าให้เขาตบตาเธอได้ละ ที่รัก$1" }
 },
 {    //Summer Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Evelyn",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Evelyn": "Living in the same place for so long, you get to watch it go through stages. It grows along with the people in it.$0#$b#Dear, I hope you know that I've greatly enjoyed this place since you've brought your spark to it.$1" }
+	 "Entries": { "CommunityDay_Evelyn": "ถ้าเธอได้อยู่ในที่เดิมๆ นานเข้าๆ เธอก็จะเห็นถึง ความเป็นไปของโลก การเติบโตของผู้คน$0#$b#ที่รัก ยายอยากให้เธอรู้ว่า ยายมีความสุขมากแค่ไหน กับที่แห่งนี้ ตั้งแต่ที่เธอทำให้มัน กลับมามีชีวิตชีวาอีกครั้ง$1" }
 },
 {    //Fall Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Evelyn",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Evelyn": "This place hasn't seen this much life in years... This was the hot spot for all the young people to come meet up, but that must be decades ago now.$0#$b#It's nice to see it revived, dear. Thank you.$2" }
+	 "Entries": { "CommunityDay_Evelyn": "ที่นี่ ไม่มีชีวิตชีวา มานานหลายปีแล้วล่ะจ้ะ ...  ทั้งที่เมื่อหลายสิปปีก่อนนี้ มันเป็นจุดนัดพบ ที่คนหนุ่มสาว จะมานัดเจอกัน$0#$b#ดีจริงๆ ที่ๆด้เห็นมัน ถูกชุบชีวิตขึ้นมาใหม่อีกครั้ง ที่รัก ขอบคุณจริงๆ$2" }
 },
 {    //Winter Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Evelyn",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Evelyn": "I miss the flowers when the winter rolls around, don't you? Potted ones just aren't the same.$2" }
+	 "Entries": { "CommunityDay_Evelyn": "ยายคิดถึงพวกดอกไม้ เมื่อถึงคราวที่ฤดูหนาว ผ่านเข้ามาจ้ะ แล้วเธอล่ะ คิดถึงมั้ยจ้ะ? ถึงจะปลูกใหม่ แต่มันก็ไม่เหมือนเดิม$2" }
 },
 
 
@@ -19325,25 +19325,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Victor",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Victor": "Huh... I have a pretty thorough collection of books on the history of the Gotoro Empire, but there's one here I haven't seen before.$7#$b#I should visit this place more often.$1" }
+	 "Entries": { "CommunityDay_Victor": "โอ้ะ... ผมว่าผมก็มีหนังสือ เกี่ยวกับจักรวรรดิ์โกโตโร่ แทบจะครบเซต เลยนะครับเนี่ย แต่ที่นี่ดันมีเล่มที่ผม ไม่เคยเห็นมาก่อนซะด้วย$7#$b#ผมคงต้องแวะมาที่นี่ บ่อยๆ ซะแล้ว$1" }
 },
 {    //Summer Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Victor",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Victor": "*mumbling* So that's how the engineers did it...there are so many tricks to structural integrity I have to learn...$0" }
+	 "Entries": { "CommunityDay_Victor": "*งึมงำ* งี่นี้เอง วิธีที่วิศวกรทำมันขึ้นมา... มีเทคนิคมากมาย เพื่อเพิ่มความแข็งแรง ของโครงสร้าง ที่ผมต้องเรียนรู้ อีกเยอะเลยครับ...$0" }
 },
 {    //Fall Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Victor",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Victor": "I'm thinking about doing some traveling soon. Things have been a little stagnant for me lately. I could use some variation.$3" }
+	 "Entries": { "CommunityDay_Victor": "ผมกำลังคิดว่า จะหาทริปไปเที่ยวซักหน่อยครับ ช่วงนี้ผมว่า มันเนือยๆ ไปหน่อย เผื่อว่าจะเจออะไร แปลกใหม่น่ะครับ$3" }
 },
 {    //Winter Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Victor",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Victor": "Elliott? I've read a few of his short stories. They're not my usual style, but the way he describes the beauty of the natural world is pretty phenomenal.$0#$b#Maybe I'll work up the courage to tell him sometime.$3" }
+	 "Entries": { "CommunityDay_Victor": "เอลเลียตน่ะหรอครับ? ผมก็ได้อ่านเรื่องสั้น ที่เขาเขียนอยูบ้างนะครับ ถึงมันจะไม่ใช่แนวของผมเท่าไหร่ แต่วิธีการบรรยาย ความงดงามของโลก ธรรมชาติ ค่อนข้างจะวิเศษ ไปเลยล่ะครับ$0#$b#บางทีผมคงต้อง รวบรวมความกล้า แล้วเดินไปบอกเขาครับ$3" }
 },
 {
 	 //Victor Community Day - MARRIED
@@ -19358,25 +19358,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Victor",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Victor_Married": "This is an impressive collection. Did you help assemble it? ...You just keep surprising me with all these new ways you're amazing." }
+	 "Entries": { "CommunityDay_Victor_Married": "คอลเลกชั่นนี้คือที่สุด จริงๆ เลยครับ คุณช่วยผมจัดเรียง มันหน่อยมั้ยครับ? ...คุณมักจะหาวิธีใหม่ๆ เพื่อให้ทำผมประหลาดใจ ได้ตลอดเลยนะครับ คุณนี่วิเศษจริงๆ" }
 },
 {    //Summer Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Victor",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Victor_Married": "There are a few tricks in this book that I want to try out on the farm. You don't mind a few small renovations, right?" }
+	 "Entries": { "CommunityDay_Victor_Married": "ในหนังสือเล่มนี้ มีเทคนิคไม่น้อยเลย ที่ทำให้ผมอยากจะ เอาไปลองใช้ในฟาร์มด้วยครับ คุณคงจะไม่ว่าอะไรนะ ถ้าผมจะรีโนเวท อะไรนิดหน่อย ใช่มั้ยครับ?" }
 },
 {    //Fall Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Victor",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Victor_Married": "I'd love to travel to the Fern Islands together sometime. I've read so many books set there...I want to see what it's really like." }
+	 "Entries": { "CommunityDay_Victor_Married": "ผมอยากให้เราได้ไปเที่ยว ที่เกาะเฟิร์นด้วยกันจังครับ ผมได้อ่านหนังสือหลายเล่ม เกี่ยวกับที่นั่น... ผมอยากจะไปดูให้เห็น ว่ามันจะเป็นยังไงน่ะครับ" }
 },
 {    //Winter Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Victor",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Victor_Married": "How well do you know Elliott? ..No, I'm not jealous! I was just wondering if you could introduce us. It's silly, but I've read some of his work, and I feel like we could have a lot to talk about.$0" }
+	 "Entries": { "CommunityDay_Victor_Married": "คุณรู้จักเอลเลียต ดีแค่ไหนหรอครับt? ..ไม่ใช่ เปล่านะ ผมไม่ได้หึงนะครับ ! ผมแค่คิดว่า คุณจะช่วยแนะนำให้เรา รู้จักกันน่ะครับ ถึงมันจะเป็น เรื่องไม่เป็นเรื่อง แต่ผมได้อ่านงานเขียน ของเขามาบ้างน่ะครับ แล้วก็เลยคิดว่า น่าจะมีเรื่อง ให้ได้ถกกันเยอะเลย$0" }
 },
 
 
