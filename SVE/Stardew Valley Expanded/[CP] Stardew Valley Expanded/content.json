@@ -19681,25 +19681,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Abigail",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Abigail_Married": "Oh, hey, you. I'm just telling the story about the time I stole Sebastian's bike out from right under his nose!$1" }
+	 "Entries": { "CommunityDay_Abigail_Married": "อ๊ะ! นี่ฉันเพิ่งจะเล่าเรื่องที่ ขโมยมอเตอร์ไซค์ของ เซบาสเตียนต่อหน้าต่อตาเขา เลยหรอเนี่ย!$1" }
 },
 {    //Summer Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Abigail",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Abigail_Married": "Hey there, sweetie. Did you bring any Quartz with you? You know how hungry I get after the walk from the farm. *giggles*$4" }
+	 "Entries": { "CommunityDay_Abigail_Married": "ที่รักจ๊ะ ได้ควอตซ์ติดตัวมาบ้างมั้ย? ก็รู้ใช่มั้ยว่าเดินมาจากฟาร์ม มันเหนื่อยขนาดไหน. * คิกคัก *$4" }
 },
 {    //Fall Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Abigail",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Abigail_Married": "I need you to understand something... There is absolutely no way I'm going to let Alex challenge me uncontested.$0#$b#So you better cheer me on in this race!$1" }
+	 "Entries": { "CommunityDay_Abigail_Married": "ฉันอยากจะให้เข้าใจ อะไรซักหน่อย... ไม่มีทางที่อเล็กซ์ จะล้มฉันได้แน่นอน ฟังไว้เลยนะ.$0#$b#เพราะฉะนั้น รอเชียร์ฉันไว้ได้เลย!$1" }
 },
 {    //Winter Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Abigail",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Abigail_Married": "I get so bored in the winter. If you aren't careful, I'm going to sneak off and follow you on whatever adventures you get up to!$0" }
+	 "Entries": { "CommunityDay_Abigail_Married": "ฤดูหนาวน่าเบื่อมาก มากแบบมากที่สุด ถ้าไม่ระวังตัวล่ะก็ ฉันอาจจะแอบย่องตามเธอ ออกไปข้างนอกก็ได้นะ ไปไหนไปกัน ตามไปทุกที่เลยล่ะ!$0" }
 },
 
 
