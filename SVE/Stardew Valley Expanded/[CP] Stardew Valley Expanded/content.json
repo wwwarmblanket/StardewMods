@@ -19819,25 +19819,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Elliott",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Elliott_Married": "Would it be terribly self-centered if the next thing I write is about our life together?$1#$b#I feel like we make too many stories together to keep to ourselves.$0" }
+	 "Entries": { "CommunityDay_Elliott_Married": "มันจะดูเป็นการหลงตัวเอง อย่างเลวร้ายเกินไปมั้ย ถ้าเรื่องต่อไปที่ผมเขียน เป็นเรื่องของชีวิตคู่ ที่พวกเราใช้ด้วยกันน่ะ$1#$b#ผมรู้สึกว่า พวกเราสร้างเรื่องราวมากมาย เกินกว่าจะเก็บไว้แค่พวกเราน่ะ$0" }
 },
 {    //Summer Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Elliott",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Elliott_Married": "Being here around everyone reminds me.. Living by the ocean was an inspirational time in my life, but it was really very lonely.$0#$b#Now that I have you, I never have to feel that way.$4" }
+	 "Entries": { "CommunityDay_Elliott_Married": "ได้อยู่ท่ามกลางทุกคนที่นี่ ทำให้ผมนึกได้ว่า.. อยู่ริมทะเลเป็นช่วงที่สร้างแรงบันดาลใจช่วงหนึ่งในชีวิต แต่มันก็เหงาจับจิตจับใจมากเลยล่ะ$0#$b#ตอนนี้ผมมีคุณแล้ว ผมก็ไม่ต้องรู้สึกแบบนั้นอีกแล้วล่ะ$4" }
 },
 {    //Fall Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Elliott",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Elliott_Married": "I love how I can look at you and know exactly what you're thinking, no matter where we are.$0" }
+	 "Entries": { "CommunityDay_Elliott_Married": "ผมรักการที่ แค่ได้มองดูคุณ ก็รู้ได้ทันทีว่า คุณคิดอะไรอยู่ ไม่ว่าพวกเราจะอยู่ที่ไหนก็ตาม$0" }
 },
 {    //Winter Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Elliott",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Elliott_Married": "How well do you know Victor? ..No, I'm not jealous! I was just wondering if you could introduce us.$0#$b#It's silly, but I feel like we might be kindred spirits.$1" }
+	 "Entries": { "CommunityDay_Elliott_Married": "คุณรู้จักวิคเตอร์ ดีแค่ไหนเหรอ? ..ไม่ ผมไม่ได้หึงนะ! ผมแค่อยากรู้ว่า คุณจะแนะนำพวกเรา ให้รู้จักกันได้มั้ย$0#$b#มันดูติ๊งต๊องนะ แต่ผมรูสกวาพวกเรานาจะ มจตวญญาณเดยวกนนะ$1" }
 },
 
 
