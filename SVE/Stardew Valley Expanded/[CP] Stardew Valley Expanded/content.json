@@ -19787,25 +19787,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Elliott",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Elliott": "Ahh...How wonderful it is to see everyone coming together.$0#$b#Maybe my next short story should tell the tale of a small town, and how everyone's lives become interwoven in communities like this.$1" }
+	 "Entries": { "CommunityDay_Elliott": "อ้า... ช่างยอดเยี่ยมอะไรเช่นนี้ ที่ได้เห็นทุกคนมารวมตัวกัน$0#$b#บางทีเรื่องสั้นเรื่องหน้าของผม อาจจะเล่าเรื่องราว ของเมืองเล็กๆ และการที่ทุกชีวิต ได้สอดประสานกัน ในชุมชนแบบนี้ก็ได้$1" }
 },
 {    //Summer Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Elliott",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Elliott": "Life by the ocean is beautiful, but solitary.$0#$b#It's nice to be surrounded by people's chatter instead of the sound of the waves meeting the shore, once in a while.$1" }
+	 "Entries": { "CommunityDay_Elliott": "ชีวิตริมทะเลน่ะสวยงาม แต่ก็เปล่าเปลี่ยว$0#$b#นานๆ ทีได้ถูกโอบล้อมไปด้วย เสียงพูดคุยของผู้คน แทนเสียงเกลียวคลื่น กระทบฝั่งบ้าง ก็ดีเหมือนกัน$1" }
 },
 {    //Fall Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Elliott",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Elliott": "To be a good writer, it's important to read just as much as you write.$0#$b#And to take the opportunity at events like this to observe people - listen to how they talk, what they care about, what drives them...$1#$b#You have to be a great student of the human mind.$0" }
+	 "Entries": { "CommunityDay_Elliott": "การจะเป็นนักเขียนที่ดีได้ สำคัญต้องอ่านให้ได้ มากพอๆ กับที่คุณเขียน$0#$b#รวมถึงการใช้โอกาส ในงานแบบนี้ ในการสังเกตผู้คนด้วย- ฟังว่าพวกเขาคุยกันยังไง พวกเขาสนใจอะไร อะไรเป็นแรงผลักดันพวกเขา...$1#$b#คุณต้องเป็นนักศึกษาที่ดี ของเหล่ามนุษยชาติ$0" }
 },
 {    //Winter Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Elliott",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Elliott": "Hmm... I wonder if Victor's read any of my work? I should ask him sometime.$0#$b#...It might be vain to say, but if he has, I hope he liked it.$0" }
+	 "Entries": { "CommunityDay_Elliott": "อืม... ผมสงสัยว่าวิคเตอร์ ได้อ่านงานของผมบ้างมั้ยนะ? ผมน่าจะถามเขาสักที$0#$b#...มันอาจจะเปล่าประโยชน์ ที่จะพูดนะ แต่ถ้าเขาได้อ่าน ผมหวังว่าเขาจะชอบมัน$0" }
 },
 {    //ELLIOTT Community Day Schedule - MARRIED
 	 "Action": "EditData",
