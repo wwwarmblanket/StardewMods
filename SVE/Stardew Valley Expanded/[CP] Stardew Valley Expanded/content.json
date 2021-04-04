@@ -19752,25 +19752,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Pierre",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Pierre": "I might hand out some free samples of seeds at the next Community Day. Keep the spirit of growth in the Valley strong!$1" }
+	 "Entries": { "CommunityDay_Pierre": "ฉันวางแผนจะแจก ตัวอย่างเมล็ดพันธุ์ตัวใหม่ ในวันพบปะชุมชนรอบหน้า จะได้ช่วยให้หุบเขาของเรา เต็มไปด้วยพืชผลตลอดปี!$1" }
 },
 {    //Summer Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Pierre",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Pierre": "I feel like I'm missing something in this conversation...$2" }
+	 "Entries": { "CommunityDay_Pierre": "รู้สึกเหมือนจะลืม พูดอะไรไปสักอย่างเลยแหะ...$2" }
 },
 {    //Fall Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Pierre",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Pierre": "I might ask Caroline to go for a stroll with me around town after this. I'm trying to rekindle our spark.$0#$b#Between difficulties with Abigail and running the store, there's been a strain put on us.$0" }
+	 "Entries": { "CommunityDay_Pierre": "ฉันคิดจะชวนแคโรไลน์ ไปเดินเล่นรอบเมืองเร็ว ๆ นี้ล่ะ อยากให้บรรยากาศเก่าๆ ระหว่างเรา มันกลับมาอบอวลอีกครั้ง$0#$b#ไม่ว่าจะเรื่องต่างๆ อบิเกลหรือการทำร้านก็ตาม ทำให้เราหลงลืมการ ดูแลใส่ใจกันและกันไปเลย$0" }
 },
 {    //Winter Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Pierre",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Pierre": "Abigail keeps disappearing for long stretches of time...$2#$b#You'd tell me if she was getting herself into trouble, right?$4" }
+	 "Entries": { "CommunityDay_Pierre": "อบิเกลหายไปสักพักแล้ว...$2#$b#อย่าบอกนะ ว่าเธอกำลังจะไปก่อเรื่อง หรือไม่ก็เจอปัญหาอะไรเข้าน่ะ$4" }
 },
 
 
