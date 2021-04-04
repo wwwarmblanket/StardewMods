@@ -19717,25 +19717,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Caroline",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Caroline": "Pierre would never show it, but he's tremendously excited to have everyone so invested in being part of a community again.$0" }
+	 "Entries": { "CommunityDay_Caroline": "ปิแอร์ไม่เคย เอามันออกมาโชว์เลย แต่เขาก็ตื่นเต้นมากเลยนะ ที่ได้เห็นผู้คนกลับมา ให้ความสนใจและมามีส่วนร่วม กับชุมชนของตัวเองกัน$0" }
 },
 {    //Summer Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Caroline",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Caroline": "When I was pregnant with Abigail, I used to come here when I needed some time to myself.$0#$b#Funny to see this place full of people, instead of being a place to run and hide.$0" }
+	 "Entries": { "CommunityDay_Caroline": "สมัยที่ตั้งท้องอบิเกล ฉันมักจะมาที่นี่เสมอ เพื่อใช้เวลาอยู่กับตัวเอง$0#$b#ตลกดีนะที่เห็นคนพลุกพล่าน เต็มไปหมดเลย$0" }
 },
 {    //Fall Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Caroline",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Caroline": "I finally got all my plants moved into my sunroom for winter. They cheer me up when it's grey outside.$0" }
+	 "Entries": { "CommunityDay_Caroline": "ก่อนที่ฤดูหนาวจะมาถึง ฉันจัดการย้ายพวกต้นไม้ เข้าไปในเรือนกระจก หมดแล้วล่ะจ้ะ พวกมันช่วยสร้างแรงใจ ให้กับฉันเสมอเลย$0" }
 },
 {    //Winter Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Caroline",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Caroline": "You might think there's less to do because the shop is slow in the winter, but Pierre puts the whole family to work getting ready for the explosion of business in the spring.$0#$b#Inventory, cleaning, ideas for new stock for the upcoming year...it's a labor of love.$0" }
+	 "Entries": { "CommunityDay_Caroline": "เธออาจจะคิดว่าช่วงฤดูหนาว ร้านของเราจะไม่ค่อย มีอะไรให้ทำใช่มั้ยล่ะ แต่ปิแอร์ก็คือปิแอร์อยู่วันยังค่ำ$0#$b#เตรียมของ ทำความสะอาด เช็คความเรียบร้อย เขาทำพวกนี้ทั้งฤดู เพื่อเตรียมพร้อมสำหรับ ฤดูถัดไปเสมอเลย$0" }
 },
 
 
