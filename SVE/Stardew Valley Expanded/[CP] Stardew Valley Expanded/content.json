@@ -19693,7 +19693,7 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Abigail",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Abigail_Married": "ฉันอยากจะให้เข้าใจ อะไรซักหน่อย... ไม่มีทางที่อเล็กซ์ จะล้มฉันได้แน่นอน ฟังไว้เลยนะ.$0#$b#เพราะฉะนั้น รอเชียร์ฉันไว้ได้เลย!$1" }
+	 "Entries": { "CommunityDay_Abigail_Married": "ฉันอยากจะให้เข้าใจ อะไรซักหน่อย... ไม่มีทางที่อเล็กซ์ จะล้มฉันได้แน่นอน ฟังไว้เลยนะ$0#$b#เพราะฉะนั้น รอเชียร์ฉันไว้ได้เลย!$1" }
 },
 {    //Winter Dialogue - MARRIED
 	 "Action": "EditData",
@@ -19956,25 +19956,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Andy",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Andy": "Gotta say... didn't know if a 'Community Day' would be my cup o' tea, but I'm enjoyin' it just fine.$3" }
+	 "Entries": { "CommunityDay_Andy": "ต้องบอกเลย... ไม่รู้มาก่อนเลยว่า 'วันพบปะชุมชน' นี่ จะใช่แนวฉันหรือเปล่า แต่ฉันก็ชอบมันนะ$3" }
 },
 {    //Summer Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Andy",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Andy": "Startin' to think Gus is a dang fool if he can't see a great opportunity when it's sittin' plain as day in front of his face.$2" }
+	 "Entries": { "CommunityDay_Andy": "เริ่มคิดแล้วแหะ ว่ากัสนี่งั่งหรือเปล่า ถ้าเขาไม่เห็นโอกาส ที่มาจ่ออยู่ตรงหน้านี่น่ะ$2" }
 },
 {    //Fall Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Andy",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Andy": "The way Susan talks about her farm makes me wanna rethink the way I do things.$0#$b#Been so focused on profit an' productivity, don't always stop to care the way she does.$2" }
+	 "Entries": { "CommunityDay_Andy": "วิธีที่ซูซานพูดถึงฟาร์มเธอน่ะ ทำให้ฉันอยากต้องมาดู วิธีที่ฉันทำงานใหม่เลย$0#$b#ฉันสนใจแต่กำไรและผลผลิต ไม่เคยหยุด แล้วคิดถึงเรื่องอื่นๆ แบบเธอเลย$2" }
 },
 {    //Winter Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Andy",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Andy": "I got a feelin' the strawberry crop next spring is gonna be a real great one.$1" }
+	 "Entries": { "CommunityDay_Andy": "ฉันรู้สึกว่า สตอว์เบอร์รี่ฤดูกาลหน้า เจ๋งแน่$1" }
 },
 
 
