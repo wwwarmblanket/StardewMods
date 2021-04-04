@@ -20026,25 +20026,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Marlon",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_MarlonFay": "Kent's thinking about taking up adventuring.$0" }
+	 "Entries": { "CommunityDay_MarlonFay": "เคนท์กำลังคิดที่จะออกผจญภัย$0" }
 },
 {    //Summer Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Marlon",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_MarlonFay": "I always feel a little out of place at these events. But communities like this are what we fight to protect.#$b#It's important to see that joy we fight for, even if I'm not really fully a part of it.$0" }
+	 "Entries": { "CommunityDay_MarlonFay": "ข้ารู้สึกเป็นคนนอกหน่อย ๆ ตลอดเลยในงานพวกนี้ แต่ชุมชนแบบนี้นี่แหละ ที่พวกเราต่อสู้ เพื่อปกป้องเอาไว้#$b#มันสำคัญที่จะได้เห็นความสุข ที่พวกเราต่อสู้เพื่อรักษา ถึงข้าจะไม่ได้เป็นส่วนหนึ่ง ของมันทั้งหมดก็ตาม$0" }
 },
 {    //Fall Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Marlon",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_MarlonFay": "Winter is coming... when you get old enough, you'll be able to feel it in your bones, too.$0" }
+	 "Entries": { "CommunityDay_MarlonFay": "ฤดูหนาวกำลังมาแล้ว... ถ้าเจ้าอายุมาก มากพอล่ะก็ เจ้าจะรู้สึกถึงมันในกระดูก เช่นกันเลยล่ะ$0" }
 },
 {    //Winter Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Marlon",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_MarlonFay": "Been staying safe? Courage doesn't get diminished by being careful, you know.$0" }
+	 "Entries": { "CommunityDay_MarlonFay": "ปลอดภัยดีใช่มั้ย? เจ้ารู้มั้ย ความระมัดระวังน่ะ ไม่ทำให้ความกล้าหาญหายไปหรอกนะ$0" }
 },
 {    //Marlon's shop closed on community day
      "Action": "EditMap",
