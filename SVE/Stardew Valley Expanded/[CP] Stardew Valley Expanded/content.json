@@ -20099,25 +20099,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Claire",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Claire_Married": "It's so nice that we have these events to look forward to at the end of every month now.$1#$b#All thanks to you! What a wonderful way to feel more like part of the community..$5" }
+	 "Entries": { "CommunityDay_Claire_Married": "ดีมากเลยเนอะ ที่ตอนนี้พวกเรามีเทศกาล ให้ตั้งตารอทุกสิ้นเดือนแล้ว$1#$b#ทั้งหมดนี่ ต้องขอบคุณเธอเลยนะ! เป็นวิธีที่ทำให้รู้สึก เป็นส่วนเดียวกับชุมชน ที่ดีอะไรอย่างนี้..$5" }
 },
 {    //Summer Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Claire",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Claire_Married": "Do you mind if we box up some food and bring it to Martin before we head home to the farm? I want him to get at least a little of the fun.$1" }
+	 "Entries": { "CommunityDay_Claire_Married": "เธอจะว่าอะไรมั้ย ถ้าพวกเราแวะเอาอาหาร ใส่กล่องไปให้มาร์ติน ก่อนกลับฟาร์มน่ะ? ฉันอยากให้เขา ได้สนุกด้วยสักนิดนึงก็ยังดี$1" }
 },
 {    //Fall Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Claire",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Claire_Married": "Do you want to dance? ...I know no one else is, but who cares? We could start a trend.$1" }
+	 "Entries": { "CommunityDay_Claire_Married": "เธออยากเต้นรำมั้ย? ...ฉันรู้ว่าไม่มีคนเต้นเลย แต่ใครสนกันล่ะ? เรามานำเทรนด์กันเถอะ$1" }
 },
 {    //Winter Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Claire",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Claire_Married": "Do you think maybe we could ever open our own store together someday, like Caroline and Pierre?$1#$b#We could sell your farm's produce. Or whatever we wanted!$5" }
+	 "Entries": { "CommunityDay_Claire_Married": "เธอคิดว่า สักวันนึง พวกเราจะเปิดร้านของเราเองได้มั้ย แบบแคโรไลน์กับปิแอร์น่ะ?$1#$b#พวกเราขายผลผลิต จากฟาร์มเธอก็ได้นะ ขายอะไรก็ได้ที่เราอยากขายน่ะ!$5" }
 },
 {    //Martin takes over Claire's theater shift on community day
      "Action": "EditData",
