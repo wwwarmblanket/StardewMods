@@ -19614,25 +19614,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Sam",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Sam_Married": "If the Mayor lets us play a gig here next time, will you stand up front and dance?$0" }
+	 "Entries": { "CommunityDay_Sam_Married": "ถ้าคุณเลวิสยอมให้พวกฉัน มาเล่นดนตรีที่นี่อีก สัญญามั้ยว่าจะมายืนดู ตรงข้างหน้าสุดเลยน่ะ?$0" }
 },
 {    //Summer Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Sam",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Sam_Married": "We should invite Vincent over to the farm soon.$0#$b#I wanna make sure he knows that even if I'm starting my own family, I'm still his big brother.$1" }
+	 "Entries": { "CommunityDay_Sam_Married": "เราน่าจะชวนวินเซนต์ มาเล่นที่ฟาร์มบ้างนะ$0#$b#ฉันอยากให้วินซ์มั่นใจ ว่าถึงฉันจะมีครอบครัวแล้ว แต่ก็ยังเป็นพี่ชายที่แสนดี คนเดิมให้กับเขาอยู่เสมอ$1" }
 },
 {    //Fall Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Sam",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Sam_Married": "Can you watch my stuff while I go lose this race? ...Better yet, can you tell Alex I'm not allowed to go?$0" }
+	 "Entries": { "CommunityDay_Sam_Married": "ช่วยเช็คของให้ฉันทีได้มั้ย? ระหว่างที่ฉันจะไปแพ้ เจ้าการแข่งขันในวันนี้น่ะ ...ยังไม่ต้องดีกว่า ฝากไปบอกอเล็กซ์ แทนละกันนะว่า ฉันไม่ได้รับอนุญาตให้ลงแข่ง$0" }
 },
 {    //Winter Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Sam",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Sam_Married": "It's gonna be a cold walk home, but you'll hold my hand to keep me warm, right?$4" }
+	 "Entries": { "CommunityDay_Sam_Married": "ต้องหนาวมากแน่ๆ เลย ถ้าจะเดินกลับบ้านตอนนี้ แต่จะเดินจับมือฉันไว้ก็ได้นะ อุ่นแน่นอนรับประกันเลย$4" }
 },
 
 
