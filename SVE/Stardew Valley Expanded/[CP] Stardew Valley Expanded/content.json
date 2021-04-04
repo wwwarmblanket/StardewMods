@@ -19854,25 +19854,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Willy",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Willy": "Did you catch all the fish in that tank? Impressive anglin'.$1" }
+	 "Entries": { "CommunityDay_Willy": "นี่เธอจับปลาในตู้นั่น เองหมดเลยรึ? ฝีมือน่าประทับใจ$1" }
 },
 {    //Summer Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Willy",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Willy": "Angling been going well for you lately? Been chasing pufferfish this summer, myself. Right people will pay a mint for 'em.$1" }
+	 "Entries": { "CommunityDay_Willy": "ช่วงนี้ตกปลาดีมั้ย? หน้าร้อนนี่ ฉันตามล่าหานกอ้วน อยู่เหมือนกัน เงินดีเลยล่ะ ถ้าขายให้ถูกคน$1" }
 },
 {    //Fall Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Willy",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Willy": "Nice to see people using the ole bulletin board again.$0#$b#Might post a sale on bait up there, see if I get any bites.$1" }
+	 "Entries": { "CommunityDay_Willy": "ได้เห็นคนมาใช้ กระดานข่าวเก่านี่ ก็ดีเหมือนกัน$0#$b#ว่าจะหย่อนส่วนลดไว้ซะหน่อย ดูสิว่าจะตกลูกค้าได้บ้างมั้ย$1" }
 },
 {    //Winter Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Willy",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Willy": "Nice to see the whole community come together to make this day happen.$0#$b#I contributed a few fish to the pot to make sure everyone gets fed.$1" }
+	 "Entries": { "CommunityDay_Willy": "ได้เห็นทุกคนในชุมชน มาร่วมใจกันทำให้งานนี้เกิดขึ้นได้ นี่ดีจังเลยแหะ$0#$b#ฉันช่วยเอาปลา มาใส่หม้อเพื่อให้ทุกคนได้กินล่ะ$1" }
 },
 
 
