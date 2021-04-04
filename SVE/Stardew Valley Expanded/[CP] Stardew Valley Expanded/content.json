@@ -19582,25 +19582,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Sam",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Sam": "Wonder if I could convince the Mayor to let us play a gig at this thing next time.$0#$b#Some music could be just what a festival like this needs to get people really into it.$1" }
+	 "Entries": { "CommunityDay_Sam": "หวังว่าคุณเลวิสจะยอมให้ พวกเรามาเล่นดนตรีกันที่นี่ ได้อีกครั้งนะ$0#$b#บางทีเสียงดนตรีในเทศกาลแบบนี้ ก็อาจจะทำให้ผู้คน สนใจขึ้นมาบ้างก็ได้$1" }
 },
 {    //Summer Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Sam",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Sam": "Vincent and I walked over here together. He's growing up really fast. My big brother duties are about to get way harder, I bet.$0" }
+	 "Entries": { "CommunityDay_Sam": "วินเซนต์กับฉันสองคน เราเดินมาด้วยกันน่ะ เขาโตไวมากเลยรู้มั้ย ลูกคนโตอย่างฉันคงจะมีอะไร ให้รับมือเพิ่มอีกแหง$0" }
 },
 {    //Fall Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Sam",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Sam": "Is it cheating in the race if I ride my skateboard?$1" }
+	 "Entries": { "CommunityDay_Sam": "มันจะนับเป็นการโกงมั้ย ถ้าฉันใช้สเก็ตบอร์ด ในการแข่งขัน?$1" }
 },
 {    //Winter Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Sam",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Sam": "I'm not looking forward to the cold walk home from here.$2" }
+	 "Entries": { "CommunityDay_Sam": "ฉันไม่ได้ตื่นเต้นเลยสักนิด ที่จะต้องทนหนาวเดินกลับบ้าน ในสภาพอากาศแบบนี้$2" }
 },
 {    //SAM Community Day Schedule - MARRIED
 	 "Action": "EditData",
