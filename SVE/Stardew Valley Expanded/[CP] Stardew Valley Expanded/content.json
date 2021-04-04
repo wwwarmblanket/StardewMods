@@ -19889,25 +19889,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Leah",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Leah": "Hmm... I think I saw a bear wandering around Cindersap Forest the other day. Wonder if he'd pose for a sculpture?$7" }
+	 "Entries": { "CommunityDay_Leah": "หืมม... ฉันว่าฉันเห็นหมี ตระเวนอยู่แถวๆ ป่าซินเดอร์แซป วันก่อนนะ สงสัยจังว่า จะยอมมาเป็นแบบ งานแกะสลักมั้ยนะ?$7" }
 },
 {    //Summer Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Leah",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Leah": "I've never tried squeezing juice before, but the prospect of some nice fresh melon juice on a hot summer's day is too good to pass up.$1" }
+	 "Entries": { "CommunityDay_Leah": "ฉันไม่เคยลองคั้น น้ำผลไม้มาก่อนเลย แต่ความคิดของน้ำเมลอนคั้นสดดีๆ สักแก้วในวันร้อนๆ กลางฤดูร้อนแบบนี้ มันดีเกินกว่าจะปล่อยผ่านน่ะ$1" }
 },
 {    //Fall Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Leah",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Leah": "I had a new idea for a sculpture, but it's a little experimental. Don't be too hard on me when I finally show you!$0" }
+	 "Entries": { "CommunityDay_Leah": "ฉันมีไอเดียใหม่ ที่จะแกะสลักล่ะ แต่มันค่อนข้างจะ ออกแนวทดลองสักหน่อยนะ อย่าวิจารณ์แรงนักล่ะ ตอนที่ฉันเอาให้ดูน่ะ!$0" }
 },
 {    //Winter Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Leah",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Leah": "Winter is just the perfect season for festivals in a small town.$0#$b#Being in here by the fire all cozy with friends and family is a perfect way to wrap up the year.$3" }
+	 "Entries": { "CommunityDay_Leah": "ฤดูหนาวนี่เป็นฤดู ที่สมบูรณ์แบบสำหรับ งานเทศกาลในเมืองเล็กๆ เลยนะ$0#$b#อยู่ข้างไฟอุ่นๆ แบบนี้ กับเพื่อนและครอบครัว เป็นการส่งท้ายปี ที่เพอร์เฟคมากเลย$3" }
 },
 {    //LEAH Community Day Schedule - MARRIED
 	 "Action": "EditData",
