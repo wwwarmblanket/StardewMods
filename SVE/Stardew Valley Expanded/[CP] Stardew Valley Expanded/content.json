@@ -19393,25 +19393,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Olivia",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Olivia": "Oh, hello, sweetie. I was just making a note to myself to donate a few cases of wine for the next event like this. I'm absolutely parched.$3" }
+	 "Entries": { "CommunityDay_Olivia": "โอ๊ะ สวัสดีจ้ะ ฉันกำลังจดโน้ตเตือนตัวเอง ให้บริจาคไวน์สักสองสามลัง ในงานเทศกาลครั้งต่อไปอยู่ พูดแล้วก็คอแห้งขึ้นมาเลย$3" }
 },
 {    //Summer Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Olivia",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Olivia": "Mmm... I hope Victor's doing all right over there. I worry he's not integrating into the town well.$0#$b#Even at an event like this, he hides his nose in a book.$6" }
+	 "Entries": { "CommunityDay_Olivia": "อืมมม... ฉันหวังว่าวิคเตอร์ จะเข้ากับเมืองนี้ได้บ้าง$0#$b#แต่เขาก็เอาแต่หมกตัว อยู่แต่กับหนังสือพวกนั้น$6" }
 },
 {    //Fall Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Olivia",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Olivia": "Hmm... I wonder if I could sweet talk the Mayor into letting us hold our yoga classes here.$0#$b#The group is starting to outgrow Caroline's living room, I think.$1" }
+	 "Entries": { "CommunityDay_Olivia": "หืมมม... สงสัยจังเลยว่า จะไปคุยกับเลวิส ว่าจะจัดคลาสโยคะที่นี่ได้มั้ย$0#$b#เพราะบ้านของแคโรไลน์ ดูจะแคบไปหน่อย สำหรับกลุ่มของพวกเรา$1" }
 },
 {    //Winter Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Olivia",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Olivia": "I'm going to have to sit down soon. I'm getting tired just listening to how hard Caroline's been working.$2#$b#I never imagined a little shop would take so much work to run...$6" }
+	 "Entries": { "CommunityDay_Olivia": "ขอตัวไปนั่งพักสักเดี๋ยวนะ เริ่มเหนื่อยจะฟังแล้วว่า แคโรไลน์ทำงานหนักแค่ไหน$2#$b#ไม่เคยคิดเลยว่า ร้านเล็กๆ แบบนั้นจะมีงาน ให้ทำเยอะขนาดนี้น่ะ...$6" }
 },
 {
 	 //OLIVIA Community Day Schedule - MARRIED
