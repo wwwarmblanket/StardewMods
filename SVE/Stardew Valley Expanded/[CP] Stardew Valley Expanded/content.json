@@ -19497,9 +19497,9 @@
 	 "Target": "characters/dialogue/Vincent",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
 	 "Entries": { 
-	    "CommunityCenter_25_10": "This place was waaaay cooler when all the bugs were still in here.$3",
-		"CommunityCenter_15_20": "This place was waaaay cooler when all the bugs were still in here.$3",
-		"CommunityCenter_14_19": "This place was waaaay cooler when all the bugs were still in here.$3",
+	    "CommunityCenter_25_10": "ที่นี่ดูจะเย็นกว่านี้แหะ ตอนที่เจ้าแมลงพวกนั้น ยังป้วนเปี้ยนอยู่ที่นี่$3",
+		"CommunityCenter_15_20": "ที่นี่ดูจะเย็นกว่านี้แหะ ตอนที่เจ้าแมลงพวกนั้น ยังป้วนเปี้ยนอยู่ที่นี่$3",
+		"CommunityCenter_14_19": "ที่นี่ดูจะเย็นกว่านี้แหะ ตอนที่เจ้าแมลงพวกนั้น ยังป้วนเปี้ยนอยู่ที่นี่$3",
 	 },
 },
 {    //Summer Dialogue
@@ -19507,9 +19507,9 @@
 	 "Target": "characters/dialogue/Vincent",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
 	 "Entries": { 
-	    "CommunityCenter_25_10": "And then...the Dino King said...ROAAR!$0#$b#HOW DARE YOU STEP INTO MY A.. ABDO.. ABODE.$1",
-		"CommunityCenter_15_20": "And then...the Dino King said...ROAAR!$0#$b#HOW DARE YOU STEP INTO MY A.. ABDO.. ABODE.$1",
-		"CommunityCenter_14_19": "And then...the Dino King said...ROAAR!$0#$b#HOW DARE YOU STEP INTO MY A.. ABDO.. ABODE.$1",
+	    "CommunityCenter_25_10": "และหลังจากนั้น... คุณได้โนเสาร์ก็พูดว่า...กรรรร!$0#$b#กล้าดียังไงถึงเข้ามายัง ณ ท...ที่... ที่แห่งนี้ได้$1",
+		"CommunityCenter_15_20": "และหลังจากนั้น... คุณได้โนเสาร์ก็พูดว่า...กรรรร!$0#$b#กล้าดียังไงถึงเข้ามายัง ณ ท...ที่... ที่แห่งนี้ได้$1",
+		"CommunityCenter_14_19": "และหลังจากนั้น... คุณได้โนเสาร์ก็พูดว่า...กรรรร!$0#$b#กล้าดียังไงถึงเข้ามายัง ณ ท...ที่... ที่แห่งนี้ได้$1",
 	 },
 },
 {    //Fall Dialogue
@@ -19517,9 +19517,9 @@
 	 "Target": "characters/dialogue/Vincent",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
 	 "Entries": { 
-	    "CommunityCenter_25_10": "Miss Penny said we have to read more education books, not just stories.$2#$b#But I wanna read about robots beating up bad guys!$0",
-		"CommunityCenter_15_20": "Miss Penny said we have to read more education books, not just stories.$2#$b#But I wanna read about robots beating up bad guys!$0",
-		"CommunityCenter_14_19": "Miss Penny said we have to read more education books, not just stories.$2#$b#But I wanna read about robots beating up bad guys!$0",
+	    "CommunityCenter_25_10": "คุณเพนนีบอกว่า พวกเราต้องอ่านหนังสือเรียน ให้มากกว่านี้ ไม่ใช่อ่านแค่หนังสือนิทาน.$2#$b#แต่ผมยังอยากอ่านหนังสือ ที่เจ้าหุ่นยนต์ไปต่อสู้ กับพวกคนเลวอยู่เลย!$0",
+		"CommunityCenter_15_20": "คุณเพนนีบอกว่า พวกเราต้องอ่านหนังสือเรียน ให้มากกว่านี้ ไม่ใช่อ่านแค่หนังสือนิทาน.$2#$b#แต่ผมยังอยากอ่านหนังสือ ที่เจ้าหุ่นยนต์ไปต่อสู้ กับพวกคนเลวอยู่เลย!$0",
+		"CommunityCenter_14_19": "คุณเพนนีบอกว่า พวกเราต้องอ่านหนังสือเรียน ให้มากกว่านี้ ไม่ใช่อ่านแค่หนังสือนิทาน.$2#$b#แต่ผมยังอยากอ่านหนังสือ ที่เจ้าหุ่นยนต์ไปต่อสู้ กับพวกคนเลวอยู่เลย!$0",
 	 },
 },
 {    //Winter Dialogue
@@ -19527,9 +19527,9 @@
 	 "Target": "characters/dialogue/Vincent",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
 	 "Entries": { 
-	    "CommunityCenter_25_10": "I like this classroom more than the other one!$0",
-		"CommunityCenter_15_20": "I like this classroom more than the other one!$0",
-		"CommunityCenter_14_19": "I like this classroom more than the other one!$0",
+	    "CommunityCenter_25_10": "ผมชอบเรียนคาบนี้ มากกว่าคาบนั้นซะอีก!$0",
+		"CommunityCenter_15_20": "ผมชอบเรียนคาบนี้ มากกว่าคาบนั้นซะอีก!$0",
+		"CommunityCenter_14_19": "ผมชอบเรียนคาบนี้ มากกว่าคาบนั้นซะอีก!$0",
 	 },
 },
 
