@@ -20067,25 +20067,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Claire",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Claire": "It was so nice of the Mayor to invite me to this event... we never get days like this in the country.$1" }
+	 "Entries": { "CommunityDay_Claire": "ท่านเทศมนตรีใจดีมากเลยล่ะ ที่ชวนฉันมางานนี้... พวกเรไาม่มีงานแบบนี้ ที่บ้านนอกหรอก$1" }
 },
 {    //Summer Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Claire",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Claire": "It's sad that Martin has to work while we're all here celebrating.$2#$b#Maybe I'll try to sneak him something to eat.$1" }
+	 "Entries": { "CommunityDay_Claire": "น่าเศร้าที่มาร์ตินต้องทำงาน ขณะที่พวกเราฉลองกัน อยู่ที่นี่$2#$b#บางทีฉันน่าจะแอบเอาอะไร กลับไปให้เขากินนะ$1" }
 },
 {    //Fall Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Claire",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Claire": "I wonder if the Mayor would be open to having more dancing at events?$1#$b#The Flower Dance is nice, but so traditional, and only once a year.$1" }
+	 "Entries": { "CommunityDay_Claire": "ฉันสงสัยจังว่า ท่านเทศมนตรีจะอยาก ให้มีการเต้นรำมากกว่านี้ ในงานเทศกาลหรือเปล่านะ?$1#$b#การเต้นรำที่เทษกาลดอกไม้ น่ะดีมากเลย แต่ว่าโบราณมากด้วย แถมยังมีแค่ปีละครั้ง$1" }
 },
 {    //Winter Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Claire",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Claire": "The way Caroline and Pierre run the shop is so different from the way things work at Joja... It's much more personal. I really like it.$1" }
+	 "Entries": { "CommunityDay_Claire": "วิธีที่แคโรไลน์กับปิแอร์ ขายของที่ร้าน ช่างแตกต่างกับวิธีการทำงาน ของโจจ้ามากเลย... มันเป็นกันเองกว่ามาก ฉันชอบมากเลยล่ะ$1" }
 },
 {    //CLAIRE Community Day Schedule - MARRIED
      "Action": "EditData",
