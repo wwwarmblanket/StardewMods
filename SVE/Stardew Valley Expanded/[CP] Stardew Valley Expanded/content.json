@@ -19921,25 +19921,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Leah",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Leah_Married": "I'm going to need you to sit for another sculpture soon. I promise this one won't be as abstract as the last one!$0" }
+	 "Entries": { "CommunityDay_Leah_Married": "ฉันจะต้องขอให้เธอ มาเป็นแบบงานสลักอีกชิ้น เร็วๆ นี้นะ ฉันสัญญาว่าอันนี้จะไม่นามธรรม เท่าอันก่อนแล้ว!$0" }
 },
 {    //Summer Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Leah",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Leah_Married": "Susan's going to give me some fresh melons! I'll squeeze some juice for us with our breakfast.$1" }
+	 "Entries": { "CommunityDay_Leah_Married": "ซูซานจะเอาเมลอนสดๆ มาให้ล่ะ! ฉันจะคั้นไว้ให้ตอนมื้อเช้านะ$1" }
 },
 {    //Fall Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Leah",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Leah_Married": "It's cute that I have a date for every festival like this one now. I'm glad we get to experience them together.$0" }
+	 "Entries": { "CommunityDay_Leah_Married": "มันน่ารักมากเลย ที่ฉันมีคู่เดตมางาน แบบนี้ทุกงานแล้ว ฉันดีใจที่พวกเราได้มา ร่วมงานด้วยกันนะ$0" }
 },
 {    //Winter Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Leah",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Leah_Married": "You've always been so supportive of my art, from the moment we met. It's one of the reasons I love you.$4" }
+	 "Entries": { "CommunityDay_Leah_Married": "เธอสนับสนุนงานศิลปะ ของฉันมาตลอดเลย ตั้งแต่ตอนพวกเราเจอกัน มันเป็นเหตุผลนึง ที่ฉันรักเธอล่ะ$4" }
 },
 
 
