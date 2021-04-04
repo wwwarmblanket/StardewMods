@@ -19461,25 +19461,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Jodi",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Jodi": "The furniture in here is so comfortable.$1#$b#I can't believe how much this place has changed from that old trodden-down wreck into a place everyone can come together and enjoy themselves.$0" }
+	 "Entries": { "CommunityDay_Jodi": "เฟอร์นิเจอร์ของที่นี่ เยี่ยมยอดไปเลยล่ะ$1#$b#ไม่อยากจะเชื่อเลยว่า จากซากตึกเก่าๆ แบบนั้น จะเปลี่ยนโฉมมา ได้เยอะถึงขนาดนี้น่ะ$0" }
 },
 {    //Summer Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Jodi",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Jodi": "It's good to see Kent socializing with people in town. I get worried when we're the only ones he sees.$0" }
+	 "Entries": { "CommunityDay_Jodi": "ดีจังเลยนะ ที่ได้เห็นเคนท์ออกมา พูดคุยกับคนในเมืองแบบนี้ ตอนแรกๆ ก็กังวลนิดหน่อยที่เขา เอาแต่ตัวติดกับพวกเรา$0" }
 },
 {    //Fall Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Jodi",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Jodi": "Olivia always looks so stylish.. It makes me feel positively frumpy.$0" }
+	 "Entries": { "CommunityDay_Jodi": "โอลิเวียดูดีมีสไตล์มาก จนบางทีเนี่ยนะ ฉันก็แอบอิจฉาอยู่ตลอด$0" }
 },
 {    //Winter Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Jodi",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Jodi": "I wonder if Kent and I could open a place together someday? Maybe when Vincent is older.$0#$b#I wouldn't mind converting the house into a cute little bed and breakfast...$0" }
+	 "Entries": { "CommunityDay_Jodi": "สงสัยจังเลยว่าถ้าฉัน กับเคนท์ได้อยู่กันลำพัง จะเป็นยังไงนะ? บางทีอาจจะเป็นตอน ที่วินเซนต์โตแล้ว.$0#$b#ฉันไม่คิดมากหรอกนะ เรื่องที่จะเปลี่ยนบ้านหลังนี้ ให้มันน่ารักอบอวลเสมือน กลิ่นของอาหารและธรรมชาติ ในยามเช้า...$0" }
 },
 
 
