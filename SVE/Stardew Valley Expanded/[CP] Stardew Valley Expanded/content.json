@@ -19547,25 +19547,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Kent",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Kent": "You're an adventurer, right? Give it to me straight: do I have what it takes?$0" }
+	 "Entries": { "CommunityDay_Kent": "คุณเป็นนักผจญภัยใช่มั้ย? บอกฉันมาตรงๆ เลย: ฉันมีสิ่งที่ต้องทำหรือไม่?$0" }
 },
 {    //Summer Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Kent",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Kent": "Can't even imagine how much time and money went into fixing this place up. You deserve to relax and enjoy the celebrations.$1" }
+	 "Entries": { "CommunityDay_Kent": "นึกไม่ถึงออกเลยว่า มันใช้เวลาและเงินไปมากเท่าไหร่ ในการซ่อมแซมสถานที่แห่งนี้ คุณสมควรที่จะพักผ่อน และเพลิดเพลินกับงาน เฉลิมฉลองครั้งนี้$1" }
 },
 {    //Fall Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Kent",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Kent": "We have this every month, huh? It's kind of reassuring.$1" }
+	 "Entries": { "CommunityDay_Kent": "เรามีแบบนี้ทุกเดือนเหรอ? เป็นเรื่องที่ทำให้อุ่นใจมาก$1" }
 },
 {    //Winter Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Kent",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Kent": "...Winters are hard.$2" }
+	 "Entries": { "CommunityDay_Kent": "...ฤดูหนาวนี้อย่างหนักเลย$2" }
 },
 
 
