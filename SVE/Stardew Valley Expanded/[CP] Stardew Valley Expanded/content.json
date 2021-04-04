@@ -19649,25 +19649,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Abigail",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Abigail": "Mom and dad sorta dragged me here, but I'm glad they did.$0" }
+	 "Entries": { "CommunityDay_Abigail": "พ่อกับแม่ลากฉันมาที่นี่ แต่จริงๆ ก็ดีแล้วล่ะนะที่มา$0" }
 },
 {    //Summer Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Abigail",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Abigail": "Hey there. Got any Quartz on you? I'm feeling kind of peckish. *giggles*$1" }
+	 "Entries": { "CommunityDay_Abigail": "นี่พวก มีควอตซ์ติดตัวบ้างมั้ย? ฉันรู้สึกหิวนิดหน่อยแหะ * คิกขัก *$1" }
 },
 {    //Fall Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Abigail",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Abigail": "Alex has so much energy... I don't know where it all comes from, but I hate losing.$3#$b#So I'm gonna win this race!$0" }
+	 "Entries": { "CommunityDay_Abigail": "อเล็กซ์เอเนอร์จี้ล้นมาก... ไม่รู้ว่าไปเอาแรงมาจากไหน แต่ฉันจะไม่ยอมแพ้หรอก.$3#$b#ต้องชนะให้ได้เลย!$0" }
 },
 {    //Winter Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Abigail",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Abigail": "Have you been down in the mines recently? Winter might be the perfect time for me to sneak away and try my luck adventuring there.$0#$b#Might go next time I'm supposed to be doing the shop's inventory. Hmm...$3" }
+	 "Entries": { "CommunityDay_Abigail": "ลงมาเหมืองล่าสุดเมื่อไหร่หรอ? ฤดูหนาวดูจะเหมาะเจาะ ที่จะให้ฉันลงมาหาอะไร กับผจญภัยได้ดีเลยล่ะ$0#$b#ไม่แน่นะ ครั้งหน้าฉันจะลองมาเอาดี ทางด้านนี้ดีมั้ยนะ อืมมม...$3" }
 },
 {    //ABIGAIL Community Day Schedule - MARRIED
 	 "Action": "EditData",
