@@ -19426,25 +19426,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Olivia",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Olivia_Married": "Oh, hello, sweetie. Let me know whenever you're ready to get going. I want nothing more than to curl up with you and a glass of wine.$3" }
+	 "Entries": { "CommunityDay_Olivia_Married": "สวัสดีจ้ะที่รัก บอกได้เลยนะถ้าพร้อมแล้ว ฉันไม่ได้อยากได้อะไร นอกจากการนอนกอดคุณ ไปพร้อมกับไวน์ซักแก้วหรอก$3" }
 },
 {    //Summer Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Olivia",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Olivia_Married": "Mmm... Have you talked to Victor yet, sweetie? He looks like he could use a friend.$6" }
+	 "Entries": { "CommunityDay_Olivia_Married": "อืมมม... คุณลองคุยกับวิคเตอร์ ดูแล้วหรือยัง? คงจะดีถ้าเกิดเขาจะมี เพื่อนคุยสักคน$6" }
 },
 {    //Fall Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Olivia",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Olivia_Married": "Fall's here. Beautiful colors, fabulous clothing, and most importantly, time for you and I to break out the bottles of red at the end of the day.$3" }
+	 "Entries": { "CommunityDay_Olivia_Married": "ฤดูใบไม้ร่วงมาถึงแล้ว สีสันที่งดงาม เสื้อผ้าที่เลอค่า และที่สำคัญที่สุดเลยนะ ก็คือได้ใช้เวลากับคุณ คู่กับไวน์แดงดีๆ สักขวด$3" }
 },
 {    //Winter Dialogue - MARRIED
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Olivia",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Olivia_Married": "Listening to Caroline talk about herself and Pierre reminds me of us. You and I are a team, too, sweetie.$3" }
+	 "Entries": { "CommunityDay_Olivia_Married": "เวลาได้ฟังแคโรไลน์ เล่าเรื่องของตัวเองและปิแอร์ ก็ทำให้ฉันนึกถึงเรื่อง ของเราสองคนขึ้นมาเลย$3" }
 },
 
 
