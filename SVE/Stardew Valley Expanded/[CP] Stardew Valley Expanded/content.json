@@ -19547,7 +19547,7 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Kent",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Kent": "คุณเป็นนักผจญภัยใช่มั้ย? บอกฉันมาตรงๆ เลย: ฉันมีสิ่งที่ต้องทำหรือไม่?$0" }
+	 "Entries": { "CommunityDay_Kent": "คุณเป็นนักผจญภัยใช่มั้ย? บอกผมมาตามตรง คุณคิดว่าผมมีดีพอ ที่จะเป็นได้ บ้างรึเปล่า?$0" }
 },
 {    //Summer Dialogue
 	 "Action": "EditData",
@@ -20897,7 +20897,7 @@
       "Target": "Characters/Dialogue/Kent",
 	  "When": { "Hearts:Kent": "{{Range: 0, 5}}" },
       "Entries": {
-	  "Town_37_103": "I feel like all I can do now is think about the past. I can't move away from it...$2"
+	  "Town_37_103": "ตอนนี้ผมรู้สึกได้แค่ว่า สิ่งที่ผมทำได้ตอนนี้ มีแค่คิดถึงเรื่องราวในอดีต ผมไม่อาจ หลีกหนีจากมันได้...$2"
 	  },
 },
 	 
@@ -20906,7 +20906,7 @@
       "Target": "Characters/Dialogue/Kent",
 	  "When": { "Hearts:Kent": "{{Range: 6, 14}}" },
       "Entries": {
-	  "Town_37_103": "Jodi made my favorite meal last night. It made me... happy.$1"
+	  "Town_37_103": "โจดี้ทำเมนูอาหาร ที่ผมชอบที่สุดเมื่อคืนนี้ มันทำให้ผม... มีความสุข$1"
 	  },
 },
 
@@ -21029,7 +21029,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Linus",
       "Entries": {
-	  "Railroad_14_19": "เคตรา... เธอเป็นเพื่อนที่น่ารักของฉัน$2#$b#ฉันรู้จักเธอ ก่อนที่เธอจะมาร่วม สมาคมนักผจญภัยซะอีก$2",
+	  "Railroad_14_19": "เคตรา... เธอเป็นเพื่อน ที่น่ารักของฉัน$2#$b#ฉันรู้จักเธอ ก่อนที่เธอจะมาร่วม สมาคมนักผจญภัยซะอีก$2",
 	  },
 },
 
@@ -21397,7 +21397,7 @@
 	 "Action": "EditData",
 	 "Target": "data/events/Custom_MarnieShed",
 	 "Entries": { 
-     "1000026/f Marnie 2000/t 900 2000": "none/-500 -500/farmer -200 -200 0 Marnie 13 5 1/skippable/positionOffset Marnie 0 -15/pause 500/viewport 10 6 true/playMusic jaunty/pause 1500/textAboveHead Marnie \"อีกหกชั่วโมง...\"/pause 400/playSound bubbles/pause 2500/move Marnie 0 1 1/pause 1300/textAboveHead Marnie \"อืม... สามชั่วโมงสำหรับเธอ\"/pause 1450/playSound bubbles/pause 1500/playSound doorClose/warp farmer 6 9/pause 400/move Marnie 0 0 3/pause 250/textAboveHead Marnie \"โอ้! สวัสดี!\"/pause 100/move farmer 0 -3 1/pause 550/playSound bubbles/move farmer 5 0 1/pause 500/speak Marnie \"ดีใจที่ได้พบเธอ @! ฉันไม่ค่อยให้ผู้คนมา เยี่ยมชมโรงเก็บของฉัน$1\"/pause 1100/move Marnie 0 0 1/pause 1350/move Marnie 0 0 3/pause 1250/speak Marnie \"ฉันกำลังตรวจสอบชีส$0#$b#เมื่อวาน วัวของฉันผลิตน้ำนม เป็นจำนวนมาก มีชีสให้ทำมากมาย!$1\"/pause 900/move Marnie -1 0 3/pause 300/textAboveHead Marnie \"ฉันขอโทษด้วย!\"/pause 700/move farmer 0 1 0/pause 400/move Marnie -3 0 3/move farmer 0 0 3/move Marnie -2 0 3/move Marnie 0 -1 0/pause 500/textAboveHead Marnie \"อืม...\"/pause 400/emote farmer 8/pause 450/move farmer -2 0 0/move farmer 0 -2 3/pause 1200/speak Marnie \"ฉันจัดส่งผลิตภัณฑ์ของฉัน ไปหลายแห่ง แกรมเพิลตันไม่มีปศุสัตว์ ดังนั้นพวกเขา มักจะสั่งซื้อนมสด\"/pause 500/emote Marnie 40/pause 400/move Marnie 0 0 1/pause 400/speak Marnie \"Since you're here, how about I teach you how to make a 'cheese wheel'?$0\"/pause 500/jump farmer/pause 700/speak Marnie \"Okay! Mind grabbing the 2-gallon pot and the ladle behind you, @?$1\"/pause 500/emote farmer 32 true/pause 400/globalFade/viewport -1000 -1000/pause 1000/playSound reward/message \"Marnie taught me about cheese wheels! Cheese now sells for a higher price!\"/stopMusic/pause 1000/end dialogue Marnie \"I hope you can make good use out of that technique I taught you.$1\""
+     "1000026/f Marnie 2000/t 900 2000": "none/-500 -500/farmer -200 -200 0 Marnie 13 5 1/skippable/positionOffset Marnie 0 -15/pause 500/viewport 10 6 true/playMusic jaunty/pause 1500/textAboveHead Marnie \"อีกหกชั่วโมง...\"/pause 400/playSound bubbles/pause 2500/move Marnie 0 1 1/pause 1300/textAboveHead Marnie \"อืม... สามชั่วโมงสำหรับเธอ\"/pause 1450/playSound bubbles/pause 1500/playSound doorClose/warp farmer 6 9/pause 400/move Marnie 0 0 3/pause 250/textAboveHead Marnie \"โอ้! สวัสดี!\"/pause 100/move farmer 0 -3 1/pause 550/playSound bubbles/move farmer 5 0 1/pause 500/speak Marnie \"ดีใจที่ได้พบเธอ @! ฉันไม่ค่อยให้ผู้คนมา เยี่ยมชมโรงเก็บของฉัน$1\"/pause 1100/move Marnie 0 0 1/pause 1350/move Marnie 0 0 3/pause 1250/speak Marnie \"ฉันกำลังตรวจสอบชีส$0#$b#เมื่อวาน วัวของฉันผลิตน้ำนม เป็นจำนวนมาก มีชีสให้ทำมากมาย!$1\"/pause 900/move Marnie -1 0 3/pause 300/textAboveHead Marnie \"ฉันขอโทษด้วย!\"/pause 700/move farmer 0 1 0/pause 400/move Marnie -3 0 3/move farmer 0 0 3/move Marnie -2 0 3/move Marnie 0 -1 0/pause 500/textAboveHead Marnie \"อืม...\"/pause 400/emote farmer 8/pause 450/move farmer -2 0 0/move farmer 0 -2 3/pause 1200/speak Marnie \"ฉันจัดส่งผลิตภัณฑ์ของฉัน ไปหลายแห่ง แกรมเพิลตันไม่มีปศุสัตว์ ดังนั้นพวกเขา มักจะสั่งซื้อนมสด\"/pause 500/emote Marnie 40/pause 400/move Marnie 0 0 1/pause 400/speak Marnie \"ในเมื่อเธอมาอยู่ที่นี้แล้ว ให้ฉันสอนเธอทำ ชีสก้อนกลม (cheese wheel) เอามั้ย?$0\"/pause 500/jump farmer/pause 700/speak Marnie \"เอาล่ะ! ช่วยหยิบ โถขนาด 2 แกลลอน แล้วก็ ทัพพี ที่อยู่ด้านหลังเธอ มาหน่อยได้มั้ยจ๊ะ @?$1\"/pause 500/emote farmer 32 true/pause 400/globalFade/viewport -1000 -1000/pause 1000/playSound reward/message \"มานีฉันเรื่อง ชีสก้อนกลม! ตั้งแต่นี้ ราคาขายชีส จะมีมูลค่าสูงขึ้น!\"/stopMusic/pause 1000/end dialogue Marnie \"หวังว่าเธอจะเอาเทคนิค ที่ฉันสอนให้นี้ ไปใช้ประโยนช์ได้นะ$1\""
 	 },
 },
 
@@ -21406,8 +21406,8 @@
      "Target": "Data/objectinformation",
      "When": { "HasSeenEvent": "1000026" },
 	 "Fields": {
-	 "424": { 2: 100, 4: "Cheese Wheel", 5: "Cured cheese in the shape of a wheel." },
-	 "426": { 2: 130, 4: "Goat Cheese Wheel", 5: "Cured goat cheese formed into a wheel." }
+	 "424": { 2: 100, 4: "Cheese Wheel", 5: "(ชีสก้อนกลม) ชีสที่ถูกเก็บรักษาไว้ ในรูปทรงกลมเหมือนล้อรถ" },
+	 "426": { 2: 130, 4: "Goat Cheese Wheel", 5: "(ชีสนมแพะก้อนกลม) ชีสนมแพะที่ถูกเก็บรักษาไว้ ในรูปทรงกลมเหมือนล้อรถ" }
 	 },
 },
 
@@ -21537,7 +21537,7 @@
     "Target": "data/events/forest",
 	"When": { "SkillLevel:Fishing": "8, 9, 10" },
     "Entries": {
-    "1054933/z winter/z fall/w sunny/t 600 1600": "continue/-500 -500/farmer 20 61 2 Willy 20 80 0 Andy 46 70 0 Marnie 55 21 2 Wizard 10 24 0/viewport 20 61 true/viewport move 0 2 4000 true/skippable/move farmer 0 8 2 true/move Willy 0 -8 0 true/pause 3000/speak Willy \"Ahoy, @!$1\"/pause 400/emote farmer 32/speak Willy \"I'm returning from a fishing trip deep in Cindersap Forest.$1#$b#There's a river filled with 'King Salmon' this time of year.$0#$b#Take a gander at this beauty!$1\"/pause 500/faceDirection Willy 3 true/pause 400/showFrame Willy 13 true/shake Willy 400/pause 100/addObject 19 71 {{spacechase0.JsonAssets/ObjectId:King Salmon}}/playSound fishSlap/pause 300/showFrame Willy 12 true/pause 200/emote farmer 16 true/pause 250/faceDirection Willy 0 true/pause 500/move farmer 0 1 3/move farmer -1 0 2/pause 500/speak Willy \"She was quite the mighty catch!$0#$b#She'll sell for some good coin on the market!$1\"/pause 500/faceDirection Willy 3 true/pause 300/showFrame Willy 13 true/shake Willy 400/pause 100/removeSprite 19 71/playSound fishSlap/pause 300/showFrame Willy 12 true/pause 400/faceDirection Willy 0 true/pause 350/speak Willy \"If you're feelin' the anglin' spirit, try catching one of these beauties!$1\"/pause 400/end dialogue Willy \"Ahoy, @. Did you catch any king salmons?$0\""
+    "1054933/z winter/z fall/w sunny/t 600 1600": "continue/-500 -500/farmer 20 61 2 Willy 20 80 0 Andy 46 70 0 Marnie 55 21 2 Wizard 10 24 0/viewport 20 61 true/viewport move 0 2 4000 true/skippable/move farmer 0 8 2 true/move Willy 0 -8 0 true/pause 3000/speak Willy \"อะห้อย @!$1\"/pause 400/emote farmer 32/speak Willy \"ฉันพึ่งจะกลับมาจากทริป ตกปลาที่ป่าซินเดอร์แซป$1#$b#แม่น้ำที่นั่น จะมีแซลมอนจักรพรรดิ์ (King Salmon) ในช่วงนี้ของปีน่ะนะ$0#$b#ลองดูความงดงามนี่สิ!$1\"/pause 500/faceDirection Willy 3 true/pause 400/showFrame Willy 13 true/shake Willy 400/pause 100/addObject 19 71 {{spacechase0.JsonAssets/ObjectId:King Salmon}}/playSound fishSlap/pause 300/showFrame Willy 12 true/pause 200/emote farmer 16 true/pause 250/faceDirection Willy 0 true/pause 500/move farmer 0 1 3/move farmer -1 0 2/pause 500/speak Willy \"เธอดูยั่วยวนน่าจับซะจริง!$0#$b#เธอสามารถทำเงินได้ดี ในตลาดเลยด้วย!$1\"/pause 500/faceDirection Willy 3 true/pause 300/showFrame Willy 13 true/shake Willy 400/pause 100/removeSprite 19 71/playSound fishSlap/pause 300/showFrame Willy 12 true/pause 400/faceDirection Willy 0 true/pause 350/speak Willy \"หากเธอเข้าถึง จิตวิญญาณ แห่งการตกปลาแล้ว ลองไปจับเจ้าพวก ตัวที่แสนงดงามแบบนี้ดูสิ!$1\"/pause 400/end dialogue Willy \"อะห้อย @ จับแซลมอนจักรพรรดิ์ ได้บ้างรึยังล่ะ Did you catch any king salmons?$0\""
     },
 },
 
