@@ -19991,25 +19991,25 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Susan",
 	 "When": { "Season": "Spring", "Season |contains=Summer, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Susan": "Once these little sprouts I started in here are strong enough, I'll plant them in the community garden.$0" }
+	 "Entries": { "CommunityDay_Susan": "ถ้าเจ้าหนูน้อยนี่ แข็งแรงจนได้ที่แล้ว ฉันจะเอามันไปปลูก ในสวนของชุมชนละกัน$0" }
 },
 {    //Summer Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Susan",
 	 "When": { "Season": "Summer", "Season |contains=Spring, Fall, Winter": false },
-	 "Entries": { "CommunityDay_Susan": "Are you growing melons this season? I just promised Leah a few from my next batch - I think she'll really enjoy them!$0" }
+	 "Entries": { "CommunityDay_Susan": "เดือนนี้ได้ปลูกเมล่อนมั้ย? ฉันเพิ่งจะสัญญากับ ลีอาห์ไปเอง ว่าจะเอาให้เธอสัก- ก็หวังว่าเธอจะชอบมันนะ!$0" }
 },
 {    //Fall Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Susan",
 	 "When": { "Season": "Fall", "Season |contains=Spring, Summer, Winter": false },
-	 "Entries": { "CommunityDay_Susan": "During the fall, I get so antsy when I step away from the farm.$4#$b#So many crops in the ground, and so close to the time for frost! I'm worried about my babies.$0" }
+	 "Entries": { "CommunityDay_Susan": "ช่วงฤดูใบไม้ร่วง ฉันจะรู้สึกประหม่าตลอดเลย เวลาออกจากฟาร์ม$4#$b#ไม่ว่าจะพืชผลพวกนั้น แถมก็ใกล้จะเข้าฤดูหนาว แล้วก็เรื่องลูกของฉันด้วย$0" }
 },
 {    //Winter Dialogue
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Susan",
 	 "When": { "Season": "Winter", "Season |contains=Spring, Summer, Fall": false },
-	 "Entries": { "CommunityDay_Susan": "I get a little lonely in the winter, when everything's so dark and dreary. I know the world's just sleeping, but the nights seem so long...$2#$b#This event has revitalized me a little.$0#$b#Thank you for helping to make it happen.$1" }
+	 "Entries": { "CommunityDay_Susan": "ช่วงฤดูหนาวนี่เหงาจับใจเลยนะ ยิ่งพอพระอาทิตย์ตกดิน ทุกอย่างก็น่าเบื่อไปหมด ค่ำคืนนี่มันยาวนานจังเลยน้า...$2#$b#แต่วันพบปะชุมชน ทำให้ฉันกระปี้กระเปร่า ขึ้นมาเยอะเลยล่ะ$0#$b#ขอบคุณมากเลยนะ ที่ทำให้มันเกิดขึ้นจริง$1" }
 },
 
 
