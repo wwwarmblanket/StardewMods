@@ -20683,9 +20683,9 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Haley",
       "Entries": { 
-	  "JoshHouse_10_21": "Hi, Alex. What do you wanna do today?$0",
-	  "Town_52_69": "Oh my GOD! Dusty is just adorable!$1",
-	  "Saloon_32_18": "Is it my turn now?$1",
+	  "JoshHouse_10_21": "ไง อเล็กซ์ วันนี้อยากทำอะไรเหรอ?$0",
+	  "Town_52_69": "โอ้ พระเจ้า! ดัสตี้น่ารักมากเลย!$1",
+	  "Saloon_32_18": "ถึงตาฉันยังอะ?$1",
 	  },
 },
 
