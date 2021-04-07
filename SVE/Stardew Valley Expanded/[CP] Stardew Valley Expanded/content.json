@@ -5313,7 +5313,7 @@
 {    //Changes perfection string
 	 "Action": "EditData",
      "Target": "Strings/UI",
-     "Entries": { "Chat_Eternal3": "คุณรู้สึกเหมือนยอดเขา กำลังส่งเสียงเรียกคุณ..." }
+     "Entries": { "Chat_Eternal3": "คุณรู้สึกเหมือนกับว่ายอดเขา กำลังส่งเสียงเรียกคุณ..." }
 },
 
 {    //Summit SVE spouse dialogue additions
