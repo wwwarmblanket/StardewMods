@@ -7,7 +7,7 @@
 	"Knockback": 1.0,
 	"Speed": 10,
 	"Accuracy": 100,
-	"Defense": 15,
+	"Defense": 20,
 	"MineDropVar": 0,
 	"MineDropMinimumLevel": -1,
 	"ExtraSwingArea": -1,
