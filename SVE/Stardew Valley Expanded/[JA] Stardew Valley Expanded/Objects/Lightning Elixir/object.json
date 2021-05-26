@@ -1,6 +1,6 @@
 {
 	"Name": "Lightning Elixir",
-	"Description": "Enables you to run extremely quickly for one minute. Stacks with attack and defense potions.",
+	"Description": "(น้ำยาซิ่งสายฟ้า) ทำให้คุณวิ่งแบบเร็วโครตๆ ในเวลา 1 นาที ใช้ร่วมกับน้ำยาเพิ่มพลังโจมตี และน้ำยาเพิ่มพลังป้องกันได้",
 	"Category": "ArtisanGoods",
 	"Edibility": 1,
 	"EdibleIsDrink": true,
