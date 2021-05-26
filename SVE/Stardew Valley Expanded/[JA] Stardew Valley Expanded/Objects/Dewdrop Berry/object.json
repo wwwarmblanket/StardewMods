@@ -1,7 +1,7 @@
 {
 	"Name": "Dewdrop Berry",
 	"Price": 45,
-	"Description": "An aromatic enchanting fruit grown in my Nexus. Grants magical abilities until the next sunrise.",
+	"Description": "(เบอรี่หยดน้ำค้าง) ผลไม้แสนหอมหวาน ที่ปลูกในโลก Nexus ของฉัน จะได้รับพลังเวทมนตร์ จนกว่าจะถึงเช้าวันถัดไป",
 	"Category": "Fruit",
 	"Edibility": 90,
 	"Recipe": null,
