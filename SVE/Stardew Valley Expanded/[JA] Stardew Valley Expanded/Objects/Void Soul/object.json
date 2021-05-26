@@ -1,6 +1,6 @@
 {
 	"Name": "Void Soul",
-	"Description": "The corrupted life essence of what once was. It's a key ingredient in potion brewing.",
+	"Description": "(ดวงวิญญาณในความมืด) ดวงจิตแห่งชีวิต ที่บิดเบี้ยวไปจากครั้งหนึ่ง ที่มันควรจะเป็น เป็นกุญแจสำคัญ ที่ใช้ในการปรุงยา",
 	"Category": "MonsterLoot",
 	"Edibility": -300,
 	"EdibleIsDrink": false,
