@@ -1,6 +1,6 @@
 {
 	"Name": "Gravity Elixir",
-	"Description": "The radius at which you draw in objects is greatly increased. The effects last until the following sunrise, and stack with attack and defense potions.",
+	"Description": "(น้ำยาดูดจักรวาล) เพิ่มรัศมีการดูดวัตถุเข้าหาตัว ผลของบัพจะอยู่จนกว่า จะถึงเช้าวันถัดไป ใช้ร่วมกับน้ำยาเพิ่มค่าพลังโจมตี และพลังป้องกันได้",
 	"Category": "ArtisanGoods",
 	"Edibility": 1,
 	"EdibleIsDrink": true,
