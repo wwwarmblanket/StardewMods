@@ -1,6 +1,6 @@
 {
 	"Name": "Aegis Elixir",
-	"Description": "For a brief time, you become immune to damage. Stacks with speed potions.",
+	"Description": "(น้ำยาผู้พิทักษ์) ในช่วงเวลาสั้นๆ คุณจะมีความทนทาน ต่อความเสียหายทั้งหมด สามารถใช้ร่วมกับ น้ำยาเพิ่มความเร็ว ในการเคลื่อนที่",
 	"Category": "ArtisanGoods",
 	"Edibility": 1,
 	"EdibleIsDrink": false,
