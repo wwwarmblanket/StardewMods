@@ -1,6 +1,6 @@
 {
 	"Name": "Barbarian Elixir",
-	"Description": "Doubles your attack damage for one minute. Stacks with speed potions.",
+	"Description": "(น้ำยาคนเถื่อน) เพิ่มค่าพลังโจมตีเป็น 2 เท่า เป็นเวลา 1 นาที สามารถใช้ร่วมกับ น้ำยาเพิ่มความเร็วใน การเคลื่อนที่",
 	"Category": "ArtisanGoods",
 	"Edibility": 1,
 	"EdibleIsDrink": false,
