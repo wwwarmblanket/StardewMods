@@ -5373,7 +5373,7 @@
     "Entries": {
        "Apples_Name": "Aurora Vineyard",
        "Apples_Text": "วิญญานแห่งป่า กำลังร้องขอ สตาร์ฟรุ๊ต (Starfruit)",
-       "Apples_Objective_1_Text": "นำ สตาร์ฟรุ๊ต (Starfruit) ไววางไว้ บนแผ่นหินของจูนิโม่ ที่ไร่องุ่นออโรร่า",
+       "Apples_Objective_1_Text": "นำ สตาร์ฟรุ๊ต (Starfruit) ไปวางไว้ บนแผ่นหินของจูนิโม่ ที่ไร่องุ่นออโรร่า",
 	}
 },
 
@@ -5496,7 +5496,10 @@
    "SophiaThankYouLetter": "นี่ คุณ^^ ขอบคุณที่ช่วยฉันซ่อมแซมห้องของคุณพ่อคุณแม่ใหม่นะ ฉันคงทำเองไม่ได้ถ้าไม่มีคุณช่วย โดยเฉพาะพวกของหนักๆ ฉันรู้ว่ามันแปลกที่ฉันรื้อข้าวของที่ห่อเก็บไปหมดแล้ว ออกมาใหม่... ฉันคิดว่ามันคือการเปลี่ยนแปลงตัวเอง ^ในห่อนี้เป็นไวน์บลูมูนที่ดีที่สุดที่ฉันบ่มไว้ ขอบคุณนะ ตาทึ่ม^^  -โซเฟีย %item object {{spacechase0.JsonAssets/ObjectId:Aged Blue Moon Wine}} 1 %%",
    "escortedGunther": "ถึง @,^^ที่แนบมาด้วยเป็นค่าตอบแทนสำหรับงานของคุณ ขอบคุณสำหรับการช่วยเหลือในงานวิจัย และความปลอดภัยของผมนะ^^ -กันเธอร์ %item money 20000 20001 %%",
    "harveyBalloon": "@,^ผมมีเซอร์ไฟส์ให้คุณนะ มาเจอผมที่ทุ่งแกรมเพิลตันนะครับ ข้ามสะพานเชียร์วอเทอร์มานะครับ!^   -ฮาร์วี[#]เซอร์ไพส์จากฮาร์วีย์",
-   "JojaSeeds": "เรียน ผู้มีอุปการะคุณ ^^ขอบคุณสำหรับการปรับปรุงคลังสินค้า จากนี้ไป ร้านโจจ้า จะขายเมล็ดพันธุ์ทุกชนิดตลอดทั้งปี! เราคือโจจ้า คู่คิดธุรกิจคุณ^^   -มอร์ริส"
+   "JojaSeeds": "เรียน ผู้มีอุปการะคุณ ^^ขอบคุณสำหรับการปรับปรุงคลังสินค้า จากนี้ไป ร้านโจจ้า จะขายเมล็ดพันธุ์ทุกชนิดตลอดทั้งปี! เราคือโจจ้า คู่คิดธุรกิจคุณ^^   -มอร์ริส",
+   "MysteriousWizardLetter": "@,^^Meet me in the forest west of my tower at 2:00 PM sharp today. There's something we must discuss. Come alone.",
+   "ThiefOfJusticeMovie": "You are cordially invited to attend a very special early showing of:^^THE THIEF OF JUSTICE^STARRING CLAIRE WHITLEY^^Premiering tonight at the theater at 5 PM."
+
 	}
 },
 
@@ -5546,7 +5549,8 @@
 		  "1337005/f Marlon 2500/x MarlonLetterPotions": "null",
 		  "1337306/e 1000035/f Wizard 1000/x ShrineOfIllusionsLetter": "null",
 		  "1337307/e 5000005/f Andy 2500/x AndyPictureLetter": "null",
-		  "1337308/e 502261/x JojaSeeds": "null"
+		  "1337308/e 502261/x JojaSeeds": "null",
+		  "1337310/e 4269703/x ThiefOfJusticeMovie": "null",
 		  }
 },
 
@@ -5558,6 +5562,16 @@
       "Entries": {
           "4164189/x OliviaDatingLetter": "null",
 		  "4164253/e 8982805/f Olivia 2500/x OliviaPartyLetter": "null"
+		  }
+},
+
+{
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+	  "When": {
+      "Relationship:Wizard": "Dating, Engaged, Married" },
+      "Entries": {
+          "1337309/f Wizard 2500/x MysteriousWizardLetter": "null"
 		  }
 },
 
@@ -5640,6 +5654,11 @@
      "Action": "Load",
 	 "Target": "Data/Events/Custom_BlueMoonVineyard",
 	 "FromFile": "assets/XNBs/BlueMoonVineyard.xnb"
+},
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Custom_EnchantedGrove",
+	 "FromFile": "assets/XNBs/EnchantedGrove.xnb"
 },
 {
      "Action": "Load",
@@ -5822,22 +5841,21 @@
      "Action": "Load",
 	 "Target": "Maps/Town",
 	 "FromFile": "Assets/maps/locations/Town.tbin",
-	 //"When": { "HasSeenEvent |contains=5553210": false }
+	 "When": { "HasSeenEvent |contains=5553210": false }
 },
-/*{
+{
      "Action": "Load",
 	 "Target": "Maps/Town",
 	 "FromFile": "Assets/maps/locations/Town_Joja.tbin",
 	 "When": { "HasSeenEvent": "5553210" }
-},*/
-{
+},
+/*{
      "Action": "EditMap",
 	 "Target": "Maps/Town",
 	 "FromFile": "Assets/maps/locations/Town_Joja.tbin",
 	 "ToArea": { "X": 0, "Y": 0,"Width": 128, "Height": 116 },
 	 "When": { "HasSeenEvent": "5553210" }
-},
-
+},*/
 {    //Dynamic town lights
      "Action": "EditMap",
      "Target": "Maps/town",
@@ -5871,6 +5889,8 @@
      "Target": "Maps/Town",
      "When": { "HasSeenEvent": "5553210" },
      "MapProperties": { 
+	 "DayTiles": "AlwaysFront 33 53 907 AlwaysFront 11 7 907 AlwaysFront 27 7 907 AlwaysFront 21 20 907 AlwaysFront 31 20 907 AlwaysFront 21 27 907 AlwaysFront 31 27 907 AlwaysFront 24 50 907 AlwaysFront 17 50 907 AlwaysFront 4 50 907 AlwaysFront 24 58 907 AlwaysFront 20 64 907 AlwaysFront 27 72 907 AlwaysFront 30 72 907 AlwaysFront 38 64 907 AlwaysFront 27 86 907 AlwaysFront 14 86 907 AlwaysFront 1 86 907 AlwaysFront 25 111 369 AlwaysFront 52 98 907 AlwaysFront 56 98 907 AlwaysFront 50 77 907 AlwaysFront 37 77 907 AlwaysFront 52 49 907 AlwaysFront 86 56 907 Buildings 41 69 560 Buildings 92 79 186 AlwaysFront 92 68 907 AlwaysFront 112 68 907 AlwaysFront 127 68 907 AlwaysFront 108 41 907 AlwaysFront 113 41 907 AlwaysFront 79 8 907 AlwaysFront 69 22 907 AlwaysFront 56 22 907 AlwaysFront 49 22 907 AlwaysFront 41 33 907 AlwaysFront 54 33 907 AlwaysFront 71 90 907 AlwaysFront 95 90 907",  
+	 "NightTiles": "AlwaysFront 33 53 908 AlwaysFront 11 7 908 AlwaysFront 27 7 908 AlwaysFront 21 20 908 AlwaysFront 31 20 908 AlwaysFront 21 27 908 AlwaysFront 31 27 908 AlwaysFront 24 50 908 AlwaysFront 17 50 908 AlwaysFront 4 50 908 AlwaysFront 24 58 908 AlwaysFront 20 64 908 AlwaysFront 27 72 908 AlwaysFront 30 72 908 AlwaysFront 38 64 908 AlwaysFront 27 86 908 AlwaysFront 14 86 908 AlwaysFront 1 86 908 AlwaysFront 25 111 368 AlwaysFront 52 98 908 AlwaysFront 56 98 908 AlwaysFront 50 77 908 AlwaysFront 37 77 908 AlwaysFront 52 49 908 AlwaysFront 86 56 908 Buildings 41 69 653 Buildings 92 79 190 AlwaysFront 92 68 908 AlwaysFront 112 68 908 AlwaysFront 127 68 908 AlwaysFront 108 41 908 AlwaysFront 113 41 908 AlwaysFront 79 8 908 AlwaysFront 69 22 908 AlwaysFront 56 22 908 AlwaysFront 49 22 908 AlwaysFront 41 33 908 AlwaysFront 54 33 908 AlwaysFront 71 90 908 AlwaysFront 95 90 908",
 	 "Light": "24 52 4 24 60 4 33 55 4 20 66 4 38 66 4 27 74 4 30 74 4 27 88 4 37 79 4 50 79 4 52 100 4 56 100 4 118 16 4 71 67 4 92 79 4 94 52 4 97 52 4 11 9 4 27 9 4 1 88 4 14 88 4 86 58 4 87 45 4 88 45 4 17 52 4 4 52 4 52 51 4 36 49 4 41 51 4 41 69 4 12 84 4 24 87 4 59 48 4 57 60 4 63 83 4 92 79 4 101 87 4 108 6 1 112 7 1 111 10 1 97 49 4 94 49 4 31 22 4 31 29 4 21 29 4 21 22 4 41 35 4 54 35 4 49 24 4 56 24 4 69 24 4 79 10 4 92 70 4 112 70 4 108 43 4 113 43 4 107 28 4 114 28 4 108 23 4 111 23 4 106 21 4 109 21 4 112 21 4 115 22 4 110 28 4 111 28 4 71 92 4 95 92 4 127 70 4 25 113 4",
 	 }
 },
@@ -6159,11 +6179,6 @@
 },
 {
      "Action": "Load",
-	 "Target": "Maps/SkullCave",
-	 "FromFile": "Assets/maps/locations/SkullCave.tbin"
-},
-{
-     "Action": "Load",
 	 "Target": "Maps/Trailer",
 	 "FromFile": "Assets/maps/locations/Trailer.tbin"
 },
@@ -6313,13 +6328,21 @@
      "Action": "Load",
 	 "Target": "Maps/Town-TheaterCC",
 	 "FromFile": "Assets/Maps/MapPatches/Town-TheaterCC.tbin",
-	 "When": { "HasSeenEvent |contains=5553210": false}
+	 "When": { "HasSeenEvent |contains=5553210": false }
 },
 {
      "Action": "Load",
 	 "Target": "Maps/Town-TheaterCC",
 	 "FromFile": "Assets/Maps/MapPatches/Town-TheaterCC_Pavement.tbin",
 	 "When": { "HasSeenEvent": "5553210" }
+},
+{
+     "Action": "EditMap",
+	 "Target": "Maps/Town",
+	 "FromFile": "Assets/Maps/MapPatches/Town-TheaterCC_Fix.tbin",
+	 "When": { "HasFlag": "ccMovieTheaterJoja", "HasSeenEvent |contains=5553210": false },
+	 "PatchMode": "Overlay",
+	 "ToArea": { "X": 51, "Y": 25, "Width": 4, "Height": 4 }
 },
 {
      "Action": "EditMap",
@@ -6629,8 +6652,8 @@
         "MovieTheater_Gunther2": "%It smells like buttered popcorn!",
         "MovieTheater_Marlon": "%Gil is sleeping.",
         "MovieTheater_Marlon2": "%Gil is taking it easy.",
-		"MovieTheater_Morris": "%There's free Joja cola.",
-        "MovieTheater_Morris2": "%There's free Joja cola.",
+		"MovieTheater_Morris": "%There's free Joja Cola.",
+        "MovieTheater_Morris2": "%There's free Joja Cola.",
 	 }
 },
 
@@ -6686,6 +6709,14 @@
      "FromFile": "Assets/Maps/MapPatches/WizardBasement_GrampletonFields.tbin",
 	 "When": { "HasMod": "flashshifter.GrampletonFields" },
      "ToArea": { "X": 20, "Y": 18, "Width": 1, "Height": 1 }
+},
+
+{ 
+	 //Overrides grampleton fields music que during rainy days
+     "Action": "EditMap",
+      "Target": "Maps/Custom_GrampletonFields",
+	  "When": { "Weather |contains=Rain, Storm": true, "HasMod |contains=flashshifter.GrampletonFields": true },
+      "MapProperties": { "Music": "rain" }
 },
 
 {    //Removes warping ability until players see wizard basement event
@@ -6787,15 +6818,6 @@
      "Entries": { "SoundInTheNight_Earthquake": "เกิดการระเบิดขึ้นในกลางดึก..." }
 },
 
-{   //Patches purple star icon to down arrow for sign usage
-    "Action": "EditImage",
-    "Target": "LooseSprites/font_bold",
-    "FromFile": "assets/Tilesheets/DownArrow.png",
-	"ToArea": { "X": 104, "Y": 19, "Width": 8, "Height": 10 },
-    "When": { "LocationName": "Custom_BlueMoonVineyard, Backwoods, Forest" },
-    "Update": "OnLocationChange"
-},
-
 {    //dynamic adventurer summit dock lantern
      "Action": "EditMap",
      "Target": "Maps/Custom_AdventurerSummit",
@@ -6835,7 +6857,8 @@
 	    "SummitEvent_Dialogue3_Sophia": "นี่ คนบ๊อง...$1\"/pause 500/faceDirection farmer 1/pause 350/speak Sophia \"ขอบคุณนะ ที่คอยเติมเต็ม ให้แต่ละวันของเค้า มีแต่ความสุข และคอยปลอบใจเค้า วันวันที่เค้าท้อแท้$1#$b#มันดีมากเลยที่รู้ว่า ยังมีใครคนนึง รอเค้าอยู่ในที่ตรงนั้นเสมอ$9\"/pause 500/faceDirection Sophia 3/pause 300/speak Sophia \"เค้ามีความสุขมาก ที่ได้ใช้ชีวิตชาวไร่ ร่วมกับตัวเองนะ$4",
 		"SummitEvent_Dialogue3_Victor": "ผมยังจำได้ดีเลยครับ ครั้งสุดท้าย ที่เราได้ขึ้นมาบนนี้ พวกเราผ่านอะไร มามากมายนับตั้งแต่วันนั้น เวลาผ่านไปไวจนน่าตกใจจริงๆ ครับ$1#$b#ไม่มีที่ไหนอีกแล้ว ที่ผมอยากอยู่กับคุณ ในช่วงเวลานี้$3\"/pause 500/faceDirection Victor 3/pause 300/faceDirection farmer 1/pause 150/speak Victor \"ขอบคุณที่เดินเข้ามา ในชีวิตของผม และทำให้ทุกวันเหมือนเป็น การผจญภัยเสมอ$1", 
 		"SummitEvent_Dialogue3_Olivia": "หลายปีที่ผ่านมานี้ ฉันไม่เคยเสียดายเลย แม้แต่ครั้งเดียว ที่เลือกจะใช้ชีวิตที่เหลืออยู่ กับคุณ$3\"/pause 500/faceDirection Olivia 3/pause 500/faceDirection farmer 1/pause 300/speak Olivia \"ฉันปรารถนาว่า จะสามารถแสดงให้คุณเห็นได้ ว่าฉันมองคุณยังไง ผ่านดวงตาคู่นี้ของฉัน$3#$b#แค่เพียงคุณสามารถรู้สึกได้ว่า คุณมีความหมายกับฉัน มากขนาดไหน และฉันรักคุณมากมาย ขนาดไหน$4", 
-		"SummitEvent_Dialogue3_Claire": "การเลือกทำงานกับร้านโจจ้า เป็นการตัดสินใจ ที่ถูกต้องที่สุด ที่ฉันเคยทำมา$1#$b#ก็เหมือนกับการแสดง คุณไม่มีทางรู้หรอกว่า อนาคตจะเป็นแบบไหน หรือ หนึ่งในตัวเลือกพวกนั้น จะเป็นชีวิตคุณ ไปตลอดกาลยังไง...$5\"/pause 500/faceDirection Claire 3/pause 500/faceDirection farmer 1/pause 300/speak Claire \"หัวใจของฉัน จะเป็นของคุณเสมอ...$4"
+		"SummitEvent_Dialogue3_Claire": "การเลือกทำงานกับร้านโจจ้า เป็นการตัดสินใจ ที่ถูกต้องที่สุด ที่ฉันเคยทำมา$1#$b#ก็เหมือนกับการแสดง คุณไม่มีทางรู้หรอกว่า อนาคตจะเป็นแบบไหน หรือ หนึ่งในตัวเลือกพวกนั้น จะเป็นชีวิตคุณ ไปตลอดกาลยังไง...$5\"/pause 500/faceDirection Claire 3/pause 500/faceDirection farmer 1/pause 300/speak Claire \"หัวใจของฉัน จะเป็นของคุณเสมอ...$4",
+	    "SummitEvent_Dialogue3_Wizard": "You know, after the way things with my ex wife concluded, and... and Caroline, too...I truly wasn't sure I'd ever find someone to spend my life with.#$b#I thought I might be destined to be alone with my spells, in my tower in the woods.$2#$b#And then you moved into the valley, and it didn't matter that I hid myself away...$0#$b#You came through the woods to knock on my door and find me, again and again. You brought hope into my life when I thought it had died a long while ago.$5\"/pause 500/faceDirection Wizard 3/pause 500/faceDirection farmer 1/pause 300/speak Wizard \"Thank you for trusting me. For believing in me, and giving me a chance at living again.$1#$b#You've given me the gift of joy, @. I can only do my best to return it...and so I shall, for the rest of our lives together.$4",
 	 }
 },
 
@@ -6851,6 +6874,14 @@
 	 }
 },
 
+{   //Replaces Magnus on the magic carpet with Camilla during end credits scene if players married him
+    "Action": "EditImage",
+    "Target": "Characters/KrobusRaven",
+    "FromFile": "Assets/Tilesheets/CamillaMagicCarpet.png",
+	"ToArea": { "X": 0, "Y": 64, "Width": 160, "Height": 39 },
+    "When": { "Spouse |contains=Wizard": true },
+},
+
 {    //Adds spouse strings for the movie theater
 	 "Action": "EditData",
      "Target": "Strings/Characters",
@@ -6858,7 +6889,8 @@
 	 "MovieInvite_Spouse_Victor": "อ้อ ได้สิครับ! ผมอยากดูหนังกับคุณครับ!$3#$e#เราเดินไปโรงหนัง ด้วยกันมั้ยครับ?$1",
 	 "MovieInvite_Spouse_Olivia": "โอ้ คุณอยากจะไปดูหนังที่ โรงหนังงั้นหรอ? มันต้องเป็นการเดทยามค่ำคืน ที่แสนน่ารักแน่ๆ$3",
 	 "MovieInvite_Spouse_Sophia": "อู้ววว! หนังงั้นหรอ? เย่!$9#$b#เค้าจะไปเจอตัวเอง ที่โรงหนังเลย โอเคนะ?$1#$e#เค้าจะไปซื้อ ขนมสายไหมกิน!$1",
-	 "MovieInvite_Spouse_Claire": "คุณอยากจะไปดูหนัง กับฉันงั้นหรอ? ไปกัน!$1"
+	 "MovieInvite_Spouse_Claire": "คุณอยากจะไปดูหนัง กับฉันงั้นหรอ? ไปกัน!$1",
+	 "MovieInvite_Spouse_Wizard": "You wish to watch a movie at the theater? I'd be delighted.$0",
 	 }
 },
 
@@ -6896,7 +6928,7 @@
 	 "When": { "Year": "{{Range: 2, 999}}" },
      "Entries": {
      "set-up": "fallFest/27 60/farmer 12 54 1/changeToTemporaryMap Town-EggFestival/loadActors Set-Up/advancedMove Andy true 1 9000 -6 0 0 -8 4 7000 0 8 6 0 1 8000/advancedMove Vincent true -2 0 0 -2 2 0 0 2/advancedMove Jas true 2 0 0 2 -2 0 0 -2/advancedMove Leo true 0 -2 2 0 0 2 -2 0/advancedMove Pam true 0 -1 3 5000 0 2 3 5000 0 -1 3 4000/advancedMove Clint true 1 7000 0 1 3 7000 0 -1/advancedMove Demetrius true 2 15000 -3 0 0 8 3 20000 0 -8 3 0/advancedMove Willy true 2 25000 -4 0 0 -12 4 0 0 -1 4 30000 0 1 -4 0 0 12 4 0/advancedMove Shane true 4 40000 2 0 0 2 1 35000 0 -2 -2 0/advancedMove Harvey true 0 6 -6 0 0 9 -3 0 3 15000 3 0 0 3 18 0 0 -8 1 0 0 -11 -13 0 0 1 2 30000/playerControl eggFestival",
-     "afterEggHunt": "pause 100/playSound whistle/waitForOtherPlayers endContest/pause 1000/globalFade/viewport -1000 -1000/playMusic event1/loadActors MainEvent/warp farmer1 27 69 /warp farmer2 26 67/warp farmer3 32 67/warp farmer4 28 71/faceDirection farmer1 0/faceDirection farmer2 1/faceDirection farmer3 3/faceDirection farmer4 0/pause 1000/viewport 27 67 true/pause 2000/speak Lewis \"ว้าวดูไข่พวกนี้สิ!$h#$b#แหม ถ้าฉันสามารถทำให้เด็กๆ อย่างพวกเธอ มาเก็บขยะกันให้ได้แบบนี้บ้าง เราคงจะได้เป็น เมืองที่อยู่ติดชายฝั่งทะเลอัญมณี ที่สะอาดที่สุด! *คิก คิก*$h\"/pause 800/playMusic none/speak Lewis \"และแล้ว ผู้ชนะเลิศในปีนี้ได้แก่......\"/playMusic none/pause 3000/cutscene eggHuntWinner/null/playMusic event1/pause 500/fork AbbyWin/move Lewis 0 1 2/speak Lewis \"นี่รางวัลของเธอ! รับไปเลย\"/awardFestivalPrize/null/move Lewis 0 -1 0/speak Lewis \"นี่ก็จบไปแล้วสำหรับ เทศกาลไข่ปีนี้ ขอขอบคุณ ทุกคนที่มาร่วมงาน!\"/pause 600/viewport move 1 0 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end",
+     "afterEggHunt": "pause 100/playSound whistle/waitForOtherPlayers endContest/pause 1000/globalFade/viewport -1000 -1000/playMusic event1/loadActors MainEvent/warp farmer1 27 69 /warp farmer2 26 67/warp farmer3 32 67/warp farmer4 28 71/faceDirection farmer1 0/faceDirection farmer2 1/faceDirection farmer3 3/faceDirection farmer4 0/pause 1000/viewport 27 67 true/pause 2000/speak Lewis \"ว้าวดูไข่พวกนี้สิ!$h#$b#แหม ถ้าฉันสามารถทำให้เด็กๆ อย่างพวกเธอ มาเก็บขยะกันให้ได้แบบนี้บ้าง เราคงจะได้เป็น เมืองที่อยู่ติดชายฝั่งทะเลอัญมณี ที่สะอาดที่สุด! *คิก คิก*$h\"/pause 800/playMusic none/speak Lewis \"และแล้ว ผู้ชนะเลิศในปีนี้ได้แก่...\"/playMusic none/pause 3000/cutscene eggHuntWinner/null/playMusic event1/pause 500/fork AbbyWin/move Lewis 0 1 2/speak Lewis \"นี่รางวัลของเธอ! รับไปเลย\"/awardFestivalPrize/null/move Lewis 0 -1 0/speak Lewis \"นี่ก็จบไปแล้วสำหรับ เทศกาลไข่ปีนี้ ขอขอบคุณ ทุกคนที่มาร่วมงาน!\"/pause 600/viewport move 1 0 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end",
      "AbbyWin": "pause 100/jump Abigail/faceDirection Vincent 3/pause 800/move Abigail 0 -1 0/faceDirection Vincent 0/speak Lewis \"นี่รางวัลของเธอ อบิเกล รับไปเลย!\"/pause 500/move Abigail 0 -1 0/playSound coin/pause 400/move Abigail 0 2 0/faceDirection Lewis 0/speak Lewis \"นี่ก็จบไปแล้วสำหรับ เทศกาลไข่ปีนี้ ขอขอบคุณ ทุกคนที่มาร่วมงาน!\"/pause 1000/viewport move 1 -1 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end",
      "mainEvent": "pause 400/playMusic none/pause 500/globalFade/viewport -1000 -1000/loadActors MainEvent/warp farmer1 27 69 /warp farmer2 27 67/warp farmer3 32 67/warp farmer4 28 71/faceDirection farmer1 0/faceDirection farmer2 1/faceDirection farmer3 3/faceDirection farmer4 0/pause 1000/viewport 27 67 true unfreeze/pause 2000/speak Lewis \"ตอนนี้ถึงเวลาเด็ด ของเทศกาลไข่นี่แล้ว... การล่าไข่!$h\"/pause 100/jump Jas/pause 100/jump Vincent/pause 250/pause 1200/speak Lewis \"ใจเย็นๆ เด็กๆ เธอต้องใช้พลังงาน ในการค้นหาไข่ ที่ซ่อนอยู่ให้มากที่สุด เพื่อที่จะได้รางวัลแสนพิเศษ กลับบ้านเป็นที่ระลึก\"/pause 100/faceDirection Vincent 3 true/faceDirection Jas 1 true/pause 1000/faceDirection Vincent 0 true/faceDirection Jas 0 /pause 800/faceDirection Lewis 3/faceDirection Lewis 2/faceDirection Lewis 1/faceDirection Lewis 2/pause 800/speak Lewis \"ตอนนี้... ทุกคนพร้อมกันหรือยัง?\"/pause 1000/waitForOtherPlayers startContest/jump Lewis/pause 1000/speak Lewis \"เริ่มการค้นหาไข่ได้!$h\"/advancedMove Sophia false 0 -13 -12 0 0 20 16 0 0 16 -18 0 0 4 4 0 0 -12 8 0 4 5000/advancedMove Maru false -2 0 0 6 -9 0 0 -2 -9 0 0 -1 2 0 0 -12 6 0 0 -4 15 0 0 1 3 0 0 1 5 0 0 2 12 0 0 11/advancedMove Abigail false 0 21 -20 0 0 3 7 0 0 -2 26 0 0 5 25 0/advancedMove Jas false 0 12 8 0 0 10 3 0 0 4 14 0 0 -20 -7 0 0 6 -14 0/advancedMove Sam false 4 0 0 -4 2 0 0 -4 12 0 0 -6 19 0 0 20 0 -20 0 20/advancedMove Vincent false 0 3 24 0 0 22 15 0 0 -21 -25 0 4 7000/advancedMove Leo false -1 0 0 7 -5 0 0 3 13 0 0 2 20 0 0 -9 -3 0 0 -19 19 0 0 -1/playSound whistle/playMusic tickTock/playerControl eggHunt",
      }
@@ -7147,8 +7179,6 @@
 },
 
 
-
-
 {    //Sandy egg festival data
      "Action": "EditMap",
      "Target": "Maps/Town-EggFestival",
@@ -7163,6 +7193,7 @@
      "ToArea": { "X": 27, "Y": 62,"Width": 1, "Height": 1 },
      "When": { "Hearts:Sandy": "{{Range: 5, 14}}" },
 },
+
 
 {    //Jas and Vincent win - only year 1
 	 "Action": "EditData",
@@ -7428,7 +7459,7 @@
 {   //Morgan flower festival data
     "Action": "EditData",
     "Target": "Data/Festivals/spring24",
-	"When": { "HasSeenEvent": "5978924" },
+	"When": { "HasSeenEvent": "5978924", "Spouse |contains=Wizard": false },
     "TextOperations": [
   {    
     "Operation": "Append",
@@ -7440,6 +7471,26 @@
     "Operation": "Append",
     "Target": ["Entries", "MainEvent_additionalCharacters"],
     "Value": "Morgan 16 11 down",
+    "Delimiter": "/"
+  },
+ ]
+},
+
+{   //Morgan flower festival data
+    "Action": "EditData",
+    "Target": "Data/Festivals/spring24",
+	"When": { "HasSeenEvent": "5978924", "Spouse |contains=Wizard": true },
+    "TextOperations": [
+  {    
+    "Operation": "Append",
+    "Target": ["Entries", "Set-Up_additionalCharacters"],
+    "Value": "Morgan 25 27 left",
+    "Delimiter": "/"
+  },
+  {
+    "Operation": "Append",
+    "Target": ["Entries", "MainEvent_additionalCharacters"],
+    "Value": "Morgan 25 27 left",
     "Delimiter": "/"
   },
  ]
@@ -7465,7 +7516,7 @@
      "Target": "Data/Festivals/summer11",
      "Entries": {
      "set-up": "event2/-1000 -1000/farmer 38 3 2/changeToTemporaryMap Beach-Luau/loadActors Set-Up/addTemporaryActor Governor 16 32 32 4 2/advancedMove Vincent true 3 0 3 3000 -3 0 3 3000/advancedMove Jas true 3 0 1 3000 -3 0 1 3000/advancedMove Pam true 4 25000 -5 0 4 20000 5 0/advancedMove Gus True 0 -1 3 4000 0 1 3 4000/advancedMove Shane true 1 10000 0 1 1 10000 0 -1/advancedMove Clint true 4 15000 -3 0 4 15000 6 0 4 10000 -3 0/animate Emily false true 250 16 17 16 17 20 21 20 21 18 19 18 19 22 23 22 23/animate Robin false true 500 20 21 20 22/animate Demetrius false true 500 24 25 24 26/animate Marnie false true 200 17 18 17 19/positionOffset Marnie 0 16/animate Claire false true 200 20 20 20 20 20 20 20 20 20 20 21 21 21 21 21 21 22 22 22 22 22 22 22 22 22 22 22 22 23 24 25 22 23 24 25 22 23 24 25 22 23 24 25 22 23 24 25 22 23 24 25 22 22 22 22 22 21 21 21 21 21 21 21 21 20/viewport 38 2 clamp true/pause 1000/playerControl luau",
-	 "mainEvent": "pause 500/playMusic ocean/globalFade/viewport -1000 -1000/loadActors MainEvent/addTemporaryActor Governor 16 32 35 10 2/warp farmer1 33 19/warp farmer2 32 19/warp farmer3 40 19/warp farmer4 28 9/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 1/viewport 35 12 true/pause 2000/faceDirection Lewis 3/pause 100/faceDirection Lewis 2/pause 100/faceDirection Lewis 1/pause 100/faceDirection Lewis 2/speak Lewis \"เอาล่ะทุกคนครับ! ตอนนี้ก็เป็นอีกครั้ง สำหรับกิจกรรมปรุงซุปนี้#$b#ฉันหวังว่าทุกคน จะใส่ของดีมีคุณภาพ ลงไปในหม้อนะ เราไม่อยาก ให้ท่านผู้ว่าเสียใจ ที่มาที่หมู่บ้านนี้!\"/pause 1000/faceDirection Lewis 3/pause 500/speak Lewis \"เอ่อ.. ท่านครับ กรุณาให้เกียรติ ชิมซุปนี่ได้มั้ยครับ?\"/pause 500/speak Governor \"แน่นอน! ฉันรอชิมเจ้านี้ มาเกือบทั้งปีเลยล่ะ\"/playMusic none/pause 500/move Governor 0 1 2/pause 1000/playSound dwop/showFrame Governor 8 true/pause 1000/animate Governor false false 200 8 8 9 10 11 11/pause 1100/playSound sipTea/pause 1000/playSound gulp/pause 500/showFrame Governor 8 true/animate Governor false false 200 11 10 9 8/pause 900/speak Governor \"...$h\"/pause 300/cutscene governorTaste/null",
+	 "mainEvent": "pause 500/playMusic ocean/globalFade/viewport -1000 -1000/loadActors MainEvent/addTemporaryActor Governor 16 32 35 10 2/warp farmer1 33 19/warp farmer2 32 19/warp farmer3 40 19/warp farmer4 28 9/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 1/viewport 35 12 true/pause 2000/faceDirection Lewis 3/pause 100/faceDirection Lewis 2/pause 100/faceDirection Lewis 1/pause 100/faceDirection Lewis 2/speak Lewis \"เอาล่ะทุกคนครับ! ตอนนี้ก็เป็นอีกครั้ง สำหรับกิจกรรมปรุงซุปนี้#$b#ฉันหวังว่าทุกคน จะใส่ของดีมีคุณภาพ ลงไปในหม้อนะ เราไม่อยาก ให้ท่านผู้ว่าเสียใจ ที่มาที่หมู่บ้านนี้!\"/pause 1000/faceDirection Lewis 3/pause 500/speak Lewis \"เอ่อ... ท่านครับ กรุณาให้เกียรติ ชิมซุปนี่ได้มั้ยครับ?\"/pause 500/speak Governor \"แน่นอน! ฉันรอชิมเจ้านี้ มาเกือบทั้งปีเลยล่ะ\"/playMusic none/pause 500/move Governor 0 1 2/pause 1000/playSound dwop/showFrame Governor 8 true/pause 1000/animate Governor false false 200 8 8 9 10 11 11/pause 1100/playSound sipTea/pause 1000/playSound gulp/pause 500/showFrame Governor 8 true/animate Governor false false 200 11 10 9 8/pause 900/speak Governor \"...$h\"/pause 300/cutscene governorTaste/null",
 	 }
 },
 
@@ -8877,17 +8928,27 @@
     //ADD WORLD MAP
 {
    "Action": "EditImage",
-   "Target": "LooseSprites/map",
+   "Target": "LooseSprites/Map",
    "FromFile": "Assets/Maps/WorldMaps/{{Season}}_map.png",
+   "Update": "OnLocationChange",
    "PatchMode": "Replace"
 },
 
 {
    "Action": "EditImage",
-   "Target": "LooseSprites/map",
+   "Target": "LooseSprites/Map",
    "FromFile": "Assets/Maps/WorldMaps/Patches/{{Season}}_Joja.png",
    "PatchMode": "Overlay",
    "When": { "HasSeenEvent": "5553210" }
+},
+
+{
+   "Action": "EditImage",
+   "Target": "LooseSprites/Map",
+   "FromFile": "Assets/Maps/WorldMaps/Galdora_CrimsonBadlands.png",
+   "When": { "LocationName": "Custom_CrimsonBadlands" },
+   "Update": "OnLocationChange",
+   "PatchMode": "Replace"
 },
 
    //Edits journey map to fern isles
@@ -9299,13 +9360,13 @@
 	  "Target": "characters/schedules/Victor",
 	  "When": { "HasSeenEvent": "5553210" },
 	  "Entries": {
-        "Tue": "600 Custom_JenkinsHouse 31 5 1 Victor_Sleep/700 Custom_JenkinsHouse 6 8 0/830 Custom_JenkinsHouse 30 37 0/930 Town 45 89 3 Victor_Ponder/1730 Town 96 65 1/1930 Custom_JenkinsHouse 31 37 0/2130 Custom_JenkinsHouse 31 5 1 Victor_Sleep",
+        "Tue": "600 Custom_JenkinsHouse 31 5 1 Victor_Sleep/700 Custom_JenkinsHouse 6 8 0/830 Custom_JenkinsHouse 30 37 0/930 Town 45 89 3 Victor_Ponder/1730 Town 86 63 3/1930 Custom_JenkinsHouse 31 37 0/2130 Custom_JenkinsHouse 31 5 1 Victor_Sleep",
         "spring_1_2": "600 Custom_JenkinsHouse 31 5 1 Victor_Sleep/710 Custom_JenkinsHouse 6 8 0/900 Custom_JenkinsHouse 30 37 0/1000 Town 30 78 1/1430 Custom_JenkinsHouse 23 25 2 Victor_Book2/2220 Custom_JenkinsHouse 31 5 1 Victor_Sleep",
         "summer_1": "600 Custom_JenkinsHouse 31 5 1 Victor_Sleep/710 Custom_JenkinsHouse 6 8 0/900 Custom_JenkinsHouse 30 37 0/1030 Town 30 78 1/1500 Custom_JenkinsHouse 18 30 1 Victor_Book2/2210 Custom_JenkinsHouse 31 5 1 Victor_Sleep",
         "fall_1": "600 Custom_JenkinsHouse 31 5 1 Victor_Sleep/700 Custom_JenkinsHouse 6 8 0/900 Custom_JenkinsHouse 30 37 2/1000 Town 30 78 1/1400 Custom_JenkinsHouse 35 37 0/2000 Custom_JenkinsHouse 23 25 2 Victor_Book2/2200 Custom_JenkinsHouse 31 5 1 Victor_Sleep",
         "winter_1": "600 Custom_JenkinsHouse 31 5 1 Victor_Sleep/700 Custom_JenkinsHouse 6 8 0/900 Custom_JenkinsHouse 30 37 0/1020 Town 30 78 1/1430 Custom_JenkinsHouse 35 37 0/2000 Custom_JenkinsHouse 18 27 1 Victor_Book2/2210 Custom_JenkinsHouse 31 5 1 Victor_Sleep",
         "winter_24": "600 Custom_JenkinsHouse 31 5 1 Victor_Sleep/700 Custom_JenkinsHouse 6 8 0/900 Custom_JenkinsHouse 30 37 2/1010 Town 30 78 1/1500 Custom_JenkinsHouse 35 37 0/2000 Custom_JenkinsHouse 23 25 2 Victor_Book2/2230 Custom_JenkinsHouse 31 5 1 Victor_Sleep",
-        "marriage_Fri": "830 Custom_JenkinsHouse 31 37 1 \"Strings\\schedules\\Victor:marriage.004\"/1200 Town 75 54 2 \"Strings\\schedules\\Victor:marriage.005\"/1400 Town 101 72 0 \"Strings\\schedules\\Victor:marriage.006\"/1600 Saloon 40 18 2 \"Strings\\schedules\\Victor:marriage.007\"/2100 BusStop -1 23 3"
+        "marriage_Fri": "830 Custom_JenkinsHouse 31 37 1 \"Strings\\schedules\\Victor:marriage.004\"/1200 Town 75 54 2 \"Strings\\schedules\\Victor:marriage.005\"/1400 Town 25 29 0 \"Strings\\schedules\\Victor:marriage.006\"/1600 Saloon 40 18 2 \"Strings\\schedules\\Victor:marriage.007\"/2100 BusStop -1 23 3"
        }
     },
 
@@ -9782,7 +9843,7 @@
       "Target": "Data/Events/Town",
 	  "When": { "HasSeenEvent |contains=5553210": false },
       "Entries": {
-        "2000002/f Victor 1500/t 1000 1700/w sunny": "spring_day_ambient/-500 -500/farmer 89 56 2 Victor 97 61 1/pause 400/skippable/showFrame Victor 43/viewport 95 62 true/move farmer 0 7 1/pause 1150/emote farmer 8/pause 1000/move farmer 8 0 0/pause 750/showFrame Victor 4/pause 1000/move Victor 0 0 2/pause 600/speak Victor \"สวัสดีครับ @$6\"/pause 400/emote farmer 40/speak Victor \"โอ้ ผมทำอะไรอยู่งั้นหรือครับ? ผม... เอ่อ แค่กำลังคิดน่ะครับ มีเรื่องให้คิดเยอะเลยครับ$6\"/pause 600/move Victor 0 0 1/pause 550/showFrame Victor 43/pause 700/playMusic desolate/pause 1500/speak Victor \"คุณแม่บอกผมว่า ท่านผิดหวัง ที่ผมยังหางานไม่ได้น่ะครับ ผมออกมาที่สวนสาธารณะ เพราะอยากออกจากบ้าน สักพักน่ะครับ$2#$b#ผมไม่โทษที่ท่านรู้สึก แบบนั้นหรอกนะครับ ผมเรียนจบจากมหาวิทยาลัย มาตั้งแต่ปีที่แล้ว แต่ก็ยังอาศัยอยู่ที่บ้านอยู่เลย$2#$b#บางที ท่านคงคิดว่า ผมแค่ขี้เกียจ และสบายใจที่จะ อยู่แต่ที่บ้านไปตลอด เพราะพวกเรามีความมั่นคง ด้านการเงินน่ะครับ $6#$b#แต่นั่น...ไม่เป็นความจริง แม้แต่น้อยเลยครับ$2\"/pause 1100/speak Victor \"ตลอดปีที่ผ่านมา ผมปฏิเสธข้อเสนอ ฝึกงานและจ้างงาน ไปหลายโหลแล้วครับ ไม่มีอันไหน ที่ดึงดูดใจผมเลยครับ $2#$b#ผมไม่อยากย้ายออก จากหุบเขา แล้วไปโหมทำงานจนตาย อยู่ในเมืองน่ะครับ $2#$b#ผมอยากมีอาชีพ ที่ผมจะสามารถเป็นตัวผมได้ ไม่ใช่เป็นคนที่ถูกสั่งให้เป็นครับ $6\"/pause 1000/showFrame Victor 4/pause 1000/move Victor 0 0 2/pause 750/speak Victor \"คุณเข้าใจที่ผมพูดใช่มั้ยครับ คุณ @ คุณลาออกจากงานออฟฟิศ เพราะมันไม่ใช่สิ่งที่คุณเป็น $6#$b#คุณเลือกที่จะเสี่ยงดวง รับดูแลฟาร์มของคุณปู่ แล้วดูสิครับว่า มันเปลี่ยนชีวิตของคุณ ไปแค่ไหน!$3#$b#จะว่าไป... ผมก็อิจฉาคุณนะครับ คุณ @$2\"/pause 1200/question fork0 \"#ทำงานกับโจจ้าน่ะแย่ที่สุดเลย #คุณควรย้ายเข้าไปทำงานในเมืองนะ \"/fork 2000002_FindYourPassion/pause 800/move Victor 0 0 1/pause 1000/showFrame Victor 43/pause 1000/speak Victor \"ผมรู้ครับ ว่าในหุบเขานี่มีงานไม่มาก คุณ @ คุณทำอะไรที่นี่ ไม่ได้มากหรอกครับ นอกจากจะเป็นฟรีแลนซ์ หรือพร้อมจะเดินทางสองชั่วโมง เข้าเมืองซูซู $2#$b#อย่างที่ผมบอกนั่นแหละครับ ผมไม่อยากย้ายไปไหน ผมรักชีวิตที่นี่ และผมมองไม่เห็นว่าตัวผม จะไปอยู่ที่อื่นได้เลยครับ $6\"/pause 1500/speak Victor \"ผมใช้ชีวิตที่เมืองซูซู มาตลอดชีวิต กับคุณพ่อคุณแม่ของผม การย้ายมาที่หุบเขาสตาร์ดิว... เป็นครั้งแรกเลยครับ ที่ผมรู้สึกเหมือนได้อยู่บ้าน $6\"/pause 1250/speak Victor \"ลองนึกดูสิครับ ว่าคุณจะรู้สึกยังไง ถ้าอยู่ดีๆ ต้องย้ายกลับไปในเมือง หลังจากที่ได้เจอที่แบบนี้แล้ว มันคงรู้สึกเหมือนต้นไม้ ที่ถูกถอนรากถอนโคนน่ะครับ$6\"/pause 1050/emote farmer 60/pause 600/speak Victor \"งั้นคุณก็คงเข้าใจ ที่ผมพูดแล้วสินะครับ$6\"/pause 300/globalFade/viewport -1000 -1000/pause 800/friendship Victor -125/end dialogue Victor \"สวัสดีครับ คุณ @ ผมซาบซึ้งใจที่คุณคุยกับผม ที่สวนสาธารณะนะครับ คุณเป็นผู้ฟังที่ดีมากเลยครับ $6\"",
+        "2000002/f Victor 1500/t 1000 1700/w sunny": "spring_day_ambient/-500 -500/farmer 89 56 2 Victor 97 61 1/pause 400/skippable/showFrame Victor 43/viewport 95 62 true/move farmer 0 7 1/pause 1150/emote farmer 8/pause 1000/move farmer 8 0 0/pause 750/showFrame Victor 4/pause 1000/move Victor 0 0 2/pause 600/speak Victor \"สวัสดีครับ @$6\"/pause 400/emote farmer 40/speak Victor \"โอ้ ผมทำอะไรอยู่งั้นหรือครับ? ผม... เอ่อ แค่กำลังคิดน่ะครับ มีเรื่องให้คิดเยอะเลยครับ$6\"/pause 600/move Victor 0 0 1/pause 550/showFrame Victor 43/pause 700/playMusic desolate/pause 1500/speak Victor \"คุณแม่บอกผมว่า ท่านผิดหวัง ที่ผมยังหางานไม่ได้น่ะครับ ผมออกมาที่สวนสาธารณะ เพราะอยากออกจากบ้าน สักพักน่ะครับ$2#$b#ผมไม่โทษที่ท่านรู้สึก แบบนั้นหรอกนะครับ ผมเรียนจบจากมหาวิทยาลัย มาตั้งแต่ปีที่แล้ว แต่ก็ยังอาศัยอยู่ที่บ้านอยู่เลย$2#$b#บางที ท่านคงคิดว่า ผมแค่ขี้เกียจ และสบายใจที่จะ อยู่แต่ที่บ้านไปตลอด เพราะพวกเรามีความมั่นคง ด้านการเงินน่ะครับ$6#$b#แต่นั่น...ไม่เป็นความจริง แม้แต่น้อยเลยครับ$2\"/pause 1100/speak Victor \"ตลอดปีที่ผ่านมา ผมปฏิเสธข้อเสนอ ฝึกงานและจ้างงาน ไปหลายโหลแล้วครับ ไม่มีอันไหน ที่ดึงดูดใจผมเลยครับ$2#$b#ผมไม่อยากย้ายออก จากหุบเขา แล้วไปโหมทำงานจนตาย อยู่ในเมืองน่ะครับ$2#$b#ผมอยากมีอาชีพ ที่ผมจะสามารถเป็นตัวผมได้ ไม่ใช่เป็นคนที่ถูกสั่งให้เป็นครับ$6\"/pause 1000/showFrame Victor 4/pause 1000/move Victor 0 0 2/pause 750/speak Victor \"คุณเข้าใจที่ผมพูดใช่มั้ยครับ คุณ @ คุณลาออกจากงานออฟฟิศ เพราะมันไม่ใช่สิ่งที่คุณเป็น$6#$b#คุณเลือกที่จะเสี่ยงดวง รับดูแลฟาร์มของคุณปู่ แล้วดูสิครับว่า มันเปลี่ยนชีวิตของคุณ ไปแค่ไหน!$3#$b#จะว่าไป... ผมก็อิจฉาคุณนะครับ คุณ @$2\"/pause 1200/question fork0 \"#ทำงานกับโจจ้าน่ะแย่ที่สุดเลย #คุณควรย้ายเข้าไปทำงานในเมืองนะ\"/fork 2000002_FindYourPassion/pause 800/move Victor 0 0 1/pause 1000/showFrame Victor 43/pause 1000/speak Victor \"ผมรู้ครับ ว่าในหุบเขานี่มีงานไม่มาก คุณ @ คุณทำอะไรที่นี่ ไม่ได้มากหรอกครับ นอกจากจะเป็นฟรีแลนซ์ หรือพร้อมจะเดินทางสองชั่วโมง เข้าเมืองซูซู$2#$b#อย่างที่ผมบอกนั่นแหละครับ ผมไม่อยากย้ายไปไหน ผมรักชีวิตที่นี่ และผมมองไม่เห็นว่าตัวผม จะไปอยู่ที่อื่นได้เลยครับ$6\"/pause 1500/speak Victor \"ผมใช้ชีวิตที่เมืองซูซู มาตลอดชีวิต กับคุณพ่อคุณแม่ของผม การย้ายมาที่หุบเขาสตาร์ดิว... เป็นครั้งแรกเลยครับ ที่ผมรู้สึกเหมือนได้อยู่บ้าน $6\"/pause 1250/speak Victor \"ลองนึกดูสิครับ ว่าคุณจะรู้สึกยังไง ถ้าอยู่ดีๆ ต้องย้ายกลับไปในเมือง หลังจากที่ได้เจอที่แบบนี้แล้ว มันคงรู้สึกเหมือนต้นไม้ ที่ถูกถอนรากถอนโคนน่ะครับ$6\"/pause 1050/emote farmer 60/pause 600/speak Victor \"งั้นคุณก็คงเข้าใจ ที่ผมพูดแล้วสินะครับ$6\"/pause 300/globalFade/viewport -1000 -1000/pause 800/friendship Victor -125/end dialogue Victor \"สวัสดีครับ คุณ @ ผมซาบซึ้งใจที่คุณคุยกับผม ที่สวนสาธารณะนะครับ คุณเป็นผู้ฟังที่ดีมากเลยครับ$6\"",
       
 	    "2000002_FindYourPassion": "pause 750/speak Victor \"อาชีพแบบนั้น มันน่าเหลืออดจริงๆ นะครับ มีหัวหน้าที่คอยสั่งให้คุณ ทำอย่างงั้น อย่างงี้$2#$b#ทำงานมากมายขนาดนั้น...  นั่นมันคือครึ่งนึงของชีวิตคุณ ที่ไม่ได้เป็นของคุณเลยนะครับ$6\"/pause 1250/move Victor 0 0 1/pause 1000/showFrame Victor 43/pause 1000/speak Victor \"คุณแม่ ไม่เข้าใจว่าผม จะต้องไปเจอกับอะไร...$6#$e#คุณแม่ คนอื่นๆ ในครอบครัวที่เหลือ ต่างก็พากันกดดันให้ผม กระโดดไปหาอาชีพ ที่มีเงินเดือนสูงๆ และก็เหมือนว่า พวกเขาไม่สนใจเลยสักนิด ว่าผมจะรู้สึกยังไง$2#$e#ในหุบเขานี่มีงานไม่มาก นอกจากจะเป็นฟรีแลนซ์ หรือพร้อมจะเดินทาง 1 ชั่วโมง เข้าเมืองซูซู$6#$b#หรือก็คือ 2 ชั่วโมงต่อวัน ถ้ารถไม่ติดนะครับ...$2\"/pause 1250/showFrame Victor 4/pause 800/move Victor 0 0 2/pause 1000/speak Victor \"ผมจะมองในแง่ดีละกันครับ อีกเดี๋ยวผมคงจะ คิดหาทางออกในไม่ช้าครับ @$3#$e#ขอบคุณที่รับฟังผมนะครับ ไว้เจอกันใหม่$1\"/pause 1000/globalFade/viewport -1000 -1000/pause 800/friendship Victor 75/end dialogue Victor \"สวัสดีครับ คุณ @ ผมซาบซึ้งใจที่คุณคุยกับผม ที่สวนสาธารณะนะครับ คุณเป็นผู้ฟังที่ดีมากเลยครับ$3#$b#ผมจะถือว่า คุณเป็นเพื่อนสนิทของผม คนนึงแล้วนะครับ$1\"",
 	  }
@@ -10859,7 +10920,7 @@
       "Action": "EditData",
       "Target": "data/festivals/winter25",
       "Entries": {
-        "Olivia": "ช่วงเวลานี้ ทำให้ฉันรู้สึกดีมากๆ เลย$3#$b#ฉันดีใจนะที่คุณเข้ามา เป็นส่วนหนึ่งของชีวิต @$4"
+        "Olivia": "ช่วงเวลานี้ ทำให้ฉันรู้สึกดีมากๆ เลย$3#$b#ฉันดีใจนะที่คุณเข้ามา เป็นส่วนหนึ่งของชีวิต@$4"
       },
       "When": {
         "Spouse": "Olivia"
@@ -12691,7 +12752,7 @@
       "Action": "EditData",
       "Target": "data/festivals/fall27",
       "Entries": {
-        "Sophia": "ฉันเดินเข้าไปในเขาวงกตมา แล้วก็ยอมแพ้แล้วล่ะ$2#$e#ทำไมน่ะหรอ? โอ้ ฉันหิวน่ะ$1#$e#เธอได้ลอง ไซเดอร์ฟักทองใส่เครื่องเทศ (spiced pumpkin cider) ของปีแอร์รึยัง?$9",
+        "Sophia": "ฉันเดินเข้าไปในเขาวงกตมา แล้วก็ยอมแพ้แล้วล่ะ$2#$e#ทำไมน่ะหรอ? โอ้ ฉันหิวน่ะ$1#$e#เธอได้ลอง ไซเดอร์ฟักทองใส่เครื่องเทศ (Spiced Pumpkin Cider) ของปีแอร์รึยัง?$9",
       }
     },
 	
@@ -12797,7 +12858,7 @@
     "Action": "EditMap",
     "Target": "Maps/Custom_SophiaHouse",
     "FromFile": "Assets/Maps/MapPatches/SophiaHouseRemovingMovingBox.tbin",
-    "ToArea": { "X": 8, "Y": 14,"Width": 1, "Height": 2 },
+    "ToArea": { "X": 12, "Y": 14,"Width": 1, "Height": 2 },
     "When": { "HasSeenEvent": "8185293" },
 	"Update": "OnLocationChange"
     },
@@ -12806,7 +12867,7 @@
       "Action": "EditData",
       "Target": "Data/Events/Custom_SophiaHouse",
       "Entries": {
-      "8185294/e 8185293": "continue/-500 -500/farmer 14 15 3 Sophia 8 9 2/animate Sophia false true 500 33 34/pause 1500/playMusic cm:Lament/pause 500/viewport 10 14 true/skippable/move farmer -5 0 3 true/pause 2200/textAboveHead Sophia \"*สูดน้ำมูก*...\"/pause 700/faceDirection farmer 2/pause 1300/showFrame farmer 96/pause 1200/textAboveHead Sophia \"*สูดน้ำมูก*...\"/pause 1800/question fork0 \"#เคาะประตู#เปิดประตู\"/fork 8185294_KnockOnDoor/pause 1000/showFrame farmer 0/pause 600/faceDirection farmer 3 true/pause 400/move farmer -2 0 3/pause 200/faceDirection farmer 0/pause 500/showFrame farmer 15 true/pause 500/doAction 7 14/pause 500/showFrame farmer 12 true/pause 300/stopAnimation Sophia/pause 300/showFrame Sophia 29/emote Sophia 16 true/jump Sophia/pause 300/viewport move 0 -1 3500 true/move farmer 0 -4 0 true/pause 1200/speak Sophia \"อะ-อะไรน่ะ!?$11\"/pause 400/faceDirection Sophia 1 true/pause 300/speed Sophia 3/move Sophia 0 -2 0/pause 200/shake Sophia 5000/pause 500/speak Sophia \"ม-ไม่นะ! อย่ามองฉันนะ!$12#$b#ออกไปนะ!!!$7\"/pause 400/emote farmer 60/pause 200/friendship Sophia -100/pause 200/move farmer 0 0 1/pause 200/move farmer 0 0 2/pause 400/speed farmer 1/move farmer 0 5 2 true/globalFade/viewport -1000 -1000 true/switchEvent 8185294_Wait",
+      "8185294/e 8185293": "continue/-500 -500/farmer 11 15 3 Sophia 8 9 2/animate Sophia false true 500 33 34/pause 1500/playMusic cm:Lament/pause 500/viewport 10 14 true/skippable/move farmer -3 0 3 true/pause 1800/textAboveHead Sophia \"*สูดน้ำมูก*...\"/pause 700/faceDirection farmer 2/pause 1300/showFrame farmer 96/pause 1200/textAboveHead Sophia \"*สูดน้ำมูก*...\"/pause 1800/question fork0 \"#เคาะประตู#เปิดประตู\"/fork 8185294_KnockOnDoor/pause 1000/showFrame farmer 0/pause 600/faceDirection farmer 3 true/pause 400/move farmer -2 0 3/pause 200/faceDirection farmer 0/pause 500/showFrame farmer 15 true/pause 500/doAction 7 14/pause 500/showFrame farmer 12 true/pause 300/stopAnimation Sophia/pause 300/showFrame Sophia 29/emote Sophia 16 true/jump Sophia/pause 300/viewport move 0 -1 3500 true/move farmer 0 -4 0 true/pause 1200/speak Sophia \"อะ-อะไรน่ะ!?$11\"/pause 400/faceDirection Sophia 1 true/pause 300/speed Sophia 3/move Sophia 0 -2 0/pause 200/shake Sophia 5000/pause 500/speak Sophia \"ม-ไม่นะ! อย่ามองฉันนะ!$12#$b#ออกไปนะ!!!$7\"/pause 400/emote farmer 60/pause 200/friendship Sophia -100/pause 200/move farmer 0 0 1/pause 200/move farmer 0 0 2/pause 400/speed farmer 1/move farmer 0 5 2 true/globalFade/viewport -1000 -1000 true/switchEvent 8185294_Wait",
 
       "8185294_KnockOnDoor": "pause 800/showFrame farmer 0/pause 600/faceDirection farmer 3 true/pause 350/move farmer -2 0 3/pause 300/faceDirection farmer 0/pause 500/showFrame farmer 15 true/pause 500/playSound stoneStep/playSound stoneStep/pause 500/playSound stoneStep/playSound stoneStep/pause 400/playSound stoneStep/playSound stoneStep/pause 300/showFrame farmer 12 true/pause 300/stopAnimation Sophia/pause 300/emote Sophia 16/pause 700/showFrame Sophia 32/pause 1000/speak Sophia \"*สูดน้ำมูก* ใครอยู่ตรงนั้นน่ะ?$12\"/pause 700/emote farmer 40/pause 800/speak Sophia \"อ- โอ้ @? อืม$6#$b#อืม...$12\"/pause 1000/shake Sophia 700/pause 1200/speak Sophia \"ต-ตอนนี้ไม่ใช่ เวลาที่ดีซักเท่าไหร่$12#$b#ช-ช่วยออกไปก่อน ได้ไหม...$13\"/pause 800/emote farmer 28/pause 500/faceDirection farmer 1/pause 400/speed farmer 1/move farmer 5 0 1 true/globalFade/viewport -1000 -1000 true/switchEvent 8185294_Wait2",
 
@@ -12867,11 +12928,9 @@
     },
 	
 	//After players see Sophia's 8 heart: Scarlett appears at some festivals!!! Woo! :D
-	
-	
-	/*  Broken. To work on later
-	
-	
+
+
+
 	//SOPHIA VISTS OTHER VILLAGERS AFTER 8 HEART EVENT - SCHEDULE ADDITIONS
 	
 	{ //Sophia Schedule - Visits Victor
@@ -13012,12 +13071,17 @@
 	 "HaleyHouse_14_7": "เธอตัดผ้าได้สุดยอดมากๆ เลย โซเฟีย!$0",
 	  },
     },
-    */
+    
+	
+	
+	
+	
+	
 	{ //Blue Moon Vineyard - 10 heart - The Prairie Queen
       "Action": "EditData",
       "Target": "Data/Events/Custom_SophiaHouse",
       "Entries": {
-	  "8185296/f Sophia 2500/e 8185295/w sunny": "kindadumbautumn/-500 -500/Sophia -200 -200 2 farmer 12 23 3/addTemporaryActor SophiaJPK 16 32 6 22 0/positionOffset SophiaJPK -4 -25/pause 1000/viewport 10 23 true/skippable/viewport move -1 0 3000/move farmer -6 0 0 true/pause 4000/faceDirection SophiaJPK 1 true/pause 200/faceDirection SophiaJPK 2 true/pause 700/jump SophiaJPK/pause 1000/speak Sophia \"ดีจ้า!$19#$b#นี่คือชุดคอสเพลย์ คิงแพร์รี (Prairie King) ของฉัน!$15#$b#ฉันยุ่งกับมันซักพัก แล้วมันก็เสร็จทัน งานคอมมิกค่อน ของเมืองซูซูด้วย (Zuzu City Comicon)!$15\"/pause 1000/speak Sophia\"ฮ-เฮ้ ฉันมีการแสดงเล็กๆ ที่อยากให้คุณดูด้วย$15#$b#*อะแฮ่ม* ออกไปข้างนอกกันเถอะ คู่หู$17\"/pause 400/globalFade/viewport -1000 -1000/stopMusic/pause 100/changeLocation Custom_BlueMoonVineyard/pause 50/warp SophiaJPK 28 35/warp farmer 28 41/pause 50/positionOffset farmer 24 7/viewport 28 38 true/pause 1500/speak Sophia \"แกล้งทำเป็นว่ามีศัตรูอยู่รอบๆ ตัวฉันนะ โอเค๊?$18#$b#*อะแฮ่ม*$17\"/pause 1250/playSound dwop/showFrame SophiaJPK 19/pause 200/playMusic cowboy_outlawsong/pause 1250/speak Sophia \"เฮ้ คืองี้ ฉันเห็นแกอยู่แถวนี้สักพักแล้ว$17#$b#พาเพื่อนๆ มาด้วย... นี่แกเป็นคนประเภทไหน กันเนี่ย...$17\"/pause 1200/speak Sophia \"แกทำให้ฉันไม่มีทางเลือก...$17\"/pause 1600/playSound dwop/showFrame SophiaJPK 16/pause 350/playSound Cowboy_gunshot/pause 250/playSound Cowboy_gunshot/pause 250/playSound Cowboy_gunshot/pause 250/faceDirection SophiaJPK 1 true/pause 250/showFrame SophiaJPK 17/pause 250/playSound Cowboy_gunshot/pause 250/playSound Cowboy_gunshot/pause 250/playSound Cowboy_gunshot/pause 250/faceDirection SophiaJPK 2 true/pause 250/faceDirection SophiaJPK 3 true/pause 250/showFrame SophiaJPK 18/pause 200/playSound Cowboy_gunshot/pause 250/playSound Cowboy_gunshot/pause 250/playSound Cowboy_gunshot/pause 250/faceDirection SophiaJPK 2 true/pause 900/showFrame SophiaJPK 19/pause 1000/speak Sophia \"เฮ้ นั่นคือนักแม่นปืนของฉัน$17#$b#พอไม่มีอาวุธ พวกแกก็ไม่เท่าไหร่เลยนี่!$17\"/pause 1200/showFrame SophiaJPK 20/pause 600/showFrame SophiaJPK 19/pause 300/showFrame SophiaJPK 21/pause 700/showFrame SophiaJPK 19/pause 700/speak Sophia \"เพื่อนของนายกลัวจน วิ่งหนีไปแล้วแน่ะ$17#$b#ฉันคือราชินีแพร์รี (prairie queen) เข้าใจใช่มั้ย?$17\"/pause 700/emote SophiaJPK 16 true/pause 300/playSound dwop/showFrame SophiaJPK 16/pause 400/speak Sophia \"พวกฉวยโอกาส! พวกแกซ่อนอาวุธ ไว้ตั้งแต่แรกเลยงั้นสินะ...$17\"/pause 1000/speak Sophia \"เราจะทำให้เรื่องนี้มันจบสวย หรือจบไม่สวยก็ได้$17\"/pause 1600/showFrame SophiaJPK 0/playSound dwop/playMusic Cowboy_singing/pause 800/viewport move 0 1 3000 true/move SophiaJPK 0 4 2/pause 300/speak Sophia \"ก็.. อืม.. นั่นคือการแสดงส่วนแรกน่ะ$18#$b#ส่วนที่สองฉันจะต้อง กลิ้งตัวไปรอบๆ แต่ฉันไม่อยากจะให้ ชุดคอสเพลย์ของฉันเปื้อน$18#$b#พวกตัวร้ายหยิบ อาวุธลับออกมา!$19\"/pause 1000/viewport move 0 1 1500 true/move SophiaJPK 0 1 3/move SophiaJPK -1 0 2/move SophiaJPK 0 1 1 true/pause 100/faceDirection farmer 3 true/pause 600/speak Sophia \"และ อืมม.. นี่เป็นตอนที่ฉันชอบมากที่สุด...$18\"/pause 750/positionOffset SophiaJPK 1 0/pause 50/positionOffset SophiaJPK 1 0/pause 50/positionOffset SophiaJPK 1 0/pause 50/positionOffset SophiaJPK 1 0/pause 50/positionOffset SophiaJPK 1 0/pause 50/positionOffset SophiaJPK 1 0/pause 50/positionOffset SophiaJPK 1 0/pause 50/positionOffset SophiaJPK 1 0/pause 50/positionOffset SophiaJPK 1 0/pause 50/positionOffset SophiaJPK 1 0/pause 50/positionOffset SophiaJPK 1 0/pause 50/positionOffset SophiaJPK 1 0/positionOffset farmer -1 0/pause 50/positionOffset SophiaJPK 1 0/positionOffset farmer -1 0/pause 50/positionOffset SophiaJPK 1 0/positionOffset farmer -1 0/pause 50/positionOffset SophiaJPK 1 0/positionOffset farmer -1 0/pause 50/positionOffset SophiaJPK 1 0/positionOffset farmer -1 0/pause 50/positionOffset SophiaJPK 1 0/positionOffset farmer -1 0/pause 50/positionOffset SophiaJPK 1 0/positionOffset farmer -1 0/pause 50/positionOffset SophiaJPK 1 0/positionOffset farmer -1 0/pause 50/positionOffset SophiaJPK 1 0/pause 50/positionOffset SophiaJPK 1 0/positionOffset farmer -1 0/pause 50/positionOffset SophiaJPK 1 0/positionOffset farmer -1 0/pause 50/showFrame farmer 101 true/showFrame SophiaJPK 22 true/playSound dwop/specificTemporarySprite heart 28 40/pause 3000/globalFade/viewport -1000 -1000/pause 1000/speak Sophia \"ฮิฮิ... คุณดูเอ๋อมากเลยอ่ะ$18\"/pause 1000/stopMusic/pause 1000/end dialogue Sophia \"ที่จริงฉันก็ประหม่านะ ตอนที่ได้จูบน่ะ...$4#$e#คุณคือคนพิเศษที่สุดของฉัน...$4^อืม ฉันไม่รู้หรอก ว่าคุณจะมีใจ ให้ผู้หญิงคนอื่นรึเปล่า...$4\"",
+	  "8185296/f Sophia 2500/e 8185295/w sunny": "kindadumbautumn/-500 -500/Sophia -200 -200 2 farmer 12 23 3/addTemporaryActor SophiaJPK 16 32 6 22 0/positionOffset SophiaJPK -4 -25/pause 1000/viewport 10 23 true/skippable/viewport move -1 0 3000/move farmer -6 0 0 true/pause 4000/faceDirection SophiaJPK 1 true/pause 200/faceDirection SophiaJPK 2 true/pause 700/jump SophiaJPK/pause 1000/speak Sophia \"ดีจ้า!$19#$b#นี่คือชุดคอสเพลย์ คิงแพร์รี (Prairie King) ของฉัน!$15#$b#ฉันยุ่งกับมันซักพัก แล้วมันก็เสร็จทัน งานคอมมิกค่อน ของเมืองซูซูด้วย (Zuzu City Comicon)!$15\"/pause 1000/speak Sophia\"ฮ-เฮ้ ฉันมีการแสดงเล็กๆ ที่อยากให้คุณดูด้วย$15#$b#*อะแฮ่ม* ออกไปข้างนอกกันเถอะ คู่หู$17\"/pause 400/globalFade/viewport -1000 -1000/stopMusic/pause 100/changeLocation Custom_BlueMoonVineyard/pause 50/warp SophiaJPK 28 35/warp farmer 28 41/pause 50/positionOffset farmer 24 7/viewport 28 38 true/pause 1500/speak Sophia \"แกล้งทำเป็นว่ามีศัตรูอยู่รอบๆ ตัวฉันนะ โอเค๊?$18#$b#*อะแฮ่ม*$17\"/pause 1250/playSound dwop/showFrame SophiaJPK 19/pause 200/playMusic cowboy_outlawsong/pause 1250/speak Sophia \"เฮ้ คืองี้ ฉันเห็นแกอยู่แถวนี้สักพักแล้ว$17#$b#พาเพื่อนๆ มาด้วย... นี่แกเป็นคนประเภทไหน กันเนี่ย...$17\"/pause 1200/speak Sophia \"แกทำให้ฉันไม่มีทางเลือก...$17\"/pause 1600/playSound dwop/showFrame SophiaJPK 16/pause 350/playSound Cowboy_gunshot/pause 250/playSound Cowboy_gunshot/pause 250/playSound Cowboy_gunshot/pause 250/faceDirection SophiaJPK 1 true/pause 250/showFrame SophiaJPK 17/pause 250/playSound Cowboy_gunshot/pause 250/playSound Cowboy_gunshot/pause 250/playSound Cowboy_gunshot/pause 250/faceDirection SophiaJPK 2 true/pause 250/faceDirection SophiaJPK 3 true/pause 250/showFrame SophiaJPK 18/pause 200/playSound Cowboy_gunshot/pause 250/playSound Cowboy_gunshot/pause 250/playSound Cowboy_gunshot/pause 250/faceDirection SophiaJPK 2 true/pause 900/showFrame SophiaJPK 19/pause 1000/speak Sophia \"เฮ้ นั่นคือนักแม่นปืนของฉัน$17#$b#พอไม่มีอาวุธ พวกแกก็ไม่เท่าไหร่เลยนี่!$17\"/pause 1200/showFrame SophiaJPK 20/pause 600/showFrame SophiaJPK 19/pause 300/showFrame SophiaJPK 21/pause 700/showFrame SophiaJPK 19/pause 700/speak Sophia \"เพื่อนของนายกลัวจน วิ่งหนีไปแล้วแน่ะ$17#$b#ฉันคือราชินีแพร์รี (Prairie Queen) เข้าใจใช่มั้ย?$17\"/pause 700/emote SophiaJPK 16 true/pause 300/playSound dwop/showFrame SophiaJPK 16/pause 400/speak Sophia \"พวกฉวยโอกาส! พวกแกซ่อนอาวุธ ไว้ตั้งแต่แรกเลยงั้นสินะ...$17\"/pause 1000/speak Sophia \"เราจะทำให้เรื่องนี้มันจบสวย หรือจบไม่สวยก็ได้$17\"/pause 1600/showFrame SophiaJPK 0/playSound dwop/playMusic Cowboy_singing/pause 800/viewport move 0 1 3000 true/move SophiaJPK 0 4 2/pause 300/speak Sophia \"ก็.. อืม.. นั่นคือการแสดงส่วนแรกน่ะ$18#$b#ส่วนที่สองฉันจะต้อง กลิ้งตัวไปรอบๆ แต่ฉันไม่อยากจะให้ ชุดคอสเพลย์ของฉันเปื้อน$18#$b#พวกตัวร้ายหยิบ อาวุธลับออกมา!$19\"/pause 1000/viewport move 0 1 1500 true/move SophiaJPK 0 1 3/move SophiaJPK -1 0 2/move SophiaJPK 0 1 1 true/pause 100/faceDirection farmer 3 true/pause 600/speak Sophia \"และ อืมม.. นี่เป็นตอนที่ฉันชอบมากที่สุด...$18\"/pause 750/positionOffset SophiaJPK 1 0/pause 50/positionOffset SophiaJPK 1 0/pause 50/positionOffset SophiaJPK 1 0/pause 50/positionOffset SophiaJPK 1 0/pause 50/positionOffset SophiaJPK 1 0/pause 50/positionOffset SophiaJPK 1 0/pause 50/positionOffset SophiaJPK 1 0/pause 50/positionOffset SophiaJPK 1 0/pause 50/positionOffset SophiaJPK 1 0/pause 50/positionOffset SophiaJPK 1 0/pause 50/positionOffset SophiaJPK 1 0/pause 50/positionOffset SophiaJPK 1 0/positionOffset farmer -1 0/pause 50/positionOffset SophiaJPK 1 0/positionOffset farmer -1 0/pause 50/positionOffset SophiaJPK 1 0/positionOffset farmer -1 0/pause 50/positionOffset SophiaJPK 1 0/positionOffset farmer -1 0/pause 50/positionOffset SophiaJPK 1 0/positionOffset farmer -1 0/pause 50/positionOffset SophiaJPK 1 0/positionOffset farmer -1 0/pause 50/positionOffset SophiaJPK 1 0/positionOffset farmer -1 0/pause 50/positionOffset SophiaJPK 1 0/positionOffset farmer -1 0/pause 50/positionOffset SophiaJPK 1 0/pause 50/positionOffset SophiaJPK 1 0/positionOffset farmer -1 0/pause 50/positionOffset SophiaJPK 1 0/positionOffset farmer -1 0/pause 50/showFrame farmer 101 true/showFrame SophiaJPK 22 true/playSound dwop/specificTemporarySprite heart 28 40/pause 3000/globalFade/viewport -1000 -1000/pause 1000/speak Sophia \"ฮิฮิ... คุณดูเอ๋อมากเลยอ่ะ$18\"/pause 1000/stopMusic/pause 1000/end dialogue Sophia \"ที่จริงฉันก็ประหม่านะ ตอนที่ได้จูบน่ะ...$4#$e#คุณคือคนพิเศษที่สุดของฉัน...$4^อืม ฉันไม่รู้หรอก ว่าคุณจะมีใจ ให้ผู้หญิงคนอื่นรึเปล่า...$4\"",
 	  }
     },
 	
@@ -13440,7 +13504,7 @@
 	 "Action": "EditData",
 	 "Target": "data/events/Custom_AdventurerSummit",
 	 "Entries": {
-	 "1090501/e 1000034/k 1090502/b 1/f MarlonFay 500": "continue/-500 -500/farmer 51 16 2 Krobus -300 -300 3 MarlonFay 52 30 2/rustyKey/skippable/pause 1000/viewport 51 30 clamp true/move farmer 0 11 2/pause 1250/showFrame MarlonFay 18 true/pause 600/speak MarlonFay \"มากับข้า @\"/pause 750/faceDirection MarlonFay 2 true/pause 600/move farmer 0 3 2/pause 2000/speak MarlonFay \"@...$2#$b#มีบางอย่างที่ข้าตั้งใจ จะแสดงให้เจ้าดู...$0\"/pause 1000/faceDirection farmer 1 true/pause 800/showFrame MarlonFay 18 true/pause 700/speak MarlonFay \"ถึงเวลาแล้ว ที่เจ้าจะได้เจอกับ โครบัส เขาเป็นมนุษย์เงา ซ่อนตัวอยู่ในท่อระบายน้ำ ของเมืองเพลิแกน$0\"/pause 200/emote farmer 16/pause 600/faceDirection MarlonFay 3 true/pause 500/speak MarlonFay \"มาเถอะ เราไปพบเขากัน$0\"/pause 800/advancedMove MarlonFay false 0 -1 -1 0 0 -10/pause 400/faceDirection farmer 0 true/pause 1000/move farmer 0 -9 0 true/pause 2000/globalFade/viewport -1000 -1000/halt/pause 500/changeLocation Town/stopMusic/pause 500/warp farmer 40 101/warp MarlonFay 38 101/viewport 35 97 clamp true/advancedMove MarlonFay false -3 0 0 -4/move farmer -6 0 0/move farmer 0 -4 0 true/pause 500/showFrame MarlonFay 8 true/pause 2750/faceDirection MarlonFay 3 true/pause 500/faceDirection farmer 1 true/pause 400/speak MarlonFay \"ให้ข้าปลดล็อกมันซะก่อน\"/pause 450/faceDirection MarlonFay 0 true/pause 650/playSound openBox/shake MarlonFay 200/pause 700/shake MarlonFay 500/playSound trashcanlid/pause 900/faceDirection MarlonFay 3 true/pause 500/speak MarlonFay \"เอาล่ะ ก้าวระวังล่ะ\"/pause 600/faceDirection MarlonFay 0 true/pause 500/faceDirection farmer 0 true/pause 800/playSound stairsdown/warp MarlonFay -40 -40/pause 600/playSound stairsdown/warp farmer -39 -39/pause 800/globalFade/viewport -1000 -1000/pause 400/changeLocation Sewer/playMusic Upper_Ambient/warp Krobus 31 20/warp MarlonFay 17 11/faceDirection farmer 2/showFrame MarlonFay 18/move Krobus -10 0 0 true/viewport 19 17 true/pause 2000/playSound stairsdown/warp farmer 16 11/pause 900/faceDirection farmer 1/pause 900/faceDirection farmer 2/pause 500/move MarlonFay 0 0 2/move MarlonFay 0 0 2/pause 400/move MarlonFay 0 6 2 true/pause 300/move farmer 0 5 2 true/pause 2000/speak MarlonFay \"โครบัส ข้าพาคนๆ นึงมาด้วย อยากให้เจ้าได้พบเขา\"/pause 500/shake Krobus 800/emote Krobus 28 true/pause 1300/move Krobus 0 0 3/pause 500/speak Krobus \"...\"/pause 700/speed Krobus 2/move Krobus -4 0 0/pause 500/speak MarlonFay \"โครบัส นี่คือ @ สมาชิกคนใหม่ของกิลด์เรา\"/pause 750/speak Krobus \"ย-ยินดีที่ ด-ได้รู้จัก...\"/pause 700/move farmer 0 1 2/pause 500/emote farmer 32/pause 600/speak Krobus \"เราเคยเจอกันมาก่อน ต-แต่ ข้าวิ่งหนีเจ้าไป...#$b#ข้าวิ่งหนี มนุษย์ส่วนใหญ่...\"/pause 500/showFrame MarlonFay 18/pause 500/speak MarlonFay \"โครบัส มี... มีประสบการณ์ ที่ไม่ค่อยจะดีนักกับมนุษย์ ข้าได้เจอกับเขา ระหว่างการทำภาระกิจ เมื่อหลายปีก่อน#$b#เขาต่างจากมนุษย์เงาตนอื่นๆ โครบัสนั้น สามารถพูดภาษาเราได้ และยังเป็นมิตร  มันเป็นเรื่อง... ที่ไม่เคยพบเจอมาก่อน\"/pause 400/move farmer 0 0 1/pause 500/speak MarlonFay \"นักผจญภัยส่วนใหญ่น่ะ แทงก่อน แล้วค่อยถามทีหลัง การปกป้องโครบัส จากคนพวกนั้น จึงเป็นสิ่งที่จำเป็น#$b#แมกนัสกับข้า จึงได้จัดหาบ้านชั่วคราวในเขา ที่ท่อระบายน้ำนี่\"/pause 500/move farmer 0 0 2/pause 200/move MarlonFay 0 0 2/pause 400/speak Krobus \"ข้าซาบซึ้งใจในพวกเขา พวกเข้าปฏิบัติกับข้า เป็นอย่างดี... เหมือนข้าเป็นมนุษย์คนนึง$1\"/pause 500/showFrame MarlonFay 18/pause 400/speak MarlonFay \"@ ถ้ามีใครในเมื่องเห็นโครบัสเข้า เขาอาจจะส่งคำขอมายังกิลด์ เพื่อกำจัดเขาได้#$b#เจ้าจะต้องเก็บ สิ่งที่เจ้าได้รู้เห็นในวันนี้ ไว้เป็นความลับ\"/pause 150/move farmer 0 0 1/pause 500/speak MarlonFay \"งั้นเรากลับไปที่กิลด์กัน ข้ามีบางอย่างจะมอบให้เจ้า\"/pause 600/showFrame MarlonFay 0/pause 500/faceDirection farmer 2/pause 500/speak MarlonFay \"พวกข้าต้องไปแล้ว โครบัส ดีใจที่ได้เห็นเจ้า เหมือนอย่างเคย#$b#เจ้าจะได้พบ @ อีกครั้ง เร็วๆ นี้\"/pause 500/speak Krobus \"...\"/pause 400/globalFade/viewport -1000 -1000/pause 600/playSound stairsdown/pause 1000/playSound stairsdown/pause 200/changeLocation AdventureGuild/pause 100/playMusic MarlonsTheme/warp farmer 6 5/warp Krobus -300 -300/warp MarlonFay 8 5/faceDirection farmer 1/pause 100/move MarlonFay 0 0 3/viewport 7 5 true/pause 1500/speak MarlonFay \"เจ้าได้พิสูจน์ความเชื่อใจ ให้ข้าเห็นแล้ว#$b#นี่เป็นกุญแจท่อระบายน้ำ จนถึงตอนนี้ มีแค่แมกนัส กิล และข้าที่มีกุญแจ และตอนนี้ เจ้าก็จะมีมันด้วย\"/pause 500/playSound reward/message \"คุณได้รับกุญแจท่อระบายน้ำ!\"/pause 500/speak MarlonFay \"เจ้าน่าจะไปคุยกับโครบัสนะ ดูเหมือนเขาจะชอบเจ้า#$b#และจงอย่าลืม  การมีตัวตนของเขา จะต้องถูกเก็บเป็นความลับ\"/pause 400/globalFade/viewport -1000 -1000/pause 500/end dialogue MarlonFay \"โลกเรานั้นเต็มไปด้วยปริศนา$0#$e#เราจะสามารถคลี่คลายได้หรือไม่?...ความจริงมีเพียงหนึ่งเดียว$2\"",
+	 "1090501/e 1000034/k 1090502/f MarlonFay 500": "continue/-500 -500/farmer 51 16 2 Krobus -300 -300 3 MarlonFay 52 30 2/rustyKey/skippable/pause 1000/viewport 51 30 clamp true/move farmer 0 11 2/pause 1250/showFrame MarlonFay 18 true/pause 600/speak MarlonFay \"มากับข้า @\"/pause 750/faceDirection MarlonFay 2 true/pause 600/move farmer 0 3 2/pause 2000/speak MarlonFay \"@...$2#$b#มีบางอย่างที่ข้าตั้งใจ จะแสดงให้เจ้าดู...$0\"/pause 1000/faceDirection farmer 1 true/pause 800/showFrame MarlonFay 18 true/pause 700/speak MarlonFay \"ถึงเวลาแล้ว ที่เจ้าจะได้เจอกับ โครบัส เขาเป็นมนุษย์เงา ซ่อนตัวอยู่ในท่อระบายน้ำ ของเมืองเพลิแกน$0\"/pause 200/emote farmer 16/pause 600/faceDirection MarlonFay 3 true/pause 500/speak MarlonFay \"มาเถอะ เราไปพบเขากัน$0\"/pause 800/advancedMove MarlonFay false 0 -1 -1 0 0 -10/pause 400/faceDirection farmer 0 true/pause 1000/move farmer 0 -9 0 true/pause 2000/globalFade/viewport -1000 -1000/halt/pause 500/changeLocation Town/stopMusic/pause 500/warp farmer 40 101/warp MarlonFay 38 101/viewport 35 97 clamp true/advancedMove MarlonFay false -3 0 0 -4/move farmer -6 0 0/move farmer 0 -4 0 true/pause 500/showFrame MarlonFay 8 true/pause 2750/faceDirection MarlonFay 3 true/pause 500/faceDirection farmer 1 true/pause 400/speak MarlonFay \"ให้ข้าปลดล็อกมันซะก่อน\"/pause 450/faceDirection MarlonFay 0 true/pause 650/playSound openBox/shake MarlonFay 200/pause 700/shake MarlonFay 500/playSound trashcanlid/pause 900/faceDirection MarlonFay 3 true/pause 500/speak MarlonFay \"เอาล่ะ ก้าวระวังล่ะ\"/pause 600/faceDirection MarlonFay 0 true/pause 500/faceDirection farmer 0 true/pause 800/playSound stairsdown/warp MarlonFay -40 -40/pause 600/playSound stairsdown/warp farmer -39 -39/pause 800/globalFade/viewport -1000 -1000/pause 400/changeLocation Sewer/playMusic Upper_Ambient/warp Krobus 31 20/warp MarlonFay 17 11/faceDirection farmer 2/showFrame MarlonFay 18/move Krobus -10 0 0 true/viewport 19 17 true/pause 2000/playSound stairsdown/warp farmer 16 11/pause 900/faceDirection farmer 1/pause 900/faceDirection farmer 2/pause 500/move MarlonFay 0 0 2/move MarlonFay 0 0 2/pause 400/move MarlonFay 0 6 2 true/pause 300/move farmer 0 5 2 true/pause 2000/speak MarlonFay \"โครบัส ข้าพาคนๆ นึงมาด้วย อยากให้เจ้าได้พบเขา\"/pause 500/shake Krobus 800/emote Krobus 28 true/pause 1300/move Krobus 0 0 3/pause 500/speak Krobus \"...\"/pause 700/speed Krobus 2/move Krobus -4 0 0/pause 500/speak MarlonFay \"โครบัส นี่คือ @ สมาชิกคนใหม่ของกิลด์เรา\"/pause 750/speak Krobus \"ย-ยินดีที่ ด-ได้รู้จัก...\"/pause 700/move farmer 0 1 2/pause 500/emote farmer 32/pause 600/speak Krobus \"เราเคยเจอกันมาก่อน ต-แต่ ข้าวิ่งหนีเจ้าไป...#$b#ข้าวิ่งหนี มนุษย์ส่วนใหญ่...\"/pause 500/showFrame MarlonFay 18/pause 500/speak MarlonFay \"โครบัส มี... มีประสบการณ์ ที่ไม่ค่อยจะดีนักกับมนุษย์ ข้าได้เจอกับเขา ระหว่างการทำภาระกิจ เมื่อหลายปีก่อน#$b#เขาต่างจากมนุษย์เงาตนอื่นๆ โครบัสนั้น สามารถพูดภาษาเราได้ และยังเป็นมิตร  มันเป็นเรื่อง... ที่ไม่เคยพบเจอมาก่อน\"/pause 400/move farmer 0 0 1/pause 500/speak MarlonFay \"นักผจญภัยส่วนใหญ่น่ะ แทงก่อน แล้วค่อยถามทีหลัง การปกป้องโครบัส จากคนพวกนั้น จึงเป็นสิ่งที่จำเป็น#$b#แมกนัสกับข้า จึงได้จัดหาบ้านชั่วคราวในเขา ที่ท่อระบายน้ำนี่\"/pause 500/move farmer 0 0 2/pause 200/move MarlonFay 0 0 2/pause 400/speak Krobus \"ข้าซาบซึ้งใจในพวกเขา พวกเข้าปฏิบัติกับข้า เป็นอย่างดี... เหมือนข้าเป็นมนุษย์คนนึง$1\"/pause 500/showFrame MarlonFay 18/pause 400/speak MarlonFay \"@ ถ้ามีใครในเมื่องเห็นโครบัสเข้า เขาอาจจะส่งคำขอมายังกิลด์ เพื่อกำจัดเขาได้#$b#เจ้าจะต้องเก็บ สิ่งที่เจ้าได้รู้เห็นในวันนี้ ไว้เป็นความลับ\"/pause 150/move farmer 0 0 1/pause 500/speak MarlonFay \"งั้นเรากลับไปที่กิลด์กัน ข้ามีบางอย่างจะมอบให้เจ้า\"/pause 600/showFrame MarlonFay 0/pause 500/faceDirection farmer 2/pause 500/speak MarlonFay \"พวกข้าต้องไปแล้ว โครบัส ดีใจที่ได้เห็นเจ้า เหมือนอย่างเคย#$b#เจ้าจะได้พบ @ อีกครั้ง เร็วๆ นี้\"/pause 500/speak Krobus \"...\"/pause 400/globalFade/viewport -1000 -1000/pause 600/playSound stairsdown/pause 1000/playSound stairsdown/pause 200/changeLocation AdventureGuild/pause 100/playMusic MarlonsTheme/warp farmer 6 5/warp Krobus -300 -300/warp MarlonFay 8 5/faceDirection farmer 1/pause 100/move MarlonFay 0 0 3/viewport 7 5 true/pause 1500/speak MarlonFay \"เจ้าได้พิสูจน์ความเชื่อใจ ให้ข้าเห็นแล้ว#$b#นี่เป็นกุญแจท่อระบายน้ำ จนถึงตอนนี้ มีแค่แมกนัส กิล และข้าที่มีกุญแจ และตอนนี้ เจ้าก็จะมีมันด้วย\"/pause 500/playSound reward/message \"คุณได้รับกุญแจท่อระบายน้ำ!\"/pause 500/speak MarlonFay \"เจ้าน่าจะไปคุยกับโครบัสนะ ดูเหมือนเขาจะชอบเจ้า#$b#และจงอย่าลืม  การมีตัวตนของเขา จะต้องถูกเก็บเป็นความลับ\"/pause 400/globalFade/viewport -1000 -1000/pause 500/end dialogue MarlonFay \"โลกเรานั้นเต็มไปด้วยปริศนา$0#$e#เราจะสามารถคลี่คลายได้หรือไม่?...ความจริงมีเพียงหนึ่งเดียว$2\"",
 	 },
 },
 
@@ -13478,7 +13542,7 @@
     "Action": "EditData",
     "Target": "Data/Events/farm",
     "Entries": {
-    "690006/n slimeHutchBuilt/H": "continue/64 15/farmer 64 16 2 MarlonFay 66 15 0/broadcastEvent/pause 1000/speak MarlonFay \"เจอกับโรบินเมื่อเช้า... นางบอกว่าเจ้ามี ปราสาทสไลม์ (Slime Hutch) ใหม่หรือ!$1#$b#ตอนอายุเท่าเจ้า ข้าเคยชอบเพาะพันธุ์สไลม์ เป็นงานอดิเรกที่ดี... แต่อันตราย$1#$b#เจ้าคิดว่าข้าเสียตาข้างนี้ ไปได้ยังไงกันล่ะ?$2\"/shake MarlonFay 1000/showFrame MarlonFay 16/textAboveHead MarlonFay \"ฮ่า!\"/pause 1000/textAboveHead MarlonFay \"ล้อเล่นน่ะ\"/showFrame MarlonFay 17/pause 700/showFrame MarlonFay 8/pause 800/speak MarlonFay \"นี่ ข้ามีอะไรให้เจ้า\"/itemAboveHead slimeEgg/pause 1000/pause 1000/pause 1300/awardFestivalPrize slimeEgg/pause 300/faceDirection farmer 2 true/pause 500/speak MarlonFay \"ไข่สไลม์น่ะ เอาไปใส่เครื่องฟักไข่สไลม์ (slime incubator) เพื่อฟักมันนะ#$b#ทีนี้ จำไข่นั่นไว้ดีๆ นะ คราวหน้าที่ไปล่าสไลม์ มองหามันเพิ่มดีๆ ล่ะ มันอาจจะหายาก แต่สไลม์ก็ดรอปมัน บ้างเหมือนกันนะ#$b#เก็บไข่จากสไลม์หลายๆ แบบนะ ฝูงสไลม์เจ้าจะได้หลากหลาย !\"/pause 500/end",
+    "690006/n slimeHutchBuilt/H": "continue/64 15/farmer 64 16 2 MarlonFay 66 15 0/broadcastEvent/pause 1000/speak MarlonFay \"เจอกับโรบินเมื่อเช้า... นางบอกว่าเจ้ามี ปราสาทสไลม์ (Slime Hutch) ใหม่หรือ!$1#$b#ตอนอายุเท่าเจ้า ข้าเคยชอบเพาะพันธุ์สไลม์ เป็นงานอดิเรกที่ดี... แต่อันตราย$1#$b#เจ้าคิดว่าข้าเสียตาข้างนี้ ไปได้ยังไงกันล่ะ?$2\"/shake MarlonFay 1000/showFrame MarlonFay 16/textAboveHead MarlonFay \"ฮ่า!\"/pause 1000/textAboveHead MarlonFay \"ล้อเล่นน่ะ\"/showFrame MarlonFay 17/pause 700/showFrame MarlonFay 8/pause 800/speak MarlonFay \"นี่ ข้ามีอะไรให้เจ้า\"/itemAboveHead slimeEgg/pause 1000/pause 1000/pause 1300/awardFestivalPrize slimeEgg/pause 300/faceDirection farmer 2 true/pause 500/speak MarlonFay \"ไข่สไลม์น่ะ เอาไปใส่เครื่องฟักไข่สไลม์ (Slime Incubator) เพื่อฟักมันนะ#$b#ทีนี้ จำไข่นั่นไว้ดีๆ นะ คราวหน้าที่ไปล่าสไลม์ มองหามันเพิ่มดีๆ ล่ะ มันอาจจะหายาก แต่สไลม์ก็ดรอปมัน บ้างเหมือนกันนะ#$b#เก็บไข่จากสไลม์หลายๆ แบบนะ ฝูงสไลม์เจ้าจะได้หลากหลาย !\"/pause 500/end",
 	},
 },
 
@@ -13821,8 +13885,18 @@
 {   //MORGAN SPAWNS NEXT DAY - Conditions: Year 3, not Monday or Tuesday, player has learned how to use the 'Shrine of Illusions' (which requires 4 hearts of wizard friendship)
 	"Action": "EditData",
 	"Target": "data/events/farm",
+	"When": { "Spouse |contains=Wizard": false },
 	"Entries": { 
     "5978924/y 3/d Mon Tue/e 1724095": "none/-500 -500/farmer 64 14 2 Wizard 64 16 0/skippable/pause 1000/speak Wizard \"สวัสดี @ ข้ามีข่าว จากกระทรวงเวทมนตร์ แห่งสาธารณรัฐเฟิร์นกิลล์$0#$b#พวกเขามอบหมายให้ข้า ฝึกหัดลูกศิษย์เกี่ยวกับเวทย์ เบื้องต้นและธาตุสภาพ ลูกศิษย์ข้ามีชื่อว่ามอร์แกน\"/pause 800/speak Wizard \"ที่จริงข้าก็มีคน ที่ได้สอนเวทมนตร์ ในหุบเขานี้แล้ว...#$b#แต่ถ้ากระทรวงออกคำสั่งมา ข้าก็ต้องทำตามนั้น$0\"/pause 700/faceDirection Wizard 1 true/pause 250/faceDirection Wizard 2 true/pause 500/speak Wizard \"มอร์แกนจะมาถึงในวันพรุ่งนี้$0#$b#แค่นี้ล่ะ$0\"/pause 800/showFrame Wizard 0/pause 500/showFrame Wizard 16/pause 600/screenFlash 2/warp Wizard -100 -100/playSound wand/pause 700/globalFade/viewport -1000 -1000/stopMusic/pause 1000/message \"วันพรุ่งนี้จะมีคนมาที่หุบเขา แห่งนี้สินะ!\"/pause 1000/end dialogue \"ครอบครัวของมอร์แกน ขอที่จะมาเยี่ยมในทุกๆ ฤดู แต่ว่าข้าปฏิเสธ#$e#ให้ข้าได้อธิบาย#$b#จอมเวทย์จะต้องสาบานว่า จะปฏิบัติตาม 'หลักคำสอนของเมอร์ลิน'#$b#กระทรวงเวทมนตร์ ได้ยื่นคำขาดแล้ว#$e#เอาล่ะ ข้าจะต้องจัดเตรียม บทเรียนไว้สักหน่อย\""
+	},
+},
+
+{   //player is married to Wizard and Morgan arrives 
+	"Action": "EditData",
+	"Target": "data/events/farmhouse",
+	"When": { "Spouse |contains=Wizard": true },
+	"Entries": { 
+    "5978924/y 3/d Mon Tue/e 1724095/t 600 630": "none/-500 -500/farmer -20 -20 0 Wizard -21 -21 0/skippable/pause 1000/speak Wizard \"@. I've returned from the Ferngill Republic Ministry of Magic. Apologies for waking you when I left last night...$0#$b#I bring important news. They've assigned me a pupil to train in the elementals. Their name is Morgan.$0#$b#I would have preferred to teach you magic...#$b#But the ministry has spoken. I must do as they command.#$b#Morgan will arrive tomorrow.$0\"/pause 500/end dialogue Wizard \"Morgan's family made the request to visit once a season, but I denied it.#$e#Allow me to explain.#$b#Mages take an oath to follow the 'Merlin Doctrine'.#$b#The Ministry of Magic has the final say in all things.#$e#Now, I must prepare their reading material.\""
 	},
 },
 
