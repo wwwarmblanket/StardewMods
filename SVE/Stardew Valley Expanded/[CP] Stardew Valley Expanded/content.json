@@ -5497,8 +5497,8 @@
    "escortedGunther": "ถึง @,^^ที่แนบมาด้วยเป็นค่าตอบแทนสำหรับงานของคุณ ขอบคุณสำหรับการช่วยเหลือในงานวิจัย และความปลอดภัยของผมนะ^^ -กันเธอร์ %item money 20000 20001 %%",
    "harveyBalloon": "@,^ผมมีเซอร์ไฟส์ให้คุณนะ มาเจอผมที่ทุ่งแกรมเพิลตันนะครับ ข้ามสะพานเชียร์วอเทอร์มานะครับ!^   -ฮาร์วี[#]เซอร์ไพส์จากฮาร์วีย์",
    "JojaSeeds": "เรียน ผู้มีอุปการะคุณ ^^ขอบคุณสำหรับการปรับปรุงคลังสินค้า จากนี้ไป ร้านโจจ้า จะขายเมล็ดพันธุ์ทุกชนิดตลอดทั้งปี! เราคือโจจ้า คู่คิดธุรกิจคุณ^^   -มอร์ริส",
-   "MysteriousWizardLetter": "@,^^Meet me in the forest west of my tower at 2:00 PM sharp today. There's something we must discuss. Come alone.",
-   "ThiefOfJusticeMovie": "You are cordially invited to attend a very special early showing of:^^THE THIEF OF JUSTICE^STARRING CLAIRE WHITLEY^^Premiering tonight at the theater at 5 PM."
+   "MysteriousWizardLetter": "@,^^ไปพบข้าที่ป่าทางทิศตะวันตก ของหอคอยข้าวันนี้ เวลา[บ่ายสองโมงตรง (2:00 PM) ข้ามีบางอย่างที่จะต้องหารือกับเจ้า มาคนเดียวล่ะ",
+   "ThiefOfJusticeMovie": "คุณได้รับเชิญให้เข้าร่วม รายการพิเศษก่อนการแสดง:^^THE Thief of Justice^นำแสดงโดย แคลร์ ไวท์ลีย์^^รอบปฐมทัศน์ คืนนี้ ที่โรงละครเวลา 17.00 น."
 
 	}
 },
@@ -6858,7 +6858,7 @@
 		"SummitEvent_Dialogue3_Victor": "ผมยังจำได้ดีเลยครับ ครั้งสุดท้าย ที่เราได้ขึ้นมาบนนี้ พวกเราผ่านอะไร มามากมายนับตั้งแต่วันนั้น เวลาผ่านไปไวจนน่าตกใจจริงๆ ครับ$1#$b#ไม่มีที่ไหนอีกแล้ว ที่ผมอยากอยู่กับคุณ ในช่วงเวลานี้$3\"/pause 500/faceDirection Victor 3/pause 300/faceDirection farmer 1/pause 150/speak Victor \"ขอบคุณที่เดินเข้ามา ในชีวิตของผม และทำให้ทุกวันเหมือนเป็น การผจญภัยเสมอ$1", 
 		"SummitEvent_Dialogue3_Olivia": "หลายปีที่ผ่านมานี้ ฉันไม่เคยเสียดายเลย แม้แต่ครั้งเดียว ที่เลือกจะใช้ชีวิตที่เหลืออยู่ กับคุณ$3\"/pause 500/faceDirection Olivia 3/pause 500/faceDirection farmer 1/pause 300/speak Olivia \"ฉันปรารถนาว่า จะสามารถแสดงให้คุณเห็นได้ ว่าฉันมองคุณยังไง ผ่านดวงตาคู่นี้ของฉัน$3#$b#แค่เพียงคุณสามารถรู้สึกได้ว่า คุณมีความหมายกับฉัน มากขนาดไหน และฉันรักคุณมากมาย ขนาดไหน$4", 
 		"SummitEvent_Dialogue3_Claire": "การเลือกทำงานกับร้านโจจ้า เป็นการตัดสินใจ ที่ถูกต้องที่สุด ที่ฉันเคยทำมา$1#$b#ก็เหมือนกับการแสดง คุณไม่มีทางรู้หรอกว่า อนาคตจะเป็นแบบไหน หรือ หนึ่งในตัวเลือกพวกนั้น จะเป็นชีวิตคุณ ไปตลอดกาลยังไง...$5\"/pause 500/faceDirection Claire 3/pause 500/faceDirection farmer 1/pause 300/speak Claire \"หัวใจของฉัน จะเป็นของคุณเสมอ...$4",
-	    "SummitEvent_Dialogue3_Wizard": "You know, after the way things with my ex wife concluded, and... and Caroline, too...I truly wasn't sure I'd ever find someone to spend my life with.#$b#I thought I might be destined to be alone with my spells, in my tower in the woods.$2#$b#And then you moved into the valley, and it didn't matter that I hid myself away...$0#$b#You came through the woods to knock on my door and find me, again and again. You brought hope into my life when I thought it had died a long while ago.$5\"/pause 500/faceDirection Wizard 3/pause 500/faceDirection farmer 1/pause 300/speak Wizard \"Thank you for trusting me. For believing in me, and giving me a chance at living again.$1#$b#You've given me the gift of joy, @. I can only do my best to return it...and so I shall, for the rest of our lives together.$4",
+	    "SummitEvent_Dialogue3_Wizard": "เจ้ารู้รึเปล่า หลังจากที่เรื่องต่างๆ เกี่ยวกับภรรยาเก่าของข้าจบลง และ... และแคโรไลน์... ก็ด้วย... ข้าไม่แน่ใจจริงๆ ว่าข้าจะหาใครสักคน ที่จะมาใช้ชีวิตอยู่ร่วมกันได้อีก#$b#หรือข้าอาจจะถูกลิขิตมา ให้อยู่อย่างเดียวดาย กับเวทมนตร์ของข้าเอง ในหอคอยที่อยู่ลึกในป่าเช่นนี้$2#$b#และเจ้า ก็มายังหุบเขานี้ โดยที่ไม่ว่าข้า จะซ่อนตัวสักเพียงไหน...$0#$b#เจ้าก็ยังเข้ามาในป่าลึก มาเคาะประตู แล้วก็หาข้าจนเจอ ครั้งแล้ว ครั้งเล่า เจ้านำความหวังมาสู่ข้า ในขณะที่ตัวข้าเอง ได้ทิ้งมันไปนานแล้ว$5\"/pause 500/faceDirection Wizard 3/pause 500/faceDirection farmer 1/pause 300/speak Wizard \"ขอบคุณที่ไว้วางใจข้า เชื่อมั่นในตัวข้า และมอบความหวัง ในการมีชีวิตอยู่ ให้ข้าอีกครั้ง$1#$b#เจ้าได้มอบ ของขวัญแห่งความสุข แก่ข้า @ ข้าทำให้ดีที่สุด เพื่อตอบแทนของขวัญนี้ และข้าจะทำให้ดีที่สุด ที่จะทำให้เรา ได้อยู่ด้วยกันตลอดไป$4",
 	 }
 },
 
@@ -6890,7 +6890,7 @@
 	 "MovieInvite_Spouse_Olivia": "โอ้ คุณอยากจะไปดูหนังที่ โรงหนังงั้นหรอ? มันต้องเป็นการเดทยามค่ำคืน ที่แสนน่ารักแน่ๆ$3",
 	 "MovieInvite_Spouse_Sophia": "อู้ววว! หนังงั้นหรอ? เย่!$9#$b#เค้าจะไปเจอตัวเอง ที่โรงหนังเลย โอเคนะ?$1#$e#เค้าจะไปซื้อ ขนมสายไหมกิน!$1",
 	 "MovieInvite_Spouse_Claire": "คุณอยากจะไปดูหนัง กับฉันงั้นหรอ? ไปกัน!$1",
-	 "MovieInvite_Spouse_Wizard": "You wish to watch a movie at the theater? I'd be delighted.$0",
+	 "MovieInvite_Spouse_Wizard": "เจ้าอยากจะไปดูหนังกับข้างั้นรึ? นั่นทำให้ข้ายินดีจริงๆ$0",
 	 }
 },
 
@@ -13896,7 +13896,7 @@
 	"Target": "data/events/farmhouse",
 	"When": { "Spouse |contains=Wizard": true },
 	"Entries": { 
-    "5978924/y 3/d Mon Tue/e 1724095/t 600 630": "none/-500 -500/farmer -20 -20 0 Wizard -21 -21 0/skippable/pause 1000/speak Wizard \"@. I've returned from the Ferngill Republic Ministry of Magic. Apologies for waking you when I left last night...$0#$b#I bring important news. They've assigned me a pupil to train in the elementals. Their name is Morgan.$0#$b#I would have preferred to teach you magic...#$b#But the ministry has spoken. I must do as they command.#$b#Morgan will arrive tomorrow.$0\"/pause 500/end dialogue Wizard \"Morgan's family made the request to visit once a season, but I denied it.#$e#Allow me to explain.#$b#Mages take an oath to follow the 'Merlin Doctrine'.#$b#The Ministry of Magic has the final say in all things.#$e#Now, I must prepare their reading material.\""
+    "5978924/y 3/d Mon Tue/e 1724095/t 600 630": "none/-500 -500/farmer -20 -20 0 Wizard -21 -21 0/skippable/pause 1000/speak Wizard \"@ ข้ากลับมาจาก กระทรวงเวทมนตร์ แห่งสาธารณรัฐเฟิร์นกิลล์  ขอโทษนะ ที่ข้าปลุกเจ้า ตอนที่ออกไปกลางดึกเมื่อคืนนี้...$0#$b#ข้ามีเรื่องสำคัญต้องบอกเจ้า พวกเขามอบหมายให้ข้า ฝึกหัดลูกศิษย์เกี่ยวกับเวทย์ เบื้องต้นและธาตุสภาพ ลูกศิษย์ข้ามีชื่อว่ามอร์แกน$0#$b#ข้าก็บอกไปแล้ว ว่าข้าจะสอนเวทมนตร์ ให้กับเจ้า...#$b#แต่ถ้ากระทรวงออกคำสั่งมา ข้าก็ต้องทำตามนั้น#$b#มอร์แกนจะมาถึงในวันพรุ่งนี้$0\"/pause 500/end dialogue Wizard \"ครอบครัวของมอร์แกน ขอที่จะมาเยี่ยมในทุกๆ ฤดู แต่ว่าข้าปฏิเสธ#$e#ให้ข้าได้อธิบาย#$b#จอมเวทย์จะต้องสาบานว่า จะปฏิบัติตาม 'หลักคำสอนของเมอร์ลิน'#$b#กระทรวงเวทมนตร์ ได้ยื่นคำขาดแล้ว#$e#เอาล่ะ ข้าจะต้องจัดเตรียม บทเรียนไว้สักหน่อย\""
 	},
 },
 
