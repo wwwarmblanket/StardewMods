@@ -14497,8 +14497,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Spring 11" },
       "Entries": {
-      "funReturn_Wizard": "Magic is very demanding, but it can be rewarding, too.$0",
-      "funLeave_Wizard": "I love you for many reasons, but one is how talented you are. You're adept at anything you put your hand to.$0#$e#I admire you greatly for that.$4",
+      "funReturn_Wizard": "เวทมนตร์น่ะ สามารถให้สิ่งที่น่าพึ่งพอใจได้ แต่บางครั้งก็ต้องแลกมาด้วย ค่าตอบแทนมากมายเช่นกัน$0",
+      "funLeave_Wizard": "มีหลายเหตุผลที่ทำให้ข้า ตกหลุมรักเจ้า หนึ่งในนั้นก็คือ พรสวรรค์ที่เจ้ามี เจ้ามีความชำนาญ ในทุกอย่างที่เจ้าเจ็บต้องมัน$0#$e#ข้าชื่นชมในเรื่องนั้นจริงๆ$4",
         }
 	},
 	{
@@ -14506,8 +14506,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Spring 15" },
       "Entries": {
-      "funReturn_Wizard": "We'll both rest well tonight.$1",
-      "funLeave_Wizard": "I've got some traveling to do for the Guild soon. Even thinking about it is making me exhausted...$0#$e#I don't often brew coffee, but I did today.[253]$1#$b#I hope it fuels your productivity!$1",
+      "funReturn_Wizard": "คืนนี้้พวกเราพักกันสบายๆ เถอะ$1",
+      "funLeave_Wizard": "เดี๋ยวข้าจะต้องออกเดินทาง เพื่อไปทำธุระให้กิลด์สักหน่อย  เพียงแค่คิดถึงมัน ก็ทำให้ข้าเหนื่อยซะแล้ว...$0#$e#ข้าไม่ค่อยได้ชงกาแฟ สักเท่าไหร่ แต่วันนี้ข้าชงด้วยนะ[253]$1#$b#ข้าหวังว่ามันจะช่วยเป็นพลัง ให้กับเจ้าในการทำงานได้!$1",
         }
 	},
 	{
@@ -14515,8 +14515,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Spring 16" },
       "Entries": {
-      "funReturn_Wizard": "Ah, hello, dearest! I was just thinking about you.$1",
-      "funLeave_Wizard": "I'm running low on some of my potion supplies. I'll need to head into the forest to collect more soon.$0",
+      "funReturn_Wizard": "อ่า มาแล้วรึ ยอดดวงใจของข้า !  ข้ากำลังคิดถึงเจ้าอยู่เลย$1",
+      "funLeave_Wizard": "วัตถุดิบปรุงยาของข้า ใกล้จะหมดซะแล้ว เดี๋ยวข้าจะต้องเข้าไปในป่า เพื่อหามันมาเพิ่มสักหน่อย$0",
         }
 	},
 	{
@@ -14524,8 +14524,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Spring 17" },
       "Entries": {
-      "funReturn_Wizard": "You keep the refrigerator very well-stocked with the products of the farm.$0#$b#It makes it difficult for me to be useful by offering to do the shopping.$1",
-      "funLeave_Wizard": "I spotted a rare bird over the farm this morning! I wonder if it flew in from the Fern Islands.$0",
+      "funReturn_Wizard": "เจ้าน่ะ เก็บวัตถุดิบจากฟาร์ม ไว้ในตู้เย็นซะครบถ้วนเลยนะ$0#$b#นั่นทำให้ข้า อดทำตัวให้ประโยชน์ โดยการอาสาออกไป ซื้อกับข้าวน่ะสิ$1",
+      "funLeave_Wizard": "ข้าเห็นเจ้านกหายาก บินข้ามฟาร์มเมื่อเช้านี้ด้วย! ข้าสงสัยว่ามันน่าจะบิน มาจากเกาะใบเฟิร์น$0",
         }
 	},
 	{
@@ -14533,8 +14533,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Spring 18" },
       "Entries": {
-      "funReturn_Wizard": "We should go on a little retreat together soon. I can pull some strings with the Guild to find us a place in a cozy little town in the mountains somewhere.$0",
-      "funLeave_Wizard": "What a comfortable home we've made on this little farm! Much nicer than a drafty tower.$1#$e#Speaking of which, I have arcane matters at said tower today.$0#$e#I wouldn't mind if you were to visit me...$4",
+      "funReturn_Wizard": "ข้าว่าเราต้องหาเวลา ไปเที่ยวพักผ่อนกันสักหน่อย เดี๋ยวข้าจะใช้เส้นสายกับกิลด์ ให้ลองหาสถานที่ พักผ่อนหย่อนใจสบายๆ ในเมืองเล็กๆ ตามภูเขาดู$0",
+      "funLeave_Wizard": "นี่ช่างเป็นบ้านแสนสบาย ที่เราสร้างมันขึ้นมา บนฟาร์มเล็กๆ แห่งนี้! ดีกว่าหอคอยสูงๆ มาก$1#$e#จะว่าไป วันนี้ ข้ามีเรื่องเกี่ยวกับเวทมนตร์ ที่ต้องไปจัดการที่หอคอยนั่น$0#$e#เจ้าจะแวะไปหาข้าก็ได้นะ...$4",
         }
 	},
 	{
@@ -14542,8 +14542,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Spring 22" },
       "Entries": {
-      "funReturn_Wizard": "Remind me to show you the charm I've been working on recently. It's a spell of protection, but the effects are quite eye-catching.$0",
-      "funLeave_Wizard": "Good morning, my dearest. Would you care for some coffee? I added some Gotoran almond spice to it. [253]#$e#I don't drink coffee often, but when I do I prefer it to be quite strong.$0",
+      "funReturn_Wizard": "อย่าลืมเตือนข้า ให้เอาเครื่องรางที่ข้าพึ่งทำ มาให้เจ้าดูด้วยนะ มันมีคาถาป้องกันอยู่ แต่การแสดงผลของมัน ดูจะดึงดูด สายตาไปสักหน่อย$0",
+      "funLeave_Wizard": "อรุณสวัสดิ์ ยอดดวงใจข้า ดื่มกาแฟสักหน่อยมั้ย? ข้าเติมอัลมอนต์สมุนไพร โกโตรันลงไปด้วย [253]#$e#ข้าดื่มกาแฟไม่ค่อยบ่อยนัก แต่ถ้าจะต้องดื่ม ข้าขอแบบเข้มๆ ไปเลยดีกว่า$0",
         }
 	},
 	{
@@ -14551,8 +14551,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Spring 23" },
       "Entries": {
-      "funReturn_Wizard": "Welcome home, dearest.$0#$e#I trust your day went well?$1",
-      "funLeave_Wizard": "A pleasant day to be out and about. Care to join me?$0",
+      "funReturn_Wizard": "ยินดีต้อนรับกลับบ้าน ยอดรัก$0#$e#ข้าเชื่อว่า วันนี้ผ่านไปด้วยดี ใช่มั้ย?$1",
+      "funLeave_Wizard": "ช่างเป็นสันแสนสุข เหมาะแก่การออกไปเที่ยวเล่น อยากจะไปกับข้ามั้ย?$0",
         }
 	},
 	{
@@ -14560,8 +14560,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Spring 24" },
       "Entries": {
-      "funReturn_Wizard": "Do you think we have room in here for another bookshelf?$0",
-      "funLeave_Wizard": "Good morning, my dearest. I sense today will bring good fortune.$1",
+      "funReturn_Wizard": "เจ้าคิดว่าเราพอจะมีห้องว่าง ไว้ทำชั้นหนังสือเพิ่มอีกมั้ย?$0",
+      "funLeave_Wizard": "อรุณสวัสดิ์ ยอดดวงใจข้า  วันนี้ข้าสัมผัสได้ว่า วันนี้จะนำมาซึ่งความโชคดี$1",
         }
 	},
 	{
@@ -14569,8 +14569,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Spring 25" },
       "Entries": {
-      "funReturn_Wizard": "Welcome home. I cooked us a splendid meal to partake in [244 242 907 905 240]$1",
-      "funLeave_Wizard": "I'm not in the mood to talk this morning.$0#$e#It'll pass soon.$0#$e#Er. Don't worry about dinner. I have something rather special planned, actually...$0",
+      "funReturn_Wizard": "ยินดีต้อนรับกลับบ้าน  ข้าทำอาหารสุดพิเศษ สำหรับเราไว้แล้ว [244 242 907 905 240]$1",
+      "funLeave_Wizard": "เช้านี้ข้าไม่อยู่ในอารมณ์ ที่จะพูดคุยสักเท่าไหร่$0#$e#เดี๋ยวก็ดีขึ้นเองนั่นแหละ$0#$e#เอ่อ เจ้าไม่ต้องห่วงเรื่องมื้อค่ำ  ข้าได้วางแผนค่อนข้างพิเศษไว้น่ะ  ตามนั้น...$0",
         }
 	},
 	{
