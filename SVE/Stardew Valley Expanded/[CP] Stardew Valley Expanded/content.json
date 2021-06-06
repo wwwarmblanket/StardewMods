@@ -14618,7 +14618,7 @@
 	  "When": { "Date": "Summer 2" },
       "Entries": {
       "funReturn_Wizard": "หวังว่าวันนี้เจ้าจะมี วันที่แสนงดงามนะ ยอดรัก$1",
-      "funLeave_Wizard": "วันนี้ข้ามีพิธีกรรมเล็กๆ ที่ตั้งใจจะทำที่นี้ หลังจากนี้น่ะนะ$0#$e#ไม่ต้องห่วง ข้าจะไม่ทำให้วุ่นวายหรอก$0#$b#คิดว่านะ...$5",
+      "funLeave_Wizard": "วันนี้ข้ามีพิธีกรรมเล็กๆ ที่ตั้งใจจะทำที่นี้ หลังจากนี้น่ะนะ$0#$e#ไม่ต้องห่วง ข้าจะไม่ทำรกหรอก$0#$b#คิดว่านะ...$5",
         }
 	},
 	{
@@ -14663,7 +14663,7 @@
 	  "When": { "Date": "Summer 10" },
       "Entries": {
       "funReturn_Wizard": "วันนี้ ข้าลองทำขนมอบดูน่ะ ข้าคิดว่ามันออกมาดีทีเดียวเลย ถ้าดูจากที่เห็นน่ะนะ [234 222 220]$0",
-      "funLeave_Wizard": "ดี๋ยวข้าจะต้องออกเดินทาง เพื่อไปทำธุระให้กิลด์สักหน่อย  เพียงแค่คิดถึงมัน ก็ทำให้ข้าเหนื่อยซะแล้ว...$0",
+      "funLeave_Wizard": "เดี๋ยวข้าจะต้องออกเดินทาง เพื่อไปทำธุระให้กิลด์สักหน่อย  เพียงแค่คิดถึงมัน ก็ทำให้ข้าเหนื่อยซะแล้ว...$0",
         }
 	},
 	{
@@ -14698,8 +14698,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Summer 16" },
       "Entries": {
-      "funReturn_Wizard": "Have you been to Castle Village? I much prefer the air here. It's cleaner, crisper, and doesn't reek of magic.$0",
-      "funLeave_Wizard": "It will be quite hot today. Don't get yourself sunburned.$2#$e#If you do, I have a special healing ointment.$1",
+      "funReturn_Wizard": "เจ้าเคยไปแคสเซิล วิลเลจ รึยังล่ะ? ข้าน่ะ ชอบอากาศที่นี้มากกว่า ทั้งสะอาดกว่า ปลอดโปร่งกว่า แล้วก็ไม่มีกลิ่นอาย ของเวทมนตร์คละคลุ้ง$0",
+      "funLeave_Wizard": "วันนี้ค่อนข้างร้อนเลยนะ อย่าให้โดนแดดเผาล่ะ$2#$e#แต่ถ้าเจ้าโดนเผาไปแล้ว ข้าก็มีขี้ผึ้งฟื้นฟูสูตรพิเศษ$1",
         }
 	},
 	{
@@ -14716,8 +14716,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Summer 18" },
       "Entries": {
-      "funReturn_Wizard": "A new spell I was testing backfired. I feel... not quite myself.$5#$e#If you wake up to a frog in the bed tonight, I left a little satchel of powder on the table.$5#$e#Just sprinkle some on me.$5#$e#...$5#$e#%Magnus doesn't look so good...",
-      "funLeave_Wizard": "I'm particularly ecstatic about a chapter I'm reading in a tome. It was written by another wizard across the Gem Sea.$0#$e#Perhaps we can talk about it at a later time.$1",
+      "funReturn_Wizard": "ข้าถูกคาถาใหม่ ที่กำลังทดลองอยู่ ย้อนกลับใส่ตัวเองน่ะ ข้ารู้สึกแบบ... ไม่ค่อยเป็นตัวเองน่ะ$5#$e#คืนนี้ ถ้าเจ้าตื่นมาแล้วเจอกบอยู่บนเตียงละก็ ข้ามีถุงเล็กๆ ที่มีผงใส่อยู่ บนโต๊ะ$5#$e#แค่โปรยมันใส่ตัวข้า$5#$e#...$5#$e#%แมกนัสดูไม่ค่อยดีเท่าไหร่...",
+      "funLeave_Wizard": "ตอนนี้ข้ากำลังอิ่มเอม กับบทหนึ่งในหนังสือ ที่ข้าอ่านอยู่ตอนนี้ มันถูกเขียนโดยพ่อมดคนนึง ที่อีกฟากของทะเลอัญมณี$0#$e#เอาไว้เราค่อยพูดคุยกัน เรื่องนี้ทีหลัง$1",
         }
 	},
 	{
@@ -14726,7 +14726,7 @@
 	  "When": { "Date": "Summer 22" },
       "Entries": {
       "funReturn_Wizard": "มีแมวดำ วิ่งตัดหน้าเจ้า ตอนเข้าไปทำธุระบ้างมั้ย? บางคนบอกว่ามันเป็นลางร้าย...$0#$e#ข้ารู้จักแม่มดคนนึง ที่แปลงร่างเป็นแมวดำได้$5",
-      "funLeave_Wizard": "I hope you have a wonderful day, dearest.$0",
+      "funLeave_Wizard": "หวังว่าเจ้าจะมี วันอันแสนอัศจรรย์นะ ยอดรัก$0",
         }
 	},
 	{
@@ -14734,8 +14734,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Summer 23" },
       "Entries": {
-      "funReturn_Wizard": "I need to think up a new spell soon to impress you...I don't want you thinking I'm losing my touch!$1",
-      "funLeave_Wizard": "The valley is flowing with energy today. Can you feel it too?#$e#",
+      "funReturn_Wizard": "ข้าคงจะต้องเริ่มคิด เรื่องเวทมนตร์บทใหม่ เพื่อให้เจ้าประทับข้า...ก็ข้าไม่อยากให้เจ้าคิดว่า ฝีมือข้าจะขึ้นสนิมซะแล้ว!$1",
+      "funLeave_Wizard": "วันนี้มีพลังเวียนว่ายในหุบเขาด้วย เจ้าก็รู้สึกถึงมันใช่มั้ย?#$e#",
         }
 	},
 	{
@@ -14743,8 +14743,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Summer 24" },
       "Entries": {
-      "funReturn_Wizard": "Hmm. I should check on the barrier soon...$0#$e#Ah, don't mind me.$1#$b#Anything eventful transpire today?$0",
-      "funLeave_Wizard": "Off on some arcane errands. I'll return in time for dinner, I promise.$0",
+      "funReturn_Wizard": "ฮึ่มม เดี๋ยวข้าคงต้องไปตรวจ ดูม่านพลังเร็วๆ นี้...$0#$e#อา ไม่ต้องสนใจข้าหรอก$1#$b#วันนี้มีเหตุการณ์อะไร เกิดขึ้นบ้างล่ะ?$0",
+      "funLeave_Wizard": "ข้ามีธุระเกี่ยวกับเวทมนตร์นะ ข้าจะกลับมาให้ทันมื้อค่ำ ข้าสัญญา$0",
         }
 	},
 	{
@@ -14752,8 +14752,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Summer 25" },
       "Entries": {
-      "funReturn_Wizard": "I don't know how you worked in Zuzu City. The smells and the noise there would give me a headache.$0#$e#I prefer places that are more tranquil, like Stardew Valley.$1",
-      "funLeave_Wizard": "Good morning, dearest. I prepared breakfast for you.[201 211 210]$0#$e#I have much work at my tower today. I'll return tonight.$0",
+      "funReturn_Wizard": "ข้าไม่รู้เลยนะ ว่าเจ้าทำงาน อยู่ในเมืองซูซูเข้าไปได้ยังไง ทั้งกลิ่น ทั้งเสียงที่นั่น ทำให้ข้าปวดหัว$0#$e#ข้าชอบที่เงียบสงบมากกว่า เหมือนที่สตาร์ดิว แวลลี่$1",
+      "funLeave_Wizard": "อรุณสวสัดฺ ยอดดวงใจข้า วันนี้ข้าเตรียมอาหารเช้าไว้ด้วย[201 211 210]$0#$e#วันนี้ข้ามีงานมากมาย ที่ต้องทำที่หอคอย ข้าจะกลับมาคืนนี้$0",
         }
 	},
 	{
@@ -14761,8 +14761,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Summer 7", "HasSeenEvent |contains=5978924": true },
       "Entries": {
-      "funReturn_Wizard": "I expended a great deal of mana today. A long rest will do me good.$0",
-      "funLeave_Wizard": "I'm traveling into the woods today to teach Morgan how to become one with nature.$0#$e#I happen to know the perfect spot..$1",
+      "funReturn_Wizard": "วันนี้ข้าได้ใช้พลังเวทย์ เยอะเกินไปหน่อย ถ้าได้พักผ่อนนานหน่อย ก็คงจะดีขึ้น$0",
+      "funLeave_Wizard": "วันนี้ข้าจะเดินทางเข้าป่า เพื่อสอนมอร์แกน เกี่ยวกับ วิธีการเป็นหนึ่งเดียว กับธรรมชาติ$0#$e#ข้าไปเจอจัดที่เหมาะๆ เข้าน่ะ..$1",
         }
 	},
 	{
@@ -14770,8 +14770,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Summer 13", "HasSeenEvent |contains=5978924": true },
       "Entries": {
-      "funReturn_Wizard": "*sniffle* I'd better not be developing allergies...that would spell disaster for my work.$0",
-      "funLeave_Wizard": "Morgan and I are mixing potions today.$0#$e#Modern medicine and potions both achieve similar results. However, there's always the super natural elements that come with magic...$0#$b#And surprises.$1",
+      "funReturn_Wizard": "*ฟุดฟิด* ข้าคงไม่เป็นภูมิแพ้หรอกนะ... นั่นมันจะเป็นหายนะ สำหรับงานข้าแน่$0",
+      "funLeave_Wizard": "วันนี้มอร์แกน กับข้า จะปรุงน้ำยากัน$0#$e#ที่จริงแล้ว ยาแผนปัจจุบัน กับน้ำยาเวทย์ ก็ให้ผลลัพธ์เช่นเดียวกัน  อย่างไรก็ตาม มันมีองค์ประกอบ เหนือธรรมชาติที่มาพร้อมกับ เวทมนตร์อยู่ด้วย...$0#$b#และก็เรื่องน่าตื่นตะลึง$1",
         }
 	},
 	{
@@ -14779,8 +14779,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Summer 26", "HasSeenEvent |contains=5978924": true },
       "Entries": {
-      "funReturn_Wizard": "We should go back to Grenville Falls sometime...$4",
-      "funLeave_Wizard": "I may not always wear the mermaid amulet you gave me, but it's the most valuable object I own...$4",
+      "funReturn_Wizard": "เราน่าจะไปที่ น้ำตกกรีนวิลล์บ้าง...$4",
+      "funLeave_Wizard": "ข้าอาจจะไม่ค่อยได้ใส่ เครื่องรางนางเงือก ที่เจ้ามอบให้ข้า แต่ว่ามันคือ สิ่งที่มีค่าที่สุดที่ข้ามี...$4",
         }
 	},
 	
