@@ -14488,7 +14488,7 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Spring 10" },
       "Entries": {
-      "funReturn_Wizard": "สตรีบ้าระห่ำคนนั้น... คามิลล่าน่ะ เต็มไปด้วยพรสวรรค์ แต่บ้างครั้งหล่อนก็ช่าง เกรี้ยวกราดซะเหลือเกิน$3",
+      "funReturn_Wizard": "ยัยผู้หญิงบ้าระห่ำคนนั้น... คามิลล่าน่ะ เต็มไปด้วยพรสวรรค์ แต่บ้างครั้งหล่อนก็ช่าง เกรี้ยวกราดซะเหลือเกิน$3",
       "funLeave_Wizard": "ไว้เราไปเดินเล่นบ้างนะ ถือว่าเป็นการเปลี่ยน บรรยากาศบ้าง$1",
         }
 	},
@@ -14534,7 +14534,7 @@
 	  "When": { "Date": "Spring 18" },
       "Entries": {
       "funReturn_Wizard": "ข้าว่าเราต้องหาเวลา ไปเที่ยวพักผ่อนกันสักหน่อย เดี๋ยวข้าจะใช้เส้นสายกับกิลด์ ให้ลองหาสถานที่ พักผ่อนหย่อนใจสบายๆ ในเมืองเล็กๆ ตามภูเขาดู$0",
-      "funLeave_Wizard": "นี่ช่างเป็นบ้านแสนสบาย ที่เราสร้างมันขึ้นมา บนฟาร์มเล็กๆ แห่งนี้! ดีกว่าหอคอยสูงๆ มาก$1#$e#จะว่าไป วันนี้ ข้ามีเรื่องเกี่ยวกับเวทมนตร์ ที่ต้องไปจัดการที่หอคอยนั่น$0#$e#เจ้าจะแวะไปหาข้าก็ได้นะ...$4",
+      "funLeave_Wizard": "นี่ช่างเป็นบ้านแสนสบาย ที่เราสร้างมันขึ้นมา บนฟาร์มเล็กๆ แห่งนี้! ดีกว่าหอคอยอับๆ มาก$1#$e#จะว่าไป วันนี้ ข้ามีเรื่องเกี่ยวกับเวทมนตร์ ที่ต้องไปจัดการ ที่หอคอยนั่นหน่อย$0#$e#เจ้าจะแวะไปหาข้าก็ได้นะ...$4",
         }
 	},
 	{
@@ -14542,7 +14542,7 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Spring 22" },
       "Entries": {
-      "funReturn_Wizard": "อย่าลืมเตือนข้า ให้เอาเครื่องรางที่ข้าพึ่งทำ มาให้เจ้าดูด้วยนะ มันมีคาถาป้องกันอยู่ แต่การแสดงผลของมัน ดูจะดึงดูด สายตาไปสักหน่อย$0",
+      "funReturn_Wizard": "อย่าลืมเตือนข้า ให้เอาเครื่องรางที่ข้าพึ่งทำ มาให้เจ้าดูด้วยนะ มันมีคาถาป้องกันอยู่ แต่เอฟเฟคของมัน ดูจะดึงดูด สายตาไปสักหน่อย$0",
       "funLeave_Wizard": "อรุณสวัสดิ์ ยอดดวงใจข้า ดื่มกาแฟสักหน่อยมั้ย? ข้าเติมอัลมอนต์สมุนไพร โกโตรันลงไปด้วย [253]#$e#ข้าดื่มกาแฟไม่ค่อยบ่อยนัก แต่ถ้าจะต้องดื่ม ข้าขอแบบเข้มๆ ไปเลยดีกว่า$0",
         }
 	},
@@ -14552,7 +14552,7 @@
 	  "When": { "Date": "Spring 23" },
       "Entries": {
       "funReturn_Wizard": "ยินดีต้อนรับกลับบ้าน ยอดรัก$0#$e#ข้าเชื่อว่า วันนี้ผ่านไปด้วยดี ใช่มั้ย?$1",
-      "funLeave_Wizard": "ช่างเป็นสันแสนสุข เหมาะแก่การออกไปเที่ยวเล่น อยากจะไปกับข้ามั้ย?$0",
+      "funLeave_Wizard": "ช่างเป็นวันแสนสุข เหมาะแก่การออกไปเที่ยวเล่น อยากจะไปกับข้ามั้ย?$0",
         }
 	},
 	{
@@ -14578,8 +14578,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Spring 7", "HasSeenEvent |contains=5978924": true },
       "Entries": {
-      "funReturn_Wizard": "Morgan still has much to learn.$0#$e#They have incredible arcane potential. I just need to guide them.$0",
-      "funLeave_Wizard": "I will be meditating deep in the woods with Morgan all night. I won't be returning home.#$e#You may join us if you wish.$1",
+      "funReturn_Wizard": "มอร์แกนยังต้องเรียนรู้อีกเยอะ$0#$e#มอร์แกนนั้นทรงพลัง ที่ข้าต้องทำก็แค่ชี้นำเท่านั้น$0",
+      "funLeave_Wizard": "วันนี้ข้าจะต้องไปฝึกจิต ในป่าลึกกับมอร์แกนทั้งคืน คงจะไม่ได้กลับบ้าน#$e#เจ้าจะไปร่วมกับพวกเราก็ได้ ถ้าต้องการ$1",
         }
 	},
 	{
@@ -14587,8 +14587,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Spring 13", "HasSeenEvent |contains=5978924": true },
       "Entries": {
-      "funReturn_Wizard": "Good evening, my dearest. I'm happy to announce we didn't blow up the tower today.#$e#It's only because I stopped Morgan from mixing two arcane elements together at the last moment...$0",
-      "funLeave_Wizard": "I'm teaching Morgan about potion brewing today.$0#$e#The key to well-crafted elixirs are the ingredients.$0",
+      "funReturn_Wizard": "สายัณห์สวัสดิ์ ยอดดวงใจข้า วันนี้ข้ายินดีมาก ที่จะประกาศว่า เราไม่ได้ระเบิดหอคอย จนปลิว#$e#อ้อ ก็แค่ข้าหยุดมอร์แกนไม่ให้ผสม องค์ประกอบเวทย์ 2 อย่าง เข้าด้วยกัน ทันในวินาทีสุดท้ายนะสิ...$0",
+      "funLeave_Wizard": "วันนี้ข้าจะสอนมอร์แกน เกี่ยวกับการปรุงยา$0#$e#กุญแจสำคัญของน้ำยาที่ดี คือวัตถุดิบ$0",
         }
 	},
 	{
@@ -14596,8 +14596,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Spring 26", "HasSeenEvent |contains=5978924": true },
       "Entries": {
-      "funReturn_Wizard": "Welcome home, @. I hope you didn't work yourself too hard today.$0",
-      "funLeave_Wizard": "Don't work too hard today. I don't want to have to levitate you home.$0#$e#...If you do happen pass out somewhere... a good friend of mine will take care of you.$0",
+      "funReturn_Wizard": "ยินดีต้อนรับกลับบ้าน  @ หวังว่าวันนี้เจ้าจะไม่ โหมงานหนักเกินไปนะ $0",
+      "funLeave_Wizard": "วันนี้อย่าทำงานหนักเกินไปล่ะ ข้าไม่อยากจะหามเจ้า กลับบ้านนักหรอก$0#$e#...แต่ถ้าเกิดเจ้า ดันไปหมดสติที่ไหนเข้า... เพื่อนที่ดีของข้า จะช่วยดูและเจ้าได้$0",
         }
 	},
 	
@@ -14608,8 +14608,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Summer 1" },
       "Entries": {
-      "funReturn_Wizard": "A long day for me. I'm happy to see the end of it...$0#$e#How was your day?$1",
-      "funLeave_Wizard": "Summer has arrived! With all the plants lush and growing, you'll find it's much easier to draw mana from the world around you.$0",
+      "funReturn_Wizard": "ช่างเป็นวันที่แสนยาวนาน ของข้าซะจริง ข้าล่ะมีความสุขนัก ที่มันจบลงซะที...$0#$e#วันนี้เจ้าเป็นไงบ้างล่ะ?$1",
+      "funLeave_Wizard": "ฤดูร้อนมาถึงแล้ว! ท่ามกลางต้นไม้ที่เขียวชะอุ่ม และกำลังเติบโตพวกนี้ เจ้าจะรู้ได้ว่า การดึงมานา ออกมาจากโลกรอบตัวเจ้า มันง่ายขึ้นกว่าปกติ$0",
         }
 	},
 	{
@@ -14617,8 +14617,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Summer 2" },
       "Entries": {
-      "funReturn_Wizard": "I hope you're having a wonderful day, dearest.$1",
-      "funLeave_Wizard": "I have a little ritual planned in here for later today.$0#$e#Don't worry, it won't make a mess.$0#$b#Probably...$5",
+      "funReturn_Wizard": "หวังว่าวันนี้เจ้าจะมี วันที่แสนงดงามนะ ยอดรัก$1",
+      "funLeave_Wizard": "วันนี้ข้ามีพิธีกรรมเล็กๆ ที่ตั้งใจจะทำที่นี้ หลังจากนี้น่ะนะ$0#$e#ไม่ต้องห่วง ข้าจะไม่ทำให้วุ่นวายหรอก$0#$b#คิดว่านะ...$5",
         }
 	},
 	{
@@ -14626,8 +14626,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Summer 3" },
       "Entries": {
-      "funReturn_Wizard": "I never saw the appeal in fishing. I'm glad you enjoy it, though.$0",
-      "funLeave_Wizard": "Your crops will certainly be appreciative of this weather.$1",
+      "funReturn_Wizard": "ข้าไม่เคยมองเห็น ความน่าหลงไหล ในการตกปลาหรอกนะ แต่ก็ดีใจที่เจ้าสนุกกับมัน รึเปล่านะ$0",
+      "funLeave_Wizard": "พืชพรรณของเจ้า คงจะชื่นชอบ สภาพอากาศแบบนี้ล่ะนะ$1",
         }
 	},
 	{
@@ -14635,8 +14635,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Summer 4" },
       "Entries": {
-      "funReturn_Wizard": "I'm sure you had a productive day today. Make sure you take the time to relax this evening.$0",
-      "funLeave_Wizard": "I may go spend some time in my tower...$0#$e#You've done nothing wrong. I just need some time to myself.$0",
+      "funReturn_Wizard": "ข้ามั่นใจว่า เจ้าได้ใช้เวลา ในวันนี้อย่างเต็มที่ แต่อย่าลืม ที่จะหาเวลาพักผ่อน ในเย็นวันนี้ล่ะ$0",
+      "funLeave_Wizard": "ข้าอาจจะไปอยู่ที่หอคอย สักหน่อยนะ...$0#$e#เจ้าไม่ได้ทำอะไรผิดหรอก บางทีข้าก็แค่ต้องการ เวลาส่วนตัวบ้าง$0",
         }
 	},
 	{
@@ -14644,8 +14644,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Summer 8" },
       "Entries": {
-      "funReturn_Wizard": "I expended a great deal of mana today. A long rest will do me good.$0",
-      "funLeave_Wizard": "Off on some arcane errands. I'll return in time for dinner, I promise.$0",
+      "funReturn_Wizard": "วันนี้ข้าได้ใช้พลังเวทย์ เยอะเกินไปหน่อย ถ้าได้พักผ่อนนานหน่อย ก็คงจะดีขึ้น$0",
+      "funLeave_Wizard": "ข้ามีธุระเกี่ยวกับเวทมนตร์นะ ข้าจะกลับมาให้ทันมื้อค่ำ ข้าสัญญา$0",
         }
 	},
 	{
@@ -14653,8 +14653,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Summer 9" },
       "Entries": {
-      "funReturn_Wizard": "With all the heartache in my past, I never thought I'd wake up to days as sweet as these...$0#$e#Thank you for giving a grumpy old wizard a chance.$4",
-      "funLeave_Wizard": "I need to think up a new spell soon to impress you...I don't want you thinking I'm losing my touch!$1",
+      "funReturn_Wizard": "ด้วยอดีตที่เจ็บปวดมากมาย ข้าไม่เคยคิดเลย ว่าจะได้ตื่นมาพบ วันที่แสนหวานเช่นนี้...$0#$e#ขอบคุณนะ ที่ให้โอกาสพ่อมดแก่ๆ ขี้หงุดหงิดอย่างข้า$4",
+      "funLeave_Wizard": "ข้าคงจะต้องเริ่มคิด เรื่องเวทมนตร์บทใหม่ เพื่อให้เจ้าประทับข้า...ก็ข้าไม่อยากให้เจ้าคิดว่า ฝีมือข้าจะขึ้นสนิมซะแล้ว!$1",
         }
 	},
 	{
@@ -14662,8 +14662,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Summer 10" },
       "Entries": {
-      "funReturn_Wizard": "I thought I'd try my hand at baking today. I think it turned out pretty well, all things considered. [234 222 220]$0",
-      "funLeave_Wizard": "I've got some traveling to do for the Guild soon. Even thinking about it is making me exhausted...$0",
+      "funReturn_Wizard": "วันนี้ ข้าลองทำขนมอบดูน่ะ ข้าคิดว่ามันออกมาดีทีเดียวเลย ถ้าดูจากที่เห็นน่ะนะ [234 222 220]$0",
+      "funLeave_Wizard": "ดี๋ยวข้าจะต้องออกเดินทาง เพื่อไปทำธุระให้กิลด์สักหน่อย  เพียงแค่คิดถึงมัน ก็ทำให้ข้าเหนื่อยซะแล้ว...$0",
         }
 	},
 	{
@@ -14671,8 +14671,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Summer 11" },
       "Entries": {
-      "funReturn_Wizard": "We should go on a little retreat together soon. I can pull some strings with the Guild to find us a place in a cozy little town in the mountains somewhere.$0",
-      "funLeave_Wizard": "It's the luau today, yes?$0#$b#I'm sure whatever the town comes up with will be as delicious as usual.$1",
+      "funReturn_Wizard": "ข้าว่าเราต้องหาเวลา ไปเที่ยวพักผ่อนกันสักหน่อย เดี๋ยวข้าจะใช้เส้นสายกับกิลด์ ให้ลองหาสถานที่ พักผ่อนหย่อนใจสบายๆ ในเมืองเล็กๆ ตามภูเขาดู$0",
+      "funLeave_Wizard": "วันนี้ มีงานลัวร์ใช่มั้ย?$0#$b#ยังไง ข้าก็ว่า วันนี้ทั่วทั้งเมือง ก็ได้เอร็ดอร่อย เหมือนเดิมนั่นแหละ$1",
         }
 	},
 	{
@@ -14680,8 +14680,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Summer 11", "HasSeenEvent |contains=5978924": true },
       "Entries": {
-      "funReturn_Wizard": "We should go on a little retreat together soon. I can pull some strings with the Guild to find us a place in a cozy little town in the mountains somewhere.$0",
-      "funLeave_Wizard": "It's the luau today, yes?$0#$b#I'm sure whatever the town comes up with will be as delicious as usual.$1#$e#I'm hoping Morgan will get a chance to see one of the merpeople...#$b#They are often attracted to festivities on the beach.$0",
+      "funReturn_Wizard": "ข้าว่าเราต้องหาเวลา ไปเที่ยวพักผ่อนกันสักหน่อย เดี๋ยวข้าจะใช้เส้นสายกับกิลด์ ให้ลองหาสถานที่ พักผ่อนหย่อนใจสบายๆ ในเมืองเล็กๆ ตามภูเขาดูดีกว่า$0",
+      "funLeave_Wizard": "วันนี้ มีงานลัวร์ใช่มั้ย?$0#$b#ยังไง ข้าก็ว่า วันนี้ทั่วทั้งเมือง ก็ได้เอร็ดอร่อย เหมือนเดิมนั่นแหละ$1#$e#ข้าหวังว่า มอร์แกนคงจะมีโอกาสได้เหน็น มนุษย์เงือก...#$b#พวกเขามักจะตื่นเต้น กับงานเทศกาลริมชายหาดน่ะ$0",
         }
 	},	
 	{
@@ -14689,8 +14689,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Summer 15" },
       "Entries": {
-      "funReturn_Wizard": "Growing things always bring a surplus of mana to the world around them. It's so concentrated on this farm that it's almost overwhelming.$0#$e#It feels so tremendously alive.$1",
-      "funLeave_Wizard": "I spotted a rare bird over the farm this morning! I wonder if it flew in from the Fern Islands.$",
+      "funReturn_Wizard": "เมื่อพืชพรรณเติบโต มันจะมีมานาส่วนเกิน ห่อหุ้มรอบๆ โลกรอบตัวพวกมันเสมอ ที่ฟาร์มนี้ก็มีอยู่เข้มข้นมาก เรียกว่าเหลือล้นเลยล่ะ $0#$e#ทำให้รู้สึกว่า มีชีวิตชีวามากน่ะ$1",
+      "funLeave_Wizard": "ข้าเห็นเจ้านกหายาก บินข้ามฟาร์มเมื่อเช้านี้ด้วย! ข้าสงสัยว่ามันน่าจะบิน มาจากเกาะใบเฟิร์น$",
         }
 	},
 	{
@@ -14707,8 +14707,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Summer 17" },
       "Entries": {
-      "funReturn_Wizard": "Magic is very demanding, but it can be rewarding, too.$0",
-      "funLeave_Wizard": "Having a pleasant morning, @?$0",
+      "funReturn_Wizard": "เวทมนตร์น่ะเรียกร้องอะไรมาก แต่ก็ให้รางวัลมากเช่นกัน$0",
+      "funLeave_Wizard": "เป็นเช้าที่แสนสุขจังนะ @?$0",
         }
 	},
 	{
@@ -14725,7 +14725,7 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Summer 22" },
       "Entries": {
-      "funReturn_Wizard": "Any black cats come across your path during your errands? Some say they bring bad luck...$0#$e#I once knew a witch who could transform into one.$5",
+      "funReturn_Wizard": "มีแมวดำ วิ่งตัดหน้าเจ้า ตอนเข้าไปทำธุระบ้างมั้ย? บางคนบอกว่ามันเป็นลางร้าย...$0#$e#ข้ารู้จักแม่มดคนนึง ที่แปลงร่างเป็นแมวดำได้$5",
       "funLeave_Wizard": "I hope you have a wonderful day, dearest.$0",
         }
 	},
