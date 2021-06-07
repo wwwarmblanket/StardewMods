@@ -14779,7 +14779,7 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Summer 26", "HasSeenEvent |contains=5978924": true },
       "Entries": {
-      "funReturn_Wizard": "เราน่าจะไปที่ น้ำตกกรีนวิลล์บ้าง...$4",
+      "funReturn_Wizard": "เราน่าจะไปที่ น้ำตกเกรนวิลล์บ้าง...$4",
       "funLeave_Wizard": "ข้าอาจจะไม่ค่อยได้ใส่ เครื่องรางนางเงือก ที่เจ้ามอบให้ข้า แต่ว่ามันคือ สิ่งที่มีค่าที่สุดที่ข้ามี...$4",
         }
 	},
@@ -14954,7 +14954,7 @@
 	  "When": { "Date": "Fall 26", "HasSeenEvent |contains=5978924": true },
       "Entries": {
       "funReturn_Wizard": "ความหนาวเหน็บในอากาศนี้ ต้นผลไม้โบราณของข้า คงจะทนต่อไปไม่ได้แน่$0#$e#ข้าเก็บเมล็ดพันธุ์เอาไว้ จากการเก็บผลครั้งที่แล้ว ไว้ข้าจะปลูกใหม่ในฤดูใบไม้ผลิ$1",
-      "funLeave_Wizard": "หิมะตกค่อนข้างหนักเลย ที่แถบเทือกเขาแคสเคเดียน$0#$e#มีเพื่อนของข้าคนหนึ่ง อาศัยอยู่ที่นั่นตามลำพัง และเวทย์พิเศษของเขา ก็คือ เวทย์น้ำแข็ง... ดูไม่ค่อยมีประโยนชน์เอาซะเลย$0",
+      "funLeave_Wizard": "หิมะตกค่อนข้างหนักเลย ที่แถบเทือกเขาแคสเคเดียน$0#$e#มีเพื่อนของข้าคนหนึ่ง อาศัยอยู่ที่นั่นตามลำพัง และเวทย์พิเศษของเขา ก็คือ เวทย์น้ำแข็ง... ดูไม่ค่อยมีประโยชน์เอาซะเลย$0",
         }
 	},
 	
@@ -14965,8 +14965,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Winter 1" },
       "Entries": {
-      "funReturn_Wizard": "It promises to be a chilly night tonight.$0#$b#A good excuse to snuggle up.$1",
-      "funLeave_Wizard": "Quite a storm, wasn't it? But the world looks lovely blanketed in snow, even if the weather is harsh.$0",
+      "funReturn_Wizard": "คืนนี้มันจะหนาวแน่ๆ$0#$b#เป็นข้ออ้างที่ดี ให้นอนกอดกันเลย$1",
+      "funLeave_Wizard": "แรงเหมือนกันนะ พายุนั่น? แต่โลกที่ถูกปกคลุมไปด้วยหิมะ ดูสวยมากเลย ถึงอากาศจะโหดร้ายไปหน่อยก็เถอะ$0",
         }
 	},
 	{
@@ -14974,8 +14974,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Winter 2" },
       "Entries": {
-      "funReturn_Wizard": "Remind me to show you the charm I've been working on recently. It's a spell of protection, but the effects are quite eye-catching.$0",
-      "funLeave_Wizard": "Hmm...I think I might take a walk in the forest soon. I'm getting a little antsy in here.$0#$e#Snow covered trees certainly are beautiful.$0",
+      "funReturn_Wizard": "อย่าลืมเตือนข้า ให้เอาเครื่องรางที่ข้าพึ่งทำ มาให้เจ้าดูด้วยนะ มันมีคาถาป้องกันอยู่ แต่เอฟเฟคของมัน ดูจะดึงดูด สายตาไปสักหน่อย$0",
+      "funLeave_Wizard": "ฮึ่มม... ข้าว่า อีกเดี๋ยวข้าจะไปเดินเล่น ในป่าสักหน่อย ที่นี่ข้ารู้สึกหงุดหงิดนิดนึงน่ะ$0#$e#ต้นไม้ที่ถูกปกคลุมมไปด้วยหิมะ ช่างสวยงามจริงๆ$0",
         }
 	},
 	{
@@ -14983,8 +14983,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Winter 3" },
       "Entries": {
-      "funReturn_Wizard": "I think I'll do a little cleaning tonight. ...You won't blame me too much if I use some magic to help it along, right?$0#$e#Heh. It may involve a broom moving by itself.$1",
-      "funLeave_Wizard": "Good morning, dearest.$0#$e#I hope today brings good fortune.$0",
+      "funReturn_Wizard": "คืนนี้่ี้ข้าว่า ข้าจะทำความสะอาดสักหน่อย ...เจ้าคงจะไม่ว่าอะไร ถ้าข้าจะใช้เวทมนตร์ช่วยบ้าง ใช่มั้ย?$0#$e#เฮ้ะ ก็แค่ให้ไม้กวาดขยับเองไง$1",
+      "funLeave_Wizard": "อรุณสวัสดิ์ ยอดรัก$0#$e#หวังว่าวันนี้ คงจะนำพาความโชคดีมาให้$0",
         }
 	},
 	{
@@ -14992,8 +14992,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Winter 4" },
       "Entries": {
-      "funReturn_Wizard": "I summoned this dish with magic - similar to the spell I casted at Grenville Falls but on a much smaller scale. [244 242 907 905 240]$0#$e#I hope the taste isn't off.$1",
-      "funLeave_Wizard": "The lights we use to decorate for the Feast of the Winter Star are beautiful, but they have a fascinating history, too.$0#$b#They were inspired by magical lanterns that witches and wizards used to summon for the festival.$0#$e#Castle Village still uses them to this day.$0",
+      "funReturn_Wizard": "ข้าเสกอาหารจานนี้ขึ้นมา จากเวทมนตร์  - ก็คล้ายๆ กับที่ข้าเสกที่ น้ำตกเกรนวิลล์นั่นแหละ  แต่แบบย่อส่วนลงมาหน่อย [244 242 907 905 240]$0#$e#หวังว่าคงจะมีรสชาดอยู่นะ",
+      "funLeave_Wizard": "ดวงไฟที่เราใช้ตกแต่ง ในงานเทศกาล แห่งดวงดาวฤดูหนาว สวยมากล่ะสิ แล้วมันก็มีประวัติ อันน่าสนใจอยู่ด้วย$0#$b#พวกเขาได้แรงบันดาลใจ มาจากตะเกียงเวทมนตร์ ที่เหล่าแม่มด และพ่อมดเสกขึ้นมา ในงานเทศกาลนั่นน่ะ$0#$e#ที่แคสเซิล วิลเลจ ก็ยังคงใช้มันอยู่ จนถึงทุกวันนี้$0",
         }
 	},
 	{
@@ -15001,8 +15001,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Winter 8" },
       "Entries": {
-      "funReturn_Wizard": "Do you think we have room in here for another bookshelf?$1",
-      "funLeave_Wizard": "What a comfortable home we've made on this little farm! Much nicer than a drafty tower.$1",
+      "funReturn_Wizard": "เจ้าคิดว่าเรายังพอจะมีห้องว่างพอ สำหรับชั้นหนังสือ อันอื่นอีกมั้ย?$1",
+      "funLeave_Wizard": "นี่ช่างเป็นบ้านแสนสบาย ที่เราสร้างมันขึ้นมา บนฟาร์มเล็กๆ แห่งนี้! ดีกว่าหอคอยอับๆ$1",
         }
 	},
 	{
@@ -15010,8 +15010,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Winter 9" },
       "Entries": {
-      "funReturn_Wizard": "What a wonderful place this is to return to.$1",
-      "funLeave_Wizard": "Off on some arcane errands. I'll return in time for dinner, I promise.$0",
+      "funReturn_Wizard": "ช่างเป็นสถานที่แสนพิเศษ ที่ควรค่าแก่การกลับมาจริงๆ$1",
+      "funLeave_Wizard": "ข้ามีธุระเกี่ยวกับเวทมนตร์นะ ข้าจะกลับมาให้ทันมื้อค่ำ ข้าสัญญา$0",
         }
 	},
 	{
@@ -15019,8 +15019,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Winter 10" },
       "Entries": {
-      "funReturn_Wizard": "A long day for me. I'm happy to see the end of it...$0#$e#How was your day?$1",
-      "funLeave_Wizard": "I love you for many reasons, but one is how talented and gifted you are. You're adept at anything you put your hand to.$4#$e#I admire you greatly for that.$1",
+      "funReturn_Wizard": ช่างเป็นวันที่ยาวนานสำหรับข้า ดีที่จบลงเสียที...$0#$e#วันของเจ้าล่ะ เป็นยังไงบ้าง?$1",
+      "funLeave_Wizard": "มีหลายเหตุผล ที่ทำให้ข้ารักเจ้า หนึ่งในนั้นคือการที่เจ้า ช่างเป็นคนที่มีพรสวรรค์ เจ้าปรับตัวเรียนรู้ กับทุกอย่างที่เจ้าจะทำได้$4#$e#ข้าชื่นชมเจ้ามากในเรื่องนั้น$1",
         }
 	},
 	{
@@ -15028,8 +15028,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Winter 11" },
       "Entries": {
-      "funReturn_Wizard": "I need to think up a new spell soon to impress you...I don't want you thinking I'm losing my touch!$1",
-      "funLeave_Wizard": "Good morning. Care for some coffee? [253]$0",
+      "funReturn_Wizard": "ข้าคงจะต้องเริ่มคิด เรื่องเวทมนตร์บทใหม่ เพื่อให้เจ้าประทับข้า...ก็ข้าไม่อยากให้เจ้าคิดว่า ฝีมือข้าจะขึ้นสนิมซะแล้ว!$1",
+      "funLeave_Wizard": "อรุณสวัสดิ์ ยอดรัก อยากได้กาแฟหน่อยมั้ย? [253]$0",
         }
 	},
 	{
@@ -15037,8 +15037,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Winter 15" },
       "Entries": {
-      "funReturn_Wizard": "Monsters are very curious creatures...$0#$e#Despite them being prevalent in several regions and in underground caverns, we still don't know much about them.$0#$e#I'm certain Camilla knows more than I do. It's one of the fields she specializes in.$0",
-      "funLeave_Wizard": "Be careful when you're adventuring, my dearest.$0",
+      "funReturn_Wizard": "พวกมอนส์เตอร์ เป็นสิ่งมีชีวิตที่น่าฉงน...$0#$e#แม้ว่าพวกมัน จะมีอยู่กลาดเกลื่อน ในหลายๆ ภูมิภาค และตามถ้ำใต้ดิน แต่เราก็ยังไม่รู้อะไร เกี่ยวกับพวกมันมากนัก$0#$e#ข้าว่าคามิลล่า คงจะรู้มากกว่าที่ข้ารู้ เพราะมันเป็นหนึ่งในศาสตร์ ที่เธอเชี่ยวชาญ$0",
+      "funLeave_Wizard": "เวลาออกไปผจญภัย ก็ระวังด้วยละ ยอดรัก$0",
         }
 	},
 	{
@@ -15046,8 +15046,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Winter 16" },
       "Entries": {
-      "funReturn_Wizard": "You keep the refrigerator very well-stocked with the products of the farm.$0#$b#It makes it difficult for me to be useful by offering to do the shopping.$1",
-      "funLeave_Wizard": "*hums* Hello there, @! Wonderful morning, isn't it? The snow gleams in the sun's light.$1",
+      "funReturn_Wizard": "เจ้าน่ะ เก็บวัตถุดิบจากฟาร์ม ไว้ในตู้เย็นซะครบถ้วนเลยนะ$0#$b#นั่นทำให้ข้า อดทำตัวให้ประโยชน์ โดยการอาสาออกไป ซื้อกับข้าวน่ะสิ$1",
+      "funLeave_Wizard": "*ฮัมเพลง* อ้าว @! เป็นวันที่ดีเลย ใช่มั้ยล่ะ?  หิมะกำลังส่องประกาย ในแสงแดด$1",
         }
 	},
 	{
@@ -15055,8 +15055,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Winter 17" },
       "Entries": {
-      "funReturn_Wizard": "I've got some traveling to do for the Guild soon. Even thinking about it is making me exhausted...$0#$e#I trust your day went well?$0",
-      "funLeave_Wizard": "I'm running low on some of my potion supplies. I'll need to head into the forest to collect more soon.$0#$e#Snow yams contain a lot of starch. A perfect life potion ingredient.$0",
+      "funReturn_Wizard": "เดี๋ยวข้าจะต้องออกเดินทาง เพื่อไปทำธุระให้กิลด์สักหน่อย  เพียงแค่คิดถึงมัน ก็ทำให้ข้าเหนื่อยซะแล้ว...$0#$e#วันนี้ของเจ้าผ่านไปด้วยดีใช่มั้ย?$0",
+      "funLeave_Wizard": "วัตถุดิบปรุงยาของข้า ใกล้จะหมดซะแล้ว เดี๋ยวข้าจะต้องเข้าไปในป่า เพื่อหามันมาเพิ่มสักหน่อย$0#$e#หัวมันหิมะ มีแป้งอยู่ในปริมาณมาก เป็นส่วนผสมที่ยอดเยี่ยม ในน้ำยาแห่งชีวิต$0",
         }
 	},
 	{
@@ -15064,8 +15064,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Winter 18" },
       "Entries": {
-      "funReturn_Wizard": "I thought I'd try my hand at baking today. I think it turned out pretty well, all things considered. [234 222 220]$0",
-      "funLeave_Wizard": "Life on the farm is certainly peaceful, isn't it?$0",
+      "funReturn_Wizard": "วันนี้ ข้าลองทำขนมอบดูน่ะ ข้าคิดว่ามันออกมาดีทีเดียวเลย ถ้าดูจากที่เห็นน่ะนะ [234 222 220]$0",
+      "funLeave_Wizard": "ชีวิตในฟาร์ม ช่างแสนสงบสุขเสียจริง ใช่มั้ยล่ะ?$0",
         }
 	},
 	{
@@ -15073,8 +15073,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Winter 22" },
       "Entries": {
-      "funReturn_Wizard": "Magic is very demanding, but it can be rewarding, too.$1",
-      "funLeave_Wizard": "Let's go for a little walk soon. A change of scenery will do us good.$0",
+      "funReturn_Wizard": ""เวทมนตร์น่ะ สามารถให้สิ่งที่น่าพึ่งพอใจได้ แต่บางครั้งก็ต้องแลกมาด้วย ค่าตอบแทนมากมายเช่นกัน$1",
+      "funLeave_Wizard": "ไปเดินเล่นกันเถอะ ได้เปลี่ยนบรรยากาศบ้าง คงดีกับพวกเรา$0",
         }
 	},
 	{
@@ -15082,8 +15082,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Winter 23" },
       "Entries": {
-      "funReturn_Wizard": "We'll both rest well tonight, my dearest.$0",
-      "funLeave_Wizard": "I need to make a trip to Castle Village soon to see Camilla to discuss some Ministry affairs. She's certainly an interesting woman.$0#$e#She approves of you, you know.$0",
+      "funReturn_Wizard": "คืนนี้เราสองคน จะได้พักผ่อนเต็มทีเลยล่ะ ยอดรัก$0",
+      "funLeave_Wizard": "ข้าต้องเดินทางไปคุยกับคามิลล่า ที่แคสเซิลวิลเลจ เพื่อคุยเรื่องกระทรวงเร็วๆ นี้ล่ะ นางเป็นคนที่น่าสนใจจริงๆ$0#$e#นางสนับสนุนเจ้าด้วยนะ รู้หรือเปล่า$0",
         }
 	},
 	{
@@ -15091,8 +15091,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Winter 24" },
       "Entries": {
-      "funReturn_Wizard": "I expended a great deal of mana today. A long rest will do me good.$0",
-      "funLeave_Wizard": "I have a little ritual planned in here for later today.$0#$e#Don't worry, it won't make a mess.$0",
+      "funReturn_Wizard": "ข้าใช้มานาไปเยอะเลยวันนี้ ได้พักยาวๆ คงดีสำหรับข้า$0",
+      "funLeave_Wizard": "ข้าวางแผนว่า จะประกอบพิธีกรรมสักหน่อย วันนี้น่ะ$0#$e#ไม่ต้องห่วงหรอก มันไม่เลอะเทอะแน่$0",
         }
 	},
 	{
@@ -15100,8 +15100,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Winter 25" },
       "Entries": {
-      "funReturn_Wizard": "Shall we light a nice fire and curl up in front of it?$0#$e#It wouldn't be too difficult for me to conjure a fire for us.$1",
-      "funLeave_Wizard": "Happy Winter Star, my love. I'm looking forward to spending another year together.$4",
+      "funReturn_Wizard": "หลังมื้อค่ำ เรามาจุดไฟ แล้วนอนกอดกัน หน้ากองไฟดีมั้ย?$0#$e#กะอีแค่จุดไฟน่ะ ไม่ครณามือข้าหรอก$1",
+      "funLeave_Wizard": "สุขสันต์ วันแห่งดวงดาวฤดูหนาว ที่รัก ข้าตั้งตารอที่เราจะได้ ใช้เวลาร่วมกันอีกปีแล้ว$4",
         }
 	},
 	{
@@ -15109,8 +15109,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Winter 7", "HasSeenEvent |contains=5978924": true },
       "Entries": {
-      "funReturn_Wizard": "A long day for me. I'm happy to see the end of it...$0#$e#How was your day?$1",
-      "funLeave_Wizard": "I'm teaching Morgan a new way to draw mana from the trees today in the woods.#$e#It's a meditation-based technique that's normally quite difficult, because it requires complete silence.  But in the winter, snow absorbs most of the noise.$0#$b#The peace that winter brings lets us slip into the proper state to commune with the forest more easily.",
+      "funReturn_Wizard": "ช่างเป็นวันที่ยาวนานสำหรับข้า ดีที่จบลงเสียที...$0#$e#วันของเจ้าล่ะ เป็นยังไงบ้าง?$1",
+      "funLeave_Wizard": "วันนี้ข้าจะสอนมอร์แกน ให้ดึงมานาออกจากต้นไม้ ด้วยวิธีใหม่ ในป่าน่ะ#$e#มันเป็นเทคนิคที่ต้อง อาศัยการทำสมาธิเป็นหลัก ซึ่งปกติแล้วทำได้ยาก เพราะว่ามันต้องใช้ ความเงียบสงัดสุดๆ แต่ในฤดูหนาวเช่นนี้  หิมะจะช่วยดูดซับเสียงรบกวน$0#$b#ความสงบของฤดูหนาว จะช่วยนำพาเรา พุ่งเข้าสู่สภาวะที่เหมาะสม ในการติดต่อกับฝืนป่า ได้ง่ายขึ้น ",
         }
 	},
 	{
@@ -15118,8 +15118,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Winter 13", "HasSeenEvent |contains=5978924": true },
       "Entries": {
-      "funReturn_Wizard": "The sound of the snow falling onto the ground is soothing, don't you think?$0",
-      "funLeave_Wizard": "Ah, good morning, dearest.$0",
+      "funReturn_Wizard": "เสียงของหิมะที่ตกลงบนพื้น ทำให้รู้สึกผ่อนคลายดีนะ เจ้าคิดอย่างนั้นมั้ย?$0",
+      "funLeave_Wizard": "อาา อรุณสวัสดิ์ ยอดรัก$0",
         }
 	},
 	{
@@ -15127,8 +15127,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Winter 26", "HasSeenEvent |contains=5978924": true },
       "Entries": {
-      "funReturn_Wizard": "You should make sure to keep up your strength. I made you a little something to help. [244 242 907 905 240]$0",
-      "funLeave_Wizard": "This year is almost at a close, and thus begins a new chapter.$1",
+      "funReturn_Wizard": "เจ้าต้องอย่าลืม ทำร่างกายให้แข็งแรง อยู่เสมอล่ะ ข้ามีอะไรนิดหน่อยมาช่วย [244 242 907 905 240]$0",
+      "funLeave_Wizard": "ปีนี้กำลังจะปิดฉากลง และเรื่องราวบทใหม่ กำลังจะเริ่มต้น$1",
         }
 	},
 	
