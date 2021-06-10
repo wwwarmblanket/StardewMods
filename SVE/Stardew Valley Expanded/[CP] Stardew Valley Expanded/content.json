@@ -15631,21 +15631,21 @@
 {
      "Action": "EditData",
      "Target": "data/festivals/fall16",
-     "Entries": { "Wizard": "*sniff sniff* Something in the fall air smells both delicious and fried. Perhaps I should... investigate.$0#$e#I believe it's coming from the town fountain.$1" },
+     "Entries": { "Wizard": "*ฟุดฟิด ฟุดฟิด* มีบางอย่างอยู่ในอากาศ ของฤดูใบไม้ร่วง กลิ่นหอมอร่อย พร้อมๆ กับกลิ่นไหม้เลยแฮะ บางทีข้าควร… ไปตรวจสอบสักหน่อย$0#$e#ข้าเชื่อว่า มันมาจากน้ำพุในเมือง$1" },
      "When": { "Spouse": "Wizard" }
 },
      //Wizard spirits eve
 {
      "Action": "EditData",
      "Target": "data/festivals/fall27",
-     "Entries": { "Wizard": "This is the one day out of the year where I get to show the town my full power as Stardew Valley's resident magic practitioner.$0#$b#Say, are you impressed with this year's maze?$1#$e#It took a great deal of time and energy to summon it...$2" },
+     "Entries": { "Wizard": "นี่เป็นวันเดียว จากทั้งปี ที่ข้าจะได้แสดงพลังอย่างเต็มที่ ในฐานะของผู้ใช้เวทมนตร์ ประจำสตาร์ดิวแวลลีย์$0#$b#บอกหน่อยสิ เจ้าประทับใจเขาวงกตปีนี้หรือเปล่า?$1#$e#มันใช้ทั้งเวลา และพลังอย่างมาก ในการอัญเชิญเลยนะ...$2" },
      "When": { "Spouse": "Wizard" }
 },
      //Wizard ice festival
 {
      "Action": "EditData",
      "Target": "data/festivals/winter8",
-     "Entries": { "Wizard": "Oh, @! I'm overjoyed to see you here.$1#$e#Perhaps after the festivities are over, I can show you the arcane potential this particular spot holds...$4" },
+     "Entries": { "Wizard": "อ้าว @! ข้ายินดีนัก ที่ได้เจอเจ้าที่นี่$1#$e#บางทีหลังเทศกาลจบ ข้าอาจจะแสดงพลังเวท ที่วนเวียนอยู่ในสถานที่ตรงนี้...$4" },
      "When": { "Spouse": "Wizard" }
 },
 
@@ -15660,7 +15660,7 @@
 {
      "Action": "EditData",
      "Target": "data/festivals/winter25",
-     "Entries": { "Wizard": "Linus is a close and dear friend of mine. He doesn't feel comfortable at the plaza, so I'm here to accompany him.$0#$e#Spread joy wherever you can, dearest.$1" },
+     "Entries": { "Wizard": "ลินัสเป็นสหายที่สนิท และเป็นสหายที่ดีของข้า เขารู้สึกไม่สบายใจ ที่จะอยู่ที่ลานกว้าง ข้าเลยมาอยู่เป็นเพื่อนเขา$0#$e#เราต้องส่งต่อความสุข ทุกเมื่อที่ทำได้นะ ที่รัก$1" },
      "When": { "Spouse": "Wizard" }
 },
 
@@ -16485,8 +16485,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Spring 3", "HasSeenEvent |contains=4269704": true },
       "Entries": {
-      "funReturn_Claire": "I met some interesting people at work. Someone traveled all the way from Pine Mesa city!$5",
-      "funLeave_Claire": "I'm have a photoshoot in the city today. What will you be doing today?$1"
+      "funReturn_Claire": "ฉันเจาผู้คนที่นาสนใจมากๆ ตอนอยู่ที่ทำงานด้วยละ บางคนเดินทางมาไกล จาก เมืองไพน์เมซ่าเลย!$5",
+      "funLeave_Claire": "ฉันมีถ่ายแบบ ที่เมืองในวันนี้นะ แล้ววันนี้คุณจะทำอะไรหรอ?$1"
         }
 	},
     {
@@ -16539,8 +16539,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Spring 10", "HasSeenEvent |contains=4269704": true },
       "Entries": {
-      "funReturn_Claire": "I washed the dishes and swept the house while you were out.$1#$e#I had a rather productive day in the city!$5",
-      "funLeave_Claire": "I have a feeling something good will happen today.$1#$e#Well, I'm heading to the studio here in a bit. Need anything from the city while I'm there?$5"
+      "funReturn_Claire": "ตอนที่คุณออกไปข้างนอก ฉันล้างจานแล้วก็ กวาดบ้านแล้วนะ$1#$e#วันนี้ะของฉันในเมือง ถือว่าทำได้ค่อนข้างดีเลย!$5",
+      "funLeave_Claire": "ฉันรู้สึกได้ว่า จะมีสิ่งดีๆ เกิดขึ้นในวันนี้ล่ะ$1#$e#อ้อ อีกเดี๋ยวฉันจะแวะไปสตูดิโอแล้วนะ อยากได้อะไรจากในเมืองมั้ย?$5"
         }
 	},
     {
@@ -16593,8 +16593,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Spring 17", "HasSeenEvent |contains=4269704": true },
       "Entries": {
-      "funReturn_Claire": "Work in the city was exhausting today... but I did talk to some interesting people.",
-      "funLeave_Claire": "I'm heading to the studio this morning. I'll be back for dinner.$1"
+      "funReturn_Claire": "การทำงานในเมืองวันนี้ แบบเหนื่อยมากๆ... แต่ฉันได้คุยกับคนที่น่าสนใจด้วยล่ะ",
+      "funLeave_Claire": "เช้านี้ฉันจะไปสตูดิโอนะ เดี๋ยวฉันกับมาทานมื้อเย็นด้วย$1"
         }
 	},
     {
@@ -16638,8 +16638,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Spring 24", "HasSeenEvent |contains=4269704": true },
       "Entries": {
-      "funReturn_Claire": "We're filming a new movie.$1#$e#I can't tell you what it is! I want it to be a surprise.$4",
-      "funLeave_Claire": "I brewed some coffee for us. [395]$1#$e#%You tell Claire to have a nice day at work.#$e#Hehe... you have a nice day too, dear.$5"
+      "funReturn_Claire": "เรากำลังถ่ายหนังเรื่องใหม่ล่ะ$1#$e#ไม่เอา ฉันจะไม่บอกว่าคืออะไรหรอก! ก็ฉันอยากให้เซอร์ไพรส์นี่$4",
+      "funLeave_Claire": "ฉันชงกาแฟไว้ให้คุณด้วยนะ [395]$1#$e#%%คุณบอกแคลร์ว่า ขอให้งานราบรื่น#$e#ฮิฮิ...ขอให้งานของคุณ ราบรื่นเหมือนกันนะ ที่รัก$5"
         }
 	},
     {
@@ -16683,8 +16683,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Summer 3", "HasSeenEvent |contains=4269704": true },
       "Entries": {
-      "funReturn_Claire": "Welcome home! How was your day?$1#$e#I don't think I'll ever get used to people asking for my picture...$5",
-      "funLeave_Claire": "I'm going to Zuzu city this morning for a 'Thief Of Justice' photoshoot.$5#$e#What will you be doing today?$1"
+      "funReturn_Claire": "ยินดีต้อนรับกลับบ้านจ้า! วันนี้คุณเป็นไงบ้าง?$1#$e#ฉันไม่คิดว่า ฉันจะทำตัวให้ชินได้ เวลามีคนมาขอถ่ายรูปน่ะ...$5",
+      "funLeave_Claire": "เดี๋ยวเช้านี้ ฉันจะต้องเข้าเมืองซูซู เพื่อถ่ายภาพโปรโมท 'Thief Of Justice'$5#$e#แล้ววันนี้คุณจะทำอะไรหรอ?$1"
         }
 	},
     {
@@ -16728,8 +16728,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Summer 10", "HasSeenEvent |contains=4269704": true },
       "Entries": {
-      "funReturn_Claire": "I'm going to try a new recipe I found online the next time I cook dinner.$1#$b#I know you'll love it.$5#$e#Oh? Yes?$1#$e#...$4#$e#Oh! You're silly!$7",
-      "funLeave_Claire": "Our studio has gotten a lot bigger since the debut of 'The Thief Of Justice'. We're hiring more artisans.$1#$e#We have a huge set planned! It'll be beautiful once it's finished!$5"
+      "funReturn_Claire": "คราวหน้า ฉันว่าจะลองทำเมนูใหม่ ที่อ่านเจอในเน็ต เป็นมื้อเย็นดูน่ะ$1#$b#ฉันว่าคุณต้องชอบแน่ๆ$5#$e#โอ๊ะ? อะไรนะ?$1#$e#...$4#$e#ฮึ้ย! คนบ้า!!$7",
+      "funLeave_Claire": "สตูดิโอของเราเริ่มใหญ่โตขึ้น ตั้งแต่ที่ได้เดบิวต์ 'The Thief Of Justice' เราจ้างคนมีฝีมือมากเพิ่มขึ้น$1#$e#เรากำลังวางแผนยิ่งใหญ่! มันจะต้องจบอย่างสวยงามแน่ๆ!$5"
         }
 	},
     {
@@ -16773,8 +16773,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Summer 17", "HasSeenEvent |contains=4269704": true },
       "Entries": {
-      "funReturn_Claire": "Spending time with me must be boring...$2#$e#Sorry... I have some thoughts.$2#$e#%Claire doesn't want to talk.",
-      "funLeave_Claire": "Good morning. You managed to roll out of bed...$1#$e#I'm heading to the studio soon. I'll be back for dinner.$5"
+      "funReturn_Claire": "การใช้เวลาอยู่กับฉันคง จะน่าเบื่อสินะ...$2#$e#ขอโทษ... ฉันแค่บ่นกับตัวเองน่ะ$2#$e#%แคลร์ไม่อยากคุยอะไรตอนนี้",
+      "funLeave_Claire": "อรุณสวัสดิ์ ลุกออกจากเตียง ได้แล้วหรอ...$1#$e#เช้านี้ฉันจะไปสตูดิโอนะ เดี๋ยวฉันกับมาทานมื้อเย็นด้วยกัน$5"
         }
 	},
     {
@@ -16828,8 +16828,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Summer 24", "HasSeenEvent |contains=4269704": true },
       "Entries": {
-      "funReturn_Claire": "Ever since I was a little girl, I wanted to be an actress.$1#$e#I still can't believe my dream came true. It really happened!$5",
-      "funLeave_Claire": "I thought I'd make two helpings for breakfast. Here, dear. [201 195 194 210 211]$1#$e#I'll be at the studio today. Do you need anything from the city while I'm there?$1"
+      "funReturn_Claire": "ตอนเด็กๆ ฉันก็เคยฝันไว้นะ ว่าอยากจะเป็นนักแสดง$1#$e#ฉันยังไม่อยากจะเชื่อเลย ว่าฝันจะเป็นจริง มันเป็นเรื่องจริง!$5",
+      "funLeave_Claire": "ฉันว่า จะช่วยทำอาหารเช้าไว้ก่อน  นี่จ้ะ ที่รัก [201 195 194 210 211]$1#$e#วันนี้ฉันต้องอยู่ที่ สตูดิโอทั้งวันเลย คุณอยากจะได้อะไร ตอนที่ฉันเข้าเมืองมั้ย?$1"
         }
 	},
     {
@@ -16873,8 +16873,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Fall 3", "HasSeenEvent |contains=4269704": true },
       "Entries": {
-      "funReturn_Claire": "We might hire a stunt person for this scene we're shooting.$1",
-      "funLeave_Claire": "Your outfit looks great today...$1#$e#I'm heading to the studio today. I'll be back for dinner.$5"
+      "funReturn_Claire": "เราอาจจะต้องจ้างสตั๊นท์แมน ในฉากที่เรากำลังถ่ายทำอยู่น่ะ$1",
+      "funLeave_Claire": "วันนี้ชุดคุณดูดีจัง...$1#$e#วันนี้ฉันต้องไปสตูดิโอ ฉันจะกลับมาทานมื้อค่ำด้วยกันนะ$5"
         }
 	},
     {
@@ -16882,7 +16882,7 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Fall 4" }, //Thu
       "Entries": {
-      "funReturn_Claire": "คุณรู้จักคนที่ชื่อ 'แพม' มะ?#$e#โอ้ ป้านั่น... ก่อเรื่อง ตอนที่ฉันกำลังทำงานน่ะ$2#$e#เดี๋ยวฉันเล่าให้ฟังที่เตียงนะ",
+      "funReturn_Claire": "คุณรู้จักคนที่ชื่อ 'แพม' มั้ย?#$e#โอ้ย ป้านั่น... ก่อเรื่อง ตอนที่ฉันกำลังทำงานน่ะ$2#$e#เดี๋ยวฉันเล่าให้ฟังที่เตียงนะ",
       "funLeave_Claire": "อรุณสวัสดิ์ เอากาแฟซักแก้วมั้ย? [395]$1"
         }
 	},
@@ -17080,8 +17080,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Winter 10", "HasSeenEvent |contains=4269704": true },
       "Entries": {
-      "funReturn_Claire": "Oh, it's %time? The day went by so fast...$0",
-      "funLeave_Claire": "I'm going to the studio soon. What will you be doing today?$0"
+      "funReturn_Claire": "โอ้  %time แล้วหรอเนี่ย? วันเวลาผ่านไปเร็วจัง...$0",
+      "funLeave_Claire": "อีกเดี๋ยวฉันต้องไปสตูดิโอแล้วล่ะ วันนี้คุณจะทำไรบ้างหรอ?$0"
         }
 	},
     {
@@ -17125,8 +17125,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Winter 17", "HasSeenEvent |contains=4269704": true },
       "Entries": {
-      "funReturn_Claire": "Will we live in the valley forever?$1#$e#Sorry. That was a strange question to ask.$0#$e#%You smile at Claire.#$e#...$4",
-      "funLeave_Claire": "Morning, dear.$1#$e#I think it'll be a long day at the studio...so I'll be home late. Eat dinner without me.$1"
+      "funReturn_Claire": "เราจะอาศัยอยู่ที่หุบเขานี้ ไปตลอดเลยมั้ย?$1#$e#ขอโทษนะ มันแปลกใช่มั้ย ที่มาถามแบบนี้$0#$e#%คุณยิ้มให้แคลร์#$e#...$4",
+      "funLeave_Claire": "อรุณสวัสดิ์ ที่รัก$1#$e#ฉันว่า ฉันนี้ต้องขลุกอยู่ที่สตูดิโอยาวๆ เลย... เพราะงั้น น่าจะถึงบ้านดึก คุณทานมื้อเย็นไปก่อนเลย ไม่ต้องรอฉันนะ$1"
         }
 	},
     {
@@ -17179,8 +17179,8 @@
       "Target": "Characters/Dialogue/MarriageDialogueClaire",
 	  "When": { "Date": "Winter 24", "HasSeenEvent |contains=4269704": true },
       "Entries": {
-      "funReturn_Claire": "I almost slipped on ice today in the city...$2#$e#Be careful walking outside, okay?$2",
-      "funLeave_Claire": "I enjoy waking up early in the morning, listening to the birds start their day.$1"
+      "funReturn_Claire": "วันนี้ฉันเกือบจะลื่น บนพื้นน้ำแข็ง$/#$b#คุณต้องระวัง เวลาเดินไปข้างนอกด้วยนะ รู้มั้ย?$2",
+      "funLeave_Claire": "ฉันชอบตื่นเช้านะ แล้วก็ฟังเสียงพวกนกร้อง เริ่มต้นวันใหม่$1"
         }
 	},
     {
