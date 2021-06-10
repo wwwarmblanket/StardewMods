@@ -15617,14 +15617,14 @@
 {
      "Action": "EditData",
      "Target": "data/festivals/summer11",
-     "Entries": { "Wizard": "Can you feel them, dearest? The ocean creatures are alerted to the human presence on the beach.$0#$e#Go and enjoy the festivities. I shall join you later.$0#$b#Also.. err. Save me some of that roasted ham Linus is cooking up, will you?$1" },
+     "Entries": { "Wizard": "เจ้ารู้สึกถึงมันมั้ย ที่รัก? สัตว์ทะเลกำลังตกตื่น เพราะการปรากฏตัว ของมนุษย์ที่ชายหาด$0#$e#เจ้าไปสนุก กับงานเทศกาลเถอะ เดี๋ยวข้าตามไปทีหลัง$0#$b#แล้วก็.. เอ่อ ช่วยเก็บแฮมย่าง ที่ลินัสกำลังทำอยู่ ไว้ให้ข้าด้วย ได้มั้ย?$1" },
      "When": { "Spouse": "Wizard" }
 },
      //Wizard jellies festival
 {
      "Action": "EditData",
      "Target": "data/festivals/summer28",
-     "Entries": { "Wizard": "I prefer this spot in the shade to being out in the moonlight. Eyes aren't required to experience the Lunaloos' arrival.#$e#The Lunaloos... or 'Moonlight Jellies', as they're more commonly known, possess an unusually potent magical aura for an aquatic life form.$0" },
+     "Entries": { "Wizard": "ข้าชอบอยู่ตรงนี้ ที่ใต้เงานี่ มากกว่าที่จะ ไปยืนใต้แสงจันทร์ ไม่จำเป็นต้องใช้ตามอง เพื่อรับรู้การมาถึง ของพวกลูนาลูหรอก#$e#ลูนาลู... หรือที่รู้จักกันว่า 'กระพรุนแสงจันทร์' มีออร่าเวทย์ทรงพลัง มากกว่าปกติ ในบรรดาสิ่งมีชีวิตที่อยู่ในน้ำ$0" },
      "When": { "Spouse": "Wizard" }
 },
      //Wizard town fair
