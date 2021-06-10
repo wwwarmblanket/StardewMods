@@ -170,15 +170,15 @@
             "Entries":
             {
                 "Indoor_Day_0": "ผมว่าพวกเราทุกคน ต่างก็พยายาม ให้ชีวิตลงตัว กันทั้งนั้นแหละ ให้ความซับซ้อนมันสมดุลย์น่ะ#$e#สำหรับผม การย้ายมาอยู่ที่นี่นี่แหละ ความสมดุลย์นั้น$l",
-                "Good_2": "ผมสนใจคุณ ตั้งแต่คุณย้ายมาแล้วล่ะ แอบกลัวหน่อยๆ ด้วย... แต่ผมก็รู้สึกว่า การได้อยู่ในชีวิตคุณ จะทำให้ชีวิตผม ดีขึ้น$l",
-                "Good_3": "คุณดูแข็งแรงสดใสนะ! ดีจัง$l",
-                "Outdoor_2": "I may not be the most exciting guy, but I'll be a loyal friend to you for the rest of my life.$l",
-                "TwoKids_3": "My life is devoted to you and the children now, and I'm very happy about it. I always dreamed of having a wonderful family.$l#$e#You know, @... Before we met, I thought being a bachelor was the reason I felt lonely and unfulfilled.$s#$e#But since we've been {{RelationshipLabel}}, there's no doubt in my mind... What we have together is exactly what I need. I love you so much.$l",
-                "Good_0": "@...I still can't believe we're {{RelationshipLabel}}...$l",
-                "funReturn_Harvey": "I had a nice day. It's refreshing to spend some time alone now and then. Did you have a good day, @?",
-                "Outdoor_3": "@... you mean the world to me.$l",
-                "Rainy_Day_2": "I woke up early, but I made sure not to wake you. You need your rest!",
-                "spring_23": "W...Will you dance with me at the festival tomorrow?$s#$e#It's always a little embarrassing.$7",
+                "Good_2": "ผมอยากคุยกับคุณ ตั้งแต่คุณย้ายมาแล้วล่ะ แอบกลัวหน่อยๆ ด้วย... แต่ผมก็รู้สึกว่า การได้อยู่ในชีวิตคุณ จะทำให้ชีวิตผม ดีขึ้น$l",
+                "Good_3": "คุณดูแข็งแรงสดใสนะวันนี้! ดีจัง$l",
+                "Outdoor_2": "ผมอาจไม่ใช่ผู้ชาย ที่ตื่นเต้นที่สุด แต่ผมจะเป็นเพื่อน ที่ซื่อสัตย์ต่อคุณไปทั้งชีวิต$l",
+                "TwoKids_3": "ชีวิตผม อุทิศให้คุณและลูกๆ แล้วผมก็มีความสุขกับมันมาก ผมฝันที่จะมี ครอบครัวที่วิเศษมาตลอดเลย$l#$e#รู้มั้ย @... ก่อนเราจะเจอกัน ผมคิดว่าควาฒโสด เป็นสาเหตุที่ผม รู้สึกเหงาและรู้สึก เหมือนมีอะไรขาดหาย$s#$e#แต่ตั้งแต่พวกเราเป็น {{RelationshipLabel}} กัน ผมก็สิ้นสงสัย... สิ่งที่พวกเรามีด้วยกันต่างหาก คือสิ่งที่ผมต้องการ ผมรักคุณมากนะ$l",
+                "Good_0": "@...ผมยังไม่อยากจะเชื่อเลย ว่าพวกเราเป็น {{RelationshipLabel}} กัน...$l",
+                "funReturn_Harvey": "เป็นวันที่ดีมากเลย ได้อยู่คนเดียวบ้างก็ เป็นการเปลี่ยนบรรยากาศดี วันนี้ของคุณดีหรือเปล่า @?",
+                "Outdoor_3": "@... คุณสำคัญกับผมมากนะ$l",
+                "Rainy_Day_2": "ผมตื่นแต่เช้าแล้วล่ะ แต่ผมระวังไม่ให้คุณตื่น คุณต้องพักผ่อนนี่นะ!",
+                "spring_23": "ค...คุณจะเต้นรำกับผม ที่งานเทศกาลพรุ่งนี้่ได้่มั้ย?$s#$e#มันน่าอายหน่อยๆ ตลอดเลย$7",
             },
             "When":
             {
@@ -191,17 +191,17 @@
             "Target": "Characters/Dialogue/MarriageDialogueHarvey",
             "Entries":
             {
-                "Indoor_Day_0": "I think we're all striving to reach some kind of balance in life. An equilibrium of complexity.#$e#For me, moving here was exactly what I needed to find that balance.",
-                "Good_2": "I was drawn to you from the moment you moved here. Intimidated, too... but somehow I knew that being in your life would enrich mine.",
-                "Good_3": "You look hale and healthy today! I'm glad.$h",
-                "Outdoor_2": "I may not be the most exciting guy, but I'll be a loyal friend to you for the rest of my life.",
-                "TwoKids_3": "My life is devoted to you and the children now, and I'm very happy about it. I always dreamed of having a wonderful family.#$e#You know, @... Before we met, I thought being a bachelor was the reason I felt lonely and unfulfilled.$s#$e#But since we've been {{RelationshipLabel}}, there's no doubt in my mind... What we have together is exactly what I need. I love you so much.",
-                "Good_0": "@...I still can't believe we're {{RelationshipLabel}}...$h",
-                "funReturn_Harvey": "I had a nice day. It's refreshing to spend some time alone now and then. Did you have a good day, @?",
-                "Outdoor_3": "@... you mean the world to me.",
-                "Good_1": "You rescued me from a life of loneliness, and filled the emptiness in my heart. Thank you.",
-                "Rainy_Day_2": "I woke up early, but I made sure not to wake you. You need your rest!",
-                "spring_23": "W...Will you dance with me at the festival tomorrow?$s#$e#It's always a little embarrassing.$7",
+                "Indoor_Day_0": "ผมว่าพวกเราทุกคน ต่างก็พยายาม ให้ชีวิตลงตัว กันทั้งนั้นแหละ ให้ความซับซ้อนมันสมดุลย์น่ะ#$e#สำหรับผม การย้ายมาอยู่ที่นี่นี่แหละ ความสมดุลย์นั้น",
+                "Good_2": "ผมอยากคุยกับคุณ ตั้งแต่คุณย้ายมาแล้วล่ะ แอบกลัวหน่อยๆ ด้วย... แต่ผมก็รู้สึกว่า การได้อยู่ในชีวิตคุณ จะทำให้ชีวิตผม ดีขึ้น",
+                "Good_3": "คุณดูแข็งแรงสดใสนะวันนี้! ดีจัง$h",
+                "Outdoor_2": "ผมอาจไม่ใช่ผู้ชาย ที่ตื่นเต้นที่สุด แต่ผมจะเป็นเพื่อน ที่ซื่อสัตย์ต่อคุณไปทั้งชีวิต.",
+                "TwoKids_3": "ชีวิตผม อุทิศให้คุณและลูกๆ แล้วผมก็มีความสุขกับมันมาก ผมฝันที่จะมี ครอบครัวที่วิเศษมาตลอดเลย$l#$e#รู้มั้ย @... ก่อนเราจะเจอกัน ผมคิดว่าความโสด เป็นสาเหตุที่ผม รู้สึกเหงาและรู้สึก เหมือนมีอะไรขาดหาย$s#$e#แต่ตั้งแต่พวกเราเป็น {{RelationshipLabel}} กัน ผมก็สิ้นสงสัย... สิ่งที่พวกเรามีด้วยกันต่างหาก คือสิ่งที่ผมต้องการ ผมรักคุณมากนะ",
+                "Good_0": "@...ผมยังไม่อยากจะเชื่อเลย ว่าพวกเราเป็น {{RelationshipLabel}} กัน...$h",
+                "funReturn_Harvey": "เป็นวันที่ดีมากเลย ได้อยู่คนเดียวบ้างก็ เป็นการเปลี่ยนบรรยากาศดี วันนี้ของคุณดีหรือเปล่า @?",
+                "Outdoor_3": "@... คุณสำคัญกับผมมากนะ",
+                "Good_1": "คุณช่วยให้ผมพ้นจาก ชีวิตที่โดดเดี่ยว และเติมเต็มความว่างเปล่า ในใจผม ขอบคุณนะ",
+                "Rainy_Day_2": "ผมตื่นแต่เช้าแล้วล่ะ แต่ผมระวังไม่ให้คุณตื่น คุณต้องพักผ่อนนี่นะ!",
+                "spring_23": "ค...คุณจะเต้นรำกับผม ที่งานเทศกาลพรุ่งนี้่ได้่มั้ย?$s#$e#มันน่าอายหน่อยๆ ตลอดเลย$7",
             },
             "When":
             {
@@ -214,12 +214,12 @@
             "Target": "Characters/Dialogue/MarriageDialogueHarvey",
             "Entries":
             {
-                "Rainy_Night_0": "How was your day, {{Lowercase:{{TermofEndearment}}}}? I was going to do the dishes but I got absorbed in the latest issue of \"Knee Surgery Enthusiast\".",
-                "Rainy_Night_2": "You look a little soggy, {{Lowercase:{{TermofEndearment}}}}. Why don't you warm yourself by the fire?",
+                "Rainy_Night_0": "วันนี้เป็นยังไงบ้าง {{Lowercase:{{TermofEndearment}}}}? ผมกำลังจะล้างจาน แต่อ่าน \"ผ่าตัดเข่าสำหรับผู้สนใจ (Knee Surgery Enthusiast)\" ฉบับล่าสุดเพลินไปหน่อย",
+                "Rainy_Night_2": "คุณดูชื้นๆ นะ {{Lowercase:{{TermofEndearment}}}} ทำไมไม่มานั่งข้างไฟให้อุ่นล่ะ?",
 
-                "summer_1": "Make sure you don't get sunburnt, {{Lowercase:{{TermofEndearment}}}}! It's very dangerous for your skin.$8#$e#As your doctor and friend, I consider your health and safety my top priority!",
-                "fall_1": "Make sure and diversify your harvests this fall, {{Lowercase:{{TermofEndearment}}}}.#$e#Or just grow cranberries... It's really up to you. What do I know?",
-                "Rainy_Night_4": "I made us a nice healthy dinner. Only fresh, wholesome ingredients from the valley! [212 214 225 209 200]$h#$e#Enjoy, {{Lowercase:{{TermofEndearment}}}}.",
+                "summer_1": "ระวังอย่าให้ผิวไหม้นะ {{Lowercase:{{TermofEndearment}}}}! มันอันตรายกับผิวมากเลย$8#$e#ในฐานะหมอ และเพื่อนของคุณนะ ผมถือสุขภาพและความปลอดภัย ของคุณเป็นอันดับหนึ่งนะ!",
+                "fall_1": "อย่าลืม เก็บเกี่ยวพืชที่หลากหลาย ฤดูใบไม้ร่วงนี่นะ {{Lowercase:{{TermofEndearment}}}}#$e#หรือจะปลูกแต่แครนเบอร์รี่ก็ได้... แล้วแต่คุณเลย ผมจะรู้อะไร?",
+                "Rainy_Night_4": "ผมทำอาหารเย็น ที่ดีต่อสุขภาพไว้ให้เราล่ะ ใช้แต่วัตถุดิบสดใหม่ อุมดมด้วยสารอาหาร จากหุบเขาทั้งนั้นเลยล่ะ! [212 214 225 209 200]$h#$e#กินให้อร่อยนะ {{Lowercase:{{TermofEndearment}}}}.",
             },
             "When":
             {
@@ -233,11 +233,11 @@
             "Target": "Characters/Dialogue/MarriageDialogueHarvey",
             "Entries":
             {
-                "Rainy_Night_0": "How was your day, {{TermofEndearment}}? I was going to do the dishes but I got absorbed in the latest issue of \"Knee Surgery Enthusiast\".",
-                "Rainy_Night_2": "You look a little soggy, {{TermofEndearment}}. Why don't you warm yourself by the fire?",
-                "summer_1": "Make sure you don't get sunburnt, {{TermofEndearment}}! It's very dangerous for your skin.$8#$e#As your doctor and friend, I consider your health and safety my top priority!",
-                "fall_1": "Make sure and diversify your harvests this fall, {{TermofEndearment}}.#$e#Or just grow cranberries... It's really up to you. What do I know?",
-                "Rainy_Night_4": "I made us a nice healthy dinner. Only fresh, wholesome ingredients from the valley! [212 214 225 209 200]$h#$e#Enjoy, {{TermofEndearment}}.",
+                "Rainy_Night_0": "วันนี้เป็นยังไงบ้าง {{Lowercase:{{TermofEndearment}}}}? ผมกำลังจะล้างจาน แต่อ่าน \"ผ่าตัดเข่าสำหรับผู้สนใจ (Knee Surgery Enthusiast) \ ฉบับล่าสุดเพลินไปหน่อย",
+                "Rainy_Night_2": "คุณดูชื้นๆ นะ {{Lowercase:{{TermofEndearment}}}} ทำไมไม่มานั่งข้างไฟให้อุ่นล่ะ?",
+                "summer_1": "ระวังอย่าให้ผิวไหม้นะ {{Lowercase:{{TermofEndearment}}}}! มันอันตรายกับผิวมากเลย$8#$e#ในฐานะหมอ และเพื่อนของคุณนะ ผมถือสุขภาพและความปลอดภัย ของคุณเป็นอันดับหนึ่งนะ!",
+                "fall_1": "อย่าลืม เก็บเกี่ยวพืชที่หลากหลาย ฤดูใบไม้ร่วงนี่นะ {{Lowercase:{{TermofEndearment}}}}#$e#หรือจะปลูกแต่แครนเบอร์รี่ก็ได้... แล้วแต่คุณเลย ผมจะรู้อะไร?",
+                "Rainy_Night_4": "ผมทำอาหารเย็น ที่ดีต่อสุขภาพไว้ให้เราล่ะ ใช้แต่วัตถุดิบสดใหม่ อุมดมด้วยสารอาหาร จากหุบเขาทั้งนั้นเลยล่ะ! [212 214 225 209 200]$h#$e#กินให้อร่อยนะ {{TermofEndearment}}.",
             },
             "When":
             {
@@ -250,8 +250,8 @@
             "Target": "Characters/Dialogue/MarriageDialogueHarvey",
             "Entries":
             {
-                "winter_1": "The air is very dry during winter. That's why our skin tends to become irritated.#$e#Truffle oil is an excellent remedy for that.",
-                "Indoor_Night_0": "You look exhausted, you poor thing. Why don't you sit down and let me bring you something to drink?",
+                "winter_1": "หน้าหนาวอากาศแห้งมากนะ เป็นช่วงที่ผิวของเรา จะถูกรบกวนน่ะ#$e#น้ำมันเห็ดทรัฟเฟิล (Truffle Oil) จะเป็นตัวแก้เรื่องนั้นได้",
+                "Indoor_Night_0": "คุณดูหมดเรี่ยวแรงมากเลย น่าสงสาร ทำไมไม่มานั่งพัก แล้วให้ผมหาอะไรให้ดื่มล่ะ?",
             },
             "When":
             {
@@ -264,10 +264,10 @@
             "Target": "Characters/Dialogue/MarriageDialogue",
             "Entries":
             {
-                "Rainy_Day_Harvey": "Make sure you stay dry today, {{Lowercase:{{TermofEndearment}}}}. I don't want you to become hypothermic.",
-                "jobReturn_Harvey": "#$c .5#*Phew*... I'm exhausted...$s#Hi, {{Lowercase:{{TermofEndearment}}}}. How was your day?#$e#My patients are still healthy, so it was a good day.",
-                "summer_Harvey": "Make sure you don't get sunburnt, @... That can really damage your skin.",
-                "spouseRoom_Harvey": "#$c .5#No air-traffic this morning. But it's still fun to break out the equipment now and then.#$e#I'm working on a new model plane. It's so much more relaxing here than in my old apartment.",
+                "Rainy_Day_Harvey": "ระวังอย่าโดนฝนนะ {{Lowercase:{{TermofEndearment}}}} ไม่อยากให้อุณหภูมิร่างกายต่ำน่ะ",
+                "jobReturn_Harvey": "#$c .5#*เฮ้อ*... ผมเหนื่อยมากเลย...$s#สวัสดี {{Lowercase:{{TermofEndearment}}}} วันนี้เป็นไงบ้าง?#$e#คนไข้ของผมยังแข็งแรงดี เพราะฉะนั้นมันเลยเป็นวันที่ดีน่ะ",
+                "summer_Harvey": "อย่าให้ผิวไหม้ล่ะ @... นั่นน่ะทำร้ายผิว ได้มากเลยนะ",
+                "spouseRoom_Harvey": "#$c .5#ไม่มีการจราจรทางอากาศ หรอกวันนี้ แต่ได้เอาอุปกรณ์ออกมาบ้าง ก็ยังสนุกอยู่ดี#$e#ผมกำลังต่อโมเดลเครื่องบิน อันใหม่น่ะ ที่นี่สบายใจ กว่าที่อพาร์ตเมนท์เก่า ผมเยอะเลย",
             },
             "When":
             {
@@ -280,10 +280,10 @@
             "Target": "Characters/Dialogue/MarriageDialogue",
             "Entries":
             {
-                "Rainy_Day_Harvey": "Make sure you stay dry today, {{TermofEndearment}}. I don't want you to become hypothermic.",
-                "jobReturn_Harvey": "#$c .5#*Phew*... I'm exhausted...$s#Hi, {{TermofEndearment}}. How was your day?#$e#My patients are still healthy, so it was a good day.",
-                "summer_Harvey": "Make sure you don't get sunburnt, @... That can really damage your skin.",
-                "spouseRoom_Harvey": "#$c .5#No air-traffic this morning. But it's still fun to break out the equipment now and then.#$e#I'm working on a new model plane. It's so much more relaxing here than in my old apartment.",
+                "Rainy_Day_Harvey": "ระวังอย่าโดนฝนนะ {{Lowercase:{{TermofEndearment}}}} ไม่อยากให้อุณหภูมิร่างกายต่ำน่ะ",
+                "jobReturn_Harvey": "#$c .5#*เฮ้อ*... ผมเหนื่อยมากเลย...$s#สวัสดี {{TermofEndearment}} วันนี้เป็นไงบ้าง?#$e#คนไข้ของผมยังแข็งแรงดี เพราะฉะนั้นมันเลยเป็นวันที่ดีน่ะ",
+                "summer_Harvey": "อย่าให้ผิวไหม้ล่ะ @... นั่นน่ะทำให้ผิว เสียหายมากได้เลยนะ",
+                "spouseRoom_Harvey": "#$c .5#ไม่มีการจราจรทางอากาศ หรอกวันนี้ แต่ได้เอาอุปกรณ์ออกมาบ้าง ก็ยังสนุกอยู่ดี#$e#ผมกำลังต่อโมเดลเครื่องบิน อันใหม่น่ะ ที่นี่สบายใจ กว่าที่อพาร์ตเมนท์เก่า ผมเยอะเลย",
             },
             "When":
             {
@@ -295,8 +295,8 @@
             "Target": "Characters/Dialogue/MarriageDialogue",
             "Entries":
             {
-                "Indoor_Night_Harvey": "You look like you could use a full night's sleep tonight.#$e#Doctor's orders... It's good for your brain!",
-                "Outdoor_Harvey": "This is so much nicer than being cooped up in the clinic all day.#$e#I love watching you on the farm. You throw yourself into the work so completely. It's a good reminder of the simple joy of physical exertion.",
+                "Indoor_Night_Harvey": "คุณดูเหมือน คืนนี้ต้องพักผ่อนให้เต็มอิ่มเลย#$e#คำสั่งแพทย์นะ... มันดีต่อสมองน่ะ!",
+                "Outdoor_Harvey": "นี่ดีกว่า อุดอู้อยู่ในคลิดนิกทั้งวัน มากเลย#$e#ผมชอบดูคุณทำงานในฟาร์ม คุณตั้งใจทำงานเต็มที่เสียจน มันเป็นเหมือนเครื่องเตือนใจ ถึงความสนุก ในการได้ออกกำลังน่ะ",
             },
             "When":
             {
@@ -308,7 +308,7 @@
             "Target": "Data/Festivals/fall27",
             "Entries":
             {
-                "Harvey_spouse": "Hi, @. I was hoping you'd find me here!$h",
+                "Harvey_spouse": "สวัสดี @ กำลังหวังว่า คุณจะมาหาเลย!$h",
             },
         },
         {
@@ -316,7 +316,7 @@
             "Target": "Data/Festivals/winter8",
             "Entries":
             {
-                "Harvey_spouse": "I'm dreaming of our warm fire back home...",
+                "Harvey_spouse": "ผมฝันถึงกองไฟอุ่นๆ ที่บ้านของเรา...",
             },
             "When":
             {
@@ -328,7 +328,7 @@
             "Target": "Data/Festivals/winter25",
             "Entries":
             {
-                "Harvey_spouse": "I'm feeling a little overwhelmed... thank goodness for this crisp air...$8",
+                "Harvey_spouse": "ความรู้สึกผม กำลังตีกันยุ่งเหยิงเลย.. ขอบคุณพระเจ้า ที่อากาศสดชื่น...$8",
             },
         },
         {
@@ -336,7 +336,7 @@
             "Target": "Strings/schedules/Harvey",
             "Entries":
             {
-		"marriageJob.000": "Hi, {{Lowercase:{{TermofEndearment}}}}. What are you doing at the clinic?#$e#Ah, you just came to see me. That's nice.$h",
+		"marriageJob.000": "ไง {{Lowercase:{{TermofEndearment}}}}มาทำอะไรที่คลินิกล่ะ?#$e#อ้อ แค่อยากมาเจอผมเหรอ ดีจัง$h",
             },
             "When":
             {
@@ -349,7 +349,7 @@
             "Target": "Strings/schedules/Harvey",
             "Entries":
             {
-		"marriageJob.000": "Hi, {{TermofEndearment}}. What are you doing at the clinic?#$e#Ah, you just came to see me. That's nice.$h",
+		"marriageJob.000": "ไง {{Lowercase:{{TermofEndearment}}}}มาทำอะไรที่คลินิกล่ะ?#$e#อ้อ แค่อยากมาเจอผมเหรอ ดีจัง$h",
             },
             "When":
             {
@@ -361,7 +361,7 @@
             "Target": "Strings/Characters",
             "Entries":
             {
-                "MovieInvite_Spouse_Harvey": "Movie tickets? Well... yes, I'd love to go with you!$h#$e#It's good to do things like this. I don't want life as {{RelationshipLabel}} to get boring for you!",
+                "MovieInvite_Spouse_Harvey": "ตั่๋วหนังเหรอ? อ่า... ตกลง ผมอยากไปดูกับคุณ!$h#$e#มันดีนะที่ได้ทำอะไรแบบนี้ ผมไม่อยากให้ชีวิตในฐานะ {{RelationshipLabel}} ทำให้คุณเบื่อน่ะ!",
             },
         },
         {
@@ -369,7 +369,7 @@
             "Target": "Data/ExtraDialogue",
             "Entries":
             {
-                "SummitEvent_Dialogue3_Harvey": "When I'm next to you, I'm not even scared of falling off this cliff and dashing onto the sharp rocks below...$l\"/jump Harvey/shake Harvey 1000/pause 1000/speak Harvey \"...$8#$b#...I'm all right. I still have those moments where the fear spikes, but it's easier to get past them than it used to be.#$b#And that's all thanks to you. I... I love and admire you very much, @.$l",
+                "SummitEvent_Dialogue3_Harvey": "เวลาผมอยู่กับคุณ ผมไม่กลัวที่จะตกเขานี่ แล้วกระแทกกับหินคมๆ ด้านล่างด้วยซ้ำ...$l\"/jump Harvey/shake Harvey 1000/pause 1000/speak Harvey \"...$8#$b#...ผมไม่เป็นไร ผมยังกลัวอยู่ มันแค่ก้าวข้ามความกลัวนั่น ง่ายกว่าแต่ก่อนเท่านั้นเอง#$b#และนั่นก็เป็นเพราะคุณ ผม... ผมรักและชื่นชมคุณมากนะ @$l",
             },
             "When":
             {
@@ -381,7 +381,7 @@
             "Target": "Data/ExtraDialogue",
             "Entries":
             {
-                "SummitEvent_Dialogue3_Harvey": "When I'm next to you, I'm not even scared of falling off this cliff and dashing onto the sharp rocks below...\"/jump Harvey/shake Harvey 1000/pause 1000/speak Harvey \"...$8#$b#...I'm all right. I still have those moments where the fear spikes, but it's easier to get past them than it used to be.#$b#And that's all thanks to you. I... I love and admire you very much, @.",
+                "SummitEvent_Dialogue3_Harvey": "เวลาผมอยู่กับคุณ ผมไม่กลัวที่จะตกเขานี่ แล้วกระแทกกับหินคมๆ ด้านล่างด้วยซ้...\"/jump Harvey/shake Harvey 1000/pause 1000/speak Harvey \"...$8#$b#...มไม่เป็นไร ผมยังกลัวอยู่ มันแค่ก้าวข้ามความกลัวนั่น ง่ายกว่าแต่ก่อนเท่านั้นเอง#$b#และนั่นก็เป็นเพราะคุณ ผม... ผมรักและชื่นชมคุณมากนะ @",
             },
             "When":
             {
@@ -393,7 +393,7 @@
             "Target": "Strings/StringsFromCSFiles",
             "Entries":
             {
-                "Event.cs.1627": "I've been looking forward to it! Fresh air, exercise, and a friend to share them with... days like this are good for the body and soul!$h",
+                "Event.cs.1627": "ผมรอมันมาตลอดเลย! อากาศสดชื่น ได้ออกกำลังกาย และเพื่อนที่จะมาแบ่งปัน... วันแบบนี้น่ะ ดีต่อร่างกายและจิตใจล่ะ!$h",
             },
         },
         {
@@ -401,7 +401,7 @@
             "Target": "Data/mail",
             "Entries":
             {
-                "harveyBalloon": "@,^I need to ask you for a favor. Could you meet me by the railroad tracks? ^   -Harvey[#]Harvey's Favor",
+                "harveyBalloon": "@^ผมอยากให้คุณช่วงอะไรหน่อย มาเจอผมที่ทางรถไฟได้หรือเปล่า? ^   -ฮาร์วีย์[#]คำขอของฮาร์วีย์",
             },
             "When":
             {
@@ -413,7 +413,7 @@
             "Target": "Data/Events/Railroad",
             "Entries":
             {
-                "528052/f Harvey 2500/t 900 1700/n harveyBalloon": "playful/26 38/Harvey 24 41 0 farmer 24 50 0/skippable/move farmer 0 -8 0/faceDirection Harvey 2/speak Harvey \"There you are... just in time!\"/faceDirection Harvey 0/jump Harvey/pause 800/speak Harvey \"Look, here it comes!$8\"/emote farmer 8/move Harvey -1 0 1/move farmer -2 0 0/move farmer 0 -1 1/addTemporaryActor Marcello 16 32 25 19 2 true/positionOffset Marcello 36 558/animate Marcello false true 400 16 17/specificTemporarySprite marcelloLand/null/pause 1000/stopAnimation Marcello/pause 500/message \"Marcello's Balloon Rentals at your service!\"/pause 1000/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/jump Marcello 12/move Marcello 0 3 3/move Marcello -2 0 0/faceDirection Harvey 2/faceDirection farmer 2/message \"Marcello: It's all yours for two hours.\"/faceDirection Marcello 3/faceDirection Marcello 2/message \"Marcello: Now... I was told there's a saloon somewhere around here?\"/move Marcello 0 9 1/warp Marcello -100 -100/faceDirection farmer 1/faceDirection Harvey 3/pause 500/speak Harvey \"I saw an ad in the paper for these balloon rides, and I realized this could be the perfect exposure therapy for my fear of heights.#$b#But I need a friend with me for moral support... and to land the balloon if I panic.$s#$b#If you're willing, I'd like that friend to be you. There's no one I trust more.$l\"/pause 800/emote farmer 32/pause 500/speak Harvey \"Okay... you first.\"/pause 400/move farmer 0 1 1/faceDirection Harvey 1/move farmer 3 0 0/move farmer 0 -1 0/jump farmer 14/move farmer 0 -1 2/move Harvey 0 1 1/move Harvey 3 0 0/move Harvey 0 -1 0/jump Harvey 14/move Harvey 0 -1 2/pause 1000/showFrame Harvey 29/pause 300/playSound openBox/pause 300/showFrame Harvey 0/pause 400/playSound furnace/playMusic none/cutscene balloonDepart/viewport move 0 -1 6000/pause 2000/showFrame Harvey 30/jump Harvey 5/shake Harvey 7000/pause 7000/globalFade/viewport -2000 -2000/playMusic 50s/pause 2000/cutscene clearTempSprites/changeToTemporaryMap HarveyBalloon/cutscene balloonChangeMap/viewport -2000 -2000/warp farmer 22 36/warp Harvey 22 36/positionOffset farmer 24 570/positionOffset Harvey 96 554/positionOffset farmer -8 -8/positionOffset Harvey -24 -8/showFrame Harvey 32/pause 1000/shake Harvey 19000/viewport 23 39 clamp true/viewport move 0 -1 17000/pause 18000/faceDirection farmer 1/showFrame Harvey 33/pause 1000/jump Harvey/showFrame Harvey 30/pause 800/showFrame Harvey 12/animate Harvey false true 100 12 13 14 15/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/stopAnimation Harvey/showFrame Harvey 31/positionOffset Harvey -4 0/playSound fishSlap/eyes 1 -2000/pause 2000/speak Harvey \"We... We're up so high... *gulp*$8\"/shake Harvey 2000/pause 800/speak Harvey \"I'm sorry to cling to you like this... I know that's why you're here, but I feel like a trembling coward.$7\"/emote Harvey 28/pause 500/speak Harvey \"Well, you've got more than enough courage to make up for me, @. That's... that's something I really admire about you.$11\"/pause 1000/speak Harvey \"Okay, I'm going to open my eyes and look down... don't let go of my hand.$8\"/pause 800/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 0/pause 30/positionOffset Harvey 4 0/pause 30/faceDirection farmer 2/showFrame Harvey 0/pause 500/showFrame Harvey 33/pause 500/shake Harvey 4000/pause 500/showFrame Harvey 30/pause 2000/showFrame Harvey 33/pause 3500/speak Harvey \"I... I think I can do it now.$8\"/specificTemporarySprite balloonBirds/faceDirection farmer 2/pause 3000/faceDirection Harvey 1/faceDirection farmer 1/emote farmer 16 true/emote Harvey 16/pause 4000/faceDirection farmer 0/faceDirection Harvey 2/pause 10000/speak Harvey \"Hey, this is incredible! I think I can see Mayor Lewis standing in the town square!$h\"/faceDirection farmer 2/pause 3000/speak Harvey \"Oh dear... our time's almost up.$s\"/pause 600/faceDirection farmer 1/playMusic none/pause 1500/speak Harvey \"The view from up here is as beautiful as I always imagined... \"/playMusic musicboxsong/pause 400/faceDirection Harvey 2/pause 500/faceDirection Harvey 3/speak Harvey \"@... You don't know what this means to me. Flying, even as a passenger, was a dream I'd given up on long ago...#$b#...but thanks to you, I finally got to experience it. I'll never forget this.$l\"/specificTemporarySprite balloonBirds 2/pause 1000/showFrame Harvey 31/pause 500/showFrame 101/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 -2/pause 30/positionOffset Harvey -1 -2/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/pause 4000/globalFade/viewport -1000 -1000/pause 3500/speak Harvey \"A perfect landing! It's good to be on solid ground.$h#$b#Thanks again, @. This was a good start for me... and it should get a little easier every time.\"/pause 2000/end dialogue Harvey \"I haven't had such a wonderful day for as long as I can remember.$l\"",
+                "528052/f Harvey 2500/t 900 1700/n harveyBalloon": "playful/26 38/Harvey 24 41 0 farmer 24 50 0/skippable/move farmer 0 -8 0/faceDirection Harvey 2/speak Harvey \"อยู่นี่เอง... ทันเวลาพอดี!\"/faceDirection Harvey 0/jump Harvey/pause 800/speak Harvey \"Look, here it comes!$8\"/emote farmer 8/move Harvey -1 0 1/move farmer -2 0 0/move farmer 0 -1 1/addTemporaryActor Marcello 16 32 25 19 2 true/positionOffset Marcello 36 558/animate Marcello false true 400 16 17/specificTemporarySprite marcelloLand/null/pause 1000/stopAnimation Marcello/pause 500/message \"Marcello's Balloon Rentals at your service!\"/pause 1000/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/jump Marcello 12/move Marcello 0 3 3/move Marcello -2 0 0/faceDirection Harvey 2/faceDirection farmer 2/message \"Marcello: It's all yours for two hours.\"/faceDirection Marcello 3/faceDirection Marcello 2/message \"Marcello: Now... I was told there's a saloon somewhere around here?\"/move Marcello 0 9 1/warp Marcello -100 -100/faceDirection farmer 1/faceDirection Harvey 3/pause 500/speak Harvey \"I saw an ad in the paper for these balloon rides, and I realized this could be the perfect exposure therapy for my fear of heights.#$b#But I need a friend with me for moral support... and to land the balloon if I panic.$s#$b#If you're willing, I'd like that friend to be you. There's no one I trust more.$l\"/pause 800/emote farmer 32/pause 500/speak Harvey \"Okay... you first.\"/pause 400/move farmer 0 1 1/faceDirection Harvey 1/move farmer 3 0 0/move farmer 0 -1 0/jump farmer 14/move farmer 0 -1 2/move Harvey 0 1 1/move Harvey 3 0 0/move Harvey 0 -1 0/jump Harvey 14/move Harvey 0 -1 2/pause 1000/showFrame Harvey 29/pause 300/playSound openBox/pause 300/showFrame Harvey 0/pause 400/playSound furnace/playMusic none/cutscene balloonDepart/viewport move 0 -1 6000/pause 2000/showFrame Harvey 30/jump Harvey 5/shake Harvey 7000/pause 7000/globalFade/viewport -2000 -2000/playMusic 50s/pause 2000/cutscene clearTempSprites/changeToTemporaryMap HarveyBalloon/cutscene balloonChangeMap/viewport -2000 -2000/warp farmer 22 36/warp Harvey 22 36/positionOffset farmer 24 570/positionOffset Harvey 96 554/positionOffset farmer -8 -8/positionOffset Harvey -24 -8/showFrame Harvey 32/pause 1000/shake Harvey 19000/viewport 23 39 clamp true/viewport move 0 -1 17000/pause 18000/faceDirection farmer 1/showFrame Harvey 33/pause 1000/jump Harvey/showFrame Harvey 30/pause 800/showFrame Harvey 12/animate Harvey false true 100 12 13 14 15/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/stopAnimation Harvey/showFrame Harvey 31/positionOffset Harvey -4 0/playSound fishSlap/eyes 1 -2000/pause 2000/speak Harvey \"We... We're up so high... *gulp*$8\"/shake Harvey 2000/pause 800/speak Harvey \"I'm sorry to cling to you like this... I know that's why you're here, but I feel like a trembling coward.$7\"/emote Harvey 28/pause 500/speak Harvey \"Well, you've got more than enough courage to make up for me, @. That's... that's something I really admire about you.$11\"/pause 1000/speak Harvey \"Okay, I'm going to open my eyes and look down... don't let go of my hand.$8\"/pause 800/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 0/pause 30/positionOffset Harvey 4 0/pause 30/faceDirection farmer 2/showFrame Harvey 0/pause 500/showFrame Harvey 33/pause 500/shake Harvey 4000/pause 500/showFrame Harvey 30/pause 2000/showFrame Harvey 33/pause 3500/speak Harvey \"I... I think I can do it now.$8\"/specificTemporarySprite balloonBirds/faceDirection farmer 2/pause 3000/faceDirection Harvey 1/faceDirection farmer 1/emote farmer 16 true/emote Harvey 16/pause 4000/faceDirection farmer 0/faceDirection Harvey 2/pause 10000/speak Harvey \"Hey, this is incredible! I think I can see Mayor Lewis standing in the town square!$h\"/faceDirection farmer 2/pause 3000/speak Harvey \"Oh dear... our time's almost up.$s\"/pause 600/faceDirection farmer 1/playMusic none/pause 1500/speak Harvey \"The view from up here is as beautiful as I always imagined... \"/playMusic musicboxsong/pause 400/faceDirection Harvey 2/pause 500/faceDirection Harvey 3/speak Harvey \"@... You don't know what this means to me. Flying, even as a passenger, was a dream I'd given up on long ago...#$b#...but thanks to you, I finally got to experience it. I'll never forget this.$l\"/specificTemporarySprite balloonBirds 2/pause 1000/showFrame Harvey 31/pause 500/showFrame 101/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 -2/pause 30/positionOffset Harvey -1 -2/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/pause 4000/globalFade/viewport -1000 -1000/pause 3500/speak Harvey \"A perfect landing! It's good to be on solid ground.$h#$b#Thanks again, @. This was a good start for me... and it should get a little easier every time.\"/pause 2000/end dialogue Harvey \"I haven't had such a wonderful day for as long as I can remember.$l\"",
                 "afraid": null,
             },
             "When":
