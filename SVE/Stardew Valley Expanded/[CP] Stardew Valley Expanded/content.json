@@ -25769,7 +25769,7 @@
     "Target": "data/events/forest",
 	"When": { "SkillLevel:Fishing": "8, 9, 10" },
     "Entries": {
-    "1054933/z winter/z fall/w sunny/t 600 1600": "continue/-500 -500/farmer 19 61 2 Willy 19 80 0 Andy 46 70 0 Marnie 55 21 2 Wizard 10 24 0/viewport 19 61 clamp true/viewport move 0 2 4000 true/skippable/move farmer 0 8 2 true/move Willy 0 -8 0 true/pause 3000/speak Willy \"อะห้อย @!$1\"/pause 400/emote farmer 32/speak Willy \"ฉันพึ่งจะกลับมาจากทริป ตกปลาที่ป่าซินเดอร์แซป$1#$b#แม่น้ำที่นั่น จะมีแซลมอนจักรพรรดิ์ (King Salmon) ในช่วงนี้ของปีน่ะนะ$0#$b#ลองดูความงดงามนี่สิ!$1\"/pause 500/faceDirection Willy 3 true/pause 400/showFrame Willy 13 true/shake Willy 400/pause 100/addObject 18 71 {{spacechase0.JsonAssets/ObjectId:King Salmon}}/playSound fishSlap/pause 300/showFrame Willy 12 true/pause 200/emote farmer 16 true/pause 250/faceDirection Willy 0 true/pause 500/move farmer 0 1 3/move farmer -1 0 2/pause 500/speak Willy \"เธอดูยั่วยวนน่าจับซะจริง!$0#$b#เธอสามารถทำเงินได้ดี ในตลาดเลยด้วย!$1\"/pause 500/faceDirection Willy 3 true/pause 300/showFrame Willy 13 true/shake Willy 400/pause 100/removeSprite 19 71/playSound fishSlap/pause 300/showFrame Willy 12 true/pause 400/faceDirection Willy 0 true/pause 350/speak Willy \"หากเธอเข้าถึง จิตวิญญาณ แห่งการตกปลาแล้ว ลองไปจับเจ้าพวก ตัวที่แสนงดงามแบบนี้ดูสิ!$1\"/pause 400/end dialogue Willy \"อะห้อย @ จับแซลมอนจักรพรรดิ์ ได้บ้างรึยังล่ะ Did you catch any king salmons?$0\""
+    "1054933/z winter/z fall/w sunny/t 600 1600": "continue/-500 -500/farmer 19 61 2 Willy 19 80 0 Andy 46 70 0 Marnie 55 21 2 Wizard 10 24 0/viewport 19 61 clamp true/viewport move 0 2 4000 true/skippable/move farmer 0 8 2 true/move Willy 0 -8 0 true/pause 3000/speak Willy \"อะห้อย @!$1\"/pause 400/emote farmer 32/speak Willy \"ฉันพึ่งจะกลับมาจากทริป ตกปลาที่ป่าซินเดอร์แซป$1#$b#แม่น้ำที่นั่น จะมีแซลมอนจักรพรรดิ์ (King Salmon) ในช่วงนี้ของปีน่ะนะ$0#$b#ลองดูความงดงามนี่สิ!$1\"/pause 500/faceDirection Willy 3 true/pause 400/showFrame Willy 13 true/shake Willy 400/pause 100/addObject 18 71 {{spacechase0.JsonAssets/ObjectId:King Salmon}}/playSound fishSlap/pause 300/showFrame Willy 12 true/pause 200/emote farmer 16 true/pause 250/faceDirection Willy 0 true/pause 500/move farmer 0 1 3/move farmer -1 0 2/pause 500/speak Willy \"เธอดูยั่วยวนน่าจับซะจริง!$0#$b#เธอสามารถทำเงินได้ดี ในตลาดเลยด้วย!$1\"/pause 500/faceDirection Willy 3 true/pause 300/showFrame Willy 13 true/shake Willy 400/pause 100/removeSprite 19 71/playSound fishSlap/pause 300/showFrame Willy 12 true/pause 400/faceDirection Willy 0 true/pause 350/speak Willy \"หากเธอเข้าถึง จิตวิญญาณ แห่งการตกปลาแล้ว ลองไปจับเจ้าพวก ตัวที่แสนงดงามแบบนี้ดูสิ!$1\"/pause 400/end dialogue Willy \"อะห้อย @ จับแซลมอนจักรพรรดิ์ ได้บ้างรึยังล่ะ?$0\""
     },
 },
 
@@ -25787,7 +25787,7 @@
 	 "Action": "EditData",
 	 "Target": "data/events/Custom_ForestWest",
 	 "Entries": {
-     "1091882/e 418172/e 1091881/k 1111200": "none/-500 -500/farmer -100 -100 2/viewport 119 103 true/viewport move -1 -1 8000 true/pause 2500/playSound junimoMeep1/pause 1000/playSound junimoMeep1/pause 700/playSound junimoMeep1/pause 600/playSound junimoMeep1/pause 700/playSound junimoMeep1/globalFade/viewport -1000 -1000/pause 1000/message \"I sense a hidden pathway has opened...\"/pause 1300/playSound grassyStep/playSound grassyStep/pause 500/playSound grassyStep/playSound grassyStep/pause 500/playSound grassyStep/playSound grassyStep/pause 800/message \"Huh? What's this?...\"/pause 1000/end position 140 139",
+     "1091882/e 418172/e 1091881/k 1111200": "none/-500 -500/farmer -100 -100 2/viewport 119 103 true/viewport move -1 -1 8000 true/pause 2500/playSound junimoMeep1/pause 1000/playSound junimoMeep1/pause 700/playSound junimoMeep1/pause 600/playSound junimoMeep1/pause 700/playSound junimoMeep1/globalFade/viewport -1000 -1000/pause 1000/message \"ฉันรู้สึกได้ว่า เส้นทางลับถูกเปิดออกแล้ว...\"/pause 1300/playSound grassyStep/playSound grassyStep/pause 500/playSound grassyStep/playSound grassyStep/pause 500/playSound grassyStep/playSound grassyStep/pause 800/message \"ฮ้ะ? นี่มันอะไรกันเนี่ย?...\"/pause 1000/end position 140 139",
 	 },
 },
 
@@ -25795,7 +25795,7 @@
 	 "Action": "EditData",
 	 "Target": "data/events/Custom_ForestWest",
 	 "Entries": {
-     "1091882/H/e 418172/e 1091881/e 908072/e 908073/e 908074/e 908075/e 908077/k 908076": "none/-500 -500/farmer -100 -100 2/viewport 119 103 true/viewport move -1 -1 8000 true/pause 2500/playSound junimoMeep1/pause 1000/playSound junimoMeep1/pause 700/playSound junimoMeep1/pause 600/playSound junimoMeep1/pause 700/playSound junimoMeep1/globalFade/viewport -1000 -1000/pause 1000/message \"I sense a hidden pathway has opened...\"/pause 1300/playSound grassyStep/playSound grassyStep/pause 500/playSound grassyStep/playSound grassyStep/pause 500/playSound grassyStep/playSound grassyStep/pause 800/message \"The path leads here...\"/pause 1000/end position 154 140",
+     "1091882/H/e 418172/e 1091881/e 908072/e 908073/e 908074/e 908075/e 908077/k 908076": "none/-500 -500/farmer -100 -100 2/viewport 119 103 true/viewport move -1 -1 8000 true/pause 2500/playSound junimoMeep1/pause 1000/playSound junimoMeep1/pause 700/playSound junimoMeep1/pause 600/playSound junimoMeep1/pause 700/playSound junimoMeep1/globalFade/viewport -1000 -1000/pause 1000/message \"ฉันรู้สึกได้ว่า เส้นทางลับถูกเปิดออกแล้ว...\"/pause 1300/playSound grassyStep/playSound grassyStep/pause 500/playSound grassyStep/playSound grassyStep/pause 500/playSound grassyStep/playSound grassyStep/pause 800/message \"เส้นทางนำมาสู่ที่นี้...\"/pause 1000/end position 154 140",
 	 },
 },
 
@@ -25836,7 +25836,7 @@
 	 "Action": "EditData",
 	 "Target": "data/events/Custom_ForestWest",
 	 "Entries": {
-     "1091881/e 418172": "none/-500 -500/farmer -100 -100 2/viewport 119 103 true/viewport move -1 -1 8000 true/pause 2500/playSound junimoMeep1/pause 1000/playSound junimoMeep1/pause 700/playSound junimoMeep1/pause 600/playSound junimoMeep1/pause 700/playSound junimoMeep1/globalFade/viewport -1000 -1000/pause 1000/message \"คุณรู้สึกได้ว่า เส้นทางที่ซ่อนอยู่ ได้เปิดออก...\"/pause 1300/playSound grassyStep/playSound grassyStep/pause 500/playSound grassyStep/playSound grassyStep/pause 500/playSound grassyStep/playSound grassyStep/pause 800/message \"Huh? What's this?...\"/pause 1000/end position 140 139",
+     "1091881/e 418172": "none/-500 -500/farmer -100 -100 2/viewport 119 103 true/viewport move -1 -1 8000 true/pause 2500/playSound junimoMeep1/pause 1000/playSound junimoMeep1/pause 700/playSound junimoMeep1/pause 600/playSound junimoMeep1/pause 700/playSound junimoMeep1/globalFade/viewport -1000 -1000/pause 1000/message \"คุณรู้สึกได้ว่า เส้นทางที่ซ่อนอยู่ ได้เปิดออก...\"/pause 1300/playSound grassyStep/playSound grassyStep/pause 500/playSound grassyStep/playSound grassyStep/pause 500/playSound grassyStep/playSound grassyStep/pause 800/message \"ฮ้ะ? นี่มันอะไรกันเนี่ย?...\"/pause 1000/end position 140 139",
 	 },
 },
 
