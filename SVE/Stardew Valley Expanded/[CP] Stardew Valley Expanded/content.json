@@ -25900,7 +25900,7 @@
 {
 	 "Action": "EditData",
 	 "Target": "Characters/Dialogue/Jas",
-	 "Entries": { "leoChickens": "Leo isn't as much of a weirdo as I thought he was!$0" }
+	 "Entries": { "leoChickens": "ลีโอก็ไม่ได้ คนประหลาด เท่าที่หนูคิด!$0" }
 },
 {
 	 "Action": "EditData",
@@ -25915,12 +25915,12 @@
 {
 	 "Action": "EditData",
 	 "Target": "Characters/Dialogue/Morgan",
-	 "Entries": { "leoChickens": "...*grumble* I can do other things besides magic, you know...$4#$e#Oh! Sorry, @. I was just... talking to myself.$5" }
+	 "Entries": { "leoChickens": "...*พึมพำ* ข้าก็สามารถทำอย่างอื่น นอกจากใช้เวทมนตร์ ได้เหมือนกันนะ รู้ป่ะ...$4#$e#โอ้! ขอโทษ @ เราแค่... คุยกับตัวเองน่ะ$5" }
 },
 {
 	 "Action": "EditData",
 	 "Target": "Characters/Dialogue/Marnie",
-	 "Entries": { "leoChickens": "I don't know Leo very well, but he seems to really love animals. That gets him lots of points with me!$0" }
+	 "Entries": { "leoChickens": "ฉันไม่รู้จักลีโอมากนักหรอก แต่ดูเหมือนว่า เขาจะชอบสัตว์นะ นั้นทำให้เขา ได้คะแนนจากฉันเยอะเลย!$0" }
 },
 
 
