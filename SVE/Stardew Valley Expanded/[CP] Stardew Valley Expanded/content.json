@@ -1282,7 +1282,7 @@
 {  //Iridium Quality Grape Juice
    "Action": "EditData",
    "Target": "data/events/Custom_AuroraVineyard",
-   "When": { "HasSeenEvent": "7775927" },
+   "When": { "HasSeenEvent": "7775927, 7776002" },
    "Entries": {
    "908075/e 908072": "continue/-500 -500/farmer 14 22 0 Apples 14 17 2/pause 1000/showFrame Apples 32 true/viewport 14 19 true/skippable/move farmer 0 -2 0/pause 1350/shake Apples 400/pause 800/shake Apples 400/pause 400/showFrame Apples 0 true/jump Apples/pause 200/playSound junimoMeep1/pause 500/playSound junimoMeep1/speak Apples \"Apples-friend here! Yay!$1\"/pause 1000/playSound junimoMeep1/pause 500/playSound junimoMeep1/pause 300/jump Apples/pause 600/playSound junimoMeep1/pause 400/playSound junimoMeep1/speak Apples \"Apples want friend to visit more too! Apples can help with magic!$0\"/pause 500/move Apples 0 1 2/pause 500/playSound junimoMeep1/pause 300/playSound junimoMeep1/speak Apples \"Follow Apples!$1\"/pause 500/faceDirection Apples 1 true/pause 400/speed Apples 5/move Apples 7 0 2/speed Apples 5/move Apples 0 3 2/warp Apples -20 -20/playSound stairsdown/pause 200/move farmer 0 -2 1/pause 600/emote farmer 40/pause 600/move farmer 7 0 2 true/pause 300/globalFade/viewport -1000 -1000/changeLocation Custom_ApplesRoom/halt/warp Apples 9 12/faceDirection Apples 2 true/warp farmer 9 11/faceDirection farmer 2 true/positionOffset farmer 0 -10/positionOffset Apples 0 -5/viewport 9 9 true/pause 1500/playSound Ship/pause 800/jump Apples/playSound Ship/pause 1000/faceDirection Apples 1 true/pause 250/faceDirection Apples 0 true/pause 500/playSound junimoMeep1/shake Apples 500/pause 400/playSound junimoMeep1/speak Apples \"Old grape juice! Use!$1\"/pause 750/shake Apples 500/playSound pickUpItem/pause 1250/showFrame farmer 57 true/itemAboveHead joja/pause 3300/faceDirection farmer 2 true/pause 700/faceDirection farmer 2 true/pause 500/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 400/playSound junimoMeep1/speak Apples \"Make warp! Make warp!$0\"/pause 500/globalFade/viewport -1000 -1000/stopMusic/pause 1250/warp Apples 4 9/faceDirection Apples 3 true/warp farmer 2 8/faceDirection farmer 2 true/viewport 9 9 true/pause 2000/showFrame farmer 1 true/pause 125/startJittering/addTemporaryActor AuroraVineyardWineBottleObject 16 16 2 9 2 false/playSound stoneStep/pause 400/stopJittering/showFrame farmer 0/pause 1135/showFrame farmer 3 true/pause 950/screenFlash 2/playSound wand/playSound wand/addTemporaryActor MagicWarp 48 48 1 10 2 false/warp AuroraVineyardWineBottleObject -20 -20/positionOffset MagicWarp 2 -7/addLantern 1000 2 9 1/pause 700/faceDirection farmer 2 true/playSound secret1/pause 2000/shake Apples 1000/pause 400/faceDirection farmer 1 true/pause 300/playMusic ragtime/pause 200/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 400/jump Apples/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 500/playSound junimoMeep1/speak Apples \"Yay! Shiny!$1#$b#*meep*!!!$0\"/pause 1000/faceDirection Apples 2 true/pause 250/animate Apples false true 200 20 21 22 23/pause 1500/faceDirection farmer 2 true/pause 500/animate farmer false true 350 102 103/pause 2250/globalFade/viewport -1000 -1000/pause 500/stopMusic/pause 1000/end dialogue Apples \"Apples-friend visit more now!$0\""
    }
@@ -5290,14 +5290,6 @@
      "FromFile": "Assets/Maps/GrandpasShed/GrandpasShedFixed2.tbin",
 	 "When": { "GrandpaShedComplete": true },
      "ToArea": { "X": 16, "Y": 6, "Width": 12, "Height": 12 }
-},
-{    //Refurbished Shed (IF2R)
-     "Action": "EditMap",
-     "Target": "Maps/Farm",
-     "FromFile": "Assets/Maps/GrandpasShed/FarmShedFixed.tbin",
-	 "When": { "GrandpaShedComplete": true, "HasMod": "flashshifter.immersivefarm2remastered", "FarmType":"Standard", "HasSeenEvent |Contains=2554908": false },
-     "ToArea": { "X": 138, "Y": 23, "Width": 12, "Height": 12 },
-	 "Update": "OnLocationChange"
 },
 
 //Grandpa's Farm Patch found in content json >>> quest continued (3 more parts)
@@ -12867,7 +12859,7 @@
       "Action": "EditData",
       "Target": "Data/Events/Custom_SophiaHouse",
       "Entries": {
-      "8185294/e 8185293": "continue/-500 -500/farmer 11 15 3 Sophia 8 9 2/animate Sophia false true 500 33 34/pause 1500/playMusic cm:Lament/pause 500/viewport 10 14 true/skippable/move farmer -3 0 3 true/pause 1800/textAboveHead Sophia \"*สูดน้ำมูก*...\"/pause 700/faceDirection farmer 2/pause 1300/showFrame farmer 96/pause 1200/textAboveHead Sophia \"*สูดน้ำมูก*...\"/pause 1800/question fork0 \"#เคาะประตู#เปิดประตู\"/fork 8185294_KnockOnDoor/pause 1000/showFrame farmer 0/pause 600/faceDirection farmer 3 true/pause 400/move farmer -2 0 3/pause 200/faceDirection farmer 0/pause 500/showFrame farmer 15 true/pause 500/doAction 7 14/pause 500/showFrame farmer 12 true/pause 300/stopAnimation Sophia/pause 300/showFrame Sophia 29/emote Sophia 16 true/jump Sophia/pause 300/viewport move 0 -1 3500 true/move farmer 0 -4 0 true/pause 1200/speak Sophia \"อะ-อะไรน่ะ!?$11\"/pause 400/faceDirection Sophia 1 true/pause 300/speed Sophia 3/move Sophia 0 -2 0/pause 200/shake Sophia 5000/pause 500/speak Sophia \"ม-ไม่นะ! อย่ามองฉันนะ!$12#$b#ออกไปนะ!!!$7\"/pause 400/emote farmer 60/pause 200/friendship Sophia -100/pause 200/move farmer 0 0 1/pause 200/move farmer 0 0 2/pause 400/speed farmer 1/move farmer 0 5 2 true/globalFade/viewport -1000 -1000 true/switchEvent 8185294_Wait",
+      "8185294/e 8185293": "continue/-500 -500/farmer 11 15 3 Sophia 8 9 2/animate Sophia false true 500 33 34/pause 1500/playMusic cm:Lament/pause 500/viewport 10 14 true/skippable/move farmer -3 0 3 true/pause 1800/textAboveHead Sophia \"*สูดน้ำมูก*...\"/pause 700/faceDirection farmer 2/pause 1300/showFrame farmer 96/pause 1200/textAboveHead Sophia \"*สูดน้ำมูก*...\"/pause 1800/question fork0 \"#เคาะประตู#เปิดประตู\"/fork 8185294_KnockOnDoor/pause 1000/showFrame farmer 0/pause 600/faceDirection farmer 3 true/pause 400/move farmer -1 0 3/pause 200/faceDirection farmer 0/pause 500/showFrame farmer 15 true/pause 500/doAction 7 14/pause 500/showFrame farmer 12 true/pause 300/stopAnimation Sophia/pause 300/showFrame Sophia 29/emote Sophia 16 true/jump Sophia/pause 300/viewport move 0 -1 3500 true/move farmer 0 -4 0 true/pause 1200/speak Sophia \"อะ-อะไรน่ะ!?$11\"/pause 400/faceDirection Sophia 1 true/pause 300/faceDirection Sophia 0 true/pause 300/speed Sophia 3/move Sophia 0 -2 0/pause 200/shake Sophia 5000/pause 500/speak Sophia \"ม-ไม่นะ! อย่ามองฉันนะ!$12#$b#ออกไปนะ!!!$7\"/pause 400/emote farmer 60/pause 200/friendship Sophia -100/pause 200/move farmer 0 0 1/pause 200/move farmer 0 0 2/pause 400/speed farmer 1/move farmer 0 5 2 true/globalFade/viewport -1000 -1000 true/switchEvent 8185294_Wait",
 
       "8185294_KnockOnDoor": "pause 800/showFrame farmer 0/pause 600/faceDirection farmer 3 true/pause 350/move farmer -2 0 3/pause 300/faceDirection farmer 0/pause 500/showFrame farmer 15 true/pause 500/playSound stoneStep/playSound stoneStep/pause 500/playSound stoneStep/playSound stoneStep/pause 400/playSound stoneStep/playSound stoneStep/pause 300/showFrame farmer 12 true/pause 300/stopAnimation Sophia/pause 300/emote Sophia 16/pause 700/showFrame Sophia 32/pause 1000/speak Sophia \"*สูดน้ำมูก* ใครอยู่ตรงนั้นน่ะ?$12\"/pause 700/emote farmer 40/pause 800/speak Sophia \"อ- โอ้ @? อืม$6#$b#อืม...$12\"/pause 1000/shake Sophia 700/pause 1200/speak Sophia \"ต-ตอนนี้ไม่ใช่ เวลาที่ดีซักเท่าไหร่$12#$b#ช-ช่วยออกไปก่อน ได้ไหม...$13\"/pause 800/emote farmer 28/pause 500/faceDirection farmer 1/pause 400/speed farmer 1/move farmer 5 0 1 true/globalFade/viewport -1000 -1000 true/switchEvent 8185294_Wait2",
 
@@ -12899,7 +12891,7 @@
       "Target": "Data/Events/Custom_BlueMoonVineyard",
 	  "When": { "HasSeenEvent": "8185297" },
       "Entries": {
-      "8185298": "none/-500 -500/Sophia 24 32 0 farmer 28 38 0/pause 500/playMusic jaunty/viewport 28 36 clamp true/viewport move 0 -1 3000/skippable/move farmer 0 -6 3/pause 500/faceDirection Sophia 1 true/pause 500/jump Sophia/pause 900/speak Sophia \"เย่! คุณมาแล้ว!$9\"/pause 600/move Sophia 2 0 1/pause 500/speak Sophia \"เริ่มงานกันเลย! และฉันก็เตรียมขนมของเราไว้ หลังจากเสร็จงานด้วย$1\"/pause 500/emote farmer 32/pause 300/faceDirection farmer 0 true/pause 550/warp farmer -40 -40/playSound doorClose/pause 300/move Sophia 2 0 0/pause 400/warp Sophia -30 -30/playSound doorClose/pause 1000/globalFade/viewport -1000 -1000/changeLocation Custom_SophiaHouse/pause 1000/playSound Ship/pause 600/playSound Ship/pause 500/playSound Ship/pause 400/playSound Ship/pause 650/playSound money/pause 800/message \"โซเฟียและฉัน ทำความสะอาด และจัดระเบียบ ห้องของพ่อแม่โซเฟีย มันเป็นงานที่กินเวลา หลายชั่วโมงเลยทีเดียว!\"/pause 1000/warp Sophia 10 6/warp farmer 7 9/faceDirection farmer 3 true/faceDirection Sophia 0 true/pause 200/viewport 11 16 true/viewport move 0 -1 7000 true/pause 4000/speed Sophia 1/move Sophia 0 2 3/pause 500/speak Sophia \"ฉ-ฉันคิดว่าเราทำเสร็จ หมดทุกอย่างแล้วนะ$1\"/pause 500/faceDirection farmer 1 true/pause 700/move farmer 0 -1 1/move farmer 1 0 1/pause 700/speak Sophia \"อืม ขอบใจที่มาช่วยฉันนะ$1#$b#ฉันไม่รู้ว่าจะบอกกับคุณยังไง ว่าสิ่งนี้มันมีค่ากับฉันแค่ไหน!$9\"/pause 500/emote farmer 32/pause 500/speak Sophia \"นี่! ฉันจะส่งอะไรบางอย่าง ที่พิเศษมากๆ ไปที่กล่องจดหมายของคุณ ในวันพรุ่งนี้นะ$1#$b#ขอบคุณอีกครั้งนะ!$9\"/pause 500/showFrame Sophia 0/pause 300/showFrame Sophia 39/pause 100/jump Sophia/pause 700/textAboveHead Sophia \"เย่!!!\"/pause 300/faceDirection farmer 2 true/pause 100/animate farmer false true 200 103 102/pause 1400/globalFade/viewport -1000 -1000/pause 1000/end dialogue Sophia \"ฉันซาบซึ้งที่ คุณช่วยฉันจัดระเบียบ ห้องของพ่อกับแม่จริงๆ นะ$9#$b#มันดูเหมือน เมื่อก่อนเด๊ะเลย$1#$e#อืม... ถ้าฉันกอดคุณ คุณจะว่าอะไรรึเปล่า?$2#$e#%คุณกอดโซเฟีย#$e#!!!$9\"",
+      "8185298": "none/-500 -500/Sophia 24 32 0 farmer 28 38 0/pause 500/playMusic jaunty/viewport 28 36 clamp true/viewport move 0 -1 3000/mail SophiaThankYouLetter/skippable/move farmer 0 -6 3/pause 500/faceDirection Sophia 1 true/pause 500/jump Sophia/pause 900/speak Sophia \"เย่! คุณมาแล้ว!$9\"/pause 600/move Sophia 2 0 1/pause 500/speak Sophia \"เริ่มงานกันเลย! และฉันก็เตรียมขนมของเราไว้ หลังจากเสร็จงานด้วย$1\"/pause 500/emote farmer 32/pause 300/faceDirection farmer 0 true/pause 550/warp farmer -40 -40/playSound doorClose/pause 300/move Sophia 2 0 0/pause 400/warp Sophia -30 -30/playSound doorClose/pause 1000/globalFade/viewport -1000 -1000/changeLocation Custom_SophiaHouse/pause 1000/playSound Ship/pause 600/playSound Ship/pause 500/playSound Ship/pause 400/playSound Ship/pause 650/playSound money/pause 800/message \"โซเฟียและฉัน ทำความสะอาด และจัดระเบียบ ห้องของพ่อแม่โซเฟีย มันเป็นงานที่กินเวลา หลายชั่วโมงเลยทีเดียว!\"/pause 1000/warp Sophia 10 6/warp farmer 7 9/faceDirection farmer 3 true/faceDirection Sophia 0 true/pause 200/viewport 11 16 true/viewport move 0 -1 7000 true/pause 4000/speed Sophia 1/move Sophia 0 2 3/pause 500/speak Sophia \"ฉ-ฉันคิดว่าเราทำเสร็จ หมดทุกอย่างแล้วนะ$1\"/pause 500/faceDirection farmer 1 true/pause 700/move farmer 0 -1 1/move farmer 1 0 1/pause 700/speak Sophia \"อืม ขอบใจที่มาช่วยฉันนะ$1#$b#ฉันไม่รู้ว่าจะบอกกับคุณยังไง ว่าสิ่งนี้มันมีค่ากับฉันแค่ไหน!$9\"/pause 500/emote farmer 32/pause 500/speak Sophia \"นี่! ฉันจะส่งอะไรบางอย่าง ที่พิเศษมากๆ ไปที่กล่องจดหมายของคุณ ในวันพรุ่งนี้นะ$1#$b#ขอบคุณอีกครั้งนะ!$9\"/pause 500/showFrame Sophia 0/pause 300/showFrame Sophia 39/pause 100/jump Sophia/pause 700/textAboveHead Sophia \"เย่!!!\"/pause 300/faceDirection farmer 2 true/pause 100/animate farmer false true 200 103 102/pause 1400/globalFade/viewport -1000 -1000/pause 1000/end dialogue Sophia \"ฉันซาบซึ้งที่ คุณช่วยฉันจัดระเบียบ ห้องของพ่อกับแม่จริงๆ นะ$9#$b#มันดูเหมือน เมื่อก่อนเด๊ะเลย$1#$e#อืม... ถ้าฉันกอดคุณ คุณจะว่าอะไรรึเปล่า?$2#$e#%คุณกอดโซเฟีย#$e#!!!$9\"",
 	  }
     },
 	
@@ -14280,7 +14272,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Wizard",
       "Entries": {
-	  "Mon4": "ที่จริงข้าก็อยากจะเข้าเมือง เพื่อไปซื้อเมล็ดพันธุ์ มาปลูกในสวนของข้า แต่การที่จะต้องเข้าไปยัง ร้านของปิแอร์ ก็ทำให้ข้ากังวลอยู่บ้าง$0#$e#และสิ่งเลวร้ายที่โจจ้าทำ ก็ไม่ควรค่าแก่การจะกล่าวถึง$5",
+	  "Mon4": "ที่จริงข้าก็อยากจะเข้าเมือง เพื่อไปซื้อเมล็ดพันธุ์ มาปลูกในสวนของข้า แต่การที่จะต้องเข้าไปยัง ร้านของปิแอร์ ก็ทำให้ข้ากังวลอยู่บ้าง$0#$e#และสิ่งเลวร้ายที่โจจ้าทำ ก็ไม่ควรค่าแก่การจะกล่าวถึง$3",
       "Mon8": "เจ้าสนิทกับอบิเกลหรือไม่...?$0#$b#ข้าก็หวังว่า ข้าจะหาวิธีเข้าหาเธอ เผื่อจะได้รู้จักเธอมากขึ้น$0#$e#...ข้าว่าเราไม่ควรคุยกันเรื่องนี้ @ ขออภัยที่ข้าเปิดประเด็นขึ้นมา$0",
       "Tue6": "ทำไมข้าถึงเลือก ที่จะมาอยู่ในป่าคนเดียว อย่างนี้น่ะรึ?$0#$b#ส่วนใหญ่เป็นเพราะว่า มันสะดวกกับ การร่ายเวทมนตร์ของข้า และมันก็อยู่ใกล้กับ จุดรวมพลังเวทย์ของป่า แล้วก็ไม่ต้องพูดถึงเรื่อง หม้อปรุงยาของข้า ที่มันมักจะส่งกลิ่นแปลกๆ โชยมา$0#$b#ก็ข้าอาจจะโดนตำหนิได้น่ะสิ",
       "Tue10": "เจ้ารู้หรือไม่ แม้ข้าจะอาศัยอยู่นอกเมือง แต่ข้าก็มีความสุขที่ได้อยู่ ร่วมกับผู้คนในหุบเขานี้$0#$b#แน่นอน กับเจ้าน่ะ มากที่สุด$1",
@@ -14301,7 +14293,7 @@
       "wizard_event1": "อะฮ่า! ก็คงจะจริงของเจ้า แต่จงจำไว้ ถึงแม้เจ้าจะ หมดความสนใจกับพืชไปแล้ว กลิ่นของหม้อต้ม ก็ยังคงติดตัวเจ้าอยู่$0",
       "wizard_event2": "ใช่แล้ว ก็ดูเหมือนว่าจะมี คนสายเขียวในหุบเขาอยู่บ้าง ก็จะเป็นเพราะว่าได้อยู่ใกล้ชิด กับธรรมชาติสินะ  ข้าว่า$0",
 	  "wizard_event3": "ข้าคงจะเชื่อที่เจ้าตอบ แบบสนิทใจไม่ได้หรอกนะ แต่ข้าก็ซึ้งใจ ที่เจ้าพยายามจะถนอมน้ำใจข้า$1",
-	  "wizard_event4": "อ่า งั้นรึ ข้าซาบซึ้งใจ ที่เจ้าตอบอย่างซื่อสัตย์ แล้วก็ไม่เป็นไรเลย ข้าเองก็ไม่อยากให้เจ้า คิดว่าข้าเป็นคน เข้มงวดจนเกินไป$1#$b#ข้าก็รู้ล่ะ ว่าเมื้อกี้ข้าดูเซ่อซ่าจริงๆ $5",
+	  "wizard_event4": "อ่า งั้นรึ ข้าซาบซึ้งใจ ที่เจ้าตอบอย่างซื่อสัตย์ แล้วก็ไม่เป็นไรเลย ข้าเองก็ไม่อยากให้เจ้า คิดว่าข้าเป็นคน เข้มงวดจนเกินไป$1#$b#ข้าก็รู้ล่ะ ว่าเมื้อกี้ข้าดูเซ่อซ่าจริงๆ $3",
       },
     },
 	
@@ -14480,7 +14472,7 @@
 	  "When": { "Date": "Spring 9" },
       "Entries": {
       "funReturn_Wizard": "ข้าคงจะต้องเริ่มคิด เรื่องเวทมนตร์บทใหม่ เพื่อให้เจ้าประทับข้า...ก็ข้าไม่อยากให้เจ้าคิดว่า ฝีมือข้าจะขึ้นสนิมซะแล้ว!$1",
-      "funLeave_Wizard": "อ้า!  เจ้าเห็นข้าตอนที่กำลัง คิดมโนอะไรไปหน่อย ขอโทษที$5#$e#ขอให้เจ้ามีความสุข กับงานในวันนี้นะ$0",
+      "funLeave_Wizard": "อ้า!  เจ้าเห็นข้าตอนที่กำลัง คิดมโนอะไรไปหน่อย ขอโทษที$3#$e#ขอให้เจ้ามีความสุข กับงานในวันนี้นะ$0",
         }
 	},
 	{
@@ -14488,7 +14480,7 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Spring 10" },
       "Entries": {
-      "funReturn_Wizard": "ยัยผู้หญิงบ้าระห่ำคนนั้น... คามิลล่าน่ะ เต็มไปด้วยพรสวรรค์ แต่บ้างครั้งหล่อนก็ช่าง เกรี้ยวกราดซะเหลือเกิน$3",
+      "funReturn_Wizard": "ยัยผู้หญิงบ้าระห่ำคนนั้น... คามิลล่าน่ะ เต็มไปด้วยพรสวรรค์ แต่บ้างครั้งหล่อนก็ช่าง เกรี้ยวกราดซะเหลือเกิน$5",
       "funLeave_Wizard": "ไว้เราไปเดินเล่นบ้างนะ ถือว่าเป็นการเปลี่ยน บรรยากาศบ้าง$1",
         }
 	},
@@ -14618,7 +14610,7 @@
 	  "When": { "Date": "Summer 2" },
       "Entries": {
       "funReturn_Wizard": "หวังว่าวันนี้เจ้าจะมี วันที่แสนงดงามนะ ยอดรัก$1",
-      "funLeave_Wizard": "วันนี้ข้ามีพิธีกรรมเล็กๆ ที่ตั้งใจจะทำที่นี้ หลังจากนี้น่ะนะ$0#$e#ไม่ต้องห่วง ข้าจะไม่ทำรกหรอก$0#$b#คิดว่านะ...$5",
+      "funLeave_Wizard": "วันนี้ข้ามีพิธีกรรมเล็กๆ ที่ตั้งใจจะทำที่นี้ หลังจากนี้น่ะนะ$0#$e#ไม่ต้องห่วง ข้าจะไม่ทำรกหรอก$0#$b#คิดว่านะ...$3",
         }
 	},
 	{
@@ -14716,7 +14708,7 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Summer 18" },
       "Entries": {
-      "funReturn_Wizard": "ข้าถูกคาถาใหม่ ที่กำลังทดลองอยู่ ย้อนกลับใส่ตัวเองน่ะ ข้ารู้สึกแบบ... ไม่ค่อยเป็นตัวเองน่ะ$5#$e#คืนนี้ ถ้าเจ้าตื่นมาแล้ว เจอกบอยู่บนเตียงละก็ ข้ามีถุงเล็กๆ ที่มีผงใส่อยู่ บนโต๊ะ$5#$e#แค่โปรยมันใส่ตัวข้า$5#$e#...$5#$e#%แมกนัสดูไม่ค่อยดีเท่าไหร่...",
+      "funReturn_Wizard": "ข้าถูกคาถาใหม่ ที่กำลังทดลองอยู่ ย้อนกลับใส่ตัวเองน่ะ ข้ารู้สึกแบบ... ไม่ค่อยเป็นตัวเองน่ะ$3#$e#คืนนี้ ถ้าเจ้าตื่นมาแล้ว เจอกบอยู่บนเตียงละก็ ข้ามีถุงเล็กๆ ที่มีผงใส่อยู่ บนโต๊ะ$3#$e#แค่โปรยมันใส่ตัวข้า$3#$e#...$3#$e#%แมกนัสดูไม่ค่อยดีเท่าไหร่...",
       "funLeave_Wizard": "ตอนนี้ข้ากำลังอิ่มเอม กับบทหนึ่งในหนังสือ ที่ข้าอ่านอยู่ตอนนี้ มันถูกเขียนโดยพ่อมดคนนึง ที่อีกฟากของทะเลอัญมณี$0#$e#เอาไว้เราค่อยพูดคุยกัน เรื่องนี้ทีหลัง$1",
         }
 	},
@@ -14725,7 +14717,7 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Summer 22" },
       "Entries": {
-      "funReturn_Wizard": "มีแมวดำ วิ่งตัดหน้าเจ้า ตอนเข้าไปทำธุระบ้างมั้ย? บางคนบอกว่ามันเป็นลางร้าย...$0#$e#ข้ารู้จักแม่มดคนนึง ที่แปลงร่างเป็นแมวดำได้$5",
+      "funReturn_Wizard": "มีแมวดำ วิ่งตัดหน้าเจ้า ตอนเข้าไปทำธุระบ้างมั้ย? บางคนบอกว่ามันเป็นลางร้าย...$0#$e#ข้ารู้จักแม่มดคนนึง ที่แปลงร่างเป็นแมวดำได้$1",
       "funLeave_Wizard": "หวังว่าเจ้าจะมี วันอันแสนอัศจรรย์นะ ยอดรัก$0",
         }
 	},
@@ -14881,7 +14873,7 @@
       "Target": "Characters/Dialogue/MarriageDialogueWizard",
 	  "When": { "Date": "Fall 17" },
       "Entries": {
-      "funReturn_Wizard": "อ้า!  เจ้าเห็นข้าตอนที่กำลัง คิดมโนอะไรไปหน่อย ขอโทษที$5",
+      "funReturn_Wizard": "อ้า!  เจ้าเห็นข้าตอนที่กำลัง คิดมโนอะไรไปหน่อย ขอโทษที$3",
       "funLeave_Wizard": "วันนี้อย่าทำงานหนักเกินไปล่ะ ข้าไม่อยากจะเสกเจ้า ให้ลอยกลับมานักหรอก$0#$e#...แต่ถ้าเกิดเจ้า ดันไปหมดสติที่ไหนเข้า... เพื่อนที่ดีของข้า จะช่วยดูและเจ้าได้$0",
         }
 	},
