@@ -191,17 +191,17 @@
             "Target": "Characters/Dialogue/MarriageDialogueHarvey",
             "Entries":
             {
-                "Indoor_Day_0": "ผมว่าพวกเราทุกคน ต่างก็พยายาม ให้ชีวิตลงตัว กันทั้งนั้นแหละ ให้ความซับซ้อนมันสมดุลย์น่ะ#$e#สำหรับผม การย้ายมาอยู่ที่นี่นี่แหละ ความสมดุลย์นั้น",
-                "Good_2": "ผมอยากคุยกับคุณ ตั้งแต่คุณย้ายมาแล้วล่ะ แอบกลัวหน่อยๆ ด้วย... แต่ผมก็รู้สึกว่า การได้อยู่ในชีวิตคุณ จะทำให้ชีวิตผม ดีขึ้น",
-                "Good_3": "คุณดูแข็งแรงสดใสนะวันนี้! ดีจัง$h",
+                "Indoor_Day_0": "ผมว่าพวกเราทุกคน ต่างก็พยายาม ให้ชีวิตลงตัว กันทั้งนั้นแหละ ให้ความซับซ้อนมันสมดุลน่ะ#$e#สำหรับผม การย้ายมาอยู่ที่นี่นี่แหละ ความสมดุลนั้น",
+                "Good_2": "ผมอยากคุยกับคุณ ตั้งแต่คุณย้ายมาแล้วล่ะ แอบกลัวหน่อยๆ ด้วยครับ... แต่ผมก็รู้สึกว่า การได้อยู่ในชีวิตคุณ จะทำให้ชีวิตผม ดีขึ้น",
+                "Good_3": "คุณดูแข็งแรงสดใสนะวันนี้! ดีจังครับ$h",
                 "Outdoor_2": "ผมอาจไม่ใช่ผู้ชาย ที่ตื่นเต้นที่สุด แต่ผมจะเป็นเพื่อน ที่ซื่อสัตย์ต่อคุณไปทั้งชีวิต.",
-                "TwoKids_3": "ชีวิตผม อุทิศให้คุณและลูกๆ แล้วผมก็มีความสุขกับมันมาก ผมฝันที่จะมี ครอบครัวที่วิเศษมาตลอดเลย$l#$e#รู้มั้ย @... ก่อนเราจะเจอกัน ผมคิดว่าความโสด เป็นสาเหตุที่ผม รู้สึกเหงาและรู้สึก เหมือนมีอะไรขาดหาย$s#$e#แต่ตั้งแต่พวกเราเป็น {{RelationshipLabel}} กัน ผมก็สิ้นสงสัย... สิ่งที่พวกเรามีด้วยกันต่างหาก คือสิ่งที่ผมต้องการ ผมรักคุณมากนะ",
+                "TwoKids_3": "ชีวิตผม อุทิศให้คุณและลูกๆ แล้วผมก็มีความสุขกับมันมาก ผมฝันที่จะมี ครอบครัวที่วิเศษมาตลอดเลย$l#$e#รู้มั้ยครับ @... ก่อนเราจะเจอกัน ผมคิดว่าความโสด เป็นสาเหตุที่ผมรู้สึกเหงาและ รู้สึกเหมือนมีอะไรขาดหาย$s#$e#แต่ตั้งแต่พวกเราเป็น {{RelationshipLabel}} กัน ผมก็สิ้นสงสัย... สิ่งที่พวกเรามีด้วยกันต่างหาก ครับ คือสิ่งที่ผมต้องการ ผมรักคุณมากนะ",
                 "Good_0": "@...ผมยังไม่อยากจะเชื่อเลย ว่าพวกเราเป็น {{RelationshipLabel}} กัน...$h",
                 "funReturn_Harvey": "เป็นวันที่ดีมากเลย ได้อยู่คนเดียวบ้างก็ เป็นการเปลี่ยนบรรยากาศดี วันนี้ของคุณดีหรือเปล่า @?",
                 "Outdoor_3": "@... คุณสำคัญกับผมมากนะ",
                 "Good_1": "คุณช่วยให้ผมพ้นจาก ชีวิตที่โดดเดี่ยว และเติมเต็มความว่างเปล่า ในใจผม ขอบคุณนะ",
-                "Rainy_Day_2": "ผมตื่นแต่เช้าแล้วล่ะ แต่ผมระวังไม่ให้คุณตื่น คุณต้องพักผ่อนนี่นะ!",
-                "spring_23": "ค...คุณจะเต้นรำกับผม ที่งานเทศกาลพรุ่งนี้่ได้่มั้ย?$s#$e#มันน่าอายหน่อยๆ ตลอดเลย$7",
+                "Rainy_Day_2": "ผมตื่นแต่เช้าแล้วล่ะครับ แต่ผมระวังไม่ให้คุณตื่น คุณต้องพักผ่อนนี่นะ!",
+                "spring_23": "ค...คุณจะเต้นรำกับผม ที่งานเทศกาลพรุ่งนี้ได้มั้ย?$s#$e#มันน่าอายหน่อยๆ ตลอดเลย$7",
             },
             "When":
             {
@@ -214,12 +214,12 @@
             "Target": "Characters/Dialogue/MarriageDialogueHarvey",
             "Entries":
             {
-                "Rainy_Night_0": "วันนี้เป็นยังไงบ้าง {{Lowercase:{{TermofEndearment}}}}? ผมกำลังจะล้างจาน แต่อ่าน \"ผ่าตัดเข่าสำหรับผู้สนใจ (Knee Surgery Enthusiast)\" ฉบับล่าสุดเพลินไปหน่อย",
+                "Rainy_Night_0": "วันนี้เป็นยังไงบ้าง {{Lowercase:{{TermofEndearment}}}}? ผมกำลังจะล้างจานครับ แต่อ่าน \"ผ่าตัดเข่าสำหรับผู้สนใจ (Knee Surgery Enthusiast)\" ฉบับล่าสุดเพลินไปหน่อย",
                 "Rainy_Night_2": "คุณดูชื้นๆ นะ {{Lowercase:{{TermofEndearment}}}} ทำไมไม่มานั่งข้างไฟให้อุ่นล่ะ?",
 
-                "summer_1": "ระวังอย่าให้ผิวไหม้นะ {{Lowercase:{{TermofEndearment}}}}! มันอันตรายกับผิวมากเลย$8#$e#ในฐานะหมอ และเพื่อนของคุณนะ ผมถือสุขภาพและความปลอดภัย ของคุณเป็นอันดับหนึ่งนะ!",
-                "fall_1": "อย่าลืม เก็บเกี่ยวพืชที่หลากหลาย ฤดูใบไม้ร่วงนี่นะ {{Lowercase:{{TermofEndearment}}}}#$e#หรือจะปลูกแต่แครนเบอร์รี่ก็ได้... แล้วแต่คุณเลย ผมจะรู้อะไร?",
-                "Rainy_Night_4": "ผมทำอาหารเย็น ที่ดีต่อสุขภาพไว้ให้เราล่ะ ใช้แต่วัตถุดิบสดใหม่ อุมดมด้วยสารอาหาร จากหุบเขาทั้งนั้นเลยล่ะ! [212 214 225 209 200]$h#$e#กินให้อร่อยนะ {{Lowercase:{{TermofEndearment}}}}.",
+                "summer_1": "ระวังอย่าให้ผิวไหม้นะ {{Lowercase:{{TermofEndearment}}}}! มันอันตรายกับผิวมากเลย$8#$e#ในฐานะหมอ และเพื่อนของคุณนะครับ ผมถือสุขภาพและความปลอดภัย ของคุณเป็นอันดับหนึ่งนะ!",
+                "fall_1": "อย่าลืม เก็บเกี่ยวพืชที่หลากหลาย ฤดูใบไม้ร่วงนี่นะครับ {{Lowercase:{{TermofEndearment}}}}#$e#หรือจะปลูกแต่แครนเบอร์รี่ก็ได้... แล้วแต่คุณเลย ผมจะรู้อะไร?",
+                "Rainy_Night_4": "ผมทำอาหารเย็น ที่ดีต่อสุขภาพไว้ให้เราล่ะ ใช้แต่วัตถุดิบสดใหม่ อุมดมด้วยสารอาหาร จากหุบเขาทั้งนั้นเลยครับ! [212 214 225 209 200]$h#$e#กินให้อร่อยนะ {{Lowercase:{{TermofEndearment}}}}.",
             },
             "When":
             {
@@ -233,11 +233,11 @@
             "Target": "Characters/Dialogue/MarriageDialogueHarvey",
             "Entries":
             {
-                "Rainy_Night_0": "วันนี้เป็นยังไงบ้าง {{Lowercase:{{TermofEndearment}}}}? ผมกำลังจะล้างจาน แต่อ่าน \"ผ่าตัดเข่าสำหรับผู้สนใจ (Knee Surgery Enthusiast) \ ฉบับล่าสุดเพลินไปหน่อย",
+                "Rainy_Night_0": "วันนี้เป็นยังไงบ้าง {{Lowercase:{{TermofEndearment}}}}? ผมกำลังจะล้างจานครับ แต่อ่าน \"ผ่าตัดเข่าสำหรับผู้สนใจ (Knee Surgery Enthusiast) \ ฉบับล่าสุดเพลินไปหน่อย",
                 "Rainy_Night_2": "คุณดูชื้นๆ นะ {{Lowercase:{{TermofEndearment}}}} ทำไมไม่มานั่งข้างไฟให้อุ่นล่ะ?",
-                "summer_1": "ระวังอย่าให้ผิวไหม้นะ {{Lowercase:{{TermofEndearment}}}}! มันอันตรายกับผิวมากเลย$8#$e#ในฐานะหมอ และเพื่อนของคุณนะ ผมถือสุขภาพและความปลอดภัย ของคุณเป็นอันดับหนึ่งนะ!",
-                "fall_1": "อย่าลืม เก็บเกี่ยวพืชที่หลากหลาย ฤดูใบไม้ร่วงนี่นะ {{Lowercase:{{TermofEndearment}}}}#$e#หรือจะปลูกแต่แครนเบอร์รี่ก็ได้... แล้วแต่คุณเลย ผมจะรู้อะไร?",
-                "Rainy_Night_4": "ผมทำอาหารเย็น ที่ดีต่อสุขภาพไว้ให้เราล่ะ ใช้แต่วัตถุดิบสดใหม่ อุมดมด้วยสารอาหาร จากหุบเขาทั้งนั้นเลยล่ะ! [212 214 225 209 200]$h#$e#กินให้อร่อยนะ {{TermofEndearment}}.",
+                "summer_1": "ระวังอย่าให้ผิวไหม้นะ {{Lowercase:{{TermofEndearment}}}}! มันอันตรายกับผิวมากเลย$8#$e#ในฐานะหมอ และเพื่อนของคุณนะครับ ผมถือสุขภาพและความปลอดภัย ของคุณเป็นอันดับหนึ่งนะ!",
+                "fall_1": "อย่าลืม เก็บเกี่ยวพืชที่หลากหลาย ฤดูใบไม้ร่วงนี่นะครับ {{Lowercase:{{TermofEndearment}}}}#$e#หรือจะปลูกแต่แครนเบอร์รี่ก็ได้... แล้วแต่คุณเลย ผมจะรู้อะไร?",
+                "Rainy_Night_4": "ผมทำอาหารเย็น ที่ดีต่อสุขภาพไว้ให้เราล่ะ ใช้แต่วัตถุดิบสดใหม่ อุมดมด้วยสารอาหาร จากหุบเขาทั้งนั้นเลยครับ! [212 214 225 209 200]$h#$e#กินให้อร่อยนะ {{TermofEndearment}}.",
             },
             "When":
             {
@@ -250,8 +250,8 @@
             "Target": "Characters/Dialogue/MarriageDialogueHarvey",
             "Entries":
             {
-                "winter_1": "หน้าหนาวอากาศแห้งมากนะ เป็นช่วงที่ผิวของเรา จะถูกรบกวนน่ะ#$e#น้ำมันเห็ดทรัฟเฟิล (Truffle Oil) จะเป็นตัวแก้เรื่องนั้นได้",
-                "Indoor_Night_0": "คุณดูหมดเรี่ยวแรงมากเลย น่าสงสาร ทำไมไม่มานั่งพัก แล้วให้ผมหาอะไรให้ดื่มล่ะ?",
+                "winter_1": "หน้าหนาวอากาศแห้งมากนะ เป็นช่วงที่ผิวของเรา จะถูกรบกวนน่ะ#$e#น้ำมันเห็ดทรัฟเฟิล (Truffle Oil) จะแก้เรื่องนั้นได้ครับ",
+                "Indoor_Night_0": "คุณดูหมดเรี่ยวแรงมากเลย น่าสงสาร ทำไมไม่มานั่งพัก แล้วให้ผมหาอะไร ให้ดื่มล่ะครับ?",
             },
             "When":
             {
@@ -264,10 +264,10 @@
             "Target": "Characters/Dialogue/MarriageDialogue",
             "Entries":
             {
-                "Rainy_Day_Harvey": "ระวังอย่าโดนฝนนะ {{Lowercase:{{TermofEndearment}}}} ไม่อยากให้อุณหภูมิร่างกายต่ำน่ะ",
-                "jobReturn_Harvey": "#$c .5#*เฮ้อ*... ผมเหนื่อยมากเลย...$s#สวัสดี {{Lowercase:{{TermofEndearment}}}} วันนี้เป็นไงบ้าง?#$e#คนไข้ของผมยังแข็งแรงดี เพราะฉะนั้นมันเลยเป็นวันที่ดีน่ะ",
-                "summer_Harvey": "อย่าให้ผิวไหม้ล่ะ @... นั่นน่ะทำร้ายผิว ได้มากเลยนะ",
-                "spouseRoom_Harvey": "#$c .5#ไม่มีการจราจรทางอากาศ หรอกวันนี้ แต่ได้เอาอุปกรณ์ออกมาบ้าง ก็ยังสนุกอยู่ดี#$e#ผมกำลังต่อโมเดลเครื่องบิน อันใหม่น่ะ ที่นี่สบายใจ กว่าที่อพาร์ตเมนท์เก่า ผมเยอะเลย",
+                "Rainy_Day_Harvey": "ระวังอย่าโดนฝนนะ {{Lowercase:{{TermofEndearment}}}} ไม่อยากให้ อุณหภูมิร่างกายต่ำน่ะ",
+                "jobReturn_Harvey": "#$c .5#*เฮ้อ*... ผมเหนื่อยมากเลย...$s#สวัสดี {{Lowercase:{{TermofEndearment}}}} วันนี้เป็นไงบ้างครับ?#$e#คนไข้ของผมยังแข็งแรงดี เพราะฉะนั้นมันเลยเป็นวันที่ดีน่ะ",
+                "summer_Harvey": "อย่าให้ผิวไหม้ล่ะ @... นั่นน่ะทำร้ายผิว ได้มากเลยนะครับ",
+                "spouseRoom_Harvey": "#$c .5#ไม่มีการจราจรทางอากาศ หรอกครับวันนี้ แต่ได้เอาอุปกรณ์ออกมาบ้าง ก็ยังสนุกอยู่ดี#$e#ผมกำลังต่อโมเดล เครื่องบินอันใหม่น่ะ ที่นี่สบายใจ กว่าที่อพาร์ตเมนท์เก่า ผมเยอะเลยครับ",
             },
             "When":
             {
@@ -280,10 +280,10 @@
             "Target": "Characters/Dialogue/MarriageDialogue",
             "Entries":
             {
-                "Rainy_Day_Harvey": "ระวังอย่าโดนฝนนะ {{Lowercase:{{TermofEndearment}}}} ไม่อยากให้อุณหภูมิร่างกายต่ำน่ะ",
-                "jobReturn_Harvey": "#$c .5#*เฮ้อ*... ผมเหนื่อยมากเลย...$s#สวัสดี {{TermofEndearment}} วันนี้เป็นไงบ้าง?#$e#คนไข้ของผมยังแข็งแรงดี เพราะฉะนั้นมันเลยเป็นวันที่ดีน่ะ",
+                "Rainy_Day_Harvey": "ระวังอย่าโดนฝนนะครับ {{Lowercase:{{TermofEndearment}}}} ไม่อยากให้ อุณหภูมิร่างกายต่ำน่ะ",
+                "jobReturn_Harvey": "#$c .5#*เฮ้อ*... ผมเหนื่อยมากเลย...$s#สวัสดี {{TermofEndearment}} วันนี้เป็นไงบ้างครับ?#$e#คนไข้ของผมยังแข็งแรงดี เพราะฉะนั้น มันเลยเป็นวันที่ดีน่ะ",
                 "summer_Harvey": "อย่าให้ผิวไหม้ล่ะ @... นั่นน่ะทำให้ผิว เสียหายมากได้เลยนะ",
-                "spouseRoom_Harvey": "#$c .5#ไม่มีการจราจรทางอากาศ หรอกวันนี้ แต่ได้เอาอุปกรณ์ออกมาบ้าง ก็ยังสนุกอยู่ดี#$e#ผมกำลังต่อโมเดลเครื่องบิน อันใหม่น่ะ ที่นี่สบายใจ กว่าที่อพาร์ตเมนท์เก่า ผมเยอะเลย",
+                "spouseRoom_Harvey": "#$c .5#ไม่มีการจราจรทางอากาศ หรอกวันนี้ แต่ได้เอาอุปกรณ์ออกมาบ้าง ก็ยังสนุกอยู่ดี#$e#ผมกำลังต่อโมเดล เครื่องบินอันใหม่น่ะ ที่นี่สบายใจ กว่าที่อพาร์ตเมนท์เก่า ผมเยอะเลย",
             },
             "When":
             {
@@ -296,7 +296,7 @@
             "Entries":
             {
                 "Indoor_Night_Harvey": "คุณดูเหมือน คืนนี้ต้องพักผ่อนให้เต็มอิ่มเลย#$e#คำสั่งแพทย์นะ... มันดีต่อสมองน่ะ!",
-                "Outdoor_Harvey": "นี่ดีกว่า อุดอู้อยู่ในคลิดนิกทั้งวัน มากเลย#$e#ผมชอบดูคุณทำงานในฟาร์ม คุณตั้งใจทำงานเต็มที่เสียจน มันเป็นเหมือนเครื่องเตือนใจ ถึงความสนุก ในการได้ออกกำลังน่ะ",
+                "Outdoor_Harvey": "นี่ดีกว่า อุดอู้อยู่ในคลินิกทั้งวัน มากเลยครับ#$e#ผมชอบดูคุณทำงานในฟาร์ม คุณตั้งใจทำงานเต็มที่เสียจน มันเป็นเหมือนเครื่องเตือนใจ ถึงความสนุก ในการได้ออกกำลังน่ะ",
             },
             "When":
             {
@@ -308,7 +308,7 @@
             "Target": "Data/Festivals/fall27",
             "Entries":
             {
-                "Harvey_spouse": "สวัสดี @ กำลังหวังว่า คุณจะมาหาเลย!$h",
+                "Harvey_spouse": "สวัสดีครับ @ กำลังหวังว่า คุณจะมาหาเลย!$h",
             },
         },
         {
@@ -336,7 +336,7 @@
             "Target": "Strings/schedules/Harvey",
             "Entries":
             {
-		"marriageJob.000": "ไง {{Lowercase:{{TermofEndearment}}}}มาทำอะไรที่คลินิกล่ะ?#$e#อ้อ แค่อยากมาเจอผมเหรอ ดีจัง$h",
+		"marriageJob.000": "ไงครับ {{Lowercase:{{TermofEndearment}}}}มาทำอะไรที่คลินิกล่ะ?#$e#อ้อ แค่อยากมาเจอผมเหรอ ดีจัง$h",
             },
             "When":
             {
@@ -349,7 +349,7 @@
             "Target": "Strings/schedules/Harvey",
             "Entries":
             {
-		"marriageJob.000": "ไง {{Lowercase:{{TermofEndearment}}}}มาทำอะไรที่คลินิกล่ะ?#$e#อ้อ แค่อยากมาเจอผมเหรอ ดีจัง$h",
+		"marriageJob.000": "ไงครับ {{Lowercase:{{TermofEndearment}}}}มาทำอะไรที่คลินิกล่ะ?#$e#อ้อ แค่อยากมาเจอผมเหรอ ดีจัง$h",
             },
             "When":
             {
@@ -361,7 +361,7 @@
             "Target": "Strings/Characters",
             "Entries":
             {
-                "MovieInvite_Spouse_Harvey": "ตั่๋วหนังเหรอ? อ่า... ตกลง ผมอยากไปดูกับคุณ!$h#$e#มันดีนะที่ได้ทำอะไรแบบนี้ ผมไม่อยากให้ชีวิตในฐานะ {{RelationshipLabel}} ทำให้คุณเบื่อน่ะ!",
+                "MovieInvite_Spouse_Harvey": "ตั่๋วหนังเหรอ? อ่า... ตกลงครับ ผมอยากไปดูกับคุณ!$h#$e#มันดีนะที่ได้ทำอะไรแบบนี้ ผมไม่อยากให้ชีวิตในฐานะ {{RelationshipLabel}} ทำให้คุณเบื่อน่ะ!",
             },
         },
         {
@@ -369,7 +369,7 @@
             "Target": "Data/ExtraDialogue",
             "Entries":
             {
-                "SummitEvent_Dialogue3_Harvey": "เวลาผมอยู่กับคุณ ผมไม่กลัวที่จะตกเขานี่ แล้วกระแทกกับหินคมๆ ด้านล่างด้วยซ้ำ...$l\"/jump Harvey/shake Harvey 1000/pause 1000/speak Harvey \"...$8#$b#...ผมไม่เป็นไร ผมยังกลัวอยู่ มันแค่ก้าวข้ามความกลัวนั่น ง่ายกว่าแต่ก่อนเท่านั้นเอง#$b#และนั่นก็เป็นเพราะคุณ ผม... ผมรักและชื่นชมคุณมากนะ @$l",
+                "SummitEvent_Dialogue3_Harvey": "เวลาผมอยู่กับคุณ ผมไม่กลัวที่จะตกเขานี่ แล้วกระแทกกับหินคมๆ ด้านล่างด้วยซ้ำ...$l\"/jump Harvey/shake Harvey 1000/pause 1000/speak Harvey \"...$8#$b#...ผมไม่เป็นไร ผมยังกลัวอยู่ มันแค่ก้าวข้ามความกลัวนั่น ง่ายกว่าแต่ก่อนเท่านั้นเอง#$b#และนั่นก็เป็นเพราะคุณครับ ผม... ผมรักและชื่นชมคุณมากนะ @$l",
             },
             "When":
             {
@@ -381,7 +381,7 @@
             "Target": "Data/ExtraDialogue",
             "Entries":
             {
-                "SummitEvent_Dialogue3_Harvey": "เวลาผมอยู่กับคุณ ผมไม่กลัวที่จะตกเขานี่ แล้วกระแทกกับหินคมๆ ด้านล่างด้วยซ้...\"/jump Harvey/shake Harvey 1000/pause 1000/speak Harvey \"...$8#$b#...มไม่เป็นไร ผมยังกลัวอยู่ มันแค่ก้าวข้ามความกลัวนั่น ง่ายกว่าแต่ก่อนเท่านั้นเอง#$b#และนั่นก็เป็นเพราะคุณ ผม... ผมรักและชื่นชมคุณมากนะ @",
+                "SummitEvent_Dialogue3_Harvey": "เวลาผมอยู่กับคุณ ผมไม่กลัวที่จะตกเขานี่ แล้วกระแทกกับหินคมๆ ด้านล่างด้วยซ้...\"/jump Harvey/shake Harvey 1000/pause 1000/speak Harvey \"...$8#$b#...ผมไม่เป็นไร ผมยังกลัวอยู่ มันแค่ก้าวข้ามความกลัวนั่น ง่ายกว่าแต่ก่อนเท่านั้นเอง#$b#และนั่นก็เป็นเพราะคุณครับ ผม... ผมรักและชื่นชมคุณมากนะ @",
             },
             "When":
             {
@@ -401,7 +401,7 @@
             "Target": "Data/mail",
             "Entries":
             {
-                "harveyBalloon": "@^ผมอยากให้คุณช่วงอะไรหน่อย มาเจอผมที่ทางรถไฟได้หรือเปล่า? ^   -ฮาร์วีย์[#]คำขอของฮาร์วีย์",
+                "harveyBalloon": "@^ผมอยากให้คุณช่วยอะไรหน่อย มาเจอผมที่ทางรถไฟได้หรือเปล่า? ^   -ฮาร์วีย์[#]คำขอของฮาร์วีย์",
             },
             "When":
             {
@@ -413,7 +413,7 @@
             "Target": "Data/Events/Railroad",
             "Entries":
             {
-                "528052/f Harvey 2500/t 900 1700/n harveyBalloon": "playful/26 38/Harvey 24 41 0 farmer 24 50 0/skippable/move farmer 0 -8 0/faceDirection Harvey 2/speak Harvey \"อยู่นี่เอง... ทันเวลาพอดี!\"/faceDirection Harvey 0/jump Harvey/pause 800/speak Harvey \"ดูสิ มันมาแล้ว!$8\"/emote farmer 8/move Harvey -1 0 1/move farmer -2 0 0/move farmer 0 -1 1/addTemporaryActor Marcello 16 32 25 19 2 true/positionOffset Marcello 36 558/animate Marcello false true 400 16 17/specificTemporarySprite marcelloLand/null/pause 1000/stopAnimation Marcello/pause 500/message \"บัลลูนให้เช่าของมาร์เซลโล่ พร้อมให้บริการ!\"/pause 1000/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/jump Marcello 12/move Marcello 0 3 3/move Marcello -2 0 0/faceDirection Harvey 2/faceDirection farmer 2/message \"มาร์เซลโล่:  มันเป็นของพวกคุณ ตลอดสองชั่วโมงเลยครับ\"/faceDirection Marcello 3/faceDirection Marcello 2/message \"มาร์เซลโล่: เอาล่ะ... ผมรู้มาว่า มีซาลูนแถวๆ นี้สินะครับ?\"/move Marcello 0 9 1/warp Marcello -100 -100/faceDirection farmer 1/faceDirection Harvey 3/pause 500/speak Harvey \"ผมเห็นโฆษณานั่งบัลลูนนี่ ในหนังสือพิมพ์น่ะ และผมก็ตระหนักว่า นี่จะเป็น การบำบัดความกลัว ด้วยการเผชิญหน้า ที่สมบูรณ์แบบสำหรับ ความกลัวความสูงของผมน่ะ#$b#แต่ผมต้องการมีเพื่อน มาเป็นกำลังใจ... และช่วยเอาบัลลูนลงจอด ถ้าผมสติแตกน่ะ$s#$b#ถ้าคุณเต็มใจ ผมก็อยากให้เพื่อนคนนั้นเป็นคุณนะ ผมเชื่อใจคุณที่สุดแล้ว$l\"/pause 800/emote farmer 32/pause 500/speak Harvey \"โอเค... คุณก่อนเลย\"/pause 400/move farmer 0 1 1/faceDirection Harvey 1/move farmer 3 0 0/move farmer 0 -1 0/jump farmer 14/move farmer 0 -1 2/move Harvey 0 1 1/move Harvey 3 0 0/move Harvey 0 -1 0/jump Harvey 14/move Harvey 0 -1 2/pause 1000/showFrame Harvey 29/pause 300/playSound openBox/pause 300/showFrame Harvey 0/pause 400/playSound furnace/playMusic none/cutscene balloonDepart/viewport move 0 -1 6000/pause 2000/showFrame Harvey 30/jump Harvey 5/shake Harvey 7000/pause 7000/globalFade/viewport -2000 -2000/playMusic 50s/pause 2000/cutscene clearTempSprites/changeToTemporaryMap HarveyBalloon/cutscene balloonChangeMap/viewport -2000 -2000/warp farmer 22 36/warp Harvey 22 36/positionOffset farmer 24 570/positionOffset Harvey 96 554/positionOffset farmer -8 -8/positionOffset Harvey -24 -8/showFrame Harvey 32/pause 1000/shake Harvey 19000/viewport 23 39 clamp true/viewport move 0 -1 17000/pause 18000/faceDirection farmer 1/showFrame Harvey 33/pause 1000/jump Harvey/showFrame Harvey 30/pause 800/showFrame Harvey 12/animate Harvey false true 100 12 13 14 15/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/stopAnimation Harvey/showFrame Harvey 31/positionOffset Harvey -4 0/playSound fishSlap/eyes 1 -2000/pause 2000/speak Harvey \"เรา... เราอยู่สูงมาก... *เฮือก*$8\"/shake Harvey 2000/pause 800/speak Harvey \"ผมขอโทษนะที่ต้อง เกาะคุณแน่นแบบนี้... ผมรู้ว่านั่นเป็นเหตุผลที่คุณมา แต่ผมรู้สึกตัวสั่นเป็นไอ้ขี้ขลาดน่ะ$7\"/emote Harvey 28/pause 500/speak Harvey \"แต่คุณมีความกล้าหาญมากพอ ที่จะทดแทนในส่วนของผมนะ @ นั่นมัน... นั่นมันเป็นสิ่งที่ผมชื่นชมมากๆ เกี่ยวกับคุณ$11\"/pause 1000/speak Harvey \"โอเค ผมจะลืมตามองข้างล่างล่ะนะ ... อย่าปล่อยมือผมนะ$8\"/pause 800/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 0/pause 30/positionOffset Harvey 4 0/pause 30/faceDirection farmer 2/showFrame Harvey 0/pause 500/showFrame Harvey 33/pause 500/shake Harvey 4000/pause 500/showFrame Harvey 30/pause 2000/showFrame Harvey 33/pause 3500/speak Harvey \"ผม... ผมว่าผมทำได้แล้วล่ะ$8\"/specificTemporarySprite balloonBirds/faceDirection farmer 2/pause 3000/faceDirection Harvey 1/faceDirection farmer 1/emote farmer 16 true/emote Harvey 16/pause 4000/faceDirection farmer 0/faceDirection Harvey 2/pause 10000/speak Harvey \"เฮ้ นี่มันเยี่ยมยอดไปเลย! ผมว่า ผมมองเห็นเทศมนตรีเลวิส ยินอยู่ที่จัตุรัสกลางเมืองด้วย!$h\"/faceDirection farmer 2/pause 3000/speak Harvey \"โอ้ว เพื่อนรัก... เวลาของเรากำลังจะหมดแล้ว$s\"/pause 600/faceDirection farmer 1/playMusic none/pause 1500/speak Harvey \"วิวบนนี้ สวยเหมือนที่ผม เคยจินตนาการไว้ตลอดเลย... \"/playMusic musicboxsong/pause 400/faceDirection Harvey 2/pause 500/faceDirection Harvey 3/speak Harvey \"@... คุณไม่รู้หรอกว่านี่มัน มีความหมายกับผมแค่ไหน ได้ออกบิน ถึงจะแค่ในฐานะผู้โดยสาร เป็นความฝันที่ผมยอมแพ้ ไปตั้งนานมาแล้ว...#$b#...แต่เพราะคุณ ผมถึงได้สัมผัสมันในที่สุด ผมจะไม่มีวันลืมวันนี้เลย$l\"/specificTemporarySprite balloonBirds 2/pause 1000/showFrame Harvey 31/pause 500/showFrame 101/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 -2/pause 30/positionOffset Harvey -1 -2/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/pause 4000/globalFade/viewport -1000 -1000/pause 3500/speak Harvey \"ลงจอดได้สมบูรณ์แบบ! ดีที่ได้กลับมาอยู่ บนพื้นดินที่มั่นคง$h#$b#ขอบคุณอีกครั้งนะ @ นี่เป็นการเริ่มต้นที่ดีเลย สำหรับผม... และมันควรจะค่อยๆ ง่ายขึ้นในครั้งต่อๆ ไป\"/pause 2000/end dialogue Harvey \"ผมไม่ได้มีวันที่ดีขนาดนี้ มานานเท่าที่ผมจะจำได้เลย$l\"",
+                "528052/f Harvey 2500/t 900 1700/n harveyBalloon": "playful/26 38/Harvey 24 41 0 farmer 24 50 0/skippable/move farmer 0 -8 0/faceDirection Harvey 2/speak Harvey \"อยู่นี่เอง... ทันเวลาพอดี!\"/faceDirection Harvey 0/jump Harvey/pause 800/speak Harvey \"ดูสิ มันมาแล้ว!$8\"/emote farmer 8/move Harvey -1 0 1/move farmer -2 0 0/move farmer 0 -1 1/addTemporaryActor Marcello 16 32 25 19 2 true/positionOffset Marcello 36 558/animate Marcello false true 400 16 17/specificTemporarySprite marcelloLand/null/pause 1000/stopAnimation Marcello/pause 500/message \"บัลลูนให้เช่าของมาร์เซลโล่ พร้อมให้บริการ!\"/pause 1000/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/jump Marcello 12/move Marcello 0 3 3/move Marcello -2 0 0/faceDirection Harvey 2/faceDirection farmer 2/message \"มาร์เซลโล่:  มันเป็นของพวกคุณ ตลอดสองชั่วโมงเลยครับ\"/faceDirection Marcello 3/faceDirection Marcello 2/message \"มาร์เซลโล่: เอาล่ะ... ผมรู้มาว่า มีซาลูนแถวๆ นี้สินะครับ?\"/move Marcello 0 9 1/warp Marcello -100 -100/faceDirection farmer 1/faceDirection Harvey 3/pause 500/speak Harvey \"ผมเห็นโฆษณานั่งบัลลูนนี่ ในหนังสือพิมพ์น่ะครับ และผมก็ตระหนักว่า นี่จะเป็น การบำบัดความกลัว ด้วยการเผชิญหน้า ที่สมบูรณ์แบบสำหรับ ความกลัวความสูงของผมน่ะ#$b#แต่ผมต้องการมีเพื่อน มาเป็นกำลังใจ... และช่วยเอาบัลลูนลงจอด ถ้าผมสติแตกน่ะครับ$s#$b#ถ้าคุณเต็มใจ ผมก็อยากให้เพื่อนคนนั้น เป็นคุณนะ ผมเชื่อใจคุณที่สุดแล้ว$l\"/pause 800/emote farmer 32/pause 500/speak Harvey \"โอเค... คุณก่อนเลย\"/pause 400/move farmer 0 1 1/faceDirection Harvey 1/move farmer 3 0 0/move farmer 0 -1 0/jump farmer 14/move farmer 0 -1 2/move Harvey 0 1 1/move Harvey 3 0 0/move Harvey 0 -1 0/jump Harvey 14/move Harvey 0 -1 2/pause 1000/showFrame Harvey 29/pause 300/playSound openBox/pause 300/showFrame Harvey 0/pause 400/playSound furnace/playMusic none/cutscene balloonDepart/viewport move 0 -1 6000/pause 2000/showFrame Harvey 30/jump Harvey 5/shake Harvey 7000/pause 7000/globalFade/viewport -2000 -2000/playMusic 50s/pause 2000/cutscene clearTempSprites/changeToTemporaryMap HarveyBalloon/cutscene balloonChangeMap/viewport -2000 -2000/warp farmer 22 36/warp Harvey 22 36/positionOffset farmer 24 570/positionOffset Harvey 96 554/positionOffset farmer -8 -8/positionOffset Harvey -24 -8/showFrame Harvey 32/pause 1000/shake Harvey 19000/viewport 23 39 clamp true/viewport move 0 -1 17000/pause 18000/faceDirection farmer 1/showFrame Harvey 33/pause 1000/jump Harvey/showFrame Harvey 30/pause 800/showFrame Harvey 12/animate Harvey false true 100 12 13 14 15/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/stopAnimation Harvey/showFrame Harvey 31/positionOffset Harvey -4 0/playSound fishSlap/eyes 1 -2000/pause 2000/speak Harvey \"เรา... เราอยู่สูงมาก... *เฮือก*$8\"/shake Harvey 2000/pause 800/speak Harvey \"ผมขอโทษนะที่ต้อง เกาะคุณแน่นแบบนี้... ผมรู้ว่านั่นเป็นเหตุผลที่คุณมา แต่ผมรู้สึกตัวสั่น เป็นไอ้ขี้ขลาดน่ะ$7\"/emote Harvey 28/pause 500/speak Harvey \"แต่คุณมีความกล้าหาญมากพอ ที่จะทดแทนในส่วนของผมนะ @ นั่นมัน... นั่นมันเป็นสิ่งที่ผมชื่นชมมากๆ เกี่ยวกับคุณครับ$11\"/pause 1000/speak Harvey \"โอเค ผมจะลืมตามองข้างล่างล่ะนะ ... อย่าปล่อยมือผมนะ$8\"/pause 800/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 0/pause 30/positionOffset Harvey 4 0/pause 30/faceDirection farmer 2/showFrame Harvey 0/pause 500/showFrame Harvey 33/pause 500/shake Harvey 4000/pause 500/showFrame Harvey 30/pause 2000/showFrame Harvey 33/pause 3500/speak Harvey \"ผม... ผมว่าผมทำได้แล้วล่ะ$8\"/specificTemporarySprite balloonBirds/faceDirection farmer 2/pause 3000/faceDirection Harvey 1/faceDirection farmer 1/emote farmer 16 true/emote Harvey 16/pause 4000/faceDirection farmer 0/faceDirection Harvey 2/pause 10000/speak Harvey \"เฮ้ นี่มันเยี่ยมยอดไปเลย! ผมว่า ผมมองเห็นเทศมนตรีเลวิส ยืนอยู่ที่จัตุรัสกลางเมืองด้วย!$h\"/faceDirection farmer 2/pause 3000/speak Harvey \"โอ้ว เพื่อนรัก... เวลาของเรากำลังจะหมดแล้ว$s\"/pause 600/faceDirection farmer 1/playMusic none/pause 1500/speak Harvey \"วิวบนนี้ สวยเหมือนที่ผม เคยจินตนาการไว้ตลอดเลย... \"/playMusic musicboxsong/pause 400/faceDirection Harvey 2/pause 500/faceDirection Harvey 3/speak Harvey \"@... คุณไม่รู้หรอกว่านี่มัน มีความหมายกับผมแค่ไหน ได้ออกบิน ถึงจะแค่ในฐานะผู้โดยสาร เป็นความฝันที่ผมยอมแพ้ ไปตั้งนานมาแล้ว...#$b#...แต่เพราะคุณ ผมถึงได้สัมผัสมันในที่สุด ผมจะไม่มีวันลืมวันนี้เลย$l\"/specificTemporarySprite balloonBirds 2/pause 1000/showFrame Harvey 31/pause 500/showFrame 101/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 -2/pause 30/positionOffset Harvey -1 -2/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/pause 4000/globalFade/viewport -1000 -1000/pause 3500/speak Harvey \"ลงจอดได้สมบูรณ์แบบ! ดีที่ได้กลับมาอยู่ บนพื้นดินที่มั่นคง$h#$b#ขอบคุณอีกครั้งนะ @ นี่เป็นการเริ่มต้นที่ดีเลย สำหรับผม... และมันควรจะค่อยๆ ง่ายขึ้นในครั้งต่อๆ ไป\"/pause 2000/end dialogue Harvey \"ผมไม่ได้มีวันที่ดีขนาดนี้ มานานเท่าที่ผมจะจำได้เลย$l\"",
                 "afraid": null,
             },
             "When":
