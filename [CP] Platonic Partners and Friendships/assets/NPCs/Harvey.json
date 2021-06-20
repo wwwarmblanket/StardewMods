@@ -697,11 +697,11 @@
             "Target": "Characters/Dialogue/MarriageDialogueHarvey",
             "Entries":
             {
-                "summer_1": "Make sure you don't get sunburnt, {{Lowercase:{{TermofEndearment}}}}! It's very dangerous for your skin.$8#$e#As your doctor and friend, I consider your health and safety my top priority!",
-                "fall_1": "Make sure and diversify your harvests this fall, {{Lowercase:{{TermofEndearment}}}}.#$e#Or just grow cranberries... It's really up to you. What do I know?",
-                "Rainy_Night_4": "I made us a nice healthy dinner. Only fresh, wholesome ingredients from the valley! [212 214 225 209 200]$h#$e#Enjoy, {{Lowercase:{{TermofEndearment}}}}.",
-                "Rainy_Night_0": "#$c .5#Just a little secret, but... I had a couple pieces of candy this evening. Everything in moderation, including moderation, right?$h#How was your day, {{Lowercase:{{TermofEndearment}}}}? I was going to do the dishes but I got absorbed in the latest issue of \"Knee Surgery Enthusiast\".",
-                "Indoor_Night_1": "I made us a nice healthy dinner. Only fresh, wholesome ingredients from the valley! [212 214 225 209 200]$h#$e#This is one of my favorites. Enjoy!",
+                "summer_1": "อย่าให้ผิวไหม้ล่ะ {{Lowercase:{{TermofEndearment}}}}! มันอันตรายกับผิวคุณ มากนะครับ$8#$e#ในฐานะหมอและเพื่อน ผมถือว่าสุขภาพ และความปลอดภัยของคุณ เป็นอันดับหนึ่งนะ!",
+                "fall_1": "อย่าลืม เก็บเกี่ยวพืชที่หลากหลาย ฤดูใบไม้ร่วงนี่นะครับ {{Lowercase:{{TermofEndearment}}}}#$e#หรือจะปลูกแต่แครนเบอร์รี่ก็ได้... แล้วแต่คุณเลย ผมจะรู้อะไร?",
+                "Rainy_Night_4": "ผมทำอาหารเย็น ที่ดีต่อสุขภาพไว้ให้เราล่ะ ใช้แต่วัตถุดิบสดใหม่ อุมดมด้วยสารอาหาร จากหุบเขาทั้งนั้นเลยครับ! [212 214 225 209 200]$h#$e#กินให้อร่อยนะ {{TermofEndearment}}}}",
+                "Rainy_Night_0": "#$c .5#แค่ความลับอะไรเล็กๆ น้อยๆ นะ แต่... ผมกินขนมไปนิดหน่อยเย็นนี้ เราควรเดินสายกลางในทุกเรื่อง รวมถึงการเดินสายกลางด้วย จริงมั้ย?$h#วันนี้เป็นไงบ้าง {{Lowercase:{{TermofEndearment}}}}? ผมกำลังจะล้างจาน แต่อ่าน \"ผ่าตัดเข่าสำหรับผู้สนใจ (Knee Surgery Enthusiast)\" ฉบับล่าสุดเพลินไปหน่อยน่ะ",
+                "Indoor_Night_1": "ผมทำอาหารเย็น ที่ดีต่อสุขภาพไว้ให้เราล่ะ ใช้แต่วัตถุดิบสดใหม่ อุมดมด้วยสารอาหาร จากหุบเขาทั้งนั้นเลยครับ! [212 214 225 209 200]$h#$e#นี่เป็นหนึ่งในของโปรด ของผมเลย กินให้อร่อยนะ!",
             },
             "When":
             {
@@ -715,11 +715,11 @@
             "Target": "Characters/Dialogue/MarriageDialogueHarvey",
             "Entries":
             {
-                "summer_1": "Make sure you don't get sunburnt, {{TermofEndearment}}! It's very dangerous for your skin.$8#$e#As your doctor and friend, I consider your health and safety my top priority!",
-                "fall_1": "Make sure and diversify your harvests this fall, {{TermofEndearment}}.#$e#Or just grow cranberries... It's really up to you. What do I know?",
-                "Rainy_Night_4": "I made us a nice healthy dinner. Only fresh, wholesome ingredients from the valley! [212 214 225 209 200]$h#$e#Enjoy, {{TermofEndearment}}.",
-                "Rainy_Night_0": "#$c .5#Just a little secret, but... I had a couple pieces of candy this evening. Everything in moderation, including moderation, right?$h#How was your day, {{TermofEndearment}}? I was going to do the dishes but I got absorbed in the latest issue of \"Knee Surgery Enthusiast\".",
-                "Indoor_Night_1": "I made us a nice healthy dinner. Only fresh, wholesome ingredients from the valley! [212 214 225 209 200]$h#$e#This is one of my favorites. Enjoy!",
+                "summer_1": "อย่าให้ผิวไหม้ล่ะ {{TermofEndearment}}! มันอันตรายกับผิวคุณ มากนะครับ$8#$e#ในฐานะหมอและเพื่อน ผมถือว่าสุขภาพ และความปลอดภัยของคุณ เป็นอันดับหนึ่งนะ!",
+                "fall_1": "อย่าลืม เก็บเกี่ยวพืชที่หลากหลาย ฤดูใบไม้ร่วงนี่นะครับ {{TermofEndearment}}.#$e#หรือจะปลูกแต่แครนเบอร์รี่ก็ได้... แล้วแต่คุณเลย ผมจะรู้อะไร?",
+                "Rainy_Night_4": "ผมทำอาหารเย็น ที่ดีต่อสุขภาพไว้ให้เราล่ะ ใช้แต่วัตถุดิบสดใหม่ อุมดมด้วยสารอาหาร จากหุบเขาทั้งนั้นเลยครับ! [212 214 225 209 200]$h#$e#กินให้อร่อยนะ {{TermofEndearment}}.",
+                "Rainy_Night_0": "#$c .5#ค่ความลับอะไรเล็กๆ น้อยๆ นะ แต่... ผมกินขนมไปนิดหน่อยเย็นนี้ เราควรเดินสายกลางในทุกเรื่อง รวมถึงการเดินสายกลางด้วย จริงมั้ย?$h#วันนี้เป็นไงบ้าง {{TermofEndearment}}? ผมกำลังจะล้างจาน แต่อ่าน \"ผ่าตัดเข่าสำหรับผู้สนใจ (Knee Surgery Enthusiast)\" ฉบับล่าสุดเพลินไปหน่อยน่ะ",
+                "Indoor_Night_1": "ผมทำอาหารเย็น ที่ดีต่อสุขภาพไว้ให้เราล่ะ ใช้แต่วัตถุดิบสดใหม่ อุมดมด้วยสารอาหาร จากหุบเขาทั้งนั้นเลยครับ! [212 214 225 209 200]$h#$e#นี่เป็นหนึ่งในของโปรด ของผมเลย กินให้อร่อยนะ!",
             },
             "When":
             {
@@ -732,10 +732,10 @@
             "Target": "Characters/Dialogue/MarriageDialogueHarvey",
             "Entries":
             {
-                "winter_1": "The air is very dry during winter. That's why our skin tends to become irritated.#$e#Truffle oil is an excellent remedy for that.",
-                "Indoor_Night_0": "#$c .5#I got in a little bit of exercise today. Did you? ...Er, well, of course you did.#You look exhausted, you poor thing. Why don't you sit down and let me bring you something to drink?",
-                "Indoor_Night_3": "#$c .5#Sometimes, my brain turns on at this hour. I've developed a pretty good habit, though, of resisting staying up late.#It's stressful to be a doctor, so it's really great to live somewhere as relaxing as %farm Farm.",
-                "Rainy_Night_2": "#$c .5#This weather is perfect for a quiet night in.#You look a little soggy, @. Why don't you warm yourself by the fire?",
+                "winter_1": "หน้าหนาวอากาศแห้งมากนะ เป็นช่วงที่ผิวของเรา จะถูกรบกวนน่ะ#$e#น้ำมันเห็ดทรัฟเฟิล (Truffle Oil) จะแก้เรื่องนั้นได้ครับ",
+                "Indoor_Night_0": "#$c .5#วันนี้ผมออกกำลังกาย ไปหน่อยนึง คุณล่ะ? ...เอ่อ นั่นสิ คุณได้ออกกำลังกายแน่อยู่แล้ว#คุณดูหมดเรี่ยวแรงมากเลย น่าสงสาร ทำไมไม่มานั่งพัก แล้วให้ผมหาอะไร ให้ดื่มล่ะครับ?",
+                "Indoor_Night_3": "#$c .5#บางครั้ง สมองผมก็มาแล่นเอาเวลานี้น่ะครับ แต่ผมฝึกวินัยได้ล่ะ ในการห้ามใจไม่ให้นอนดึกน่ะ#งานหมอเป็นงานที่เครียด เพราะงั้นมันดีมากเลย ที่ได้อยู่ในที่ที่ผ่อนคลาย อย่างฟาร์ม %farm",
+                "Rainy_Night_2": "#$c .5#อากาศนี่เหมาะกับคืนที่ เงียบสงบในบ้านมากเลย#คุณดูชื้นๆ นะ @ ทำไมไม่มาผิงไฟ ให้อุ่นขึ้นล่ะ?",
             },
             "When":
             {
@@ -748,7 +748,7 @@
             "Target": "Characters/Dialogue/MarriageDialogueHarvey",
             "Entries":
             {
-                "Rainy_Night_2": "#$c .5#You look a little soggy, @. Why don't you warm yourself by the fire?#Hey... Let's go to bed early...$l",
+                "Rainy_Night_2": "#$c .5#คุณดูชื้นๆ นะ @ ทำไมไม่มาผิงไฟ ให้อุ่นขึ้นล่ะ?#ดีครับ... นอนแต่หัวค่ำกันเถอะ...$l",
             },
             "When":
             {
@@ -763,7 +763,7 @@
             "Action": "EditData",
             "Target": "Data/Events/Mine",
             "Entries": {
-                "PlayerKilled": "none/-100 -100/farmer 20 10 2 {{Spouse}} 19 10 1 Marlon 18 10 3/skippable/pause 1500/showFrame 5/message \" ...{2}?\"/pause 1000/message \" {{TermofEndearment}}, wake up!\"/viewport 19 10 true/pause 1500/speak {{Spouse}} \"Good! @, can you tell me where we are? How many fingers am I holding up?\"/pause 500/emote farmer 40/pause 500/faceDirection farmer 1/faceDirection farmer 3/pause 500/emote farmer 8/pause 1000/speak {{Spouse}} \"Sorry. My mind immediately goes into medicine-mode when I see you get hurt. You look alright, however.$2#$b#That's a relief. As a clinician, sometimes I get a gut feeling that something is wrong, and usually, the gut feeling is right.#$b#That's what led me to believe that you were in trouble.\"/pause 1000/speak Marlon \"Harvey came to get me as soon as possible. I ventured into the mines to find you as requested.#$b#He was quite worried about you. You're blessed to have ended up sharing your life with someone so compassionate.\"/emote {{Spouse}} 16/pause 500/speak {{Spouse}} \"Well, compassion comes simply with being @'s {{SocialMenuLabel}}, as well as with the oath I took as a physician. It's nothing remarkable.$8\"/pause 1000/speak Marlon \"It's in my nature to be frank. I'm simply stating the fact of what I observed. You did well to fetch me.\"/pause 500/move Marlon 0 0 1/pause 500/faceDirection Marlon 3/speak Marlon \"At any rate, it's best to leave for now. @ needs to rest and recuperate. You two shouldn't linger.\"/pause 500/textAboveHead Marlon \"Farewell.\"/move Marlon 0 4 0/warp Marlon -100 -100/pause 1500/speak {{Spouse}} \"Let's go. Marlon beat me to it, but I also think you should rest.$2#$b#Maybe I should come with you whenever you're in dangerous places, just as a safeguard.#$b#... No, I know that's not right. I know that my place in this life is neither sky high, nor deep underground.#$b#Although... I'd never have to worry about heights if I went down there...$1\"/pause 500/emote farmer 20/faceDirection farmer 2/showFrame 0/pause 500/minedeath/end dialogue {{Spouse}} \"{{TermofEndearment}}, I'm glad to see you doing well. My day wasn't nearly as eventful as yours, unfortunately. Or... fortunately?$c 0.7#I'll prepare you a warm cinnamon and clove infusion while you clean up. Clove is a natural painkiller, you know!$1#Oh, I also prepared a snack for you. You should have something light to let your body start the mending process.[210 215 223 228 232 243 403 406 613 618 636 651]\"",
+                "PlayerKilled": "none/-100 -100/farmer 20 10 2 {{Spouse}} 19 10 1 Marlon 18 10 3/skippable/pause 1500/showFrame 5/message \" ...{2}?\"/pause 1000/message \" {{TermofEndearment}} ตื่นครับ!\"/viewport 19 10 true/pause 1500/speak {{Spouse}} \"ดีล่ะ! @ บอกผมได้มั้ยว่าเราอยู่ที่ไหน? ตอนนี้ผมชูกี่นิ้วครับ?\"/pause 500/emote farmer 40/pause 500/faceDirection farmer 1/faceDirection farmer 3/pause 500/emote farmer 8/pause 1000/speak {{Spouse}} \"โทษที สมองผมเข้าโหมดรักษาทันที ที่ผมเห็นคุณบาดเจ็บน่ะ แต่คุณดูไม่เป็นอะไรนะ$2#$b#ค่อยโล่งใจหน่อย ในฐานะหมอ บางทีผมจะรู้สึกสังหรณ์ ถ้ามีอะไรไม่ปกติน่ะ และโดยทั่วไปแล้ว ก็มักจะสังหรณ์ถูกเสียด้วย#$b#นั่นทำให้ผมคิดว่าคุณแย่แน่เลย\"/pause 1000/speak Marlon \"หมอฮาร์วีย์มาตาม ข้าทันที ที่ทำได้เลย ข้าเลยไปเดินตามหา เจ้าในเหมือง ตามที่ถูกขอมา#$b#เขาเป็นห่วงเจ้าน่าดูเลยนะ เจ้าโชคดีจริงๆ ที่ได้ลงเอย ใช้ชีวิตกับคนที่ใส่ใจขนาดนี้\"/emote {{Spouse}} 16/pause 500/speak {{Spouse}} \"อ่า ความใส่ใจแค่มาเอง ตอนได้เป็น {{SocialMenuLabel}} ของ @ น่ะครับ รวมถึงการที่ผมสาบานตน ในฐานะหมอด้วย ไม่มีอะไรพิเศษหรอกครับ$8\"/pause 1000/speak Marlon \"ข้าแค่ติดนิสัยพูดอะไรตรงๆ น่ะ ข้าแค่พูดไปตามที่เห็น เจ้าทำดีมากที่มาตามข้า\"/pause 500/move Marlon 0 0 1/pause 500/faceDirection Marlon 3/speak Marlon \"ยังไงก็ตาม ข้าว่าควรกลับกันได้แล้ว @ ต้องการการพักผ่อนและพักฟื้น เจ้าสองคนไม่ควรเตร็ดเตร่นะ\"/pause 500/textAboveHead Marlon \"ลาก่อน\"/move Marlon 0 4 0/warp Marlon -100 -100/pause 1500/speak {{Spouse}} \"ไปเถอะ มาร์ลอนแย่งผมพูดไปแล้ว แต่ผมก็คิดว่าคุณควรจะพักนะ$2#$b#บางทีผมควรจะตามคุณไปด้วย เวลาคุณไปที่ที่อันตรายนะ เป็นการป้องกันน่ะ#$b#... ใช่ ผมรู้ว่ามันไม่ถูกต้อง ผมรู้ว่าที่ของผมในชีวิตนี้ ไม่ใช่ที่สูงเสียดฟ้า หรือต่ำลงใต้ดิน#$b#ถึงแม้ว่า... ผมคงจะไม่ต้อง กังวลเรื่องความสูง ถ้าผมลงไปข้างล่างนั่น...$1\"/pause 500/emote farmer 20/faceDirection farmer 2/showFrame 0/pause 500/minedeath/end dialogue {{Spouse}} \"{{TermofEndearment}} ผมดีใจที่คุณไม่เป็นอะไรนะ โชคร้ายหน่อย ที่วันของผมไม่น่าตื่นเต้น เท่าวันของคุณ หรือ... โชคดีกันนะ?$c 0.7#เดี๋ยวผมไปเตรียมอบเชยอุ่นๆ กับยากานพลูระหว่างที่ คุณอาบน้ำแล้วกันนะ กานพลูเป็นสมุนไพรแก้ปวดน่ะ รู้มั้ย!$1#โอ้ ผมเตรียมของว่างไว้ให้คุณ แล้วด้วย คุณควรกินอะไรเบาๆ เพื่อให้ร่างกายคุณ ได้เริ่มกระบวนการ ฟื้นฟูตัวเองนะ[210 215 223 228 232 243 403 406 613 618 636 651]\"",
     		},
 		    "When": {
 		        "Spouse": "Harvey",
@@ -775,7 +775,7 @@
             "Action": "EditData",
             "Target": "Data/Events/Hospital",
             "Entries": {
-                "PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 9 2/skippable/pause 1500/showFrame 5/message \" ...{0}?\"/pause 1000/message \"Are you awake in there...?\"/viewport 20 12 true/pause 1000/speak Harvey \"I'm coming in for your checkup, {{Lowercase:{{TermofEndearment}}}}.\"/move Harvey 1 0 2/move Harvey 0 3 3/faceDirection farmer 1/textAboveHead Harvey \"My goodness, look at you...\"/move Harvey -1 0 3/pause 1500/speak Harvey \"Ahem... Well, all seems in order. When you were first brought here, you were badly injured and unconscious. I had to take you in for emergency surgery.\"/emote farmer 16/pause 500/speak Harvey \"I was terrified, to tell you the truth. To have your life in my hands, not knowing if I'd be able to save it...$2#$b#It was one of the most stressful moments of my career.$2\"/emote Harvey 40/pause 1500/emote farmer 28/pause 500/pause 500/speak Harvey \"Alright. Let's be positive about this. You pulled through, just like I knew you would.$1\"/pause 500/speak Harvey \"Just please be more careful in the future. I don't think I can ever see you like that again.$2\"/pause 500/move Harvey 1 0 0/move Harvey 0 -4 0/pause 500/faceDirection Harvey 3/speak Harvey \"@ is fine... So why am I still shaking like this...?\"/move Harvey -8 0 0 true/move Harvey 0 -1 0/move Harvey -4 0 0/move Harvey 0 -1 0/playSound doorClose/warp Harvey -100 -100/faceDirection farmer 2/pause 1000/emote farmer 28/hospitaldeath/end dialogue Harvey \"Don't overexert yourself today, {{Lowercase:{{TermofEndearment}}}}. You're still recovering from both your injuries and the surgery.$2#$c 0.7#You'll tell me if there's something you need, right?$2#Here, take this. I just read a study that said it's proven to shorten surgical recovery times. [237 241 203 204 220 244 272]\"",
+                "PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 9 2/skippable/pause 1500/showFrame 5/message \" ...{0}?\"/pause 1000/message \"คุณรู้ตัวอยู่หรือเปล่า...?\"/viewport 20 12 true/pause 1000/speak Harvey \"ผมกำลังเข้าไป ตรวจร่างกายคุณนะ {{Lowercase:{{TermofEndearment}}}}\"/move Harvey 1 0 2/move Harvey 0 3 3/faceDirection farmer 1/textAboveHead Harvey \"คุณพระคุณเจ้า ดูคุณสิ...\"/move Harvey -1 0 3/pause 1500/speak Harvey \"อะแฮ่ม... เอาล่ะ ทุกอย่างดูทำงานปกติดีนะ ตอนคุณถูกหามมาที่นี่ทีแรก คุณบาดเจ็บหนัก แล้วก็ไม่มีสติด้วย ผมต้องทำการผ่าตัดด่วน ให้คุณเลย\"/emote farmer 16/pause 500/speak Harvey \"ผมกลัวแทบตาย ถ้าจะบอกคุณตามตรงน่ะ การที่ชีวิตของคุณขึ้นอยู่กับผม โดยที่ไม่รู้ว่า ผมจะช่วยคุณได้สำเร็จ หรือเปล่า...$2#$b#เป็นชั่วขณะที่เคร่งเครียดที่สุด ขณะหนึ่งในชีวิตการเป็นหมอ ของผมเลย$2\"/emote Harvey 40/pause 1500/emote farmer 28/pause 500/pause 500/speak Harvey \"เอาล่ะ มามองในแง่ดีกันดีกว่า คุณผ่านมันมาได้ อย่างที่ผมรู้ว่าคุณจะทำ$1\"/pause 500/speak Harvey \"แค่ได้โปรดระวังตัวมากกว่านี้  ในอนาคตนะครับ ผมไม่คิดว่า ผมจะทนดูคุณ ในสภาพแบบนั้นได้อีก$2\"/pause 500/move Harvey 1 0 0/move Harvey 0 -4 0/pause 500/faceDirection Harvey 3/speak Harvey \"@ ก็ปลอดภัยแล้ว... แล้วทำไม ผมยังสั่นแบบนี้ล่ะ...?\"/move Harvey -8 0 0 true/move Harvey 0 -1 0/move Harvey -4 0 0/move Harvey 0 -1 0/playSound doorClose/warp Harvey -100 -100/faceDirection farmer 2/pause 1000/emote farmer 28/hospitaldeath/end dialogue Harvey \"วันนี้ห้ามหักโหมนะ {{Lowercase:{{TermofEndearment}}}} คุณยังอยู่ในช่วง ฟื้นตัวจากทั้งการบาดเจ็บ และการผ่าตัดนะ$2#$c 0.7#คุณจะบอกผม ถ้าคุณต้องการอะไรใช่มั้ย?$2#เอานี่ เอานี่ไปครับ ผมเพิ่งศึกษามาว่า มีการพิสูจน์แล้วว่า มันจะช่วยลดระยะเวลาฟื้นตัว จากการผ่าตัดได้ [237 241 203 204 220 244 272]\"",
             },
             "When": {
                 "Relationship:Harvey": "Engaged, Married",
@@ -789,7 +789,7 @@
             "Action": "EditData",
             "Target": "Data/Events/Hospital",
             "Entries": {
-                "PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 9 2/skippable/pause 1500/showFrame 5/message \" ...{0}?\"/pause 1000/message \"Are you awake in there...?\"/viewport 20 12 true/pause 1000/speak Harvey \"I'm coming in for your checkup, {{TermofEndearment}}.\"/move Harvey 1 0 2/move Harvey 0 3 3/faceDirection farmer 1/textAboveHead Harvey \"My goodness, look at you...\"/move Harvey -1 0 3/pause 1500/speak Harvey \"Ahem... Well, all seems in order. When you were first brought here, you were badly injured and unconscious. I had to take you in for emergency surgery.\"/emote farmer 16/pause 500/speak Harvey \"I was terrified, to tell you the truth. To have your life in my hands, not knowing if I'd be able to save it...$2#$b#It was one of the most stressful moments of my career.$2\"/emote Harvey 40/pause 1500/emote farmer 28/pause 500/pause 500/speak Harvey \"Alright. Let's be positive about this. You pulled through, just like I knew you would.$1\"/pause 500/speak Harvey \"Just please be more careful in the future. I don't think I can ever see you like that again.$2\"/pause 500/move Harvey 1 0 0/move Harvey 0 -4 0/pause 500/faceDirection Harvey 3/speak Harvey \"@ is fine... So why am I still shaking like this...?\"/move Harvey -8 0 0 true/move Harvey 0 -1 0/move Harvey -4 0 0/move Harvey 0 -1 0/playSound doorClose/warp Harvey -100 -100/faceDirection farmer 2/pause 1000/emote farmer 28/hospitaldeath/end dialogue Harvey \"Don't overexert yourself today, {{TermofEndearment}}. You're still recovering from both your injuries and the surgery.$2#$c 0.7#You'll tell me if there's something you need, right?$2#Here, take this. I just read a study that said it's proven to shorten surgical recovery times. [237 241 203 204 220 244 272]\"",
+                "PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 9 2/skippable/pause 1500/showFrame 5/message \" ...{0}?\"/pause 1000/message \"คุณรู้ตัวอยู่หรือเปล่า...?\"/viewport 20 12 true/pause 1000/speak Harvey \"ผมกำลังเข้าไป ตรวจร่างกายคุณนะ {{TermofEndearment}}\"/move Harvey 1 0 2/move Harvey 0 3 3/faceDirection farmer 1/textAboveHead Harvey \"คุณพระคุณเจ้า ดูคุณสิ...\"/move Harvey -1 0 3/pause 1500/speak Harvey \"คุณพระคุณเจ้า ดูคุณสิ\"/emote farmer 16/pause 500/speak Harvey \"ผมกลัวแทบตาย ถ้าจะบอกคุณตามตรงน่ะ การที่ชีวิตของคุณขึ้นอยู่กับผม โดยที่ไม่รู้ว่า ผมจะช่วยคุณได้สำเร็จ หรือเปล่า...$2#$b#เป็นชั่วขณะที่เคร่งเครียดที่สุด ขณะหนึ่งในชีวิตการเป็นหมอ ของผมเลย$2\"/emote Harvey 40/pause 1500/emote farmer 28/pause 500/pause 500/speak Harvey \"เอาล่ะ มามองในแง่ดีกันดีกว่า คุณผ่านมันมาได้ อย่างที่ผมรู้ว่าคุณจะท$1\"/pause 500/speak Harvey \"แค่ได้โปรดระวังตัวมากกว่านี้  ในอนาคตนะครับ ผมไม่คิดว่า ผมจะทนดูคุณ ในสภาพแบบนั้นได้อีก$2\"/pause 500/move Harvey 1 0 0/move Harvey 0 -4 0/pause 500/faceDirection Harvey 3/speak Harvey \"@ ก็ปลอดภัยแล้ว... แล้วทำไม ผมยังสั่นแบบนี้ล่ะ...?\"/move Harvey -8 0 0 true/move Harvey 0 -1 0/move Harvey -4 0 0/move Harvey 0 -1 0/playSound doorClose/warp Harvey -100 -100/faceDirection farmer 2/pause 1000/emote farmer 28/hospitaldeath/end dialogue Harvey \"วันนี้ห้ามหักโหมนะ  {{TermofEndearment}} คุณยังอยู่ในช่วง ฟื้นตัวจากทั้งการบาดเจ็บ และการผ่าตัดนะ$2#$c 0.7#คุณจะบอกผม ถ้าคุณต้องการอะไรใช่มั้ย?$2#เอานี่ เอานี่ไปครับ ผมเพิ่งศึกษามาว่า มีการพิสูจน์แล้วว่า มันจะช่วยลดระยะเวลาฟื้นตัว จากการผ่าตัดได้ [237 241 203 204 220 244 272]\"",
             },
             "When": {
                 "Relationship:Harvey": "Engaged, Married",
@@ -802,7 +802,7 @@
             "Action": "EditData",
             "Target": "Data/Events/Hospital",
             "Entries": {
-                "PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 12 3/skippable/pause 1500/showFrame 5/message \" ...{0}?\"/pause 1000/message \"Easy, now... take it slow.\"/viewport 20 12 true/pause 1000/speak Harvey \"Hello @, I'm glad you're finally awake.#$b#Someone brought you back here unconscious and badly injured. I had to take you in for emergency surgery!\"/faceDirection farmer 1/emote farmer 16/pause 1000/speak Harvey \"Your condition is much better now, @, but please be more careful next time.$2\"/pause 500/emote Harvey 40/pause 500/faceDirection Harvey 0/faceDirection Harvey 3/pause 500/speak Harvey \"I know you might not want to hear it from me, @, but... I'm glad you're okay.#$b#I say this not just as your doctor, but also as... as someone you once called a friend.$2\"/move Harvey 1 0 1/pause 1000/speak Harvey \"...Nevermind. Above all, I am a professional.#$b#As Harvey, I still have trouble looking you in the eye. But as your doctor, it's my duty to treat you, and I hope you never doubt how seriously I take that responsibility.$2#$b#...Anyway. You're cleared to return home, if you want. Take care, @.$2\"/move Harvey 0 -4 0/move Harvey -8 0 0 true/move Harvey 0 -3 0/warp Harvey -100 -100/pause 500/message \"I'd better return home and rest...\"/emote farmer 28/hospitaldeath/end dialogue Harvey \"I took an oath as a physician to treat my patients regardless of who they are and what they've done.#$b#Wherever we find ourselves in the future, @... I hope you know that my personal feelings will never get in the way of the care I provide.$2\"",
+                "PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 12 3/skippable/pause 1500/showFrame 5/message \" ...{0}?\"/pause 1000/message \"ใจเย็นๆ ก่อน... ค่อยๆ นะ\"/viewport 20 12 true/pause 1000/speak Harvey \"สวัสดีครับ @ ผมดีใจที่คุณรู้สึกตัวเสียที#$b#มีคนพาคุณกลับมา ในสภาพหมดสติ และบาดเจ็บหนัก ผมเลยต้องผ่าตัดด่วนให้คุณ!\"/faceDirection farmer 1/emote farmer 16/pause 1000/speak Harvey \"อาการของคุณดีขึ้นมากแล้ว @ แต่คราวหน้าช่วยระมัดระวัง มากกว่านี้ด้วยนะครับ$2\"/pause 500/emote Harvey 40/pause 500/faceDirection Harvey 0/faceDirection Harvey 3/pause 500/speak Harvey \"ผมรู้ว่าคุณอาจจะไม่อยาก ได้ยินคำนี้จากผม @ แต่... ผมดีใจที่คุณปลอดภัยนะ#$b#ผมไม่ได้พูดแบบนี้แค่ใน ฐานะหมอของคุณนะ แต่ยังพูดในฐานะ... ฐานะของคนที่คุณ เคยเรียกว่าเพื่อน$2\"/move Harvey 1 0 1/pause 1000/speak Harvey \"...ช่างเถอะครับ เหนือสิ่งอื่นใด ผมเป็นมืออาชีพ#$b#ในฐานะฮาร์วีย์ ผมยังลำบากใจที่จะสบตาคุณ แต่ในฐานะหมอของคุณ มันเป็นหน้าที่ของผม ที่จะรักษาคุณ และผมหวังว่าคุณจะ ไม่มีวันสงสัย ในความจริงจังของผม ในการทำหน้าที่นั้นนะครับ$2#$b#...ยังไงก็ตาม ถ้าคุณต้องการ คุณสามารถกลับบ้าน ได้แล้วนะครับ ดูแลตัวเองด้วยนะครับ @$2\"/move Harvey 0 -4 0/move Harvey -8 0 0 true/move Harvey 0 -3 0/warp Harvey -100 -100/pause 500/message \"ฉันควรจะกลับบ้านไปพักผ่อน...\"/emote farmer 28/hospitaldeath/end dialogue Harvey \"ผมให้สัตย์สาบาน ในการรักษาผู้ป่วย โดยไม่คำนึงถึง ว่าพวกเขาเป็นใคร หรือทำอะไรไปบ้าง#$b#ไม่ว่าในอนาคต พวกเราจะรู้สึกต่อกันอย่างไร @... ผมหวังว่าคุณจะรู้นะ ว่าความรู้สึกส่วนตัวของผม จะไม่มีวันส่งผล ต่อการรักษาของผมแน่นอน$2\"",
             },
                 "When": {
                 "SpousesReactExInvolvement": "true",
@@ -815,7 +815,7 @@
             "Action": "EditData",
             "Target": "Data/Events/IslandSouth",
             "Entries": {
-                 "PlayerKilled": "none/-100 -100/farmer 13 33 2 {0} 15 33 3/pause 1500/showFrame 5/message \" ...{2}?\"/pause 1000/message \" {2}, wake up!\"/viewport 13 33 clamp true/pause 1000/speak {0} {1}/showFrame 0/pause 1000/emote farmer 28/minedeath/end dialogue {{Spouse}} \"{{TermofEndearment}}, what happened to you? You're covered in soot and burns, goodness!$8#$b#Hold on, let me get a washcloth and some supplies so we can clean you up.$8#$b#... Oh, you're alright? I suppose it does look worse than it actually is...$2#$b#Sorry. I had a knee-jerk reaction. I'm glad you're okay.\"",
+                 "PlayerKilled": "none/-100 -100/farmer 13 33 2 {0} 15 33 3/pause 1500/showFrame 5/message \" ...{2}?\"/pause 1000/message \" {2} ตื่นครับ!\"/viewport 13 33 clamp true/pause 1000/speak {0} {1}/showFrame 0/pause 1000/emote farmer 28/minedeath/end dialogue {{Spouse}} \"{{TermofEndearment}} เกิดอะไรขึ้นกับคุณครับ? ตัวคุณมีแต่เขม่าและแผลพุพอง คุณพระ!$8#$b#รอแปปนึงนะ ให้ผมไปเอาผ้าเช็ดหน้า กับของมาก่อน จะได้ทำความสะอาดให้คุณ$8#$b#... โอ้ คุณไหวเหรอ? มันคงดูแย่กว่าที่เป็นสินะ...$2#$b#โทษที ผมเป็นไปโดยอัตโนมัติ แบบปฏิกิริยาจากไขสันหลังน่ะ ผมดีใจที่คุณโอเคนะ\"",
    		    },
 		    "When": {
                 	"HasFlag |contains=addedParrotBoy, leoMoved": "false",
@@ -829,7 +829,7 @@
             "Action": "EditData",
             "Target": "Data/Events/IslandSouth",
             "Entries": {
-                "PlayerKilled": "none/-100 -100/farmer 13 33 2 Leo 15 33 3/pause 1500/showFrame 5/message \" ...{2}?\"/pause 1000/message \" ...!\"/playSound parrot_squawk/pause 500/viewport 13 33 clamp true/pause 1000/speak Leo \"Oh, you're awake! That's good!#$b#My bird friends found you in the volcano. They say the fire spirits were not happy with you and tried to cook you like food.#$b#But my friends stopped the spirits in time, and brought you here!$1\"/emote farmer 16/faceDirection farmer 1/pause 500/speak Leo \"That's right! If my bird friends hadn't found you, the spirits may have eaten you like we eat Golden Walnuts.$1#$b#But my friends say you will be okay. Just be more careful the next time, yeah?\"/pause 500/message \"I'm going to get a worried look if I go home like this...\"/pause 500/emote farmer 40/message \"I definitely look worse than I feel, though. That's reassuring.\"/pause 500/speak Leo \"Really, though... Maybe you should wash in the river.#$b#Falling asleep on hot rocks is not good for you. You look like a coconut left too long on the fire.$1\"/faceDirection farmer 2/showFrame 0/pause 1000/emote farmer 12/minedeath/end dialogue {{Spouse}} \"{{TermofEndearment}}, what happened to you? You're covered in soot and burns, goodness!$8#$b#Hold on, let me get a washcloth and some supplies so we can clean you up.$8#$b#... Oh, you're alright? I suppose it does look worse than it actually is...$2#$b#Sorry. I had a knee-jerk reaction. I'm glad you're okay.\"",
+                "PlayerKilled": "none/-100 -100/farmer 13 33 2 Leo 15 33 3/pause 1500/showFrame 5/message \" ...{2}?\"/pause 1000/message \" ...!\"/playSound parrot_squawk/pause 500/viewport 13 33 clamp true/pause 1000/speak Leo \"โอ้ คุณตื่นแล้ว! ดีเลยฮะ!#$b#เพื่อนๆนกของผม เจอคุณบนภูเขาไฟ พวกเขาบอกว่าจิตวิญญาณแห่งไฟ ไม่พอใจคุณ เลยพยายามจะย่างคุณ เป็นอาหารน่ะฮะ#$b#แต่เพื่อนๆ ผมห้ามเหล่าจิตวิญญาณทัน แล้วพาคุณมาที่นี่!$1\"/emote farmer 16/faceDirection farmer 1/pause 500/speak Leo \"ใช่แล้วฮะ! ถ้าเพื่อนๆ นกของผมไม่เจอคุณ  เหล่าจิตวิญญาณคงกินคุณ เหมือนที่พวกเรากิน วอลนัทสีทองเลยฮะ$1#$b#แต่เพื่อนผมบอกว่า คุณจะไม่เป็นไร แค่ต้องระวังมากขึ้นครั้งหน้าฮะ ตกลงมั้ย?\"/pause 500/message \"คนต้องมองฉัน อย่างเป็นห่วงแน่ ถ้ากลับบ้านไปสภาพนี้...\"/pause 500/emote farmer 40/message \"ฉันดูแย่กว่าที่เป็นแน่นอน อย่างน้อยนั่นก็ช่วยปลอบใจได้\"/pause 500/speak Leo \"แต่จริงๆ นะฮะ... บางทีคุณควรจะไปล้างตัว ในแม่น้ำนะฮะ#$b#ไปงีบบนหินร้อนๆ ไม่ดีต่อสุขภาพนะฮะ คุณดูเหมือนมะพร้าว ที่ถูกทิ้งไว้นานเกินไป ในกองไฟเลย$1\"/faceDirection farmer 2/showFrame 0/pause 1000/emote farmer 12/minedeath/end dialogue {{Spouse}} \"{{TermofEndearment}} เกิดอะไรขึ้นกับคุณน่ะ? ตัวคุณมีแต่เขม่าและแผลพุพอง คุณพระ!$8#$b#รอแปปนึงนะ ให้ผมไปเอาผ้าเช็ดหน้า กับของมาก่อน จะได้ทำความสะอาดให้คุณ$8#$b#... โอ้ คุณไหวเหรอ? มันคงดูแย่กว่าที่เป็นสินะ...$2#$b#โทษที ผมเป็นไปโดยอัตโนมัติ แบบปฏิกิริยาจากไขสันหลังน่ะ ผมดีใจที่คุณโอเคนะ\"",
     		},
 		    "When": {
 		        "HasFlag": "addedParrotBoy",
@@ -843,7 +843,7 @@
             "Action": "EditData",
             "Target": "Data/Events/IslandSouth",
             "Entries": {
-                "PlayerKilled": "none/-100 -100/farmer 13 33 2 Willy 15 33 3/pause 1500/showFrame 5/message \" ...{2}?\"/pause 1000/message \" {2}, wake up!\"/viewport 13 33 clamp true/pause 1000/speak Willy \"Are you alright? I found you face-down on the sand here and feared the worst for a moment.\"/emote farmer 16/faceDirection farmer 1/pause 500/speak Willy \"You should be careful when venturing in that volcano there.#$b#With that boy Leo now gone to Stardew Valley, there's much less chance of anyone finding you if you're hurt.#$b#Ah... Your clothes are singed badly and you're smeared in ash. I hope you don't give your {{SocialMenuLabel}} a fright when you return home.$1\"/faceDirection farmer 2/showFrame 0/pause 1000/emote farmer 28/minedeath/end dialogue {{Spouse}} \"{{TermofEndearment}}, what happened to you? You're covered in soot and burns, goodness!$8#$b#Hold on, let me get a washcloth and some supplies so we can clean you up.$8#$b#... Oh, you're alright? I suppose it does look worse than it actually is...$2#$b#Sorry. I had a knee-jerk reaction. I'm glad you're okay.\"",
+                "PlayerKilled": "none/-100 -100/farmer 13 33 2 Willy 15 33 3/pause 1500/showFrame 5/message \" ...{2}?\"/pause 1000/message \" {2} ตื่น!\"/viewport 13 33 clamp true/pause 1000/speak Willy \"เธอเป็นไรมั้ย? ฉันเจอเธอนอนหน้าจูบทราย อยู่ตรงนี้ แล้วก็กลัวจะเกิดเรื่องแย่ๆ อยู่แวบนึงเลย\"/emote farmer 16/faceDirection farmer 1/pause 500/speak Willy \"เธอควรระวังกว่านี้ เวลาไปเตร็ดเตร่ในภูเขาไฟ นั่นนะ#$b#พอเจ้าหนูลีโอนั่นไปสตาร์ดิวแวลลีย์แล้ว โอกาสที่คนจะเจอเธอ ถ้าเธอบาดเจ็บ น้อยลงมากนะ#$b#อ้า... เสื้อผ้าเธอไหม้หมดเลย แล้วเธอก็เปื้อนขี้เถ้าไปหมด ฉันหวังว่าเธอจะไม่ทำให้ {{SocialMenuLabel}} ของเธอตกใจตอนกลับบ้านนะ$1\"/faceDirection farmer 2/showFrame 0/pause 1000/emote farmer 28/minedeath/end dialogue {{Spouse}} \"{{TermofEndearment}} เกิดอะไรขึ้นกับคุณน่ะ? ตัวคุณมีแต่เขม่าและแผลพุพอง คุณพระ!$8#$b#รอแปปนึงนะ ให้ผมไปเอาผ้าเช็ดหน้า กับของมาก่อน จะได้ทำความสะอาดให้คุณ$8#$b#... โอ้ คุณไม่เป็นอะไรเหรอ? มันคงดูแย่กว่าที่เป็นสินะ...$2#$b#โทษที ผมเป็นไปโดยอัตโนมัติ แบบปฏิกิริยาจากไขสันหลังน่ะ ผมดีใจที่คุณโอเคนะ\"",
    		    },
 		    "When": {
 		        "HasFlag": "leoMoved",
@@ -858,7 +858,7 @@
 		"Action": "EditData",
 		"Target": "Characters/Dialogue/MarriageDialogueHarvey",
 		"Entries": {	
-			"winter_15": "{{TermofEndearment}}, I think I'll head down to the Night Market tonight.#$e#Would you like to come? I've never gone with someone before.$h"
+			"winter_15": "{{TermofEndearment}} ผมว่าจะไปตลาดราตรีคืนนี้น่ะ#$e#คุณอยากมากับผมมั้ย? ผมไม่เคยไปกับใครมาก่อนเลย$h"
 		},
             "When": {
                 "HasMod |contains=iss.immersivespouses": "true"
@@ -868,12 +868,12 @@
 		"Action": "EditData",
 		"Target": "Strings/schedules/Harvey",
 		"Entries": {
-			"marriage_saloon3": "Even though I'm the local doctor, I don't have many friends, do I?$s#$b#Maybe it's just hard to be friends with someone who knows everything about your health.$s#$b#But you... you never hesitated to talk to me. I'm really grateful for that.$l",
-			"marriage_saloon6": "@, you're soaked!$8#$b#Come sit with me and warm up.",
-			"marriage_clinic4": "@, it's nice of you to pay me a visit at work!$h#$b#Your company is greatly appreciated.$l",
-			"marriage_saloon": "Hi, @! I come here to relax when it rains.#$b#So, how was your day? Hope you stayed dry.$h",
-			"marriage_radio2": "I thought I just heard something...$10#$b#Oh, it's you! Hi, @!$h",
-			"marriage_clinic": "Aside from their yearly appointments, people barely come in here. I don't think anyone would would notice if I took the day off.#$b#Still, Mayor Lewis is using our tax money on this clinic so it's my duty to be here regardless.#$b#That's just the life of a doctor.$h",
+			"marriage_saloon3": "ถึงผมจะเป็นหมอ ประจำชุมชนนี้ แต่ผมก็ไม่ค่อยมีเพื่อน ใช่มั้ยล่ะ?$s#$b#บางทีมันคงแค่ ยากที่จะเป็นเพื่อนกับคนที่ รู้ทุกอย่างเกี่ยวกับสุขภาพ ของคุณน่ะสินะ$s#$b#แต่คุณ... คุณไม่เคยลังเลที่จะ คุยกับผมเลย ผมรู้สึกขอบคุณมากในเรื่องนั้น$l",
+			"marriage_saloon6": "@ คุณเปียกโชกเลย!$8#$b#มานั่งกับผมให้อุ่นขึ้นสิ",
+			"marriage_clinic4": "@ ดีจังที่คุณมาเยี่ยมผม ที่ที่ทำงาน!$h#$b#ยินดีมากที่มีคุณมาอยู่ที่นี่$l",
+			"marriage_saloon": "ไงครับ @! ผมชอบมาผ่อนคลายที่นี่ เวลาฝนตกน่ะ#$b#ว่าแต่ วันนี้คุณเป็นไงบ้าง? หวงัว่าคุณจะไม่โดนฝนนะ$h",
+			"marriage_radio2": "ผมว่าผมได้ยิน อะไรบางอย่างนะ...$10#$b#อ้าว เป็นคุณเอง! สวัสดีครับ @!$h",
+			"marriage_clinic": "ถ้าไม่ใช่นัดประจำปี ผู้คนก็ไม่ค่อยมาที่นี่หรอกครับ ผมไม่คิดว่าจะมีใครสังเกตหรอก ถ้าผมหยุดพักสักวัน#$b#แต่เทศมนตรีเลวิส ใช้เงินภาษีของพวกเรา มาให้คลินิกนี้น่ะสิ มันเลยเป็นหน้าที่ของผม ที่ไม่ว่ายังไง ก็ต้องประจำอยู่ที่นี่#$b#ชีวิตปกติของหมอน่ะครับ$h",
             },
             "When": {
                 "UseLovePortraits": "true",
@@ -884,16 +884,16 @@
 		"Action": "EditData",
 		"Target": "Strings/schedules/Harvey",
 		"Entries": {
-			"marriage_saloon3": "Even though I'm the local doctor, I don't have many friends, do I?$s#$b#Maybe it's just hard to be friends with someone who knows everything about your health.$s#$b#But you... you never hesitated to talk to me. I'm really grateful for that.",
-			"marriage_saloon6": "@, you're soaked!$8#$b#Come sit with me and warm up.",
-			"marriage_clinic4": "@, it's nice of you to pay me a visit at work!$h#$b#Your company is greatly appreciated.",
-			"marriage_saloon": "Hi, @! I come here to relax when it rains.#$b#So, how was your day? Hope you stayed dry.$h",
-			"marriage_radio2": "I thought I just heard something...$10#$b#Oh, it's you! Hi, @!$h",
-			"marriage_clinic": "Aside from their yearly appointments, people barely come in here. I don't think anyone would would notice if I took the day off.#$b#Still, Mayor Lewis is using our tax money on this clinic so it's my duty to be here regardless.#$b#That's just the life of a doctor.$h",
-			"marriage_read4": "My throat's parched, I need a drink.#$b#Want to go down to the saloon together?$h",
-			"marriage_nm": "My favorite part of the Night Market?#$b#Well of course, it's the free coffee!$h#$b#Well... it was the free coffee. Now it's spending time with you.",
-			"marriage_16": "So many visitors, I hope no one gets sick...$8#$b#Uh... I-I'd like to head in with you if that's okay. I don't know where to go.$s",
-			"marriage_25": "I was planning to help set up, but it looks like they're already done.$s#$b#When you're ready, I'll go in with you."
+			"marriage_saloon3": "ถึงผมจะเป็นหมอ ประจำชุมชนนี้ แต่ผมก็ไม่ค่อยมีเพื่อน ใช่มั้ยล่ะ?$s#$b#บางทีมันคงแค่ ยากที่จะเป็นเพื่อนกับคนที่ รู้ทุกอย่างเกี่ยวกับสุขภาพ ของคุณน่ะสินะ$s#$b#แต่คุณ... คุณไม่เคยลังเลที่จะ คุยกับผมเลย ผมรู้สึกขอบคุณมากในเรื่องนั้น",
+			"marriage_saloon6": "@คุณเปียกโชกเลย!$8#$b#มานั่งกับผมให้อุ่นขึ้นสิ",
+			"marriage_clinic4": "@ดีจังที่คุณมาเยี่ยมผม ที่ที่ทำงาน!$h#$b#ยินดีมากที่มีคุณมาอยู่ที่นี่",
+			"marriage_saloon": "ไงครับ @! ผมชอบมาผ่อนคลายที่นี่ เวลาฝนตกน่ะ#$b#ว่าแต่ วันนี้คุณเป็นไงบ้าง? หวงัว่าคุณจะไม่โดนฝนนะ$h",
+			"marriage_radio2": "ผมว่าผมได้ยิน อะไรบางอย่างนะ...$10#$b#อ้าว เป็นคุณเอง! สวัสดีครับ @!$h",
+			"marriage_clinic": "ถ้าไม่ใช่นัดประจำปี ผู้คนก็ไม่ค่อยมาที่นี่หรอกครับ ผมไม่คิดว่าจะมีใครสังเกตหรอก ถ้าผมหยุดพักสักวัน#$b#แต่เทศมนตรีเลวิส ใช้เงินภาษีของพวกเรา มาให้คลินิกนี้น่ะสิ มันเลยเป็นหน้าที่ของผม ที่ไม่ว่ายังไง ก็ต้องประจำอยู่ที่นี่#$b#ชีวิตของหมอก็งี้แหละครับ$h",
+			"marriage_read4": "คอผมแห้งผากเลย ผมต้องการดื่มอะไรสักอย่าง#$b#อยากไปซาลูนด้วยกันมั้ยครับ?$h",
+			"marriage_nm": "ส่วนที่ผมชอบที่สุด ของตลาดราตรีเหรอ?#$b#แน่สิครับว่าต้องเป็น กาแฟฟรี!$h#$b#ก็นะ... มันเคยเป็นกาแฟฟรี แต่ตอนนี้มันคือการได้ ใช้เวลากับคุณไงครับ",
+			"marriage_16": "คนเยอะมากเลย หวังว่าจะไม่มีใครป่วยนะ...$8#$b#เอ่อ... ผะ-ผมอยากเข้าไปพร้อมคุณ ถ้าคุณไม่วาอะไร ผมไม่รู้ว่าจะไปตรงไหนน่ะ$s",
+			"marriage_25": "ผมตั้งใจจะช่วยจัดงาน แต่เหมือนว่าพวกเขา จะจัดเสร็จแล้ว$s#$b#ถ้าคุณพร้อม ผมจะเข้าไปกับคุณ"
             },
             "When": {
                 "UseLovePortraits": "false",
@@ -904,9 +904,9 @@
 		"Action": "EditData",
 		"Target": "Strings/schedules/Harvey",
 		"Entries": {
-			"marriage_read3": "I'm gonna finish this chapter before it gets too dark to see.#$b#I'll see you back home soon, {{Lowercase:{{TermofEndearment}}}}.",
-			"marriage_saloon5": "Be careful working in the rain, {{Lowercase:{{TermofEndearment}}}}. Especially now when it's dark outside.#$b#Hey, Doctor's orders! I don't want to see you slip and hurt yourself.$h",
-			"marriage_13": "In my old apartment I could peek out my window and see where they were hiding all the eggs.#$b#I know most of the reused hiding spots by now.#$b#I'm sorry, {{Lowercase:{{TermofEndearment}}}}, but if I tell you then I have to tell everyone else.$h",
+			"marriage_read3": "ผมจะอ่านบทนี้ ให้จบก่อนที่มันจะมืด จนมองไม่เห็นน่ะ#$b#แล้วเจอกันที่บ้านเร็วๆ นี้นะ {{Lowercase:{{TermofEndearment}}}}",
+			"marriage_saloon5": "ทำงานในฝน ระวังตัวด้วยนะครับ {{Lowercase:{{TermofEndearment}}}} โดยเฉพาะตอนนี้ ที่ข้างนอกมืดน่ะ#$b#เฮ้ เป็นคำสั่งหมอนะ! ผมไม่อยากเห็นคุณ ลื่นล้มบาดเจ็บน่ะ$h",
+			"marriage_13": "ในอพาร์ตเม้นท์เก่าของผม ผมสามารถชะโงกหน้าจากหน้าต่าง ดูว่าเขาซ่อนไข่ไว้ตรงไหนบ้าง#$b#ผมรู้ที่ซ่อนที่เขาซ่อนบ่อยๆ เกือบหมดแล้วล่ะตอนนี้#$b#ผมขอโทษนะ {{Lowercase:{{TermofEndearment}}}} แต่ถ้าบอกคุณ ผมก็ต้องบอกทุกคนด้วย$h",
             },
             "When": {
                 "TermofEndearment |contains=@": "false",
@@ -918,9 +918,9 @@
 		"Action": "EditData",
 		"Target": "Strings/schedules/Harvey",
 		"Entries": {
-			"marriage_read3": "I'm gonna finish this chapter before it gets too dark to see.#$b#I'll see you back home soon, {{TermofEndearment}}.",
-			"marriage_saloon5": "Be careful working in the rain, {{TermofEndearment}}. Especially now when it's dark outside.#$b#Hey, Doctor's orders! I don't want to see you slip and hurt yourself.$h",
-			"marriage_13": "In my old apartment I could peek out my window and see where they were hiding all the eggs.#$b#I know most of the reused hiding spots by now.#$b#I'm sorry, {{TermofEndearment}}, but if I tell you then I have to tell everyone else.$h",
+			"marriage_read3": "ผมจะอ่านบทนี้ ให้จบก่อนที่มันจะมืด จนมองไม่เห็นน่ะ#$b#แล้วเจอกันที่บ้านเร็วๆ นี้นะ {{TermofEndearment}}.",
+			"marriage_saloon5": "ทำงานในฝน ระวังตัวด้วยนะครับ {{TermofEndearment}}โดยเฉพาะตอนนี้ ที่ข้างนอกมืดน่ะ#$b#เฮ้ เป็นคำสั่งหมอนะ! ผมไม่อยากเห็นคุณ ลื่นล้มบาดเจ็บน่ะ$h",
+			"marriage_13": "ในอพาร์ตเม้นท์เก่าของผม ผมสามารถชะโงกหน้าจากหน้าต่าง ดูว่าเขาซ่อนไข่ไว้ตรงไหนบ้าง#$b#ผมรู้ที่ซ่อนที่เขาซ่อนบ่อยๆ เกือบหมดแล้วล่ะตอนนี้#$b#ผมขอโทษนะ {{TermofEndearment}} แต่ถ้าบอกคุณ ผมก็ต้องบอกทุกคนด้วย$h",
             },
             "When": {
               	"TermofEndearment": "@, BFF",
