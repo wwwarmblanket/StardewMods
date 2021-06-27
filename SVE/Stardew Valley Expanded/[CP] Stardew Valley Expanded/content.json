@@ -27100,7 +27100,7 @@
      "Target": "Strings/StringsFromMaps",
      "Entries": {
 	     "Backwoods.1": "= ฟาร์ม {{FarmName}}^> ถูเขา> ฟาร์มมรกต",
-		 "BusStop.1": "` Bus Stop^> Pelican Town^@ {{FarmName}} Farm",
+		 "BusStop.1": "` ป้ายรถบัส^> เมืองเพลิแกน^@ {{FarmName}} ฟาร์ม",
 	     "Forest.1": "`ฟาร์ม {{FarmName}} ^> เมืองเพลิแกน^> ฟาร์มปศุสัตว์ของมานี^= ฟาร์มแฟร์เฮเวน^= ไร่องุ่นบลูมูน",
          "Forest.5": "มันคือกล่องขายสินค้าของมานี",
 	     "Forest.6": "มันคือแปลงผักผลไม้ของมานี",
