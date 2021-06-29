@@ -1287,7 +1287,7 @@
 {  //Iridium Quality Grape Juice
    "Action": "EditData",
    "Target": "data/events/Custom_AuroraVineyard",
-   "When": { "HasSeenEvent": "7775927, 7776002" },
+   "When": { "Relationship:Apples": "Friendly" },
    "Entries": {
    "908075/e 908072": "continue/-500 -500/farmer 14 22 0 Apples 14 17 2/pause 1000/showFrame Apples 32 true/viewport 14 19 true/skippable/move farmer 0 -2 0/pause 1350/shake Apples 400/pause 800/shake Apples 400/pause 400/showFrame Apples 0 true/jump Apples/pause 200/playSound junimoMeep1/pause 500/playSound junimoMeep1/speak Apples \"เพื่อนของแอปเปิล มาแย้ว! เย้!$1\"/pause 1000/playSound junimoMeep1/pause 500/playSound junimoMeep1/pause 300/jump Apples/pause 600/playSound junimoMeep1/pause 400/playSound junimoMeep1/speak Apples \"แอปเปิลอยากให้เพื่อน มาหาบ่อยๆ! แอปเปิลช่วยได้ ด้วยเวทมนตร์ล่วย!$0\"/pause 500/move Apples 0 1 2/pause 500/playSound junimoMeep1/pause 300/playSound junimoMeep1/speak Apples \"ตามแอปเปิลมาจิ!$1\"/pause 500/faceDirection Apples 1 true/pause 400/speed Apples 5/move Apples 7 0 2/speed Apples 5/move Apples 0 3 2/warp Apples -20 -20/playSound stairsdown/pause 200/move farmer 0 -2 1/pause 600/emote farmer 40/pause 600/move farmer 7 0 2 true/pause 300/globalFade/viewport -1000 -1000/changeLocation Custom_ApplesRoom/halt/warp Apples 9 12/faceDirection Apples 2 true/warp farmer 9 11/faceDirection farmer 2 true/positionOffset farmer 0 -10/positionOffset Apples 0 -5/viewport 9 9 true/pause 1500/playSound Ship/pause 800/jump Apples/playSound Ship/pause 1000/faceDirection Apples 1 true/pause 250/faceDirection Apples 0 true/pause 500/playSound junimoMeep1/shake Apples 500/pause 400/playSound junimoMeep1/speak Apples \"น้ามองุ่นเก่า! ใช้เยย!$1\"/pause 750/shake Apples 500/playSound pickUpItem/pause 1250/showFrame farmer 57 true/itemAboveHead joja/pause 3300/faceDirection farmer 2 true/pause 700/faceDirection farmer 2 true/pause 500/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 400/playSound junimoMeep1/speak Apples \"ทำวาร์ปเยย! ทำวาร์ปเยย!$0\"/pause 500/globalFade/viewport -1000 -1000/stopMusic/pause 1250/warp Apples 4 9/faceDirection Apples 3 true/warp farmer 2 8/faceDirection farmer 2 true/viewport 9 9 true/pause 2000/showFrame farmer 1 true/pause 125/startJittering/addTemporaryActor AuroraVineyardWineBottleObject 16 16 2 9 2 false/playSound stoneStep/pause 400/stopJittering/showFrame farmer 0/pause 1135/showFrame farmer 3 true/pause 950/screenFlash 2/playSound wand/playSound wand/addTemporaryActor MagicWarp 48 48 1 10 2 false/warp AuroraVineyardWineBottleObject -20 -20/positionOffset MagicWarp 2 -7/addLantern 1000 2 9 1/pause 700/faceDirection farmer 2 true/playSound secret1/pause 2000/shake Apples 1000/pause 400/faceDirection farmer 1 true/pause 300/playMusic ragtime/pause 200/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 400/jump Apples/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 500/playSound junimoMeep1/speak Apples \"เย้! ฉ่องแฉงงง!$1#$b#*มิ๊ป*!!!$0\"/pause 1000/faceDirection Apples 2 true/pause 250/animate Apples false true 200 20 21 22 23/pause 1500/faceDirection farmer 2 true/pause 500/animate farmer false true 350 102 103/pause 2250/globalFade/viewport -1000 -1000/pause 500/stopMusic/pause 1000/end dialogue Apples \"เพื่อนแอปเปิล มาหาบ่อยๆ ได้แย้ว!$0\""
    }
@@ -2516,6 +2516,9 @@
 	  "Lunaloo": "color_pink, fish_ocean, fish_lunaloo",
 	  "Baby Lunaloo": "color_pink, fish_ocean, fish_baby_lunaloo",
 	  "Shiny Lunaloo": "color_blue, fish_ocean, fish_shiny_lunaloo",
+	  "Bonefish": "color_white, fish_river, fish_bonefish",
+	  "Undeadfish": "color_green, fish_river, fish_undeadfish",
+	  "Radioactive Bass": "color_green, fish_river, fish_radioacrive_bass",
 	  "{{spacechase0.JsonAssets/ObjectId:Void Shard}}": "color_black",
 	  "{{spacechase0.JsonAssets/ObjectId:Void Pebble}}": "color_black",
 	  "{{spacechase0.JsonAssets/ObjectId:Rusty Blade}}": "color_brown",
@@ -2552,7 +2555,8 @@
   "Custom_ShearwaterBridge": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 {{spacechase0.JsonAssets/ObjectId:Butterfish}} -1 {{spacechase0.JsonAssets/ObjectId:Puppyfish}} -1 143 -1 706 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 {{spacechase0.JsonAssets/ObjectId:Puppyfish}} -1 {{spacechase0.JsonAssets/ObjectId:Butterfish}} -1 138 -1 144 -1 706 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 {{spacechase0.JsonAssets/ObjectId:Butterfish}} -1 {{spacechase0.JsonAssets/ObjectId:Puppyfish}} -1 139 -1 699 -1 143 -1 706 -1 140 -1 269 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 699 -1 153 -1 707 -1 141 -1 144 -1 132 -1 269 -1/100 1 101 .31 103 .8 105 .7 106 .1 107 .65 114 .1",
   "Custom_GrandpasShedOutside": "-1/-1/-1/-1/-1/-1/-1/-1/100 .4 101 .3 103 .2 105 .31 106 1 107 .55 114 .21",
   "Custom_AdventurerSummit": "-1/-1/-1/-1/136 -1 {{spacechase0.JsonAssets/ObjectId:Minnow}} -1 142 -1 153 -1 702 -1 700 -1/136 -1 {{spacechase0.JsonAssets/ObjectId:Minnow}} -1 142 -1 153 -1 138 -1 702 -1 700 -1 698 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 136 -1 140 -1 142 -1 153 -1 702 -1 700 -1 269 -1/136 -1 140 -1 141 -1 153 -1 707 -1 702 -1 700 -1 698 -1 269 -1/382 .06 581 .1 378 .1 102 .15 390 .25 330 1",
-   },
+  "Custom_CrimsonBadlands": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Bonefish}} -1 {{spacechase0.JsonAssets/ObjectId:Undeadfish}} -1/{{spacechase0.JsonAssets/ObjectId:Bonefish}} -1 {{spacechase0.JsonAssets/ObjectId:Undeadfish}} -1/{{spacechase0.JsonAssets/ObjectId:Bonefish}} -1 {{spacechase0.JsonAssets/ObjectId:Undeadfish}} -1/{{spacechase0.JsonAssets/ObjectId:Bonefish}} -1 {{spacechase0.JsonAssets/ObjectId:Undeadfish}} -1/-1"  
+  },
 },
 
 { //New Fish compat patch
@@ -2567,6 +2571,7 @@
   "Mountain": "20 .7 16 .5/396 .5 398 .8/404 .4 406 .4 408 .9/414 .85 418 .9 283 .5/{{spacechase0.JsonAssets/ObjectId:Frog}} -1 {{spacechase0.JsonAssets/ObjectId:Minnow}} -1 136 -1 142 -1 153 -1 702 -1 700 -1/{{spacechase0.JsonAssets/ObjectId:Frog}} -1 {{spacechase0.JsonAssets/ObjectId:Minnow}} -1 136 -1 142 -1 153 -1 138 -1 702 -1 700 -1 698 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 136 -1 140 -1 142 -1 153 -1 702 -1 700 -1 269 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 136 -1 140 -1 141 -1 153 -1 707 -1 702 -1 700 -1 698 -1 269 -1/382 .06 581 .1 378 .1 102 .15 390 .25 330 1",
   "WitchSwamp": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Void Eel}} -1 795 -1 153 -1 143 -1 157 -1/{{spacechase0.JsonAssets/ObjectId:Void Eel}} -1 795 -1 153 -1 143 -1 157 -1/{{spacechase0.JsonAssets/ObjectId:Void Eel}} -1 795 -1 153 -1 143 -1 157 -1/{{spacechase0.JsonAssets/ObjectId:Void Eel}} -1 795 -1 153 -1 143 -1 157 -1/-1",
   "Beach": "372 .9 718 .1 719 .3 723 .3/372 .9 394 .5 718 .1 719 .3 723 .3/372 .9 718 .1 719 .3 723 .3/372 .4 392 .8 718 .05 719 .2 723 .2/{{spacechase0.JsonAssets/ObjectId:Starfish}} -1 267 -1 129 -1 131 -1 147 -1 148 -1 152 -1 708 -1/267 -1 {{spacechase0.JsonAssets/ObjectId:Starfish}} -1 128 -1 130 -1 146 -1 149 -1 150 -1 152 -1 155 -1 708 -1 701 -1/{{spacechase0.JsonAssets/ObjectId:Starfish}} -1 129 -1 131 -1 148 -1 150 -1 152 -1 154 -1 155 -1 705 -1 701 -1/708 -1 130 -1 131 -1 146 -1 147 -1 150 -1 151 -1 152 -1 154 -1 705 -1/384 .08 589 .09 102 .15 390 .25 330 1",
+  "Sewer": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Radioactive Bass}} -1 142 -1 153 -1 157 -1/{{spacechase0.JsonAssets/ObjectId:Radioactive Bass}} -1 142 -1 153 -1 157 -1/{{spacechase0.JsonAssets/ObjectId:Radioactive Bass}} -1 142 -1 153 -1 157 -1/{{spacechase0.JsonAssets/ObjectId:Radioactive Bass}} -1 142 -1 153 -1 157 -1/-1",
   "IslandSouth": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} -1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} -1 {{spacechase0.JsonAssets/ObjectId:Starfish}} -1 {{spacechase0.JsonAssets/ObjectId:Clownfish}} -1 155 -1 130 -1 128 -1 267 -1 837 -1/{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} -1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} -1 {{spacechase0.JsonAssets/ObjectId:Starfish}} -1 {{spacechase0.JsonAssets/ObjectId:Clownfish}} -1 155 -1 130 -1 128 -1 267 -1 837 -1/{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} -1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} -1 {{spacechase0.JsonAssets/ObjectId:Starfish}} -1 {{spacechase0.JsonAssets/ObjectId:Clownfish}} -1 155 -1 130 -1 128 -1 267 -1 837 -1/{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} -1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} -1 {{spacechase0.JsonAssets/ObjectId:Starfish}} -1 {{spacechase0.JsonAssets/ObjectId:Clownfish}} -1 155 -1 130 -1 128 -1 267 -1 837 -1/791 .05 292 .05 774 .1 749 1",
   "IslandWest": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} 1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} 1 {{spacechase0.JsonAssets/ObjectId:Starfish}} 1 {{spacechase0.JsonAssets/ObjectId:Clownfish}} 1 149 1 155 1 130 1 128 1 267 1 837 1 701 2 838 2 269 2/{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} 1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} 1 {{spacechase0.JsonAssets/ObjectId:Starfish}} 1 {{spacechase0.JsonAssets/ObjectId:Clownfish}} 1 149 1 155 1 130 1 128 1 267 1 837 1 701 2 838 2 269 2/{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} 1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} 1 {{spacechase0.JsonAssets/ObjectId:Starfish}} 1 {{spacechase0.JsonAssets/ObjectId:Clownfish}} 1 149 1 155 1 130 1 128 1 267 1 837 1 701 2 838 2 269 2/{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} 1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} 1 {{spacechase0.JsonAssets/ObjectId:Starfish}} 1 {{spacechase0.JsonAssets/ObjectId:Clownfish}} 1 149 1 155 1 130 1 128 1 267 1 837 1 701 2 838 2 269 2/791 .05 292 .05 774 .1 749 1",
   "IslandSouthEast": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} -1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} -1 {{spacechase0.JsonAssets/ObjectId:Starfish}} -1 {{spacechase0.JsonAssets/ObjectId:Clownfish}} -1 155 -1 130 -1 128 -1 267 -1 837 -1/{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} -1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} -1 {{spacechase0.JsonAssets/ObjectId:Starfish}} -1 {{spacechase0.JsonAssets/ObjectId:Clownfish}} -1 155 -1 130 -1 128 -1 267 -1 837 -1/{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} -1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} -1 {{spacechase0.JsonAssets/ObjectId:Starfish}} -1 {{spacechase0.JsonAssets/ObjectId:Clownfish}} -1 155 -1 130 -1 128 -1 267 -1 837 -1/{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} -1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} -1 {{spacechase0.JsonAssets/ObjectId:Starfish}} -1 {{spacechase0.JsonAssets/ObjectId:Clownfish}} -1 155 -1 130 -1 128 -1 267 -1 837 -1/791 .05 292 .05 774 .1 749 1",
@@ -2578,9 +2583,10 @@
   "Target": "Data/Locations",
   "When": { "HasMod |contains=MoreFish": true },
   "Entries": {
-  "IslandSouth": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Clownfish}} -1 {{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} -1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} -1 155 -1 130 -1 128 -1 267 -1 837 -1 1202 -1/{{spacechase0.JsonAssets/ObjectId:Clownfish}} -1 {{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} -1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} -1 155 -1 130 -1 128 -1 267 -1 837 -1 1202 -1/{{spacechase0.JsonAssets/ObjectId:Clownfish}} -1 {{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} -1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} -1 155 -1 130 -1 128 -1 267 -1 837 -1 1202 -1/{{spacechase0.JsonAssets/ObjectId:Clownfish}} -1 {{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} -1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} -1 155 -1 130 -1 128 -1 267 -1 837 -1 1202 -1/791 .05 292 .05 774 .1 749 1",
-  "IslandWest": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Clownfish}} 1 {{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} 1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} 1 149 1 155 1 130 1 128 1 267 1 837 1 701 2 838 2 269 2 1202 1 1201 2/{{spacechase0.JsonAssets/ObjectId:Clownfish}} 1 {{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} 1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} 1 149 1 155 1 130 1 128 1 267 1 837 1 701 2 838 2 269 2 1202 1 1201 2/{{spacechase0.JsonAssets/ObjectId:Clownfish}} 1 {{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} 1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} 1 149 1 155 1 130 1 128 1 267 1 837 1 701 2 838 2 269 2 1202 1 1201 2/{{spacechase0.JsonAssets/ObjectId:Clownfish}} 1 {{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} 1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} 1 149 1 155 1 130 1 128 1 267 1 837 1 701 2 838 2 269 2 1202 1 1201 2/791 .05 292 .05 774 .1 749 1",
-  "IslandSouthEast": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Clownfish}} -1 {{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} -1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} -1 155 -1 130 -1 128 -1 267 -1 837 -1 1202 -1/{{spacechase0.JsonAssets/ObjectId:Clownfish}} -1 {{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} -1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} -1 155 -1 130 -1 128 -1 267 -1 837 -1 1202 -1 1203 -1/{{spacechase0.JsonAssets/ObjectId:Clownfish}} -1 {{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} -1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} -1 155 -1 130 -1 128 -1 267 -1 837 -1 1202 -1/{{spacechase0.JsonAssets/ObjectId:Clownfish}} -1 {{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} -1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} -1 155 -1 130 -1 128 -1 267 -1 837 -1 1202 -1/791 .05 292 .05 774 .1 749 1",
+  "Sewer": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Radioactive Bass}} -1 142 -1 153 -1 157 -1 1131 -1 1092 -1 1110 -1/{{spacechase0.JsonAssets/ObjectId:Radioactive Bass}} -1 142 -1 153 -1 157 -1 1131 -1 1092 -1 1110 -1/{{spacechase0.JsonAssets/ObjectId:Radioactive Bass}} -1 142 -1 153 -1 157 -1 1131 -1 1092 -1 1110 -1/{{spacechase0.JsonAssets/ObjectId:Radioactive Bass}} -1 142 -1 153 -1 157 -1 1131 -1 1092 -1 1110 -1/-1",
+  "IslandSouth": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} -1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} -1 155 -1 130 -1 128 -1 267 -1 837 -1 1202 -1/{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} -1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} -1 155 -1 130 -1 128 -1 267 -1 837 -1 1202 -1/{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} -1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} -1 155 -1 130 -1 128 -1 267 -1 837 -1 1202 -1/{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} -1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} -1 155 -1 130 -1 128 -1 267 -1 837 -1 1202 -1/791 .05 292 .05 774 .1 749 1",
+  "IslandWest": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} 1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} 1 149 1 155 1 130 1 128 1 267 1 837 1 701 2 838 2 269 2 1202 1 1201 2/{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} 1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} 1 149 1 155 1 130 1 128 1 267 1 837 1 701 2 838 2 269 2 1202 1 1201 2/{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} 1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} 1 149 1 155 1 130 1 128 1 267 1 837 1 701 2 838 2 269 2 1202 1 1201 2/{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} 1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} 1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} 1 149 1 155 1 130 1 128 1 267 1 837 1 701 2 838 2 269 2 1202 1 1201 2/791 .05 292 .05 774 .1 749 1",
+  "IslandSouthEast": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} -1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} -1 155 -1 130 -1 128 -1 267 -1 837 -1 1202 -1/{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} -1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} -1 155 -1 130 -1 128 -1 267 -1 837 -1 1202 -1 1203 -1/{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} -1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} -1 155 -1 130 -1 128 -1 267 -1 837 -1 1202 -1/{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Lunaloo}} -1 {{spacechase0.JsonAssets/ObjectId:Sea Sponge}} -1 {{spacechase0.JsonAssets/ObjectId:Seahorse}} -1 155 -1 130 -1 128 -1 267 -1 837 -1 1202 -1/791 .05 292 .05 774 .1 749 1",
   }
 },
 
@@ -2631,7 +2637,10 @@
    "{{spacechase0.JsonAssets/ObjectId:Sea Sponge}}": "Sea Sponge/40/sinker/3/9/600 2600/spring summer fall winter/both/690 .4 685 .1/4/.08/.25/0",
    "{{spacechase0.JsonAssets/ObjectId:Lunaloo}}": "Lunaloo/70/floater/4/8/1700 2600/spring summer fall winter/both/690 .4 685 .1/5/.15/.5/5",
    "{{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}}": "Baby Lunaloo/15/floater/4/8/1700 2600/spring summer fall winter/both/690 .4 685 .1/4/.02/.3/0",
-   "{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}}": "Shiny Lunaloo/110/floater/8/12/1700 2600/spring summer fall winter/both/690 .4 685 .1/5/.03/.5/8"
+   "{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}}": "Shiny Lunaloo/110/floater/8/12/1700 2600/spring summer fall winter/both/690 .4 685 .1/5/.03/.5/8",
+   "{{spacechase0.JsonAssets/ObjectId:Bonefish}}": "Bonefish/70/sinker/2/6/600 2600/spring summer fall winter/both/690 .4/3/.80/.5/5",
+   "{{spacechase0.JsonAssets/ObjectId:Undeadfish}}": "Undeadfish/80/mixed/3/7/600 2600/spring summer fall winter/both/690 .4/3/.80/.5/5",
+   "{{spacechase0.JsonAssets/ObjectId:Radioactive Bass}}": "Radioactive Bass/90/floater/18/30/600 2600/spring summer fall winter/both/690 .4/3/.04/.8/10"
   }
 },
 
@@ -2651,7 +2660,10 @@
    "{{spacechase0.JsonAssets/ObjectId:Sea Sponge}}": "Sea Sponge/40/sinker/3/9/600 2600/spring summer fall winter/both/690 .4 685 .1/4/.08/.25/0",
    "{{spacechase0.JsonAssets/ObjectId:Lunaloo}}": "Lunaloo/70/floater/4/8/1700 2600/spring summer fall winter/both/690 .4 685 .1/5/.15/.5/5",
    "{{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}}": "Baby Lunaloo/15/floater/4/8/1700 2600/spring summer fall winter/both/690 .4 685 .1/4/.02/.3/0",
-   "{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}}": "Shiny Lunaloo/110/floater/8/12/1700 2600/spring summer fall winter/both/690 .4 685 .1/5/.03/.5/8"
+   "{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}}": "Shiny Lunaloo/110/floater/8/12/1700 2600/spring summer fall winter/both/690 .4 685 .1/5/.03/.5/8",
+   "{{spacechase0.JsonAssets/ObjectId:Bonefish}}": "Bonefish/70/sinker/2/6/600 2600/spring summer fall winter/both/690 .4/3/.80/.5/5",
+   "{{spacechase0.JsonAssets/ObjectId:Undeadfish}}": "Undeadfish/80/mixed/3/7/600 2600/spring summer fall winter/both/690 .4/3/.80/.5/5",
+   "{{spacechase0.JsonAssets/ObjectId:Radioactive Bass}}": "Radioactive Bass/90/floater/18/30/600 2600/spring summer fall winter/both/690 .4/3/.04/.8/10"
   }
 },
 
@@ -2665,6 +2677,7 @@
 {
    "Action": "EditData",
    "Target": "Data/AquariumFish",
+   "When": { "HasMod |contains=MoreFish": false },
    "Entries": {
    "{{spacechase0.JsonAssets/ObjectId:Puppyfish}}": "92/float",
    "{{spacechase0.JsonAssets/ObjectId:Void Eel}}": "93/fish",
@@ -2679,6 +2692,32 @@
    "{{spacechase0.JsonAssets/ObjectId:Lunaloo}}": "113/float",
    "{{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}}": "114/float",
    "{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}}": "115/float",
+   "{{spacechase0.JsonAssets/ObjectId:Bonefish}}": "117/fish",
+   "{{spacechase0.JsonAssets/ObjectId:Undeadfish}}": "118/fish",
+   "{{spacechase0.JsonAssets/ObjectId:Radioactive Bass}}": "119/fish",
+    },
+},
+
+
+{
+   "Action": "EditData",
+   "Target": "Data/AquariumFish",
+   "When": { "HasMod |contains=MoreFish": true },
+   "Entries": {
+   "{{spacechase0.JsonAssets/ObjectId:Puppyfish}}": "92/float",
+   "{{spacechase0.JsonAssets/ObjectId:Void Eel}}": "93/fish",
+   "{{spacechase0.JsonAssets/ObjectId:Minnow}}": "95/fish",
+   "{{spacechase0.JsonAssets/ObjectId:King Salmon}}": "96/fish",
+   "{{spacechase0.JsonAssets/ObjectId:Razor Trout}}": "97/fish",
+   "{{spacechase0.JsonAssets/ObjectId:Butterfish}}": "99/crawl",
+   "{{spacechase0.JsonAssets/ObjectId:Seahorse}}": "111/float",
+   "{{spacechase0.JsonAssets/ObjectId:Sea Sponge}}": "112/static",
+   "{{spacechase0.JsonAssets/ObjectId:Lunaloo}}": "113/float",
+   "{{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}}": "114/float",
+   "{{spacechase0.JsonAssets/ObjectId:Shiny Lunaloo}}": "115/float",
+   "{{spacechase0.JsonAssets/ObjectId:Bonefish}}": "117/fish",
+   "{{spacechase0.JsonAssets/ObjectId:Undeadfish}}": "118/fish",
+   "{{spacechase0.JsonAssets/ObjectId:Radioactive Bass}}": "119/fish",
     },
 },
 
@@ -2694,6 +2733,13 @@
    "Target": "LooseSprites/AquariumFish",
    "FromFile": "Assets/TileSheets/SVE_AquariumFish_GingerIsland.png",
    "ToArea": { "X": 264, "Y": 240, "Width": 120, "Height": 48 },
+},
+
+{
+   "Action": "EditImage",
+   "Target": "LooseSprites/AquariumFish",
+   "FromFile": "Assets/TileSheets/SVE_AquariumFish_WeirdOnes.png",
+   "ToArea": { "X": 408, "Y": 240, "Width": 72, "Height": 48 },
 },
 
 {  //Add Kittyfish data to aquarium
@@ -3359,6 +3405,120 @@
  },
 },
 
+{    //BONEFISH
+	"Action": "EditData",
+	"Target": "Data/FishPondData",
+	"Entries": { 
+	"Bonefish": {
+	"RequiredTags": [ "item_bonefish" ],
+	"SpawnTime": -1,
+	"ProducedItems": [
+	{
+	"RequiredPopulation": 10,	
+	"Chance": 0.20,
+	"ItemID": 768,
+	"MinQuantity": 8,
+	"MaxQuantity": 22
+	},
+	{
+	"RequiredPopulation": 5,	
+	"Chance": 0.80,
+	"ItemID": 580,
+	"MinQuantity": 3,
+	"MaxQuantity": 6
+	},
+	{
+    "RequiredPopulation": 1,
+    "Chance": 0.80,
+    "ItemID": 580,
+    "MinQuantity": 1,
+    "MaxQuantity": 2
+    }
+  ],
+	"PopulationGates": {
+	"10": [ "769 60"],
+	"5": [ "768 15"],
+	  },
+   },
+ },
+},
+
+{    //UNDEADFISH
+	"Action": "EditData",
+	"Target": "Data/FishPondData",
+	"Entries": { 
+	"Undeadfish": {
+	"RequiredTags": [ "item_undeadfish" ],
+	"SpawnTime": -1,
+	"ProducedItems": [
+	{
+	"RequiredPopulation": 10,	
+	"Chance": 0.20,
+	"ItemID": 769,
+	"MinQuantity": 8,
+	"MaxQuantity": 22
+	},
+	{
+	"RequiredPopulation": 5,	
+	"Chance": 0.80,
+	"ItemID": 585,
+	"MinQuantity": 3,
+	"MaxQuantity": 6
+	},
+	{
+    "RequiredPopulation": 1,
+    "Chance": 0.80,
+    "ItemID": 585,
+    "MinQuantity": 1,
+    "MaxQuantity": 2
+    }
+  ],
+	"PopulationGates": {
+	"10": [ "768 60"],
+	"5": [ "769 15"],
+	  },
+   },
+ },
+},
+
+{    //RADIOACTIVE BASS
+	"Action": "EditData",
+	"Target": "Data/FishPondData",
+	"Entries": { 
+	"Radioactive Bass": {
+	"RequiredTags": [ "item_radioactive_bass" ],
+	"SpawnTime": -1,
+	"ProducedItems": [
+	{
+	"RequiredPopulation": 10,	
+	"Chance": 0.13,
+	"ItemID": 910,
+	"MinQuantity": 1,
+	"MaxQuantity": 2
+	},
+	{
+	"RequiredPopulation": 5,	
+	"Chance": 0.25,
+	"ItemID": 909,
+	"MinQuantity": 1,
+	"MaxQuantity": 4
+	},
+	{
+    "RequiredPopulation": 1,
+    "Chance": 0.33,
+    "ItemID": 909,
+    "MinQuantity": 1,
+    "MaxQuantity": 1
+    }
+  ],
+	"PopulationGates": {
+	"10": [ "337 5"],
+	"5": [ "336 5"],
+	  },
+   },
+ },
+},
+
 {
 	"Action": "EditData",
 	"Target": "Data/FishPondData",
@@ -3377,6 +3537,9 @@
 	{ "ID": "item_lunaloo", "AfterID": "item_sea_sponge" },
 	{ "ID": "item_baby_lunaloo", "AfterID": "item_lunaloo" },
 	{ "ID": "item_shiny_lunaloo", "AfterID": "item_baby_lunaloo" },
+	{ "ID": "item_bonefish", "AfterID": "item_shiny_lunaloo" },
+	{ "ID": "item_undeadfish", "AfterID": "item_bonefish" },
+	{ "ID": "item_radioactive_bass", "AfterID": "item_undeadfish" },
   ]
 },
 
@@ -3949,7 +4112,7 @@
 	 "Action": "EditData",
 	 "Target": "data/events/town",
 	 "Entries": { 
-     "1011124/k 1000024/H/t 600 1800/y 2/w sunny": "continue/-500 -500/farmer 105 94 1 Lewis 22 28 0 Clint 97 77 0 Andy 78 95 2 Susan 77 95 2/addTemporaryActor GuntherSilvian 16 32 102 98 2/pause 750/move farmer 13 0 1 true/viewport 105 94 clamp true/pause 3250/globalFade/viewport -1000 -1000/halt/changeLocation Custom_Garden/warp Andy -19 -19/warp Susan -18 -18/warp Clint -20 -20/warp GuntherSilvian -30 -30/warp farmer 12 28/faceDirection farmer 1 true/playMusic sweet/pause 500/viewport 22 28 clamp true/skippable/move farmer 8 0 1/pause 500/emote farmer 8/pause 400/faceDirection Lewis 3 true/pause 500/speak Lewis \"สวัสดี @ ฉันกำลังตรวจสอบ พื้นที่สวนเก่า นี่อยู่น่ะสิ$0\"/pause 500/faceDirection Lewis 0 true/pause 500/speak Lewis \"มันเคยเป็น สวนเก่าของชุมชนน่ะ ก่อนที่เราจะย้ายไป ที่ข้างห้องสมุดแทน$0#$b#ไม่มีใครดูแลสวนนี้เลย ทั้งที่เมื่อก่อนมันเคยดีกว่านี้$2#$b#มันน่าเสียดายนะ  จุดนี้จะเป็นสิ่งแรก ที่นักท่องเที่ยว จากแกรมเพิลตัน จะมองเห็นเมื่อมาท่องเที่ยว ที่เมืองเพลิแกน...$2\"/pause 400/emote Lewis 40/pause 600/faceDirection Lewis 3 true/pause 350/speak Lewis \"ฉันก็รู้ว่าคุณมีงานในฟาร์ม %farm ล้นมือไปหมด แต่ถ้าคุณสามารถ ฟื้นฟูพื้นที่ดินตรงนี้ได้ คุณอยากจะปลูกอะไร ที่อยากจะปลูกได้เลย$1#$b#ฉันเคยยื่นข้อเสนอนี้ ให้กับแอนดี้แล้วล่ะนะ แต่เขาบอกว่า เขาไม่อยาก 'รับทาน' จากฉัน$2#$b#คุณมีอะไรจะพูดมั้ย @?$0\"/speak Lewis \"$q -1 null#คุณต้องการพื้นที่สวนตรงนี้หรือไม่?#$r -1 0 lewis_event1#ฉันสามารถจัดการมันให้ดีขึ้น แล้วนำมาใช้เป็นที่เพาะปลูกได้#$r -1 0 lewis_event2#ขอโทษนะ แค่นี้ฉันก็วุ่นวายกับ งานในฟาร์มมากพอแล้ว\"/pause 1000/move Lewis 0 0 2/pause 850/move Lewis 0 0 3/pause 1050/speak Lewis \"ตามนั้น  เอาล่ะ ฉันมีกองเอกสารมากมาย ที่ต้องไปจัดการ$2#$b#ขอให้เป็นวันที่ดีนะ @!$1\"/pause 200/globalFade/viewport -1000 -1000/pause 300/end dialogue Lewis \"เธอรู้เปล่า ว่าเธอสามารถใช้ประโยชน์ จากที่ดินตรงนั้นได้นะ @$0\"",
+     "1011124/k 1000024/t 600 1800/y 2/w sunny": "continue/-500 -500/farmer 105 94 1 Lewis 22 28 0 Clint 97 77 0 Andy 78 95 2 Susan 77 95 2/addTemporaryActor GuntherSilvian 16 32 102 98 2/pause 750/move farmer 13 0 1 true/viewport 105 94 clamp true/pause 3250/globalFade/viewport -1000 -1000/halt/changeLocation Custom_Garden/warp Andy -19 -19/warp Susan -18 -18/warp Clint -20 -20/warp GuntherSilvian -30 -30/warp farmer 12 28/faceDirection farmer 1 true/playMusic sweet/pause 500/viewport 22 28 clamp true/skippable/move farmer 8 0 1/pause 500/emote farmer 8/pause 400/faceDirection Lewis 3 true/pause 500/speak Lewis \"สวัสดี @ ฉันกำลังตรวจสอบ พื้นที่สวนเก่า นี่อยู่น่ะสิ$0\"/pause 500/faceDirection Lewis 0 true/pause 500/speak Lewis \"มันเคยเป็น สวนเก่าของชุมชนน่ะ ก่อนที่เราจะย้ายไป ที่ข้างห้องสมุดแทน$0#$b#ไม่มีใครดูแลสวนนี้เลย ทั้งที่เมื่อก่อนมันเคยดีกว่านี้$2#$b#มันน่าเสียดายนะ  จุดนี้จะเป็นสิ่งแรก ที่นักท่องเที่ยว จากแกรมเพิลตัน จะมองเห็นเมื่อมาท่องเที่ยว ที่เมืองเพลิแกน...$2\"/pause 400/emote Lewis 40/pause 600/faceDirection Lewis 3 true/pause 350/speak Lewis \"ฉันก็รู้ว่าคุณมีงานในฟาร์ม %farm ล้นมือไปหมด แต่ถ้าคุณสามารถ ฟื้นฟูพื้นที่ดินตรงนี้ได้ คุณอยากจะปลูกอะไร ที่อยากจะปลูกได้เลย$1#$b#ฉันเคยยื่นข้อเสนอนี้ ให้กับแอนดี้แล้วล่ะนะ แต่เขาบอกว่า เขาไม่อยาก 'รับทาน' จากฉัน$2#$b#คุณมีอะไรจะพูดมั้ย @?$0\"/speak Lewis \"$q -1 null#คุณต้องการพื้นที่สวนตรงนี้หรือไม่?#$r -1 0 lewis_event1#ฉันสามารถจัดการมันให้ดีขึ้น แล้วนำมาใช้เป็นที่เพาะปลูกได้#$r -1 0 lewis_event2#ขอโทษนะ แค่นี้ฉันก็วุ่นวายกับ งานในฟาร์มมากพอแล้ว\"/pause 1000/move Lewis 0 0 2/pause 850/move Lewis 0 0 3/pause 1050/speak Lewis \"ตามนั้น  เอาล่ะ ฉันมีกองเอกสารมากมาย ที่ต้องไปจัดการ$2#$b#ขอให้เป็นวันที่ดีนะ @!$1\"/pause 200/globalFade/viewport -1000 -1000/pause 300/end dialogue Lewis \"เธอรู้เปล่า ว่าเธอสามารถใช้ประโยชน์ จากที่ดินตรงนั้นได้นะ @$0\"",
 	 },
 },
 {   //Removes barrels at garden
@@ -5893,7 +6056,11 @@
 	 "ToArea": { "X": 0, "Y": 0,"Width": 128, "Height": 116 },
 	 "When": { "HasSeenEvent": "5553210" }
 },*/
-{    //Dynamic town lights
+
+
+//CUT CODE - causes extra layers in Pelican Town to disappear
+
+/*{    //Dynamic town lights
      "Action": "EditMap",
      "Target": "Maps/town",
      "FromFile": "Assets/Maps/MapPatches/DynamicTownLights.tbin",
@@ -5919,7 +6086,10 @@
      "When": { "Time": "{{Range: 1700, 2600}}", "HasFlag |contains=pamHouseUpgrade": false },
 	 "PatchMode": "Overlay",
 	 "Update": "OnLocationChange"
-},
+},*/
+
+
+
 
 {   //Town Winter Night Lights
     "Action": "EditMap",
@@ -6069,7 +6239,7 @@
 	 "When": { "HasSeenEvent": "5553210" },
 	 "ToArea": { "X": 0, "Y": 0, "Width": 40, "Height": 41 }
 },
-{    //Dynamic mountain lights
+/*{    //Dynamic mountain lights
      "Action": "EditMap",
      "Target": "Maps/Mountain",
      "FromFile": "Assets/Maps/MapPatches/DynamicMountainLights.tbin",
@@ -6086,7 +6256,7 @@
      "When": { "Time": "{{Range: 1700, 2600}}", "HasSeenEvent": "5553210" },
 	 "PatchMode": "Overlay",
 	 "Update": "OnLocationChange"
-},
+},*/
 {    //Mountain Light - Joja
      "Action": "EditMap",
      "Target": "Maps/Mountain",
@@ -6114,7 +6284,7 @@
 	 "When": { "HasSeenEvent": "5553210" },
 	 "ToArea": { "X": 40, "Y": 10, "Width": 10, "Height": 7 }
 },
-{
+/*{
      "Action": "EditMap",
      "Target": "Maps/Backwoods",
      "FromFile": "Assets/Maps/MapPatches/Backwoods_Joja_Light.tbin",
@@ -6122,7 +6292,7 @@
      "When": { "Time": "{{Range: 1700, 2600}}", "HasSeenEvent": "5553210" },
 	 "PatchMode": "Overlay",
 	 "Update": "OnLocationChange"
-},
+},*/
 {
      "Action": "EditMap",
      "Target": "Maps/Backwoods",
@@ -6975,7 +7145,7 @@
      "Target": "Maps/Custom_AdventurerSummit",
      "FromFile": "Assets/Maps/MapPatches/DynamicLantern.tbin",
      "ToArea": { "X": 50, "Y": 30,"Width": 1, "Height": 1 },
-	 "When": { "Time": "{{Range: 1800, 2600}}" },
+	 //"When": { "Time": "{{Range: 1800, 2600}}" },
      //"When": { "Time": "{{Range: 1800, 2600}}", "DayOfWeek": "Friday", "Weather |contains=rain, storm": false },   <<deprecated
 	 "PatchMode": "Overlay",
 	 "Update": "OnLocationChange"
@@ -6983,7 +7153,7 @@
 {    
      "Action": "EditMap",
      "Target": "Maps/Custom_AdventurerSummit",
-	 "When": { "Time": "{{Range: 1800, 2600}}" },
+	 //"When": { "Time": "{{Range: 1800, 2600}}" },
 	 //"When": { "Time": "{{Range: 1800, 2600}}", "DayOfWeek": "Friday", "Weather |contains=rain, storm": false },   <<deprecated
 	 "Update": "OnLocationChange",
      "TextOperations": [
@@ -9945,7 +10115,7 @@
       "Action": "EditData",
       "Target": "Data/Events/Custom_ShearwaterBridge",
       "Entries": {
-      "2000050/z winter/w sunny/t 800 1700/f Victor 750/k 2000004": "jaunty/-500 -500/farmer 15 20 1 Victor 37 20 2 Linus 66 10 0/pause 1000/animate Victor false true 120 16 17 18 17 17 18 17 17 18 18 18 17 18 17 18 17 18 18 17 17 18 17 18 17 18 17 18 17 17 17 18 18 17 18 17 18 17 18/viewport 22 20 true/viewport move 1 0 10000 true/move farmer 19 0 1 true/skippable/pause 8500/stopAnimation Victor/pause 1000/move Victor 0 0 3/pause 400/emote Victor 16/speak Victor \"สวัสดีครับคุณ @! มาเที่ยว สะพานเชียร์วอเทอร์ สินะครับ$1#$b#ผมกำลังคำนวณ ความสมบูรณ์ทางโครงสร้าง ของมันอยู่ครับ$3\"/pause 200/emote farmer 16/pause 350/speak Victor \"สะพานนี้ถูกสร้างขึ้นมา เมื่อสี่สิบปีก่อน ตอนนั้นมันเป็นความสำเร็จ ทางวิศวกรรมเลยล่ะครับ มันทำให้การเดินทางไปกลับ จากแกรมพิลตัน เป็นเรื่องง่ายขึ้นเป็นครั้งแรก$1#$b#ผมทึ่งกับสะพานมากครับ พวกมันดูเรียบง่าย แต่กลับส่งผลอย่างมากเลย กับชีวิตผู้คน$1#$b#ผมเคยต่อแบบจำลองหลายอัน ของสะพานชื่อดังนะครับ วันนึงผมก็หวังว่า จะมีโอกาสสร้างอะไร ที่ใหญ่โตขนาดนี้บ้าง$3\"/pause 600/move Victor 0 0 1/pause 650/move Victor 0 0 3/pause 850/speak Victor \"มีวิศวกรสร้างสะพานคนหนึ่ง อยู่ที่แกรมพิลตัน ชื่อ ราล์ฟ ครับ#$b#เวลาเขาต้องการคนช่วย ผมก็จะไปช่วยเขาเพื่อเอา ประสบการณ์ตรงน่ะครับ$3\"/pause 800/speak Victor \"การคำนวณทางฟิสิกส์ และคณิตศาสตร์ ในการสร้างสะพาน ต้องสมบูรณ์แบบ ไร้ที่ติเลยละครับ$6#$b#ความผิดพลาดแค่นิดเดียว อาจหมายถึง หายนะครั้งใหญ่ได้เลย$2\"/pause 1500/move Victor 0 0 2/pause 1050/showFrame Victor 19/pause 1100/showFrame Victor 16/pause 1400/showFrame Victor 19/pause 1000/showFrame Victor 0/pause 600/move Victor 0 0 3/pause 500/speak Victor \"ผมขอตัวกลับบ้านก่อนนะครับ ต้องไปคำนวณสมการพวกนี้ ในคอมพิวเตอร์สักหน่อย คุยกับคุณสนุกมากเลยครับ คุณ @$1\"/pause 1000/globalFade/viewport -1000 -1000/pause 1000/friendship Victor 50/end dialogue Victor \"ผมลองมาคำนวณสมการ ที่ผมบอกคุณแล้วนะครับ ผมว่าผมค้นพบ แผนการพัฒนาสะพาน เชียร์วอเทอร์แล้วล่ะครับ!$1#$b#การพัฒนาเชิงโครงสร้างตรงนี้ จะช่วยประหยัดค่าซ่อมบำรุง ได้ถึง 213,500G ในอีกสิปปีข้างหน้าเลยล่ะครับ ผมว่า ผมต้องรีบบอกราล์ฟแล้วล่ะ!$1#$e#ทำงานที่ใช้สมองเยอะๆ ทำให้ผมหิวน่ะครับ สงสัยจังว่า มีสปาเกตตี้เหลือบ้างมั้ย$3\""
+      "2000050/z winter/w sunny/t 800 1700/f Victor 750/k 2000004": "jaunty/-500 -500/farmer 15 20 1 Victor 37 20 2/pause 1000/animate Victor false true 120 16 17 18 17 17 18 17 17 18 18 18 17 18 17 18 17 18 18 17 17 18 17 18 17 18 17 18 17 17 17 18 18 17 18 17 18 17 18/viewport 22 20 true/viewport move 1 0 10000 true/move farmer 19 0 1 true/skippable/pause 8500/stopAnimation Victor/pause 1000/move Victor 0 0 3/pause 400/emote Victor 16/speak Victor \"สวัสดีครับคุณ @! มาเที่ยว สะพานเชียร์วอเทอร์ สินะครับ$1#$b#ผมกำลังคำนวณ ความสมบูรณ์ทางโครงสร้าง ของมันอยู่ครับ$3\"/pause 200/emote farmer 16/pause 350/speak Victor \"สะพานนี้ถูกสร้างขึ้นมา เมื่อสี่สิบปีก่อน ตอนนั้นมันเป็นความสำเร็จ ทางวิศวกรรมเลยล่ะครับ มันทำให้การเดินทางไปกลับ จากแกรมพิลตัน เป็นเรื่องง่ายขึ้นเป็นครั้งแรก$1#$b#ผมทึ่งกับสะพานมากครับ พวกมันดูเรียบง่าย แต่กลับส่งผลอย่างมากเลย กับชีวิตผู้คน$1#$b#ผมเคยต่อแบบจำลองหลายอัน ของสะพานชื่อดังนะครับ วันนึงผมก็หวังว่า จะมีโอกาสสร้างอะไร ที่ใหญ่โตขนาดนี้บ้าง$3\"/pause 600/move Victor 0 0 1/pause 650/move Victor 0 0 3/pause 850/speak Victor \"มีวิศวกรสร้างสะพานคนหนึ่ง อยู่ที่แกรมพิลตัน ชื่อ ราล์ฟ ครับ#$b#เวลาเขาต้องการคนช่วย ผมก็จะไปช่วยเขาเพื่อเอา ประสบการณ์ตรงน่ะครับ$3\"/pause 800/speak Victor \"การคำนวณทางฟิสิกส์ และคณิตศาสตร์ ในการสร้างสะพาน ต้องสมบูรณ์แบบ ไร้ที่ติเลยละครับ$6#$b#ความผิดพลาดแค่นิดเดียว อาจหมายถึง หายนะครั้งใหญ่ได้เลย$2\"/pause 1500/move Victor 0 0 2/pause 1050/showFrame Victor 19/pause 1100/showFrame Victor 16/pause 1400/showFrame Victor 19/pause 1000/showFrame Victor 0/pause 600/move Victor 0 0 3/pause 500/speak Victor \"ผมขอตัวกลับบ้านก่อนนะครับ ต้องไปคำนวณสมการพวกนี้ ในคอมพิวเตอร์สักหน่อย คุยกับคุณสนุกมากเลยครับ คุณ @$1\"/pause 1000/globalFade/viewport -1000 -1000/pause 1000/friendship Victor 50/end dialogue Victor \"ผมลองมาคำนวณสมการ ที่ผมบอกคุณแล้วนะครับ ผมว่าผมค้นพบ แผนการพัฒนาสะพาน เชียร์วอเทอร์แล้วล่ะครับ!$1#$b#การพัฒนาเชิงโครงสร้างตรงนี้ จะช่วยประหยัดค่าซ่อมบำรุง ได้ถึง 213,500G ในอีกสิปปีข้างหน้าเลยล่ะครับ ผมว่า ผมต้องรีบบอกราล์ฟแล้วล่ะ!$1#$e#ทำงานที่ใช้สมองเยอะๆ ทำให้ผมหิวน่ะครับ สงสัยจังว่า มีสปาเกตตี้เหลือบ้างมั้ย$3\""
       }
     },
 	
@@ -11871,7 +12041,7 @@
 	 "Action": "EditData",
 	 "Target": "data/events/Railroad",
 	 "Entries": {
-     "1000079/f Susan 1000/t 800 1500/z spring/z summer/z winter/w sunny": "kindadumbautumn/-500 -500/farmer 38 51 1 Susan 54 50 0/pause 500/skippable/viewport 39 50 true/viewport move 1 0 9250 true/move farmer 9 0 1/move farmer 0 -1 1/move farmer 3 0 1/pause 500/move Susan 0 0 3/pause 200/emote Susan 16/pause 150/speak Susan \"เฮ้! @$1#$b#ฉันดีใจที่วันนี้คุณมาเยี่ยมฉัน!$4\"/pause 700/speak Susan \"ฉันกำลังเก็บเกี่ยวองุ่น ฉันใช้ถังที่ทำขึ้นมา จัดการมันให้กลายเป็นไวน์$0#$b#ตอนนี้ฉันทำได้เพียงเล็กน้อย แต่บางที ฟาร์มมรกตอาจกลายเป็น ไร่องุ่นบลูมูน เป็นโรงกลั่นไวน์ที่เต็มไปด้วยไวน์ ไวน์นั้นให้เงินเป็นจำนวนมาก!$1\"/pause 500/question fork1 \"#ฉันมั่นใจว่าฟาร์มมรกต จะทำงานได้อย่างดีเยี่ยม#คุณบอกอะไรที่เกี่ยวกับถ้ำนั่น ให้ฉันได้ไหม?\"/fork 1000079_WitchCave/pause 600/speak Susan \"อ่า... ขอบคุณที่รัก$0#$b#ฉันอาศัยอยู่ที่สตาร์ดิวแวลลี่ เป็นเวลานาน ในช่วงที่ฉัน อยู่ที่นี่ ฟาร์มมรกตเติบโต อย่างมาก!$1#$b#ยิ่งเห็นความก้าวหน้าที่คุณ ทำกับฟาร์ม %farm มากเท่าไหร่ ยิ่งเป็นแรงบันดาลใจ ให้ฉันทำงานหนักยิ่งขึ้น!$4\"/pause 300/emote farmer 32/pause 200/emote Susan 32/pause 100/speak Susan \"ฉันตื่นเต้นที่ในหุบเขามีชาวไร่ อีกคน$1\"/pause 1100/move Susan 0 0 0/pause 1300/move Susan 0 0 3/pause 700/speak Susan \"ฉันต้องเก็บเกี่ยวองุ่นพวกนี้ ให้เสร็จ จากนั้นก็นำมันไป ที่ถัง!$1#$b#ขอให้เป็นวันที่พิเศษ @$0\"/pause 500/globalFade/viewport -1000 -1000/pause 500/end dialogue Susan \"ฉันเก็บเกี่ยวองุ่นเสร็จแล้ว!$1#$b#ตอนนี้พวกมันจะอยู่ในถัง เป็นเวลาหนึ่งเดือน ฉันชอบที่จะทำให้แน่ใจ ว่าทุกกระบวนการมีคุณภาพสูง จากนั้นฉันจึงจะเริ่มต้นการหมัก!$0\"",
+     "1000079/f Susan 1000/t 800 1500/z spring/z summer/z winter/w sunny": "kindadumbautumn/-500 -500/farmer 38 51 1 Susan 54 50 0/pause 500/skippable/viewport 39 50 true/viewport move 1 0 9250 true/move farmer 11 0 1/move farmer 0 -1 1/move farmer 3 0 1/pause 500/move Susan 0 0 3/pause 200/emote Susan 16/pause 150/speak Susan \"เฮ้! @$1#$b#ฉันดีใจที่วันนี้คุณมาเยี่ยมฉัน!$4\"/pause 700/speak Susan \"ฉันกำลังเก็บเกี่ยวองุ่น ฉันใช้ถังที่ทำขึ้นมา จัดการมันให้กลายเป็นไวน์$0#$b#ตอนนี้ฉันทำได้เพียงเล็กน้อย แต่บางที ฟาร์มมรกตอาจกลายเป็น ไร่องุ่นบลูมูน เป็นโรงกลั่นไวน์ที่เต็มไปด้วยไวน์ ไวน์นั้นให้เงินเป็นจำนวนมาก!$1\"/pause 500/question fork1 \"#ฉันมั่นใจว่าฟาร์มมรกต จะทำงานได้อย่างดีเยี่ยม#คุณบอกอะไรที่เกี่ยวกับถ้ำนั่น ให้ฉันได้ไหม?\"/fork 1000079_WitchCave/pause 600/speak Susan \"อ่า... ขอบคุณที่รัก$0#$b#ฉันอาศัยอยู่ที่สตาร์ดิวแวลลี่ เป็นเวลานาน ในช่วงที่ฉัน อยู่ที่นี่ ฟาร์มมรกตเติบโต อย่างมาก!$1#$b#ยิ่งเห็นความก้าวหน้าที่คุณ ทำกับฟาร์ม %farm มากเท่าไหร่ ยิ่งเป็นแรงบันดาลใจ ให้ฉันทำงานหนักยิ่งขึ้น!$4\"/pause 300/emote farmer 32/pause 200/emote Susan 32/pause 100/speak Susan \"ฉันตื่นเต้นที่ในหุบเขามีชาวไร่ อีกคน$1\"/pause 1100/move Susan 0 0 0/pause 1300/move Susan 0 0 3/pause 700/speak Susan \"ฉันต้องเก็บเกี่ยวองุ่นพวกนี้ ให้เสร็จ จากนั้นก็นำมันไป ที่ถัง!$1#$b#ขอให้เป็นวันที่พิเศษ @$0\"/pause 500/globalFade/viewport -1000 -1000/pause 500/end dialogue Susan \"ฉันเก็บเกี่ยวองุ่นเสร็จแล้ว!$1#$b#ตอนนี้พวกมันจะอยู่ในถัง เป็นเวลาหนึ่งเดือน ฉันชอบที่จะทำให้แน่ใจ ว่าทุกกระบวนการมีคุณภาพสูง จากนั้นฉันจึงจะเริ่มต้นการหมัก!$0\"",
 
      "1000079_WitchCave": "pause 200/stopMusic/pause 300/emote Susan 8/pause 500/speak Susan \"ถ้ำใกล้สถานีรถไฟ? ที่รัก ฉันอาศัยอยู่ที่นี่มานานแล้ว ฉันขอยืนยันกับคุณว่า มันไม่มีถ้ำอยู่ตรงนั้นนะ$2\"/pause 400/emote farmer 40/pause 150/speak Susan \"คุณจะพาฉันไปดูหรอ? ด้วยความยินดีเลย ฉันสงสัยเกี่ยวกับ 'ถ้ำ' ที่คุณพูดถึงนี่จัง...$0\"/pause 300/globalFade/viewport -1000 -1000/warp Susan 54 38/warp farmer 53 39/faceDirection Susan 0/faceDirection farmer 0/viewport 48 38 true/pause 600/emote Susan 8/pause 300/speak Susan \"@ ที่นี่ไม่มีถ้ำ มีแต่กำแพงหินแข็งๆ$2#$b#ทุกอย่างโอเคไหม? คุณได้กินข้าวบ้างหรือเปล่า? ที่รัก... คุณทำงานหนักเกินไปนะ$2\"/pause 800/faceDirection Susan 3/pause 300/faceDirection farmer 1/pause 600/speak Susan \"ฉันจะกลับไปเก็บองุ่นแล้วล่ะ$0#$b#เดือนหน้าฉันมีกำหนดส่งไวน์ ดังนั้นฉันต้องรีบเอาพวกมัน ใส่ในถังบ่มแล้วล่ะ$0\"/pause 200/globalFade/viewport -1000 -1000/stopMusic/pause 1000/message \"ซูซานมองไม่เห็นถ้ำ... คุณสงสัยว่ามีใครสามารถ มองเห็นถ้ำนี้ได้อีกบ้าง?\"/pause 700/end dialogue Susan \"ตอนนี้ฉันก็ยังไม่รู้ว่า ถ้ำที่เธอพูดถึง คืออะไรของเธอ ที่รัก$0\"",
 	 },
@@ -18498,7 +18668,8 @@
       "Action": "EditMap",
       "Target": "Maps/Island_SE",
       "FromFile": "Assets/Maps/MapPatches/LanceBeach3.tbin",
-      "ToArea": { "X": 23, "Y": 28, "Width": 1, "Height": 3 },
+      "ToArea": { "X": 23, "Y": 27, "Width": 1, "Height": 3 },
+	  "PatchMode": "Overlay",
 	  "When": { "HasSeenEvent": "6951319", "Day": "26", "Weather": "Sun" }
     },
 	
