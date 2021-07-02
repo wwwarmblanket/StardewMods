@@ -3809,33 +3809,33 @@
 	"Entries": {
 
 	 //Crops
-	 "Pantry/0": "Spring Crops/O 465 20/24 5 0 188 5 0 190 5 0 192 5 0/0",
-     "Pantry/1": "Summer Crops/O 621 1/256 5 0 260 5 0 258 5 0 254 5 0/3",
-     "Pantry/2": "Fall Crops/BO 10 1/270 5 0 272 5 0 276 5 0 280 5 0/2",
-     "Pantry/3": "Quality Crops/BO 15 1/24 10 2 254 10 2 276 10 2 270 10 2/6/3",
-     "Pantry/4": "Animal/BO 16 1/186 5 0 182 5 0 174 5 0 438 5 0 440 5 0 442 5 0 639 5 0 640 5 0 641 5 0 642 5 0 643 5 0/4/5",
-     "Pantry/5": "Artisan/BO 12 1/432 3 0 428 3 0 426 3 0 424 3 0 340 3 0 344 3 0 613 3 0 634 3 0 635 3 0 636 3 0 637 3 0 638 3 0/1/6",
+	 "Pantry/0": "พืชผลฤดูใบไม้ผลิ/O 465 20/24 5 0 188 5 0 190 5 0 192 5 0/0",
+     "Pantry/1": "พืชผลฤดูร้อน/O 621 1/256 5 0 260 5 0 258 5 0 254 5 0/3",
+     "Pantry/2": "พืชผลฤดูใบไม้ร่วง/BO 10 1/270 5 0 272 5 0 276 5 0 280 5 0/2",
+     "Pantry/3": "พืชผลคุณภาพดี/BO 15 1/24 10 2 254 10 2 276 10 2 270 10 2/6/3",
+     "Pantry/4": "สัตว์/BO 16 1/186 5 0 182 5 0 174 5 0 438 5 0 440 5 0 442 5 0 639 5 0 640 5 0 641 5 0 642 5 0 643 5 0/4/5",
+     "Pantry/5": "แปรรูป/BO 12 1/432 3 0 428 3 0 426 3 0 424 3 0 340 3 0 344 3 0 613 3 0 634 3 0 635 3 0 636 3 0 637 3 0 638 3 0/1/6",
 	 
 	 //Fishing
-     "Fish Tank/6": "River Fish/O 685 30/145 1 0 143 1 0 706 1 0 699 1 0 {{spacechase0.JsonAssets/ObjectId:Minnow}} 1 0/6",
-     "Fish Tank/7": "Lake Fish/O 687 1/136 3 0 142 3 0 700 1 0 698 1 0/0",
-     "Fish Tank/8": "Ocean Fish/O 690 5/131 1 0 130 1 0 150 1 0 701 1 0 {{spacechase0.JsonAssets/ObjectId:Clownfish}} 1 0/5",
-     "Fish Tank/9": "Night Fishing/R 516 1/140 1 0 132 1 0 148 1 0/1",
-     "Fish Tank/10": "Specialty Fish/O 242 5/128 1 0 156 1 0 164 1 0 734 1 0 {{spacechase0.JsonAssets/ObjectId:Butterfish}} 1 0/4",
-     "Fish Tank/11": "Crab Pot/O 710 3/715 1 0 716 1 0 717 1 0 718 3 0 719 5 0 720 1 0 721 1 0 722 1 0 723 5 0 372 5 0/1/5",
+     "Fish Tank/6": "ปลาแม่น้ำ/O 685 30/145 1 0 143 1 0 706 1 0 699 1 0 {{spacechase0.JsonAssets/ObjectId:Minnow}} 1 0/6",
+     "Fish Tank/7": "ปลาทะเลสาบ/O 687 1/136 3 0 142 3 0 700 1 0 698 1 0/0",
+     "Fish Tank/8": "ปลาทะเล/O 690 5/131 1 0 130 1 0 150 1 0 701 1 0 {{spacechase0.JsonAssets/ObjectId:Clownfish}} 1 0/5",
+     "Fish Tank/9": "ปลากลางคืน/R 516 1/140 1 0 132 1 0 148 1 0/1",
+     "Fish Tank/10": "ปลาพิเศษ/O 242 5/128 1 0 156 1 0 164 1 0 734 1 0 {{spacechase0.JsonAssets/ObjectId:Butterfish}} 1 0/4",
+     "Fish Tank/11": "กับดักปู/O 710 3/715 1 0 716 1 0 717 1 0 718 3 0 719 5 0 720 1 0 721 1 0 722 1 0 723 5 0 372 5 0/1/5",
 
 	 //Foraging
-     "Crafts Room/13": "Spring Foraging/O 495 30/16 3 0 18 3 0 20 3 0 22 3 0/0",
-     "Crafts Room/14": "Summer Foraging/O 496 30/396 5 0 398 5 0 402 5 0/3",
-     "Crafts Room/15": "Fall Foraging/O 497 30/404 5 0 406 5 0 408 5 0 410 99 0/2",
-     "Crafts Room/16": "Winter Foraging/O 498 30/412 3 0 414 5 0 416 3 0 418 5 0/6",
-     "Crafts Room/17": "Construction/BO 114 1/388 200 0 388 400 0 390 300 0 709 80 0/4",
-     "Crafts Room/19": "Exotic Foraging/O 235 5/88 3 0 90 3 0 78 3 0 420 5 0 422 3 0 724 3 0 725 3 0 726 3 0 257 2 0/1/5",
+     "Crafts Room/13": "ของป่าฤดูใบไม้ผลิ/O 495 30/16 3 0 18 3 0 20 3 0 22 3 0/0",
+     "Crafts Room/14": "ของป่าฤดูร้อน/O 496 30/396 5 0 398 5 0 402 5 0/3",
+     "Crafts Room/15": "ของป่าฤดูใบไม้ร่วง/O 497 30/404 5 0 406 5 0 408 5 0 410 99 0/2",
+     "Crafts Room/16": "ของป่าฤดูหนาว/O 498 30/412 3 0 414 5 0 416 3 0 418 5 0/6",
+     "Crafts Room/17": "สิ่งปลูกสร้าง/BO 114 1/388 200 0 388 400 0 390 300 0 709 80 0/4",
+     "Crafts Room/19": "ของป่าพิศดาร/O 235 5/88 3 0 90 3 0 78 3 0 420 5 0 422 3 0 724 3 0 725 3 0 726 3 0 257 2 0/1/5",
 
 	 //Mining + Adventuring
-     "Boiler Room/20": "Blacksmith's/BO 13 3/334 3 0 335 5 0 336 10 0/2",
-     "Boiler Room/21": "Geologist's/O 749 10/80 5 0 86 3 0 84 3 0 82 5 0/1",
-     "Boiler Room/22": "Adventurer's/O {{spacechase0.JsonAssets/ObjectId:Hero Elixir}} 5/766 50 0 684 20 0 767 15 0 768 30 0 769 30 0/1",
+     "Boiler Room/20": "วิถีช่างตีเหล็ก/BO 13 3/334 3 0 335 5 0 336 10 0/2",
+     "Boiler Room/21": "วิถีนักธรณีวิทยา/O 749 10/80 5 0 86 3 0 84 3 0 82 5 0/1",
+     "Boiler Room/22": "วิถีนักผจญภัย/O {{spacechase0.JsonAssets/ObjectId:Hero Elixir}} 5/766 50 0 684 20 0 767 15 0 768 30 0 769 30 0/1",
 
 	 //Money
      "Vault/23": "7,500g/O 220 5/-1 7500 7500/4",
@@ -3844,14 +3844,14 @@
      "Vault/26": "70,000g/BO 21 1/-1 70000 70000/1",
 
 	 //Miscellaneous
-     "Bulletin Board/31": "Chef's/O 221 5/724 3 0 259 5 0 430 3 0 376 5 0 228 1 0 194 1 0 {{spacechase0.JsonAssets/ObjectId:Glazed Butterfish}} 1 0/4",
-     "Bulletin Board/32": "Field Research/BO 20 1/422 3 0 392 1 0 702 1 0 536 5 0/5",
-     "Bulletin Board/33": "Enchanter's/O 337 3/{{spacechase0.JsonAssets/ObjectId:Frog}} 1 0 305 1 0 446 1 0 {{spacechase0.JsonAssets/ObjectId:Aged Blue Moon Wine}} 1 0/1",
-     "Bulletin Board/34": "Dye/BO 25 1/420 5 0 397 5 0 421 5 0 444 1 0 62 1 0 266 1 0/6",
-     "Bulletin Board/35": "Fodder/BO 104 1/262 30 0 178 99 0 613 3 0/3",
+     "Bulletin Board/31": "วิถีเชฟ/O 221 5/724 3 0 259 5 0 430 3 0 376 5 0 228 1 0 194 1 0 {{spacechase0.JsonAssets/ObjectId:Glazed Butterfish}} 1 0/4",
+     "Bulletin Board/32": "วิจัยภาคสนาม/BO 20 1/422 3 0 392 1 0 702 1 0 536 5 0/5",
+     "Bulletin Board/33": "วิถีผู้วิเศษ/O 337 3/{{spacechase0.JsonAssets/ObjectId:Frog}} 1 0 305 1 0 446 1 0 {{spacechase0.JsonAssets/ObjectId:Aged Blue Moon Wine}} 1 0/1",
+     "Bulletin Board/34": "สีย้อม/BO 25 1/420 5 0 397 5 0 421 5 0 444 1 0 62 1 0 266 1 0/6",
+     "Bulletin Board/35": "อาหารสัตว์/BO 104 1/262 30 0 178 99 0 613 3 0/3",
 
 	 //Movie Theater Unlock
-     "Abandoned Joja Mart/36": "The Missing//348 1 3 807 1 0 74 1 0 454 10 2 {{spacechase0.JsonAssets/ObjectId:Void Eel}} 1 0 445 1 0/1/5"
+     "Abandoned Joja Mart/36": "สิ่งที่สูญหาย//348 1 3 807 1 0 74 1 0 454 10 2 {{spacechase0.JsonAssets/ObjectId:Void Eel}} 1 0 445 1 0/1/5"
 	},
 	"When": { "HarderBundles": true, "HasMod |contains=alja.CPCCCB": false, "HasMod |contains=minervamaga.CP.HarderCCBundles": false, "HasMod |contains=Chaos234.CommunityCenterBundleOverhaul": false, "HasMod |contains=MoreFish": false, "HasMod |contains=Chaos234.CommunityCenterBundleOverhaul": false }
 },*/
