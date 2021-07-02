@@ -2680,7 +2680,7 @@
    "When": { "HasMod |contains=MoreFish": false },
    "Entries": {
    "{{spacechase0.JsonAssets/ObjectId:Puppyfish}}": "92/float",
-   "{{spacechase0.JsonAssets/ObjectId:Void Eel}}": "93/fish",
+   "{{spacechase0.JsonAssets/ObjectId:Void Eel}}": "93/eel",
    "{{spacechase0.JsonAssets/ObjectId:Clownfish}}": "94/fish",
    "{{spacechase0.JsonAssets/ObjectId:Minnow}}": "95/fish",
    "{{spacechase0.JsonAssets/ObjectId:King Salmon}}": "96/fish",
@@ -2705,7 +2705,7 @@
    "When": { "HasMod |contains=MoreFish": true },
    "Entries": {
    "{{spacechase0.JsonAssets/ObjectId:Puppyfish}}": "92/float",
-   "{{spacechase0.JsonAssets/ObjectId:Void Eel}}": "93/fish",
+   "{{spacechase0.JsonAssets/ObjectId:Void Eel}}": "93/eel",
    "{{spacechase0.JsonAssets/ObjectId:Minnow}}": "95/fish",
    "{{spacechase0.JsonAssets/ObjectId:King Salmon}}": "96/fish",
    "{{spacechase0.JsonAssets/ObjectId:Razor Trout}}": "97/fish",
@@ -6397,19 +6397,11 @@
 	"Action": "Load",
 	"Target": "Maps/SandyHouse",
 	"FromFile": "assets/maps/locations/SandyHouse.tbin",
-	"When": { "HasMod |contains=foggy.LfL": false },
 },
 {
      "Action": "EditMap",
      "Target": "Maps/SandyHouse",
-     "When": { "HasMod |contains=foggy.LfL": false, },
      "MapProperties": { "Warp": "4 10 Desert 20 15 17 0 Club 8 13 1 5 Custom_Sandy_WarpRoom 3 3" }
-},
-{
-     "Action": "EditMap",
-     "Target": "Maps/SandyHouse",
-     "When": { "HasMod": "foggy.LfL" },
-     "MapProperties": { "Warp": "4 10 Desert 20 15 17 1 Club 8 13" }
 },
 {
      "Action": "Load",
@@ -14633,7 +14625,7 @@
       //Wizard's Schedule
       "Action": "Load",
       "Target": "Characters/schedules/Wizard",
-	  "When": { "HasMod |contains=foggy.LfL, misscoriel.razolyn": false, "HasSeenEvent": "112" },
+	  "When": { "HasMod |contains=misscoriel.razolyn": false, "HasSeenEvent": "112" },
       "FromFile": "assets/CharacterFiles/Schedules/Magnus/WizardSchedule.json"
     },
 	
@@ -18651,7 +18643,7 @@
       "Target": "Maps/Island_W",
       "FromFile": "Assets/Maps/MapPatches/LanceBeach1.tbin", 
       "ToArea": { "X": 88, "Y": 93, "Width": 1, "Height": 3 },
-	  "When": { "HasSeenEvent": "6951319", "Day": "3", "Weather": "Sun" }
+	  "When": { "HasSeenEvent": "6951319", "Day": "3", "Weather: island": "Sun" }
     },
 	
 	{  
@@ -18659,8 +18651,9 @@
       "Action": "EditMap",
       "Target": "Maps/Island_W",
       "FromFile": "Assets/Maps/MapPatches/LanceBeach2.tbin",
-      "ToArea": { "X": 103, "Y": 88, "Width": 1, "Height": 3 },
-	  "When": { "HasSeenEvent": "6951319", "Day": "14", "Weather": "Sun" }
+      "ToArea": { "X": 103, "Y": 87, "Width": 1, "Height": 3 },
+	  "PatchMode": "Overlay",
+	  "When": { "HasSeenEvent": "6951319", "Day": "14", "Weather: island": "Sun" }
     },
 	
 	{  
@@ -18670,7 +18663,7 @@
       "FromFile": "Assets/Maps/MapPatches/LanceBeach3.tbin",
       "ToArea": { "X": 23, "Y": 27, "Width": 1, "Height": 3 },
 	  "PatchMode": "Overlay",
-	  "When": { "HasSeenEvent": "6951319", "Day": "26", "Weather": "Sun" }
+	  "When": { "HasSeenEvent": "6951319", "Day": "26", "Weather: island": "Sun" }
     },
 	
 	{  
@@ -21141,7 +21134,6 @@
 	 //Edits Sandy's spawn point to a warp room
      "Action": "EditData",
      "Target": "Data/NPCDispositions",
-	 "When": { "HasMod |contains=foggy.LfL": false },
      "Entries": { 
 	 "Sandy": "adult/neutral/outgoing/positive/female/not-datable/null/Desert/fall 15/Emily ''/SandyHouse 2 5/Sandy" 
 	 }
@@ -21150,14 +21142,13 @@
 {    //SANDY SCHEDULE - Default
 	 "Action": "Load",
 	 "Target": "characters/schedules/Sandy",
-	 "When": { "HasMod |contains=foggy.LfL": false },
 	 "FromFile": "Assets/CharacterFiles/Schedules/Sandy/ShopSchedule.json",
 },
 
 {    //SANDY SCHEDULE - Visits Stardew Valley
 	 "Action": "EditData",
 	 "Target": "characters/schedules/Sandy",
-	 "When": { "Hearts:Sandy": "5, 6, 7, 8, 9, 10", "HasMod |contains=foggy.LfL": false, "HasSeenEvent |contains=5553210": false },
+	 "When": { "Hearts:Sandy": "5, 6, 7, 8, 9, 10", "HasSeenEvent |contains=5553210": false },
 	 "Entries": {
      "6": "0 Custom_Sandy_WarpRoom 3 4 2/840 HaleyHouse 13 20 2/1010 HaleyHouse 13 20 1/1100 HaleyHouse 20 6 3/1300 Town 22 64 1/1500 Town 101 68 0/1720 Saloon 17 20 0/2310 Saloon 17 20 2/2330 HaleyHouse 19 4 1",
 	 "13": "0 Custom_Sandy_WarpRoom 3 4 2/810 Beach 53 24 2/1300 Forest 71 50 2/1730 HaleyHouse 7 16 0/2010 HaleyHouse 5 20 2/2200 HaleyHouse 21 4 0",
@@ -21169,7 +21160,7 @@
 {    //SANDY SCHEDULE - Visits Stardew Valley (joja route)
 	 "Action": "EditData",
 	 "Target": "characters/schedules/Sandy",
-	 "When": { "Hearts:Sandy": "5, 6, 7, 8, 9, 10", "HasMod |contains=foggy.LfL": false, "HasSeenEvent": "5553210" },
+	 "When": { "Hearts:Sandy": "5, 6, 7, 8, 9, 10", "HasSeenEvent": "5553210" },
 	 "Entries": {
      "6": "0 Custom_Sandy_WarpRoom 3 4 2/840 HaleyHouse 13 20 2/1010 HaleyHouse 13 20 1/1100 HaleyHouse 20 6 3/1300 Town 22 64 1/1500 Town 103 98 2/1720 Saloon 17 20 0/2310 Saloon 17 20 2/2330 HaleyHouse 19 4 1",
 	 "13": "0 Custom_Sandy_WarpRoom 3 4 2/810 Beach 53 24 2/1300 Forest 71 50 2/1730 HaleyHouse 7 16 0/2010 HaleyHouse 5 20 2/2200 HaleyHouse 21 4 0",
@@ -21181,7 +21172,7 @@
 {    //SANDY DIALOGUE - Visits Stardew Valley
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/Sandy",
-	 "When": { "Hearts:Sandy": "5, 6, 7, 8, 9, 10", "HasMod |contains=foggy.LfL": false },
+	 "When": { "Hearts:Sandy": "5, 6, 7, 8, 9, 10" },
 	 "Entries": {
      "Sat": "หวัดดี @! แปลกใจละสิ ที่เห็นฉันในสตาร์ดิวแวลลีวันนี้?$0#$e#แล้ว... ตอนนี้ฟาร์มเข้าที่เข้าทางรึยังจ๊ะ?$1",
 	 "HaleyHouse_13_20": "วันนี้ฉันจะอยู่กับเอมิลีทั้งวัน!$1",
@@ -21202,7 +21193,7 @@
 {    //Emily string fix
 	 "Action": "EditData",
 	 "Target": "Characters/Dialogue/rainy",
-	 "When": { "Hearts:Sandy": "5, 6, 7, 8, 9, 10", "HasMod |contains=foggy.LfL": false, "HasMod": "gizzymo.canonfriendlyexpansion" },
+	 "When": { "Hearts:Sandy": "5, 6, 7, 8, 9, 10", "HasMod": "gizzymo.canonfriendlyexpansion" },
 	 "Entries": {
      "Emily": "ถ้าคุณยืนอยู่กลางสายฝน แล้วลองตั้งใจฟังดีๆ เสียงเม็ดฝนจะเหมือนกับ เสียงกระซิบคุยกันเลยล่ะ$0",
      },
@@ -21213,7 +21204,7 @@
      "Target": "Maps/SandyHouse",
      "FromFile": "Assets/Maps/MapPatches/SandyHouseNoShop.tbin",
      "ToArea": { "X": 1, "Y": 6,"Width": 3, "Height": 1 },
-     "When": { "Hearts:Sandy": "5, 6, 7, 8, 9, 10", "DayOfWeek": "Saturday", "HasMod |contains=foggy.LfL": false },
+     "When": { "Hearts:Sandy": "5, 6, 7, 8, 9, 10", "DayOfWeek": "Saturday" },
 },
 
 {    //Removes Sandy's Shop tile action for the day - community day
@@ -21221,7 +21212,7 @@
      "Target": "Maps/SandyHouse",
      "FromFile": "Assets/Maps/MapPatches/SandyHouseNoShop.tbin",
      "ToArea": { "X": 1, "Y": 6,"Width": 3, "Height": 1 },
-     "When": { "Hearts:Sandy": "5, 6, 7, 8, 9, 10", "HasSeenEvent": "191393", "Day": "22", "HasMod |contains=foggy.LfL": false },
+     "When": { "Hearts:Sandy": "5, 6, 7, 8, 9, 10", "HasSeenEvent": "191393", "Day": "22" },
 },
 
 {    //Sandy's birthday - SANDY
@@ -27003,78 +26994,7 @@
      "Action": "EditImage",
 	 "Target": "Portraits/Sandy",
 	 "FromFile": "Assets/CharacterFiles/Portraits/Sandy/Sandy.png",
-	 "When": { "VanillaSandyPortraits": false, "HasMod |contains=foggy.LfL": false },
-},
-
-{
-	 "Action": "EditData",
-	 "Target": "characters/schedules/Marnie",
-	 "When": { "HasMod": "foggy.LfL" },
-	 "Entries": {
-     "Mon": "700 Forest 55 27 0/900 Forest 51 24 1/1000 Forest 55 21 2/1020 Forest 56 21 0/1100 Forest 59 21 0/1130 Forest 61 23 3/1200 Forest 80 15 0/1330 Custom_MarnieShed 7 5 0/1600 Custom_MarnieShed 14 7 0/1700 Custom_MarnieShed 12 5 0/1800 Custom_MarnieShed 11 6 0/2100 AnimalShop 12 5 3 marnie_sleep",
-     "winter_Mon": "630 Custom_MarnieShed 7 5 0/900 Custom_MarnieShed 13 5 1/1000 Custom_MarnieShed 15 7 1/1100 Custom_MarnieShed 4 6 0/1200 SeedShop 11 20 0/1700 AnimalShop 24 15 0/2100 AnimalShop 12 5 3 marnie_sleep"
-     },
-},
-
-{
-	 "Action": "EditData",
-	 "Target": "characters/schedules/Wizard",
-	 "When": { "HasMod": "foggy.LfL" },
-	 "Entries": {
-     "rain": "610 WizardHouse 1 5 0/900 WizardHouse 3 19 2/950 WizardHouse 2 22 0/1030 WizardHouse 1 19 0/1100 WizardHouse 3 22 0/1130 WizardHouse 8 13 0/1200 Custom_WizardBasement 23 6 2 Wizard_Meditate/1630 WizardHouse 5 17 2/1800 WizardHouse 10 17 2 Wizard_Meditate/2000 WizardHouse 5 17 2",
-     "Mon": "610 WizardHouse 1 5 0/900 WizardHouse 3 19 2/950 WizardHouse 2 22 0/1030 WizardHouse 1 19 0/1100 WizardHouse 3 22 0/1130 WizardHouse 8 13 0/1200 Custom_WizardBasement 23 6 2 Wizard_Meditate/1630 WizardHouse 5 17 2/1800 WizardHouse 10 17 2 Wizard_Meditate/2000 WizardHouse 5 17 2",
-     "Tue": "930 WizardHouse 3 22 0/1130 WizardHouse 2 17 3/1150 WizardHouse 8 13 0/1240 WizardHouse 10 17 2 Wizard_Meditate/1600 WizardHouse 3 19 2 Wizard_LookDown/1700 WizardHouse 4 17 2",
-     "Wed": "900 WizardHouse 3 17 1/1130 Custom_WizardBasement 23 6 2 Wizard_Meditate/1800 Custom_WizardBasement 14 5 0/1840 Custom_WizardBasement 18 5 0/1940 WizardHouse 3 22 0/2120 WizardHouse 4 17 2",
-     "Thu": "630 WizardHouse 10 17 2 Wizard_Meditate/1210 WizardHouse 10 29 0/1240 WizardHouse 11 32 1/1300 WizardHouse 7 32 3/1320 WizardHouse 2 29 0/1340 WizardHouse 2 29 3/1400 WizardHouse 5 17 2",
-     "Fri": "610 WizardHouse 2 17 3/630 Custom_WizardBasement 4 18 3/730 Custom_WizardBasement 4 16 3/750 Custom_WizardBasement 4 14 3/820 Custom_WizardBasement 4 10 3/850 Custom_WizardBasement 10 13 0/920 Custom_WizardBasement 11 13 0/940 Custom_WizardBasement 13 13 0/1000 Custom_WizardBasement 19 13 0/1020 Custom_WizardBasement 21 13 0/1040 Custom_WizardBasement 14 5 0/1110 Custom_WizardBasement 19 5 0/1130 Custom_WizardBasement 23 5 0/1210 WizardHouse 4 17 2/1330 Forest 12 27 2 Wizard_Meditate/1640 WizardHouse 4 17 2/1740 WizardHouse 3 22 0/1840 WizardHouse 3 17 2",
-     "Sat": "730 WizardHouse 5 17 2",
-     "Sun": "610 WizardHouse 5 17 2/630 Forest 14 28 2 Wizard_Meditate/830 WizardHouse 5 15 2/1050 Forest 10 24 0/1140 Forest 4 23 3/1220 Forest 1 24 1/1240 Forest 2 26 0/1300 WizardHouse 8 13 0/1400 WizardHouse 2 17 3/1430 WizardHouse 10 17 2 Wizard_Concentrate2/1600 WizardHouse 4 17 2",
-     "22": "810 WizardHouse 10 17 2 Wizard_Meditate/1130 AdventureGuild 4 13 0/2200 WizardHouse 3 17 2",
-     "12": "620 WizardHouse 3 22 0/900 Custom_ForestWest 52 117 0 Wizard_Concentrate/1900 WizardHouse 4 17 2",
-	 "summer": "GOTO spring",
-	 "fall": "GOTO spring",
-	 "spring": "700 WizardHouse 2 17 2/1000 Forest 13 28 1 \"Strings\\schedules\\Wizard:spring.000\"/1200 Woods 7 7 2 \"Strings\\schedules\\Wizard:spring.001\"/1700 WizardHouse 10 17 2 Wizard_Meditate",
-	 "fall_26": "700 Town 50 61 3 \"Strings\\schedules\\Wizard:fall_26.000\"/1200 Town 26 29 2 \"Strings\\schedules\\Wizard:fall_26.000\"/1500 Town 21 63 1 \"Strings\\schedules\\Wizard:fall_26.000\"/1800 WizardHouse 10 17 2 Wizard_Meditate",
- 	 "fall_27": "700 Town 50 61 3/2200 WizardHouse 4 17 2",
-	 "winter": "700 WizardHouse 2 17 2/1200 WizardHouse 10 13 0/1900 WizardHouse 4 17 2",
-	 "marriage_Thu": "800 WizardHouse 5 17 2 \"Strings\\schedules\\Wizard:marriage_Thu.000\"/1200 Woods 7 7 0 \"Strings\\schedules\\Wizard:marriage_Thu.001\"/1700 Forest 68 -1 0"
-     },
-},
-
-{
-	 "Action": "EditData",
-	 "Target": "Data/Events/Mountain",
-	 "When": { "HasMod": "foggy.LfL" },
-	 "Entries": {
-	 "282815613/D Linus/f Linus 2000/w sunny/t 1400 2100": "continue/29 9/farmer 23 20 0 Linus 30 9 3 Jas -100 -100 1 Vincent -101 -101 1/specificTemporarySprite linusCampfire/pause 1000/move farmer 0 -11 0/emote Linus 16/speak Linus \"โอ้ @! ดีใจที่ได้พบคุณนะ!$h\"/faceDirection farmer 1/emote farmer 32/pause 500/speak Linus \"คุณทานข้าวเย็นมาหรือยัง? ผมกำลังย่างปลาล่ะ แล้วมันก็มีเพียบเลย ถ้าคุณอยากจะอยู่ด้วยน่ะนะ$h\"/question fork1 \"#ด้วยความเต็มใจเลยล่ะ#ฉันยุ่งน่ะ ขอโทษทีนะ\"/fork noDinner/pause 200/speak Linus \"จริงเหรอ? เยี่ยมเลย!$h#$b#ผมเพิ่งจะทานเสร็จ... ทำไมคุณไม่ไปรอ ในเต๊นท์ของผมล่ะ?$h\"/pause 200/emote farmer 32/move farmer 5 0 0/move farmer 0 -1 1/move farmer 1 0 0/move farmer 0 -1 0/warp farmer 2 3/globalFade/viewport -1000 -1000/changeLocation Tent/viewport -1000 -1000/warp Linus -103 -103/faceDirection farmer 2/viewport 2 3 true/pause 1500/emote farmer 40/pause 2000/faceDirection Linus 0/warp Linus 2 5/move Linus 0 -1 0/speak Linus \"ขอโทษที่ให้รอนะ! แต่ผมคิดว่ามันจะคุ้มค่า แน่นอน!$h#$b#ปลาย่างใหม่ๆ !$h\"/pause 500/emote farmer 32/pause 500/move Linus 1 0 0/move Linus 0 -1 2/pause 1000/speak Linus \"$q -1 null#ชอบเข้าไปได้ไงเนี่ย?#$r -1 0 event_dinner1#มันอร่อยจังเลย!#$r -1 0 event_dinner2#ฉันเคยกินที่ดีกว่านี้\"/pause 2000/speak Linus \"คุณก็รู้ @ ผม--\"/playSound drumkit1/playSound drumkit1/pause 200/playSound drumkit1/playSound drumkit1/emote Linus 16/playSound drumkit1/playSound drumkit1/playSound drumkit1/message \"คุณคงได้ยินเสียง หินกระทบเต๊นท์สินะ\"/emote farmer 16/playSound drumkit1/playSound drumkit1/playSound drumkit1/speed farmer 4/move farmer 0 2 2/warp farmer 29 7/globalFade/viewport -1000 -1000/changeLocation Mountain/viewport -1000 -1000/faceDirection farmer 2/warp Jas 23 9/faceDirection Jas 1/warp Vincent 24 8/faceDirection Vincent 1/viewport 27 9 true/move farmer 0 1 3/move farmer -2 0 3/emote Jas 16/emote Vincent 16/pause 200/speak Vincent \"พี่ @? ต-แต่ ผู้ชายในเต๊นท์ที่ดูน่ากลัวๆ หายไปไหนแล้วล่ะ?!$3^พี่ @? ต-แต่ ผู้ชายในเต๊นท์ที่ดูน่ากลัวๆ หายไปไหนแล้วล่ะ?!$3\"/speak Jas \"ด-ด-ได้โปรด อย่าบอกป้ามานีเลยนะคะ พี่ @! วินเซนท์บังคับให้หนูทำค่ะ!$2^ด-ด-ได้โปรด อย่าบอกป้ามานีเลยนะคะ พี่ @! วินเซนท์บังคับให้หนูทำค่ะ!$2\"/speak Vincent \"ป-เปล่านะ! ไม่ใช่ผมนะ!!$2\"/pause 500/warp Linus 29 7/move Linus 0 1 3/move Linus -1 0 2/move Linus 0 1 3/move Linus -3 0 0/emote Vincent 16/emote Jas 16/speak Vincent \"มนุษย์เต๊นท์ขนดกที่น่ากลัว!!!$3\"/speak Jas \"เขาจะโจมตีพวกเราแล้ว วินเซนท์! วิ่งเร็ว!!$2\"/question fork1 \"ฉันควรจะพูดอะไรรึเปล่านะ...?#ฉันรับไม่ได้ ลีนัสเป็นคนใจดีและ พวกเธอจะได้ได้บทเรียน จากการทำแบบนี้แน่ๆ#ไม่พูดอะไร\"/fork terroristsWin/pause 200/speak Jas \"โอเค! พวกเราขอโทษค่ะ คุณลีนัส... ใช่ไหม วินเซนท์?$2\"/speak Vincent \"ใช่ครับ! ขอโทษจริงๆ !$2#$b#เร็วเข้า แจส รีบออกไปจากที่นี่กันเถอะ!!$2\"/speed Jas 4/move Jas -10 0 3/warp Jas -110 -100/speed Vincent 5/move Vincent -11 0 3/warp Vincent -111 -100/pause 2000/speed farmer 3/move farmer 0 1 3/move farmer -1 0 3/pause 500/faceDirection Linus 1/speak Linus \"ผมเสียใจที่เธอต้องมาเห็น อะไรแบบนั้นนะ @$s\"/pause 500/speak Linus \"แต่... การที่คุณยืนหยัดเพื่อผมแบบนั้น มันมีความหมายกับผมมาก#$b#คุณเป็นคนเพียงคนเดียว ที่ไม่ได้มองผมเป็น สัตว์ประหลาด$s\"/pause 2000/speak Linus \"@... ขอบคุณที่อยู่ที่นี่เพื่อผมนะ คุณเป็นเพื่อนที่ดีจริงๆ#$b#เอาล่ะ... มาจัดการมื้อค่ำกันดีไหม?$h\"/emote farmer 32/pause 1500/globalFade/viewport -1000 -1000/end position 23 9",
-	 "noDinner": "pause 200/speak Linus \"โอ้ แน่นอน... งั้นไว้เป็นคราวหน้าก็แล้วกัน#$b#ไว้มาใหม่นะ$h\"/pause 1000/end position 23 9",
-	 "terroristsWin": "speed Jas 4/move Jas -10 0 3/warp Jas -110 -100/speed Vincent 5/move Vincent -11 0 3/warp Vincent -111 -100/speak Linus \"...$s\"/pause 2000/speak Linus \"ผม... ผมเสียใจเกี่ยวกับเรื่องนั้นนะ @$s#$b#มัน... เกิดขึ้นไม่บ่อย แต่...$s\"/pause 1500/move Linus 3 0 1/speak Linus \"ขอโทษนะ @... ผมอยากจะอยู่คนเดียวซักพัก$s\"/pause 500/speak Linus \"ผมจะแวะไปหานะ...$s\"/end warpOut",
-	 "282815614/D Linus/f Linus 2500/e 282815615/w sunny/t 1700 2100/n linusSleepover": "nightTime/29 9/farmer 23 20 0 Linus 30 9 3/specificTemporarySprite linusCampfire/pause 1000/move farmer 0 -11 1/emote Linus 16/speak Linus \"@! คุณมาด้วย!$h\"/emote farmer 32/move farmer 5 0 1/emote Linus 32/speak Linus \"ผมคิดว่าเราค่อยลอง เจ้ามื้อค่ำนี่กันคราวหน้าแล้วกัน... โดยที่ไม่มีอะไรมารบกวนน่ะ$h\"/question fork1 \"#ด้วยความเต็มใจเลยล่ะ#ฉันยุ่งน่ะ ขอโทษทีนะ\"/fork noSleepover/emote Linus 56/speak Linus \"เยี่ยมเลย!$h#$b#อาหารค่ำเพิ่งจะเสร็จ... พวกเรากินตรงนี้เลยแล้วกัน?$h\"/pause 100/emote farmer 32/emote Linus 32/playSound crafting/pause 1000/playSound crafting/pause 500/speak Linus \"คืนนี้ผมลองอะไรใหม่ๆ นิดหน่อน่ะ... หวังว่าคุณจะชอบมันนะ$h\"/message \"ลีนัสยื่นสปาเกตตีจานใหญ่ ให้คุณ\"/pause 500/emote farmer 56/message \"รสชาติเยี่ยมมาก!\"/pause 500/speak Linus \"ผมดีใจที่คุณชอบมันนะ ผมไม่ค่อยได้ทำเมนู ที่ไม่ใช่ปลา แต่ผมดีใจที่ได้ทำอะไร ก็ตามที่คุณชอบ!$h\"/pause 300/emote farmer 32/emote Linus 32/globalFade/viewport -1000 -1000/ambientLight 0 0 0/warp farmer 29 10/faceDirection farmer 0/viewport 29 9 true/pause 2000/speak Linus \"ผมดีใจที่คุณยังกลับมานะ หลังจากที่มีเหตุการณ์ อย่างคราวที่แล้วเกิดขึ้นน่ะ @$h\"/pause 100/emote farmer 8/pause 500/speak Linus \"ผมไม่ค่อยแน่ใจว่า คนส่วนใหญ่จะอยาก ลองอยู่อีกไหม$s#$b#ผมไม่ได้รู้สึกอับอาย กับวิธีการใช้ชีวิตของผม แต่การถูกทุกคนแม้แต่เด็กๆ มองว่าผมอยู่ระดับที่ ต่ำกว่าพวกเขา มันน่าอับอายน่ะ...$s\"/speak Linus \"$q -1 null#มันช่างน่าอายจริงๆ ...#$r -1 0 event_embarrassing1#มันไม่ได้น่าอายนะ คนที่ผิดคือคนพวกนั้นต่างหาก#$r -1 0 event_embarrassing2#มันไม่สำคัญซักหน่อย ฉันจะอยู่เคียงข้างและ ก้าวผ่านทุกๆ อย่างไปด้วยกันกับนายเอง\"/pause 1000/speak Linus \"ผมนี่โชคดีจริงๆ ที่ได้มีคนอย่างคุณอยู่ในชีวิต @$h\"/pause 500/speak Linus \"ผม... ผมรักคุณ$4\"/pause 100/emote farmer 16/pause 200/question fork1 \"#ฉันก็รักนายเหมือนกัน#โทษทีนะ... ฉันไม่ได้รู้สึกเหมือนกันกับนาย\"/fork rejectLinus/speak Linus \"จริงเหรอ? ผมดีใจจริงๆ$4\"/pause 2000/speak Linus \"คืนนี้เป็นคืนที่ยาวนานเนอะ?$4#$b#ไปนอนกันเถอะ...?$4\"/globalFade/viewport -1000 -1000/changeToTemporaryMap Tent2/viewport -1000 -1000/warp farmer 2 3/faceDirection farmer 1/warp Linus 4 3/faceDirection Linus 3/viewport 2 3 true/pause 500/speak Linus \"ผมเอาถุงนอนอันนี้ ออกมากางให้คุณ$h#$b#ผมมั่นใจว่า มันไม่ได้นุ่มสบาย เท่าเตียงของคุณหรอก แต่...$h\"/pause 100/move farmer 1 0 1/emote farmer 32/emote Linus 32/pause 2000/globalFade/viewport -1000 -1000/changeLocation Mountain/viewport -1000 -1000/end position 29 8",
-	 "noSleepover": "pause 200/speak Linus \"โอ้...$s#$b#งั้นไว้เป็นคราวหน้าก็แล้วกัน$s\"/pause 1000/friendship Linus -125/end warpOut",
-	 "rejectLinus": "pause 500/speak Linus \"...$s\"/pause 500/speak Linus \"โอ้$s\"/pause 1000/speak Linus \"@... บางทีมันน่าจะดีกว่านะ ถ้าคุณกลับไปน่ะ$s\"/pause 2000/friendship Linus -250/end warpOut",
-     }
-},
-
-{
-	 "Action": "EditData",
-	 "Target": "Data/Events/WizardHouse",
-	 "When": { "HasMod": "foggy.LfL" },
-	 "Entries": {
-     "282815630/D Wizard/f Wizard 2000/t 1000 2000": "WizardSong/7 19/farmer 9 24 0 Wizard 3 19 2/skippable/pause 1000/speed Wizard 4/move Wizard 0 -1 1/speed Wizard 4/move Wizard 5 0 1/pause 300/emote Wizard 40/pause 1000/speed Wizard 4/move Wizard 0 -3 1/speed Wizard 4/move Wizard 3 0 1/pause 800/emote Wizard 12/pause 1000/faceDirection Wizard 2/pause 500/emote Wizard 40/pause 1000/speed Wizard 4/move Wizard -3 0 2/speed Wizard 4/move Wizard 0 5 1/speed Wizard 4/move Wizard 1 0 1/pause 500/emote Wizard 40/pause 1000/emote Wizard 36/pause 1000/move farmer 0 -2 0/emote farmer 8/pause 500/message \"ราวกับว่าเขาไม่รับรู้ ถึงตัวตนของคุณ...\"/pause 1000/move farmer 0 -1 0/faceDirection Wizard 2/emote Wizard 16/pause 500/speak Wizard \"โอ้ เจ้านั่นเอง$10\"/pause 400/speak Wizard \"ขออภัย... เจ้ามาตอนที่ข้ากำลัง ทำอะไรบางอย่างอยู่พอดี$10\"/pause 400/emote farmer 8/pause 500/speed Wizard 4/move Wizard 0 -1 3/speed Wizard 4/move Wizard -6 0 2/faceDirection farmer 3/pause 500/emote farmer 40/pause 500/message \"อารมณ์ของเขาดูพลุ่งพล่าน\"/pause 1000/emote Wizard 12/pause 1000/move farmer -2 0 0/move farmer 0 -1 3/move farmer -2 0 3/pause 500/emote Wizard 40/faceDirection Wizard 1/pause 500/speak Wizard \"เจ้ายังอยู่ที่นี่?$10\"/pause 1000/faceDirection Wizard 2/pause 500/message \"ดูเหมือนเขา ไม่ได้นอนมาเป็นวันๆ แล้ว...\"/pause 500/question fork1 \"#อยู่ต่อ#ปล่อยเขาไว้คนเดียว\"/fork leaveWizard/pause 1000/emote Wizard 40/pause 500/speak Wizard \"@ เจ้าน่ะอยู่ในสายตาของข้า$10\"/pause 200/emote farmer 28/pause 500/move farmer 0 -3 2/speed Wizard 4/move Wizard 0 -1 1/speed Wizard 4/move Wizard 5 0 1/pause 300/emote Wizard 40/pause 1000/speed Wizard 4/move Wizard 0 -3 1/speed Wizard 4/move Wizard 3 0 1/pause 800/emote Wizard 12/pause 1000/faceDirection Wizard 2/pause 500/emote Wizard 40/pause 1000/speed Wizard 4/move Wizard -3 0 2/speed Wizard 4/move Wizard 0 5 1/speed Wizard 4/move Wizard 1 0 2/pause 500/emote Wizard 40/pause 1000/emote Wizard 36/pause 1500/speak Wizard \"$q -1 null#ดูก็รู่ว่าเขาควรไปนอน... ฉันควรจะพูดอะไรดี?#$r -1 0 event_sleep1#นี่คุณทำงาน มานานแค่ไหนแล้วเนี่ย? คุณดูเหนื่อยมากเลยนะ#$r -1 0 event_sleep2#คุณดูแย่มากเลย มานี่สิ ให้ฉันพาคุณไปนอนนะ#$r -1 0 event_sleep3#คุณกำลังทำอะไรน่ะ? ดูน่าสนใจนะเนี่ย\"/pause 1000/emote Wizard 12/pause 1500/speak Wizard \"ทำไมมันถึงไม่ได้ผลล่ะ...?$11\"/pause 1000/speed Wizard 4/move Wizard 0 -1 3/speed Wizard 4/move Wizard -6 0 2/pause 1500/emote Wizard 40/pause 1000/speed Wizard 4/move Wizard 0 -1 1/speed Wizard 4/move Wizard 5 0 1/pause 300/emote Wizard 40/pause 1000/speed Wizard 4/move Wizard 0 -3 1/speed Wizard 4/move Wizard 3 0 1/pause 800/emote Wizard 12/pause 1000/faceDirection Wizard 2/pause 500/emote Wizard 40/pause 1000/question fork1 \"#หยุดเขา#จากไป\"/fork leaveWizard/pause 1000/move farmer 0 -1 1/move farmer 6 0 0/faceDirection Wizard 2/emote Wizard 8/pause 1000/emote Wizard 40/pause 1500/speak Wizard \"...โอเค... ข้าจะพักสักหน่อย\"/pause 300/emote farmer 32/pause 1000/globalFade/viewport -1000 -1000/warp Wizard 4 5/showFrame Wizard 51/positionOffset Wizard -10 0 0/warp farmer 2 5/faceDirection farmer 1/viewport 6 6 true/pause 2000/emote Wizard 24/pause 1500/emote farmer 40/pause 1500/message \"...ในที่สุด เขาก็หลับ\"/pause 2000/emote Wizard 24/pause 1500/message \"ตอนที่เขาตื่นขึ้นมา เขาจะกลับมาสดชื่นเหมือนเดิม\"/pause 2000/globalFade/viewport -1000 -1000/changeLocation WizardHouse/viewport -1000 -1000/mail wizardNap/friendship Wizard 50/end warpOut",
-	
-	 "leaveWizard": "pause 1000/message \"...บางทีการไม่ไปยุ่งกับเขา น่าจะเป็นทางที่ดีที่สุด\"/pause 500/emote Wizard 12/pause 400/speak Wizard \"คำสาป!$11\"/pause 300/emote farmer 40/pause 1500/end dialogue Wizard \"ไม่ต้องห่วงข้า ป่อนให้ข้าทำงานต่อเถอะ$11\"",
-	
-	 "282815631/D Wizard/f Wizard 2250/t 1000 2000": "moonlightJellies/7 17/farmer 9 24 0 Wizard 4 19 2/skippable/pause 200/move Wizard 5 0 2/speak Wizard \"โอ้ @ เจ้าก็มาด้วย#$b#เยี่ยมจริง! กำลังอยากสนทนากับเจ้า อยู่พอดี$7\"/pause 300/move farmer 0 -2 0/move Wizard 0 2 2/speak Wizard \"ข้าว่ามันถึงเวลาที่เจ้าควรจะ รู้นามจริงของข้าได้แล้ว เจ้าก็คิดเหมือนกัน กับข้าใช่ไหม?$3\"/pause 400/move Wizard 0 -3 0 true/speak Wizard \"เอ็ม. ราสโมเดียส. นั่นคือนามที่ข้า บอกกับเจ้าในคราแรก และมันคือนามจริงของข้า$9\"/pause 400/move Wizard 1 0 1/speak Wizard \"แต่นั่นเป็นเพียง ส่วนหนึ่งเท่านั้น$8\"/move Wizard 0 4 3 true/speak Wizard \"นามนั้นมีพลัง เจ้ารู้ดี ข้าจึงต้องระมัดระวัง มิให้ผู้ที่จักนำมันไปใช้ ในทางที่เสื่อมเสียล่วงรู้ได้$5\"/faceDirection farmer 1/pause 400/speak Wizard \"ข้าเชื่อใจเจ้ามากพอที่จะ บอกให้เจ้ารู้$6\"/faceDirection Wizard 2/speak Wizard \"แมกนัส นามของข้าคือ แมกนัส$4\"/faceDirection Wizard 3/speak Wizard \"หลังจากนี้เป็นต้นไป เมื่อพวกเราอยู่กันตามลำพัง โปรดเรียกข้าอย่างนั้น ได้หรือไม่?$6\"/end dialogue Wizard \"ข้าไม่เคยคิดมาก่อนเลยว่า จะมีคนที่ข้าสามารถเชื่อใจ ได้มากเท่าเจ้าอีก$4\"",
-	 }
-},
-
-{
-	 "Action": "EditData",
-	 "Target": "Data/Events/Mountain",
-	 "When": { "HasMod": "foggy.LfL" },
-	 "Entries": {
-     "282815602/D Clint/f Clint 2500/w sunny/t 1600 2300": "nightTime/79 6/farmer 78 13 0 Clint 79 6 0/skippable/pause 1700/move Clint 0 -3 0/move farmer 0 -3 0/faceDirection Clint 3/pause 1500/showFrame Clint 35/emote Clint 16/jump Clint/showFrame Clint 0/move farmer 0 -2 0/speak Clint \"โอ้! @... ค-คุณมาทำอะไรที่นี่น่ะ?\"/pause 1500/speak Clint \"อะไรนะ? ฉ-ฉัน?$s\"/speak Clint \"$q -1 null#ฉ-ฉันไม่มีแร่เหล็ก สำหรับใช้ในโปรเจกต์ แล้วน่ะ ฉัน... ฉันก็เลยมาที่นี่เพื่อหาเพิ่ม#$r -1 0 event_iron1#ฉันไม่ยักรู้ว่านายก็เป็นนักขุดแร่#$r -1 0 event_iron2#จริงอ่ะ? โปรเจกต์เป็นยังไงบ้าง?#$r -1 0 event_iron3#ฉันไม่เชื่อคุณหรอก\"/pause 1000/speak Clint \"ย-ยังไงก็ตาม... อืม...#$b#ฉ-ฉันจะไปแล้วล่ะ...\"/move Clint 0 7 0/faceDirection farmer 2 true/pause 1000/speak Clint \"เอ้อ... @?\"/pause 1000/faceDirection Clint 2/pause 1500/shake Clint 1000/faceDirection Clint 0/pause 500/speak Clint \"พรุ่งนี้มาที่ร้านของฉันหน่อยนะ ฉัน เอ่อ...$8#$b#ฉ-ฉ-ฉันมีบางอย่าง ที่จะให้คุณน่ะ$8\"/pause 500/move Clint -9 0 3 true/pause 700/faceDirection farmer 3 true/pause 600/globalFade/viewport -1000 -1000/halt/end",		
-	}
+	 "When": { "VanillaSandyPortraits": false },
 },
 
      //Penny's home compatibility patch
