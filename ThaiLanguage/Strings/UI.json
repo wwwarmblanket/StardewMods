@@ -818,6 +818,7 @@
         "ParrotPlatform_Question": "ต้องการใช้เส้นทางด่วนสายนกแก้วหรือไม่?",
         "PlayerLimit": "จำกัดจำนวนผู้เล่น",
         "DisplayAdjustmentText": "กด ขึ้น/ลง เพื่อปรับขนาดหน้าจอ ให้พอดีกับหน้าจอของคุณ",
+        /* Mobile */
         "About_Credit_Mobile": "\n= สร้างโดย ConcernedApe\n< เผยแพร่โดย Chucklefish\n= พอร์ทโดย Sickhead Games\n< กระจายท้องที่ โดย Playism & LocalizeDirect\n= เวอร์ชันมือถือ โดย The Secret Police\n      ",
         "mobile_options_vertical_toolbar": "แถบเครื่องมือแนวตั้ง",
         "mobile_options_menu_side_margin": "เลื่อนในเมนู",
