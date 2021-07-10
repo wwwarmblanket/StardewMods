@@ -83,13 +83,13 @@
             "Target": "Characters/Dialogue/Sam",
             "Entries":
             {
-                "NPC.cs.4442": "I feel sick this morning...I think I'm just nervous. I hope I did the adoption paperwork right.$s",
-                "NPC.cs.4446": "I just feel like sleeping today. I was up late looking for deals on toys and baby clothes...$s#$b#I hope the adoption agency gets back to us soon.$7",
-                "NPC.cs.4443": "I'm tired... can't you make your own breakfast?$s",
-                "NPC.cs.4444": "{{TermofEndearment}}, wow... You and me, adopting a baby... $l#$b#I'm going to give them the best childhood anyone's ever had. I'll be by their side every step of the way.$u",
-                "NPC.cs.4447": "{{TermofEndearment}}, wow... You and me, adopting a baby... $l#$b#I'm going to give them the best childhood anyone's ever had. I'll be by their side every step of the way.$u",
-                "NPC.cs.4445": "{{TermofEndearment}}, I'm stoked about the adoption. I feel like I'm meant to be a dad.$h",
-                "NPC.cs.4448": "{{TermofEndearment}}, I'm stoked about the adoption. I feel like I'm meant to be a dad.$h",
+                "NPC.cs.4442": "เช้านี้รู้สึกไม่ดีเลย... ฉันว่าฉันแค่กังวลน่ะ ฉันหวังว่าฉันกรอกเอกสาร รับเลี้ยงบุตรถูกนะ$s",
+                "NPC.cs.4446": "วันนี้ฉันอยากนอนโง่ๆ อะ เมื่อคืนนอนดึก มัวแต่หาของเล่น กับเสื้อผ้าเด็กลดราคา...$s#$b#หวังว่าบริษัทอุปถัมภ์ จะติดต่อกลับมาเร็วๆ นะ$7",
+                "NPC.cs.4443": "ฉันเหนื่อยอะ... ทำอาหารเช้ากินเอง ไม่ได้เหรอ?$s",
+                "NPC.cs.4444": "{{TermofEndearment}} ว้าว... เธอกับฉัน อุปถัมภ์เด็ก.. $l#$b#ฉันจะทำให้วัยเด็กของเขา ดีที่สุดกว่าทุกคนเลย ฉันจะคอยอยู่ช่วย ทุกๆ ก้าวที่เขาเดินเลย$u",
+                "NPC.cs.4447": "{{TermofEndearment}} ว้าว... เธอกับฉัน อุปถัมภ์เด็ก... $l#$b#ฉันจะทำให้วัยเด็กของเขา ดีที่สุดกว่าทุกคนเลย ฉันจะคอยอยู่ช่วย ทุกๆ ก้าวที่เขาเดินเลย$u",
+                "NPC.cs.4445": "{{TermofEndearment}} ฉันตื่นเต้นเรื่อง อุปถัมภ์มากเลย รู้สึกเหมือนว่า ฉันเกิดมาเพื่อเป็นพ่อเลย$h",
+                "NPC.cs.4448": "{{TermofEndearment}} ฉันตื่นเต้นเรื่อง อุปถัมภ์มากเลย รู้สึกเหมือนว่า ฉันเกิดมาเพื่อเป็นพ่อเลย$h",
             },
             "When":
             {
@@ -102,13 +102,13 @@
             "Target": "Characters/Dialogue/Sam",
             "Entries":
             {
-                "NPC.cs.4442": "I feel sick this morning...I think I'm just nervous. I hope I did the adoption paperwork right.$s",
-                "NPC.cs.4446": "I just feel like sleeping today. I was up late looking for deals on toys and baby clothes...$s#$b#I hope the adoption agency gets back to us soon.$7",
-                "NPC.cs.4443": "I'm tired... can't you make your own breakfast?$s",
-                "NPC.cs.4444": "{{TermofEndearment}}, wow... You and me, adopting a baby... #$b#I'm going to give them the best childhood anyone's ever had. I'll be by their side every step of the way.$u",
-                "NPC.cs.4447": "{{TermofEndearment}}, wow... You and me, adopting a baby... #$b#I'm going to give them the best childhood anyone's ever had. I'll be by their side every step of the way.$u",
-                "NPC.cs.4445": "{{TermofEndearment}}, I'm stoked about the adoption. I feel like I'm meant to be a dad.$h",
-                "NPC.cs.4448": "{{TermofEndearment}}, I'm stoked about the adoption. I feel like I'm meant to be a dad.$h",
+                "NPC.cs.4442": "เช้านี้รู้สึกไม่ดีเลย... ฉันว่าฉันแค่กังวลน่ะ ฉันหวังว่าฉันกรอกเอกสาร รับเลี้ยงบุตรถูกนะ$s",
+                "NPC.cs.4446": "วันนี้ฉันอยากนอนโง่ๆ อะ เมื่อคืนนอนดึก มัวแต่หาของเล่น กับเสื้อผ้าเด็กลดราคา...$s#$b#หวังว่าบริษัทอุปถัมภ์ จะติดต่อกลับมาเร็วๆ นะ$7",
+                "NPC.cs.4443": "ฉันเหนื่อยอะ... ทำอาหารเช้ากินเอง ไม่ได้เหรอ?$s",
+                "NPC.cs.4444": "{{TermofEndearment}} ว้าว... เธอกับฉัน อุปถัมภ์เด็ก.. $l#$b#ฉันจะทำให้วัยเด็กของเขา ดีที่สุดกว่าทุกคนเลย ฉันจะคอยอยู่ช่วย ทุกๆ ก้าวที่เขาเดินเลย$u",
+                "NPC.cs.4447": "{{TermofEndearment}} ว้าว... เธอกับฉัน อุปถัมภ์เด็ก.. $l#$b#ฉันจะทำให้วัยเด็กของเขา ดีที่สุดกว่าทุกคนเลย ฉันจะคอยอยู่ช่วย ทุกๆ ก้าวที่เขาเดินเลย$u",
+                "NPC.cs.4445": "{{TermofEndearment}} ฉันตื่นเต้นเรื่อง อุปถัมภ์มากเลย รู้สึกเหมือนว่า ฉันเกิดมาเพื่อเป็นพ่อเลย$h",
+                "NPC.cs.4448": "{{TermofEndearment}} ฉันตื่นเต้นเรื่อง อุปถัมภ์มากเลย รู้สึกเหมือนว่า ฉันเกิดมาเพื่อเป็นพ่อเลย$h",
             },
             "When":
             {
@@ -121,7 +121,7 @@
             "Target": "Characters/Dialogue/Sam",
             "Entries":
             {
-                "fall_12": "$1 JodiBirthday#Hey, my mom's birthday surprise went really well. She about cried when she realized I cooked the eggs myself! Thanks again for your help, @.$h#$e#Yesterday was my mom's birthday. I try to make those special for her every year now."
+                "fall_12": "$1 JodiBirthday#เฮ้ เซอร์ไพรส์วันเกิดแม่ ยอดไปเลย แม่เกือบร้องไห้แหน่ะ ตอนที่รู้ว่าฉัน เจียวไข่เองเป็นแล้ว! ขอบใจมากนะที่ช่วย @$h#$e#เมื่อวานเป็นวันเกิด แม่ฉันน่ะ ตอนนี้ฉันพยายามทำให้ มันเป็นวันพิเศษทุกปีล่ะ"
             },
             "When":
             {
