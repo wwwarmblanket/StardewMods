@@ -36,7 +36,7 @@
         "AnimalQuery_Moving_HomeChanged": "ย้ายอาคารใหม่สำเร็จ",
         "AnimalQuery_Moving_BuildingFull": "อาคารนั้นเต็มแล้ว",
         "AnimalQuery_Moving_AlreadyHome": "อยู่อาคารนี่อยู่แล้ว",
-        "AnimalQuery_Moving_CantLiveThere": "{0}s ไม่สามารถอยู่ที่นั่นได้",
+        "AnimalQuery_Moving_CantLiveThere": "{0} ไม่สามารถอยู่ที่นั่นได้",
         "AnimalQuery_Sell": "ขายได้ {0}g",
         "AnimalQuery_AllowReproduction": "อนุญาตให้สืบพันธุ์",
         "AnimalQuery_Age1": "อายุ: 1 เดือน",
