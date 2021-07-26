@@ -606,7 +606,7 @@
         "PondQuery_StatusRequestPending3": "\"มีเรื่องจะรบกวนล่ะ... ช่วยเอา {0} ให้พวกเราได้มั้ย??\"",
         "PondQuery_StatusRequestPending4": "\"พวกเราสบายดี แต่คงดีขึ้นถ้ามี {0}...\"",
         "PondQuery_StatusRequestPending5": "\"ขอโทษนะ... พวกเราอยากขอ {0}\"",
-        "PondQuery_StatusRequestPending6": "\"พวกเราคงรู้สึกเหมือนอยู่บ้านมากขึ้นถ้ามี {0}...\"",
+        "PondQuery_StatusRequestPending6": "\"พวกเราคงรู้สึกเหมือนอยู่บ้าน มากขึ้นถ้ามี {0}...\"",
         "PondQuery_StatusRequestPending_Rude0_Male": "\"ไง เจ้าทึ่ม คิดว่าเอา {0} ให้พวกเราได้ป่าว?\"",
         "PondQuery_StatusRequestPending_Rude1_Male": "\"เฮ้ย... คนใช้! เอา {0} ให้เราหน่อยสิ?\"",
         "PondQuery_StatusRequestPending_Rude2_Male": "\"นี่ๆ... สวัสดี เพื่อน... ช่วยส่ง {0} ให้พวกเราหน่อยได้มั้ย?\"",
