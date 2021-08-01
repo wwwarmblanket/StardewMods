@@ -6894,12 +6894,12 @@
      "Action": "EditData",
      "Target": "Strings/StringsFromMaps",
      "Entries": {
-	    "MovieTheater_Gunther": "%It smells like buttered popcorn!",
-        "MovieTheater_Gunther2": "%It smells like buttered popcorn!",
-        "MovieTheater_Marlon": "%Gil is sleeping.",
-        "MovieTheater_Marlon2": "%Gil is taking it easy.",
-		"MovieTheater_Morris": "%There's free Joja Cola.",
-        "MovieTheater_Morris2": "%There's free Joja Cola.",
+	    "MovieTheater_Gunther": "%กลิ่นเหมือนป๊อบคอร์นเนยสดเลยนี่!",
+        "MovieTheater_Gunther2": "%กลิ่นเหมือนป๊อบคอร์นเนยสดเลยนี่!",
+        "MovieTheater_Marlon": "%กิลกำลังหลับอยู่น่ะ",
+        "MovieTheater_Marlon2": "%กิลกำลังสบายๆ",
+		"MovieTheater_Morris": "%นั่นโจจ้าโคล่าแจกฟรี",
+        "MovieTheater_Morris2": "%นั่นโจจ้าโคล่าแจกฟรี",
 	 }
 },
 
