@@ -39,6 +39,11 @@
   "Default": "false"
 		},
 		
+  "AlternativeCraftables": {
+  "AllowValues": "true, false",
+  "Default": "false"
+		},
+		
   "RemoveObjectsFromGrandpasShed": {
   "AllowValues": "true, false",
   "Default": "false"
@@ -210,9 +215,16 @@
 	"MigrateLegacyNames": [ "AuroraVineyard" ]
   },
   {
-    "Name": "Custom_SpriteSpring",
-    "FromMapFile": "Assets/Maps/NewLocations/SpriteSpring.tbin",
-	"MigrateLegacyNames": [ "SpriteSpring" ]
+    "Name": "Custom_SpriteSpring2",
+    "FromMapFile": "Assets/Maps/NewLocations/SpriteSpring2.tbin",
+  },
+  {
+    "Name": "Custom_SpriteSpringCave",
+    "FromMapFile": "Assets/Maps/NewLocations/SpriteSpringCave.tbin",
+  },
+  {
+    "Name": "Custom_WillyRoom",
+    "FromMapFile": "Assets/Maps/NewLocations/WillyRoom.tbin",
   },
   {
     "Name": "Custom_JunimoWoods",
@@ -366,6 +378,14 @@
 	"MigrateLegacyNames": [ "Apples_WarpRoom" ],
   },
   {
+    "Name": "Custom_Peaches_WarpRoom",
+    "FromMapFile": "Assets/Maps/NewLocations/Peaches_WarpRoom.tbin",
+  },
+  {
+    "Name": "Custom_Charlie_WarpRoom",
+    "FromMapFile": "Assets/Maps/NewLocations/Charlie_WarpRoom.tbin",
+  },
+  {
     "Name": "Custom_Morgan_WarpRoom",
     "FromMapFile": "Assets/Maps/NewLocations/Morgan_WarpRoom.tbin",
 	"MigrateLegacyNames": [ "Morgan_WarpRoom" ],
@@ -486,7 +506,8 @@
     "Target": "Maps/Custom_ForestWest",
     "FromFile": "assets/Maps/MapPatches/SpriteSpringUnlocked.tbin",
 	"ToArea": { "X": 111, "Y": 117, "Width": 45, "Height": 39 },
-    "When": { "HasSeenEvent": "418172" }
+    "When": { "HasSeenEvent |contains=418172": true },
+	"Update": "OnLocationChange"
 },
 {
     "Action": "EditMap",
@@ -1360,10 +1381,10 @@
 
 {  //A bouquet of flowers
    "Action": "EditData",
-   "Target": "data/events/Custom_SpriteSpring",
+   "Target": "data/events/Custom_SpriteSpring2",
    "When": { "HasSeenEvent": "1111200" },
    "Entries": {
-   "908076/e 908072": "none/-500 -500/farmer 19 32 1/pause 1000/playMusic junimoStarSong/pause 800/viewport 25 32 clamp true/skippable/move farmer 6 0 1/pause 500/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 200/faceDirection farmer 0 true/pause 200/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 400/message \"แองเจลิก้า: นี่!  ข้าสัมผัสได้ว่า เจ้ามีบางอย่างเปลี่ยนไปนะ!\"/pause 600/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 400/message \"คลอส: พ่อมดสอนเจ้า อัญเชิญวาร์ปแล้วสินะ นั่นหมายความว่า เหตุผลที่เจ้ามาที่นี่ มีแค่อย่างเดียว!\"/pause 500/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 400/message \"แองเจลิก้า: เอานี่ไป! มันน่าจะช่วยในคาถาของเจ้า\"/pause 750/playSound pickUpItem/pause 1250/faceDirection farmer 1 true/pause 250/faceDirection farmer 2 true/pause 300/showFrame farmer 57 true/itemAboveHead joja/pause 3300/faceDirection farmer 2 true/pause 750/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 400/playSound junimoMeep1/faceDirection farmer 1 true/pause 250/faceDirection farmer 0 true/pause 400/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 400/message \"คลอส: เจ้ารออะไรอยู่เล่า? ว่ายข้ามน้ำไป แล้วไปอัญเชิญวาร์ป ของเจ้าสิ!\"/pause 850/faceDirection farmer 1 true/pause 500/globalFade/viewport -1000 -1000/pause 650/playSound pullItemFromWater/pause 800/playSound waterSlosh/pause 500/playSound waterSlosh/pause 500/playSound waterSlosh/pause 500/playSound waterSlosh/pause 500/playSound waterSlosh/pause 500/playSound waterSlosh/pause 250/warp farmer 70 28/faceDirection farmer 2 true/pause 1000/viewport 70 29 true/pause 2250/showFrame farmer 1 true/pause 125/startJittering/addTemporaryActor TulipBouquetObject 16 16 70 29 2 false/playSound stoneStep/pause 400/stopJittering/showFrame farmer 0/pause 1135/showFrame farmer 3 true/pause 950/screenFlash 2/playSound wand/playSound wand/addTemporaryActor MagicWarp 48 48 69 30 2 false/warp TulipBouquetObject -20 -20/positionOffset MagicWarp 2 -7/addLantern 1000 70 29 1/pause 700/faceDirection farmer 2 true/playSound secret1/pause 2500/globalFade/viewport -1000 -1000/pause 1000/end warpOut"
+   "908076/e 908072": "none/-500 -500/farmer 11 23 1/pause 1000/playMusic cm:GrenvilleFalls/pause 800/viewport 16 23 clamp true/skippable/move farmer 5 0 1/pause 500/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 200/faceDirection farmer 0 true/pause 200/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 400/message \"แองเจลิก้า: นี่!  ข้าสัมผัสได้ว่า เจ้ามีบางอย่างเปลี่ยนไปนะ!\"/pause 600/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 400/message \"คลอส: พ่อมดสอนเจ้า อัญเชิญวาร์ปแล้วสินะ นั่นหมายความว่า เหตุผลที่เจ้ามาที่นี่ มีแค่อย่างเดียว!\"/pause 500/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 400/message \"แองเจลิก้า: เอานี่ไป! มันน่าจะช่วยในคาถาของเจ้า\"/pause 750/playSound pickUpItem/pause 1250/faceDirection farmer 1 true/pause 250/faceDirection farmer 2 true/pause 300/showFrame farmer 57 true/itemAboveHead joja/pause 3300/faceDirection farmer 2 true/pause 750/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 400/playSound junimoMeep1/faceDirection farmer 1 true/pause 250/faceDirection farmer 0 true/pause 400/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 400/message \"คลอส: เจ้ารออะไรอยู่เล่า? ว่ายข้ามน้ำไป แล้วไปอัญเชิญวาร์ป ของเจ้าสิ!\"/pause 850/faceDirection farmer 1 true/pause 500/globalFade/viewport -1000 -1000/pause 650/playSound pullItemFromWater/pause 800/playSound waterSlosh/pause 500/playSound waterSlosh/pause 500/playSound waterSlosh/pause 500/playSound waterSlosh/pause 500/playSound waterSlosh/pause 500/playSound waterSlosh/pause 250/warp farmer 52 19/faceDirection farmer 2 true/pause 1000/viewport 52 20 clamp true/pause 2250/showFrame farmer 1 true/pause 125/startJittering/addTemporaryActor TulipBouquetObject 16 16 52 20 2 false/playSound stoneStep/pause 400/stopJittering/showFrame farmer 0/pause 1135/showFrame farmer 3 true/pause 950/screenFlash 2/playSound wand/playSound wand/addTemporaryActor MagicWarp 48 48 51 21 2 false/warp TulipBouquetObject -20 -20/positionOffset MagicWarp 2 -7/addLantern 1000 52 20 1/pause 700/faceDirection farmer 2 true/playSound secret1/pause 2500/globalFade/viewport -1000 -1000/pause 1000/end warpOut"
    }
 },
 
@@ -1378,7 +1399,7 @@
    "Target": "Tilesheets/Craftables",
    "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/TulipBouquet.png",
    "ToArea": { "X": 80, "Y": 448, "Width": 16, "Height": 32 },
-   "When": { "LocationName": "Custom_SpriteSpring", "HasSeenEvent": "908072", "HasSeenEvent |contains=908076": false },
+   "When": { "LocationName": "Custom_SpriteSpring2", "HasSeenEvent": "908072", "HasSeenEvent |contains=908076": false },
    "Update": "OnLocationChange"
 },
 
@@ -1386,37 +1407,37 @@
    "Action": "EditData",
    "Target": "Data/BigCraftablesInformation",
    "Entries": { "117": "Tulip Bouquet/0/-300/Crafting -9/The Joja soda machine mysteriously formed into bouquet of tulips.../true/true/0/Tulip Bouquet" },
-   "When": { "LocationName": "Custom_SpriteSpring", "HasSeenEvent": "908072", "HasSeenEvent |contains=908076": false },
+   "When": { "LocationName": "Custom_SpriteSpring2", "HasSeenEvent": "908072", "HasSeenEvent |contains=908076": false },
    "Update": "OnLocationChange"
 },
 
 {   //Sprite Spring Map Patch
     "Action": "EditMap",
-    "Target": "Maps/Custom_SpriteSpring",
+    "Target": "Maps/Custom_SpriteSpring2",
     "FromFile": "assets/Maps/MapPatches/EnchantedGrove_SpriteSpring.tbin",
-	"ToArea": { "X": 69, "Y": 28, "Width": 3, "Height": 3 },
+	"ToArea": { "X": 51, "Y": 19, "Width": 3, "Height": 3 },
     "When": { "HasSeenEvent": "908076", "Season |contains=Winter": false },
 	"Update": "OnLocationChange"
 },
 
 {   //Sprite Spring Map Patch - Winter
     "Action": "EditMap",
-    "Target": "Maps/Custom_SpriteSpring",
+    "Target": "Maps/Custom_SpriteSpring2",
     "FromFile": "assets/Maps/MapPatches/EnchantedGrove_SpriteSpring_Winter.tbin",
-	"ToArea": { "X": 69, "Y": 28, "Width": 3, "Height": 3 },
+	"ToArea": { "X": 51, "Y": 19, "Width": 3, "Height": 3 },
     "When": { "HasSeenEvent": "908076", "Season": "Winter" },
 	"Update": "OnLocationChange"
 },
 
 {   //Sprite Spring Light
     "Action": "EditMap",
-    "Target": "Maps/Custom_SpriteSpring",
+    "Target": "Maps/Custom_SpriteSpring2",
     "When": { "HasSeenEvent": "908076" },
     "TextOperations": [
      {
       "Operation": "Append",
       "Target": [ "MapProperties", "Light" ],
-      "Value": "70 29 4",
+      "Value": "52 20 4",
       "Delimiter": " "
      }
    ]
@@ -1728,18 +1749,21 @@
 	"Custom_Martin_WarpRoom": { "Exclude": true },
 	"Custom_Scarlett_WarpRoom": { "Exclude": true },
 	"Custom_Apples_WarpRoom": { "Exclude": true },
+	"Custom_Peaches_WarpRoom": { "Exclude": true },
+	"Custom_Charlie_WarpRoom": { "Exclude": true },
 	"Custom_Isaac_WarpRoom": { "Exclude": true },
 	"Custom_Camilla_WarpRoom": { "Exclude": true },
 	"Custom_Jadu_WarpRoom": { "Exclude": true },
 	"Custom_Lance_WarpRoom": { "Exclude": true },
-	//"Custom_Morgan_WarpRoom": { "Exclude": true },
+	//"Custom_Morgan_WarpRoom": { "Exclude": true }, <- this causes problems. I have no idea why. I sorta gave up. Don't re-enable this. Thanks.
 	"Custom_CastleVillage_DayEnd_WarpRoom": { "Exclude": true },
 
     //Fake tracking (prevents SMAPI console text reporting unknown locations)
 	"Custom_CrimsonBadlands": { "MapVectors": [ { "TileX": 0, "TileY": 0, "MapX": 0, "MapY": 0 }, { "TileX": 0, "TileY": 0, "MapX": 0, "MapY": 0 } ],},
 	"Custom_CrimsonBadlandsMap": { "MapVectors": [ { "TileX": 0, "TileY": 0, "MapX": 0, "MapY": 0 }, { "TileX": 0, "TileY": 0, "MapX": 0, "MapY": 0 } ],},
 	"Custom_CastleVillageOutpost": { "MapVectors": [ { "TileX": 0, "TileY": 0, "MapX": 0, "MapY": 0 }, { "TileX": 0, "TileY": 0, "MapX": 0, "MapY": 0 } ],},
-	"Custom_SpriteSpring": { "MapVectors": [ { "TileX": 0, "TileY": 0, "MapX": 0, "MapY": 0 }, { "TileX": 0, "TileY": 0, "MapX": 0, "MapY": 0 } ],},
+	"Custom_SpriteSpring2": { "MapVectors": [ { "TileX": 0, "TileY": 0, "MapX": 0, "MapY": 0 }, { "TileX": 0, "TileY": 0, "MapX": 0, "MapY": 0 } ],},
+	"Custom_SpriteSpringCave": { "MapVectors": [ { "TileX": 0, "TileY": 0, "MapX": 0, "MapY": 0 }, { "TileX": 0, "TileY": 0, "MapX": 0, "MapY": 0 } ],},
 	"Custom_JunimoWoods": { "MapVectors": [ { "TileX": 0, "TileY": 0, "MapX": 0, "MapY": 0 }, { "TileX": 0, "TileY": 0, "MapX": 0, "MapY": 0 } ],},
 	"Custom_DesertRailway": { "MapVectors": [ { "TileX": 0, "TileY": 0, "MapX": 0, "MapY": 0 }, { "TileX": 0, "TileY": 0, "MapX": 0, "MapY": 0 } ],},
 	"Custom_TreasureCave": { "MapVectors": [ { "TileX": 0, "TileY": 0, "MapX": 0, "MapY": 0 }, { "TileX": 0, "TileY": 0, "MapX": 0, "MapY": 0 } ],},
@@ -2287,7 +2311,7 @@
 
 {    //Adds custom tilesheets and allows other modders to target SVE assets
      "Action": "Load",
-     "Target": "Maps/spring_z_extras,Maps/summer_z_extras,Maps/fall_z_extras,Maps/winter_z_extras,Maps/EmilyBedEvent,Maps/VanillaCraftables,Maps/VanillaCursors,Maps/VanillaFloors,Maps/VanillaFlooring,Maps/VanillaFurniture,Maps/VanillaSpringObjects,Maps/VanillaWallsAndFloors,Maps/z_SVEbuildingShadow,Maps/z_FireLight,Maps/AuroraVineyardPicture,Maps/StardustFarmPicture,Maps/z_SVE_Halloween2Shadow,Maps/zcompactbathroom_tiles,Maps/z_RailwayTilesheet,Maps/z_CastleVillage,Maps/z_Leaves_Roofs,Maps/z_Leaves,Maps/z_mine,Maps/z_RedEyes,Maps/GuntherExpedition2_Shadows,Maps/JunimoWoods_Shadow,Maps/ForestWest_Shadow,Maps/MovieTheater_Blank,Maps/SpriteSpring_Effects,Maps/z_WizardTowerLights,Maps/z_WizardBasementLights,Maps/z_CalderaLights,Maps/IridiumQuarry,Maps/IridiumQuarry_Shadow,Maps/zGrandpasFarm_UnderCanopyShadow,Maps/zGrandpasFarm_CanopyShadow,Maps/EnchantedGrove_CrimsonLight,Maps/EnchantedGrove_Shadows,Maps/EnchantedGrove_Colors,Maps/EnchantedGrove_WarpLights,Maps/CastleVillage_Tilesheet,Maps/Outpost_CrimsonLight,Maps/CrimsonBadlandsMap,Maps/Galdora_Interface,Maps/z_Island_S_CoralReefs,Maps/z_Island_W_CoralReefs,Maps/z_Island_SE_CoralReefs,Maps/AtlantisTilesheet,Maps/AtlantisTilesheet_MaskEffect,Maps/AtlantisTilesheetRuins,Maps/Sundrop_Kiosk,Maps/BathroomTilesheet,Maps/ZuzuCity",
+     "Target": "Maps/spring_z_extras,Maps/summer_z_extras,Maps/fall_z_extras,Maps/winter_z_extras,Maps/EmilyBedEvent,Maps/VanillaCraftables,Maps/VanillaCursors,Maps/VanillaFloors,Maps/VanillaFlooring,Maps/VanillaFurniture,Maps/VanillaSpringObjects,Maps/VanillaWallsAndFloors,Maps/z_SVEbuildingShadow,Maps/z_FireLight,Maps/AuroraVineyardPicture,Maps/StardustFarmPicture,Maps/z_SVE_Halloween2Shadow,Maps/z_RailwayTilesheet,Maps/z_CastleVillage,Maps/z_Leaves_Roofs,Maps/z_Leaves,Maps/z_mine,Maps/z_RedEyes,Maps/GuntherExpedition2_Shadows,Maps/JunimoWoods_Shadow,Maps/ForestWest_Shadow,Maps/MovieTheater_Blank,Maps/SpriteSpring_Effects,Maps/SpriteSpring_Shadows,Maps/z_WizardTowerLights,Maps/z_WizardBasementLights,Maps/z_CalderaLights,Maps/IridiumQuarry,Maps/IridiumQuarry_Shadow,Maps/zGrandpasFarm_UnderCanopyShadow,Maps/zGrandpasFarm_CanopyShadow,Maps/EnchantedGrove_CrimsonLight,Maps/EnchantedGrove_Shadows,Maps/EnchantedGrove_Colors,Maps/EnchantedGrove_WarpLights,Maps/CastleVillage_Tilesheet,Maps/Outpost_CrimsonLight,Maps/CrimsonBadlandsMap,Maps/Galdora_Interface,Maps/z_Island_S_CoralReefs,Maps/z_Island_W_CoralReefs,Maps/z_Island_SE_CoralReefs,Maps/AtlantisTilesheet,Maps/AtlantisTilesheet_MaskEffect,Maps/AtlantisTilesheetRuins,Maps/Sundrop_Kiosk,Maps/BathroomTilesheet,Maps/spring_z_waterfalls,Maps/summer_z_waterfalls,Maps/fall_z_waterfalls,Maps/winter_z_waterfalls,Maps/SpriteSpringCave_Effects,Maps/SandstormEffect,Maps/RemoveBenchChairTiles,Maps/Arcade_Couch,Maps/ZuzuCity",
      "FromFile": "Assets/Tilesheets/{{TargetWithoutPath}}.png",
 },
 
@@ -2303,7 +2327,7 @@
 	 "Target": "Data/CustomNPCExclusions",
 	 "Entries": {
 		"Martin": "ItemDelivery, Socialize, WinterStar, ShopDialog, IslandVisit",
-		"Apples": "ItemDelivery, Socialize, WinterStar, ShopDialog, IslandVisit, MovieInvite",
+		"Apples": "ItemDelivery, Socialize, WinterStar, ShopDialog, IslandVisit, MovieInvite, BeGreeted, Greet",
 		"Morgan": "ItemDelivery, WinterStar, ShopDialog, IslandVisit",
 		"Wizard": "WinterStar",
 		"MorrisTod": "Socialize, ItemDelivery, WinterStar, ShopDialog, IslandVisit, PerfectFriend",
@@ -2315,11 +2339,22 @@
 		"Lance": "ItemDelivery, Socialize, WinterStar, ShopDialog, IslandVisit, PerfectFriend, MovieInvite",
 		"Jadu": "ItemDelivery, Socialize, WinterStar, ShopDialog, IslandVisit, PerfectFriend, MovieInvite",
 		"Scarlett": "ItemDelivery, Socialize, WinterStar, ShopDialog, IslandVisit, PerfectFriend, MovieInvite",
+		"Peaches": "ItemDelivery, Socialize, WinterStar, ShopDialog, IslandVisit, PerfectFriend, MovieInvite, BeGreeted, Greet",
 		//"Drake": "ItemDelivery, Socialize, WinterStar, ShopDialog, IslandVisit",
 		//"Lilly": "ItemDelivery, Socialize, WinterStar, ShopDialog, IslandVisit",
 		//"Gideon": "ItemDelivery, Socialize, WinterStar, ShopDialog, IslandVisit",
+		//"Eleanor": "ItemDelivery, Socialize, WinterStar, ShopDialog, IslandVisit",
 		//"Bex": "ItemDelivery, Socialize, WinterStar, ShopDialog, IslandVisit",
 		//"Gribble": "ItemDelivery, Socialize, WinterStar, ShopDialog, IslandVisit"
+	 }
+},
+
+{
+	 "Action": "EditData",
+	 "Target": "Data/CustomNPCExclusions",
+	 "When": { "HasSeenEvent |contains=3900074": true },
+	 "Entries": {
+		"CharlieChicken": "ItemDelivery, Socialize, WinterStar, ShopDialog, IslandVisit, PerfectFriend, MovieInvite, BeGreeted, Greet",
 	 }
 },
 
@@ -2367,10 +2402,10 @@
 },
 
 
-{    //All NPCs excluded from island resort on Community Day
+{    //All NPCs excluded from island resort on Community Day and Joja Day
 	 "Action": "EditData",
 	 "Target": "Data/CustomNPCExclusions",
-	 "When": { "HasSeenEvent": "191393", "Day": "22" },
+	 "When": { "HasSeenEvent": "191393, 502261", "Day": "22" },
 	 "Entries": {
 	    "Alex": "IslandVisit",
 		"Elliott": "IslandVisit",
@@ -2547,7 +2582,7 @@
   "Farm": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 145 -1 143 -1 153 -1 137 -1 706 -1 132 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 138 -1 145 -1 153 -1 144 -1 706 -1 132 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 139 -1 699 -1 143 -1 153 -1 137 -1 706 -1 140 -1 132 -1/699 -1 153 -1 707 -1 141 -1 144 -1 132 -1/382 .35 770 .2 390 .75 330 1",
   "Summit": "-1/-1/-1/-1/-1/-1/-1/-1/109 1 120 .3 121 .3 119 .3 115 .3 114 .2 581 .2 582 .1 583 .3",
   "Custom_Garden": "-1/-1/-1/-1/-1/-1/-1/-1/100 .4 101 .3 103 .2 105 .31 106 1 107 .55 114 .21",
-  "Custom_SpriteSpring": "-1/-1/-1/-1/-1/-1/-1/-1/109 .3 120 1 121 .4 119 .3 115 .4 114 .3",
+  "Custom_SpriteSpring2": "-1/-1/-1/-1/-1/-1/-1/-1/109 .3 120 1 121 .4 119 .3 115 .4 114 .3",
   "Custom_GrampletonFields": "-1/-1/-1/-1/-1/-1/-1/-1/119 1 120 .4 121 .31 109 .21 115 .32 114 .25",
   "Custom_DeepCave": "-1/-1/-1/-1/156 -1 158 -1/156 -1 158 -1/156 -1 158 -1/156 -1 158 -1/-1",
   "Custom_BlueMoonVineyard": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Minnow}} 1 145 1 143 1 153 1 137 1 706 1 132 1 267 0 129 0 131 0 147 0 148 0 152 0 708 0/{{spacechase0.JsonAssets/ObjectId:Minnow}} 1 138 1 145 1 153 1 144 1 706 1 132 1 267 0 128 0 130 0 146 0 149 0 150 0 152 0 155 0 708 0 701 0/{{spacechase0.JsonAssets/ObjectId:Minnow}} 1 139 1 699 1 143 1 153 1 137 1 706 1 140 1 132 1 129 0 131 0 148 0 150 0 152 0 154 0 155 0 705 0 701 0/{{spacechase0.JsonAssets/ObjectId:Minnow}} 1 699 1 153 1 707 1 141 1 144 1 132 1 708 0 130 0 131 0 146 0 147 0 150 0 151 0 152 0 154 0 705 0/378 .2 110 .2 583 .1 102 .2 390 .25 330 1",
@@ -2628,12 +2663,12 @@
    "{{spacechase0.JsonAssets/ObjectId:Butterfish}}": "Butterfish/75/dart/8/16/600 2600/spring summer/sunny/690 .04/2/.25/.1/8",
    "{{spacechase0.JsonAssets/ObjectId:Void Eel}}": "Void Eel/100/mixed/12/20/600 2600/spring summer fall winter/both/683 .4/2/.17/.17/8",
    "{{spacechase0.JsonAssets/ObjectId:Starfish}}": "Starfish/75/sinker/5/10/600 2200/spring summer winter/both/690 .4 685 .1/4/.07/.4/5",
-   "{{spacechase0.JsonAssets/ObjectId:Clownfish}}": "Clownfish/45/dart/2/5/1000 1700/summer/sunny/690 .4 685 .1/3/.15/.6/3",
+   "{{spacechase0.JsonAssets/ObjectId:Clownfish}}": "Clownfish/45/dart/2/5/1000 1700/summer/both/690 .4 685 .1/3/.25/.6/3",
    "{{spacechase0.JsonAssets/ObjectId:Puppyfish}}": "Puppyfish/85/mixed/5/9/600 2600/spring summer fall/both/690 .4 685 .1/3/.15/.3/8",
    "{{spacechase0.JsonAssets/ObjectId:King Salmon}}": "King Salmon/80/dart/42/58/600 2000/spring summer/both/683 .4/3/.22/.5/8",
    "{{spacechase0.JsonAssets/ObjectId:Frog}}": "Frog/70/sinker/2/5/1800 2600/spring summer/rainy/683 .4/3/.90/.5/5",
    "{{spacechase0.JsonAssets/ObjectId:Kittyfish}}": "Kittyfish/85/mixed/5/9/600 2600/fall winter/both/690 .4 685 .1/3/.25/.3/8",
-   "{{spacechase0.JsonAssets/ObjectId:Seahorse}}": "Seahorse/25/mixed/1/3/800 1700/spring summer fall winter/sunny/690 .4 685 .1/4/.20/.2/0",
+   "{{spacechase0.JsonAssets/ObjectId:Seahorse}}": "Seahorse/25/mixed/1/3/800 1700/spring summer fall winter/both/690 .4 685 .1/4/.30/.2/0",
    "{{spacechase0.JsonAssets/ObjectId:Sea Sponge}}": "Sea Sponge/40/sinker/3/9/600 2600/spring summer fall winter/both/690 .4 685 .1/4/.08/.25/0",
    "{{spacechase0.JsonAssets/ObjectId:Lunaloo}}": "Lunaloo/70/floater/4/8/1700 2600/spring summer fall winter/both/690 .4 685 .1/5/.15/.5/5",
    "{{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}}": "Baby Lunaloo/15/floater/4/8/1700 2600/spring summer fall winter/both/690 .4 685 .1/4/.02/.3/0",
@@ -2656,7 +2691,7 @@
    "{{spacechase0.JsonAssets/ObjectId:King Salmon}}": "King Salmon/80/dart/42/58/600 2000/spring summer/both/683 .4/3/.22/.5/8",
    "{{spacechase0.JsonAssets/ObjectId:Frog}}": "Frog/70/sinker/2/5/1800 2600/spring summer/rainy/683 .4/3/.90/.5/5",
    "{{spacechase0.JsonAssets/ObjectId:Kittyfish}}": "Kittyfish/85/mixed/5/9/600 2600/fall winter/both/690 .4 685 .1/3/.25/.3/8",
-   "{{spacechase0.JsonAssets/ObjectId:Seahorse}}": "Seahorse/25/mixed/1/3/800 1700/spring summer fall winter/sunny/690 .4 685 .1/4/.20/.2/0",
+   "{{spacechase0.JsonAssets/ObjectId:Seahorse}}": "Seahorse/25/mixed/1/3/800 1700/spring summer fall winter/both/690 .4 685 .1/4/.30/.2/0",
    "{{spacechase0.JsonAssets/ObjectId:Sea Sponge}}": "Sea Sponge/40/sinker/3/9/600 2600/spring summer fall winter/both/690 .4 685 .1/4/.08/.25/0",
    "{{spacechase0.JsonAssets/ObjectId:Lunaloo}}": "Lunaloo/70/floater/4/8/1700 2600/spring summer fall winter/both/690 .4 685 .1/5/.15/.5/5",
    "{{spacechase0.JsonAssets/ObjectId:Baby Lunaloo}}": "Baby Lunaloo/15/floater/4/8/1700 2600/spring summer fall winter/both/690 .4 685 .1/4/.02/.3/0",
@@ -4078,8 +4113,23 @@
 	 "Target": "Data/ChairTiles",
 	 "Entries": { 
 	  "spring_z_extras/11/23": "3/1/up/summitbench/2/6/false", //altered bench
+	  "Arcade_Couch/1/1": "1/1/down/couch/1/1/false", //Custom couch so Keychain can sit with her Abigail waifu in the saloon arcade
+	  "Arcade_Couch/2/1": "1/1/down/couch/1/1/false"
 	}
 },
+
+{
+	 "Action": "EditImage",
+	 "Target": "Tilesheets/ChairTiles",
+	 "FromFile": "Assets/Tilesheets/RemoveBenchChairTiles.png",
+	 "When": { "LocationName |contains=Saloon": true },
+	 "Update": "OnLocationChange",
+	 "PatchMode": "Replace",
+	 "ToArea": 	{ "X": 0, "Y": 0, "Width": 128, "Height": 32 },
+},
+
+
+
 
 //Garden and Town East patches
 
@@ -5053,7 +5103,9 @@
       {
         "Type": "Mail",
         "Data": {
-          "MailReceived": "RailroadBoulderRemoved"
+          "MailReceived": "RailroadBoulderRemoved",
+		  "Host": "true",
+          "NoLetter": "false"
         }
       },
       {
@@ -5338,7 +5390,9 @@
       {
         "Type": "Mail",
         "Data": {
-          "MailReceived": "ShedRepaired"
+          "MailReceived": "ShedRepaired",
+		  "Host": "true",
+          "NoLetter": "false"
         }
       },
       {
@@ -5555,7 +5609,9 @@
       {
         "Type": "Mail",
         "Data": {
-          "MailReceived": "ApplesNowHappy"
+          "MailReceived": "ApplesNowHappy",
+		  "Host": "true",
+          "NoLetter": "false"
         }
       },
       {
@@ -5942,7 +5998,7 @@
 },
 {
      "Action": "Load",
-	 "Target": "Data/Events/Custom_SpriteSpring",
+	 "Target": "Data/Events/Custom_SpriteSpring2",
 	 "FromFile": "assets/XNBs/SpriteSpring.xnb"
 },
 {
@@ -6462,26 +6518,21 @@
 {
      "Action": "Load",
 	 "Target": "Maps/Town-EggFestival",
-	 "When": { "IsOddYear": true, "HasSeenEvent |contains=5553210": false },
+	 "When": { "HasSeenEvent |contains=5553210": false },
 	 "FromFile": "Assets/Maps/FestivalMaps/Town-EggFestival.tbin"
-},
-{
-	 "Action": "Load",
-     "Target": "Maps/Town-EggFestival",
-	 "When": { "IsOddYear": false, "HasSeenEvent |contains=5553210": false },
-     "FromFile": "Assets/Maps/FestivalMaps/Town-EggFestival2.tbin"
 },
 {
      "Action": "Load",
 	 "Target": "Maps/Town-EggFestival",
-	 "When": { "IsOddYear": true, "HasSeenEvent": "5553210" },
+	 "When": { "HasSeenEvent": "5553210" },
 	 "FromFile": "Assets/Maps/FestivalMaps/Town_Joja_EggFestival.tbin"
 },
 {
-	 "Action": "Load",
-     "Target": "Maps/Town_EggFestival",
-	 "When": { "IsOddYear": false, "HasSeenEvent": "5553210" },
-     "FromFile": "Assets/Maps/FestivalMaps/Town_Joja_EggFestival2.tbin"
+	 "Action": "EditMap", //changes egg locations
+     "Target": "Maps/Town-EggFestival",
+	 "When": { "IsOddYear": false },
+     "FromFile": "Assets/Maps/FestivalMaps/Town-EggFestival2.tbin",
+	 "ToArea": { "X": 0, "Y": 0, "Width": 120, "Height": 116 },
 },
 {
      "Action": "Load",
@@ -6840,6 +6891,14 @@
      "ToArea": { "X": 34, "Y": 9, "Width": 1, "Height": 1 }
 },
 
+{    //Animates Robin's air conditioning unit during summere
+     "Action": "EditMap",
+     "Target": "Maps/Mountain",
+     "FromFile": "assets/Maps/MapPatches/RobinAC.tbin",
+	 "ToArea": { "X": 12, "Y": 21, "Width": 1, "Height": 1 },
+     "When": { "Season |contains=Summer": true }
+},
+
 {    //Removes fake Marlon from movie theater
      "Action": "EditImage",
      "Target": "Maps/MovieTheater_TileSheet",
@@ -7067,6 +7126,166 @@
 },
 
 
+
+
+//Alternative Craftables Configuration
+
+{    //Furnace - off
+	 "Action": "EditImage",
+	 "Target": "Tilesheets/Craftables",
+	 "FromFile": "Assets/Tilesheets/spring_z_extras.png",
+	 "When": { "AlternativeCraftables": true },
+	 "PatchMode": "Replace",
+	 "FromArea": { "X": 384, "Y": 288, "Width": 16, "Height": 32 }, 
+	 "ToArea": 	{ "X": 80, "Y": 32, "Width": 16, "Height": 32 },
+},
+{    //Furnace - on
+	 "Action": "EditImage",
+	 "Target": "Tilesheets/Craftables",
+	 "FromFile": "Assets/Tilesheets/spring_z_extras.png",
+	 "When": { "AlternativeCraftables": true },
+	 "PatchMode": "Replace",
+	 "FromArea": { "X": 384, "Y": 320, "Width": 16, "Height": 32 }, 
+	 "ToArea": 	{ "X": 96, "Y": 32, "Width": 16, "Height": 32 },
+},
+{    //Kiln - off
+	 "Action": "EditImage",
+	 "Target": "Tilesheets/Craftables",
+	 "FromFile": "Assets/Tilesheets/spring_z_extras.png",
+	 "When": { "AlternativeCraftables": true },
+	 "PatchMode": "Replace",
+	 "FromArea": { "X": 368, "Y": 288, "Width": 16, "Height": 32 }, 
+	 "ToArea": 	{ "X": 32, "Y": 448, "Width": 16, "Height": 32 },
+},
+{    //Kiln - on
+	 "Action": "EditImage",
+	 "Target": "Tilesheets/Craftables",
+	 "FromFile": "Assets/Tilesheets/spring_z_extras.png",
+	 "When": { "AlternativeCraftables": true },
+	 "PatchMode": "Replace",
+	 "FromArea": { "X": 368, "Y": 320, "Width": 16, "Height": 32 }, 
+	 "ToArea": 	{ "X": 48, "Y": 448, "Width": 16, "Height": 32 },
+},
+{    //Seed Maker
+	 "Action": "EditImage",
+	 "Target": "Tilesheets/Craftables",
+	 "FromFile": "Assets/Tilesheets/spring_z_extras.png",
+	 "When": { "AlternativeCraftables": true },
+	 "PatchMode": "Replace",
+	 "FromArea": { "X": 224, "Y": 288, "Width": 16, "Height": 32 }, 
+	 "ToArea": 	{ "X": 16, "Y": 96, "Width": 16, "Height": 32 },
+},
+{    //Mayonnaise Machine
+	 "Action": "EditImage",
+	 "Target": "Tilesheets/Craftables",
+	 "FromFile": "Assets/Tilesheets/spring_z_extras.png",
+	 "When": { "AlternativeCraftables": true },
+	 "PatchMode": "Replace",
+	 "FromArea": { "X": 192, "Y": 288, "Width": 16, "Height": 32 }, 
+	 "ToArea": 	{ "X": 0, "Y": 96, "Width": 16, "Height": 32 },
+},
+{    //Cheese Machine
+	 "Action": "EditImage",
+	 "Target": "Tilesheets/Craftables",
+	 "FromFile": "Assets/Tilesheets/spring_z_extras.png",
+	 "When": { "AlternativeCraftables": true },
+	 "PatchMode": "Replace",
+	 "FromArea": { "X": 176, "Y": 288, "Width": 16, "Height": 32 }, 
+	 "ToArea": 	{ "X": 0, "Y": 64, "Width": 16, "Height": 32 },
+},
+{    //Bee Hives
+	 "Action": "EditImage",
+	 "Target": "Tilesheets/Craftables",
+	 "FromFile": "Assets/Tilesheets/spring_z_extras.png",
+	 "When": { "AlternativeCraftables": true },
+	 "PatchMode": "Replace",
+	 "FromArea": { "X": 336, "Y": 288, "Width": 32, "Height": 32 }, 
+	 "ToArea": 	{ "X": 32, "Y": 32, "Width": 32, "Height": 32 },
+},
+{    //Keg
+	 "Action": "EditImage",
+	 "Target": "Tilesheets/Craftables",
+	 "FromFile": "Assets/Tilesheets/spring_z_extras.png",
+	 "When": { "AlternativeCraftables": true },
+	 "PatchMode": "Replace",
+	 "FromArea": { "X": 96, "Y": 288, "Width": 16, "Height": 32 }, 
+	 "ToArea": 	{ "X": 64, "Y": 32, "Width": 16, "Height": 32 },
+},
+
+     //Snowy Craftables
+	 
+{    //Furnace - off
+	 "Action": "EditImage",
+	 "Target": "Tilesheets/Craftables",
+	 "FromFile": "Assets/Tilesheets/winter_z_extras.png",
+	 "When": { "AlternativeCraftables": true, "IsOutdoors": true, "Season |contains=Winter": true, "LocationName |contains=IslandWest, IslandNorth, IslandSouth": false },
+	 "Update": "OnLocationChange",
+	 "PatchMode": "Replace",
+	 "FromArea": { "X": 384, "Y": 288, "Width": 16, "Height": 32 }, 
+	 "ToArea": 	{ "X": 80, "Y": 32, "Width": 16, "Height": 32 },
+},
+{    //Kiln - off
+	 "Action": "EditImage",
+	 "Target": "Tilesheets/Craftables",
+	 "FromFile": "Assets/Tilesheets/winter_z_extras.png",
+	 "When": { "AlternativeCraftables": true, "IsOutdoors": true, "Season |contains=Winter": true, "LocationName |contains=IslandWest, IslandNorth, IslandSouth": false },
+	 "Update": "OnLocationChange",
+	 "PatchMode": "Replace",
+	 "FromArea": { "X": 368, "Y": 288, "Width": 16, "Height": 32 }, 
+	 "ToArea": 	{ "X": 32, "Y": 448, "Width": 16, "Height": 32 },
+},
+{    //Seed Maker
+	 "Action": "EditImage",
+	 "Target": "Tilesheets/Craftables",
+	 "FromFile": "Assets/Tilesheets/winter_z_extras.png",
+	 "When": { "AlternativeCraftables": true, "IsOutdoors": true, "Season |contains=Winter": true, "LocationName |contains=IslandWest, IslandNorth, IslandSouth": false },
+	 "PatchMode": "Replace",
+	 "FromArea": { "X": 224, "Y": 288, "Width": 16, "Height": 32 }, 
+	 "ToArea": 	{ "X": 16, "Y": 96, "Width": 16, "Height": 32 },
+},
+{    //Mayonnaise Machine
+	 "Action": "EditImage",
+	 "Target": "Tilesheets/Craftables",
+	 "FromFile": "Assets/Tilesheets/winter_z_extras.png",
+	 "When": { "AlternativeCraftables": true, "IsOutdoors": true, "Season |contains=Winter": true, "LocationName |contains=IslandWest, IslandNorth, IslandSouth": false },
+	 "Update": "OnLocationChange",
+	 "PatchMode": "Replace",
+	 "FromArea": { "X": 192, "Y": 288, "Width": 16, "Height": 32 }, 
+	 "ToArea": 	{ "X": 0, "Y": 96, "Width": 16, "Height": 32 },
+},
+{    //Cheese Machine
+	 "Action": "EditImage",
+	 "Target": "Tilesheets/Craftables",
+	 "FromFile": "Assets/Tilesheets/winter_z_extras.png",
+	 "When": { "AlternativeCraftables": true, "IsOutdoors": true, "Season |contains=Winter": true, "LocationName |contains=IslandWest, IslandNorth, IslandSouth": false },
+	 "Update": "OnLocationChange",
+	 "PatchMode": "Replace",
+	 "FromArea": { "X": 176, "Y": 288, "Width": 16, "Height": 32 }, 
+	 "ToArea": 	{ "X": 0, "Y": 64, "Width": 16, "Height": 32 },
+},
+{    //Bee Hives
+	 "Action": "EditImage",
+	 "Target": "Tilesheets/Craftables",
+	 "FromFile": "Assets/Tilesheets/winter_z_extras.png",
+	 "When": { "AlternativeCraftables": true, "IsOutdoors": true, "Season |contains=Winter": true, "LocationName |contains=IslandWest, IslandNorth, IslandSouth": false },
+	 "Update": "OnLocationChange",
+	 "PatchMode": "Replace",
+	 "FromArea": { "X": 336, "Y": 288, "Width": 32, "Height": 32 }, 
+	 "ToArea": 	{ "X": 32, "Y": 32, "Width": 32, "Height": 32 },
+},
+{    //Keg
+	 "Action": "EditImage",
+	 "Target": "Tilesheets/Craftables",
+	 "FromFile": "Assets/Tilesheets/winter_z_extras.png",
+	 "When": { "AlternativeCraftables": true, "IsOutdoors": true, "Season |contains=Winter": true, "LocationName |contains=IslandWest, IslandNorth, IslandSouth": false },
+	 "Update": "OnLocationChange",
+	 "PatchMode": "Replace",
+	 "FromArea": { "X": 96, "Y": 288, "Width": 16, "Height": 32 }, 
+	 "ToArea": 	{ "X": 64, "Y": 32, "Width": 16, "Height": 32 },
+},
+
+
+
 {    //Mountain Minecart configuration - allows players to get to the mines faster (about half hour in-game).
      "Action": "EditMap",
      "Target": "Maps/Mountain",
@@ -7241,10 +7460,10 @@
      "Target": "Data/Festivals/spring13",
 	 "When": { "Year": "{{Range: 2, 999}}" },
      "Entries": {
-     "set-up": "fallFest/27 60/farmer 12 54 1/changeToTemporaryMap Town-EggFestival/loadActors Set-Up/advancedMove Andy true 1 9000 -6 0 0 -8 4 7000 0 8 6 0 1 8000/advancedMove Vincent true -2 0 0 -2 2 0 0 2/advancedMove Jas true 2 0 0 2 -2 0 0 -2/advancedMove Leo true 0 -2 2 0 0 2 -2 0/advancedMove Pam true 0 -1 3 5000 0 2 3 5000 0 -1 3 4000/advancedMove Clint true 1 7000 0 1 3 7000 0 -1/advancedMove Demetrius true 2 15000 -3 0 0 8 3 20000 0 -8 3 0/advancedMove Willy true 2 25000 -4 0 0 -12 4 0 0 -1 4 30000 0 1 -4 0 0 12 4 0/advancedMove Shane true 4 40000 2 0 0 2 1 35000 0 -2 -2 0/advancedMove Harvey true 0 6 -6 0 0 9 -3 0 3 15000 3 0 0 3 18 0 0 -8 1 0 0 -11 -13 0 0 1 2 30000/playerControl eggFestival",
+     "set-up": "fallFest/27 60/farmer 12 54 1/changeToTemporaryMap Town-EggFestival/loadActors Set-Up/advancedMove Andy true 1 9000 -6 0 0 -8 4 7000 0 8 6 0 1 8000/advancedMove Vincent true -2 0 0 -2 2 0 0 2/advancedMove Jas true 2 0 0 2 -2 0 0 -2/advancedMove Leo true 0 -2 2 0 0 2 -2 0/advancedMove Pam true 0 -1 3 5000 0 2 3 5000 0 -1 3 4000/advancedMove Clint true 1 7000 0 1 3 7000 0 -1/advancedMove Demetrius true 2 15000 -3 0 0 8 3 20000 0 -8 3 0/advancedMove Willy true 2 25000 -4 0 0 -12 4 0 0 -1 4 30000 0 1 -4 0 0 12 4 0/advancedMove Shane true 4 40000 2 0 0 2 1 35000 0 -2 -2 0/advancedMove Harvey true 0 6 -6 0 0 9 -3 0 3 15000 3 0 0 3 20 0 0 -19 -14 0 0 1 2 30000/playerControl eggFestival",
      "afterEggHunt": "pause 100/playSound whistle/waitForOtherPlayers endContest/pause 1000/globalFade/viewport -1000 -1000/playMusic event1/loadActors MainEvent/warp farmer1 27 69 /warp farmer2 26 67/warp farmer3 32 67/warp farmer4 28 71/faceDirection farmer1 0/faceDirection farmer2 1/faceDirection farmer3 3/faceDirection farmer4 0/pause 1000/viewport 27 67 true/pause 2000/speak Lewis \"ว้าวดูไข่พวกนี้สิ!$h#$b#แหม ถ้าฉันสามารถทำให้เด็กๆ อย่างพวกเธอ มาเก็บขยะกันให้ได้แบบนี้บ้าง เราคงจะได้เป็น เมืองที่อยู่ติดชายฝั่งทะเลอัญมณี ที่สะอาดที่สุด! *คิก คิก*$h\"/pause 800/playMusic none/speak Lewis \"และแล้ว ผู้ชนะเลิศในปีนี้ได้แก่...\"/playMusic none/pause 3000/cutscene eggHuntWinner/null/playMusic event1/pause 500/fork AbbyWin/move Lewis 0 1 2/speak Lewis \"นี่รางวัลของเธอ! รับไปเลย\"/awardFestivalPrize/null/move Lewis 0 -1 0/speak Lewis \"นี่ก็จบไปแล้วสำหรับ เทศกาลไข่ปีนี้ ขอขอบคุณ ทุกคนที่มาร่วมงาน!\"/pause 600/viewport move 1 0 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end",
      "AbbyWin": "pause 100/jump Abigail/faceDirection Vincent 3/pause 800/move Abigail 0 -1 0/faceDirection Vincent 0/speak Lewis \"นี่รางวัลของเธอ อบิเกล รับไปเลย!\"/pause 500/move Abigail 0 -1 0/playSound coin/pause 400/move Abigail 0 2 0/faceDirection Lewis 0/speak Lewis \"นี่ก็จบไปแล้วสำหรับ เทศกาลไข่ปีนี้ ขอขอบคุณ ทุกคนที่มาร่วมงาน!\"/pause 1000/viewport move 1 -1 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end",
-     "mainEvent": "pause 400/playMusic none/pause 500/globalFade/viewport -1000 -1000/loadActors MainEvent/warp farmer1 27 69 /warp farmer2 27 67/warp farmer3 32 67/warp farmer4 28 71/faceDirection farmer1 0/faceDirection farmer2 1/faceDirection farmer3 3/faceDirection farmer4 0/pause 1000/viewport 27 67 true unfreeze/pause 2000/speak Lewis \"ตอนนี้ถึงเวลาเด็ด ของเทศกาลไข่นี่แล้ว... การล่าไข่!$h\"/pause 100/jump Jas/pause 100/jump Vincent/pause 250/pause 1200/speak Lewis \"ใจเย็นๆ เด็กๆ เธอต้องใช้พลังงาน ในการค้นหาไข่ ที่ซ่อนอยู่ให้มากที่สุด เพื่อที่จะได้รางวัลแสนพิเศษ กลับบ้านเป็นที่ระลึก\"/pause 100/faceDirection Vincent 3 true/faceDirection Jas 1 true/pause 1000/faceDirection Vincent 0 true/faceDirection Jas 0 /pause 800/faceDirection Lewis 3/faceDirection Lewis 2/faceDirection Lewis 1/faceDirection Lewis 2/pause 800/speak Lewis \"ตอนนี้... ทุกคนพร้อมกันหรือยัง?\"/pause 1000/waitForOtherPlayers startContest/jump Lewis/pause 1000/speak Lewis \"เริ่มการค้นหาไข่ได้!$h\"/advancedMove Sophia false 0 -13 -12 0 0 20 16 0 0 16 -18 0 0 4 4 0 0 -12 8 0 4 5000/advancedMove Maru false -2 0 0 6 -9 0 0 -2 -9 0 0 -1 2 0 0 -12 6 0 0 -4 15 0 0 1 3 0 0 1 5 0 0 2 12 0 0 11/advancedMove Abigail false 0 21 -20 0 0 3 7 0 0 -2 26 0 0 5 25 0/advancedMove Jas false 0 12 8 0 0 10 3 0 0 4 14 0 0 -20 -7 0 0 6 -14 0/advancedMove Sam false 4 0 0 -4 2 0 0 -4 12 0 0 -6 19 0 0 20 0 -20 0 20/advancedMove Vincent false 0 3 24 0 0 22 15 0 0 -21 -25 0 4 7000/advancedMove Leo false -1 0 0 7 -5 0 0 3 13 0 0 2 20 0 0 -9 -3 0 0 -19 19 0 0 -1/playSound whistle/playMusic tickTock/playerControl eggHunt",
+     "mainEvent": "pause 400/playMusic none/pause 500/globalFade/viewport -1000 -1000/loadActors MainEvent/warp farmer1 27 69 /warp farmer2 27 67/warp farmer3 32 67/warp farmer4 28 71/faceDirection farmer1 0/faceDirection farmer2 1/faceDirection farmer3 3/faceDirection farmer4 0/pause 1000/viewport 27 67 true unfreeze/pause 2000/speak Lewis \"ตอนนี้ถึงเวลาเด็ด ของเทศกาลไข่นี่แล้ว... การล่าไข่!$h\"/pause 100/jump Jas/pause 100/jump Vincent/pause 250/pause 1200/speak Lewis \"ใจเย็นๆ เด็กๆ เธอต้องใช้พลังงาน ในการค้นหาไข่ ที่ซ่อนอยู่ให้มากที่สุด เพื่อที่จะได้รางวัลแสนพิเศษ กลับบ้านเป็นที่ระลึก\"/pause 100/faceDirection Vincent 3 true/faceDirection Jas 1 true/pause 1000/faceDirection Vincent 0 true/faceDirection Jas 0 /pause 800/faceDirection Lewis 3/faceDirection Lewis 2/faceDirection Lewis 1/faceDirection Lewis 2/pause 800/speak Lewis \"ตอนนี้... ทุกคนพร้อมกันหรือยัง?\"/pause 1000/waitForOtherPlayers startContest/jump Lewis/pause 1000/speak Lewis \"เริ่มการค้นหาไข่ได้!$h\"/advancedMove Sophia false 0 -13 -12 0 0 20 16 0 0 16 -18 0 0 4 4 0 0 -12 8 0 4 5000/advancedMove Maru false -2 0 0 6 -9 0 0 -2 -9 0 0 -1 2 0 0 -12 6 0 0 -4 15 0 0 1 3 0 0 1 5 0 0 2 12 0 0 11/advancedMove Abigail false 0 21 -20 0 0 3 7 0 0 -2 26 0 0 5 25 0/advancedMove Jas false 0 12 8 0 0 10 3 0 0 4 14 0 0 -21 -5 0 0 7 -18 0/advancedMove Sam false 4 0 0 -4 2 0 0 -4 12 0 0 -6 18 0 0 20 0 -20 0 20/advancedMove Vincent false 0 3 24 0 0 22 15 0 0 -21 -25 0 4 7000/advancedMove Leo false -1 0 0 7 -5 0 0 3 13 0 0 2 20 0 0 -9 -3 0 0 -19 19 0 0 -1/playSound whistle/playMusic tickTock/playerControl eggHunt",
      }
 },
 
@@ -7484,10 +7703,10 @@
      "Target": "Data/Festivals/spring13",
 	 "When": { "Year": "1" },
      "Entries": {
-     "set-up": "fallFest/27 60/farmer 12 54 1/changeToTemporaryMap Town-EggFestival/loadActors Set-Up/advancedMove Andy true 1 9000 -6 0 0 -8 4 7000 0 8 6 0 1 8000/advancedMove Vincent true -2 0 0 -2 2 0 0 2/advancedMove Jas true 2 0 0 2 -2 0 0 -2/advancedMove Pam true 0 -1 3 5000 0 2 3 5000 0 -1 3 4000/advancedMove Clint true 1 7000 0 1 3 7000 0 -1/advancedMove Demetrius true 2 15000 -3 0 0 8 3 20000 0 -8 3 0/advancedMove Willy true 2 25000 -4 0 0 -12 4 0 0 -1 4 30000 0 1 -4 0 0 12 4 0/advancedMove Shane true 4 40000 2 0 0 2 1 35000 0 -2 -2 0/advancedMove Harvey true 0 6 -6 0 0 9 -3 0 3 15000 3 0 0 3 18 0 0 -8 1 0 0 -11 -13 0 0 1 2 30000/playerControl eggFestival",
+     "set-up": "fallFest/27 60/farmer 12 54 1/changeToTemporaryMap Town-EggFestival/loadActors Set-Up/advancedMove Andy true 1 9000 -6 0 0 -8 4 7000 0 8 6 0 1 8000/advancedMove Vincent true -2 0 0 -2 2 0 0 2/advancedMove Jas true 2 0 0 2 -2 0 0 -2/advancedMove Pam true 0 -1 3 5000 0 2 3 5000 0 -1 3 4000/advancedMove Clint true 1 7000 0 1 3 7000 0 -1/advancedMove Demetrius true 2 15000 -3 0 0 8 3 20000 0 -8 3 0/advancedMove Willy true 2 25000 -4 0 0 -12 4 0 0 -1 4 30000 0 1 -4 0 0 12 4 0/advancedMove Shane true 4 40000 2 0 0 2 1 35000 0 -2 -2 0/advancedMove Harvey true 0 6 -6 0 0 9 -3 0 3 15000 3 0 0 3 20 0 0 -19 -14 0 0 1 2 30000/playerControl eggFestival",
      "afterEggHunt": "pause 100/playSound whistle/waitForOtherPlayers endContest/pause 1000/globalFade/viewport -1000 -1000/playMusic event1/loadActors MainEvent/warp farmer1 27 69 /warp farmer2 26 67/warp farmer3 32 67/warp farmer4 28 71/faceDirection farmer1 0/faceDirection farmer2 1/faceDirection farmer3 3/faceDirection farmer4 0/pause 1000/viewport 27 67 true/pause 2000/speak Lewis \"ว้าวดูไข่พวกนี้สิ!$h#$b#แหม ถ้าฉันสามารถทำให้เด็กๆ อย่างพวกเธอ มาเก็บขยะกันให้ได้แบบนี้บ้าง เราคงจะได้เป็น เมืองที่อยู่ติดชายฝั่งทะเลอัญมณี ที่สะอาดที่สุด! *คิก คิก*$h\"/pause 800/playMusic none/speak Lewis \"และแล้ว ผู้ชนะเลิศในปีนี้ได้แก่...\"/playMusic none/pause 3000/cutscene eggHuntWinner/null/playMusic event1/pause 500/fork AbbyWin/move Lewis 0 1 2/speak Lewis \"นี่รางวัลของเธอ! รับไปเลย\"/awardFestivalPrize/null/move Lewis 0 -1 0/speak Lewis \"นี่ก็จบไปแล้วสำหรับ เทศกาลไข่ปีนี้ ขอขอบคุณ ทุกคนที่มาร่วมงาน!\"/pause 600/viewport move 1 0 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end",
      "AbbyWin": "pause 100/jump Jas/pause 200/jump Vincent/pause 800/emote Penny 32 true/pause 200/move Lewis 1 0 2/move Lewis 0 1 2/pause 100/speak Lewis \"นี่รางวัลของเธอ เด็กๆ รับไปเลย!$1\"/move Jas 0 -1 0 true/pause 150/move Vincent 0 -1 0 true/pause 800/playSound coin/pause 700/faceDirection Jas 1 true/pause 600/faceDirection Vincent 3 true/pause 400/jump Vincent/pause 500/faceDirection Lewis 1 true/pause 200/faceDirection Lewis 0/pause 300/move Lewis 0 -1 0/speak Lewis \"นี่ก็จบไปแล้วสำหรับ เทศกาลไข่ปีนี้ ขอขอบคุณ ทุกคนที่มาร่วมงาน!\"/pause 1000/viewport move 1 -1 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end",
-     "mainEvent": "pause 500/playMusic none/pause 500/globalFade/viewport -1000 -1000/loadActors MainEvent/warp farmer1 27 69 /warp farmer2 27 67/warp farmer3 32 67/warp farmer4 28 71/faceDirection farmer1 0/faceDirection farmer2 1/faceDirection farmer3 3/faceDirection farmer4 0/pause 1000/viewport 27 67 true unfreeze/pause 2000/speak Lewis \"ตอนนี้ถึงเวลาเด็ด ของเทศกาลไข่นี่แล้ว... การล่าไข่!$h\"/pause 100/jump Jas/pause 100/jump Vincent/pause 1200/speak Lewis \"ใจเย็นๆ เด็กๆ เธอต้องใช้พลังงาน ในการค้นหาไข่ ที่ซ่อนอยู่ให้มากที่สุด เพื่อที่จะได้รางวัลแสนพิเศษ กลับบ้านเป็นที่ระลึก\"/pause 100/faceDirection Vincent 3 true/faceDirection Jas 1 true/pause 1000/faceDirection Vincent 0 true/faceDirection Jas 0 /pause 800/faceDirection Lewis 3/faceDirection Lewis 2/faceDirection Lewis 1/faceDirection Lewis 2/pause 800/speak Lewis \"ตอนนี้... ทุกคนพร้อมกันหรือยัง?\"/pause 1000/waitForOtherPlayers startContest/jump Lewis/pause 1000/speak Lewis \"เริ่มการค้นหาไข่ได้!$h\"/advancedMove Sophia false 0 -13 -12 0 0 20 16 0 0 16 -18 0 0 4 4 0 0 -12 8 0 4 5000/advancedMove Maru false -2 0 0 6 -9 0 0 -2 -9 0 0 -1 2 0 0 -12 6 0 0 -4 15 0 0 1 3 0 0 1 5 0 0 2 12 0 0 11/advancedMove Abigail false 0 21 -20 0 0 3 7 0 0 -2 26 0 0 5 25 0/advancedMove Jas false 0 12 8 0 0 10 3 0 0 4 14 0 0 -20 -7 0 0 6 -14 0/advancedMove Sam false 4 0 0 -4 2 0 0 -4 12 0 0 -6 19 0 0 20 0 -20 0 20/advancedMove Vincent false 0 3 24 0 0 22 15 0 0 -21 -25 0 4 7000/playSound whistle/playMusic tickTock/playerControl eggHunt",
+     "mainEvent": "pause 500/playMusic none/pause 500/globalFade/viewport -1000 -1000/loadActors MainEvent/warp farmer1 27 69 /warp farmer2 27 67/warp farmer3 32 67/warp farmer4 28 71/faceDirection farmer1 0/faceDirection farmer2 1/faceDirection farmer3 3/faceDirection farmer4 0/pause 1000/viewport 27 67 true unfreeze/pause 2000/speak Lewis \"ตอนนี้ถึงเวลาเด็ด ของเทศกาลไข่นี่แล้ว... การล่าไข่!$h\"/pause 100/jump Jas/pause 100/jump Vincent/pause 1200/speak Lewis \"ใจเย็นๆ เด็กๆ เธอต้องใช้พลังงาน ในการค้นหาไข่ ที่ซ่อนอยู่ให้มากที่สุด เพื่อที่จะได้รางวัลแสนพิเศษ กลับบ้านเป็นที่ระลึก\"/pause 100/faceDirection Vincent 3 true/faceDirection Jas 1 true/pause 1000/faceDirection Vincent 0 true/faceDirection Jas 0 /pause 800/faceDirection Lewis 3/faceDirection Lewis 2/faceDirection Lewis 1/faceDirection Lewis 2/pause 800/speak Lewis \"ตอนนี้... ทุกคนพร้อมกันหรือยัง?\"/pause 1000/waitForOtherPlayers startContest/jump Lewis/pause 1000/speak Lewis \"เริ่มการค้นหาไข่ได้!$h\"/advancedMove Sophia false 0 -13 -12 0 0 20 16 0 0 16 -18 0 0 4 4 0 0 -12 8 0 4 5000/advancedMove Maru false -2 0 0 6 -9 0 0 -2 -9 0 0 -1 2 0 0 -12 6 0 0 -4 15 0 0 1 3 0 0 1 5 0 0 2 12 0 0 11/advancedMove Abigail false 0 21 -20 0 0 3 7 0 0 -2 26 0 0 5 25 0/advancedMove Jas false 0 12 8 0 0 10 3 0 0 4 14 0 0 -21 -5 0 0 7 -18 0/advancedMove Sam false 4 0 0 -4 2 0 0 -4 12 0 0 -6 18 0 0 20 0 -20 0 20/advancedMove Vincent false 0 3 24 0 0 22 15 0 0 -21 -25 0 4 7000/playSound whistle/playMusic tickTock/playerControl eggHunt",
      }
 },
 
@@ -8164,6 +8383,31 @@
 	 }
 },
 
+{    //Adds judge strings to Sophia, Andy, and Susan
+	 "Action": "EditData",
+     "Target": "Strings/StringsFromCSFiles",
+     "Entries": {
+     "SVE_GrangeJudging_Sophia": "I wonder who'll win?$1",
+	 "SVE_GrangeJudging_Andy": "Well, here goes nothin'. Good luck to ya, farmer.$0",
+	 "SVE_GrangeJudging_Susan": "It's a shame we all can't be winners. Everyone worked so hard on their grange displays.$0",
+	 "SVE_AfterJudging_Sophia": "That was fun!$1",
+	 "SVE_AfterJudging_Andy": "Lewis barely took a gander at my grange display. Typical.$8#$e#How did you place, farmer?$0",
+	 "SVE_AfterJudging_Susan": "My babies did great! It must have been my new experimental fertilizer.$0",
+	 }
+},
+
+{    //Sophia marriage judge strings
+	 "Action": "EditData",
+     "Target": "Strings/StringsFromCSFiles",
+	 "When": { "Spouse |contains=Sophia": true },
+     "Entries": {
+     "SVE_GrangeJudging_Sophia": "We're competitors until the judging is over, dear...$3#$e#%Sophia looks pumped.",
+	 "SVE_AfterJudging_Sophia": "Yay! I won so many Star Tokens!$8#$e#Don't forget to clear out your grange display, okay.$1#$e#I almost forgot one year...$2"
+	 }
+},
+
+
+
 {   //Kicks out creepy man and cleans trash in year 2+
     "Action": "EditMap",
     "Target": "Maps/Town-Fair",
@@ -8179,7 +8423,7 @@
   {    
     "Operation": "Append",
     "Target": ["Entries", "Set-Up_additionalCharacters"],
-    "Value": "Victor 19 78 right",
+    "Value": "Victor 19 77 right",
     "Delimiter": "/"
   }
  ]
@@ -8192,7 +8436,7 @@
   {    
     "Operation": "Append",
     "Target": ["Entries", "Set-Up_additionalCharacters"],
-    "Value": "Olivia 19 79 right",
+    "Value": "Olivia 19 78 right",
     "Delimiter": "/"
   }
  ]
@@ -10096,7 +10340,7 @@
       "Action": "EditData",
       "Target": "Data/Events/Custom_JenkinsHouse",
       "Entries": {
-        "2000000/f Victor 500/e 1000034/p Victor": "jaunty/-500 -500/farmer 20 34 0 Victor 24 25 2/pause 400/skippable/showFrame Victor 37/viewport 22 27 true/move farmer 0 -7 1/pause 800/move farmer 4 0 0/pause 1000/showFrame Victor 38/pause 650/speak Victor \"โอ้ ขอประทานโทษนะครับ ผมไม่เห็นคุณเข้ามาเลย คุณ @!$1\"/pause 300/showFrame Victor 37/pause 600/showFrame Victor 38/pause 300/speak Victor \"ผมกำลังอ่าน บันทึกของนักผจญภัย เกี่ยวกับหมู่เกาะใบเฟิร์น อยู่น่ะครับ คุณอาจจะไม่เคยได้ยินนะครับ แต่ว่าหมู่เกาะที่ว่าน่ะ เต็มไปด้วยถ้ำ ที่อันตรายเลยครับ$1#$b#ถ้ำพวกนั้นเชื่อมลงไปถึง พื้นที่ใต้ทะเลก็เลยเต็มไปด้วย สัตว์ประหลาดที่ไม่เคยถูกพบเห็น บนพื้นดินมาก่อนน่ะครับ$3#$b#ถ้านักผจญภัยผู้นี้ พูดความจริงล่ะก็ มันจะมี สัตว์ประหลาดหนวดยักษ์ และแมงกระพรุนมีพิษ ลอยได้ด้วย เหลือเชื่อไปเลยครับว่า พวกเขารอดชีวิตกลับมาเขียน เรื่องพวกนี้ให้เราอ่านได้ด้วย!$7\"/pause 200/emote farmer 16/pause 300/showFrame Victor 37/pause 750/showFrame Victor 38/pause 450/speak Victor \"ชนเผ่าที่ปกป้อง หมู่เกาะใบเฟิร์น มีชื่อว่า 'ชาวคมแรก' ครับ พวกเขาใส่ผ้าคลุมสีน้ำเงิน แล้วก็ใช้หอกยาวเป็นอาวุธ มีผู้นำเป็นนักสู้ที่แข็งแกร่ง ชื่อว่า เอกอน$1#$b#มาร์ลอน รู้จักกับเขาด้วยนะครับ$3#$b#พวกเขาช่วยกัน เขียนหนังสือเล่มไหนสักเล่ม ในห้องสมุดอีกด้วยล่ะครับ$0\"/pause 450/question fork0 \"#คุณคิดจะเข้าร่วมกับกิลด์ของนักผจญภัยบ้างมั้ย?#ฉันอยากไปหมู่เกาะนั่นบ้างจังเลย!\"/fork 2000000_JoinGuild/pause 550/speak Victor \"คุณแม่กับผม เพิ่งจะไปเที่ยวเมืองเซาทีน บนเกาะนั้นมาเองครับ ชายหาดนี่สวยตรึงตาจริงๆ$3#$b#หวังว่าจะได้กลับไปอีกเร็วๆ นี้ครับ ปกติพวกเราไปเที่ยวกัน ปีละที่สองที่ แต่คุณแม่มักจะ เป็นคนเลือกน่ะครับ ว่าเราจะไปที่ไหน$1\"/pause 500/showFrame Victor 37/pause 600/speak Victor \"ผมชอบหลงอยู่ในภวังค์ แห่งหนังสือบ่อยๆ ครับ ตู้นี้น่ะเคยโล่งกว่านี้ แต่ผมก็สะสมหนังสือมาเรื่อยๆ ครับ$3#$b#ผมคิดว่าผมน่าจะอ่านหนังสือ ในห้องสมุดของเรา ไปได้สักประมาณ สามในสี่แล้วนะครับ แต่จำนวนมันเพิ่มขึ้นตลอดเลย$0#$b#ผมคงไม่มีวันพูดว่า อ่านหมดแล้ว ได้แน่ๆ เลยครับ$1\"/pause 500/showFrame Victor 38/pause 750/speak Victor \"ผมอนุญาตให้คุณ หยิบเล่มไหนที่สะดุดตา อ่านได้เลยนะครับ คุณ @$3#$b#แต่ถ้าจะยืมกลับบ้าน ก็บอกกันก่อนนะครับ$1\"/pause 500/jump farmer/pause 1200/showFrame Victor 37/pause 2000/showFrame Victor 38/pause 1000/speak Victor \"ผมขอตัวกลับไป อ่านหนังสือต่อก่อนนะครับ ขอให้วันนี้เป็นวันที่ดีนะครับ คุณ @ ไว้มาคุยกันต่อเร็วๆ นี้นะครับ!$1\"/pause 500/globalFade/viewport -1000 -1000/pause 700/friendship Victor 50/end dialogue Victor \"ผมอ่านเรื่องหมู่เกาะใบเฟิร์น ไปอีกหน่อยแล้วล่ะครับ ดูเหมือนว่า แมงกระพรุนมีพิษพวกนั้น มีชื่อว่า ซินเนส ล่ะครับ$7#$b#มีพ่อมดคนนึงบนเกาะ ปรุงยาแก้พิษ ของพวกซินเนสได้ด้วย ยาของเขานี่แหละครับ ที่ช่วยชีวิตนักผจญภัยไว้!$1\"",
+        "2000000/f Victor 500": "jaunty/-500 -500/farmer 20 34 0 Victor 24 25 2/pause 400/skippable/showFrame Victor 37/viewport 22 27 true/move farmer 0 -7 1/pause 800/move farmer 4 0 0/pause 1000/showFrame Victor 38/pause 650/speak Victor \"โอ้ ขอประทานโทษนะครับ ผมไม่เห็นคุณเข้ามาเลย คุณ @!$1\"/pause 300/showFrame Victor 37/pause 600/showFrame Victor 38/pause 300/speak Victor \"ผมกำลังอ่าน บันทึกของนักผจญภัย เกี่ยวกับหมู่เกาะใบเฟิร์น อยู่น่ะครับ คุณอาจจะไม่เคยได้ยินนะครับ แต่ว่าหมู่เกาะที่ว่าน่ะ เต็มไปด้วยถ้ำ ที่อันตรายเลยครับ$1#$b#ถ้ำพวกนั้นเชื่อมลงไปถึง พื้นที่ใต้ทะเลก็เลยเต็มไปด้วย สัตว์ประหลาดที่ไม่เคยถูกพบเห็น บนพื้นดินมาก่อนน่ะครับ$3#$b#ถ้านักผจญภัยผู้นี้ พูดความจริงล่ะก็ มันจะมี สัตว์ประหลาดหนวดยักษ์ และแมงกระพรุนมีพิษ ลอยได้ด้วย เหลือเชื่อไปเลยครับว่า พวกเขารอดชีวิตกลับมาเขียน เรื่องพวกนี้ให้เราอ่านได้ด้วย!$7\"/pause 200/emote farmer 16/pause 300/showFrame Victor 37/pause 750/showFrame Victor 38/pause 450/speak Victor \"ชนเผ่าที่ปกป้อง หมู่เกาะใบเฟิร์น มีชื่อว่า 'ชาวคมแรก' ครับ พวกเขาใส่ผ้าคลุมสีน้ำเงิน แล้วก็ใช้หอกยาวเป็นอาวุธ มีผู้นำเป็นนักสู้ที่แข็งแกร่ง ชื่อว่า เอกอน$1#$b#มาร์ลอน รู้จักกับเขาด้วยนะครับ$3#$b#พวกเขาช่วยกัน เขียนหนังสือเล่มไหนสักเล่ม ในห้องสมุดอีกด้วยล่ะครับ$0\"/pause 450/question fork0 \"#คุณคิดจะเข้าร่วมกับกิลด์ของนักผจญภัยบ้างมั้ย?#ฉันอยากไปหมู่เกาะนั่นบ้างจังเลย!\"/fork 2000000_JoinGuild/pause 550/speak Victor \"คุณแม่กับผม เพิ่งจะไปเที่ยวเมืองเซาทีน บนเกาะนั้นมาเองครับ ชายหาดนี่สวยตรึงตาจริงๆ$3#$b#หวังว่าจะได้กลับไปอีกเร็วๆ นี้ครับ ปกติพวกเราไปเที่ยวกัน ปีละที่สองที่ แต่คุณแม่มักจะ เป็นคนเลือกน่ะครับ ว่าเราจะไปที่ไหน$1\"/pause 500/showFrame Victor 37/pause 600/speak Victor \"ผมชอบหลงอยู่ในภวังค์ แห่งหนังสือบ่อยๆ ครับ ตู้นี้น่ะเคยโล่งกว่านี้ แต่ผมก็สะสมหนังสือมาเรื่อยๆ ครับ$3#$b#ผมคิดว่าผมน่าจะอ่านหนังสือ ในห้องสมุดของเรา ไปได้สักประมาณ สามในสี่แล้วนะครับ แต่จำนวนมันเพิ่มขึ้นตลอดเลย$0#$b#ผมคงไม่มีวันพูดว่า อ่านหมดแล้ว ได้แน่ๆ เลยครับ$1\"/pause 500/showFrame Victor 38/pause 750/speak Victor \"ผมอนุญาตให้คุณ หยิบเล่มไหนที่สะดุดตา อ่านได้เลยนะครับ คุณ @$3#$b#แต่ถ้าจะยืมกลับบ้าน ก็บอกกันก่อนนะครับ$1\"/pause 500/jump farmer/pause 1200/showFrame Victor 37/pause 2000/showFrame Victor 38/pause 1000/speak Victor \"ผมขอตัวกลับไป อ่านหนังสือต่อก่อนนะครับ ขอให้วันนี้เป็นวันที่ดีนะครับ คุณ @ ไว้มาคุยกันต่อเร็วๆ นี้นะครับ!$1\"/pause 500/globalFade/viewport -1000 -1000/pause 700/friendship Victor 50/end dialogue Victor \"ผมอ่านเรื่องหมู่เกาะใบเฟิร์น ไปอีกหน่อยแล้วล่ะครับ ดูเหมือนว่า แมงกระพรุนมีพิษพวกนั้น มีชื่อว่า ซินเนส ล่ะครับ$7#$b#มีพ่อมดคนนึงบนเกาะ ปรุงยาแก้พิษ ของพวกซินเนสได้ด้วย ยาของเขานี่แหละครับ ที่ช่วยชีวิตนักผจญภัยไว้!$1\"",
 		
 		"2000000_JoinGuild": "pause 750/showFrame Victor 38/speak Victor \"!!!$7#$b#ผมเนี่ยนะครับ? เข้าร่วมกิลด์ของนักผจญภัย? ฮ่าฮ่าฮ่าฮ่า!$1#$b#ให้อ่านหรือศึกษา เรื่องมอนสเตอร์ น่ะสบายนะครับ แต่ถ้าเจอตัวจริง ผมคงไม่มีหวังแน่ ผมยกหน้าที่นั้นให้เหล่าคนกล้า อย่างคุณดีกว่าครับ คุณ @$3\"/pause 1200/speak Victor \"ผมรู้สึก ขอบคุณมากเลยนะครับ ที่มีคนเช่นคุณ คอยปกป้องพวกเรา ผมรู้ว่ามันเป็นงานที่อันตราย และยากลำบาก$3\"/pause 500/emote farmer 32/pause 500/showFrame Victor 37/pause 1750/showFrame Victor 38/pause 1000/speak Victor \"วันๆ ผมก็อ่านแต่หนังสือ นี่แหละครับ$1#$b#ตู้นี้น่ะเคยโล่งกว่านี้ แต่ผมก็สะสมหนังสือมาเรื่อยๆ ครับ$3#$b#ผมคิดว่า ผมน่าจะอ่านหนังสือ ในห้องสมุดของเรา ไปได้สักประมาณ สามในสี่แล้วนะครับ แต่จำนวนมันเพิ่มขึ้นตลอดเลย$0#$b#ผมคงไม่มีวันพูดว่า อ่านหมดแล้ว ได้แน่ๆ เลยครับ$1\"/pause 1000/showFrame Victor 38/pause 750/speak Victor \"ผมอนุญาตให้คุณ หยิบเล่มไหนที่สะดุดตาอ่าน ได้เลยนะครับ คุณ @$3#$b#แต่ถ้าจะยืมกลับบ้าน ก็บอกกันก่อนนะครับ$1\"/pause 500/jump farmer/pause 1200/showFrame Victor 37/pause 2000/showFrame Victor 38/pause 1000/speak Victor \"ผมขอตัวกลับไป อ่านหนังสือต่อก่อนนะครับ ขอให้วันนี้เป็นวันที่ดีนะครับ คุณ @ ไว้มาคุยกันต่อเร็วๆ นี้นะครับ!$1\"/pause 500/globalFade/viewport -1000 -1000/pause 700/friendship Victor 50/end dialogue Victor \"ผมอ่านเรื่องหมู่เกาะใบเฟิร์น ไปอีกหน่อยแล้วล่ะครับ ดูเหมือนว่า แมงกระพรุนมีพิษพวกนั้น มีชื่อว่า ซินเนส ล่ะครับ$7#$b#มีพ่อมดคนนึงบนเกาะ ปรุงยาแก้พิษ ของพวกซินเนสได้ด้วย ยาของเขานี่แหละครับ ที่ช่วยชีวิตนักผจญภัยไว้!$1\"",
       }
@@ -12098,7 +12342,7 @@
       "Entries": {
       "Sophia": "teen/polite/shy/positive/female/datable/null/Town/winter 27//Custom_SophiaHouse 23 6/Sophia"
       }
-    },
+},
 	
 	{
       //Sophia's Gift Tastes
@@ -14523,6 +14767,7 @@
       //Wizard's Portraits
       "Action": "Load",
       "Target": "Portraits/Wizard",
+	  "When": { "HasMod |contains=misscoriel.razolyn": false },
       "FromFile": "assets/CharacterFiles/Portraits/Magnus/Magnus.png"
     },
 	
@@ -14530,7 +14775,7 @@
       //Wizard's Sprites
       "Action": "Load",
       "Target": "Characters/Wizard",
-	  "When": { "HasMod |contains=Parrot.RomRas": false },
+	  "When": { "HasMod |contains=Parrot.RomRas": false, "HasMod |contains=misscoriel.razolyn": false },
       "FromFile": "assets/CharacterFiles/OverworldSprites/Magnus/Magnus.png"
     },
 	
@@ -15551,6 +15796,7 @@
 {       //WIZARD 4 HEART EVENT - 'Shrine of Illusions' (Female)
 	 "Action": "EditData",
 	 "Target": "data/events/wizardhouse",
+	 "When": { "HasMod |contains=misscoriel.razolyn": false },
 	 "Entries": {
      "1724095/g female/n ShrineOfIllusionsLetter": "WizardSong/-500 -500/farmer -100 -100 0 Wizard 7 29 0/addTemporaryActor FemaleFarmer 16 32 -104 -104 0/pause 1000/showFrame Wizard 17/viewport 9 30 true/skippable/pause 1300/shake Wizard 250/playSound leafrustle/pause 1200/shake Wizard 250/playSound leafrustle/pause 1200/playSound doorClose/warp farmer 9 34/pause 1100/shake Wizard 250/playSound leafrustle/pause 300/move farmer 0 -5 3/pause 600/playSound leafrustle/shake Wizard 300/pause 1500/speak Wizard \"สักครู่...\"/pause 900/shake Wizard 250/playSound leafrustle/pause 1250/shake Wizard 250/playSound leafrustle/pause 1000/shake Wizard 250/playSound leafrustle/pause 500/emote farmer 8/pause 600/showFrame Wizard 8/pause 600/faceDirection Wizard 1 true/pause 500/speak Wizard \"หืมม?#$b#ข้ากำลังรวบรวม สมุนไพรสำหรับปรุงยาให้เจ้า\"/pause 700/emote farmer 60/pause 100/speak Wizard \"อา ไม่มีสิ่งใดต้องกลัว @$1#$b#เจ้าจงมั่นใจว่ามันไม่แย่ เหมือนครั้งแรกที่เจ้าเคยดื่ม#$b#มา จงมาที่หม้อปรุงยากับข้า\"/pause 400/globalFade/viewport -1000 -1000 true/warp Wizard 3 19/warp farmer 6 19/faceDirection Wizard 2/viewport 6 20 true/pause 2000/playSound pullItemFromWater/shake Wizard 700/pause 1600/speak Wizard \"อีกอึดใจเดียว...\"/pause 600/showFrame Wizard 16/pause 800/screenFlash .5/playSound healSound/pause 400/screenFlash .5/playSound healSound/pause 700/showFrame Wizard 0/pause 700/faceDirection Wizard 1 true/pause 500/speak Wizard \"ยาวิเศษพร้อมแล้ว#$b#ด้วยสิ่งนี้ เจ้าจะสามารถรวบรวม พลังเวทย์รอบตัวเจ้า และช่วยให้เจ้าร่ายมนตร์เล็กๆ ได้#$b#เอ้า จงดื่มมัน\"/pause 600/move farmer -2 0 3/pause 600/faceDirection farmer 2 true/pause 300/playSound dwop/showFrame farmer 90/pause 1000/showFrame farmer 91/pause 200/showFrame farmer 93/playSound gulp/pause 200/showFrame farmer 92/pause 200/showFrame farmer 93/pause 200/showFrame farmer 92/pause 200/showFrame farmer 93/pause 200/showFrame farmer 92/showFrame farmer 91/pause 100/showFrame farmer 90/showFrame farmer 0/pause 900/glow 0 0 200/playSound coldSpell/pause 800/glow 0 0 255/pause 500/glow 0 0 140/pause 700/message \"น้ำยานี่ มีรสชาดเหมือนขนมสายไหม\"/pause 800/faceDirection farmer 3 true/pause 400/emote farmer 32/pause 200/speak Wizard \"ดี เอาล่ะ เมื่อเจ้าพร้อม ลงไปเจอกับข้าที่ข้างล่าง\"/pause 400/globalFade/viewport -1000 -1000/changeLocation Custom_WizardBasement/warp Wizard 23 6/warp farmer 20 6/faceDirection Wizard 3 true/faceDirection farmer 1 true/viewport 16 6 true/pause 1200/speak Wizard \"อย่างแรก ข้าจะสาธิต\"/stopMusic/pause 700/faceDirection Wizard 0/pause 800/showFrame Wizard 17/pause 700/shake Wizard 800/pause 700/screenFlash 2/playSound healSound/playSound yoba/warp Wizard 23 6/showFrame Wizard 24 true/pause 800/emote farmer 16/pause 400/showFrame Wizard 25 true/pause 600/speak Wizard \"...$6\"/pause 600/showFrame Wizard 24 true/pause 1200/screenFlash 2/playSound healSound/playSound yoba/warp Wizard 23 6/showFrame Wizard 8 true/pause 1000/faceDirection Wizard 3 true/pause 500/speak Wizard \"ทีนี้ เจ้าลองทำดู\"/pause 400/globalFade/viewport -1000 -1000 true/warp Wizard 20 6/warp farmer 23 6/faceDirection Wizard 1 true/faceDirection farmer 0 true/viewport 16 6 true/pause 2200/startJittering/pause 800/screenFlash 2/playSound healSound/playSound yoba/stopJittering/warp farmer -200 -200/warp FemaleFarmer 23 6/pause 1400/faceDirection FemaleFarmer 3 true/pause 1300/speak Wizard \"อ้า! สำหรับความพยายามในครั้งแรก ไม่สูญเปล่า ยอดเยี่ยม!$1\"/pause 800/faceDirection FemaleFarmer 0/pause 1200/screenFlash 2/playSound healSound/playSound yoba/warp FemaleFarmer -195 -195/warp farmer 23 6/pause 1750/faceDirection farmer 3 true/pause 600/speak Wizard \"ช่างน่าประทับใจอย่างมาก @#$b#บางทีในอนาคต ข้าจะสอนคาถาให้เจ้า อีกสักหน่อย$0#$b#หากความสามารถของเจ้า สูงเพียงพอ เราอาจจะค้นคว้าทฤษฎี ที่เหนือกว่าเกี่ยวกับกฏเกณฑ์ ที่เชื่อมโยงโลกของเราไว้\"/pause 700/jump farmer/pause 700/speak Wizard \"น่ายินดีนัก ที่ได้เห็นพัฒนาการของเจ้า\"/pause 700/globalFade/viewport -1000 -1000/pause 1000/playSound reward/message \"ฉันสามารถใช้ 'ศาลแห่งภาพลวงตา' ได้แล้ว!\"/pause 1000/end dialogueWarpOut Wizard \"ความสามารถในการเปลี่ยน รูปลักษณ์ของเจ้าถือเป็น ความรับผิดชอบอันยิ่งใหญ่#$b#แต่จงอย่าถลำลึกจนเกินไป#$e#ข้าจะพิจารณาจากบททดสอบ ในครั้งนี้ เพื่อดูว่าเจ้า จะมีคุณสมบัติเพียงพอ ที่จะศึกษาเวทมนตร์กับข้า ต่อไปหรือไม่\"",
 	 },
@@ -15559,6 +15805,7 @@
 {       //WIZARD 4 HEART EVENT - 'Shrine of Illusions' (Male)
 	 "Action": "EditData",
 	 "Target": "data/events/wizardhouse",
+	 "When": { "HasMod |contains=misscoriel.razolyn": false },
 	 "Entries": {
      "1724095/g male/n ShrineOfIllusionsLetter": "WizardSong/-500 -500/farmer -100 -100 0 Wizard 7 29 0/addTemporaryActor MaleFarmer 16 32 -104 -104 0/pause 1000/showFrame Wizard 17/viewport 9 30 true/skippable/pause 1300/shake Wizard 250/playSound leafrustle/pause 1200/shake Wizard 250/playSound leafrustle/pause 1200/playSound doorClose/warp farmer 9 34/pause 1100/shake Wizard 250/playSound leafrustle/pause 300/move farmer 0 -5 3/pause 600/playSound leafrustle/shake Wizard 300/pause 1500/speak Wizard \"สักครู่...\"/pause 900/shake Wizard 250/playSound leafrustle/pause 1250/shake Wizard 250/playSound leafrustle/pause 1000/shake Wizard 250/playSound leafrustle/pause 500/emote farmer 8/pause 600/showFrame Wizard 8/pause 600/faceDirection Wizard 1 true/pause 500/speak Wizard \"หืมม?#$b#ข้ากำลังรวบรวม สมุนไพรสำหรับปรุงยาให้เจ้า\"/pause 700/emote farmer 60/pause 100/speak Wizard \"อา ไม่มีสิ่งใดต้องกลัว @$1#$b#เจ้าจงมั่นใจว่ามันไม่แย่ เหมือนครั้งแรกที่เจ้าเคยดื่ม#$b#มา จงมาที่หม้อปรุงยากับข้า\"/pause 400/globalFade/viewport -1000 -1000 true/warp Wizard 3 19/warp farmer 6 19/faceDirection Wizard 2/viewport 6 20 true/pause 2000/playSound pullItemFromWater/shake Wizard 700/pause 1600/speak Wizard \"อีกอึดใจเดียว...\"/pause 600/showFrame Wizard 16/pause 800/screenFlash .5/playSound healSound/pause 400/screenFlash .5/playSound healSound/pause 700/showFrame Wizard 0/pause 700/faceDirection Wizard 1 true/pause 500/speak Wizard \"ยาวิเศษพร้อมแล้ว#$b#ด้วยสิ่งนี้ เจ้าจะสามารถรวบรวม พลังเวทย์รอบตัวเจ้า และช่วยให้เจ้าร่ายมนตร์เล็กๆ ได้#$b#เอ้า จงดื่มมัน\"/pause 600/move farmer -2 0 3/pause 600/faceDirection farmer 2 true/pause 300/playSound dwop/showFrame farmer 90/pause 1000/showFrame farmer 91/pause 200/showFrame farmer 93/playSound gulp/pause 200/showFrame farmer 92/pause 200/showFrame farmer 93/pause 200/showFrame farmer 92/pause 200/showFrame farmer 93/pause 200/showFrame farmer 92/showFrame farmer 91/pause 100/showFrame farmer 90/showFrame farmer 0/pause 900/glow 0 0 200/playSound coldSpell/pause 800/glow 0 0 255/pause 500/glow 0 0 140/pause 700/message \"น้ำยานี่ มีรสชาดเหมือนขนมสายไหม\"/pause 800/faceDirection farmer 3 true/pause 400/emote farmer 32/pause 200/speak Wizard \"ดี เอาล่ะ เมื่อเจ้าพร้อม ลงไปเจอกับข้าที่ข้างล่าง\"/pause 400/globalFade/viewport -1000 -1000/changeLocation Custom_WizardBasement/warp Wizard 23 6/warp farmer 20 6/faceDirection Wizard 3 true/faceDirection farmer 1 true/viewport 16 6 true/pause 1200/speak Wizard \"อย่างแรก ข้าจะสาธิต\"/stopMusic/pause 700/faceDirection Wizard 0/pause 800/showFrame Wizard 17/pause 700/shake Wizard 800/pause 700/screenFlash 2/playSound healSound/playSound yoba/warp Wizard 23 6/showFrame Wizard 24 true/pause 800/emote farmer 16/pause 400/showFrame Wizard 25 true/pause 600/speak Wizard \"...$6\"/pause 600/showFrame Wizard 24 true/pause 1200/screenFlash 2/playSound healSound/playSound yoba/warp Wizard 23 6/showFrame Wizard 8 true/pause 1000/faceDirection Wizard 3 true/pause 500/speak Wizard \"ทีนี้ เจ้าลองทำดู\"/pause 400/globalFade/viewport -1000 -1000 true/warp Wizard 20 6/warp farmer 23 6/faceDirection Wizard 1 true/faceDirection farmer 0 true/viewport 16 6 true/pause 2200/startJittering/pause 800/screenFlash 2/playSound healSound/playSound yoba/stopJittering/warp farmer -200 -200/warp MaleFarmer 23 6/pause 1400/faceDirection MaleFarmer 3 true/pause 1300/speak Wizard \"อ้า! สำหรับความพยายามในครั้งแรก ไม่สูญเปล่า ยอดเยี่ยม!$1\"/pause 800/faceDirection MaleFarmer 0/pause 1200/screenFlash 2/playSound healSound/playSound yoba/warp MaleFarmer -195 -195/warp farmer 23 6/pause 1750/faceDirection farmer 3 true/pause 600/speak Wizard \"ช่างน่าประทับใจอย่างมาก @#$b#บางทีในอนาคต ข้าจะสอนคาถาให้เจ้า อีกสักหน่อย$0#$b#หากความสามารถของเจ้า สูงเพียงพอ เราอาจจะค้นคว้าทฤษฎี ที่เหนือกว่าเกี่ยวกับกฏเกณฑ์ ที่เชื่อมโยงโลกของเราไว้\"/pause 700/jump farmer/pause 700/speak Wizard \"น่ายินดีนัก ที่ได้เห็นพัฒนาการของเจ้า\"/pause 700/globalFade/viewport -1000 -1000/pause 1000/playSound reward/message \"ฉันสามารถใช้ 'ศาลแห่งภาพลวงตา' ได้แล้ว!\"/pause 1000/end dialogueWarpOut Wizard \"ความสามารถในการเปลี่ยน รูปลักษณ์ของเจ้าถือเป็น ความรับผิดชอบอันยิ่งใหญ่#$b#แต่จงอย่าถลำลึกจนเกินไป#$e#ข้าจะพิจารณา จากบททดสอบในครั้งนี้ เพื่อดูว่าเจ้า จะมีคุณสมบัติเพียงพอ ที่จะศึกษาเวทมนตร์กับข้า ต่อไปหรือไม่\"",
 	 },
@@ -15897,7 +16144,7 @@
      "FromFile": "Assets/Maps/FestivalMaps/Positions/Wizard_Main_Town-EggFestival.tbin",
      "ToArea": { "X": 26, "Y": 53,"Width": 1, "Height": 1 },
 	 "PatchMode": "Overlay",
-     "When": { "Spouse |contains=Wizard": true },
+     "When": { "Spouse |contains=Wizard": true, "HasMod |contains=Parrot.RomRas": false },
 },
 {
      "Action": "EditMap",
@@ -15905,7 +16152,7 @@
      "FromFile": "Assets/Maps/FestivalMaps/Positions/Wizard_Setup_Town-EggFestival.tbin",
      "ToArea": { "X": 38, "Y": 68,"Width": 1, "Height": 1 },
 	 "PatchMode": "Overlay",
-      "When": { "Spouse |contains=Wizard": true },
+      "When": { "Spouse |contains=Wizard": true, "HasMod |contains=Parrot.RomRas": false },
 },
 {
      "Action": "EditData",
@@ -15921,7 +16168,7 @@
      "FromFile": "Assets/Maps/FestivalMaps/Positions/Wizard_Forest-FlowerFestival.tbin",
      "ToArea": { "X": 25, "Y": 26,"Width": 1, "Height": 1 },
 	 "PatchMode": "Overlay",
-     "When": { "Spouse |contains=Wizard": true },
+     "When": { "Spouse |contains=Wizard": true, "HasMod |contains=Parrot.RomRas": false },
 },
 {
      "Action": "EditMap",
@@ -15929,7 +16176,7 @@
      "FromFile": "Assets/Maps/FestivalMaps/Positions/Wizard_Forest-FlowerFestival.tbin",
      "ToArea": { "X": 25, "Y": 26,"Width": 1, "Height": 1 },
 	 "PatchMode": "Overlay",
-     "When": { "Spouse |contains=Wizard": true },
+     "When": { "Spouse |contains=Wizard": true, "HasMod |contains=Parrot.RomRas": false },
 },
 {
      "Action": "EditMap",
@@ -15988,7 +16235,7 @@
      "FromFile": "Assets/Maps/FestivalMaps/Positions/Wizard_Town-Christmas.tbin",
      "ToArea": { "X": 11, "Y": 63,"Width": 1, "Height": 1 },
 	 "PatchMode": "Overlay",
-     "When": { "Spouse |contains=Wizard": true }
+     "When": { "Spouse |contains=Wizard": true, "HasMod |contains=Parrot.RomRas": false }
 },
 {
      "Action": "EditData",
@@ -16050,8 +16297,16 @@
       //Apples' Schedule
       "Action": "Load",
       "Target": "Characters/schedules/Apples",
-	  "When": { "ApplesHere": "true" },
+	  "When": { "ApplesHere": "true", "HasSeenEvent |contains=7776006": false },
       "FromFile": "assets/CharacterFiles/Schedules/Apples/Schedule.json"
+    },
+	
+	{
+      //Apples' Schedule - with Peaches
+      "Action": "Load",
+      "Target": "Characters/schedules/Apples",
+	  "When": { "ApplesHere": "true", "HasSeenEvent |contains=7776006": true },
+      "FromFile": "assets/CharacterFiles/Schedules/Apples/SchedulePeaches.json"
     },
   
     {
@@ -16241,17 +16496,6 @@
      "Action": "Load",
 	 "Target": "Characters/ApplesSad",
 	 "FromFile": "Assets/CharacterFiles/OverworldSprites/Apples/ApplesSad.png"
-},
-
-{
-     "Action": "Load",
-	 "Target": "Portraits/Peaches",
-	 "FromFile": "Assets/CharacterFiles/Portraits/Peaches/Peaches.png"
-},
-{
-     "Action": "Load",
-	 "Target": "Characters/Peaches",
-	 "FromFile": "Assets/CharacterFiles/OverworldSprites/Peaches/Peaches.png"
 },
 
 {   //Triggers starfruits to grow in Aurora Vineyard
@@ -16450,6 +16694,153 @@
       }
     },
 	*/
+
+
+      //Peaches NPC
+	  
+	
+    {
+      //Peaches' NPC disposition
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+	  "When": { "HasSeenEvent |contains=7776006": true },
+      "Entries": {
+        "Peaches": "child/polite/shy/neutral/female/non-datable/null/Other/null//Custom_Peaches_WarpRoom 3 3/Peaches",
+        }
+    },
+	
+	{
+      //Peaches' Animations
+      "Action": "EditData",
+      "Target": "Data/animationdescriptions",
+      "Entries": {
+		"Peaches_Dance1": "0 0 0 0/20 20 21 21 22 22 23 23/0 0 0 0",
+		"Peaches_Dance2": "0 0 0 0 0/24 24 25 25 26 26 27 27/0 0 0 0",
+		"Peaches_Wave": "0 0 0 0/28 28 29 29 30 30 31 31/0 0 0 0",
+		"Peaches_Sleep": "19 19 18 18/32/18 18 19 19"
+	   }
+    },
+	
+    { 
+	  //Peaches' sprites
+      "Action": "Load",
+	  "Target": "Characters/Peaches",
+	  "FromFile": "Assets/CharacterFiles/OverworldSprites/Peaches/Peaches.png"
+    },
+	
+    {
+	 //Peaches' portraits
+     "Action": "Load",
+	 "Target": "Portraits/Peaches",
+	 "FromFile": "Assets/CharacterFiles/Portraits/Peaches/Peaches.png"
+    },
+	
+	{
+      //Peaches' schedule
+      "Action": "Load",
+      "Target": "Characters/schedules/Peaches",
+	  "When": { "HasSeenEvent |contains=7776006": true },
+      "FromFile": "assets/CharacterFiles/Schedules/Peaches/Schedule.json"
+    },
+	
+    {
+      //Peaches' dialogue
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Peaches",
+	  "When": { "HasSeenEvent |contains=7776006": true },
+      "FromFile": "assets/CharacterFiles/Dialogue/Peaches/Dialogue.json"
+    },
+
+{
+   //Peaches' AntiSocial Flag
+   "Action": "EditData",
+   "Target": "Data/AntiSocialNPCs",
+   "Entries": {
+      "Peaches": true
+   }
+},
+
+
+
+      //Charlie NPC (Shane's chicken)
+	
+    {
+      //Charlie's NPC disposition
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+	  "When": { "HasSeenEvent |contains=3900074": true },  //Player must have seen Shane's 8 heart event for Charlie to spawn into the game.
+      "Entries": {
+        "CharlieChicken": "child/polite/shy/neutral/male/non-datable/null/Other/null//Custom_Charlie_WarpRoom 3 3/Charlie",
+        }
+    },
+	
+	{
+      //Charlie's Animations
+      "Action": "EditData",
+      "Target": "Data/animationdescriptions",
+      "Entries": {
+		"Charlie_Sleep": "16/16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16/16",
+	   }
+    },
+	
+    { 
+	  //Charlie's sprites
+      "Action": "Load",
+	  "Target": "Characters/CharlieChicken",
+	  "FromFile": "Assets/CharacterFiles/OverworldSprites/Charlie/Charlie.png"
+    },
+
+    {
+	 //Charlie's portraits (fake. maybe i'll make one in the future.)
+     "Action": "Load",
+	 "Target": "Portraits/CharlieChicken",
+	 "FromFile": "Assets/CharacterFiles/Portraits/NoPortraits/Charlie.png"
+    },
+	
+	{
+      //Charlie's schedule
+      "Action": "Load",
+      "Target": "Characters/schedules/CharlieChicken",
+	  "When": { "HasSeenEvent |contains=3900074": true },
+      "FromFile": "assets/CharacterFiles/Schedules/Charlie/Schedule.json"
+    },
+	
+	{ //New Saturday schedule if player married Shane
+	  "Action": "EditData",
+	  "Target": "characters/schedules/CharlieChicken",
+	  "When": { "Spouse |contains=Shane": true },
+	  "Entries": {
+      "Sat": "0 Custom_Charlie_WarpRoom 2 3 3/630 AnimalShop 12 16 2 Charlie_Sleep/1130 AnimalShop 3 15 0 Charlie_Sleep/1430 AnimalShop 17 15 2 Charlie_Sleep/1800 AnimalShop 26 6 2 Charlie_Sleep"
+       },
+    },
+	
+	{ //Charlie Community Day schedule
+	  "Action": "EditData",
+	  "Target": "characters/schedules/CharlieChicken",
+	  "When": { "HasSeenEvent |contains=191393": true, "HasSeenEvent |contains=3900074": true },
+	  "Entries": {
+      "22": "0 Custom_Charlie_WarpRoom 2 3 3/800 AnimalShop 23 15 1/1030 AnimalShop 16 14 2/1100 CommunityCenter 16 22 2 Charlie_Sleep/1800 CommunityCenter 9 26 3/1850 AnimalShop 26 6 2 Charlie_Sleep",
+       },
+    },
+	
+    {
+      //Charlie's dialogue
+      "Action": "Load",
+      "Target": "Characters/Dialogue/CharlieChicken",
+	  "When": { "HasSeenEvent |contains=3900074": true },
+      "FromFile": "assets/CharacterFiles/Dialogue/Charlie/Dialogue.json"
+    },
+
+    {
+      //Charlie's AntiSocial Flag
+      "Action": "EditData",
+      "Target": "Data/AntiSocialNPCs",
+      "Entries": {
+        "CharlieChicken": true
+      }
+    },
+
+
 
 
     //CLAIRE NPC
@@ -18350,7 +18741,7 @@
 	     "Target": "data/events/Town",
 		 "When": { "HasSeenEvent": "4269703", "HasFlag": "ccMovieTheaterJoja" },
 	     "Entries": { 
-         "4269704/O Claire/n ThiefOfJusticeMovie/t 1600 2000": "none/-500 -500/farmer -1 -1 0 Claire -2 -2 0 Marnie -3 -3 0 Lewis -4 -4 0 Jodi -5 -5 0 Kent -6 -6 0 Olivia -7 -7 0 Victor -8 -8 0 Emily -9 -9 1 Caroline -10 -10 0 Pierre -11 -11 0 Robin -12 -12 0 Demetrius -13 -13 0 Jas -14 -14 0 Vincent -15 -15 0 Leah -16 -16 0 Elliott -17 -17 0 Clint -18 -18 0/addTemporaryActor MovieProjectorLight 96 192 -30 -30 2 false/addTemporaryActor ClaireMovieScenes 90 150 -20 -20 2 false/skippable/warp Leah 55 21/positionOffset Leah 7 -3 true/faceDirection Leah 0 true/warp Elliott 54 21/faceDirection Elliott 0 true/positionOffset Elliott 10 -3 true/faceDirection farmer 1 true/warp Emily 53 21/warp Caroline 52 21/faceDirection Caroline 1 true/warp Pierre 51 21/faceDirection Pierre 1 true/warp Demetrius 49 21/faceDirection Demetrius 3 true/warp Robin 48 21/faceDirection Robin 1 true/warp Clint 90 21/faceDirection Clint 0 true/positionOffset Emily 15 7 true/positionOffset Caroline 14 1 true/positionOffset Pierre 16 3 true/positionOffset Robin 63 0 true/positionOffset Demetrius 62 -4 true/positionOffset Clint 5 -30/playMusic movieTheater/warp farmer 48 21/faceDirection farmer 1 true/viewport 52 25 clamp true/viewport move 0 -1 7500 true/pause 5000/globalFade/viewport -1000 -1000/changeLocation MovieTheater/faceDirection Elliott 3 true/warp Clint 5 12/warp Emily 9 11/warp Pierre 11 11/warp Caroline 11 13/warp Leah 15 12/warp Elliott 16 12/warp Kent 15 9/warp Jodi 17 9/warp Jas 15 7/warp Vincent 16 7/warp Lewis 12 5/warp Marnie 12 7/warp Victor 7 8/warp Olivia 7 7/warp Robin 7 10/warp Demetrius 7 9/warp Claire 9 9/warp farmer 13 15/positionOffset Victor -4 0 true/positionOffset Olivia -4 -20 true/positionOffset Clint 13 -15 true/positionOffset Robin -16 -10/positionOffset Demetrius -10 -15 true/positionOffset Victor -6 -10 true/positionOffset Olivia -9 -7 true/positionOffset Lewis 10 10 true/positionOffset Marnie 7 -5 true/positionOffset Jas 20 -5 true/positionOffset Vincent 23 -2 true/positionOffset Leah 20 0 true/positionOffset Elliott 20 0 true/positionOffset Jodi -8 5 true/positionOffset Kent -8 7 true/positionOffset Caroline -10 -5 true/positionOffset Pierre -3 0 true/faceDirection Robin 0 true/faceDirection Demetrius 0 true/faceDirection Clint 1 true/faceDirection Leah 1 true/faceDirection 3 Elliott true/faceDirection Jodi 3 true/faceDirection Kent 1 true/faceDIrection Jas 1 true/faceDirection Vincent 3 true/faceDirection Lewis 2 true/faceDirection Claire 2 true/faceDirection Caroline 0 true/faceDirection Pierre 2 true/positionOffset Kent 40 20 true/positionOffset Jodi 50 20 true/positionOffset farmer 3 20 true/faceDirection Emily 0 true/positionOffset Olivia -10 0 true/positionOffset Robin -3 -15 true/positionOffset Elliott 30 13 true/pause 350/positionOffset Demetrius -5 -13 true/positionOffset Robin 10 -12 true/positionOffset Victor 8 -24 true/positionOffset Olivia -5 -2 true/positionOffset Claire -5 -15 true/viewport 11 9 true/move farmer 0 -6 3/pause 750/faceDirection Emily 1 true/pause 250/shake Olivia 500/textAboveHead Olivia \"ขอป๊อบคอร์นไซส์เล็กจ้ะ\"/faceDirection Emily 2 true/pause 300/speed Emily 1/move Emily 0 1 1/speed Emily 1/move Emily 1 0 1/pause 500/shake Elliott 500/textAboveHead Elliott \"ทำไมล่ะ แน่นอนสิ!\"/move farmer -3 0 3 true/pause 800/faceDirection Claire 1 true/shake Lewis 500/textAboveHead Lewis \"คะแนนรีวีวดีมาก!\"/pause 350/speak Claire \"คุณมาแล้ว! โอ้ว ฉันดีใจจริงๆ ที่คุณอยู่ที่นี่$7\"/pause 600/shake Emily 500/textAboveHead Emily \"ฉันจะแลก!\"/pause 1000/shake Marnie 500/textAboveHead Marnie \"เราเข้าไปได้รึยัง?\"/pause 500/shake Kent 500/pause 500/speak Claire \"ใกล้จะเริ่มแล้วล่ะ...$1#$b#@ ฉันประหม่าไปหมดแล้ว... คุณช่วยจับมือฉันไว้หน่อย ได้มั้ย?$2\"/pause 600/positionOffset farmer -1 -1 true/pause 50/positionOffset farmer -1 -1 true/pause 50/positionOffset farmer -1 0 true/pause 50/positionOffset farmer -1 -1 true/pause 50/positionOffset farmer -1 -1 true/pause 50/positionOffset farmer -1 0 true/pause 50/positionOffset farmer -1 0 true/pause 50/positionOffset farmer -1 -1 true/pause 50/positionOffset farmer -1 -1 true/pause 50/positionOffset farmer -1 -1 true/pause 650/speak Claire \"...$4\"/pause 500/shake Leah 500/textAboveHead Leah \"ฉันเอาของเฮลตี้มากินด้วยล่ะ!\"/pause 200/globalFade/viewport -1000 -1000/changeLocation Custom_MovieTheaterScreen_ClaireEvent/stopMusic/faceDirection Emily 0 true/warp farmer 5 6/warp Claire 4 6/warp Marnie 10 10/warp Lewis 9 10/warp Jodi 4 8/warp Kent 3 8/warp Olivia 8 6/warp Victor 9 6/warp Emily 8 8/warp Caroline 4 10/warp Pierre 5 10/warp Robin 10 8/warp Demetrius 9 8/warp Jas 11 10/warp Vincent 5 8/warp Leah 2 10/warp Elliott 3 10/warp Clint 8 10/ambientLight 50 50 50/positionOffset farmer 0 45 true/positionOffset Claire 0 30 true/positionOffset Marnie 0 40 true/positionOffset Lewis 0 43 true/positionOffset Jodi 0 40 true/positionOffset Kent 0 47 true/positionOffset Olivia 0 36 true/positionOffset Victor 0 45 true/positionOffset Emily 0 40 true/positionOffset Caroline 0 38 true/positionOffset Pierre 0 45 true/positionOffset Robin 0 43 true/positionOffset Demetrius 0 48 true/positionOffset Jas 0 40 true/positionOffset Vincent 0 40 true/positionOffset Leah 0 40 true/positionOffset Elliott 0 43 true/positionOffset Clint 0 47 true/faceDirection Robin 3 true/faceDirection Demetrius 1 true/faceDirection Vincent 0 true/faceDirection Leah 1 true/faceDirection Elliott 3 true/faceDirection Claire 1 true/faceDirection farmer 3 true/faceDirection Lewis 1 true/faceDirection Marnie 3 true/faceDirection Kent 0 true/faceDirection Jodi 0 true/faceDirection Clint 0 true/faceDirection Jas 0 true/faceDirection Pierre 0 true/positionOffset Pierre -4 0 true/positionOffset Clint -5 3 true/positionOffset farmer 0 -5 true/positionOffset Emily -6 0 true/positionOffset Marnie 6 0 true/positionOffset Robin -6 0 true/positionOffset Victor -6 0 true/positionOffset Leah -5 0 true/positionOffset Marnie -10 0 true/positionOffset Claire -5 0 true/positionOffset Jodi -5 0 true/positionOffset Jas -6 0 true/playMusic movieScreenAmbience/pause 2100/positionOffset farmer 0 20 true/positionOffset Olivia -4 0 true/viewport 6 6 true/pause 1000/shake Robin 400/textAboveHead Robin \"จะเริ่มเรื่องยังไงน้า!\"/pause 700/shake Lewis 300/pause 400/shake Claire 400/pause 1000/shake Elliott 500/textAboveHead Elliott \"ผมรอไม่ไหวแล้ว!\"/pause 600/shake Demetrius 500/pause 900/startJittering/pause 200/pause 100/stopJittering/shake Leah 300/pause 400/addLantern 1000 5 2 1/addLantern 1000 6 2 1/addLantern 1000 7 2 1/addLantern 1000 8 2 1/addLantern 1000 5 3 1/addLantern 1000 6 3 1/addLantern 1000 7 3 1/addLantern 1000 8 3 1/addLantern 1000 5 4 1/addLantern 1000 6 4 1/addLantern 1000 7 4 1/addLantern 1000 8 4 1/addLantern 1000 7 8 1/addLantern 1000 6 8 1/warp MovieProjectorLight 4 14/positionOffset MovieProjectorLight -4 -16 true/pause 250/pause 200/jump Vincent/pause 200/pause 200/faceDirection Demetrius 0 true/pause 400/faceDirection Claire 0 true/AmbientLight 60 60 60/pause 100/AmbientLight 65 65 65/pause 100/shake Emily 650/textAboveHead Emily \"ยะฮู้!\"/AmbientLight 70 70 70/pause 100/AmbientLight 75 75 75/pause 100/faceDirection farmer 0 true/AmbientLight 80 80 80/pause 100/AmbientLight 85 85 85/pause 100/faceDirection Robin 0 true/AmbientLight 90 90 90/pause 100/AmbientLight 95 95 95/pause 100/AmbientLight 100 100 100/pause 100/faceDirection Leah 0 true/AmbientLight 105 105 105/pause 100/AmbientLight 110 110 110/pause 100/AmbientLight 115 115 115/textAboveHead Jodi \"จุ๊ๆ...\"/pause 100/faceDirection Elliott 0 true/AmbientLight 120 120 120/pause 100/AmbientLight 125 125 125/pause 100/AmbientLight 130 130 130/pause 100/AmbientLight 135 135 135/pause 100/AmbientLight 140 140 140/pause 100/AmbientLight 145 145 145/pause 100/faceDirection Marnie 0 true/AmbientLight 150 150 150/pause 100/pause 250/faceDirection Lewis 0 true/pause 150/viewport move 0 -1 2250 true/pause 400/pause 1100/playMusic Overcast/pause 1000/pause 500/warp ClaireMovieScenes 4 8/positionOffset ClaireMovieScenes 8 14 true/pause 3000/message \"'THE THIEF OF JUSTICE - วีรบุรุษจอมโจร'\"/pause 1500/showFrame ClaireMovieScenes 1 true/pause 1000/message \"เมืองซาซ่า สถานที่ซึ่งเต็มไปด้วยอาชญากรรม และการคอรัปชั่น...\"/pause 1000/message \"ยังมีหญิงสาวผู้หนึ่ง ที่จะขโมยความลับ ของพวกผู้มีอิทธิพล เพื่อปกป้องเมืองไว้\"/pause 1000/showFrame ClaireMovieScenes 2 true/pause 1000/message \"แคลร์ วิทลีย์ รับบท  วีรบุรุษจอมโจร\"/pause 1000/showFrame ClaireMovieScenes 3 true/pause 1000/playSound shadowpeep/message \"เมื่อมีคจำวนนมาก เริ่มเฉยเมยต่อสิ่งกระตุ้นต่างๆ จากภายนอก ทำให้จอมโจรเริ่มเป็นกังวล...\"/pause 1000/playSound shadowpeep/message \"นี่มันเป็นแค่เรื่องบังเอิญรึเปล่านะ? หรือว่ามันมีอำนาจมืด กำลังเล่นสนุก กับที่แห่งนี้อยู่กัน?\"/pause 1000/showFrame ClaireMovieScenes 4 true/pause 1000/message \"ข่าวลือที่แพร่สะพัด ทำให้เธอต้องตรวจสอบ บริษัทยักษ์ใหม่ของเมืองนี้ : จาโจ้ คอร์ปอเรชั่น\"/pause 1000/showFrame ClaireMovieScenes 5 true/playSound trashcan/message \"ภายใต้ความมืดมิดที่ปกคลุมอยู่ เธอแอบลอบเข้าไปยัง สำนักงานใหญ่ของพวกนั้น เธอหลบหลีกเครื่องตรวจจับ และเปิดเผยแผนการ อันชั่วร้าย:\"/pause 1000/showFrame ClaireMovieScenes 6 true/playSound coldSpell/message \"จาโจ้วางแผนจะล้างสมองผู้คน  โดยอาศัยการทำ น้ำอัดลมตัวใหม่ขึ้นมา\"/pause 500/playSound breakingGlass/pause 500/playSound doorOpen/pause 500/showFrame ClaireMovieScenes 7 true/pause 500/playSound keyboardTyping/message \"การเปลี่ยนแปลงที่เกิดขึ้น กับพลเมืองบางกลุ่มนั้น เป็นการทดลอง ครั้งล่าสุดของจาโจ้ เพื่อหาสูตรที่ดีที่สุด จอมโจรจึงได้ขโมย ข้อมูลนั้นมา\"/pause 2000/showFrame ClaireMovieScenes 8 true/pause 1000/playSound secret1/message \"และปล่อยข่าวสู่สาธารณชน ทำให้จาโจ้ล่มสลาย และเมือง ก็กลับมาสงบสุขอีกครั้ง...\"/addConversationTopic ClaireMovie/pause 1000/faceDirection farmer 3 true/pause 1000/faceDirection Claire 1 true/pause 1000/positionOffset Claire 1 0 true/pause 50/positionOffset Claire 1 0 true/pause 50/positionOffset Claire 1 0 true/pause 50/positionOffset Claire 1 0 true/pause 50/positionOffset Claire 1 0 true/pause 50/positionOffset Claire 1 0 true/pause 50/positionOffset Claire 1 0 true/pause 50/showFrame farmer 101 true/showFrame Claire 28 true/playSound dwop/specificTemporarySprite heart 5 6/pause 2000/globalFade/viewport -1000 -1000/stopMusic/changeLocation MovieTheater/playMusic movieTheater/warp Kent 6 12/faceDirection Kent 1 true/warp Vincent 8 12/faceDirection Vincent 3 true/warp Jodi 9 9/faceDirection Jodi 1 true/warp Emily 11 9/faceDirection Emily 3 true/warp Caroline 10 10/faceDirection Caroline 0 true/warp Clint 8 7/faceDirection Clint 0 true/positionOffset Clint -35 -5 true/warp Robin 16 8/faceDirection Robin 1 true/warp Demetrius 17 8/faceDirection Demetrius 3 true/warp Elliott 19 13/faceDirection Elliott 0 true/positionOffset Elliott -25 -15 true/warp Leah 17 12/faceDirection Leah 1 true/positionOffset Leah 8 -25 true/warp Olivia 13 11/faceDirection Olivia 1 true/warp Victor 15 11/faceDirection Victor 3 true/warp Lewis 12 6/faceDirection Lewis 1 true/positionOffset Lewis -5 -10 true/warp Marnie 13 6/faceDirection Marnie 3 true/positionOffset Marnie 0 -20 true/warp Jas 7 11/faceDirection Jas 2 true/positionOffset Jas 10 0 true/positionOffset Clint -20 -15 true/warp Claire 13 8/faceDirection Claire 1 true/warp farmer 14 8/faceDirection farmer 3 true/warp ClaireMovieScenes -30 -30/warp MovieProjectorLight -25 -25/warp Pierre -20 -20/positionOffset farmer 5 30 true/positionOffset Elliott 12 -6 true/positionOffset Leah -5 -5 true/viewport 13 9 true/pause 750/jump Vincent/pause 800/textAboveHead Vincent \"อยากดูอีกรอบ!\"/pause 800/shake Marnie 500/textAboveHead Marnie \"นี่ที่สุดของที่สุด!\"/pause 600/speak Claire \"โอ้ หระเจ้าช่วย... มันออกมาดีกว่า ที่ฉันคิดไว้ซะอีก$1#$b#และการที่ได้เห็นตัวเอง บนจอแบบนั้น... ฉันไม่เคยรู้สึกอะไร เหมือนครั้งนี้มาก่อนเลย$5#$b#ฉันไม่อยากจะเชื่อเลย ว่าฉันทำได้ ฉันทำได้แล้ว!$6\"/pause 350/shake Demetrius 500/textAboveHead Demetrius \"คุณคิดว่าไงบ้าง?\"/pause 450/faceDirection Emily 2 true/pause 250/faceDirection Emily 1 true/pause 300/speak Emily \"แคลร์ ในหนังคุณดูแบบ แจ่มมาก!$1\"/pause 400/faceDirection Claire 2 true/pause 250/faceDirection Claire 3 true/pause 600/move Caroline 2 0 0/pause 450/faceDirection Claire 2 true/pause 300/speak Caroline \"ทำได้ดีมากเลย แคลร์! และคุณก็สวยแบบไร้ที่ติจริงๆ$0\"/pause 300/faceDirection Jodi 1 true/pause 250/move Jodi 1 0 0/move Jodi 0 -1 1/move Jodi 1 0 1 true/pause 400/faceDirection Claire 3 true/pause 300/speak Jodi \"คุณดูดีมาก บนจอภาพยนตร์ แบบนี้!$1\"/pause 500/faceDirection Lewis 1 true/pause 250/faceDirection Lewis 2 true/pause 400/faceDirection Robin 2 true/pause 250/faceDirection Robin 3 true/pause 250/faceDirection Marnie 2 true/pause 250/faceDirection Olivia 0 true/pause 400/speed Olivia 1/move Olivia 0 -1 0 true/pause 200/faceDirection farmer 2 true/pause 350/faceDirection Claire 2 true/pause 150/speak Olivia \"การแสดงของคุณ แทบจะสะกดลมหายใจ ของฉันเลยจ้ะ!$1\"/pause 150/faceDirection Marnie 2 true/pause 100/faceDirection Victor 0 true/pause 500/faceDirection Demetrius 2 true/pause 250/move Demetrius 0 1 3/move Demetrius -1 0 3/speed Victor 1/move Victor 0 -1 0 true/pause 300/emote Claire 32 true/pause 1250/globalFade/viewport -1000 -1000/pause 1000/end dialogue Claire \"ฉันไม่อยากจะเชื่อจริงๆ... การที่ได้เห็นตัวเอง บนจอแบบนั้น... เหมือนนั่นไม่ใช่ฉันเลย!$1#$e#นี่เป็นสิ่งที่ทำให้ฉัน มีความสุขที่สุด ตั้งแต่ที่ฉันมีชีวิตมา ฉันคงทำไม่สำเร็จ ถ้าไม่มีคุณ คอยสนับสนุนฉันแบบนี้$5\""                                                        
+         "4269704/O Claire/n ThiefOfJusticeMovie/t 1600 2000": "none/-500 -500/farmer -1 -1 0 Claire -2 -2 0 Marnie -3 -3 0 Lewis -4 -4 0 Jodi -5 -5 0 Kent -6 -6 0 Olivia -7 -7 0 Victor -8 -8 0 Emily -9 -9 1 Caroline -10 -10 0 Pierre -11 -11 0 Robin -12 -12 0 Demetrius -13 -13 0 Jas -14 -14 0 Vincent -15 -15 0 Leah -16 -16 0 Elliott -17 -17 0 Clint -18 -18 0/addTemporaryActor MovieProjectorLight 96 192 -30 -30 2 false/addTemporaryActor ClaireMovieScenes 90 150 -20 -20 2 false/skippable/warp Leah 55 21/positionOffset Leah 7 -3 true/faceDirection Leah 0 true/warp Elliott 54 21/faceDirection Elliott 0 true/positionOffset Elliott 10 -3 true/faceDirection farmer 1 true/warp Emily 53 21/warp Caroline 52 21/faceDirection Caroline 1 true/warp Pierre 51 21/faceDirection Pierre 1 true/warp Demetrius 49 21/faceDirection Demetrius 3 true/warp Robin 48 21/faceDirection Robin 1 true/warp Clint 90 21/faceDirection Clint 0 true/positionOffset Emily 15 7 true/positionOffset Caroline 14 1 true/positionOffset Pierre 16 3 true/positionOffset Robin 63 0 true/positionOffset Demetrius 62 -4 true/positionOffset Clint 5 -30/playMusic movieTheater/warp farmer 48 21/faceDirection farmer 1 true/viewport 52 25 clamp true/viewport move 0 -1 7500 true/pause 5000/globalFade/viewport -1000 -1000/changeLocation MovieTheater/faceDirection Elliott 3 true/warp Clint 5 12/warp Emily 9 11/warp Pierre 11 11/warp Caroline 11 13/warp Leah 15 11/warp Elliott 16 11/warp Kent 15 9/warp Jodi 17 9/warp Jas 15 7/warp Vincent 16 7/warp Lewis 12 5/warp Marnie 12 7/warp Victor 7 8/warp Olivia 7 7/warp Robin 7 10/warp Demetrius 7 9/warp Claire 9 9/warp farmer 13 15/positionOffset Victor -4 0 true/positionOffset Olivia -4 -20 true/positionOffset Clint 13 -15 true/positionOffset Robin -16 -10/positionOffset Demetrius -10 -15 true/positionOffset Victor -6 -10 true/positionOffset Olivia -9 -7 true/positionOffset Lewis 10 10 true/positionOffset Marnie 7 -5 true/positionOffset Jas 20 -5 true/positionOffset Vincent 23 -2 true/positionOffset Leah 20 0 true/positionOffset Elliott 20 0 true/positionOffset Jodi -8 5 true/positionOffset Kent -8 7 true/positionOffset Caroline -10 -5 true/positionOffset Pierre -3 0 true/faceDirection Robin 0 true/faceDirection Demetrius 0 true/faceDirection Clint 1 true/faceDirection Leah 1 true/faceDirection 3 Elliott true/faceDirection Jodi 3 true/faceDirection Kent 1 true/faceDIrection Jas 1 true/faceDirection Vincent 3 true/faceDirection Lewis 2 true/faceDirection Claire 2 true/faceDirection Caroline 0 true/faceDirection Pierre 2 true/positionOffset Kent 40 20 true/positionOffset Jodi 50 20 true/positionOffset farmer 3 20 true/faceDirection Emily 0 true/positionOffset Olivia -10 0 true/positionOffset Robin -3 -15 true/positionOffset Elliott 30 13 true/pause 350/positionOffset Demetrius -5 -13 true/positionOffset Robin 10 -12 true/positionOffset Victor 8 -24 true/positionOffset Olivia -5 -2 true/positionOffset Claire -5 -15 true/viewport 11 9 true/move farmer 0 -6 3/pause 750/faceDirection Emily 1 true/pause 250/shake Olivia 500/textAboveHead Olivia \"ขอป๊อบคอร์นไซส์เล็กจ้ะ\"/faceDirection Emily 2 true/pause 300/speed Emily 1/move Emily 0 1 1/speed Emily 1/move Emily 1 0 1/pause 500/shake Elliott 500/textAboveHead Elliott \"ทำไมล่ะ แน่นอนสิ!\"/move farmer -3 0 3 true/pause 800/faceDirection Claire 1 true/shake Lewis 500/textAboveHead Lewis \"คะแนนรีวีวดีมาก!\"/pause 350/speak Claire \"คุณมาแล้ว! โอ้ว ฉันดีใจจริงๆ ที่คุณอยู่ที่นี่$7\"/pause 600/shake Emily 500/textAboveHead Emily \"ฉันจะแลก!\"/pause 1000/shake Marnie 500/textAboveHead Marnie \"เราเข้าไปได้รึยัง?\"/pause 500/shake Kent 500/pause 500/speak Claire \"ใกล้จะเริ่มแล้วล่ะ...$1#$b#@ ฉันประหม่าไปหมดแล้ว... คุณช่วยจับมือฉันไว้หน่อย ได้มั้ย?$2\"/pause 600/positionOffset farmer -1 -1 true/pause 50/positionOffset farmer -1 -1 true/pause 50/positionOffset farmer -1 0 true/pause 50/positionOffset farmer -1 -1 true/pause 50/positionOffset farmer -1 -1 true/pause 50/positionOffset farmer -1 0 true/pause 50/positionOffset farmer -1 0 true/pause 50/positionOffset farmer -1 -1 true/pause 50/positionOffset farmer -1 -1 true/pause 50/positionOffset farmer -1 -1 true/pause 650/speak Claire \"...$4\"/pause 500/shake Leah 500/textAboveHead Leah \"ฉันเอาของเฮลตี้มากินด้วยล่ะ!\"/pause 200/globalFade/viewport -1000 -1000/changeLocation Custom_MovieTheaterScreen_ClaireEvent/stopMusic/faceDirection Emily 0 true/warp farmer 5 6/warp Claire 4 6/warp Marnie 10 10/warp Lewis 9 10/warp Jodi 4 8/warp Kent 3 8/warp Olivia 8 6/warp Victor 9 6/warp Emily 8 8/warp Caroline 4 10/warp Pierre 5 10/warp Robin 10 8/warp Demetrius 9 8/warp Jas 11 10/warp Vincent 5 8/warp Leah 2 10/warp Elliott 3 10/warp Clint 8 10/ambientLight 50 50 50/positionOffset farmer 0 45 true/positionOffset Claire 0 30 true/positionOffset Marnie 0 40 true/positionOffset Lewis 0 43 true/positionOffset Jodi 0 40 true/positionOffset Kent 0 47 true/positionOffset Olivia 0 36 true/positionOffset Victor 0 45 true/positionOffset Emily 0 40 true/positionOffset Caroline 0 38 true/positionOffset Pierre 0 45 true/positionOffset Robin 0 43 true/positionOffset Demetrius 0 48 true/positionOffset Jas 0 40 true/positionOffset Vincent 0 40 true/positionOffset Leah 0 40 true/positionOffset Elliott 0 43 true/positionOffset Clint 0 47 true/faceDirection Robin 3 true/faceDirection Demetrius 1 true/faceDirection Vincent 0 true/faceDirection Leah 1 true/faceDirection Elliott 3 true/faceDirection Claire 1 true/faceDirection farmer 3 true/faceDirection Lewis 1 true/faceDirection Marnie 3 true/faceDirection Kent 0 true/faceDirection Jodi 0 true/faceDirection Clint 0 true/faceDirection Jas 0 true/faceDirection Pierre 0 true/positionOffset Pierre -4 0 true/positionOffset Clint -5 3 true/positionOffset farmer 0 -5 true/positionOffset Emily -6 0 true/positionOffset Marnie 6 0 true/positionOffset Robin -6 0 true/positionOffset Victor -6 0 true/positionOffset Leah -5 0 true/positionOffset Marnie -10 0 true/positionOffset Claire -5 0 true/positionOffset Jodi -5 0 true/positionOffset Jas -6 0 true/playMusic movieScreenAmbience/pause 2100/positionOffset farmer 0 20 true/positionOffset Olivia -4 0 true/viewport 6 6 true/pause 1000/shake Robin 400/textAboveHead Robin \"จะเริ่มเรื่องยังไงน้า!\"/pause 700/shake Lewis 300/pause 400/shake Claire 400/pause 1000/shake Elliott 500/textAboveHead Elliott \"ผมรอไม่ไหวแล้ว!\"/pause 600/shake Demetrius 500/pause 900/startJittering/pause 200/pause 100/stopJittering/shake Leah 300/pause 400/addLantern 1000 5 2 1/addLantern 1000 6 2 1/addLantern 1000 7 2 1/addLantern 1000 8 2 1/addLantern 1000 5 3 1/addLantern 1000 6 3 1/addLantern 1000 7 3 1/addLantern 1000 8 3 1/addLantern 1000 5 4 1/addLantern 1000 6 4 1/addLantern 1000 7 4 1/addLantern 1000 8 4 1/addLantern 1000 7 8 1/addLantern 1000 6 8 1/warp MovieProjectorLight 4 14/positionOffset MovieProjectorLight -4 -16 true/pause 250/pause 200/jump Vincent/pause 200/pause 200/faceDirection Demetrius 0 true/pause 400/faceDirection Claire 0 true/AmbientLight 60 60 60/pause 100/AmbientLight 65 65 65/pause 100/shake Emily 650/textAboveHead Emily \"ยะฮู้!\"/AmbientLight 70 70 70/pause 100/AmbientLight 75 75 75/pause 100/faceDirection farmer 0 true/AmbientLight 80 80 80/pause 100/AmbientLight 85 85 85/pause 100/faceDirection Robin 0 true/AmbientLight 90 90 90/pause 100/AmbientLight 95 95 95/pause 100/AmbientLight 100 100 100/pause 100/faceDirection Leah 0 true/AmbientLight 105 105 105/pause 100/AmbientLight 110 110 110/pause 100/AmbientLight 115 115 115/textAboveHead Jodi \"จุ๊ๆ...\"/pause 100/faceDirection Elliott 0 true/AmbientLight 120 120 120/pause 100/AmbientLight 125 125 125/pause 100/AmbientLight 130 130 130/pause 100/AmbientLight 135 135 135/pause 100/AmbientLight 140 140 140/pause 100/AmbientLight 145 145 145/pause 100/faceDirection Marnie 0 true/AmbientLight 150 150 150/pause 100/pause 250/faceDirection Lewis 0 true/pause 150/viewport move 0 -1 2250 true/pause 400/pause 1100/playMusic Overcast/pause 1000/pause 500/warp ClaireMovieScenes 4 8/positionOffset ClaireMovieScenes 8 14 true/pause 3000/message \"'THE THIEF OF JUSTICE - วีรบุรุษจอมโจร'\"/pause 1500/showFrame ClaireMovieScenes 1 true/pause 1000/message \"เมืองซาซ่า สถานที่ซึ่งเต็มไปด้วยอาชญากรรม และการคอรัปชั่น...\"/pause 1000/message \"ยังมีหญิงสาวผู้หนึ่ง ที่จะขโมยความลับ ของพวกผู้มีอิทธิพล เพื่อปกป้องเมืองไว้\"/pause 1000/showFrame ClaireMovieScenes 2 true/pause 1000/message \"แคลร์ วิทลีย์ รับบท  วีรบุรุษจอมโจร\"/pause 1000/showFrame ClaireMovieScenes 3 true/pause 1000/playSound shadowpeep/message \"เมื่อมีคจำวนนมาก เริ่มเฉยเมยต่อสิ่งกระตุ้นต่างๆ จากภายนอก ทำให้จอมโจรเริ่มเป็นกังวล...\"/pause 1000/playSound shadowpeep/message \"นี่มันเป็นแค่เรื่องบังเอิญรึเปล่านะ? หรือว่ามันมีอำนาจมืด กำลังเล่นสนุก กับที่แห่งนี้อยู่กัน?\"/pause 1000/showFrame ClaireMovieScenes 4 true/pause 1000/message \"ข่าวลือที่แพร่สะพัด ทำให้เธอต้องตรวจสอบ บริษัทยักษ์ใหม่ของเมืองนี้ : จาโจ้ คอร์ปอเรชั่น\"/pause 1000/showFrame ClaireMovieScenes 5 true/playSound trashcan/message \"ภายใต้ความมืดมิดที่ปกคลุมอยู่ เธอแอบลอบเข้าไปยัง สำนักงานใหญ่ของพวกนั้น เธอหลบหลีกเครื่องตรวจจับ และเปิดเผยแผนการ อันชั่วร้าย:\"/pause 1000/showFrame ClaireMovieScenes 6 true/playSound coldSpell/message \"จาโจ้วางแผนจะล้างสมองผู้คน  โดยอาศัยการทำ น้ำอัดลมตัวใหม่ขึ้นมา\"/pause 500/playSound breakingGlass/pause 500/playSound doorOpen/pause 500/showFrame ClaireMovieScenes 7 true/pause 500/playSound keyboardTyping/message \"การเปลี่ยนแปลงที่เกิดขึ้น กับพลเมืองบางกลุ่มนั้น เป็นการทดลอง ครั้งล่าสุดของจาโจ้ เพื่อหาสูตรที่ดีที่สุด จอมโจรจึงได้ขโมย ข้อมูลนั้นมา\"/pause 2000/showFrame ClaireMovieScenes 8 true/pause 1000/playSound secret1/message \"และปล่อยข่าวสู่สาธารณชน ทำให้จาโจ้ล่มสลาย และเมือง ก็กลับมาสงบสุขอีกครั้ง...\"/addConversationTopic ClaireMovie/pause 1000/faceDirection farmer 3 true/pause 1000/faceDirection Claire 1 true/pause 1000/positionOffset Claire 1 0 true/pause 50/positionOffset Claire 1 0 true/pause 50/positionOffset Claire 1 0 true/pause 50/positionOffset Claire 1 0 true/pause 50/positionOffset Claire 1 0 true/pause 50/positionOffset Claire 1 0 true/pause 50/positionOffset Claire 1 0 true/pause 50/showFrame farmer 101 true/showFrame Claire 28 true/playSound dwop/specificTemporarySprite heart 5 6/pause 2000/globalFade/viewport -1000 -1000/stopMusic/changeLocation MovieTheater/playMusic movieTheater/warp Kent 6 12/faceDirection Kent 1 true/warp Vincent 8 12/faceDirection Vincent 3 true/warp Jodi 9 9/faceDirection Jodi 1 true/warp Emily 11 9/faceDirection Emily 3 true/warp Caroline 10 10/faceDirection Caroline 0 true/warp Clint 8 7/faceDirection Clint 0 true/positionOffset Clint -35 -5 true/warp Robin 16 8/faceDirection Robin 1 true/warp Demetrius 17 8/faceDirection Demetrius 3 true/warp Elliott 19 13/faceDirection Elliott 0 true/positionOffset Elliott -25 -15 true/warp Leah 17 12/faceDirection Leah 1 true/positionOffset Leah 8 -25 true/warp Olivia 13 11/faceDirection Olivia 1 true/warp Victor 15 11/faceDirection Victor 3 true/warp Lewis 12 6/faceDirection Lewis 1 true/positionOffset Lewis -5 -10 true/warp Marnie 13 6/faceDirection Marnie 3 true/positionOffset Marnie 0 -20 true/warp Jas 7 11/faceDirection Jas 2 true/positionOffset Jas 10 0 true/positionOffset Clint -20 -15 true/warp Claire 13 8/faceDirection Claire 1 true/warp farmer 14 8/faceDirection farmer 3 true/warp ClaireMovieScenes -30 -30/warp MovieProjectorLight -25 -25/warp Pierre -20 -20/positionOffset farmer 5 30 true/positionOffset Elliott 12 -6 true/positionOffset Leah -5 -5 true/viewport 13 9 true/pause 750/jump Vincent/pause 800/textAboveHead Vincent \"อยากดูอีกรอบ!\"/pause 800/shake Marnie 500/textAboveHead Marnie \"นี่ที่สุดของที่สุด!\"/pause 600/speak Claire \"โอ้ หระเจ้าช่วย... มันออกมาดีกว่า ที่ฉันคิดไว้ซะอีก$1#$b#และการที่ได้เห็นตัวเอง บนจอแบบนั้น... ฉันไม่เคยรู้สึกอะไร เหมือนครั้งนี้มาก่อนเลย$5#$b#ฉันไม่อยากจะเชื่อเลย ว่าฉันทำได้ ฉันทำได้แล้ว!$6\"/pause 350/shake Demetrius 500/textAboveHead Demetrius \"คุณคิดว่าไงบ้าง?\"/pause 450/faceDirection Emily 2 true/pause 250/faceDirection Emily 1 true/pause 300/speak Emily \"แคลร์ ในหนังคุณดูแบบ แจ่มมาก!$1\"/pause 400/faceDirection Claire 2 true/pause 250/faceDirection Claire 3 true/pause 600/move Caroline 2 0 0/pause 450/faceDirection Claire 2 true/pause 300/speak Caroline \"ทำได้ดีมากเลย แคลร์! และคุณก็สวยแบบไร้ที่ติจริงๆ$0\"/pause 300/faceDirection Jodi 1 true/pause 250/move Jodi 1 0 0/move Jodi 0 -1 1/move Jodi 1 0 1 true/pause 400/faceDirection Claire 3 true/pause 300/speak Jodi \"คุณดูดีมาก บนจอภาพยนตร์ แบบนี้!$1\"/pause 500/faceDirection Lewis 1 true/pause 250/faceDirection Lewis 2 true/pause 400/faceDirection Robin 2 true/pause 250/faceDirection Robin 3 true/pause 250/faceDirection Marnie 2 true/pause 250/faceDirection Olivia 0 true/pause 400/speed Olivia 1/move Olivia 0 -1 0 true/pause 200/faceDirection farmer 2 true/pause 350/faceDirection Claire 2 true/pause 150/speak Olivia \"การแสดงของคุณ แทบจะสะกดลมหายใจ ของฉันเลยจ้ะ!$1\"/pause 150/faceDirection Marnie 2 true/pause 100/faceDirection Victor 0 true/pause 500/faceDirection Demetrius 2 true/pause 250/move Demetrius 0 1 3/move Demetrius -1 0 3/speed Victor 1/move Victor 0 -1 0 true/pause 300/emote Claire 32 true/pause 1250/globalFade/viewport -1000 -1000/pause 1000/end dialogue Claire \"ฉันไม่อยากจะเชื่อจริงๆ... การที่ได้เห็นตัวเอง บนจอแบบนั้น... เหมือนนั่นไม่ใช่ฉันเลย!$1#$e#นี่เป็นสิ่งที่ทำให้ฉัน มีความสุขที่สุด ตั้งแต่ที่ฉันมีชีวิตมา ฉันคงทำไม่สำเร็จ ถ้าไม่มีคุณ คอยสนับสนุนฉันแบบนี้$5\""                                                        
 	     },
      },
 
@@ -18477,6 +18868,8 @@
      "ClaireMovie": "???",
      },
 },*/
+
+
 
 
     //CAMILLA NPC
@@ -19704,6 +20097,13 @@
 	  }
     },
 	
+	{
+      //Martin' Schedule Dialogue
+      "Action": "Load",
+      "Target": "Strings/schedules/Martin",
+      "FromFile": "assets/CharacterFiles/Schedules/Martin/ScheduleDialogue.json"
+    },
+	
     {  
 	  //Martin Joja Shop Patches
       "Action": "EditMap",
@@ -20307,6 +20707,13 @@
     "Target": "Characters/schedules/MorrisTod",
     "When": { "HasSeenEvent": "5553210" },
     "FromFile": "assets/CharacterFiles/Schedules/Morris/ScheduleMayor.json"
+},
+
+{
+    //Morris' Schedule Dialogue
+    "Action": "Load",
+    "Target": "Strings/schedules/MorrisTod",
+    "FromFile": "assets/CharacterFiles/Schedules/Morris/ScheduleDialogue.json"
 },
 
 {
@@ -21656,7 +22063,7 @@
 	 "When": { "Day": "18, 25" },
 	 "Patchmode": "Overlay"
 },
-{
+/*{
 	 //Guest 4
      "Action": "EditMap",
      "Target": "Maps/AdventureGuild",
@@ -21664,7 +22071,7 @@
      "ToArea": { "X": 3, "Y": 12,"Width": 1, "Height": 2 },
 	 "When": { "Day": "14, 22" },
 	 "Patchmode": "Overlay"
-},
+},*/
 {
 	 //Guest 5
      "Action": "EditMap",
@@ -24658,6 +25065,1087 @@
    }
 },
 
+///////////////////////////////////////////
+
+
+
+     //Joja Day Festival
+
+{    //Changes weather icon to festival
+	"Action": "EditImage",
+	"Target": "LooseSprites/Cursors",
+	"FromFile": "Assets/Tilesheets/Festival_Icons.png",
+	"When": { "Day": "22", "HasSeenEvent": "502261" },
+	"ToArea": 	{ "X": 341, "Y": 421, "Width": 84, "Height": 8 },
+},
+
+{    //Changes Joja Mart theme
+    "Action": "EditMap",
+    "Target": "Maps/JojaMart",
+    "When": { "HasSeenEvent": "502261", "Day": "22" },
+    "MapProperties": { "Music": "movieTheater" }
+},
+
+    {  
+	  //Martin Joja Shop Patches
+      "Action": "EditMap",
+      "Target": "Maps/JojaMart",
+      "FromFile": "Assets/Maps/MapPatches/MartinShopJojaDay.tbin",
+      "ToArea": { "X": 6, "Y": 24,"Width": 1, "Height": 3 },
+      "When": { "HasSeenEvent": "502261", "Day": "22" },
+    },
+	{
+	  //Claire Joja Mart Shop Patches
+      "Action": "EditMap",
+      "Target": "Maps/JojaMart",
+      "FromFile": "Assets/Maps/MapPatches/ClaireShopJojaDay.tbin",
+      "ToArea": { "X": 10, "Y": 24,"Width": 1, "Height": 3 },
+      "When": { "HasSeenEvent": "502261", "Day": "22" },
+    },
+	{  
+	  //Alters Joja Mart open time to 10am~8pm from 10am~10pm
+      "Action": "EditMap",
+      "Target": "Maps/Town",
+      "FromFile": "Assets/Maps/MapPatches/JojaDayReducedHours.tbin",
+      "ToArea": { "X": 95, "Y": 50,"Width": 2, "Height": 1 },
+      "When": { "HasSeenEvent": "502261", "Day": "22" },
+    },
+
+{    //Joja Day introduction event
+    "Action": "EditData",
+    "Target": "Data/Events/farm",
+	"When": { "HasSeenEvent": "502261", "Day": "21" },
+    "Entries": {
+	"221971519": "continue/-1000 -1000/farmer 64 15 2 MorrisTod 64 13 0/skippable/pause 1000/speak MorrisTod \"Hello, @. I wanted to stop by and tell you 'Joja Day' will be tomorrow at Joja Mart!$1#$b#There will be exclusive decorations for sale and up to 20 percent off on seeds until 8pm!$4#$b#It'd be a delight if you attended!$1\"/pause 500/globalFade/viewport -1000 -1000/pause 1000/message \"Starting now, there will be sales at Joja Mart on the 22nd of every season!\"/pause 1000/end dialogue MorrisTod \"I understand some residents in the valley are struggling financially. That's why on the 22nd of each month Joja Mart will decrease prices!$0\""
+	},
+},
+
+
+
+//START JOJA DAY SCHEDULES + DIALOGUE 
+
+
+
+{    //LEWIS Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Lewis",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "630 ManorHouse 7 5 0/1000 ManorHouse 3 6 0 \"Strings\\schedules\\Lewis:JojaDay1_Lewis\"/1200 ManorHouse 6 5 2 \"Strings\\schedules\\Lewis:JojaDay1_Lewis\"/1230 JojaMart 13 27 0 \"Strings\\schedules\\Lewis:JojaDay2_Lewis\"/1400 ManorHouse 22 8 2 \"Strings\\schedules\\Lewis:JojaDay3_Lewis\"/2100 ManorHouse 22 4 1 lewis_sleep",
+     },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Lewis",
+	 "Entries": { 
+	 "JojaDay1_Lewis": "It's 'Joja Day' today. Maybe I'll take a look in the Joja Mart this afternoon.$0",
+	 "JojaDay2_Lewis": "Hmm...$2",
+	 "JojaDay3_Lewis": "I don't agree with Joja's practices, but you can't ignore what the townsfolk want.$2"
+	 }
+},
+
+
+
+{    //MARNIE Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Marnie",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "700 AnimalShop 24 15 0/810 AnimalShop 12 14 2/1030 AnimalShop 15 15 2 \"Strings\\schedules\\Marnie:JojaDay1_Marnie\"/1100 JojaMart 9 13 3 \"Strings\\schedules\\Marnie:JojaDay2_Marnie\"/1410 JojaMart 9 17 3 \"Strings\\schedules\\Marnie:JojaDay2_Marnie\"/1440 JojaMart 9 16 3 \"Strings\\schedules\\Marnie:JojaDay2_Marnie\"/1510 JojaMart 10 16 1 \"Strings\\schedules\\Marnie:JojaDay2_Marnie\"/1530 JojaMart 9 20 3 \"Strings\\schedules\\Marnie:JojaDay2_Marnie\"/1600 JojaMart 7 26 3 \"Strings\\schedules\\Marnie:JojaDay3_Marnie\"/1630 AnimalShop 13 5 3 marnie_sleep",
+     },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Marnie",
+	 "Entries": { 
+	 "JojaDay1_Marnie": "Are you ready to head out, Jas?$0",
+	 "JojaDay2_Marnie": "I'm overwhelmed with the large selections here.$0",
+	 "JojaDay3_Marnie": "Hello, sweetie. Just these please!"
+	 }
+},
+
+
+
+{    //JAS Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Jas",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "810 AnimalShop 24 15 2/920 AnimalShop 7 5 2 jas_read/1030 AnimalShop 16 17 3 \"Strings\\schedules\\Jas:JojaDay1_Jas\"/1100 JojaMart 10 11 1 \"Strings\\schedules\\Jas:JojaDay2_Jas\"/1400 JojaMart 19 7 1 \"Strings\\schedules\\Jas:JojaDay3_Jas\"/1550 JojaMart 7 24 3 \"Strings\\schedules\\Jas:JojaDay4_Jas\"/1630 AnimalShop 2 7 3 jas_sleep",
+     },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Jas",
+	 "Entries": { 
+	 "JojaDay1_Jas": "Yay! Let's go!$1",
+	 "JojaDay2_Jas": "Why doesn't Pierre's have this cool stuff?$0",
+	 "JojaDay3_Jas": "Hi, Vincent!$0",
+	 "JojaDay4_Jas": "Can I get this candy bar, aunt Marnie? Pretty please!$1",
+	 }
+},
+
+
+
+{    //SHANE Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Shane",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "630 AnimalShop 28 15 0/730 JojaMart 2 27 2/1100 JojaMart 1 9 0/1140 JojaMart 28 9 0/1210 JojaMart 27 7 1/1240 JojaMart 28 9 0/1250 JojaMart 1 9 0/1320 JojaMart 2 27 2/1350 JojaMart 3 26 1/1410 JojaMart 1 9 0/1440 JojaMart 28 9 0/1510 JojaMart 26 7 1/1520 JojaMart 27 8 1/1540 JojaMart 27 13 1/1550 JojaMart 27 14 1/1600 JojaMart 27 15 1/1610 JojaMart 27 16 1/1620 JojaMart 27 17 1/1630 JojaMart 27 18 1/1640 JojaMart 27 19 1/1650 JojaMart 27 7 1/1710 JojaMart 2 8 3/1750 JojaMart 3 26 1/1820 JojaMart 2 27 2/1840 JojaMart 16 26 1/1900 JojaMart 12 20 2/2000 JojaMart 12 22 1/2110 AnimalShop 27 4 1 shane_sleep",
+     },
+},
+{    //SHANE Joja Day Marriage Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Shane",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Shane", "Day": "22" },
+	 "Entries": {
+     "marriage_Mon": "730 JojaMart 11 20 2/1100 JojaMart 1 9 0/1140 JojaMart 28 9 0/1210 JojaMart 27 7 1/1240 JojaMart 28 9 0/1250 JojaMart 1 9 0/1320 JojaMart 2 27 2/1350 JojaMart 3 26 1/1410 JojaMart 1 9 0/1440 JojaMart 28 9 0/1510 JojaMart 26 7 1/1520 JojaMart 27 8 1/1540 JojaMart 27 13 1/1550 JojaMart 27 14 1/1600 JojaMart 27 15 1/1610 JojaMart 27 16 1/1620 JojaMart 27 17 1/1630 JojaMart 27 18 1/1640 JojaMart 27 19 1/1650 JojaMart 27 7 1/1710 JojaMart 2 8 3/1750 JojaMart 3 26 1/1820 JojaMart 2 27 2/1840 JojaMart 16 26 1/1900 JojaMart 12 20 2/2000 JojaMart 12 22 1/2110 BusStop -1 23 3",
+     },
+},
+{    //SHANE Joja Day Marriage Dialogue
+	 "Action": "EditData",
+	 "Target": "characters/Dialogue/MarriageDialogueShane",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Shane", "Day": "22" },
+	 "Entries": {
+     "funLeave_Shane": "It's Joja Day. We've been preparing for this for weeks. It'll be a long day.$1",
+     "funReturn_Shane": "Sorry if I'm sweaty... I'm exhausted from work today. I can't believe so many people can fit in Joja Mart.$0",
+     },
+},
+{    //SHANE Joja Day Marriage Dialogue - mart string replaced
+	 "Action": "EditData",
+	 "Target": "characters/Dialogue/Shane",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Shane", "Day": "22" },
+	 "Entries": {
+     "JojaMart": "%Shane smiles at me as he works.",
+     },
+},
+
+
+
+{    //GUS Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Gus",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "730 Saloon 29 6 0/1000 Saloon 11 18 2/1230 JojaMart 22 12 1 \"Strings\\schedules\\Gus:JojaDay_Gus\"/1420 JojaMart 22 15 1 \"Strings\\schedules\\Gus:JojaDay_Gus\"/1440 JojaMart 22 14 1 \"Strings\\schedules\\Gus:JojaDay_Gus\"/1510 JojaMart 7 26 3 \"Strings\\schedules\\Gus:JojaDay1_Gus\"/1600 Saloon 11 18 2/2300 Saloon 23 4 2 gus_sleep",
+     },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Gus",
+	 "Entries": { 
+	 "JojaDay_Gus": "These are just the ingredients I was looking for. Joja really has everything a business owner needs.$0",
+	 "JojaDay1_Gus": "800g is my total? Great!$1"
+	 }
+},
+
+
+
+{    //LINUS Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Linus",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "640 Tent 2 2 2/1850 Tent 4 3 1 linus_sleep",
+     },
+},
+{    //LINUS Joja Day Schedule - Leo
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Linus",
+	 "When": { "HasSeenEvent": "502261", "HasSeenEvent": "6497428" },
+	 "Entries": {
+     "22": "640 Tent 3 3 3/1850 Tent 4 3 1 linus_sleep",
+     },
+},
+
+
+
+{
+    //LEO Joja Day Schedule
+    "Action": "EditData",
+    "Target": "Characters/Schedules/Leo",
+	"When": { "HasSeenEvent": "502261", "HasSeenEvent": "6497428" },
+    "Entries": {
+    "22": "0 LeoTreeHouse 4 3 2/650 Tent 2 3 1/1750 LeoTreeHouse 4 3 2",
+	}
+},
+
+
+
+{    //HARVEY Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Harvey",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "710 HarveyRoom 19 7 0/830 Hospital 6 15 2 \"Strings\\schedules\\Harvey:JojaDay1_Harvey\"/1500 JojaMart 16 24 3/1620 JojaMart 14 12 1 \"Strings\\schedules\\Harvey:JojaDay2_Harvey\"/1730 JojaMart 13 18 3 \"Strings\\schedules\\Harvey:JojaDay2_Harvey\"/1750 JojaMart 18 12 1 \"Strings\\schedules\\Harvey:JojaDay2_Harvey\"/1810 JojaMart 19 5 0 \"Strings\\schedules\\Harvey:JojaDay2_Harvey\"/1840 JojaMart 10 16 1 \"Strings\\schedules\\Harvey:JojaDay2_Harvey\"/1900 JojaMart 7 25 3 \"Strings\\schedules\\Harvey:JojaDay3_Harvey\"/1950 HarveyRoom 13 4 2 harvey_sleep",
+     },
+},
+{    //HARVEY Joja Day Schedule - MARRIED
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Harvey",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Harvey", "Day": "22" },
+	 "Entries": {
+     "marriage_Mon": "800 Hospital 6 15 2 \"Strings\\schedules\\Harvey:JojaDay1_Harvey\"/1500 JojaMart 16 24 3/1620 JojaMart 14 12 1 \"Strings\\schedules\\Harvey:JojaDay2_Harvey\"/1730 JojaMart 13 18 3 \"Strings\\schedules\\Harvey:JojaDay2_Harvey\"/1750 JojaMart 18 12 1 \"Strings\\schedules\\Harvey:JojaDay2_Harvey\"/1810 JojaMart 19 5 0 \"Strings\\schedules\\Harvey:JojaDay2_Harvey\"/1840 JojaMart 10 16 1 \"Strings\\schedules\\Harvey:JojaDay2_Harvey\"/1900 JojaMart 7 25 3 \"Strings\\schedules\\Harvey:JojaDay3_Harvey\"/1950 BusStop -1 23 3",
+     },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Harvey",
+	 "Entries": { 
+	 "JojaDay_Harvey": "I think I'll head on over to Joja Mart after I close for the day.$0#$b#They carry medical supplies that's difficult to procure here.$1",
+	 "JojaDay2_Harvey": "Ah, this is exactly what I needed.$1",
+	 "JojaDay3_Harvey": "Good evening, sir. Must have been a long shift today for you.$0"
+	 }
+},
+{    //HARVEY Joja Day Marriage Dialogue
+	 "Action": "EditData",
+	 "Target": "characters/Dialogue/MarriageDialogueHarvey",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Harvey", "Day": "22" },
+	 "Entries": {
+     "funLeave_Harvey": "Good morning! I'm heading on over to Joja Mart after I close the clinic for the day.$0#$b#They carry medical supplies that's difficult to procure here.$1",
+     "funReturn_Harvey": "Did you buy anything at Joja mart? I found just what I was looking for.$0",
+     },
+},
+
+
+
+{    //PAM Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Pam",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "910 Town 71 69 1/940 JojaMart 21 17 3 \"Strings\\schedules\\Pam:JojaDay_Pam\"/1050 JojaMart 22 12 3 \"Strings\\schedules\\Pam:JojaDay_Pam\"/1110 JojaMart 22 13 1 \"Strings\\schedules\\Pam:JojaDay_Pam\"/1210 JojaMart 22 16 1 \"Strings\\schedules\\Pam:JojaDay_Pam\"/1300 JojaMart 21 13 3 \"Strings\\schedules\\Pam:JojaDay_Pam\"/1400 JojaMart 7 25 3 \"Strings\\schedules\\Pam:JojaDay1_Pam\"/1500 Town 73 69 2/1830 Town 72 66 2",
+     },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Pam",
+	 "Entries": { 
+	 "JojaDay_Pam": "Joja is lively than ever! I knew putting my faith in this place was a good idea.$1",
+	 "JojaDay1_Pam": "Come on! I don't got all day, kiddo.$3"
+	 }
+},
+
+
+
+{    //PENNY Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Penny",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "910 Town 73 69 3/940 JojaMart 21 18 3 \"Strings\\schedules\\Penny:JojaDay_Penny\"/1120 JojaMart 22 15 1 \"Strings\\schedules\\Penny:JojaDay_Penny\"/1150 JojaMart 22 17 1 \"Strings\\schedules\\Penny:JojaDay_Penny\"/1220 JojaMart 22 18 1 \"Strings\\schedules\\Penny:JojaDay_Penny\"/1300 JojaMart 21 15 3 \"Strings\\schedules\\Penny:JojaDay_Penny\"/1400 JojaMart 7 26 3 \"Strings\\schedules\\Penny:JojaDay1_Penny\"/1500 ArchaeologyHouse 17 9 0/1900 Trailer 4 9 1 penny_sleep",
+     },
+},
+{    //PENNY Joja Day Schedule - MARRIED
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Penny",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Penny", "Day": "22" },
+	 "Entries": {
+     "marriage_Mon": "740 Town 73 69 3/940 JojaMart 21 18 3 \"Strings\\schedules\\Penny:JojaDay_Penny\"/1120 JojaMart 22 15 1 \"Strings\\schedules\\Penny:JojaDay_Penny\"/1150 JojaMart 22 17 1 \"Strings\\schedules\\Penny:JojaDay_Penny\"/1220 JojaMart 22 18 1 \"Strings\\schedules\\Penny:JojaDay_Penny\"/1300 JojaMart 21 15 3 \"Strings\\schedules\\Penny:JojaDay_Penny\"/1400 JojaMart 7 26 3 \"Strings\\schedules\\Penny:JojaDay1_Penny\"/1500 ArchaeologyHouse 17 9 0/1900 BusStop -1 23 3",
+     },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Penny",
+	 "Entries": { 
+	 "JojaDay_Penny": "Shopping here isn't my preference, but with prices like these how can you not?$0",
+	 "JojaDay1_Penny": "Hello! I can help bag the groceries.$1",
+	 }
+},
+{    //Penny Joja Day Marriage Dialogue
+	 "Action": "EditData",
+	 "Target": "characters/Dialogue/MarriageDialoguePenny",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Penny", "Day": "22" },
+	 "Entries": {
+     "funLeave_Penny": "My mother wants to go shopping with me at Joja Mart today.$0#$b#I feel like I'll need to talk her out of buying some items.$2",
+     "funReturn_Penny": "How was your day? I brought home Joja frozen meals.$0",
+     },
+},
+
+
+
+{    //MARU Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Maru",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "750 ScienceHouse 27 9 0/800 ScienceHouse 9 5 0/1020 ScienceHouse 4 22 1/1050 JojaMart 18 15 1 \"Strings\\schedules\\Maru:JojaDay_Maru\"/1300 JojaMart 17 18 3 \"Strings\\schedules\\Maru:JojaDay_Maru\"/1400 JojaMart 18 16 1 \"Strings\\schedules\\Maru:JojaDay_Maru\"/1430 JojaMart 18 17 1 \"Strings\\schedules\\Maru:JojaDay_Maru\"/1500 JojaMart 27 19 1 \"Strings\\schedules\\Maru:JojaDay_Maru\"/1600 JojaMart 17 12 3 \"Strings\\schedules\\Maru:JojaDay_Maru\"/1630 JojaMart 18 12 1 \"Strings\\schedules\\Maru:JojaDay_Maru\"/1700 JojaMart 11 24 2 \"Strings\\schedules\\Maru:JojaDay1_Maru\"/1800 ScienceHouse 6 4 0/2130 ScienceHouse 2 4 0 maru_sleep",
+     },
+},
+{    //MARU Joja Day Schedule - MARRIED
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Maru",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Maru", "Day": "22" },
+	 "Entries": {
+     "marriage_Mon": "700 ScienceHouse 4 22 1/1050 JojaMart 18 15 1 \"Strings\\schedules\\Maru:JojaDay_Maru\"/1300 JojaMart 17 18 3 \"Strings\\schedules\\Maru:JojaDay_Maru\"/1400 JojaMart 18 16 1 \"Strings\\schedules\\Maru:JojaDay_Maru\"/1430 JojaMart 18 17 1 \"Strings\\schedules\\Maru:JojaDay_Maru\"/1500 JojaMart 27 19 1 \"Strings\\schedules\\Maru:JojaDay_Maru\"/1600 JojaMart 17 12 3 \"Strings\\schedules\\Maru:JojaDay_Maru\"/1630 JojaMart 18 12 1 \"Strings\\schedules\\Maru:JojaDay_Maru\"/1700 JojaMart 11 24 2 \"Strings\\schedules\\Maru:JojaDay1_Maru\"/1800 BusStop -1 23 3",
+     },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Maru",
+	 "Entries": { 
+	 "JojaDay_Maru": "Oh, hey. You're shopping at Joja today too, @? My dad sorta dragged me along.$0",
+	 "JojaDay1_Maru": "I can't wait to get home and try this 'Joja Meal'.$1"
+	 }
+},
+{    //Maru Joja Day Marriage Dialogue
+	 "Action": "EditData",
+	 "Target": "characters/Dialogue/MarriageDialogueMaru",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Maru", "Day": "22" },
+	 "Entries": {
+     "funLeave_Maru": "Finally, you're up! I'm visiting my parents this morning and going to Joja Mart later with them.$0#$b#Maybe I'll see you there.$1",
+     "funReturn_Maru": "I picked up some things at Joja Mart. They're in the fridge.$0#$b#Oh, and my dad says hi!$1",
+     },
+},
+
+
+
+{    //DEMETRIUS Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Demetrius",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "750 ScienceHouse 29 9 0/1000 ScienceHouse 6 22 3/1050 JojaMart 17 11 3 \"Strings\\schedules\\Demetrius:JojaDay_Demetrius\"/1310 JojaMart 17 14 3 \"Strings\\schedules\\Demetrius:JojaDay_Demetrius\"/1400 JojaMart 17 13 3 \"Strings\\schedules\\Demetrius:JojaDay_Demetrius\"/1450 JojaMart 17 12 3 \"Strings\\schedules\\Demetrius:JojaDay_Demetrius\"/1530 JojaMart 18 12 1 \"Strings\\schedules\\Demetrius:JojaDay_Demetrius\"/1600 JojaMart 17 11 3 \"Strings\\schedules\\Demetrius:JojaDay_Demetrius\"/1630 JojaMart 17 18 3 \"Strings\\schedules\\Demetrius:JojaDay_Demetrius\"/1700 JojaMart 11 26 3 \"Strings\\schedules\\Demetrius:JojaDay1_Demetrius\"/1800 ScienceHouse 19 18 0/2110 ScienceHouse 19 4 1 demetrius_sleep",
+     },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Demetrius",
+	 "Entries": { 
+	 "JojaDay_Demetrius": "Hi, @. Getting your shopping done here today too? Looks like the whole town had the same idea.$0",
+     "JojaDay1_Demetrius": "%Demetrius is busy checking out."
+	 }
+},
+
+
+
+{    //ROBIN Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Robin",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "640 ScienceHouse 28 9 0/740 ScienceHouse 8 18 2/1020 ScienceHouse 7 20 1/1050 JojaMart 17 12 3 \"Strings\\schedules\\Robin:JojaDay_Robin\"/1310 JojaMart 17 16 3 \"Strings\\schedules\\Robin:JojaDay_Robin\"/1330 JojaMart 18 13 1 \"Strings\\schedules\\Robin:JojaDay_Robin\"/1400 JojaMart 18 14 1 \"Strings\\schedules\\Robin:JojaDay_Robin\"/1420 JojaMart 18 13 1 \"Strings\\schedules\\Robin:JojaDay_Robin\"/1500 JojaMart 17 17 3 \"Strings\\schedules\\Robin:JojaDay_Robin\"/1610 JojaMart 18 13 1 \"Strings\\schedules\\Robin:JojaDay_Robin\"/1640 JojaMart 18 14 1 \"Strings\\schedules\\Robin:JojaDay_Robin\"/1700 JojaMart 11 25 3 \"Strings\\schedules\\Robin:JojaDay1_Robin\"/1800 ScienceHouse 2 21 0/2110 ScienceHouse 21 4 2 robin_sleep",
+	 },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Robin",
+	 "Entries": { 
+	 "JojaDay_Robin": "Gah! I misplaced my grocery list. Where is it!?$2",
+	 "JojaDay1_Robin": "I'd call this shopping a trip a huge success!$1"
+	 }
+},
+
+
+
+{    //SEBASTIAN Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Sebastian",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "830 SebastianRoom 3 5 0/900 ScienceHouse 27 9 0/1000 ScienceHouse 9 20 3/1200 JojaMart 2 6 1 \"Strings\\schedules\\Sebastian:JojaDay_Sebastian\"/1600 SebastianRoom 11 18 1 sebastian_sleep",
+     },
+},
+{    //SEBASTIAN Joja Day Schedule - MARRIED
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Sebastian",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Sebastian", "Day": "22" },
+	 "Entries": {
+     "marriage_Mon": "1120 JojaMart 2 6 1 \"Strings\\schedules\\Sebastian:JojaDay_Sebastian\"/1600 BusStop -1 23 3",
+     },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Sebastian",
+	 "Entries": { 
+	 "JojaDay_Sebastian": "It smells too clean in here.$0" 
+	 }
+},
+{    //Sebastian Joja Day Marriage Dialogue
+	 "Action": "EditData",
+	 "Target": "characters/Dialogue/MarriageDialogueSebastian",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Sebastian", "Day": "22" },
+	 "Entries": {
+     "funLeave_Sebastian": "Do you think they carry 'Sashimi' at Joja Mart?",
+     },
+},
+
+
+
+{    //CLINT Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Clint",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "740 Blacksmith 4 5 0/920 Town 100 81 0/1030 Town 97 77 0/1100 Town 96 65 1/1220 JojaMart 2 16 1 \"Strings\\schedules\\Clint:JojaDay_Clint\"/1420 JojaMart 2 16 1 \"Strings\\schedules\\Clint:JojaDay_Clint\"/1510 JojaMart 2 14 1 \"Strings\\schedules\\Clint:JojaDay_Clint\"/1550 JojaMart 2 14 1 \"Strings\\schedules\\Clint:JojaDay_Clint\"/1630 JojaMart 2 21 1 \"Strings\\schedules\\Clint:JojaDay_Clint\"/1730 JojaMart 2 19 1 \"Strings\\schedules\\Clint:JojaDay_Clint\"/1750 JojaMart 7 26 3 \"Strings\\schedules\\Clint:JojaDay1_Clint\"/1850 Blacksmith 10 4 2 clint_sleep",
+     },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Clint",
+	 "Entries": { 
+	 "JojaDay_Clint": "I can't decide what I want to get.$0",
+	 "JojaDay1_Clint": "Uhh. Hi. Just this please.$0"
+	 }
+},
+
+
+
+{    //HALEY Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Haley",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "710 HaleyHouse 8 7 1/810 HaleyHouse 21 16 2/920 HaleyHouse 18 16 2/1010 HaleyHouse 6 16 0/1040 HaleyHouse 3 20 1/1100 JojaMart 6 14 1 \"Strings\\schedules\\Haley:JojaDay_Haley\"/1350 JojaMart 5 11 3 \"Strings\\schedules\\Haley:JojaDay_Haley\"/1450 JojaMart 6 13 1 \"Strings\\schedules\\Haley:JojaDay_Haley\"/1530 JojaMart 2 12 1 \"Strings\\schedules\\Haley:JojaDay_Haley\"/1630 JojaMart 6 14 1 \"Strings\\schedules\\Haley:JojaDay_Haley\"/1710 JojaMart 6 12 1 \"Strings\\schedules\\Haley:JojaDay_Haley\"/1740 JojaMart 5 15 3 \"Strings\\schedules\\Haley:JojaDay_Haley\"/1830 JojaMart 11 25 3 \"Strings\\schedules\\Haley:JojaDay1_Haley\"/1930 HaleyHouse 2 5 2 haley_sleep",
+     },
+},
+{    //HALEY Joja Day Schedule - MARRIED
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Haley",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Haley", "Day": "22" },
+	 "Entries": {
+     "marriage_Mon": "830 HaleyHouse 3 20 1/1100 JojaMart 6 14 1 \"Strings\\schedules\\Haley:JojaDay_Haley\"/1350 JojaMart 5 11 3 \"Strings\\schedules\\Haley:JojaDay_Haley\"/1450 JojaMart 6 13 1 \"Strings\\schedules\\Haley:JojaDay_Haley\"/1530 JojaMart 2 12 1 \"Strings\\schedules\\Haley:JojaDay_Haley\"/1630 JojaMart 6 14 1 \"Strings\\schedules\\Haley:JojaDay_Haley\"/1710 JojaMart 6 12 1 \"Strings\\schedules\\Haley:JojaDay_Haley\"/1740 JojaMart 5 15 3 \"Strings\\schedules\\Haley:JojaDay_Haley\"/1830 JojaMart 11 25 3 \"Strings\\schedules\\Haley:JojaDay1_Haley\"/1930 BusStop -1 23 3",
+     },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Haley",
+	 "Entries": { 
+	 "JojaDay_Haley": "Oh my GOD! This place is amazing! It literally has everything, unlike Pierre's store.$1",
+	 "JojaDay1_Haley": "Joja has all the latest makeup palettes. I'll try swatching this later.$0"
+	 }
+},
+{    //Haley Joja Day Marriage Dialogue
+	 "Action": "EditData",
+	 "Target": "characters/Dialogue/MarriageDialogueHaley",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Haley", "Day": "22" },
+	 "Entries": {
+     "funLeave_Haley": "Good morning, dear. I'm going to do some shopping at Joja Mart today. Should I get you anything?$1",
+     "funReturn_Haley": "Don't you agree that Joja Mart is a huge upgrade from Pierre's?$1#$e#I wonder how they're doing.$2"
+     },
+},
+
+
+{    //EMILY Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Emily",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "730 HaleyHouse 19 16 0/820 HaleyHouse 14 16 0/930 HaleyHouse 16 8 0/1040 HaleyHouse 5 20 3/1100 JojaMart 6 16 1 \"Strings\\schedules\\Emily:JojaDay_Emily\"/1400 JojaMart 6 17 1 \"Strings\\schedules\\Emily:JojaDay_Emily\"/1500 JojaMart 6 15 1 \"Strings\\schedules\\Emily:JojaDay_Emily\"/1700 JojaMart 15 22 0 \"Strings\\schedules\\Emily:JojaDay_Emily\"/1820 JojaMart 11 26 3 \"Strings\\schedules\\Emily:JojaDay1_Emily\"/1930 HaleyHouse 19 4 2 emily_sleep",
+	 },
+},
+{    //EMILY Joja Day Schedule - MARRIED
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Emily",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Emily", "Day": "22" },
+	 "Entries": {
+     "marriage_Mon": "830 HaleyHouse 5 20 3/1100 JojaMart 6 16 1 \"Strings\\schedules\\Emily:JojaDay_Emily\"/1400 JojaMart 6 17 1 \"Strings\\schedules\\Emily:JojaDay_Emily\"/1500 JojaMart 6 15 1 \"Strings\\schedules\\Emily:JojaDay_Emily\"/1700 JojaMart 15 22 0 \"Strings\\schedules\\Emily:JojaDay_Emily\"/1820 JojaMart 11 26 3 \"Strings\\schedules\\Emily:JojaDay1_Emily\"/1930 BusStop -1 23 3",
+     },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Emily",
+	 "When": { "HasSeenEvent |contains=3219873": false },
+	 "Entries": { 
+	 "JojaDay_Emily": "Ooo! Look at what they have here. I didn't know I needed it, but now I do!$1",
+     "JojaDay1_Emily": "%Emily is busy checking out."	 
+	 }
+},
+{    //Schedule Strings - player has seen Claire's 6 heart event
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Emily",
+	 "When": { "HasSeenEvent |contains=3219873": true },
+	 "Entries": { 
+	 "JojaDay_Emily": "Oooh! Look at what they have here. I didn't know I needed it, but now I do!$1",
+     "JojaDay1_Emily": "Hey, Claire! Thank you for working so hard today. See you at aerobics tomorrow?$0"	 
+	 }
+},
+{    //Emily Joja Day Marriage Dialogue
+	 "Action": "EditData",
+	 "Target": "characters/Dialogue/MarriageDialogueEmily",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Emily", "Day": "22", "HasSeenEvent |contains=3219873": false },
+	 "Entries": {
+     "funLeave_Emily": "Emily is dragging me along to go shopping with her at Joja Mart today.$0",
+     "funReturn_Emily": "I love all the goofy food you can find at Joja Mart.$0#$e#How was your day, dear?$1"
+     },
+},
+{    //Emily Joja Day Marriage Dialogue
+	 "Action": "EditData",
+	 "Target": "characters/Dialogue/MarriageDialogueEmily",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Emily", "Day": "22", "HasSeenEvent |contains=3219873": true },
+	 "Entries": {
+     "funLeave_Emily": "Emily is dragging me along to go shopping with her at Joja Mart today.$0#$e#I think Claire is working today! I'll try to catch up with her.$0"
+     },
+},
+
+{    //ALEX Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Alex",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "800 JoshHouse 5 17 0/900 JoshHouse 14 5 2 alex_lift_weights/940 JoshHouse 10 17 2/1010 JojaMart 9 8 0 \"Strings\\schedules\\Alex:JojaDay_Alex\"/1200 JojaMart 25 5 0 \"Strings\\schedules\\Alex:JojaDay1_Alex\"/1300 JojaMart 27 5 0 \"Strings\\schedules\\Alex:JojaDay1_Alex\"/1400 JojaMart 26 5 0 \"Strings\\schedules\\Alex:JojaDay1_Alex\"/1420 JojaMart 15 7 3 \"Strings\\schedules\\Alex:JojaDay_Alex\"/1500 JojaMart 11 24 2 \"Strings\\schedules\\Alex:JojaDay2_Alex\"/1610 JoshHouse 8 19 2/2030 JoshHouse 20 4 2 alex_sleep",
+     },
+},
+{    //ALEX Joja Day Schedule - MARRIED
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Alex",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Alex", "Day": "22" },
+	 "Entries": {
+     "marriage_Mon": "750 JoshHouse 10 17 2/1010 JojaMart 9 8 0 \"Strings\\schedules\\Alex:JojaDay_Alex\"/1200 JojaMart 25 5 0 \"Strings\\schedules\\Alex:JojaDay1_Alex\"/1300 JojaMart 27 5 0 \"Strings\\schedules\\Alex:JojaDay1_Alex\"/1400 JojaMart 26 5 0 \"Strings\\schedules\\Alex:JojaDay1_Alex\"/1420 JojaMart 15 7 3 \"Strings\\schedules\\Alex:JojaDay_Alex\"/1500 JojaMart 11 24 2 \"Strings\\schedules\\Alex:JojaDay2_Alex\"/1610 JoshHouse 8 19 2/2030 BusStop -1 23 3",
+     },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Alex",
+	 "Entries": { 
+	 "JojaDay_Alex": "I can make a cool meal plan with the options here.",
+	 "JojaDay1_Alex": "Whoa! They have FRDA prime meat in stock! I gotta grab some of these before they sell out.$0",
+	 "JojaDay2_Alex": "It'll be nothing but good eating this week.$1"
+	 }
+},
+{    //Alex Joja Day Marriage Dialogue
+	 "Action": "EditData",
+	 "Target": "characters/Dialogue/MarriageDialogueAlex",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Alex", "Day": "22" },
+	 "Entries": {
+     "funLeave_Alex": "Hey, good morning. Joja Mart is having a huge meat sale today. Can I pick you up anything while I'm there?$0",
+     "funReturn_Alex": "My meal plans are set for the next couple weeks. It'll be nothing but good eating!$1"
+     },
+},
+
+
+{    //GEORGE Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/George",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "700 JoshHouse 5 20 3/830 JoshHouse 15 22 0/940 JoshHouse 11 20 3/1010 JojaMart 11 6 2 \"Strings\\schedules\\George:JojaDay_George\"/1430 JojaMart 11 6 2 \"Strings\\schedules\\George:JojaDay_George\"/1500 JojaMart 11 25 3 \"Strings\\schedules\\George:JojaDay1_George\"/1610 JoshHouse 16 22 0",
+     },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/George",
+	 "Entries": { 
+	 "JojaDay_George": "Evelyn and I have lived here in the valley long before this place was built. Seems like times are changin' for the better.$0",
+     "JojaDay1_George": "Don't cut in line!$3"
+	 }
+},
+
+
+
+{    //EVELYN Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Evelyn",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "700 JoshHouse 3 17 0/810 JoshHouse 3 19 2/910 JoshHouse 18 17 0/940 JoshHouse 8 20 1/1010 JojaMart 7 8 0 \"Strings\\schedules\\Evelyn:JojaDay_Evelyn\"/1150 JojaMart 6 8 0 \"Strings\\schedules\\Evelyn:JojaDay_Evelyn\"/1230 JojaMart 8 8 0 \"Strings\\schedules\\Evelyn:JojaDay_Evelyn\"/1240 JojaMart 10 8 0 \"Strings\\schedules\\Evelyn:JojaDay_Evelyn\"/1310 JojaMart 7 8 0 \"Strings\\schedules\\Evelyn:JojaDay_Evelyn\"/1350 JojaMart 10 8 0 \"Strings\\schedules\\Evelyn:JojaDay_Evelyn\"/1430 JojaMart 12 8 1 \"Strings\\schedules\\Evelyn:JojaDay_Evelyn\"/1500 JojaMart 11 26 3 \"Strings\\schedules\\Evelyn:JojaDay1_Evelyn\"/1610 JoshHouse 3 5 0",
+	 },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Evelyn",
+	 "Entries": { 
+	 "JojaDay_Evelyn": "Don't forget to remind me, dear. I need to pick up some leaks for George in aisle 3.$0",
+     "JojaDay1_Evelyn": "%Evelyn is busy checking out."	 
+	 }
+},
+
+
+
+{    //VICTOR Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Victor",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "700 Custom_JenkinsHouse 30 37 0/850 Custom_JenkinsHouse 24 25 2 Victor_Book2/1030 Custom_JenkinsHouse 20 39 1/1100 JojaMart 14 16 1 \"Strings\\schedules\\Victor:JojaDay_Victor\"/1210 JojaMart 13 15 3 \"Strings\\schedules\\Victor:JojaDay_Victor\"/1250 JojaMart 14 14 1 \"Strings\\schedules\\Victor:JojaDay_Victor\"/1320 JojaMart 13 16 3 \"Strings\\schedules\\Victor:JojaDay_Victor\"/1350 JojaMart 17 18 3 \"Strings\\schedules\\Victor:JojaDay_Victor\"/1410 JojaMart 18 18 1 \"Strings\\schedules\\Victor:JojaDay_Victor\"/1430 JojaMart 14 15 1 \"Strings\\schedules\\Victor:JojaDay_Victor\"/1500 JojaMart 25 17 3 \"Strings\\schedules\\Victor:JojaDay_Victor\"/1540 JojaMart 14 15 1 \"Strings\\schedules\\Victor:JojaDay_Victor\"/1600 JojaMart 22 15 1 \"Strings\\schedules\\Victor:JojaDay_Victor\"/1620 JojaMart 21 12 3 \"Strings\\schedules\\Victor:JojaDay_Victor\"/1640 JojaMart 7 25 3 \"Strings\\schedules\\Victor:JojaDay1_Victor\"/1710 Custom_JenkinsHouse 32 25 0/2130 Custom_JenkinsHouse 31 5 1 Victor_Sleep",
+     },
+},
+{
+	 //Victor Joja Day - MARRIED
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Victor",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Victor", "Day": "22"  },
+	 "Entries": {
+        "marriage_Mon": "830 Custom_JenkinsHouse 20 39 1/1100 JojaMart 14 16 1 \"Strings\\schedules\\Victor:JojaDay_Victor\"/1210 JojaMart 13 15 3 \"Strings\\schedules\\Victor:JojaDay_Victor\"/1250 JojaMart 14 14 1 \"Strings\\schedules\\Victor:JojaDay_Victor\"/1320 JojaMart 13 16 3 \"Strings\\schedules\\Victor:JojaDay_Victor\"/1350 JojaMart 17 18 3 \"Strings\\schedules\\Victor:JojaDay_Victor\"/1410 JojaMart 18 18 1 \"Strings\\schedules\\Victor:JojaDay_Victor\"/1430 JojaMart 14 15 1 \"Strings\\schedules\\Victor:JojaDay_Victor\"/1500 JojaMart 25 17 3 \"Strings\\schedules\\Victor:JojaDay_Victor\"/1540 JojaMart 14 15 1 \"Strings\\schedules\\Victor:JojaDay_Victor\"/1600 JojaMart 22 15 1 \"Strings\\schedules\\Victor:JojaDay_Victor\"/1620 JojaMart 21 12 3 \"Strings\\schedules\\Victor:JojaDay_Victor\"/1640 JojaMart 7 25 3 \"Strings\\schedules\\Victor:JojaDay1_Victor\"/1710 Custom_JenkinsHouse 32 25 0/2130 BusStop -1 23 3",
+     },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Victor",
+	 "Entries": { 
+	 "JojaDay_Victor": "I can't decide what I want to get!$1",
+	 "JojaDay1_Victor": "Greetings, @.$0"
+	 }
+},
+{    //Victor Joja Day Marriage Dialogue
+	 "Action": "EditData",
+	 "Target": "characters/Dialogue/MarriageDialogueVictor",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Victor", "Day": "22" },
+	 "Entries": {
+     "funLeave_Victor": "Hey! Good morning. What's on your schedule today?$1#$e#I'm shopping with my mother at Joja Mart today.$3",
+     "funReturn_Victor": "I must say, Joja Mart does possess an interesting selection.$0"
+     },
+},
+
+
+
+{    //OLIVIA Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Olivia",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "630 Custom_JenkinsHouse 19 8 2 Olivia_Yoga/910 Custom_JenkinsHouse 33 37 2/1030 Custom_JenkinsHouse 22 39 3/1100 JojaMart 15 25 0 \"Strings\\schedules\\Olivia:JojaDay1_Olivia\"/1250 JojaMart 14 18 1 \"Strings\\schedules\\Olivia:JojaDay_Olivia\"/1330 JojaMart 14 12 1 \"Strings\\schedules\\Olivia:JojaDay_Olivia\"/1400 JojaMart 13 17 3 \"Strings\\schedules\\Olivia:JojaDay_Olivia\"/1440 JojaMart 17 18 3 \"Strings\\schedules\\Olivia:JojaDay_Olivia\"/1510 JojaMart 10 18 1 \"Strings\\schedules\\Olivia:JojaDay_Olivia\"/1540 JojaMart 9 16 3 \"Strings\\schedules\\Olivia:JojaDay_Olivia\"/1600 JojaMart 21 17 3 \"Strings\\schedules\\Olivia:JojaDay_Olivia\"/1620 JojaMart 21 18 3 \"Strings\\schedules\\Olivia:JojaDay_Olivia\"/1640 JojaMart 7 26 3 \"Strings\\schedules\\Olivia:JojaDay2_Olivia\"/1710 Custom_JenkinsHouse 33 37 0/2110 Custom_JenkinsHouse 20 5 3 Olivia_Sleep",
+     },
+},
+{
+	 //OLIVIA Joja Day Schedule - MARRIED
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Olivia",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Olivia", "Day": "22"  },
+	 "Entries": {
+       "marriage_Mon": "820 Custom_JenkinsHouse 22 39 3/1100 JojaMart 15 25 0 \"Strings\\schedules\\Olivia:JojaDay1_Olivia\"/1250 JojaMart 14 18 1 \"Strings\\schedules\\Olivia:JojaDay_Olivia\"/1330 JojaMart 14 12 1 \"Strings\\schedules\\Olivia:JojaDay_Olivia\"/1400 JojaMart 13 17 3 \"Strings\\schedules\\Olivia:JojaDay_Olivia\"/1440 JojaMart 17 18 3 \"Strings\\schedules\\Olivia:JojaDay_Olivia\"/1510 JojaMart 10 18 1 \"Strings\\schedules\\Olivia:JojaDay_Olivia\"/1540 JojaMart 9 16 3 \"Strings\\schedules\\Olivia:JojaDay_Olivia\"/1600 JojaMart 21 17 3 \"Strings\\schedules\\Olivia:JojaDay_Olivia\"/1620 JojaMart 21 18 3 \"Strings\\schedules\\Olivia:JojaDay_Olivia\"/1640 JojaMart 7 26 3 \"Strings\\schedules\\Olivia:JojaDay2_Olivia\"/1710 Custom_JenkinsHouse 33 37 0/2110 BusStop -1 23 3",
+     },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Olivia",
+	 "Entries": { 
+	 "JojaDay_Olivia": "Hello, dear.$0",
+	 "JojaDay1_Olivia": "Good afternoon, Morris.$3",
+	 "JojaDay2_Olivia": "Hi, sweetie. Mind bagging these for me? Here's a little something for your trouble.$1"
+	 }
+},
+{    //Olivia Joja Day Marriage Dialogue
+	 "Action": "EditData",
+	 "Target": "characters/Dialogue/MarriageDialogueOlivia",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Olivia", "Day": "22" },
+	 "Entries": {
+     "funLeave_Olivia": "Good morning, dear. I'm running to Joja Mart sometime today.$3",
+     "funReturn_Olivia": "Shopping all day wears you out.$6#$e#Would you care for a glass of wine?$3"
+     },
+},
+
+
+
+{    //JODI Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Jodi",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "710 SamHouse 5 5 0/900 SamHouse 17 5 1/1030 SamHouse 4 13 1/1120 JojaMart 23 5 0 \"Strings\\schedules\\Jodi:JojaDay_Jodi\"/1420 JojaMart 22 6 0 \"Strings\\schedules\\Jodi:JojaDay_Jodi\"/1440 JojaMart 25 5 0 \"Strings\\schedules\\Jodi:JojaDay_Jodi\"/1530 JojaMart 26 5 0 \"Strings\\schedules\\Jodi:JojaDay_Jodi\"/1550 JojaMart 19 5 0 \"Strings\\schedules\\Jodi:JojaDay_Jodi\"/1620 JojaMart 11 26 3 \"Strings\\schedules\\Jodi:JojaDay1_Jodi\"/1700 SamHouse 5 5 0/2100 SamHouse 19 5 1 jodi_sleep",
+     },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Jodi",
+	 "Entries": { 
+	 "JojaDay_Jodi": "I shopped at Joja before they starting having these sales.$0",
+	 "JojaDay1_Jodi": "Hi! How are you today? Let me help bag those.$0"
+	 }
+},
+
+
+
+{    //VINCENT Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Vincent",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "830 SamHouse 1 6 1/940 SamHouse 10 22 0/1040 SamHouse 5 13 3/1120 JojaMart 22 5 0/1400 JojaMart 20 7 3/1600 JojaMart 23 5 0/1620 JojaMart 11 24 0/2030 SamHouse 11 23 2/2400 SamHouse 9 22 3 vincent_sleep",
+     },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "characters/dialogue/Vincent",
+	 "Entries": { 
+	    "JojaMart_23_5": "I want to run up and down the aisles, but momma said no.$2",
+		"JojaMart_20_7": "Jas! I'll race you!?$1",
+		"JojaMart_11_24": "I can't wait to eat these Joja crackers when I get home!$0",
+		"SamHouse_11_23": "%Vincent is watching TV while snacking on Joja crackers."
+	 },
+},
+
+
+
+{    //KENT Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Kent",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "710 SamHouse 6 5 0/900 SamHouse 18 5 3/1030 SamHouse 4 16 3/1120 JojaMart 25 7 3 \"Strings\\schedules\\Kent:JojaDay_Kent\"/1340 JojaMart 21 7 0 \"Strings\\schedules\\Kent:JojaDay_Kent\"/1400 JojaMart 18 5 0 \"Strings\\schedules\\Kent:JojaDay_Kent\"/1420 JojaMart 16 4 2 \"Strings\\schedules\\Kent:JojaDay_Kent\"/1450 JojaMart 18 5 0 \"Strings\\schedules\\Kent:JojaDay_Kent\"/1530 JojaMart 17 5 2 \"Strings\\schedules\\Kent:JojaDay_Kent\"/1550 JojaMart 21 5 0 \"Strings\\schedules\\Kent:JojaDay_Kent\"/1620 JojaMart 11 25 3 \"Strings\\schedules\\Kent:JojaDay1_Kent\"/1700 SamHouse 4 13 2/2100 SamHouse 20 5 1 kent_sleep",
+     },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Kent",
+	 "Entries": { 
+	 "JojaDay_Kent": "Cold in here.$0",
+     "JojaDay1_Kent": "Honey, let me help bag that.$1"	  
+	 }
+},
+
+
+
+{    //SAM Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Sam",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "850 SamHouse 7 5 0/1000 SamHouse 14 13 0/1030 SamHouse 2 16 1/1120 JojaMart 19 5 1 \"Strings\\schedules\\Sam:JojaDay_Sam\"/1340 JojaMart 3 7 0 \"Strings\\schedules\\Sam:JojaDay1_Sam\"/1540 JojaMart 25 12 3 \"Strings\\schedules\\Sam:JojaDay_Sam\"/1600 JojaMart 27 7 1 \"Strings\\schedules\\Sam:JojaDay_Sam\"/1620 JojaMart 11 23 2 \"Strings\\schedules\\Sam:JojaDay2_Sam\"/1700 SamHouse 22 16 1/2200 SamHouse 21 13 1 sam_sleep",
+     },
+},
+{    //SAM Joja Day Schedule - MARRIED
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Sam",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Sam", "Day": "22" },
+	 "Entries": {
+     "marriage_Mon": "1030 JojaMart 16 5 2 \"Strings\\schedules\\Sam:JojaDay_Sam\"/1710 BusStop -1 23 3",
+     },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Sam",
+	 "Entries": { 
+	 "JojaDay_Sam": "Part of me feels like I should be working today.$0",
+	 "JojaDay1_Sam": "Are you guys plannin' on buying anything? I can probably get you some discounts since I work here.$1",
+	 "JojaDay2_Sam": "I think my mom bought too much.$0"
+	 }
+},
+{    //Sam Joja Day Marriage Dialogue
+	 "Action": "EditData",
+	 "Target": "characters/Dialogue/MarriageDialogueSam",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Sam", "Day": "22" },
+	 "Entries": {
+     "funLeave_Sam": "Hey, I'm gonna visit my family today and go shopping with them at Joja Mart.$0#$e#I'm glad I don't have to work today.$1",
+     "funReturn_Sam": "I got us some frozen Joja meals. They're actually not half bad!$1"
+     },
+},
+
+
+
+{    //ABIGAIL Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Abigail",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "800 SeedShop 9 5 0/900 SeedShop 35 9 0/1000 SeedShop 3 6 0 abigail_videogames/1130 SeedShop 6 22 2/1230 JojaMart 4 6 3 \"Strings\\schedules\\Abigail:JojaDay_Abigail\"/1600 SeedShop 3 6 0 abigail_videogames/1950 SeedShop 2 9 2 abigail_sleep",
+     },
+},
+{    //ABIGAIL Joja Day Schedule - MARRIED
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Abigail",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Abigail", "Day": "22" },
+	 "Entries": {
+     "marriage_Mon": "800 SeedShop 9 5 0/900 SeedShop 35 9 0/1000 SeedShop 3 6 0 abigail_videogames/1130 SeedShop 6 22 2/1230 JojaMart 4 6 3 \"Strings\\schedules\\Abigail:JojaDay_Abigail\"/16000 BusStop -1 23 3",
+     },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Abigail",
+	 "Entries": { 
+	 "JojaDay_Abigail": "Mom and Dad were stressing me out. I just HAD to leave the house. They told me not to come here... guess I didn't listen.$3" 
+	 }
+},
+{    //Abigail Joja Day Marriage Dialogue
+	 "Action": "EditData",
+	 "Target": "characters/Dialogue/MarriageDialogueAbigail",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Abigail", "Day": "22" },
+	 "Entries": {
+     "funLeave_Abigail": "Mom called this morning and wants me over. I'll be back later, okay?$0#$e#I think they're going to go on about something to do with Joja day.$3",
+     "funReturn_Abigail": "My parents seriously stress me out.$3"
+     },
+},
+
+
+
+{    //ELLIOTT Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Elliott",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "720 ElliottHouse 1 5 0/840 Beach 49 19 2/1010 Beach 36 15 3/1050 JojaMart 27 14 1 \"Strings\\schedules\\Elliott:JojaDay_Elliott\"/1310 JojaMart 27 16 1 \"Strings\\schedules\\Elliott:JojaDay_Elliott\"/1330 JojaMart 27 14 1 \"Strings\\schedules\\Elliott:JojaDay_Elliott\"/1430 JojaMart 16 24 3 \"Strings\\schedules\\Elliott:JojaDay1_Elliott\"/1520 ElliottHouse 1 5 0",
+     },
+},
+{    //ELLIOTT Joja Day Schedule - MARRIED
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Elliott",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Elliott", "Day": "22" },
+	 "Entries": {
+     "marriage_Mon": "1050 JojaMart 27 14 1 \"Strings\\schedules\\Elliott:JojaDay_Elliott\"/1310 JojaMart 27 16 1 \"Strings\\schedules\\Elliott:JojaDay_Elliott\"/1330 JojaMart 27 14 1 \"Strings\\schedules\\Elliott:JojaDay_Elliott\"/1430 JojaMart 16 24 3 \"Strings\\schedules\\Elliott:JojaDay1_Elliott\"/1520 BusStop -1 23 3",
+     },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Elliott",
+	 "Entries": { 
+	 "JojaDay_Elliott": "%Elliott is busy.",
+	 "JojaDay1_Elliott": "Well, at least everything here is interesting.$0" 
+	 }
+},
+{    //Elliott Joja Day Marriage Dialogue
+	 "Action": "EditData",
+	 "Target": "characters/Dialogue/MarriageDialogueElliott",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Elliott", "Day": "22" },
+	 "Entries": {
+     "funLeave_Elliott": "Good morning, my dear. I brewed us coffee.[395]$0#$e#I'm running to the store today. Shall I fetch anything for you?$1",
+	 "funReturn_Elliott": "I'm not very fond of Joja's selection.$2"
+     },
+},
+
+
+
+{    //LEAH Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Leah",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "830 LeahHouse 12 14 0/1010 JojaMart 27 16 1 \"Strings\\schedules\\Leah:JojaDay_Leah\"/1320 JojaMart 27 18 1 \"Strings\\schedules\\Leah:JojaDay_Leah\"/1340 JojaMart 27 16 1 \"Strings\\schedules\\Leah:JojaDay_Leah\"/1410 JojaMart 25 16 3 \"Strings\\schedules\\Leah:JojaDay_Leah\"/1430 JojaMart 14 24 1 \"Strings\\schedules\\Leah:JojaDay1_Leah\"/1520 LeahHouse 13 4 0/2100 LeahHouse 2 4 3 leah_sleep",
+     },
+},
+{    //LEAH Joja Day Schedule - MARRIED
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Leah",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Leah", "Day": "22" },
+	 "Entries": {
+     "marriage_Mon": "940 JojaMart 27 16 1 \"Strings\\schedules\\Leah:JojaDay_Leah\"/1320 JojaMart 27 18 1 \"Strings\\schedules\\Leah:JojaDay_Leah\"/1340 JojaMart 27 16 1 \"Strings\\schedules\\Leah:JojaDay_Leah\"/1410 JojaMart 25 16 3 \"Strings\\schedules\\Leah:JojaDay_Leah\"/1430 JojaMart 14 24 1 \"Strings\\schedules\\Leah:JojaDay1_Leah\"/1520 BusStop -1 23 3",
+     },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Leah",
+	 "Entries": { 
+	 "JojaDay_Leah": "I don't think there's anything organic here.$2",
+     "JojaDay1_Leah": "Well, that was disappointing.$2" 
+	 }
+},
+{    //Leah Joja Day Marriage Dialogue
+	 "Action": "EditData",
+	 "Target": "characters/Dialogue/MarriageDialogueLeah",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Leah", "Day": "22" },
+	 "Entries": {
+     "funLeave_Leah": "I'm going to take a peak at Joja Mart. I probably won't get anything.$0"
+     },
+},
+
+
+
+{    //ANDY Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Andy",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "0 Custom_AndyHouse 18 6 0/640 JojaMart 25 17 3 \"Strings\\schedules\\Andy:JojaDay_Andy\"/1100 JojaMart 27 18 1 \"Strings\\schedules\\Andy:JojaDay_Andy\"/1130 JojaMart 25 13 3 \"Strings\\schedules\\Andy:JojaDay_Andy\"/1220 JojaMart 27 13 1 \"Strings\\schedules\\Andy:JojaDay_Andy\"/1240 JojaMart 25 13 3 \"Strings\\schedules\\Andy:JojaDay_Andy\"/1330 JojaMart 25 18 3 \"Strings\\schedules\\Andy:JojaDay_Andy\"/1400 JojaMart 25 11 3 \"Strings\\schedules\\Andy:JojaDay_Andy\"/1440 JojaMart 11 26 3 \"Strings\\schedules\\Andy:JojaDay1_Andy\"/1510 Custom_AndyHouse 18 15 0/2130 Custom_AndyHouse 9 6 1 Andy_Sleep",
+     },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Andy",
+	 "Entries": { 
+	 "JojaDay_Andy": "Stock up while you can, farmer. Seeds don't get cheaper than this!$0",
+     "JojaDay1_Andy": "%Andy is checking out."  	 
+	 }
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "characters/dialogue/Andy",
+	 "When": { "HasSeenEvent": "502261", "Day": "22" },
+	 "Entries": { 
+	 "JojaMart": "Stock up while you can, farmer. Seeds don't get cheaper than this!$0",	 
+	 }
+},
+
+
+{    //WILLY Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Willy",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "630 Beach 41 36 2/900 FishShop 5 4 2 \"Strings\\schedules\\Willy:JojaDay_Willy\"",
+     },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Willy",
+	 "Entries": { 
+	 "JojaDay_Willy": "Arr..not a single patron all day.$2" 
+	 }
+},
+
+
+
+{    //CLAIRE Joja Day Schedule
+     "Action": "EditData",
+     "Target": "Characters/Schedules/Claire",
+	 "When": { "HasSeenEvent": "502261", "Day": "22" },
+     "Entries": {
+       "22": "0 Custom_Claire_WarpRoom 3 3 2/800 JojaMart 9 25 1 \"Strings\\schedules\\Claire:JojaDay_Claire\"/2000 JojaMart 12 24 1 \"Strings\\schedules\\Claire:JojaDay1_Claire\"/2110 BusStop 12 8 0/2300 Custom_DayEnd_WarpRoom 2 2 0"
+	}
+},
+{    //CLAIRE Joja Day Schedule - MARRIED
+     "Action": "EditData",
+     "Target": "Characters/Schedules/Claire",
+	 "When": { "HasSeenEvent": "502261", "Day": "22" },
+     "Entries": {
+       "marriage_Mon": "740 JojaMart 9 25 1 \"Strings\\schedules\\Claire:JojaDay_Claire\"/2000 JojaMart 12 24 1 \"Strings\\schedules\\Claire:JojaDay1_Claire\"/2110 BusStop -2 23 3"
+	}
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Claire",
+	 "Entries": { 
+	 "JojaDay_Claire": "Hi, @. Seeds are on sale today if you wanted to pick any up.$1",
+	 "JojaDay1_Claire": "Th-thank you, sir!$1"
+	 }
+},
+{    //Claire Joja Day Marriage Dialogue
+	 "Action": "EditData",
+	 "Target": "characters/Dialogue/MarriageDialogueClaire",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Claire", "Day": "22" },
+	 "Entries": {
+     "funLeave_Claire": "It's going to be a very busy day for me...$0",
+	 "funReturn_Claire": "I just want to roll into bad. I'm exhausted from standing all day.$2"
+     },
+},
+
+
+
+{    //MARTIN Joja Day Schedule
+     "Action": "EditData",
+     "Target": "Characters/Schedules/Martin",
+	 "When": { "HasSeenEvent": "502261", "Day": "22" },
+     "Entries": {
+       "22": "0 Custom_Martin_WarpRoom 3 3 2/800 JojaMart 5 25 1 Martin_Idle \"Strings\\schedules\\Martin:JojaDay_Martin\"/2000 JojaMart 12 25 1 \"Strings\\schedules\\Martin:JojaDay1_Martin\"/2110 BusStop 12 8 0/2300 Custom_DayEnd_WarpRoom 2 2 0",
+	}
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Martin",
+	 "Entries": { 
+	 "JojaDay_Martin": "Hey! I thought I'd probably see you around today. I'm in charge of selling these Joja decorations!$0",
+	 "JojaDay1_Martin": "I wasn't expecting this. Thank you!$1"
+	 }
+},
+
+
+
+
+{    //MORRIS Joja Day Schedule
+     "Action": "EditData",
+     "Target": "Characters/Schedules/MorrisTod",
+	 "When": { "HasSeenEvent": "502261", "Day": "22", "Spouse |contains=Olivia": true },
+     "Entries": {
+       "22": "0 JojaMart 15 23 0 \"Strings\\schedules\\MorrisTod:JojaDay_MorrisTod\"/620 JojaMart 15 23 2 \"Strings\\schedules\\MorrisTod:JojaDay_MorrisTod\"/1140 JojaMart 15 24 2 \"Strings\\schedules\\MorrisTod:JojaDay1_MorrisTod\"/1250 JojaMart 15 23 2 \"Strings\\schedules\\MorrisTod:JojaDay_MorrisTod\"/1410 JojaMart 24 26 3 \"Strings\\schedules\\MorrisTod:JojaDay2_MorrisTod\"/1950 JojaMart 15 24 3 \"Strings\\schedules\\MorrisTod:JojaDay3_MorrisTod\"/2110 JojaMart 27 26 0 \"Strings\\schedules\\MorrisTod:JojaDay4_MorrisTod\"",
+	}
+},
+{    //MORRIS Joja Day Schedule
+     "Action": "EditData",
+     "Target": "Characters/Schedules/MorrisTod",
+	 "When": { "HasSeenEvent": "502261", "Day": "22", "Spouse |contains=Olivia": false },
+     "Entries": {
+       "22": "0 JojaMart 15 23 0 \"Strings\\schedules\\MorrisTod:JojaDay_MorrisTod\"/620 JojaMart 15 23 2 \"Strings\\schedules\\MorrisTod:JojaDay_MorrisTod\"/1410 JojaMart 24 26 3 \"Strings\\schedules\\MorrisTod:JojaDay2_MorrisTod\"/1950 JojaMart 15 24 3 \"Strings\\schedules\\MorrisTod:JojaDay3_MorrisTod\"/2110 JojaMart 27 26 0 \"Strings\\schedules\\MorrisTod:JojaDay4_MorrisTod\"",
+	}
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/MorrisTod",
+	 "Entries": { 
+	 "JojaDay_MorrisTod": "Welcome! Welcome!$4",
+	 "JojaDay1_MorrisTod": "Ah, Olivia! Lovely as always.$1",
+	 "JojaDay2_MorrisTod": "We're getting a mighty large amount of business today!$0",
+	 "JojaDay3_MorrisTod": "Thank you everyone for your hard work today! You'll all receive bonuses in your next pay checks!$1",
+	 "JojaDay4_MorrisTod": "Ah, @. It's past closing hours. Is there something I can help you with?$0"
+	 }
+},
+
+
+
+{    //CAROLINE Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Caroline",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "700 SeedShop 4 19 0/850 Town 42 57 2 \"Strings\\schedules\\Caroline:JojaDay1_Caroline\"/1300 SeedShop 4 19 3 \"Strings\\schedules\\Caroline:JojaDay2_Caroline\"/1500 SeedShop 6 19 2 \"Strings\\schedules\\Caroline:JojaDay3_Caroline\"/1700 SeedShop 7 22 3 \"Strings\\schedules\\Caroline:JojaDay4_Caroline\"/2100 SeedShop 25 4 1 caroline_sleep",
+	 },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Caroline",
+	 "Entries": { 
+	 "JojaDay1_Caroline": "Come on in, folks! We have fresh local organic produce that arrived this morning!$1", 
+	 "JojaDay2_Caroline": "Sorry, honey. I tried my best. Everyone went to Joja Mart instead...$2", 
+	 "JojaDay3_Caroline": "Hi, @.$2", 
+	 "JojaDay4_Caroline": "This is horrible...$2" 
+	 }
+},
+
+
+{    //PIERRE Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Pierre",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "700 SeedShop 4 17 2 \"Strings\\schedules\\Pierre:JojaDay1_Pierre\"/1310 SeedShop 2 19 1 \"Strings\\schedules\\Caroline:JojaDay2_Pierre\"/1500 SeedShop 4 17 2 \"Strings\\schedules\\Pierre:JojaDay1_Pierre\"/1700 SeedShop 5 22 1 \"Strings\\schedules\\Pierre:JojaDay3_Pierre\"/2100 SeedShop 23 4 1 pierre_sleep",
+     },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Pierre",
+	 "Entries": { 
+	 "JojaDay1_Pierre": "No customers today. Gee, I wonder why.$2", 
+	 "JojaDay2_Pierre": "You didn't try hard enough out there! I should've gone out instead!!!$3", 
+	 "JojaDay3_Pierre": "We lost a lot of money today.$2"
+	 }
+},
+
+
+
+{    //SUSAN Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Susan",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "650 Custom_SusanHouse 24 15 0/740 Custom_SusanHouse 26 15 0/820 Custom_SusanHouse 3 19 0 Susan_Craft/1010 SeedShop 12 23 0 \"Strings\\schedules\\Susan:JojaDay1_Susan\"/1330 SeedShop 14 20 0 \"Strings\\schedules\\Susan:JojaDay1_Susan\"/1430 SeedShop 11 20 0 \"Strings\\schedules\\Susan:JojaDay1_Susan\"/1540 SeedShop 4 19 0 \"Strings\\schedules\\Susan:JojaDay2_Susan\"/1640 Custom_SusanHouse 24 6 1 Susan_Sleep",
+     },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Susan",
+	 "Entries": { 
+	 "JojaDay1_Susan": "It's important to support friends on a day like this.$2", 
+	 "JojaDay2_Susan": "I'll take all of these, Pierre! They really don't sell seeds like yours at Joja Mart.$1" 
+	 }
+},
+
+
+
+{    //SOPHIA Joja Day Schedule
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Sophia",
+	 "When": { "HasSeenEvent": "502261" },
+	 "Entries": {
+     "22": "0 Custom_SophiaHouse 24 6 0/900 Custom_SophiaHouse 25 23 0 \"Strings\\schedules\\Sophia:JojaDay_Sophia\"/1200 Custom_SophiaHouse 4 22 0 \"Strings\\schedules\\Sophia:JojaDay_Sophia\"/1600 Custom_SophiaHouse 20 8 2 Sophia_Read \"Strings\\schedules\\Sophia:JojaDay_Sophia\"/1920 Custom_SophiaHouse 24 6 1 Sophia_Sleep",
+     },
+},
+{    //Schedule Strings
+	 "Action": "EditData",
+	 "Target": "strings/schedules/Sophia",
+	 "Entries": { 
+	 "JojaDay_Sophia": "I don't like Joja Day...$2" 
+	 }
+},
+{    //Sophia Joja Day Marriage Dialogue
+	 "Action": "EditData",
+	 "Target": "characters/Dialogue/MarriageDialogueSophia",
+	 "When": { "HasSeenEvent": "502261", "Spouse": "Sophia", "Day": "22" },
+	 "Entries": {
+     "funLeave_Sophia": "I don't like Joja Day...$2#$e#It just... reminds me of too much.$2",
+     "funReturn_Sophia": "I've felt weird all day.$2"
+     },
+},
+
+
+/////////////////////////////////////////////
 
 
 
@@ -24782,7 +26270,7 @@
 	 "Action": "EditData",
 	 "Target": "characters/schedules/Marnie",
 	 "Entries": {
-     "Mon": "700 Forest 55 27 0/900 Forest 51 24 1/1000 Forest 55 21 2/1020 Forest 56 21 0/1100 Forest 59 21 0/1130 Forest 61 23 3/1200 Forest 80 15 0/1330 Custom_MarnieShed 7 5 0/1600 Custom_MarnieShed 14 7 0/1700 Custom_MarnieShed 12 5 0/1800 Custom_MarnieShed 11 6 0/2100 AnimalShop 12 5 3 marnie_sleep",
+     "Mon": "700 Forest 55 27 0/900 Forest 51 24 1/1000 Forest 55 21 2/1020 Forest 56 21 0/1100 Forest 59 21 2/1130 Forest 61 23 3/1200 Forest 80 15 0/1330 Custom_MarnieShed 7 5 0/1600 Custom_MarnieShed 14 7 0/1700 Custom_MarnieShed 12 5 0/1800 Custom_MarnieShed 11 6 0/2100 AnimalShop 12 5 3 marnie_sleep",
      "winter_Mon": "630 Custom_MarnieShed 7 5 0/900 Custom_MarnieShed 13 5 1/1000 Custom_MarnieShed 15 7 1/1100 Custom_MarnieShed 4 6 0/1200 SeedShop 11 20 0/1700 AnimalShop 24 15 0/2100 AnimalShop 12 5 3 marnie_sleep",
      },
 },
@@ -24911,6 +26399,9 @@
 	 "Target": "characters/schedules/Penny",
 	 "Entries": {
      "9": "NOT friendship Sam 6/900 Trailer 1 8 0/1100 Town 78 95 2/1600 Trailer 12 6 0 penny_dishes/1840 Trailer 4 9 1 penny_sleep",
+	 "marriageJob": "830 ArchaeologyHouse 17 9 2 penny_read \"Strings\\schedules\\Penny:marriageJob.000\"/1400 Town 86 992/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 BusStop -1 23 3",
+     "Tue": "830 Trailer 6 5 0/900 ArchaeologyHouse 17 9 2 penny_read/1400 Town 86 99 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Trailer 4 9 1 penny_sleep",
+  
      },
 },
 
@@ -25214,8 +26705,16 @@
 {       //SEBASTIAN SCHEDULE EDITS
 	 "Action": "EditData",
 	 "Target": "characters/schedules/Sebastian",
+	 "When": { "HasSeenEvent |contains=191393, 502261": false, "Spouse |contains=Sebastian": true,  "Day |contains=22": true },
 	 "Entries": {
      "marriage_Mon": "830 Mountain 48 26 1 \"Strings\\schedules\\Sebastian:marriage_Mon.000\"/1300 ScienceHouse 6 20 0 \"Strings\\schedules\\Sebastian:marriage_Mon.001\"/1700 BusStop -1 23 3",
+	 },
+},
+
+{       //SEBASTIAN SCHEDULE EDITS
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Sebastian",
+	 "Entries": {
 	 "fall": "1030 SebastianRoom 9 4 3 sebastian_computer/1200 Mountain 48 26 1/1400 Mountain 42 12 2/1500 Mountain 42 13 1 sebastian_smoking/1600 ScienceHouse 27 9 0/1730 SebastianRoom 9 4 3 sebastian_computer/2130 SebastianRoom 11 9 1",
 	 "spring": "1030 SebastianRoom 9 4 3 sebastian_computer/1500 ScienceHouse 27 9 0/1530 SebastianRoom 9 4 3 sebastian_computer/1830 Mountain 48 26 1 sebastian_smoking/2130 SebastianRoom 11 9 1",
 	 "Thu": "1030 SebastianRoom 9 4 3 sebastian_computer/1400 Railroad 28 47 1 sebastian_smoking/1800 Railroad 64 45 3/1930 Railroad 5 45 1/2130 SebastianRoom 11 9 1 sebastian_sleep",
@@ -25433,13 +26932,22 @@
      },
 },
 
+
+{       //SHANE SCHEDULE EDITS
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Shane",
+	 "When": { "HasSeenEvent |contains=191393, 502261": false, "Spouse |contains=Shane": true,  "Day |contains=22": true },
+	 "Entries": {
+     "marriage_Mon": "830 AnimalShop 22 6 0 \"Strings\\schedules\\Shane:marriage_Mon.000\"/1100 Forest 37 10 2 \"Strings\\schedules\\Shane:marriage_Mon.001\"/1700 BusStop -1 23 3",
+     },
+},
+
 {       //SHANE SCHEDULE EDITS
 	 "Action": "EditData",
 	 "Target": "characters/schedules/Shane",
 	 "Entries": {
      "Sun_normal": "700 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1450 AnimalShop 3 15 0/1800 Saloon 21 17 2 shane_drink/2400 AnimalShop 27 4 1 shane_sleep",
      "summer_Sun": "700 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1450 AnimalShop 3 15 0/1800 Saloon 21 17 2 shane_drink/2400 AnimalShop 27 4 1 shane_sleep",
-     "marriage_Mon": "830 AnimalShop 22 6 0 \"Strings\\schedules\\Shane:marriage_Mon.000\"/1100 Forest 37 10 2 \"Strings\\schedules\\Shane:marriage_Mon.001\"/1700 BusStop -1 23 3",
 	 "default": "900 AnimalShop 24 17 1/1000 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1200 AnimalShop 3 16 0/1400 Saloon 11 20 0/1630 Saloon 21 17 2 shane_drink/2300 AnimalShop 27 4 1 shane_sleep"
      },
 },
@@ -25450,7 +26958,17 @@
 	 "When": { "Weather": "Sun", "HasSeenEvent": "3910974"  },
 	 "Entries": {
      "11": "620 AnimalShop 27 4 1/850 AnimalShop 24 15 0/1030 AnimalShop 6 17 0/1130 Town 15 16 0/1640 AnimalShop 24 15 0/2100 AnimalShop 27 4 1 shane_sleep",
-	 "25": "620 AnimalShop 27 4 1/850 AnimalShop 24 15 0/1030 AnimalShop 6 17 0/1130 Town 15 16 0/1640 AnimalShop 24 15 0/2100 AnimalShop 27 4 1 shane_sleep",
+	 "25": "620 AnimalShop 27 4 1/850 AnimalShop 24 15 0/1030 AnimalShop 6 17 0/1130 Town 15 16 0/1640 AnimalShop 24 15 0/2100 AnimalShop 27 4 1 shane_sleep"
+     },
+},
+
+{       //DA CHICKEN SCHEDULE - Jas
+	 "Action": "EditData",
+	 "Target": "characters/schedules/CharlieChicken",
+	 "When": { "Weather": "Sun", "HasSeenEvent |contains=3910974": true, "HasSeenEvent |contains=3900074": true, "Spouse |contains=Shane": false },
+	 "Entries": {
+     "11": "0 Custom_Charlie_WarpRoom 2 3 3/850 AnimalShop 30 16 2/1030 AnimalShop 7 17 0/1130 Town 16 16 0/1540 Town 21 15 2 Charlie_Sleep/1640 AnimalShop 23 15 1/2100 AnimalShop 26 6 2 Charlie_Sleep",
+	 "25": "0 Custom_Charlie_WarpRoom 2 3 3/850 AnimalShop 30 16 2/1030 AnimalShop 7 17 0/1130 Town 16 16 0/1540 Town 21 15 2 Charlie_Sleep/1640 AnimalShop 23 15 1/2100 AnimalShop 26 6 2 Charlie_Sleep"
      },
 },
 
@@ -25791,6 +27309,74 @@
 	"Update": "OnLocationChange"
 }, 
 
+{       //CHARLIE EVENT - Shane 12 heart event - vanilla farms
+	 "Action": "EditData",
+	 "Target": "data/events/farmhouse",
+	 "When": { "FarmType": "Standard, FourCorners, Forest, Hilltop, Riverland, Wilderness" },
+	 "Entries": {
+	 "1836459/e 3900074/O Shane/f Shane 3000/t 610 1600/w sunny/z winter": "continue/-500 -500/Shane 71 10 2/changeLocation farm/addTemporaryActor CharlieChicken 16 32 -30 -30 2/makeInvisible 69 10 4 1/positionOffset Shane 20 5 true/pause 800/viewport 71 10 clamp true/skippable/pause 2000/speak Shane \"Ah... What a nice day.$6\"/pause 1500/warp CharlieChicken 70 10/playSound doorClose/pause 500/playSound cluck/pause 600/faceDirection Shane 3/pause 500/speak Shane \"Hey, Charlie.$6\"/pause 500/faceDirection CharlieChicken 1 true/pause 650/playSound cluck/shake CharlieChicken 500/pause 500/playSound cluck/pause 500/jump CharlieChicken/pause 800/playSound cluck/pause 500/speak Shane \"You want to be picked up? Okay!$1\"/pause 650/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/showFrame Shane 15 true/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 300/shake Shane 500/pause 200/playSound dwop/warp CharlieChicken -30 -30/pause 700/faceDirection Shane 3 true/pause 300/showFrame Shane 28 true/pause 2000/speak Shane \"%farm Farm isn't far away from our old home, yet it feels so different.$9#$b#I feel like I have a clear head here. I don't think about bad things.$9#$b#All I need in life is you and @.$8\"/pause 500/playSound cluck/pause 300/shake Shane 800/pause 600/playSound cluck/pause 500/speak Shane \"Haha! Stop that! It tickles!$8\"/pause 300/shake Shane 600/pause 200/playSound cluck/pause 800/playSound cluck/globalFade/viewport -1000 -1000/pause 1000/end dialogue Shane \"I don't think I've seen Charlie so happy. I'm glad we were able to find a spot for his chicken coop.$6#$e#And hey. Thank you for being my life.$4\"",
+	 },
+},
+
+{       //CHARLIE EVENT - Shane 12 heart event - beach farm
+	 "Action": "EditData",
+	 "Target": "data/events/farmhouse",
+	 "When": { "FarmType": "Beach" },
+	 "Entries": {
+	 "1836459/e 3900074/O Shane/f Shane 3000/t 610 1600/w sunny/z winter": "continue/-500 -500/Shane 81 5 2/changeLocation farm/addTemporaryActor CharlieChicken 16 32 -30 -30 2/makeInvisible 79 5 4 1/positionOffset Shane 20 5 true/pause 800/viewport 81 5 clamp true/skippable/pause 2000/speak Shane \"Ah... What a nice day.$6\"/pause 1500/warp CharlieChicken 80 5/playSound doorClose/pause 500/playSound cluck/pause 600/faceDirection Shane 3/pause 500/speak Shane \"Hey, Charlie.$6\"/pause 500/faceDirection CharlieChicken 1 true/pause 650/playSound cluck/shake CharlieChicken 500/pause 500/playSound cluck/pause 500/jump CharlieChicken/pause 800/playSound cluck/pause 500/speak Shane \"You want to be picked up? Okay!$1\"/pause 650/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/showFrame Shane 15 true/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 300/shake Shane 500/pause 200/playSound dwop/warp CharlieChicken -30 -30/pause 700/faceDirection Shane 3 true/pause 300/showFrame Shane 28 true/pause 2000/speak Shane \"%farm Farm isn't far away from our old home, yet it feels so different.$9#$b#I feel like I have a clear head here. I don't think about bad things.$9#$b#All I need in life is you and @.$8\"/pause 500/playSound cluck/pause 300/shake Shane 800/pause 600/playSound cluck/pause 500/speak Shane \"Haha! Stop that! It tickles!$8\"/pause 300/shake Shane 600/pause 200/playSound cluck/pause 800/playSound cluck/globalFade/viewport -1000 -1000/pause 1000/end dialogue Shane \"I don't think I've seen Charlie so happy. I'm glad we were able to find a spot for his chicken coop.$6#$e#And hey. Thank you for being my life.$4\"",
+	 },
+},
+
+{       //CHARLIE EVENT - Shane 12 heart event - Grandpa's Farm
+	 "Action": "EditData",
+	 "Target": "data/events/farmhouse",
+	 "When": { "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": true },
+	 "Entries": {
+	 "1836459/e 3900074/O Shane/f Shane 3000/t 610 1600/w sunny/z winter": "continue/-500 -500/Shane 80 41 2/changeLocation farm/addTemporaryActor CharlieChicken 16 32 -30 -30 2/makeInvisible 78 41 4 1/positionOffset Shane 20 5 true/pause 800/viewport 79 41 true/skippable/pause 2000/speak Shane \"Ah... What a nice day.$6\"/pause 1500/warp CharlieChicken 79 41/playSound doorClose/pause 500/playSound cluck/pause 600/faceDirection Shane 3/pause 500/speak Shane \"Hey, Charlie.$6\"/pause 500/faceDirection CharlieChicken 1 true/pause 650/playSound cluck/shake CharlieChicken 500/pause 500/playSound cluck/pause 500/jump CharlieChicken/pause 800/playSound cluck/pause 500/speak Shane \"You want to be picked up? Okay!$1\"/pause 650/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/showFrame Shane 15 true/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 300/shake Shane 500/pause 200/playSound dwop/warp CharlieChicken -30 -30/pause 700/faceDirection Shane 3 true/pause 300/showFrame Shane 28 true/pause 2000/speak Shane \"%farm Farm isn't far away from our old home, yet it feels so different.$9#$b#I feel like I have a clear head here. I don't think about bad things.$9#$b#All I need in life is you and @.$8\"/pause 500/playSound cluck/pause 300/shake Shane 800/pause 600/playSound cluck/pause 500/speak Shane \"Haha! Stop that! It tickles!$8\"/pause 300/shake Shane 600/pause 200/playSound cluck/pause 800/playSound cluck/globalFade/viewport -1000 -1000/pause 1000/end dialogue Shane \"I don't think I've seen Charlie so happy. I'm glad we were able to find a spot for his chicken coop.$6#$e#And hey. Thank you for being my life.$4\"",
+	 },
+},
+
+
+    //after players see Shane's 14 heart event...
+
+{   //Shane's spouse room gets clean
+    "Action": "EditMap",
+    "Target": "Maps/spouseRooms",
+    "FromFile": "assets/Maps/MapPatches/ShaneSpouseRoomClean.tbin",
+	"ToArea": { "X": 0, "Y": 18, "Width": 6, "Height": 9 },
+	"Update": "OnLocationChange",
+    "When": { "HasSeenEvent": "3917586" }
+},
+
+{
+	 //Shane starts disliking beer
+     "Action": "EditData",
+     "Target": "Data/NPCGiftTastes",
+	 "When": { "HasSeenEvent": "3917586", "HasMod |contains=tenthousandcats.ImmersiveCShane": false },
+     "Entries": {
+      "Shane": "Oh wow, @! How'd you know this is my favorite?/206 215 260 306 174 182/This is great! Thanks!/-5 -79 303/I don't really like this./-81 152 330 346 459 303 348 304/Why are you giving me your garbage?/80 342/Oh, you got me something? Thanks!//",
+     }
+},
+
+{    //Shane stops drinking beer before sleeping
+	 "Action": "EditData",
+	 "Target": "characters/dialogue/MarriageDialogueShane",
+	 "When": { "HasSeenEvent": "3917586", "HasMod |contains=tenthousandcats.ImmersiveCShane": false },
+	 "Entries": {
+     "Indoor_Night_0": "I'm just gonna have some water before closing my eyes for the night.",
+     },
+},
+
+{    //Shane stops mentioning getting beer and cider out of his fridge
+	 "Action": "EditData",
+	 "Target": "characters/dialogue/MarriageDialogue",
+	 "When": { "HasSeenEvent": "3917586", "HasMod |contains=tenthousandcats.ImmersiveCShane": false },
+	 "Entries": {
+     "spouseRoom_Shane": "Oh, hey. I'm just grabbing a bottle of water out of the fridge. I like 'em cold.$0#$e#Do you have any cool plans today?$6",
+     },
+},
+
+
         //I see that you're reading through the content file. That's okay... I guess. Just don't pay attention to Abigail's event. Go away. Shoo. Nothing to see.
 
 {       //ABIGAIL EVENT
@@ -25836,9 +27422,9 @@
 	 "Action": "EditData",
 	 "Target": "data/events/town",
 	 "Entries": {
-     "1000010/f Leah 70/t 700 1600/w sunny/z winter/z fall/z summer/u 21 22 23 24 25 26 27 28/y 1": "breezy/-500 -500/farmer 102 94 2 Leah 100 104 2/skippable/pause 300/viewport 100 98 true/pause 250/playSound harvest/move farmer 0 4 2/emote farmer 8/move Leah 1 0 2/pause 400/playSound harvest/pause 500/move Leah 1 0 2/pause 550/playSound harvest/pause 450/move farmer 0 4 2 true/pause 600/faceDirection Leah 0/emote Leah 16 true/pause 550/speak Leah \"@! สวัสดี!$1#$b#วันนี้เป็นวันที่ดีนะ! ฉันแวะไปดูถั่วเขียวของฉัน และพวกเขาก็พร้อม ที่จะเก็บเกี่ยว!$0#$b#กัสและปีแอร์มาที่นี่ เมื่อไม่นานมานี้ เพื่อมาดูแลพืชผล ของพวกเขาด้วย$1\"/pause 500/move Leah 1 0 2/pause 800/playSound harvest/pause 1000/faceDirection Leah 0/pause 500/speak Leah \"สวนชุมชนของ เมืองเพลิแกน ค่อนข้างดี เธอว่างั้นไหม @?$1\"/pause 500/question fork0 \"#สวนชุมชนเป็นความคิดที่ดี#มันก็ดี แต่ฟาร์มของฉัน สามารถเก็บได้มากกว่า ตั้ง 40 เท่า\"/fork 1000010_GardenAmazing/pause 500/speak Leah \"...ไม่ใช่ทุกคนที่โชคดี ที่จะได้รับทรัพย์สินฟรี @$2\"/friendship Leah -250/pause 1000/move Leah 1 0 2/pause 700/playSound harvest/move Leah 1 0 2/pause 800/playSound harvest/pause 500/move farmer 0 1 1/pause 300/faceDirection Leah 3/pause 350/speak Leah \"ฉันขอบคุณมาก สำหรับสวนชุมชนแห่งนี้$0#$b#ฉันไม่มีพื้นที่มากพอ ที่จะปลูกพืชของตัวเอง...$7#$b#แต่ต้องขอบคุณ ที่ดินผืนเล็กๆ ที่ฉันสามารถ แบ่งปันกับทุกคนได้!$1\"/pause 300/move Leah 1 0 2/pause 300/playSound harvest/pause 500/move Leah -3 0 0/move Leah 0 -1 3/pause 500/speak Leah \"ต๊าย! ทั้งหมดก็แค่นั้นแหละ$1#$b#ตอนนี้ฉันแค่ต้อง ตัดสินใจว่าจะ ทำอาหารอะไรในคืนนี้$0\"/pause 500/speak Leah \"ที่นี่ ลองถั่วเขียวสดตรงจาก เถาวัลย์!$1\"/pause 400/farmerEat 188/pause 2000/faceDirection farmer 1/emote farmer 32/emote Leah 32/globalFade/viewport -1000 -1000/pause 700/end dialogue Leah \"ฉันอยากรู้จังว่าเมล็ดกาแฟ ของกัสจะพร้อมเก็บได้เมื่อไหร่$0#$e#เขาใช้ปุ๋ยสูตรพิเศษจากร้าน ของปิแอร์เลยนะ$1\"",
+     "1000010/f Leah 70/t 700 1600/w sunny/z winter/z fall/z summer/u 21 22 23 24 25 26 27 28/y 1": "breezy/-500 -500/farmer 102 94 2 Leah 100 104 2/skippable/pause 300/viewport 100 98 true/pause 250/playSound harvest/move farmer 0 4 2/emote farmer 8/move Leah 1 0 2/pause 400/playSound harvest/pause 500/move Leah 1 0 2/pause 550/playSound harvest/pause 450/move farmer 0 4 2 true/pause 600/faceDirection Leah 0/emote Leah 16 true/pause 550/speak Leah \"@! สวัสดี!$1#$b#วันนี้เป็นวันที่ดีนะ! ฉันแวะไปดูถั่วเขียวของฉัน และพวกเขาก็พร้อม ที่จะเก็บเกี่ยว!$0#$b#กัสและปีแอร์มาที่นี่ เมื่อไม่นานมานี้ เพื่อมาดูแลพืชผล ของพวกเขาด้วย$1\"/pause 500/move Leah 1 0 2/pause 800/playSound harvest/pause 1000/faceDirection Leah 0/pause 500/speak Leah \"สวนชุมชนของ เมืองเพลิแกน ค่อนข้างดี เธอว่างั้นไหม @?$1\"/pause 500/question fork0 \"#สวนชุมชนเป็นความคิดที่ดี#มันก็ดี แต่ฟาร์มของฉัน สามารถเก็บได้มากกว่า ตั้ง 40 เท่า\"/fork 1000010_GardenAmazing/pause 500/speak Leah \"...ไม่ใช่ทุกคนที่โชคดี ที่จะได้รับทรัพย์สินฟรี @$2\"/friendship Leah -250/pause 1000/move Leah 1 0 2/pause 700/playSound harvest/move Leah 1 0 2/pause 800/playSound harvest/pause 500/move farmer 0 1 1/pause 300/faceDirection Leah 3/pause 350/speak Leah \"ฉันขอบคุณมาก สำหรับสวนชุมชนแห่งนี้$0#$b#ฉันไม่มีพื้นที่มากพอ ที่จะปลูกพืชของตัวเอง...$7#$b#แต่ต้องขอบคุณ ที่ดินผืนเล็กๆ ที่ฉันสามารถ แบ่งปันกับทุกคนได้!$1\"/pause 300/move Leah 1 0 2/pause 300/playSound harvest/pause 500/move Leah -3 0 0/move Leah 0 -1 3/pause 500/speak Leah \"ต๊าย! ทั้งหมดก็แค่นั้นแหละ$1#$b#ตอนนี้ฉันแค่ต้อง ตัดสินใจว่าจะ ทำอาหารอะไรในคืนนี้$0\"/pause 500/speak Leah \"ที่นี่ ลองถั่วเขียวสดตรงจาก เถาวัลย์![188]$1\"/pause 400/farmerEat 188/pause 2000/faceDirection farmer 1/emote farmer 32/emote Leah 32/globalFade/viewport -1000 -1000/pause 700/end dialogue Leah \"ฉันอยากรู้จังว่าเมล็ดกาแฟ ของกัสจะพร้อมเก็บได้เมื่อไหร่$0#$e#เขาใช้ปุ๋ยสูตรพิเศษจากร้าน ของปิแอร์เลยนะ$1\"",
 	 
-	 "1000010_GardenAmazing": "pause 500/speak Leah \"ใช่! มันน่าตื่นเต้น!$1\"/pause 500/move Leah 1 0 2/pause 700/playSound harvest/move Leah 1 0 2/pause 700/playSound harvest/pause 500/move farmer 0 1 1/pause 300/faceDirection Leah 3/pause 350/speak Leah \"ฉันขอบคุณมาก สำหรับสวนชุมชนแห่งนี้$0#$b#ฉันไม่มีพื้นที่มากพอ ที่จะปลูกพืชของตัวเอง...$7#$b#แต่ต้องขอบคุณ ที่ดินผืนเล็กๆ ที่ฉันสามารถ แบ่งปันกับทุกคนได้!$1\"/pause 300/move Leah 1 0 2/pause 300/playSound harvest/pause 500/move Leah -3 0 0/move Leah 0 -1 3/pause 500/speak Leah \"ต๊าย! ทั้งหมดก็แค่นั้นแหละ$1#$b#ตอนนี้ฉันแค่ต้อง ตัดสินใจว่าจะ ทำอาหารอะไรในคืนนี้$0#$b#ที่นี่ ลองถั่วเขียวสดตรงจาก เถาวัลย์!$1\"/pause 400/farmerEat 188/pause 2000/faceDirection farmer 1/emote farmer 32/emote Leah 32/globalFade/viewport -1000 -1000/pause 700/friendship Leah 50/end dialogue Leah \"ฉันอยากรู้จังว่าเมล็ดกาแฟ ของกัสจะพร้อมเก็บได้เมื่อไหร่$0#$e#เขาใช้ปุ๋ยสูตรพิเศษจากร้าน ของปิแอร์เลยนะ$1\""
+	 "1000010_GardenAmazing": "pause 500/speak Leah \"ใช่! มันน่าตื่นเต้น!$1\"/pause 500/move Leah 1 0 2/pause 700/playSound harvest/move Leah 1 0 2/pause 700/playSound harvest/pause 500/move farmer 0 1 1/pause 300/faceDirection Leah 3/pause 350/speak Leah \"ฉันขอบคุณมาก สำหรับสวนชุมชนแห่งนี้$0#$b#ฉันไม่มีพื้นที่มากพอ ที่จะปลูกพืชของตัวเอง...$7#$b#แต่ต้องขอบคุณ ที่ดินผืนเล็กๆ ที่ฉันสามารถ แบ่งปันกับทุกคนได้!$1\"/pause 300/move Leah 1 0 2/pause 300/playSound harvest/pause 500/move Leah -3 0 0/move Leah 0 -1 3/pause 500/speak Leah \"ต๊าย! ทั้งหมดก็แค่นั้นแหละ$1#$b#ตอนนี้ฉันแค่ต้อง ตัดสินใจว่าจะ ทำอาหารอะไรในคืนนี้$0#$b#ที่นี่ ลองถั่วเขียวสดตรงจาก เถาวัลย์![188]$1\"/pause 400/farmerEat 188/pause 2000/faceDirection farmer 1/emote farmer 32/emote Leah 32/globalFade/viewport -1000 -1000/pause 700/friendship Leah 50/end dialogue Leah \"ฉันอยากรู้จังว่าเมล็ดกาแฟ ของกัสจะพร้อมเก็บได้เมื่อไหร่$0#$e#เขาใช้ปุ๋ยสูตรพิเศษจากร้าน ของปิแอร์เลยนะ$1\""
 	 },
 },
 
@@ -26119,15 +27705,15 @@
 	 },
 },
 
-{       //SPRITE SPRING PATH OPEN - If players already saw the scene
+{       //SPRITE SPRING PATH OPEN
 	 "Action": "EditData",
 	 "Target": "data/events/Custom_ForestWest",
 	 "Entries": {
-     "1091882/e 418172/e 1091881/k 1111200": "none/-500 -500/farmer -100 -100 2/viewport 119 103 true/viewport move -1 -1 8000 true/pause 2500/playSound junimoMeep1/pause 1000/playSound junimoMeep1/pause 700/playSound junimoMeep1/pause 600/playSound junimoMeep1/pause 700/playSound junimoMeep1/globalFade/viewport -1000 -1000/pause 1000/message \"ฉันรู้สึกได้ว่า เส้นทางลับถูกเปิดออกแล้ว...\"/pause 1300/playSound grassyStep/playSound grassyStep/pause 500/playSound grassyStep/playSound grassyStep/pause 500/playSound grassyStep/playSound grassyStep/pause 800/message \"ฮ้ะ? นี่มันอะไรกันเนี่ย?...\"/pause 1000/end position 154 141",
+     "1091881/e 418172": "none/-500 -500/farmer -100 -100 2/viewport 119 103 true/viewport move -1 -1 8000 true/pause 2500/playSound junimoMeep1/pause 1000/playSound junimoMeep1/pause 700/playSound junimoMeep1/pause 600/playSound junimoMeep1/pause 700/playSound junimoMeep1/globalFade/viewport -1000 -1000/pause 1000/message \"ฉันรู้สึกได้ว่า เส้นทางลับถูกเปิดออกแล้ว...\"/pause 1300/playSound grassyStep/playSound grassyStep/pause 500/playSound grassyStep/playSound grassyStep/pause 500/playSound grassyStep/playSound grassyStep/pause 800/message \"ฮ้ะ? นี่มันอะไรกันเนี่ย?...\"/pause 1000/end position 116 121",
 	 },
 },
 
-{       //SPRITE SPRING PATH OPEN - directly teleports players if they sprite spring is the last nexus warp
+{       //SPRITE SPRING PATH OPEN - directly teleports players if sprite spring is the last nexus warp
 	 "Action": "EditData",
 	 "Target": "data/events/Custom_ForestWest",
 	 "Entries": {
@@ -26137,9 +27723,9 @@
 
 {       //SPRITE SPRING EVENT
 	 "Action": "EditData",
-	 "Target": "data/events/Custom_SpriteSpring",
+	 "Target": "data/events/Custom_SpriteSpring2",
 	 "Entries": {
-     "1111200": "junimoStarSong/-500 -500/farmer 15 32 1/pause 500/viewport 29 31 true/skippable/move farmer 8 0 1/pause 1250/move farmer 0 0 2/pause 1300/move farmer 0 0 3/pause 1400/playSound junimoMeep1/pause 500/move farmer 0 0 0/pause 550/playSound junimoMeep1/pause 100/emote farmer 8 true/playSound junimoMeep1/pause 250/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 750/message \"???: มนุษย์! มีมนุษย์อยู่ที่นี่!\"/pause 1000/playSound junimoMeep1/pause 150/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 200/playSound junimoMeep1/pause 750/message \"???: นั่นเป็นไปไม่ได้ มนุษย์เพียงคนเดียว ที่สามารถ หาฤดูใบไม้ผลิเจอ คือราส - โอ้! มนุษย์!\"/pause 250/move farmer -1 0 0/pause 150/emote farmer 8 true/pause 100/playSound junimoMeep1/pause 200/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 850/message \"???: เดี๋ยวก่อน... มนุษย์เข้าใจเรา!?\"/pause 200/playSound junimoMeep1/pause 150/playSound junimoMeep1/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 200/playSound junimoMeep1/pause 300/pause 300/move farmer 0 0 0/pause 200/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 700/message \"???: อย่าแกล้งเป็นใบ้สิ เห็นได้ชัดว่า เจ้าเข้าใจในสิ่งที่เรา กำลังพูด!\"/pause 400/move farmer 1 0 2 true/pause 150/playSound junimoMeep1/pause 200/playSound junimoMeep1/pause 450/message \"???: ใช่จริงๆ ด้วย!\"/pause 700/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 250/playSound junimoMeep1/pause 350/message \"???: เจ้าเป็นใคร? เจ้าต้องพิเศษมาก เจ้าสามารถ พบสถานที่แห่งนี้ และเข้าใจสิ่งที่เรากำลังพูด!\"/pause 500/move farmer 0 0 0/pause 150/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 350/playSound junimoMeep1/pause 400/message \"???: พื้นที่ป่าแห่งนี้ ได้รับการปกป้อง จากมนุษย์ส่วนใหญ่ - พวกเขา ไม่สามารถหาพบมันได้!\"/pause 300/playSound junimoMeep1/pause 200/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 300/move farmer 0 0 3/playSound junimoMeep1/pause 200/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 450/message \"???: เจ้าเป็นลูกศิษย์ของ แมกนัส ราสโมเดียส หรือเปล่า? เขากลับมาฝึกมนุษย์ ด้านเวทมนตร์อีกครั้ง ใช่หรือไม่!? มันน่าสนใจมาก!\"/pause 300/playSound junimoMeep1/pause 250/move farmer 0 0 0/pause 350/playSound junimoMeep1/pause 250/playSound junimoMeep1/pause 150/playSound junimoMeep1/pause 200/playSound junimoMeep1/pause 450/message \"???: เจ้ามาจากที่ไหน? เราไม่เคยเห็นเจ้ามาก่อน!\"/pause 300/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 250/playSound junimoMeep1/pause 400/message \"???: บอกชื่อของเจ้ามา! พวกเราสนใจเจ้ามาก!\"/pause 600/emote farmer 40/pause 400/playSound junimoMeep1/pause 150/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 350/message \"???: ยินดีที่ได้พบเจ้า!\"/pause 200/playSound junimoMeep1/pause 150/playSound junimoMeep1/pause 500/message \"???: สวัสดี! นั้นเป็นชื่อที่ดี!\"/pause 500/emote farmer 32/pause 600/move farmer 0 0 0/pause 600/playSound junimoMeep1/pause 150/playSound junimoMeep1/pause 700/message \"คลอส: ข้า คลอส!\"/pause 500/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 500/message \"แองเจลิก้า: และข้า แองเจลิก้า!\"/pause 700/move farmer 0 -1 0/pause 700/playSound junimoMeep1/pause 200/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 500/message \"คลอส: พวกเราคือป่าไม้ ฤดูใบไม้ผลิ คือบ้านของเรา!\"/pause 800/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 500/playSound junimoMeep1/pause 200/playSound junimoMeep1/pause 500/playSound junimoMeep1/pause 550/message \"แองเจลิก้า: เจ้ารู้จักที่นี้ ได้อย่างไร? ไม่มีทางที่ คนธรรมดา จะหาที่นี้พบ...\"/pause 650/emote farmer 40/pause 500/playSound junimoMeep1/pause 250/playSound junimoMeep1/pause 150/playSound junimoMeep1/pause 350/playSound junimoMeep1/pause 650/message \"แองเจลิก้า: ข้ารู้ว่าเจ้า จะต้องยอดเยี่ยม!\"/pause 600/playSound junimoMeep1/pause 300/move farmer 0 0 3/pause 500/playSound junimoMeep1/pause 200/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 800/message \"คลอส: สถานที่นี้เรียกว่า สไปรท์สปริง น้ำที่นี่มีคุณสมบัติพิเศษ ในการรักษา\"/pause 1000/move farmer 0 0 1/pause 500/emote farmer 16/pause 300/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 150/playSound junimoMeep1/pause 600/message \"แองเจลิก้า: อ่า... คลอส ข้าอยากจะบอกบางอย่าง!\"/pause 500/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 200/playSound junimoMeep1/pause 500/move farmer 0 0 0/pause 300/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 700/message \"คลอส: ทำไมเจ้า ไม่บอกมนุษย์ ในอีกด้านหนึ่งของ ฤดูใบไม้ผลิล่ะ แองเจลิก้า?\"/pause 500/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 600/message \"แองเจลิก้า: โอ้! ตกลง!\"/pause 1000/playSound junimoMeep1/pause 650/playSound junimoMeep1/pause 250/playSound junimoMeep1/pause 350/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 650/message \"แองเจลิก้า: ถ้าเจ้าว่ายข้ามไป จะมีดอกไม้ที่เจ้า สามารถนำกลับไปด้วยได้\"/pause 500/emote farmer 32/pause 500/move farmer 0 0 1/pause 550/playSound junimoMeep1/pause 200/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 500/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 600/message \"คลอส: ฤดูใบไม้ผลินี้ ให้รางวัลแก่ผู้ที่ อยู่ในหุบเขา มาเยี่ยมพวกเราอีก และเจ้าอาจจะพบ พืชหายาก!\"/pause 750/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 250/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 600/message \"แองเจลิก้า: ใช้แล้ว! มีสิ่งที่น่าค้นหาอีกมาก!\"/pause 750/move farmer 0 0 0/pause 1000/emote farmer 32/pause 1300/playSound junimoMeep1/pause 250/playSound junimoMeep1/pause 350/playSound junimoMeep1/pause 150/playSound junimoMeep1/move farmer 0 0 1/pause 200/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 550/playSound junimoMeep1/pause 350/playSound junimoMeep1/pause 750/message \"คลอส: ทำไมเจ้า ไม่ว่ายข้ามไปล่ะ? เจ้าสามารถทำได้ ในแบบของเจ้า!\"/pause 1000/playSound junimoMeep1/pause 500/playSound junimoMeep1/pause 400/move farmer 0 0 0/pause 300/playSound junimoMeep1/pause 200/playSound junimoMeep1/pause 500/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 700/message \"แองเจลิก้า: หวังว่าเราจะได้พบเจ้าอีก! เราทั้งคู่ดีใจ ที่ได้มีเพื่อนอีกคน\"/pause 600/playSound junimoMeep1/pause 200/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 600/message \"คลอส: จนกว่าเราจะพบกัน ในครั้งต่อไป!\"/pause 500/playSound junimoMeep1/pause 50/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 70/playSound junimoMeep1/pause 500/message \"แองเจลิก้า และ คลอส: ลาก่อน!\"/pause 350/globalFade/viewport -1000 -1000/pause 700/playSound junimoMeep1/pause 300/end position 23 32",
+     "1111200": "cm:GrenvilleFalls/-500 -500/farmer 11 23 1/pause 500/viewport 16 23 clamp true/skippable/move farmer 5 0 1/pause 1250/move farmer 0 0 2/pause 1300/move farmer 0 0 3/pause 1400/playSound junimoMeep1/pause 500/move farmer 0 0 0/pause 550/playSound junimoMeep1/pause 100/emote farmer 8 true/playSound junimoMeep1/pause 250/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 750/message \"???: A human! There's a human here!\"/pause 1000/playSound junimoMeep1/pause 150/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 200/playSound junimoMeep1/pause 750/message \"???: That's impossible. The only human that can find our spring is Mag- Oh! There IS a human!\"/pause 250/move farmer -1 0 0/pause 150/emote farmer 8 true/pause 100/playSound junimoMeep1/pause 200/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 850/message \"???: Wait... the human understands us!?\"/pause 200/playSound junimoMeep1/pause 150/playSound junimoMeep1/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 200/playSound junimoMeep1/pause 300/pause 300/move farmer 0 0 0/pause 200/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 700/message \"???: Don't play dumb. It's obvious you know what we're saying!\"/pause 400/move farmer 1 0 2 true/pause 150/playSound junimoMeep1/pause 200/playSound junimoMeep1/pause 450/message \"???: Yes, yes! This is true.\"/pause 700/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 250/playSound junimoMeep1/pause 350/message \"???: What are you? You must be very special if you can find this place and understand what we're saying!\"/pause 500/move farmer 0 0 0/pause 150/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 350/playSound junimoMeep1/pause 400/message \"???: This area of the forest is magically protected from most humans - they can't even find it!\"/pause 300/playSound junimoMeep1/pause 200/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 300/move farmer 0 0 3/playSound junimoMeep1/pause 200/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 450/message \"???: Are you a student of Magnus Rasmodius? Is he training humans in magic again!? This is SO interesting!\"/pause 300/playSound junimoMeep1/pause 250/move farmer 0 0 0/pause 350/playSound junimoMeep1/pause 250/playSound junimoMeep1/pause 150/playSound junimoMeep1/pause 200/playSound junimoMeep1/pause 450/message \"???: Where did you come from? We've never seen you before!\"/pause 300/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 250/playSound junimoMeep1/pause 400/message \"???: Please tell us your name! We're so curious!\"/pause 600/emote farmer 40/pause 400/playSound junimoMeep1/pause 150/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 350/message \"???: It's nice to meet you!\"/pause 200/playSound junimoMeep1/pause 150/playSound junimoMeep1/pause 500/message \"???: Hi! Lovely name!\"/pause 500/emote farmer 32/pause 600/move farmer 0 0 0/pause 600/playSound junimoMeep1/pause 150/playSound junimoMeep1/pause 700/message \"CLAUS: I'm Claus!\"/pause 500/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 500/message \"ANGELICA: And I'm Angelica!\"/pause 700/move farmer 0 -1 0/pause 700/playSound junimoMeep1/pause 200/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 500/message \"CLAUS: We're forest sprites. This spring is our home!\"/pause 800/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 500/playSound junimoMeep1/pause 200/playSound junimoMeep1/pause 500/playSound junimoMeep1/pause 550/message \"ANGELICA: How did you discover this place? No ordinary person can find this spring...\"/pause 650/emote farmer 40/pause 500/playSound junimoMeep1/pause 250/playSound junimoMeep1/pause 150/playSound junimoMeep1/pause 350/playSound junimoMeep1/pause 650/message \"ANGELICA: I knew it, you're special!\"/pause 600/playSound junimoMeep1/pause 300/move farmer 0 0 3/pause 500/playSound junimoMeep1/pause 200/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 800/message \"CLAUS: This place is called Sprite Spring. The water here has special fortifying properties.\"/pause 1000/move farmer 0 0 1/pause 500/emote farmer 16/pause 300/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 150/playSound junimoMeep1/pause 600/message \"Angelica: Aww, Claus. I wanted to say that!\"/pause 500/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 200/playSound junimoMeep1/pause 500/move farmer 0 0 0/pause 300/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 700/message \"CLAUS: Why don't you tell the human what's on the other side of the spring, Angelica?\"/pause 500/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 600/message \"ANGELICA: Oh! Okay!\"/pause 1000/playSound junimoMeep1/pause 650/playSound junimoMeep1/pause 250/playSound junimoMeep1/pause 350/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 650/message \"ANGELICA: If you swim across, there are flowers you can take home with you. They grow every season!\"/pause 500/emote farmer 32/pause 500/move farmer 0 0 1/pause 550/playSound junimoMeep1/pause 200/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 500/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 600/message \"CLAUS: This spring rewards those who give to the valley. Visit us again, and you might find some rare forage!\"/pause 750/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 250/playSound junimoMeep1/pause 100/playSound junimoMeep1/pause 600/message \"ANGELICA: Yes! There will be even more treats to find!\"/pause 750/move farmer 0 0 0/pause 1000/emote farmer 32/pause 1300/playSound junimoMeep1/pause 250/playSound junimoMeep1/pause 350/playSound junimoMeep1/pause 150/playSound junimoMeep1/move farmer 0 0 1/pause 200/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 550/playSound junimoMeep1/pause 350/playSound junimoMeep1/pause 750/message \"CLAUS: Why don't you swim across? You can fortify yourself on your way over!\"/pause 1000/playSound junimoMeep1/pause 500/playSound junimoMeep1/pause 400/move farmer 0 0 0/pause 300/playSound junimoMeep1/pause 200/playSound junimoMeep1/pause 500/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 700/message \"ANGELICA: We look forward to meeting you again! We're both happy to have another friend.\"/pause 600/playSound junimoMeep1/pause 200/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 600/message \"CLAUS: Until the next time we meet!\"/pause 500/playSound junimoMeep1/pause 50/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 70/playSound junimoMeep1/pause 500/message \"ANGELICA and CLAUS: Goodbye!\"/pause 350/globalFade/viewport -1000 -1000/pause 700/playSound junimoMeep1/pause 300/end position 16 23",
 	 },
 },
 
@@ -26165,14 +27751,6 @@
 	 "When": { "IsCommunityCenterComplete": true },
 	 "Entries": {
      "1091881": "none/-500 -500/farmer -100 -100 2/viewport 19 109 clamp true/skippable/pause 2500/playSound junimoMeep1/pause 1000/playSound junimoMeep1/pause 800/playSound junimoMeep1/pause 1000/playSound junimoMeep1/pause 700/playSound junimoMeep1/globalFade/viewport -1000 -1000/playSound junimoMeep1/end",
-	 },
-},
-
-{       //SPRITE SPRING PATH OPEN
-	 "Action": "EditData",
-	 "Target": "data/events/Custom_ForestWest",
-	 "Entries": {
-     "1091881/e 418172": "none/-500 -500/farmer -100 -100 2/viewport 119 103 true/viewport move -1 -1 8000 true/pause 2500/playSound junimoMeep1/pause 1000/playSound junimoMeep1/pause 700/playSound junimoMeep1/pause 600/playSound junimoMeep1/pause 700/playSound junimoMeep1/globalFade/viewport -1000 -1000/pause 1000/message \"คุณรู้สึกได้ว่า เส้นทางที่ซ่อนอยู่ ได้เปิดออก...\"/pause 1300/playSound grassyStep/playSound grassyStep/pause 500/playSound grassyStep/playSound grassyStep/pause 500/playSound grassyStep/playSound grassyStep/pause 800/message \"ฮ้ะ? นี่มันอะไรกันเนี่ย?...\"/pause 1000/end position 140 139",
 	 },
 },
 
@@ -27017,7 +28595,7 @@
      "9_6": "GOTO spring",
      "23_6": "GOTO spring",
      "Summer_Sun": "800 Town 96 18 3/1200 ScienceHouse 8 5 2 penny_sit_down/1800 PennysHouse 3 5 0 penny_dishes/2100 PennysHouse 10 5 1 penny_sleep",
-     "marriageJob": "830 ArchaeologyHouse 17 9 2 penny_read \"Strings\\schedules\\Penny:marriageJob.000\"/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 BusStop -1 23 3",
+     "marriageJob": "830 ArchaeologyHouse 17 9 2 penny_read \"Strings\\schedules\\Penny:marriageJob.000\"/1400 Town 86 99 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 BusStop -1 23 3",
      "Tue": "830 PennysHouse 9 7 0 penny_sit \"Strings\\schedules\\Penny:Upgrade.0014\"/900 ArchaeologyHouse 17 9 2 penny_read/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 PennysHouse 10 5 1 penny_sleep",
      "Wed": "GOTO Tue",
      "Fri": "GOTO Tue",
@@ -27068,7 +28646,7 @@
      {
       "Operation": "Append",
       "Target": [ "MapProperties", "Warp" ],
-      "Value": "60 23 Custom_Tarniyar_GhostTown 1 35 60 24 Custom_Tarniyar_GhostTown 1 35 60 25 Custom_Tarniyar_GhostTown 1 35 60 26 Custom_Tarniyar_GhostTown 1 35 60 27 Custom_Tarniyar_GhostTown 1 35 60 28 Custom_Tarniyar_GhostTown 1 35 60 29 Custom_Tarniyar_GhostTown 1 35",
+      "Value": "60 23 Custom_WTDR_GhostTown 1 35 60 24 Custom_WTDR_GhostTown 1 35 60 25 Custom_WTDR_GhostTown 1 35 60 26 Custom_WTDR_GhostTown 1 35 60 27 Custom_WTDR_GhostTown 1 35 60 28 Custom_WTDR_GhostTown 1 35 60 29 Custom_WTDR_GhostTown 1 35",
       "Delimiter": " "
      }
    ]
@@ -27245,7 +28823,7 @@
 		 "Forest.53": "มันคือเครื่องผลิตเมล็ดพันธุ์",
 		 "Forest.54": "นี่เป็นเครื่องผลิตเมล็ดพันธุ์ ของมานี",
 		 "Forest.55": "เครื่องหมักชีส มานีทำชีสบางชนิด ได้ดีที่สุดในหุบเขา",
-		 "Forest.56": "นี่เป็นเครื่องทำน้ำมันของมานี",
+		 "Forest.56": "นี่เป็นเครื่องผลิตเมล็ดพันธุ์ของมานี",
 		 "Forest.57": "ไก่ของเชนออกไข่คุณภาพดี ที่เอาไปทำเป็นมายองเนสได้",
 		 "Forest.58": "ถังบางอันมีสินค้าแปรรูป หลายชนิดบรรจุอยู่ภายใน ถังอื่นๆ มีอุปกรณ์ทำฟาร์ม",
 		 "Forest.59": "ถังนี้เต็มไปด้วยปุ๋ย",
@@ -27430,7 +29008,7 @@
 		 "MarnieShed.2": "นี่ต้องเป็นที่ที่มาร์นีใช้ติดตามผลกำไรกับสต็อกของของเธอแน่เลย",
 		 "MarnieShed.3": "เครื่องอัดชีสพวกนี้กำลังทำงานหนักเลย",
 		 "MarnieShed.4": "เครื่องทอผ้าของมาร์นีถูกทำด้วยมือจากแกรมเพิลตัน",
-		 "MarnieShed.5": "พวกนี้เป็นรูปฟาร์มปศุสัตว์ของมาร์นีตอนสร้างใหม่ๆ เธอดูเด็กและผอมกว่าตอนนี้",
+		 "MarnieShed.5": "นั่นเป็นรูปฟาร์มปศุสัตว์ของมานีตอนสร้างใหม่ๆ",
 		 "MarnieShed.6": "นี่เป็นถังเบียร์ของเชนเหรอ?",
 		 "MarnieShed.7": "เครื่องพวกนี้เปลี่ยนไข่ให้เป็นมายองเนส",
 		 "MarnieShed.8": "\"รายการแสดง 3608.25.01-43\"^^\"รายจ่าย: 46,720G\"^\"รายรับ: 94,351G\"^\"ผลกำไรของไตรมาสที่ 43: 47,631G\"^^\"สัตว์: วัว 14, แกะ 8, หมู 6, ไก่ 18\"^^\"ของส่งขาย 44.02-1\"^\"900 แกลลอน-นม\"^\"120 กก.-ชีส\"^\"25 กก.-ขนแกะ\"^\"70 กก.-ผลผลิต\"",
@@ -28120,7 +29698,12 @@
 		 "IsaacSpeak1": "เธอต้องการอะไร?",
 		 "IsaacSpeak2": "ฉันเคลียเหมืองมาหลายระดับ จนฉันนับไม่ไหวเลยล่ะ$1",
 		 "AlesiaSpeak": "สวัสดี @ คุณดูพร้อมเสมอ ไม่ว่าจะกับอะไรก็ตาม$1#$e#ขอให้โยบะนำทางเจ้า$0",
-		 "AlesiaSpeak1": "ไม่ต้องเกรงใจถ้าคุณ จะขอธนูของฉัน$1"
+		 "AlesiaSpeak1": "ไม่ต้องเกรงใจถ้าคุณ จะขอธนูของฉัน$1",
+		 "WillyRoom.1": "Willy's bed has a quilted blanket.",
+		 "WillyRoom.2": "'Stories of Famous Fishermen'",
+		 "WillyRoom.3": "'Best Fishing Spots In The Ferngill Republic'",
+		 "WillyRoom.4": "A rustic television. It's conveniently placed in front of Willy's bed. ",
+		 "WillyRoom.5": "Fishing supplies are stored in these drawers.",
 	    }
 	},
 	
