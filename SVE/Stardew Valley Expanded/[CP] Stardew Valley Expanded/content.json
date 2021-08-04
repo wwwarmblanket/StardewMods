@@ -8387,12 +8387,12 @@
 	 "Action": "EditData",
      "Target": "Strings/StringsFromCSFiles",
      "Entries": {
-     "SVE_GrangeJudging_Sophia": "I wonder who'll win?$1",
-	 "SVE_GrangeJudging_Andy": "Well, here goes nothin'. Good luck to ya, farmer.$0",
-	 "SVE_GrangeJudging_Susan": "It's a shame we all can't be winners. Everyone worked so hard on their grange displays.$0",
-	 "SVE_AfterJudging_Sophia": "That was fun!$1",
-	 "SVE_AfterJudging_Andy": "Lewis barely took a gander at my grange display. Typical.$8#$e#How did you place, farmer?$0",
-	 "SVE_AfterJudging_Susan": "My babies did great! It must have been my new experimental fertilizer.$0",
+     "SVE_GrangeJudging_Sophia": "ฉันอยากรู็จังว่าใครจะชนะ?$1",
+	 "SVE_GrangeJudging_Andy": "เอาล่ะ พยายามเต็มที่แล้ว  ขอให้โชคดีนะ ชาวไร่$0",
+	 "SVE_GrangeJudging_Susan": "น่าเสียดายนะ ที่พวกเราทุกคน ไม่สามารถเป็นผู้ชนะ พร้อมกันได้ ทุกคนทำเต็มที่ เพื่อจัดแสดงสินค้า ของตัวเอง$0",
+	 "SVE_AfterJudging_Sophia": "สนุกมากเลยล่ะ!$1",
+	 "SVE_AfterJudging_Andy": "เลวิสแทบจะไม่มอง กล่องจัดแสดงของฉัน ตามปกติ$8#$e#ชาวไร่ แล้วคุณวางสินค้ายังไงล่ะ?$0",
+	 "SVE_AfterJudging_Susan": "เด็กๆ ของฉันทำได้ดีมาก! มันต้องเป็นเพราะ การทดลองปุ๋ยชนิดใหม่ ของฉันแน่ๆ$0",
 	 }
 },
 
@@ -8401,8 +8401,8 @@
      "Target": "Strings/StringsFromCSFiles",
 	 "When": { "Spouse |contains=Sophia": true },
      "Entries": {
-     "SVE_GrangeJudging_Sophia": "We're competitors until the judging is over, dear...$3#$e#%Sophia looks pumped.",
-	 "SVE_AfterJudging_Sophia": "Yay! I won so many Star Tokens!$8#$e#Don't forget to clear out your grange display, okay.$1#$e#I almost forgot one year...$2"
+     "SVE_GrangeJudging_Sophia": "เราจะเป็นคู่แข่งกัน จนกว่าจะเสร็จการตัดสินนะ ที่รัก...$3#$e#%โซเฟียฮึดสุดๆ",
+	 "SVE_AfterJudging_Sophia": "เย้! เค้าได้เหรียญ เหรียญดาว มาเยอะเลยล่ะ!$8#$e#อย่าลืมเก็บสินค้าของตัวเอง กลับมาด้วยล่ะ รู้เปล่า$1#$e#เค้าเกือบลืมไปปีนึงล่ะ...$2"
 	 }
 },
 
@@ -25115,7 +25115,7 @@
     "Target": "Data/Events/farm",
 	"When": { "HasSeenEvent": "502261", "Day": "21" },
     "Entries": {
-	"221971519": "continue/-1000 -1000/farmer 64 15 2 MorrisTod 64 13 0/skippable/pause 1000/speak MorrisTod \"Hello, @. I wanted to stop by and tell you 'Joja Day' will be tomorrow at Joja Mart!$1#$b#There will be exclusive decorations for sale and up to 20 percent off on seeds until 8pm!$4#$b#It'd be a delight if you attended!$1\"/pause 500/globalFade/viewport -1000 -1000/pause 1000/message \"Starting now, there will be sales at Joja Mart on the 22nd of every season!\"/pause 1000/end dialogue MorrisTod \"I understand some residents in the valley are struggling financially. That's why on the 22nd of each month Joja Mart will decrease prices!$0\""
+	"221971519": "continue/-1000 -1000/farmer 64 15 2 MorrisTod 64 13 0/skippable/pause 1000/speak MorrisTod \"สวัสดี @ ผมอยากแวะมาหา และบอกคุณว่า  'วันแห่งโจจ้า - Joja Day' จะมีขึ้นในวันพรุ่งนี้ ที่ร้านโจจ้า!$1#$b#จะมีการขายของตกแต่ง สุดเอ็กซ์คลูซีฟ และลดราคาเมล็ดพันธุ์สูงสุด 20% จนถึง 8PM!$4#$b#คงจะดีไม่น้อย หากคุณมาร่วมด้วย!$1\"/pause 500/globalFade/viewport -1000 -1000/pause 1000/message \"นับตั้งแต่นี้ไป จะมีการจัดงานลดราคา ที่ร้านโจจ้า ในทุกวันที่ 22 ของทุกเดือน!\"/pause 1000/end dialogue MorrisTod \"ผมเข้าใจดี ว่าอาจจะมีชาวเมืองบางคน ขัดสนเรื่องเงินทอง นั่นก็คือเหตุผลว่าทำไม ร้านโจจ้าจึงลดราคา ในทุกวันที่ 22 ของเดือนครับ!$0\""
 	},
 },
 
@@ -25137,9 +25137,9 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Lewis",
 	 "Entries": { 
-	 "JojaDay1_Lewis": "It's 'Joja Day' today. Maybe I'll take a look in the Joja Mart this afternoon.$0",
-	 "JojaDay2_Lewis": "Hmm...$2",
-	 "JojaDay3_Lewis": "I don't agree with Joja's practices, but you can't ignore what the townsfolk want.$2"
+	 "JojaDay1_Lewis": "วันนี้เป็น 'วันโจจ้า' นี่นา บางทีฉันควรจะไปดูที่ร้านโจจ้า ตอนบ่ายนี้ซะหน่อย$0",
+	 "JojaDay2_Lewis": "หืมมม...$2",
+	 "JojaDay3_Lewis": "ฉันไม่เห็นด้วย กับวิธีการของโจจ้าหรอกนะ แต่ว่าเธอจะเมินเฉย ต่อสิ่งที่ชาวเมืองต้องการไม่ได้$2"
 	 }
 },
 
@@ -25157,9 +25157,9 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Marnie",
 	 "Entries": { 
-	 "JojaDay1_Marnie": "Are you ready to head out, Jas?$0",
-	 "JojaDay2_Marnie": "I'm overwhelmed with the large selections here.$0",
-	 "JojaDay3_Marnie": "Hello, sweetie. Just these please!"
+	 "JojaDay1_Marnie": "หนูพร้อมรึยังจ๊ะ แจส?$0",
+	 "JojaDay2_Marnie": "ฉันกำลังถูกครอบงำ ไปด้วยตัวเลือกมากมายที่นี่$0",
+	 "JojaDay3_Marnie": "สวัสดีที่รัก ขอแค่นี้จ้ะ!"
 	 }
 },
 
@@ -25177,10 +25177,10 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Jas",
 	 "Entries": { 
-	 "JojaDay1_Jas": "Yay! Let's go!$1",
-	 "JojaDay2_Jas": "Why doesn't Pierre's have this cool stuff?$0",
-	 "JojaDay3_Jas": "Hi, Vincent!$0",
-	 "JojaDay4_Jas": "Can I get this candy bar, aunt Marnie? Pretty please!$1",
+	 "JojaDay1_Jas": "เย้! ไปกันเลยค่ะ!$1",
+	 "JojaDay2_Jas": "ทำไมที่ร้านของปิแอร์ ถึงไม่มีของดีๆ แบบนี้คะ?$0",
+	 "JojaDay3_Jas": "ดีจ้า, วินเซนต์!$0",
+	 "JojaDay4_Jas": "หนูขอซื้อขนม แคนดี้ บาร์ อันนี้ได้มั้ยคะ ป้ามานี? นะค้าาาาา!$1",
 	 }
 },
 
@@ -25207,8 +25207,8 @@
 	 "Target": "characters/Dialogue/MarriageDialogueShane",
 	 "When": { "HasSeenEvent": "502261", "Spouse": "Shane", "Day": "22" },
 	 "Entries": {
-     "funLeave_Shane": "It's Joja Day. We've been preparing for this for weeks. It'll be a long day.$1",
-     "funReturn_Shane": "Sorry if I'm sweaty... I'm exhausted from work today. I can't believe so many people can fit in Joja Mart.$0",
+     "funLeave_Shane": "วันโจจ้าน่ะ เราต้องเตรียมการกันมา ตลอดสัปดาห์ คงจะเป็นที่ยาวนานแน่ๆ$1",
+     "funReturn_Shane": "โทษทีนะ ถ้าผมเหงื่อเยอะ... ผมเหนื่อยกับงานวันนี้น่ะ  ผมไม่อยากจะเชื่อเลยว่า ร้านโจจ้า จะจุคนได้มากขนาดนี้$0",
      },
 },
 {    //SHANE Joja Day Marriage Dialogue - mart string replaced
@@ -25216,7 +25216,7 @@
 	 "Target": "characters/Dialogue/Shane",
 	 "When": { "HasSeenEvent": "502261", "Spouse": "Shane", "Day": "22" },
 	 "Entries": {
-     "JojaMart": "%Shane smiles at me as he works.",
+     "JojaMart": "%เชนส่งยิ้มให้ฉํนตอนที่กำลังทำงาน",
      },
 },
 
@@ -25234,8 +25234,8 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Gus",
 	 "Entries": { 
-	 "JojaDay_Gus": "These are just the ingredients I was looking for. Joja really has everything a business owner needs.$0",
-	 "JojaDay1_Gus": "800g is my total? Great!$1"
+	 "JojaDay_Gus": "นี่เป็นส่วนผสมอย่างเดียว ที่ผมกำลังตามหา โจจ้ามีทุกสิ่ง ที่เจ้าของธุรกิจต้องการจริงๆ$0",
+	 "JojaDay1_Gus": "ทั้งหมดนี้ ผมจ่ายแค่ 800g? เยี่ยม!$1"
 	 }
 },
 
@@ -25292,9 +25292,9 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Harvey",
 	 "Entries": { 
-	 "JojaDay_Harvey": "I think I'll head on over to Joja Mart after I close for the day.$0#$b#They carry medical supplies that's difficult to procure here.$1",
-	 "JojaDay2_Harvey": "Ah, this is exactly what I needed.$1",
-	 "JojaDay3_Harvey": "Good evening, sir. Must have been a long shift today for you.$0"
+	 "JojaDay_Harvey": "ผมว่า ผมจะไปที่ร้านโจจ้า หลังจากปิดคลินิกแล้วน่ะครับ$0#$b#พวกเขามีอุปกรณ์การแพทย์ ที่หาซื้อที่นี่ได้ยากด้วยครับ$1",
+	 "JojaDay2_Harvey": "อา นี่แหละสิ่งที่ผมต้องการ$1",
+	 "JojaDay3_Harvey": "สวัดดีตอนเย็นนะครับ วันนี้คงจะเป็นการเข้ากะ ที่ยาวนานของคุณแน่เลย$0"
 	 }
 },
 {    //HARVEY Joja Day Marriage Dialogue
@@ -25302,8 +25302,8 @@
 	 "Target": "characters/Dialogue/MarriageDialogueHarvey",
 	 "When": { "HasSeenEvent": "502261", "Spouse": "Harvey", "Day": "22" },
 	 "Entries": {
-     "funLeave_Harvey": "Good morning! I'm heading on over to Joja Mart after I close the clinic for the day.$0#$b#They carry medical supplies that's difficult to procure here.$1",
-     "funReturn_Harvey": "Did you buy anything at Joja mart? I found just what I was looking for.$0",
+     "funLeave_Harvey": "อรุณสวัสดิ์! ผมจะไปที่ร้านโจจ้า หลังจากปิดคลินิกแล้วนะครับ$0#$b#พวกเขามีอุปกรณ์การแพทย์ ที่หาซื้อที่นี่ได้ยากด้วยครับ$1",
+     "funReturn_Harvey": "คุณได้ซื้ออะไร มาจากร้านโจจ้าบ้างมั้ย? ผมเจอสิ่งที่ผมกำลังหาอยู่ ด้วยละครับ$0",
      },
 },
 
@@ -25321,8 +25321,8 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Pam",
 	 "Entries": { 
-	 "JojaDay_Pam": "Joja is lively than ever! I knew putting my faith in this place was a good idea.$1",
-	 "JojaDay1_Pam": "Come on! I don't got all day, kiddo.$3"
+	 "JojaDay_Pam": "โจจ้าดูมีชีวิตชีวากว่าที่เคย! ฉันว่า ที่ฉันเชื่อมั่นกับที่นี่น่ะ เป็นเรื่องที่ถูกแล้ว$1",
+	 "JojaDay1_Pam": "เร็วๆ เข้า! ฉันไม่ได้มีเวลาทั้งวันหรอกนะ เจ้าหนู$3"
 	 }
 },
 
@@ -25348,8 +25348,8 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Penny",
 	 "Entries": { 
-	 "JojaDay_Penny": "Shopping here isn't my preference, but with prices like these how can you not?$0",
-	 "JojaDay1_Penny": "Hello! I can help bag the groceries.$1",
+	 "JojaDay_Penny": "ฉันก็ไม่ได้ต้องการ ซื้อของที่นี่ซักเท่าไหร่หรอก แต่ว่า ถ้าราคาแบบนี้ ทำไมคุณจะไม่ซื้อล่ะ จริงมั้ย?$0",
+	 "JojaDay1_Penny": "สวัสดีค่ะ! เดี๋ยวฉันเอาของใส่ถุงเอง$1",
 	 }
 },
 {    //Penny Joja Day Marriage Dialogue
@@ -25357,8 +25357,8 @@
 	 "Target": "characters/Dialogue/MarriageDialoguePenny",
 	 "When": { "HasSeenEvent": "502261", "Spouse": "Penny", "Day": "22" },
 	 "Entries": {
-     "funLeave_Penny": "My mother wants to go shopping with me at Joja Mart today.$0#$b#I feel like I'll need to talk her out of buying some items.$2",
-     "funReturn_Penny": "How was your day? I brought home Joja frozen meals.$0",
+     "funLeave_Penny": "คุณแม่อยากจะไปซื้อของกับฉัน ที่ร้านโจจ้าวันนี้ล่ะ$0#$b#ฉันคิดว่า ฉันคงจะต้องพูดกับคุณแม่ เรื่องการซื้อของบางชนิด ซะแล้วสิ$2",
+     "funReturn_Penny": "วันนี้คุณเป็นยังไงบ้าง? ฉันซื้ออาหารแช่แข็ง ของโจจ้ามาด้วยล่ะ$0",
      },
 },
 
@@ -25384,8 +25384,8 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Maru",
 	 "Entries": { 
-	 "JojaDay_Maru": "Oh, hey. You're shopping at Joja today too, @? My dad sorta dragged me along.$0",
-	 "JojaDay1_Maru": "I can't wait to get home and try this 'Joja Meal'.$1"
+	 "JojaDay_Maru": "โอ้  ไง เธอก็มาซื้อของ ที่ร้านโจจ้าเหมือนกันหรอ @? ฉันถูกพ่อลากมาด้วยน่ะ$0",
+	 "JojaDay1_Maru": "ฉันอยากกลับบ้าน แล้วลองกิน 'ข้าวกล่องโจจ้า' นี่ จะแย่แล้ว$1"
 	 }
 },
 {    //Maru Joja Day Marriage Dialogue
@@ -25393,8 +25393,8 @@
 	 "Target": "characters/Dialogue/MarriageDialogueMaru",
 	 "When": { "HasSeenEvent": "502261", "Spouse": "Maru", "Day": "22" },
 	 "Entries": {
-     "funLeave_Maru": "Finally, you're up! I'm visiting my parents this morning and going to Joja Mart later with them.$0#$b#Maybe I'll see you there.$1",
-     "funReturn_Maru": "I picked up some things at Joja Mart. They're in the fridge.$0#$b#Oh, and my dad says hi!$1",
+     "funLeave_Maru": "ในที่สุด เธอก็ตื่นจนได้! วันนี้ฉันจะแวะไปหา พ่อกับแม่ตอนเช้า แล้วก็จะไปที่ร้านโจจ้า กับพวกท่าน$0#$b#บางที เราอาจจะได้เจอกันที่นั่น$1",
+     "funReturn_Maru": "ฉันได้ของมาจากร้านโจจ้าด้วยละ อยู่ในตู้เย็นนะ$0#$b#โอ้ แล้วก็พ่อฝากสวัสดีล่ะ !$1",
      },
 },
 
@@ -25412,8 +25412,8 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Demetrius",
 	 "Entries": { 
-	 "JojaDay_Demetrius": "Hi, @. Getting your shopping done here today too? Looks like the whole town had the same idea.$0",
-     "JojaDay1_Demetrius": "%Demetrius is busy checking out."
+	 "JojaDay_Demetrius": "สวัสดี @ วันจับจ่ายของเธอ ก็จบลงที่นี่ด้วยเหมือนกัน ใช่มั้ยล่ะ? ดูเหมือนคนทั้งเมือง ก็คงจะคิดแบบเดียวกันล่ะนะ$0",
+     "JojaDay1_Demetrius": "%ดิมิเทียสกำลังวุ่นวายกับการจ่ายเงิน"
 	 }
 },
 
@@ -25431,8 +25431,8 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Robin",
 	 "Entries": { 
-	 "JojaDay_Robin": "Gah! I misplaced my grocery list. Where is it!?$2",
-	 "JojaDay1_Robin": "I'd call this shopping a trip a huge success!$1"
+	 "JojaDay_Robin": "อ๊าก! ฉันเอาที่จดรายการซื้อของ ไปไว้ไหนละเนี่ย อยู่ไหนล่ะทีนี้!?$2",
+	 "JojaDay1_Robin": "ฉันพูดได้เลยว่า ทริปช๊อปปิ้งครั้งนี้ ถือว่าประสบความสำเร็จ อย่างยิ่งใหญ่!$1"
 	 }
 },
 
@@ -25458,7 +25458,7 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Sebastian",
 	 "Entries": { 
-	 "JojaDay_Sebastian": "It smells too clean in here.$0" 
+	 "JojaDay_Sebastian": "ที่นี่มีกลื่นสะอาดมากเลยแฮะ$0" 
 	 }
 },
 {    //Sebastian Joja Day Marriage Dialogue
@@ -25466,7 +25466,7 @@
 	 "Target": "characters/Dialogue/MarriageDialogueSebastian",
 	 "When": { "HasSeenEvent": "502261", "Spouse": "Sebastian", "Day": "22" },
 	 "Entries": {
-     "funLeave_Sebastian": "Do you think they carry 'Sashimi' at Joja Mart?",
+     "funLeave_Sebastian": "เธอคิดว่าจะมี  'ซาซิมิ' ขายที่ร้านโจจ้ามั้ย?",
      },
 },
 
@@ -25484,8 +25484,8 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Clint",
 	 "Entries": { 
-	 "JojaDay_Clint": "I can't decide what I want to get.$0",
-	 "JojaDay1_Clint": "Uhh. Hi. Just this please.$0"
+	 "JojaDay_Clint": "ฉันตัดสินใจไม่ได้เลย ว่าจะเอาอะไรดี$0",
+	 "JojaDay1_Clint": "อ้า ไง ขออันนี้ครับ$0"
 	 }
 },
 
@@ -25511,8 +25511,8 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Haley",
 	 "Entries": { 
-	 "JojaDay_Haley": "Oh my GOD! This place is amazing! It literally has everything, unlike Pierre's store.$1",
-	 "JojaDay1_Haley": "Joja has all the latest makeup palettes. I'll try swatching this later.$0"
+	 "JojaDay_Haley": "พระเจ้าช่วย! ที่นี่คือแบบ วิเศษมาก! มีทุกอย่างจริงๆ ไม่เหมือนร้านปิแอร์เลย$1",
+	 "JojaDay1_Haley": "โจจ้า มีเครื่องสำอางค์ ตัวใหม่ล่าสุดทั้งหมด  เอาไว้ฉันจะลองอันนี้ครั้งหน้าละกัน$0"
 	 }
 },
 {    //Haley Joja Day Marriage Dialogue
@@ -25520,8 +25520,8 @@
 	 "Target": "characters/Dialogue/MarriageDialogueHaley",
 	 "When": { "HasSeenEvent": "502261", "Spouse": "Haley", "Day": "22" },
 	 "Entries": {
-     "funLeave_Haley": "Good morning, dear. I'm going to do some shopping at Joja Mart today. Should I get you anything?$1",
-     "funReturn_Haley": "Don't you agree that Joja Mart is a huge upgrade from Pierre's?$1#$e#I wonder how they're doing.$2"
+     "funLeave_Haley": "อรุณสวัสดิ์จ้ะ ที่รัก วันนี้ฉันจะไปช๊อปปิ้ง ที่ร้านโจจ้านะ  เธออยากจะให้ฉัน ซื้ออะไรมาให้มั้ย?$1",
+     "funReturn_Haley": "เธอคิดเหมือนกันมั้ย ว่าโจจ้า คือแบบ พัฒนาไปไกล กว่าปิแอร์เยอะเลย เนอะ?$1#$e#อยากรู้จังว่าพวกเขาทำยังไง$2"
      },
 },
 
@@ -25547,8 +25547,8 @@
 	 "Target": "strings/schedules/Emily",
 	 "When": { "HasSeenEvent |contains=3219873": false },
 	 "Entries": { 
-	 "JojaDay_Emily": "Ooo! Look at what they have here. I didn't know I needed it, but now I do!$1",
-     "JojaDay1_Emily": "%Emily is busy checking out."	 
+	 "JojaDay_Emily": "อู้วววว! ดูสิ ว่าพวกเขามีอะไรขายที่นี่บ้าง ฉันไม่เคยรู้เลยว่าอยากได้มัน แต่ตอนนี้รู้ละ!$1",
+     "JojaDay1_Emily": "%เอมิลี่กำลังง่วนอยู่กับการจ่ายเงิน"	 
 	 }
 },
 {    //Schedule Strings - player has seen Claire's 6 heart event
@@ -25556,8 +25556,8 @@
 	 "Target": "strings/schedules/Emily",
 	 "When": { "HasSeenEvent |contains=3219873": true },
 	 "Entries": { 
-	 "JojaDay_Emily": "Oooh! Look at what they have here. I didn't know I needed it, but now I do!$1",
-     "JojaDay1_Emily": "Hey, Claire! Thank you for working so hard today. See you at aerobics tomorrow?$0"	 
+	 "JojaDay_Emily": "อู้วววว! ดูสิ ว่าพวกเขามีอะไรขายที่นี่บ้าง ฉันไม่เคยรู้เลยว่าอยากได้มัน แต่ตอนนี้รู้ละ!$1",
+     "JojaDay1_Emily": "ไง แคลร์! ขอบคุณที่เหน็ดเหนื่อยนะวันนี้ เจอกันที่คลาสแอโรบิค พรุ่งนี้นะ?$0"	 
 	 }
 },
 {    //Emily Joja Day Marriage Dialogue
@@ -25565,8 +25565,8 @@
 	 "Target": "characters/Dialogue/MarriageDialogueEmily",
 	 "When": { "HasSeenEvent": "502261", "Spouse": "Emily", "Day": "22", "HasSeenEvent |contains=3219873": false },
 	 "Entries": {
-     "funLeave_Emily": "Emily is dragging me along to go shopping with her at Joja Mart today.$0",
-     "funReturn_Emily": "I love all the goofy food you can find at Joja Mart.$0#$e#How was your day, dear?$1"
+     "funLeave_Emily": "วันนี้ เฮลีย์จะลากฉัน ไปช๊อปปิ้งกับเธอ ที่ร้านโจจ้านะ$0",
+     "funReturn_Emily": "ฉันชอบพวกอาหารโง่ๆ พวกนั้นจัง เธอจะหามันได้จากร้านโจจ้า$0#$e#วันนี้เธอเป็นยังไงบ้าง ที่รัก?$1"
      },
 },
 {    //Emily Joja Day Marriage Dialogue
@@ -25574,7 +25574,7 @@
 	 "Target": "characters/Dialogue/MarriageDialogueEmily",
 	 "When": { "HasSeenEvent": "502261", "Spouse": "Emily", "Day": "22", "HasSeenEvent |contains=3219873": true },
 	 "Entries": {
-     "funLeave_Emily": "Emily is dragging me along to go shopping with her at Joja Mart today.$0#$e#I think Claire is working today! I'll try to catch up with her.$0"
+     "funLeave_Emily": "วันนี้ เฮลีย์จะลากฉัน ไปช๊อปปิ้งกับเธอ ที่ร้านโจจ้านะ.$0#$e#ฉันว่าแคลร์น่าจะไปทำงานวันนี้ ! ฉันจะเจอเธอซะหน่อย$0"
      },
 },
 
@@ -25598,9 +25598,9 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Alex",
 	 "Entries": { 
-	 "JojaDay_Alex": "I can make a cool meal plan with the options here.",
-	 "JojaDay1_Alex": "Whoa! They have FRDA prime meat in stock! I gotta grab some of these before they sell out.$0",
-	 "JojaDay2_Alex": "It'll be nothing but good eating this week.$1"
+	 "JojaDay_Alex": "ฉันสามารถคิดเมนูอาหารเจ๋งๆ ได้จากตัวเลือกมากมายที่นี่",
+	 "JojaDay1_Alex": "โว้วว! พวกเขามีเนื้อชั้นเลิศ ที่ได้รับรองจาก กระทรวงเกษตรแห่ง สาธารณรัฐเฟิร์นกิล ขายอยู่ด้วย! ฉันต้องรับคว้ามันไว้ ก่อนที่มันจะถูกซื้อไปหมด$0",
+	 "JojaDay2_Alex": " อาทิตย์นี้ มีแต่ของกินของดีๆ ทั้งนั้น$1"
 	 }
 },
 {    //Alex Joja Day Marriage Dialogue
@@ -25608,8 +25608,8 @@
 	 "Target": "characters/Dialogue/MarriageDialogueAlex",
 	 "When": { "HasSeenEvent": "502261", "Spouse": "Alex", "Day": "22" },
 	 "Entries": {
-     "funLeave_Alex": "Hey, good morning. Joja Mart is having a huge meat sale today. Can I pick you up anything while I'm there?$0",
-     "funReturn_Alex": "My meal plans are set for the next couple weeks. It'll be nothing but good eating!$1"
+     "funLeave_Alex": "ไง สวัสดีตอนเช้า วันนี้ร้านโจจ้า มีการลดราคาเนื้อ ครั้งยิ่งใหญ่เลยล่ะ ให้ฉันซื้ออะไรมาให้จากที่นั่นเปล่า?$0",
+     "funReturn_Alex": "ฉันวางแผนเมนูอาหารไว้ ไปจนถึง 2-3 อาทิตย์หน้าเลยล่ะ มีแต่ของกินของดีๆ ทั้งนั้น!$1"
      },
 },
 
@@ -25626,8 +25626,8 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/George",
 	 "Entries": { 
-	 "JojaDay_George": "Evelyn and I have lived here in the valley long before this place was built. Seems like times are changin' for the better.$0",
-     "JojaDay1_George": "Don't cut in line!$3"
+	 "JojaDay_George": "เอเวอลินกับฉัน อาศัยอยู่ในหุบเขานี่ ก่อนที่พวกเขาจะสร้างที่นี่ซะอีก ดูเหมือนว่าวันเวลา จะเปลี่ยนไปในทางที่ดีขึ้น$0",
+     "JojaDay1_George": "อย่าแซงคิวสิเห้ย!$3"
 	 }
 },
 
@@ -25645,8 +25645,8 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Evelyn",
 	 "Entries": { 
-	 "JojaDay_Evelyn": "Don't forget to remind me, dear. I need to pick up some leaks for George in aisle 3.$0",
-     "JojaDay1_Evelyn": "%Evelyn is busy checking out."	 
+	 "JojaDay_Evelyn": "อย่าลืมเตือนยายด้วยนะ ที่รัก ยายจะต้องไปหยิบ กระเทียมต้นที่อยู่ตรงช่อง 3 ให้จอร์จ$0",
+     "JojaDay1_Evelyn": "%เอเวอลินกำลังง่วนอยู่กับการจ่ายเงิน"	 
 	 }
 },
 
@@ -25673,8 +25673,8 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Victor",
 	 "Entries": { 
-	 "JojaDay_Victor": "I can't decide what I want to get!$1",
-	 "JojaDay1_Victor": "Greetings, @.$0"
+	 "JojaDay_Victor": "ผมตัดสินใจไม่ได้เลย ว่าจะซื้ออะไรดี!$1",
+	 "JojaDay1_Victor": "ทักทายครับ @$0"
 	 }
 },
 {    //Victor Joja Day Marriage Dialogue
@@ -25682,8 +25682,8 @@
 	 "Target": "characters/Dialogue/MarriageDialogueVictor",
 	 "When": { "HasSeenEvent": "502261", "Spouse": "Victor", "Day": "22" },
 	 "Entries": {
-     "funLeave_Victor": "Hey! Good morning. What's on your schedule today?$1#$e#I'm shopping with my mother at Joja Mart today.$3",
-     "funReturn_Victor": "I must say, Joja Mart does possess an interesting selection.$0"
+     "funLeave_Victor": "ไง! อรุณสวัวดิ์ครับ วันนี้คุณมีกำหนดการอะไร ที่ต้องทำบ้างครับ?$1#$e#วันนี้ผมจะไปซื้อของ ที่ร้านโจจ้า กับคุณแม่น่ะครับ$3",
+     "funReturn_Victor": "ผมพูดได้เลยว่า ร้านโจจ้ามีของน่าสนใจ ให้เลือกซื้อเลยล่ะครับ$0"
      },
 },
 
@@ -25710,9 +25710,9 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Olivia",
 	 "Entries": { 
-	 "JojaDay_Olivia": "Hello, dear.$0",
-	 "JojaDay1_Olivia": "Good afternoon, Morris.$3",
-	 "JojaDay2_Olivia": "Hi, sweetie. Mind bagging these for me? Here's a little something for your trouble.$1"
+	 "JojaDay_Olivia": "สวัสดีจ้ะ ที่รัก$0",
+	 "JojaDay1_Olivia": "สวัสดีตอนบ่ายนะจ๊ะ มอร์ริส$3",
+	 "JojaDay2_Olivia": "ไงจ๊ะ ที่รัก วานเธอช่วยฉัน เอาของใส่ถุงหน่อยได้มั้ยจ๊ะ? นี่เป็นของเล็กๆ น้อยๆ ตอบแทนที่เธอช่วยฉัน$1"
 	 }
 },
 {    //Olivia Joja Day Marriage Dialogue
@@ -25720,8 +25720,8 @@
 	 "Target": "characters/Dialogue/MarriageDialogueOlivia",
 	 "When": { "HasSeenEvent": "502261", "Spouse": "Olivia", "Day": "22" },
 	 "Entries": {
-     "funLeave_Olivia": "Good morning, dear. I'm running to Joja Mart sometime today.$3",
-     "funReturn_Olivia": "Shopping all day wears you out.$6#$e#Would you care for a glass of wine?$3"
+     "funLeave_Olivia": "อรุณสวัสดิ์จ้ะ ที่รัก วันนี้ฉันจะไปที่ร้านโจจ้าซักหน่อย$3",
+     "funReturn_Olivia": "ช๊อปปิ้งทั้งวัน คุณคงจะเหนื่อยมากแน่เลย$6#$e#รับไวน์ซักแก้วมั้ยจ๊ะ?$3"
      },
 },
 
@@ -25739,8 +25739,8 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Jodi",
 	 "Entries": { 
-	 "JojaDay_Jodi": "I shopped at Joja before they starting having these sales.$0",
-	 "JojaDay1_Jodi": "Hi! How are you today? Let me help bag those.$0"
+	 "JojaDay_Jodi": "ฉันซื้อของที่ร้านโจจ้า มาก่อนที่พวกเขา จะเริ่มงานลดราคาพวกนี้ซะอีก$0",
+	 "JojaDay1_Jodi": "ไง! วันนี้คุณเป็นยังไงบ้าง? มา ฉันช่วยเอาของใส่ถุงให้$0"
 	 }
 },
 
@@ -25758,10 +25758,10 @@
 	 "Action": "EditData",
 	 "Target": "characters/dialogue/Vincent",
 	 "Entries": { 
-	    "JojaMart_23_5": "I want to run up and down the aisles, but momma said no.$2",
-		"JojaMart_20_7": "Jas! I'll race you!?$1",
-		"JojaMart_11_24": "I can't wait to eat these Joja crackers when I get home!$0",
-		"SamHouse_11_23": "%Vincent is watching TV while snacking on Joja crackers."
+	    "JojaMart_23_5": "ผมอยากจะวิ่งไปมาให้สุดช่องพวกนี้ แต่แม่ห้ามน่ะสิ$2",
+		"JojaMart_20_7": "แจส! ฉันจะแข่งกับเธอ!?$1",
+		"JojaMart_11_24": "ผมอยากจะกินขนม โจจ้าแคร็กเกอร์ ตอนถึงบ้านจะแย่แล้ว!$0",
+		"SamHouse_11_23": "%วินเซนต์กำลังดูทีวี และกินขนมโจจ้าแคร็กเกอร์ "
 	 },
 },
 
@@ -25779,8 +25779,8 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Kent",
 	 "Entries": { 
-	 "JojaDay_Kent": "Cold in here.$0",
-     "JojaDay1_Kent": "Honey, let me help bag that.$1"	  
+	 "JojaDay_Kent": "ที่นี่หนาวนะ$0",
+     "JojaDay1_Kent": "ที่รัก เดี๋ยวผมถือถุงนั้นให้$1"	  
 	 }
 },
 
@@ -25806,9 +25806,9 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Sam",
 	 "Entries": { 
-	 "JojaDay_Sam": "Part of me feels like I should be working today.$0",
-	 "JojaDay1_Sam": "Are you guys plannin' on buying anything? I can probably get you some discounts since I work here.$1",
-	 "JojaDay2_Sam": "I think my mom bought too much.$0"
+	 "JojaDay_Sam": "ส่วนหนึ่งในตัวฉัน บอกว่าฉันต้องไปทำงานวันนี้$0",
+	 "JojaDay1_Sam": "ไง เธอวางแผนจะซื้ออะไรยังล่ะ? ฉันอาจจะหาส่วนลดให้เธอก็ได้นะ เพราะว่าฉันทำงานที่นี่ไง$1",
+	 "JojaDay2_Sam": "ฉันว่า แม่ซื้อของเยอะไปละ$0"
 	 }
 },
 {    //Sam Joja Day Marriage Dialogue
@@ -25816,8 +25816,8 @@
 	 "Target": "characters/Dialogue/MarriageDialogueSam",
 	 "When": { "HasSeenEvent": "502261", "Spouse": "Sam", "Day": "22" },
 	 "Entries": {
-     "funLeave_Sam": "Hey, I'm gonna visit my family today and go shopping with them at Joja Mart.$0#$e#I'm glad I don't have to work today.$1",
-     "funReturn_Sam": "I got us some frozen Joja meals. They're actually not half bad!$1"
+     "funLeave_Sam": "ไง วันนี้ฉันจะแวะไปหา ครอบครัวซักหน่อย แล้วก็ไปซื้อของ กับพวกเขาที่ร้านโจจ้า$0#$e#ดีนะเนี่ย ที่ฉันไม่ต้องไปทำงานวันนี้$1",
+     "funReturn_Sam": "ฉันเอาอาหารแช่แข็งของโจจ้ามาด้วย เอาจริงมันไม่เลวเลยนะ!$1"
      },
 },
 
@@ -25843,7 +25843,7 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Abigail",
 	 "Entries": { 
-	 "JojaDay_Abigail": "Mom and Dad were stressing me out. I just HAD to leave the house. They told me not to come here... guess I didn't listen.$3" 
+	 "JojaDay_Abigail": "แม่กับพ่อทำให้ฉัน เครียดจะแย่อยู่แล้ว ฉันแค่ต้องออกไปให้พ้นๆ บ้าน พวกเขาบอกฉันว่าห้ามมาที่นี่... เดาได้เลยว่า ฉันไม่ฟังหรอก$3" 
 	 }
 },
 {    //Abigail Joja Day Marriage Dialogue
@@ -25851,8 +25851,8 @@
 	 "Target": "characters/Dialogue/MarriageDialogueAbigail",
 	 "When": { "HasSeenEvent": "502261", "Spouse": "Abigail", "Day": "22" },
 	 "Entries": {
-     "funLeave_Abigail": "Mom called this morning and wants me over. I'll be back later, okay?$0#$e#I think they're going to go on about something to do with Joja day.$3",
-     "funReturn_Abigail": "My parents seriously stress me out.$3"
+     "funLeave_Abigail": "แม่โทรมาเมื่อเช้า และบอกให้ฉันไปหา เดี๋ยวฉันจะกลับมานะ โอเคมั้ย?$0#$e#ฉันว่า พวกเขาคงจะทำอะไรบางอย่าง เกี่ยวกับวันโจจ้านี่$3",
+     "funReturn_Abigail": "พ่อกับแม่ทำฉันเครียดสุดๆ ไปเลย $3"
      },
 },
 
@@ -25878,8 +25878,8 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Elliott",
 	 "Entries": { 
-	 "JojaDay_Elliott": "%Elliott is busy.",
-	 "JojaDay1_Elliott": "Well, at least everything here is interesting.$0" 
+	 "JojaDay_Elliott": "%เอลเลียตกำลังยุ่งอยู่",
+	 "JojaDay1_Elliott": "เอาล่ะ อย่างน้อยทุกอย่างที่อยู่ที่นี่ ก็น่าสนใจ$0" 
 	 }
 },
 {    //Elliott Joja Day Marriage Dialogue
@@ -25887,8 +25887,8 @@
 	 "Target": "characters/Dialogue/MarriageDialogueElliott",
 	 "When": { "HasSeenEvent": "502261", "Spouse": "Elliott", "Day": "22" },
 	 "Entries": {
-     "funLeave_Elliott": "Good morning, my dear. I brewed us coffee.[395]$0#$e#I'm running to the store today. Shall I fetch anything for you?$1",
-	 "funReturn_Elliott": "I'm not very fond of Joja's selection.$2"
+     "funLeave_Elliott": "อรุณสวัสดิ์ ยอดรัก ผมชงกาแฟไว้ให้แล้ว[395]$0#$e#วันนี้ผมจะไป ที่ร้านโจจ้าซักหน่อย ให้ผมซื้ออะไร กลับมาให้คุณด้วยมั้ย?$1",
+	 "funReturn_Elliott": "ผมไม่ค่อยชอบ ของที่ร้านโจจ้าซักเท่าไหร่$2"
      },
 },
 
@@ -25914,8 +25914,8 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Leah",
 	 "Entries": { 
-	 "JojaDay_Leah": "I don't think there's anything organic here.$2",
-     "JojaDay1_Leah": "Well, that was disappointing.$2" 
+	 "JojaDay_Leah": "ฉันว่า คงจะไม่มีของ ออร์แกนิค ขายที่นี้หรอก$2",
+     "JojaDay1_Leah": "ก็นะ มันน่าผิดหวังจริงๆ$2" 
 	 }
 },
 {    //Leah Joja Day Marriage Dialogue
@@ -25923,7 +25923,7 @@
 	 "Target": "characters/Dialogue/MarriageDialogueLeah",
 	 "When": { "HasSeenEvent": "502261", "Spouse": "Leah", "Day": "22" },
 	 "Entries": {
-     "funLeave_Leah": "I'm going to take a peak at Joja Mart. I probably won't get anything.$0"
+     "funLeave_Leah": "ฉันจะไปแอบดูที่ร้านโจจ้าซักหน่อยนะ สงสัยฉันคงจะ ไม่ได้อะไรมาแน่เลย .$0"
      },
 },
 
@@ -25941,8 +25941,8 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Andy",
 	 "Entries": { 
-	 "JojaDay_Andy": "Stock up while you can, farmer. Seeds don't get cheaper than this!$0",
-     "JojaDay1_Andy": "%Andy is checking out."  	 
+	 "JojaDay_Andy": "ซื้อของตุนไว้ให้เยอะ เท่าที่คุณจะทำได้ล่ะ ชาวไร่  เมล็ดพันธุ์ไม่มีราคาถูก ลงไปมากกว่านี้แล้ว!$0",
+     "JojaDay1_Andy": "%แอนดี้กำลังจ่ายเงิน"  	 
 	 }
 },
 {    //Schedule Strings
@@ -25950,7 +25950,7 @@
 	 "Target": "characters/dialogue/Andy",
 	 "When": { "HasSeenEvent": "502261", "Day": "22" },
 	 "Entries": { 
-	 "JojaMart": "Stock up while you can, farmer. Seeds don't get cheaper than this!$0",	 
+	 "JojaMart": "ซื้อของตุนไว้ให้เยอะ เท่าที่คุณจะทำได้ล่ะ ชาวไร่  เมล็ดพันธุ์ไม่มีราคาถูก ลงไปมากกว่านี้แล้ว!$0",	 
 	 }
 },
 
@@ -25967,7 +25967,7 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Willy",
 	 "Entries": { 
-	 "JojaDay_Willy": "Arr..not a single patron all day.$2" 
+	 "JojaDay_Willy": "อ่าา .. วันนี้ทั้งวันไม่มีลูกค้าเลย$2" 
 	 }
 },
 
@@ -25993,8 +25993,8 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Claire",
 	 "Entries": { 
-	 "JojaDay_Claire": "Hi, @. Seeds are on sale today if you wanted to pick any up.$1",
-	 "JojaDay1_Claire": "Th-thank you, sir!$1"
+	 "JojaDay_Claire": "หวัดดี @ วันนี้เมล็ดพันธุ์ก็ลดราคานะ ถ้าคุณอยากจะเลือกซื้อน่ะ$1",
+	 "JojaDay1_Claire": "ขอ-ขอบพระคุณค่ะ !$1"
 	 }
 },
 {    //Claire Joja Day Marriage Dialogue
@@ -26002,8 +26002,8 @@
 	 "Target": "characters/Dialogue/MarriageDialogueClaire",
 	 "When": { "HasSeenEvent": "502261", "Spouse": "Claire", "Day": "22" },
 	 "Entries": {
-     "funLeave_Claire": "It's going to be a very busy day for me...$0",
-	 "funReturn_Claire": "I just want to roll into bad. I'm exhausted from standing all day.$2"
+     "funLeave_Claire": "วันนี้ต้องเป็นวันที่ยุ่งมากๆ สำหรับฉันเลยล่ะ...$0",
+	 "funReturn_Claire": "ฉันอยากจะ ม้วนตัวลงบนเตียงแล้วล่ะ ฉันเหนื่อยมากที่ต้องยืนทั้งวัน$2"
      },
 },
 
@@ -26021,8 +26021,8 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Martin",
 	 "Entries": { 
-	 "JojaDay_Martin": "Hey! I thought I'd probably see you around today. I'm in charge of selling these Joja decorations!$0",
-	 "JojaDay1_Martin": "I wasn't expecting this. Thank you!$1"
+	 "JojaDay_Martin": "ไงครับ! ผมคิดแล้วเชียว ว่าผมน่าจะได้เจอคุณในวันนี้ วันนี้ผมเป็นหัวหน้าฝ่ายขาย สินค้าตกแต่งในโจจ้าครับ!$0",
+	 "JojaDay1_Martin": "ผมไม่ได้คาดหวังเลย ขอบคุณครับ!$1"
 	 }
 },
 
@@ -26049,11 +26049,11 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/MorrisTod",
 	 "Entries": { 
-	 "JojaDay_MorrisTod": "Welcome! Welcome!$4",
-	 "JojaDay1_MorrisTod": "Ah, Olivia! Lovely as always.$1",
-	 "JojaDay2_MorrisTod": "We're getting a mighty large amount of business today!$0",
-	 "JojaDay3_MorrisTod": "Thank you everyone for your hard work today! You'll all receive bonuses in your next pay checks!$1",
-	 "JojaDay4_MorrisTod": "Ah, @. It's past closing hours. Is there something I can help you with?$0"
+	 "JojaDay_MorrisTod": "ยินดีต้องรับ! เชิญเลย!$4",
+	 "JojaDay1_MorrisTod": "อาา  โอลิเวีย! งดงามเหมือนเช่นเคย$1",
+	 "JojaDay2_MorrisTod": "วันนี้กิจการของเรา ทำเงินได้เป็นกอบเป็นกำ!$0",
+	 "JojaDay3_MorrisTod": "ขอบคุณทุกคน ที่ทำงานอย่างเหน็ดเหนื่อย ในวันนี้! พวกคุณทั้งหมด จะได้รับโบนัส ในการจ่ายงเงินเดือน รอบถัดไป!$1",
+	 "JojaDay4_MorrisTod": "อ้อ @ นี่เลยเวลาปิดร้าน มาแล้วนะครับ?$0"
 	 }
 },
 
@@ -26071,10 +26071,10 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Caroline",
 	 "Entries": { 
-	 "JojaDay1_Caroline": "Come on in, folks! We have fresh local organic produce that arrived this morning!$1", 
-	 "JojaDay2_Caroline": "Sorry, honey. I tried my best. Everyone went to Joja Mart instead...$2", 
-	 "JojaDay3_Caroline": "Hi, @.$2", 
-	 "JojaDay4_Caroline": "This is horrible...$2" 
+	 "JojaDay1_Caroline": "เร่เข้ามาจ้า ทุกคน! เรามีผักออร์แกนิกปลอดสารพิษ มาใหม่ๆ สดๆ เช้านี้เลยจ้า!$1", 
+	 "JojaDay2_Caroline": "ขอโทษนะ ที่รัก ฉันพยายามเต็มที่แล้ว แต่ทุกคนไปที่ ร้านโจจ้ากันหมด...$2", 
+	 "JojaDay3_Caroline": "หวัดดี @$2", 
+	 "JojaDay4_Caroline": "นี่มันเลวร้ายที่สุด...$2" 
 	 }
 },
 
@@ -26091,9 +26091,9 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Pierre",
 	 "Entries": { 
-	 "JojaDay1_Pierre": "No customers today. Gee, I wonder why.$2", 
-	 "JojaDay2_Pierre": "You didn't try hard enough out there! I should've gone out instead!!!$3", 
-	 "JojaDay3_Pierre": "We lost a lot of money today.$2"
+	 "JojaDay1_Pierre": "ไม่มีลูกค้าเลย ชิ สงสัยจริง$2", 
+	 "JojaDay2_Pierre": "คุณยังพยายามไม่มากพอน่ะสิ! เดี๋ยวผมออกไปข้างนอกเอง!!!$3", 
+	 "JojaDay3_Pierre": "วันนี้เราเสียเงินไปมากมาย$2"
 	 }
 },
 
@@ -26111,8 +26111,8 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Susan",
 	 "Entries": { 
-	 "JojaDay1_Susan": "It's important to support friends on a day like this.$2", 
-	 "JojaDay2_Susan": "I'll take all of these, Pierre! They really don't sell seeds like yours at Joja Mart.$1" 
+	 "JojaDay1_Susan": "มันเป็นเรื่องสำคัญนะ ที่จะต้องคอยสนับสนุนเพื่อน ในวันแบบนี้$2", 
+	 "JojaDay2_Susan": "ฉันขอนี่หมดเลย ปิแอร์! พวกเขาไม่ได้ขาย เมล็ดพืชแบบที่คุณมี ที่ร้านโจจ้านั่นหรอก$1" 
 	 }
 },
 
@@ -26130,7 +26130,7 @@
 	 "Action": "EditData",
 	 "Target": "strings/schedules/Sophia",
 	 "Entries": { 
-	 "JojaDay_Sophia": "I don't like Joja Day...$2" 
+	 "JojaDay_Sophia": "ฉันไม่ชอบวันโจจ้า...$2" 
 	 }
 },
 {    //Sophia Joja Day Marriage Dialogue
@@ -26138,8 +26138,8 @@
 	 "Target": "characters/Dialogue/MarriageDialogueSophia",
 	 "When": { "HasSeenEvent": "502261", "Spouse": "Sophia", "Day": "22" },
 	 "Entries": {
-     "funLeave_Sophia": "I don't like Joja Day...$2#$e#It just... reminds me of too much.$2",
-     "funReturn_Sophia": "I've felt weird all day.$2"
+     "funLeave_Sophia": "เค้าไม่ชอบวันโจจ้าเลย...$2#$e#มันก็แค่... ทำให้เค้าคิดถึงอะไร เยอะมากเกินไป$2",
+     "funReturn_Sophia": "เค้ารู้สึกแปลกๆ ทั้งวันเลยล่ะ$2"
      },
 },
 
@@ -27313,7 +27313,7 @@
 	 "Target": "data/events/farmhouse",
 	 "When": { "FarmType": "Standard, FourCorners, Forest, Hilltop, Riverland, Wilderness" },
 	 "Entries": {
-	 "1836459/e 3900074/O Shane/f Shane 3000/t 610 1600/w sunny/z winter": "continue/-500 -500/Shane 71 10 2/changeLocation farm/addTemporaryActor CharlieChicken 16 32 -30 -30 2/makeInvisible 69 10 4 1/positionOffset Shane 20 5 true/pause 800/viewport 71 10 clamp true/skippable/pause 2000/speak Shane \"Ah... What a nice day.$6\"/pause 1500/warp CharlieChicken 70 10/playSound doorClose/pause 500/playSound cluck/pause 600/faceDirection Shane 3/pause 500/speak Shane \"Hey, Charlie.$6\"/pause 500/faceDirection CharlieChicken 1 true/pause 650/playSound cluck/shake CharlieChicken 500/pause 500/playSound cluck/pause 500/jump CharlieChicken/pause 800/playSound cluck/pause 500/speak Shane \"You want to be picked up? Okay!$1\"/pause 650/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/showFrame Shane 15 true/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 300/shake Shane 500/pause 200/playSound dwop/warp CharlieChicken -30 -30/pause 700/faceDirection Shane 3 true/pause 300/showFrame Shane 28 true/pause 2000/speak Shane \"%farm Farm isn't far away from our old home, yet it feels so different.$9#$b#I feel like I have a clear head here. I don't think about bad things.$9#$b#All I need in life is you and @.$8\"/pause 500/playSound cluck/pause 300/shake Shane 800/pause 600/playSound cluck/pause 500/speak Shane \"Haha! Stop that! It tickles!$8\"/pause 300/shake Shane 600/pause 200/playSound cluck/pause 800/playSound cluck/globalFade/viewport -1000 -1000/pause 1000/end dialogue Shane \"I don't think I've seen Charlie so happy. I'm glad we were able to find a spot for his chicken coop.$6#$e#And hey. Thank you for being my life.$4\"",
+	 "1836459/e 3900074/O Shane/f Shane 3000/t 610 1600/w sunny/z winter": "continue/-500 -500/Shane 71 10 2/changeLocation farm/addTemporaryActor CharlieChicken 16 32 -30 -30 2/makeInvisible 69 10 4 1/positionOffset Shane 20 5 true/pause 800/viewport 71 10 clamp true/skippable/pause 2000/speak Shane \"ฮ่าห์... เป็นวันที่ดีจริงๆ$6\"/pause 1500/warp CharlieChicken 70 10/playSound doorClose/pause 500/playSound cluck/pause 600/faceDirection Shane 3/pause 500/speak Shane \"เฮ้ ชาลี$6\"/pause 500/faceDirection CharlieChicken 1 true/pause 650/playSound cluck/shake CharlieChicken 500/pause 500/playSound cluck/pause 500/jump CharlieChicken/pause 800/playSound cluck/pause 500/speak Shane \"อยากให้อุ้มหรอ? เอาสิ!$1\"/pause 650/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/showFrame Shane 15 true/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 300/shake Shane 500/pause 200/playSound dwop/warp CharlieChicken -30 -30/pause 700/faceDirection Shane 3 true/pause 300/showFrame Shane 28 true/pause 2000/speak Shane \"ฟาร์ม %farm อยู่ไม่ไกลจากบ้านเก่าของเรานะ แต่มันให้ความรู้สึกที่แตกต่าง$9#$b#ฉันรู้สึกสมองปลอดโปร่ง เวลาที่อยู่ที่นี่ ฉันไม่ต้องคิดเรื่องไม่ดี$9#$b#ในชีวิตของฉัน ต้องการแค่นาย และ @$8\"/pause 500/playSound cluck/pause 300/shake Shane 800/pause 600/playSound cluck/pause 500/speak Shane \"ฮ่า ฮ่า! หยุดนะ! มันจั๊กจี้!$8\"/pause 300/shake Shane 600/pause 200/playSound cluck/pause 800/playSound cluck/globalFade/viewport -1000 -1000/pause 1000/end dialogue Shane \"ผมไม่คิดเลยว่า จะได้เห็นชาลี มีความสุขแบบนี้ ผมดีใจจริงๆ ที่เราสามารถหาที่้หมาะๆ เพื่อสร้างคอกให้เขาได้$6#$e#แล้วก็ นี่ ของคุณที่เข้ามา เติมเต็มในชีวิตของผม$4\"",
 	 },
 },
 
@@ -27322,7 +27322,7 @@
 	 "Target": "data/events/farmhouse",
 	 "When": { "FarmType": "Beach" },
 	 "Entries": {
-	 "1836459/e 3900074/O Shane/f Shane 3000/t 610 1600/w sunny/z winter": "continue/-500 -500/Shane 81 5 2/changeLocation farm/addTemporaryActor CharlieChicken 16 32 -30 -30 2/makeInvisible 79 5 4 1/positionOffset Shane 20 5 true/pause 800/viewport 81 5 clamp true/skippable/pause 2000/speak Shane \"Ah... What a nice day.$6\"/pause 1500/warp CharlieChicken 80 5/playSound doorClose/pause 500/playSound cluck/pause 600/faceDirection Shane 3/pause 500/speak Shane \"Hey, Charlie.$6\"/pause 500/faceDirection CharlieChicken 1 true/pause 650/playSound cluck/shake CharlieChicken 500/pause 500/playSound cluck/pause 500/jump CharlieChicken/pause 800/playSound cluck/pause 500/speak Shane \"You want to be picked up? Okay!$1\"/pause 650/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/showFrame Shane 15 true/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 300/shake Shane 500/pause 200/playSound dwop/warp CharlieChicken -30 -30/pause 700/faceDirection Shane 3 true/pause 300/showFrame Shane 28 true/pause 2000/speak Shane \"%farm Farm isn't far away from our old home, yet it feels so different.$9#$b#I feel like I have a clear head here. I don't think about bad things.$9#$b#All I need in life is you and @.$8\"/pause 500/playSound cluck/pause 300/shake Shane 800/pause 600/playSound cluck/pause 500/speak Shane \"Haha! Stop that! It tickles!$8\"/pause 300/shake Shane 600/pause 200/playSound cluck/pause 800/playSound cluck/globalFade/viewport -1000 -1000/pause 1000/end dialogue Shane \"I don't think I've seen Charlie so happy. I'm glad we were able to find a spot for his chicken coop.$6#$e#And hey. Thank you for being my life.$4\"",
+	 "1836459/e 3900074/O Shane/f Shane 3000/t 610 1600/w sunny/z winter": "continue/-500 -500/Shane 81 5 2/changeLocation farm/addTemporaryActor CharlieChicken 16 32 -30 -30 2/makeInvisible 79 5 4 1/positionOffset Shane 20 5 true/pause 800/viewport 81 5 clamp true/skippable/pause 2000/speak Shane \"ฮ่าห์... เป็นวันที่ดีจริงๆ$6\"/pause 1500/warp CharlieChicken 80 5/playSound doorClose/pause 500/playSound cluck/pause 600/faceDirection Shane 3/pause 500/speak Shane \"เฮ้ ชาลี$6\"/pause 500/faceDirection CharlieChicken 1 true/pause 650/playSound cluck/shake CharlieChicken 500/pause 500/playSound cluck/pause 500/jump CharlieChicken/pause 800/playSound cluck/pause 500/speak Shane \"อยากให้อุ้มหรอ? เอาสิ!$1\"/pause 650/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/showFrame Shane 15 true/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 300/shake Shane 500/pause 200/playSound dwop/warp CharlieChicken -30 -30/pause 700/faceDirection Shane 3 true/pause 300/showFrame Shane 28 true/pause 2000/speak Shane \"ฟาร์ม %farm อยู่ไม่ไกลจากบ้านเก่าของเรานะ แต่มันให้ความรู้สึกที่แตกต่าง$9#$b#ฉันรู้สึกสมองปลอดโปร่ง เวลาที่อยู่ที่นี่ ฉันไม่ต้องคิดเรื่องไม่ดี$9#$b#ในชีวิตของฉัน ต้องการแค่นาย และ @$8\"/pause 500/playSound cluck/pause 300/shake Shane 800/pause 600/playSound cluck/pause 500/speak Shane \"ฮ่า ฮ่า! หยุดนะ! มันจั๊กจี้!$8\"/pause 300/shake Shane 600/pause 200/playSound cluck/pause 800/playSound cluck/globalFade/viewport -1000 -1000/pause 1000/end dialogue Shane \"ผมไม่คิดเลยว่า จะได้เห็นชาลี มีความสุขแบบนี้ ผมดีใจจริงๆ ที่เราสามารถหาที่้หมาะๆ เพื่อสร้างคอกให้เขาได้$6#$e#แล้วก็ นี่ ของคุณที่เข้ามา เติมเต็มในชีวิตของผม$4\"",
 	 },
 },
 
@@ -27331,7 +27331,7 @@
 	 "Target": "data/events/farmhouse",
 	 "When": { "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": true },
 	 "Entries": {
-	 "1836459/e 3900074/O Shane/f Shane 3000/t 610 1600/w sunny/z winter": "continue/-500 -500/Shane 80 41 2/changeLocation farm/addTemporaryActor CharlieChicken 16 32 -30 -30 2/makeInvisible 78 41 4 1/positionOffset Shane 20 5 true/pause 800/viewport 79 41 true/skippable/pause 2000/speak Shane \"Ah... What a nice day.$6\"/pause 1500/warp CharlieChicken 79 41/playSound doorClose/pause 500/playSound cluck/pause 600/faceDirection Shane 3/pause 500/speak Shane \"Hey, Charlie.$6\"/pause 500/faceDirection CharlieChicken 1 true/pause 650/playSound cluck/shake CharlieChicken 500/pause 500/playSound cluck/pause 500/jump CharlieChicken/pause 800/playSound cluck/pause 500/speak Shane \"You want to be picked up? Okay!$1\"/pause 650/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/showFrame Shane 15 true/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 300/shake Shane 500/pause 200/playSound dwop/warp CharlieChicken -30 -30/pause 700/faceDirection Shane 3 true/pause 300/showFrame Shane 28 true/pause 2000/speak Shane \"%farm Farm isn't far away from our old home, yet it feels so different.$9#$b#I feel like I have a clear head here. I don't think about bad things.$9#$b#All I need in life is you and @.$8\"/pause 500/playSound cluck/pause 300/shake Shane 800/pause 600/playSound cluck/pause 500/speak Shane \"Haha! Stop that! It tickles!$8\"/pause 300/shake Shane 600/pause 200/playSound cluck/pause 800/playSound cluck/globalFade/viewport -1000 -1000/pause 1000/end dialogue Shane \"I don't think I've seen Charlie so happy. I'm glad we were able to find a spot for his chicken coop.$6#$e#And hey. Thank you for being my life.$4\"",
+	 "1836459/e 3900074/O Shane/f Shane 3000/t 610 1600/w sunny/z winter": "continue/-500 -500/Shane 80 41 2/changeLocation farm/addTemporaryActor CharlieChicken 16 32 -30 -30 2/makeInvisible 78 41 4 1/positionOffset Shane 20 5 true/pause 800/viewport 79 41 true/skippable/pause 2000/speak Shane \"ฮ่าห์... เป็นวันที่ดีจริงๆ$6\"/pause 1500/warp CharlieChicken 79 41/playSound doorClose/pause 500/playSound cluck/pause 600/faceDirection Shane 3/pause 500/speak Shane \"เฮ้ ชาลี$6\"/pause 500/faceDirection CharlieChicken 1 true/pause 650/playSound cluck/shake CharlieChicken 500/pause 500/playSound cluck/pause 500/jump CharlieChicken/pause 800/playSound cluck/pause 500/speak Shane \"อยากให้อุ้มหรอ? เอาสิ!$1\"/pause 650/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/showFrame Shane 15 true/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 50/positionOffset Shane -1 0 true/pause 300/shake Shane 500/pause 200/playSound dwop/warp CharlieChicken -30 -30/pause 700/faceDirection Shane 3 true/pause 300/showFrame Shane 28 true/pause 2000/speak Shane \"ฟาร์ม %farm อยู่ไม่ไกลจากบ้านเก่าของเรานะ แต่มันให้ความรู้สึกที่แตกต่าง$9#$b#ฉันรู้สึกสมองปลอดโปร่ง เวลาที่อยู่ที่นี่ ฉันไม่ต้องคิดเรื่องไม่ดี$9#$b#ในชีวิตของฉัน ต้องการแค่นาย และ @$8\"/pause 500/playSound cluck/pause 300/shake Shane 800/pause 600/playSound cluck/pause 500/speak Shane \"ฮ่า ฮ่า! หยุดนะ! มันจั๊กจี้!$8\"/pause 300/shake Shane 600/pause 200/playSound cluck/pause 800/playSound cluck/globalFade/viewport -1000 -1000/pause 1000/end dialogue Shane \"ผมไม่คิดเลยว่า จะได้เห็นชาลี มีความสุขแบบนี้ ผมดีใจจริงๆ ที่เราสามารถหาที่้หมาะๆ เพื่อสร้างคอกให้เขาได้$6#$e#แล้วก็ นี่ ของคุณที่เข้ามา เติมเต็มในชีวิตของผม$4\"",
 	 },
 },
 
@@ -27353,7 +27353,7 @@
      "Target": "Data/NPCGiftTastes",
 	 "When": { "HasSeenEvent": "3917586", "HasMod |contains=tenthousandcats.ImmersiveCShane": false },
      "Entries": {
-      "Shane": "Oh wow, @! How'd you know this is my favorite?/206 215 260 306 174 182/This is great! Thanks!/-5 -79 303/I don't really like this./-81 152 330 346 459 303 348 304/Why are you giving me your garbage?/80 342/Oh, you got me something? Thanks!//",
+      "Shane": "โอ้ ว้าว @! คุณรู้ได้ไง ว่านี่เป็นของที่ผมชอบสุดๆ ?/206 215 260 306 174 182/เยี่ยมไปเลย! ขอบใจ!/-5 -79 303/ผมไม่ชอบมันเลยนะ/-81 152 330 346 459 303 348 304/คุณเอาขยะนี่ มาให้ผมทำไมเนี่ย?/80 342/โอ้ นี่ให้ผมหรอ? ขอบใจ!//",
      }
 },
 
@@ -27362,7 +27362,7 @@
 	 "Target": "characters/dialogue/MarriageDialogueShane",
 	 "When": { "HasSeenEvent": "3917586", "HasMod |contains=tenthousandcats.ImmersiveCShane": false },
 	 "Entries": {
-     "Indoor_Night_0": "I'm just gonna have some water before closing my eyes for the night.",
+     "Indoor_Night_0": "ผมต้องไปหาน้ำดื่มซักหน่อย ก่อนที่จะปิดตาลงนอนในคืนนี้",
      },
 },
 
@@ -27371,7 +27371,7 @@
 	 "Target": "characters/dialogue/MarriageDialogue",
 	 "When": { "HasSeenEvent": "3917586", "HasMod |contains=tenthousandcats.ImmersiveCShane": false },
 	 "Entries": {
-     "spouseRoom_Shane": "Oh, hey. I'm just grabbing a bottle of water out of the fridge. I like 'em cold.$0#$e#Do you have any cool plans today?$6",
+     "spouseRoom_Shane": "โอ้ ไง ผมพึ่งจะหยิบขวดน้ำ ออกมาจากตู้เย็น ผมชอบดื่มแบบเย็นๆ$0#$e#วันนี้คุณมีแผนอะไรเด็ดๆ บ้างมั้ย?$6",
      },
 },
 
