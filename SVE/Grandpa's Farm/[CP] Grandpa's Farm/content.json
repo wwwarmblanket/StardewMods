@@ -133,9 +133,16 @@
     { //Remove Static Fences
       "Action": "EditMap",
       "Target": "Maps/Farm,Maps",
-      "FromFile": "assets/MapPatches/GrandpasFarm_RemoveFences.tbin",
+      "FromFile": "assets/MapPatches/GrandpasFarm_RemoveFences1.tbin",
       "ToArea": { "X": 35, "Y": 35, "Width": 35, "Height": 50 },
-      "When": { "FarmType": "Standard", "RemoveFences": "true", "SandboxLayout": "false" }
+      "When": { "FarmType": "Standard", "RemoveFences": "true", "RemoveGrassStretch": "true", "SandboxLayout": "false" }
+    },
+	{ //Remove Static Fences
+      "Action": "EditMap",
+      "Target": "Maps/Farm,Maps",
+      "FromFile": "assets/MapPatches/GrandpasFarm_RemoveFences2.tbin",
+      "ToArea": { "X": 35, "Y": 35, "Width": 35, "Height": 50 },
+      "When": { "FarmType": "Standard", "RemoveFences": "true", "RemoveGrassStretch": "false", "SandboxLayout": "false" }
     },
 	
 	{ //Removes grass stretch
@@ -166,7 +173,7 @@
       "Action": "EditMap",
       "Target": "Maps/Farm,Maps",
       "FromFile": "assets/MapPatches/GrandpasFarm_RemoveFences_HeavyDebris.tbin",
-      "ToArea": { "X": 35, "Y": 35, "Width": 35, "Height": 50 },
+      "ToArea": { "X": 35, "Y": 35, "Width": 34, "Height": 50 },
       "When": { "FarmType": "Standard", "HeavyDebris": "true", "RemoveFences": "true", }
     },
 	
@@ -272,7 +279,7 @@
      "Target": "Maps/Farm,Maps",
      "FromFile": "assets/MapPatches/GrandpasFarm_ForestTravelingMerchant_Gone.tbin",
      "ToArea": { "X": 27, "Y": 95,"Width": 1, "Height": 2 },
-     "When": { "Time": "{{Range: 2000, 2600}}", "DayOfWeek": "Friday, Sunday" },
+     "When": { "DayOfWeek": "Friday, Sunday" },
 	 "PatchMode": "Overlay",
 	 "Update": "OnLocationChange"
     },
@@ -387,7 +394,7 @@
 	 "Target": "data/events/Farm",
 	 "When": { "FarmType": "Standard" },
 	 "Entries": {
-	 "2554909/n BridgeBuilt/t 600 1150/H": "continue/64 15/farmer 64 15 2 Robin 64 17 0/skippable/pause 1000/speak Robin \"หวัดดีตอนเช้า  @! เธอรวบรวมหินมาได้ทั้งหมด ตามที่ฉันต้องการเลยนะเนี่ย!$1#$b#วันพรุ่งนี้ ฉันจะเริ่มสร้างสะพาน เป็นอย่างแรกเลย!$0\"/pause 500/end",              
+	 "2554909/n BridgeBuilt/t 600 1150/H": "continue/64 15/farmer 64 15 2 Robin 64 17 0/skippable/pause 1000/speak Robin \"หวัดดีตอนเช้า @! เธอรวบรวมหินมาได้ทั้งหมด ตามที่ฉันต้องการเลยนะเนี่ย!$1#$b#วันพรุ่งนี้ ฉันจะเริ่มสร้างสะพาน เป็นอย่างแรกเลย!$0\"/pause 500/end",              
 	    },
     },
 
@@ -613,7 +620,7 @@
 	 "Target": "data/events/ManorHouse",
 	 "When": { "HasSeenEvent |contains=6665293": false },
 	 "Entries": {
-	 "8033859/e 8033758/H": "50s/-500 -500/farmer 5 11 0 Lewis 8 5 0 Marnie 22 4 1/positionOffset Marnie -6 10/showFrame Marnie 32 true/viewport 5 9 clamp true/skippable/move farmer 0 -2 0/pause 1000/faceDirection Lewis 3 true/pause 200/faceDirection Lewis 2 true/pause 300/emote Lewis 16/pause 300/faceDirection Lewis 3 true/pause 100/move Lewis -2 0 2/move Lewis 0 1 3/move Lewis -1 0 2/move Lewis 0 1 2/pause 650/speak Lewis \"โทษที ไม่ได้ยินเสียงเธอ จากที่อ่างล้างจานนี่เลย ฉันต้องล้างมือ ให้สะอาดดีซะก่อน$0\"/pause 600/emote farmer 40/pause 150/speak Lewis \"ว่าไง เธอตัดสินใจที่จะซื้อที่ดิน แล้วใช่มั้ย? แหม ข่าวดีเลยนะ$0#$b#ถ้ามีใครที่จะได้ใช้ประโยชน์ จากผืนดินนั้น ก็ต้องเป็นเธอล่ะนะ$1\"/pause 650/faceDirection Lewis 3 true/pause 500/speak Lewis \"ใช้สมุดบัญชีเล่มสีแดงนั่น เพื่อทำการซื้อโฉนดที่ดิน แล้วก็นำมันมา ให้ฉันเซ็นต์รับรอง$0\"/pause 400/faceDirection Lewis 2 true/pause 500/speak Lewis \"ฉันจะคอยเฝ้าดู ว่าเธอจะทำอะไร กับที่ว่างตรงนั้น @$0#$b#เอาล่ะ เดี๋ยวฉันต้องไปจัดการอะไรสักหน่อย ค่อยมาหาฉันวันนี้อีกที พร้อมกับโฉนดที่ดิน ที่กรอกรายละเอียดแล้ว$0\"/pause 500/end dialogueWarpOut Lewis \"บ่อน้ำใหม่ของเธอ อยู่ให้ทำเลที่ดีทีเดียว$1#$e#อ้า ฉันต้องไปจัดการเรื่องอะไรน่ะเรอะ? ไม่ใช่เรื่องที่เธอ ต้องมาใส่ใจหรอก$0#$e#...$3#$e#%เลวิสไม่สนใจคุณ\""
+	 "8033859/e 8033758/H": "50s/-500 -500/farmer 5 11 0 Lewis 8 5 0 Marnie 22 4 1/positionOffset Marnie -6 10/viewport 5 9 clamp true/skippable/move farmer 0 -2 0/pause 1000/faceDirection Lewis 3 true/pause 200/faceDirection Lewis 2 true/pause 300/emote Lewis 16/pause 300/faceDirection Lewis 3 true/pause 100/move Lewis -2 0 2/move Lewis 0 1 3/move Lewis -1 0 2/move Lewis 0 1 2/pause 650/speak Lewis \"โทษที ไม่ได้ยินเสียงเธอ จากที่อ่างล้างจานนี่เลย ฉันต้องล้างมือ ให้สะอาดดีซะก่อน$0\"/pause 600/emote farmer 40/pause 150/speak Lewis \"ว่าไง เธอตัดสินใจที่จะซื้อที่ดิน แล้วใช่มั้ย? แหม ข่าวดีเลยนะ$0#$b#ถ้ามีใครที่จะได้ใช้ประโยชน์ จากผืนดินนั้น ก็ต้องเป็นเธอล่ะนะ$1\"/pause 650/faceDirection Lewis 3 true/pause 500/speak Lewis \"ใช้สมุดบัญชีเล่มสีแดงนั่น เพื่อทำการซื้อโฉนดที่ดิน แล้วก็นำมันมา ให้ฉันเซ็นต์รับรอง$0\"/pause 400/faceDirection Lewis 2 true/pause 500/speak Lewis \"ฉันจะคอยเฝ้าดู ว่าเธอจะทำอะไร กับที่ว่างตรงนั้น @$0#$b#เอาล่ะ เดี๋ยวฉันต้องไปจัดการอะไรสักหน่อย ค่อยมาหาฉันวันนี้อีกที พร้อมกับโฉนดที่ดิน ที่กรอกรายละเอียดแล้ว$0\"/pause 500/end dialogueWarpOut Lewis \"บ่อน้ำใหม่ของเธอ อยู่ให้ทำเลที่ดีทีเดียว$1#$e#อ้า ฉันต้องไปจัดการเรื่องอะไรน่ะเรอะ? ไม่ใช่เรื่องที่เธอ ต้องมาใส่ใจหรอก$0#$e#...$3#$e#%เลวิสไม่สนใจคุณ\""
 	 },
 },
 
