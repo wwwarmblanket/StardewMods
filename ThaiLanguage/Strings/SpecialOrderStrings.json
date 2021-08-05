@@ -71,7 +71,7 @@
         "Clint_Text": "จำนวนของ {Monster:LocalizedName} ในถ้ำของเรา เริ่มจะเป็นอันตรายกับการขุดเหมืองแล้ว... ก็สำหรับคนอื่นน่ะสิ ฉันน่ะสบายมาก! แถมยังทำเงินได้ดีด้วยนา ถ้าใครจัดการกับพวกมันได้ 50 ตัว          -คลินท์",
         "Clint_Objective_0_Text": "กำจัด {Monster:LocalizedName} 50 ตัว",
         "Clint_RE_Monster_0_LocalizedName": "ค้างคาว (Bat)",
-        "Clint_RE_Monster_1_LocalizedName": "ภูติฝุ่นผง (Dust Spirit)",
+        "Clint_RE_Monster_1_LocalizedName": "ภูตฝุ่นผง (Dust Spirit)",
         "Clint_RE_Monster_2_LocalizedName": "โครงกระดูก (Skeleton)",
         "Clint_RE_Monster_3_LocalizedName": "ตัวอ่อนแมลง (Grub)",
         "Linus_Name": "Community Cleanup",
