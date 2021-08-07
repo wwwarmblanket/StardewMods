@@ -4656,7 +4656,7 @@
      "Target": "Data/objectinformation",
      "When": { "HasSeenEvent": "5407916" },
 	 "Entries": {
-	 "348": "Wine/400/60/Basic -26/Wine/Drink in moderation./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+	 "348": "Wine/400/60/Basic -26/Wine/(ไวน์) ดื่มแต่พอดี/drink/0 0 0 0 0 0 0 0 0 0 0/0",
 	 },
 	 "Update": "OnTimeChange"
 },
@@ -28387,7 +28387,7 @@
     "Action": "EditData",
     "Target": "Data/ObjectInformation",
 	"Fields": {
-	"191": { 5: "สร้อยคอแปลกตาที่จูนิโม่มอบให้ฉัน มีสาวน้อยมาทำตกไว้สินะ?" },
+	"191": { 5: "(สร้อยคอระยิบระยับ) สร้อยคอแปลกตาที่จูนิโม่มอบให้ฉัน มีสาวน้อยมาทำตกไว้สินะ?" },
     }
 },
 
@@ -28395,7 +28395,7 @@
     "Action": "EditData",
     "Target": "Data/SecretNotes",
 	"Fields": {
-	"25": { 0: "^^ ฉันเจอสร้อยคอด้วยล่ะ! มาที่บ้านกลางป่าสิ! ฉันคิดว่าสร้อยคอนี่เป็นของเธอคนนั้น!" },
+	"25": { 0: "^^ ฉันเจอสร้อยคอด้วยล่ะ! มาที่บ้านกลางป่าสิ! ฉันคิดว่าสร้อยคอนี่ เป็นของเธอคนนั้น!" },
     }
 },
 
@@ -29717,7 +29717,10 @@
 	
     /* TIS-620
 
-         "34": { 1: "
+         Data/BigCraftablesInformation
+         Data/objectinformation
+         Data/SecretNotes
+         Data/Weapons
          _Name":
          Chat_Eternal3
          [#]
