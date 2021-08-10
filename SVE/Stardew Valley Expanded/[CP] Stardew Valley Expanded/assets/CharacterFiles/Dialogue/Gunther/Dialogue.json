@@ -2,8 +2,8 @@
 { 
   //SPECIAL DIALOGUE
   //"Introduction": "You must be Mr. @. Pleasure to meet you.$5^You must be Ms. @. Pleasure to meet you.$5",
-  "pamHouseUpgrade": "I can't say I was surprised in the slightest when Robin told me you were the one responsible for funding Pam's new home.$1",
-  "pamHouseUpgradeAnonymous": "Robin outdid herself with that beautiful home design for Pam.$0#$e#Now I wonder... just who is this mysterious patron? Perhaps I've met them before!$1#$e#%Gunther smiles at me and tips his hat.",
+  "pamHouseUpgrade": "ผมจะไม่พูดว่า ผมรู้สึกแปลกใจแม้แต่น้อย เมื่อตอนที่โรบินบอกว่า คุณเป็นคนอาสาออกเงิน เพื่อสร้างบ้านใหม่ให้แพม$1",
+  "pamHouseUpgradeAnonymous": "โรบินพัฒนาตัวเองไปได้อีกขั้น ด้วยการออกแบบ บ้านแสนสวยหลังนั้นให้แพม$0#$e#ตอนนี้ที่ผมสงสัย...  ใครคือผู้ให้การสนับสนุนลับๆ คนนี้? บางทีผมอาจจะเคยเจอ กับเขาหรือเธอ มาก่อนก็ได้นะครับ!$1#$e#%กันเธอร์ยิ้มให้ฉัน และเอามือจแตะที่หมวกของเขา",
   "Resort_Entering": "วิลลี่ภูมิใจในเรือของเขา มากเลยครับ ได้ยินมาว่าเป็นของ พ่อของเขามาก่อนน่ครับ$0",
   "Resort_Leaving": "บางทีผมคงต้อง จองทัวร์ส่วนตัวของเกาะ บ้างแล้วล่ะครับ...$0",
   "Resort_Shore": "คุณได้พบเพื่อนร่วมงาน ของผมหรือยังครับ? เขาอาศัยอยู่ในถ้ำ บนเกาะนี้แหละ",
