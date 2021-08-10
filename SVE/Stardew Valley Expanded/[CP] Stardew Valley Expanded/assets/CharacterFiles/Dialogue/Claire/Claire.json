@@ -1,6 +1,8 @@
 {
   //SPECIAL DIALOGUE
   "Introduction": "หวัดดี ฉันไม่เคยเห็นคุณ มาก่อนเลย...$0#$e#ขอโทษนะ ฉ-ฉันยังไม่รู้จักคุณ ดีสักเท่าไหร่$2#$e#%แคลร์ถอยออกห่างจากคุณ",
+  "pamHouseUpgrade": "Pelican Town seems different today...$0#$e#Is there a new house where that trailer used to be?$1",
+  "pamHouseUpgradeAnonymous": "Pelican Town seems different today...$0#$e#Is there a new house where that trailer used to be?$1",
   "accept_614": "โอ้ ชาเขียวเหรอ? ขอบคุณค่ะ$1",
   "Town_92_44": "%'ทางเข้าสำหรับพนักงาน'",
   "danceRejection": "โอ้ คุณอยากเต้นงั้นหรอ? อืม... ไว้คราวหน้าดีกว่ามั้ย?$1",

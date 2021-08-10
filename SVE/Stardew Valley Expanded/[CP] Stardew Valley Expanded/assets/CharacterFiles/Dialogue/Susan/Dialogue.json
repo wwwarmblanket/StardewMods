@@ -2,6 +2,8 @@
 {
 //SPECIAL DIALOGUE
 "Introduction": "ฉันรู้สึกขอบคุณที่ โจจ้าจัดการกับหินถล่ม... เทศมนตรีเลวิสและฉัน เจอปัญหามากมาย... พวกเขาควรจัดการหินพวกนั้น$2#$b#โจจ้ายังคง ปฎิเสธที่จะขอโทษ...$3#$e#ไว้พบกันอีกครั้งเร็วๆ นี้... ที่รัก ฉันมีความสุขมาก ในที่สุดฉันก็ได้พบคุณ!$1#$b#มันดีจริงๆ ที่มีชาวไร่อีกคนอยู่ในหุบเขา$4",
+"pamHouseUpgrade": "I envy Robin's craftsmanship. She designed Pam's new home herself!$1",
+"pamHouseUpgradeAnonymous": "I envy Robin's craftsmanship. She designed Pam's new home herself!$1",
 "Resort_Entering": "ปกติฉันไม่ได้ไปเที่ยวกับคนอื่น ในชุมชนเราเท่าไหร่น่ะ แค่นี้ก็สนุกแล้วล่ะ!$1",
 "Resort_Leaving": "วันนี้มีอะไรเกิดขึ้น เยอะแยะเลย!$4",
 "Resort_Shore": "ฉันต้องเอาชนะโรคกลัวทะเล เพื่อมาที่นี่ บอกเลยว่าคุ้มเว่อร์$0",

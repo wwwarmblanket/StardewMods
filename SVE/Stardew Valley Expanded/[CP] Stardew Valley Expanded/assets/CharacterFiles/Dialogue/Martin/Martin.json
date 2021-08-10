@@ -1,6 +1,8 @@
 ﻿{
   //SPECIAL DIALOGUE
   "Introduction": "โอ้ หวัดดี คุณคือเจ้าของใหม่ของฟาร์ม %farm สินะ ผู้จัดการเคยจัดประชุม เรื่องของคุณเลยนา!$0#$b#ผมทำงานพาร์ทไทม์ ที่ร้านโจจ้า$1#$e#เอ่ออ ช่วยลืมที่ผมพูด เรื่องประชุมเมื่อกี้ที มันอาจทำให้ผมงานเข้า$4",
+  "pamHouseUpgrade": "Do you think that lady will be nicer to me at work now?$4",
+  "pamHouseUpgradeAnonymous": "Do you think that lady will be nicer to me at work now?$4",
   "Town_92_44": "%'ทางเข้าของพนังงาน'",
   "BusStop_12_8": "%คนขับรถบัส: จะขึ้นรถมั้ยครับคุณผู้ชาย ถ้าไม่ขึ้นก็ถอยไปหน่อยครับ^%%คนขับรถบัส: จะขึ้นรถมั้ยครับคุณผู้หญิง ถ้าไม่ขึ้นก็ถอยไปหน่อยครับ",
   "Resort_Entering": "เกาะนี่เจ๋งไปเลย!$1",
