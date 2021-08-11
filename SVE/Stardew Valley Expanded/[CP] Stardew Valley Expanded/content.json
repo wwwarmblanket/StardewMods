@@ -738,7 +738,7 @@
 { 
     "Action": "EditData",
     "Target": "Characters/Dialogue/Wizard",
-    "Entries": { "wizardEnchantedGrove": "I feel like we're becoming a wizarding family now!$1#$e#My Nexus is a bit old-fashioned, but I prefer it that way.$0" }
+    "Entries": { "wizardEnchantedGrove": "ข้ารู้สึกเหมือนกับว่า ตอนนี้ พวกเรากลายเป็น ครอบครัวจอมเวทย์แล้ว!$1#$e#Nexus ของข้า จะเป็นแบบโบราณๆ หน่อย เพราะข้าชอบแบบนี้น่ะนะ$0" }
 },
 
 {   //Magic warp [48x48] temp actor load    <<is referenced throughout all enchanted grove events
@@ -774,7 +774,7 @@
 {
    "Action": "EditData",
    "Target": "Data/BigCraftablesInformation",
-   "Entries": { "117": "Wizard's Potion/0/-300/Crafting -9/The Joja soda machine mysteriously formed into the wizard's potion.../true/true/0/Wizard's Potion" },
+   "Entries": { "117": "Wizard's Potion/0/-300/Crafting -9/(น้ำยาของพ่อมด) อยู่ๆ ตู้กดน้ำอัดลมของโจจ้า ก็กลายเป็น น้ำยาของพ่อมด ไปอย่างลึกลับ.../true/true/0/Wizard's Potion" },
    "When": { "LocationName": "Custom_WizardBasement", "HasSeenEvent": "908071", "HasSeenEvent |contains=908072": false },
    "Update": "OnLocationChange"
 },
@@ -858,7 +858,7 @@
 {
    "Action": "EditData",
    "Target": "Data/BigCraftablesInformation",
-   "Entries": { "117": "Green Rupee/0/-300/Crafting -9/The Joja soda machine mysteriously formed into the Green Rupee.../true/true/0/Green Rupee" },
+   "Entries": { "117": "Green Rupee/0/-300/Crafting -9/(กรีน รูปี) อยู่ๆ ตู้กดน้ำอัดลมของโจจ้า ก็กลายเป็น กรีน รูปี ไปอย่างลึกลับ.../true/true/0/Green Rupee" },
    "When": { "LocationName": "AdventureGuild", "HasSeenEvent": "908072", "HasSeenEvent |contains=908073": false },
    "Update": "OnLocationChange"
 },
@@ -1337,7 +1337,7 @@
 {
    "Action": "EditData",
    "Target": "Data/BigCraftablesInformation",
-   "Entries": { "117": "old bottle of Aurora Vineyard Wine/0/-300/Crafting -9/The Joja soda machine mysteriously formed into a bottle of wine.../true/true/0/old bottle of Aurora Vineyard Wine" },
+   "Entries": { "117": "old bottle of Aurora Vineyard Wine/0/-300/Crafting -9/(ไวน์เก่าจากไร่องุ่นออโรร่า) อยู่ๆ ตู้กดน้ำอัดลมของโจจ้า ก็กลายเป็น ไวน์ขวดนึง ไปอย่างลึกลับ.../true/true/0/old bottle of Aurora Vineyard Wine" },
    "When": { "LocationName": "Custom_ApplesRoom", "HasSeenEvent": "908072", "HasSeenEvent |contains=908075": false },
    "Update": "OnLocationChange"
 },
@@ -1411,7 +1411,7 @@
 {
    "Action": "EditData",
    "Target": "Data/BigCraftablesInformation",
-   "Entries": { "117": "Tulip Bouquet/0/-300/Crafting -9/The Joja soda machine mysteriously formed into bouquet of tulips.../true/true/0/Tulip Bouquet" },
+   "Entries": { "117": "Tulip Bouquet/0/-300/Crafting -9/(ช่อดอกทิวลิป) อยู่ๆ ตู้กดน้ำอัดลมของโจจ้า ก็กลายเป็น ช่อดอกทิวลิป ไปอย่างลึกลับ.../true/true/0/Tulip Bouquet" },
    "When": { "LocationName": "Custom_SpriteSpring2", "HasSeenEvent": "908072", "HasSeenEvent |contains=908076": false },
    "Update": "OnLocationChange"
 },
@@ -1499,7 +1499,7 @@
 {
    "Action": "EditData",
    "Target": "Data/BigCraftablesInformation",
-   "Entries": { "117": "Ancient Junimo Scroll/0/-300/Crafting -9/The Joja soda machine mysteriously formed into a Ancient Scroll../true/true/0/Ancient Junimo Scroll" },
+   "Entries": { "117": "Ancient Junimo Scroll/0/-300/Crafting -9/(ม้วนคัมภีร์จูนิโม่โบราณ) อยู่ๆ ตู้กดน้ำอัดลมของโจจ้า ก็กลายเป็น ม้วนคัมภีร์โบราณ ไปอย่างลึกลับ.../true/true/0/Ancient Junimo Scroll" },
    "When": { "LocationName": "Custom_JunimoWoods", "HasSeenEvent": "908072", "HasSeenEvent |contains=908077": false },
    "Update": "OnLocationChange"
 },
@@ -1645,7 +1645,7 @@
 {
    "Action": "EditData",
    "Target": "Data/BigCraftablesInformation",
-   "Entries": { "117": "Swirl Stone/0/-300/Crafting -9/The Joja soda machine mysteriously formed into a Swirl Stone.../true/true/0/Swirl Stone" },
+   "Entries": { "117": "Swirl Stone/0/-300/Crafting -9/(หินม้วน) อยู่ๆ ตู้กดน้ำอัดลมของโจจ้า ก็กลายเป็น หินม้วน ไปอย่างลึกลับ.../true/true/0/Swirl Stone" },
    "When": { "LocationName": "Custom_CastleVillageOutpost", "HasSeenEvent": "908072", "HasSeenEvent |contains=908078": false },
    "Update": "OnLocationChange"
 },
@@ -15952,7 +15952,7 @@
 {
    "Action": "EditData",
    "Target": "Data/BigCraftablesInformation",
-   "Entries": { "117": "Mermaid's Bracelet/0/-300/Crafting -9/The Joja soda machine mysteriously formed into the mermaid's bracelet.../true/true/0/Mermaid's Bracelet" },
+   "Entries": { "117": "Mermaid's Bracelet/0/-300/Crafting -9/(กำไลนางเงือก) อยู่ๆ ตู้กดน้ำอัดลมของโจจ้า ก็กลายเป็น กำไลนางเงือก ไปอย่างลึกลับ.../true/true/0/Mermaid's Bracelet" },
    "When": { "LocationName": "Custom_Atlantis" },
    "Update": "OnLocationChange"
 },
@@ -19041,7 +19041,7 @@
     {
       "Action": "EditData",
       "Target": "Data/BigCraftablesInformation",
-      "Entries": { "117": "Blink Relic/0/-300/Crafting -9/The Joja soda machine mysteriously formed into a Blink Relic.../true/true/0/Blink Relic" },
+      "Entries": { "117": "Blink Relic/0/-300/Crafting -9/(วัตถุเคลื่อนย้ายในพริบตา) อยู่ๆ ตู้กดน้ำอัดลมของโจจ้า ก็กลายเป็น วัตถุเคลื่อนย้ายในพริบตา ไปอย่างลึกลับ.../true/true/0/Blink Relic" },
       "When": { "LocationName": "IslandWest", "HasSeenEvent |contains=6951320": false, "HasFlag |contains=Island_UpgradeHouse": true, "HasFlag |contains=Island_Resort": true, "HasFlag |contains=Island_UpgradeBridge": true, "HasSeenEvent |contains=908078": true, "HasSeenEvent |contains=6951319": true, "Day |contains= 3, 14": false },
       "Update": "OnLocationChange"
     },
