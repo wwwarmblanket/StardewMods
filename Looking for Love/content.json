@@ -1,87 +1,91 @@
+// This Mod For Thai language Transalation and release some bug from FroggyWizard LFL original Version.
+// For Thai User Who has language barrier or the one who want to enjoy Mods with Thai native language.
+// Again, Very thanks to FroggyWizard and  sivolobwho.
+
 {
-	"Format": "1.4",
+	"Format": "1.10.0",
 	
 	"ConfigSchema": {
 		"Date Clint": {
-			"AllowValues": "true, false"
+			"AllowValues": "true, false" ,"Default": "true"
 			},
 		"Clint Looks Sprites": {
-			"AllowValues": "Vanilla, Update, Other"
+			"AllowValues": "Vanilla, Update, Other",  "Default": "Vanilla"
 			},
 		"Clint Looks Portraits": {
-			"AllowValues": "Vanilla, Update, Other"
+			"AllowValues": "Vanilla, Update, Other", "Default": "Vanilla"
 			},
 		"Date Gus": {
-			"AllowValues": "true, false"
+			"AllowValues": "true, false" ,"Default": "true"
 			},
 		"Gus Looks Sprites": {
-			"AllowValues": "Vanilla, Update, Other"
+			"AllowValues": "Vanilla, Update, Other" , "Default": "Vanilla"
 			},		
 		"Gus Looks Portraits": {
-			"AllowValues": "Vanilla, Update, Other"
+			"AllowValues": "Vanilla, Update, Other" , "Default": "Vanilla"
 			},		
 		"Date Lewis": {
-			"AllowValues": "true, false"
+			"AllowValues": "true, false" ,"Default": "true"
 			},
 		"Lewis Looks Sprites": {
-			"AllowValues": "Vanilla, Update, Other"
+			"AllowValues": "Vanilla, Update, Other" , "Default": "Vanilla"
 			},
 		"Lewis Looks Portraits": {
-			"AllowValues": "Vanilla, Update, Other"
+			"AllowValues": "Vanilla, Update, Other" , "Default": "Vanilla"
 			},
 		"Date Linus": {
-			"AllowValues": "true, false"
+			"AllowValues": "true, false" ,"Default": "true"
 			},
-		"Linus Looks Sprites": {
-			"AllowValues": "Vanilla, Update, Other"
+		"Linus Looks Sprites": { 
+			"AllowValues": "Vanilla, Update, Other" , "Default": "Vanilla"
 			},		
 		"Linus Looks Portraits": {
-			"AllowValues": "Vanilla, Update, Other"
+			"AllowValues": "Vanilla, Update, Other" , "Default": "Vanilla"
 			},		
 		"Date Marnie": {
-			"AllowValues": "true, false"
+			"AllowValues": "true, false" ,"Default": "true"
 			},
 		"Marnie Looks Sprites": {
-			"AllowValues": "Vanilla, Update, Other"
+			"AllowValues": "Vanilla, Update, Other"  , "Default": "Vanilla"
 			},
 		"Marnie Looks Portraits": {
-			"AllowValues": "Vanilla, Update, Other"
+			"AllowValues": "Vanilla, Update, Other" , "Default": "Vanilla"
 			},
-		"Date Pam": {
-			"AllowValues": "true, false"
+		"Date Pam": { 
+			"AllowValues": "true, false" ,"Default": "true"
 			},
 		"Pam Looks Sprites": {
-			"AllowValues": "Vanilla, Update, Other"
+			"AllowValues": "Vanilla, Update, Other" , "Default": "Vanilla"
 			},		
-		"Pam Looks Portraits": {
-			"AllowValues": "Vanilla, Update, Other"
+		"Pam Looks Portraits": { 
+			"AllowValues": "Vanilla, Update, Other" , "Default": "Vanilla"
 			},		
 		"Date Sandy": {
-			"AllowValues": "true, false"
+			"AllowValues": "true, false" ,"Default": "true"
 			},
 		"Sandy Looks Sprites": {
-			"AllowValues": "Vanilla, Update, Other"
+			"AllowValues": "Vanilla, Update, Other" , "Default": "Vanilla"
 			},
 		"Sandy Looks Portraits": {
-			"AllowValues": "Vanilla, Update, Other"
+			"AllowValues": "Vanilla, Update, Other"  , "Default": "Vanilla"
 			},
 		"Date Willy": {
-			"AllowValues": "true, false"
+			"AllowValues": "true, false" ,"Default": "true"
 			},
 		"Willy Looks Sprites": {
-			"AllowValues": "Vanilla, Update, Other"
+			"AllowValues": "Vanilla, Update, Other" , "Default": "Vanilla"
 			},	
 		"Willy Looks Portraits": {
-			"AllowValues": "Vanilla, Update, Other"
+			"AllowValues": "Vanilla, Update, Other" , "Default": "Vanilla"
 			},	
 		"Date Wizard": {
-			"AllowValues": "true, false"
+			"AllowValues": "true, false" ,"Default": "true"
 			},
 		"Wizard Looks Sprites": {
-			"AllowValues": "Vanilla, Update, Other"
+			"AllowValues": "Vanilla, Update, Other" , "Default": "Vanilla"
 			},
 		"Wizard Looks Portraits": {
-			"AllowValues": "Vanilla, Update, Other"
+			"AllowValues": "Vanilla, Update, Other" , "Default": "Vanilla"
 			},
 		},
 	"Changes": [
@@ -182,6 +186,26 @@
 			"When": {
 				"Date Clint": "true",
 				"Clint Looks Sprites": "Vanilla",
+			},
+		},
+/////// fix clint disappear while kissing but his head will show up when process geodes	
+		{
+			"LogName": "Clint_fix",
+			"Action": "EditImage",
+			"Target": "Characters/Clint",
+			"FromFile": "assets/Characters/VanillaClint_Kiss.png",
+			"When": {
+				"Relationship:Clint": "Married",
+			},
+		},
+		{
+			"LogName": "Clint_Goede",
+			"Action": "EditImage",
+			"Target": "Characters/Clint",
+			"FromFile": "assets/Characters/VanillaClint.png",
+			"When": {
+				"Relationship:Clint": "Married",
+				"LocationName" : "Blacksmith"
 			},
 		},
 		{
@@ -445,6 +469,17 @@
 				"Wizard Looks Portraits": "Vanilla",
 			},
 		},
+//// Load Wizard Sleep Animation		
+		{
+			"Action": "EditData",
+			"Target": "Data/animationDescriptions",
+			"Entries": {
+				"wizard_sleep": "51/51/51"  
+				},				
+			"When": {
+				"Date Wizard": "true"
+			}
+		},		
 		{
 			"Action": "EditImage",
 			"Target": "Characters/Sandy",
@@ -572,6 +607,15 @@
             "Action": "Load",
             "Target": "Characters/schedules/Clint",
             "FromFile": "assets/Characters/schedules/Clint.json",
+			"When": {
+				"Date Clint": "true",
+			},
+		},
+//// add new Event map Blacksmith		
+		{
+            "Action": "Load",
+            "Target": "Data/Events/Blacksmith",
+            "FromFile": "assets/Data/Events/Blacksmith.xnb",
 			"When": {
 				"Date Clint": "true",
 			},
@@ -1005,7 +1049,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/AnimalShop",
 			"Entries": {
-					   "282815607/D Marnie/f Marnie 2000/t 1400 1800/k 282815608": "continue/24 15/farmer -100 -100 0 Marnie 24 15 0 Lewis 15 18 1/skippable/pause 500/move Marnie 2 0 0/pause 1500/move Marnie -2 0 0/pause 1000/move Lewis 5 0 0/emote Marnie 16/faceDirection Marnie 2/pause 100/speak Marnie \"โอ้ เทศมนตรีเลวิส คุณนี่เอง ตกใจหมดเลยนะเนี่ย#$b# ฉันไม่รู้เลยนะเนี่ย ว่าคุณจะมา$h\"/move Lewis 0 -2 1/speak Lewis \"เอาตามตรงเลยนะ... มานี มี... บางเรื่องที่ฉันอยาก จะคุยด้วยน่ะ$s\"/pause 300/emote Marnie 8/move Marnie 0 1 3/move Marnie -3 0 3/speak Marnie \"อะไรหรอ? มีเรื่องอะไร?$s\"/faceDirection Lewis 2/pause 500/speak Lewis \"มานี... ฉันว่าเราไม่ควร ที่จะเจอกันมาแล้วล่ะ$s\"/emote Marnie 16/speak Marnie \"อะไรนะ? ทำไมถึงพูดอย่างนั้นล่ะ?$s#$b#...คุณก็ดูมีความสุขดีไม่ใช่หรอ?$s\"/pause 500/faceDirection Lewis 1/pause 500/speak Lewis \"พักนี้เธอทำตัวห่างเหินนะ คิดว่าฉันไม่รู้สึกตัวรึไง?$s\"/pause 500/faceDirection Lewis 2/emote Lewis 12/speak Lewis \"ถ้าเธอมีคนอื่นแล้วน่ะ ฉันก็อยากให้เธอบอกฉัน$3\"/pause 1000/emote Marnie 60/speak Marnie \"นี่เลวิส... คุณก็รู้หนิ ฉันน่ะ ไม่เคยนอกใจคุณเลยนะ... คุณก็รู้ใช่มั้ย?$s\"/pause 1000/faceDirection Lewis 1/pause 500/speak Lewis \"ฉันรู้... มานี... ฉันรู้ดีว่าเธอเป็นคนที่ดีมาก$s#$b#แต่... เธอก็มีใจให้เขา ไม่ใช่รึไง?$s^แต่... เธอก็มีใจให้หล่อน ไม่ใช่รึไง?$s\"/pause 500/faceDirection Marnie 1/pause 1500/speak Marnie \"เลวิส... ฉันขอโทษ!$8\"/pause 1500/speak Lewis \"...$s\"/pause 1500/faceDirection Marnie 3/pause 500/speak Marnie \"มันช่วยไม่ได้หนิ ฉัน... ฉันไม่เคยนอกใจนายเลย แต่ฉัน... ฉัน...$s#$b#ฉันชอบเขา$8^ฉันชอบเขา$8\"/pause 2000/faceDirection Lewis 3/pause 1000/speak Lewis \"เธอจะให้ความหวัง กับฉันไปถึงเมื่อไหร่กัน?$s\"/pause 1000/speak Marnie \"...$8\"/pause 500/emote Lewis 12/speak Lewis \"ฉันขอโทษนะมานี แต่เราจบกันตรงนี้แหละ$s\"/pause 500/speak Marnie \"ฉัน... เข้าใจแล้ว ขอโทษนะ เลวิส...$8\"/pause 1500/move Lewis 0 2 3/move Lewis -7 0 3/warp Lewis -100 -100/pause 2000/move Marnie 4 0 1/pause 500/emote Marnie 40/warp farmer 13 18 1/pause 2000/move farmer 7 0 0/emote Marnie 16/faceDirection Marnie 3/speak Marnie \"อ- โอ้... @...$8#$b#น- นี่... นี่มันไม่ใช่เวลาที่ดีเลย...$8\"/question fork1 \"#เธอโอเคมั้ย?#งั้น... เดี๋ยวไว้มาอีกทีละกัน\"/fork noComfortMarnie/pause 500/speak Marnie \"ฉัน... ไม่$8#$b#คุณน่ะ... ได้ยินทุกอย่าง... เลยสินะ?$8\"/pause 300/move farmer 0 -2 1/move farmer 4 0 1/pause 500/speak Marnie \"ฉันรู้สึกแย่มากเลย @$8#$b#ฉันมันเป็นคนที่ ไม่ดีเอาซะเลย... ฉันไม่อยากจะเชื่อเลยว่าฉัน ฉันจะตกหลุมรักคนอื่น ระหว่างที่คบกับเทศมนตรีเลวิส...$8\"/speak Marnie \"$q -1 null#ฉันนี่มันแย่จริงๆ...#$r -1 0 event_marnieBreakup1#เธอไม่ได้เป็นอย่างนั้นนะ เธอก็แค่ควบคุมตัวเองไม่ได้ แค่นั้นเอง#$r -1 0 event_marnieBreakup2#ท่านเทศมนตรีมันบ้า ใครจะไปต้องการ ผู้ชายอย่างเขากันล่ะ?#$r -1 0 event_marnieBreakup3#สงสัยจังเลยน้าาาาา... ตกหลุมรักใครเอ่ยยย?\"/pause 1500/emote Marnie 60/pause 800/speak Marnie \"@... ช่วยอยู่กับฉันซักพักได้มั้ย? ฉันไม่อยากอยู่คนเดียว...$8\"/pause 2000/globalFade/viewport -1000 -1000/pause 3000/friendship Lewis -250/end dialogue Marnie \"ขอบคุณนะ @... ฉันรู้สึกดีขึ้นนิดหน่อย แล้วล่ะ...$4\"/",
+					   "282815607/D Marnie/f Marnie 2000/t 1400 1800/k 282815608": "AbigailFlute/24 15/farmer -100 -100 0 Marnie 24 15 0 Lewis 15 18 1/skippable/pause 500/move Marnie 2 0 0/pause 1500/move Marnie -2 0 0/pause 1000/move Lewis 5 0 0/emote Marnie 16/faceDirection Marnie 2/pause 100/speak Marnie \"โอ้ เทศมนตรีเลวิส คุณนี่เอง ตกใจหมดเลยนะเนี่ย#$b# ฉันไม่รู้เลยนะเนี่ย ว่าคุณจะมา$h\"/move Lewis 0 -2 1/speak Lewis \"เอาตามตรงเลยนะ... มานี มี... บางเรื่องที่ฉันอยาก จะคุยด้วยน่ะ$s\"/pause 300/emote Marnie 8/move Marnie 0 1 3/move Marnie -3 0 3/speak Marnie \"อะไรหรอ? มีเรื่องอะไร?$s\"/faceDirection Lewis 2/pause 500/speak Lewis \"มานี... ฉันว่าเราไม่ควร ที่จะเจอกันมาแล้วล่ะ$s\"/emote Marnie 16/speak Marnie \"อะไรนะ? ทำไมถึงพูดอย่างนั้นล่ะ?$s#$b#...คุณก็ดูมีความสุขดีไม่ใช่หรอ?$s\"/pause 500/faceDirection Lewis 1/pause 500/speak Lewis \"พักนี้เธอทำตัวห่างเหินนะ คิดว่าฉันไม่รู้สึกตัวรึไง?$s\"/pause 500/faceDirection Lewis 2/emote Lewis 12/speak Lewis \"ถ้าเธอมีคนอื่นแล้วน่ะ ฉันก็อยากให้เธอบอกฉัน$3\"/pause 1000/emote Marnie 60/speak Marnie \"นี่เลวิส... คุณก็รู้หนิ ฉันน่ะ ไม่เคยนอกใจคุณเลยนะ... คุณก็รู้ใช่มั้ย?$s\"/pause 1000/faceDirection Lewis 1/pause 500/speak Lewis \"ฉันรู้... มานี... ฉันรู้ดีว่าเธอเป็นคนที่ดีมาก$s#$b#แต่... เธอก็มีใจให้เขา ไม่ใช่รึไง?$s^แต่... เธอก็มีใจให้หล่อน ไม่ใช่รึไง?$s\"/pause 500/faceDirection Marnie 1/pause 1500/speak Marnie \"เลวิส... ฉันขอโทษ!$8\"/pause 1500/speak Lewis \"...$s\"/pause 1500/faceDirection Marnie 3/pause 500/speak Marnie \"มันช่วยไม่ได้หนิ ฉัน... ฉันไม่เคยนอกใจนายเลย แต่ฉัน... ฉัน...$s#$b#ฉันชอบเขา$8^ฉันชอบเขา$8\"/pause 2000/faceDirection Lewis 3/pause 1000/speak Lewis \"เธอจะให้ความหวัง กับฉันไปถึงเมื่อไหร่กัน?$s\"/pause 1000/speak Marnie \"...$8\"/pause 500/emote Lewis 12/speak Lewis \"ฉันขอโทษนะมานี แต่เราจบกันตรงนี้แหละ$s\"/pause 500/speak Marnie \"ฉัน... เข้าใจแล้ว ขอโทษนะ เลวิส...$8\"/pause 1500/move Lewis 0 2 3/move Lewis -7 0 3/warp Lewis -100 -100/pause 2000/move Marnie 4 0 1/pause 500/emote Marnie 40/warp farmer 13 18 1/pause 2000/move farmer 7 0 0/emote Marnie 16/faceDirection Marnie 3/speak Marnie \"อ- โอ้... @...$8#$b#น- นี่... นี่มันไม่ใช่เวลาที่ดีเลย...$8\"/question fork1 \"#เธอโอเคมั้ย?#งั้น... เดี๋ยวไว้มาอีกทีละกัน\"/fork noComfortMarnie/pause 500/speak Marnie \"ฉัน... ไม่$8#$b#คุณน่ะ... ได้ยินทุกอย่าง... เลยสินะ?$8\"/pause 300/move farmer 0 -2 1/move farmer 4 0 1/pause 500/speak Marnie \"ฉันรู้สึกแย่มากเลย @$8#$b#ฉันมันเป็นคนที่ ไม่ดีเอาซะเลย... ฉันไม่อยากจะเชื่อเลยว่าฉัน ฉันจะตกหลุมรักคนอื่น ระหว่างที่คบกับเทศมนตรีเลวิส...$8\"/speak Marnie \"$q -1 null#ฉันนี่มันแย่จริงๆ...#$r -1 0 event_marnieBreakup1#เธอไม่ได้เป็นอย่างนั้นนะ เธอก็แค่ควบคุมตัวเองไม่ได้ แค่นั้นเอง#$r -1 0 event_marnieBreakup2#ท่านเทศมนตรีมันบ้า ใครจะไปต้องการ ผู้ชายอย่างเขากันล่ะ?#$r -1 0 event_marnieBreakup3#สงสัยจังเลยน้าาาาา... ตกหลุมรักใครเอ่ยยย?\"/pause 1500/emote Marnie 60/pause 800/speak Marnie \"@... ช่วยอยู่กับฉันซักพักได้มั้ย? ฉันไม่อยากอยู่คนเดียว...$8\"/pause 2000/globalFade/viewport -1000 -1000/pause 3000/friendship Lewis -250/end dialogue Marnie \"ขอบคุณนะ @... ฉันรู้สึกดีขึ้นนิดหน่อย แล้วล่ะ...$4\"/",
 					   "noComfortMarnie": "pause 500/move Marnie -2 0 2/move Marnie 0 2 3/move Marnie -2 0 3/move farmer 0 -1 2/move Marnie -8 0 0/warp Marnie 12 4 3/friendship Marnie -250/end warpOut",
 			},	
 			"When": {
@@ -1040,7 +1084,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/Farm",
 			"Entries": {
-						"282815611/D Lewis/f Lewis 2500/t 600 1000/d Mon Tue Wed Thu Fri/w sunny": "continue/64 15/farmer 64 15 2 Lewis 65 16 0/emote Lewis 16/speak Lewis \"โอ้! อรุณสวัสดิ์ @ ถ้าฉันมาเช้าไปหน่อย ก็โทษทีนะ$h\"/pause 200/emote farmer 32/pause 200/speak Lewis \"จริงๆ แล้วฉันกำลังสงสัยว่า... ฉันรู้ว่ามันออกจะ ปัจุบันทันด่วนไปหน่อย แต่เธออยากจะไปออกทริป เป็นเพื่อนฉันหน่อยมั้ย?$h\"/pause 300/emote farmer 8/pause 200/speak Lewis \"อ่า คืองี้นะ... ทุกๆ 2-3 ปี ฉันจะไปหานายกเทศมนตรี ของเมืองข้างๆ เพื่อเจรจาธุรกิจกันน่ะ#$b#ก็พวกการค้าขาย การท่องเที่ยว แล้วก็การสร้างโน่น สร้างนี่นั่นแหละ พวกเรื่องน่าเบื่อๆ น่ะ เธอนึกออกใช่ไหม$h\"/pause 500/speak Lewis \"ฉันก็แค่... อยากรู้ว่าเธอจะไปกับฉันไหม? ปีนี้เราจัดการประชุมกันที่เมืองซูซู วันนี้จนถึงวันพรุ่งนี้น่ะ#$b#พวกเขาจะ รับรองเราด้วยโรงแรมดีๆ และเราก็ไปเที่ยวได้ด้วยนะ$h\"/pause 300/emote Lewis 16/speak Lewis \"แต่ถ้าเธอไม่ค่อยสะดวก ก็ไม่เป็นไรนะ พูดจริงๆ ! แค่การเชิญนิดๆ หน่อยๆ น่ะ\"/pause 500/question fork1 \"ไปเมืองซูซูเป็นเพื่อนเลวิสไหม?#ไป#ไม่ไป\"/fork noZuzu/pause 300/emote Lewis 16/speak Lewis \"เยี่ยมไปเลย! มาสิ @!$h\"/globalFade/viewport -1000 -1000/changeLocation Town/viewport -1000 -1000/warp farmer 66 86/warp Lewis 69 84/faceDirection farmer 0/faceDirection Lewis 3/viewport 66 86 true/pause 500/faceDirection Lewis 2/speak Lewis \"เอาสิ ขึ้นมาเลย!$h\"/pause 300/emote farmer 8/pause 300/speak Lewis \"ห้ะ? เธอไม่คิดว่าเจ้านี่จะวิ่งได้หรอ?#$b#เจ้าคุณปู่นี่ ไม่ได้มีไว้โชว์ซักหน่อย!$h\"/pause 300/faceDirection Lewis 3/speak Lewis \"ทีนี่ก็ ไปกันเล้ยย! เราไม่อยากจะเจอ รถติดตอนเช้ากันหรอก!$h\"/globalFade/viewport -1000 -1000/changeToTemporaryMap zuzuInn/viewport -1000 -1000/warp farmer 9 7/faceDirection farmer 1/warp Lewis 10 7/faceDirection Lewis 2/playSound busDriveOff/pause 2000/viewport 13 7 true/playMusic jaunty/pause 1000/emote Lewis 40/pause 300/emote farmer 8/pause 500/faceDirection Lewis 3/speak Lewis \"อ่า ไม่มีอะไร... พวกเค้าก็แค่ยัดเราไว้ ในห้องที่มีแค่เตียงเดียว! ฉันย้ายที่พักให้เราได้นะ...$7\"/speak Lewis \"$q -1 null#ฉันย้ายห้องพักให้ได้นะ...#$r -1 0 event_relocate1#ดีเลย งั้นย้ายห้องกันเถอะ#$r -1 0 event_relocate2#ไว้เราคุยเรื่องนี้กันทีหลังก็ได้#$r -1 0 event_relocate3#เตียงหลังนี้มันก็ดูจะ กว้างพอสำหรับเราทั้งคู่นะ\"/pause 500/globalFade/viewport -1000 -1000/changeToTemporaryMap meetingRoom/viewport -1000 -1000/warp farmer 7 8/faceDirection farmer 0/warp Lewis 5 8/faceDirection Lewis 0/addTemporaryActor Khari 16 32 5 5 2 true/addTemporaryActor Lin 16 32 7 5 2 true/addTemporaryActor James 16 32 3 7 2 true/addTemporaryActor Hank 16 32 9 7 2 true/viewport 6 5 true/pause 500/speak Khari \"ยินดีต้อนรับทุกท่านเข้าสู่ การประชุมผู้นำประจำปี ในเมืองซูซูของเรา#$b#พวกเรามาแนะนำตัว กันหน่อยดีไหม?#$b#กระผมชื่อคาริ นายกเทศมนตรี ของเมืองซูซู\"/speak Lin \"ฉันคือนายกลิน แห่งเมืองทิวลิป\"/speak Hank \"ผมชื่อแฮงค์ นายกของเมืองรอคกี้พอยท์\"/speak James \"ผมคือนายกเจมส์ จากเมืองสการ์เลตเบิร์ก\"/speak Lewis \"ผมคือเลวิส นายกเทศมตรี ของเมืองเพลิแกน#$b#บุคคลที่มาร่วมกับ พวกเราในวันนี้คือคุณ @ เขาก็อาศัยอยู่ใน เมืองเพลิแกนเหมือนกัน$h^บุคคลที่มาร่วมกับ พวกเราในวันนี้คือคุณ @ เขาก็อาศัยอยู่ใน เมืองเพลิแกนเหมือนกัน$h\"/pause 200/speak Khari \"ยินดีที่ได้รู้จักนะ @#$b#เอาล่ะ ทีนี้ก็มาเริ่มประชุมกันเถอะ\"/pause 500/globalFade/viewport -1000 -1000/changeToTemporaryMap meetingRoom2/viewport -1000 -1000/warp farmer 8 8/faceDirection farmer 1/warp Lewis 9 8/faceDirection Lewis 3/warp Hank -100 -100/warp James -101 -101/warp Khari -102 -102/warp Lin 10 5/showFrame Lin 1/viewport 6 5 true/pause 500/speak Lewis \"เห้อออ! เป็นการประชุมที่สนุกสนานดี ใช่มั้ยล่ะ @?\"/pause 100/emote farmer 28/pause 300/speak Lewis \"เอาล่ะ ฉันคิดว่าเราน่าจะ ไปหาอะไรกินกันซักหน่อย แล้วกลับไปที่ห้องพักนะ\"/pause 500/move Lewis 1 0 2/speak Lin \"อ้ะ เลวิส! ดีใจจังที่เจอคุณ\"/pause 200/faceDirection Lewis 0/emote Lewis 8/move Lewis 0 -2 0/speak Lewis \"อ้ะ! มีอะไรที่ผมจะช่วยได้หรอครับ คุณลิน?$h\"/move farmer 2 0 0/speak Lin \"ฉันดีใจที่เจอคุณนะ การประชุมที่ไม่มีคุณ เมื่อปีที่แล้วมันน่าเบื่อมากเลย!\"/pause 200/speak Lewis \"จริงหรอครับ? ผมก็ดีใจนะที่ได้เจอคุณ ไม่ได้เจอกันมาซักพัก แล้วนี่เนอะ$h\"/pause 200/speak Lin \"ตามนั้นนั่นแหละ ดีใจนะที่คุณก็ คิดแบบนั้นเหมือนกัน\"/pause 500/speak Lin \"อ่า ที่จริงแล้ว เลวิส... เอานี่ อยากจะเอาอันนี้ให้คุณน่ะ\"/pause 200/emote Lewis 16/speak Lewis \"มะ... มันคืออะไรครับเนี่ย? กุญแจ?$7\"/emote Lin 56/speak Lin \"มันคือกุญแจสำรอง ที่พักของฉันในเมืองซูซูน่ะ ทำไมคุณไม่มาหาฉัน ซักหน่อยหลังจาก ช่วงมื้อค่ำล่ะ?$1\"/pause 300/emote Lewis 28/pause 500/emote farmer 40/question fork1 \"แทรกเข้าไปดีไหมนะ...?#พูดอะไรซักหน่อย#อยู่เงียบๆ\"/fork keepKey/move farmer 0 -1 1/move farmer 1 0 0/move farmer 0 -2 3/emote Lin 16/speak Lin \"เลวิส ผู้ช่วยของคุณ กำลังทำอะไรน่ะ?$2\"/question fork1 \"พูดอะไรดีนะ...?#จะบอกอะไรให้นะ เห็นชัดๆ ว่าเขาไม่ได้สนใจ#ฉันไม่ใช่ผู้ช่วยของเลวิสซักหน่อย เราเดทกันอยู่ต่างหาก ถอยไปเลยนะ\"/fork lewisRelationship/emote Lewis 16/speak Lewis \"ตามนั้นนะคุณลิน ผมไม่ไป พวกเราไปนะ ราตรีสวัสดิ์ครับ$a\"/move Lewis 0 4 2/warp Lewis -222 -222/playSound doorClose/speak Lin \"โอ๊ย! ไม่อยากเจอเชื่อเลย!$2\"/pause 100/move farmer 0 4 3/move farmer -1 0 2/move farmer 0 1 2/warp farmer -223 -223/playSound doorClose/emote Lin 12/pause 1500/globalFade/viewport -1000 -1000/changeToTemporaryMap zuzuInn/viewport -1000 -1000/warp Lin -121 -121/warp Lewis 11 5/faceDirection Lewis 3/warp farmer 12 5/faceDirection farmer 3/viewport 13 7 true/pause 2000/speak Lewis \"@...\"/faceDirection Lewis 1/speak Lewis \"ขอบคุณที่คอยอยู่ เคียงข้างฉันนะ มันมีความหมายต่อฉันมากเลย\"/pause 500/speak Lewis \"ลินกับฉัน... เมื่อก่อนเราเคยคุยๆ กันน่ะ... แค่ขำๆ แหละ แต่เธอก็ไม่เคยลืมมันเลย$s\"/pause 300/emote farmer 8/pause 500/speak Lewis \"พวกเราไม่เคยทำอะไรกันเลย แม้แต่ออกเดตก็ไม่เคย$7\"/pause 500/speak Lewis \"อา... @... ฉันดีใจจังที่เธออยู่ด้วย ฉ-ฉัน จริงๆ แล้ว...$7\"/pause 300/emote farmer 8/speak Lewis \"เธอคือเหตุผลที่ฉันปฏิเสธลิน$7\"/emote farmer 8/pause 1000/speak Lewis \"@ ฉันชอบเธอนะ ฉันรู้ว่าฉันแก่กว่าเธอ แต่... ฉันก็แก่มากพอที่จะรู้ว่า ฉันต้องการอะไรกันแน่$7#$b#และคำตอบของหัวใจของฉันก็คือ... เธอ$4\"/emote farmer 56/pause 300/emote Lewis 56/pause 500/speak Lewis \"@ ฉันดีใจนะที่เธอ มากับฉันน่ะ$h#$b#ทีนี้ พวกเราก็ไปทานมื้อค่ำกันเถอะ? เดตแรกของเรา?$4\"/emote farmer 32/pause 2000/globalFade/viewport -1000 -1000/changeLocation Farm/viewport -1000 -1000/friendship Lewis 50/end position 64 16",
+						"282815611/D Lewis/f Lewis 2500/t 600 1000/d Mon Tue Wed Thu Fri/w sunny": "continue/64 15/farmer 64 15 2 Lewis 65 16 0/emote Lewis 16/speak Lewis \"โอ้! อรุณสวัสดิ์ @ ถ้าฉันมาเช้าไปหน่อย ก็โทษทีนะ$h\"/pause 200/emote farmer 32/pause 200/speak Lewis \"อันที่จริง... ฉันรู้ว่ามันออกจะ ปัจุบันทันด่วนไปหน่อย แต่เธออยากจะไปออกทริป เป็นเพื่อนฉันหน่อยมั้ย?$h\"/pause 300/emote farmer 8/pause 200/speak Lewis \"อ่า คืองี้นะ... ทุกๆ 2-3 ปี ฉันจะไปหานายกเทศมนตรี ของเมืองข้างๆ เพื่อเจรจาธุรกิจกันน่ะ#$b#ก็พวกการค้าขาย การท่องเที่ยว แล้วก็การสร้างโน่น สร้างนี่นั่นแหละ พวกเรื่องน่าเบื่อๆ น่ะ เธอนึกออกใช่ไหม$h\"/pause 500/speak Lewis \"ฉันก็แค่... อยากรู้ว่าเธอจะไปกับฉันไหม? ปีนี้เราจัดการประชุมกันที่เมืองซูซู วันนี้จนถึงวันพรุ่งนี้น่ะ#$b#พวกเขาจะ รับรองเราด้วยโรงแรมดีๆ และเราก็ไปเที่ยวได้ด้วยนะ$h\"/pause 300/emote Lewis 16/speak Lewis \"แต่ถ้าเธอไม่ค่อยสะดวก ก็ไม่เป็นไรนะ พูดจริงๆ ! แค่การเชิญนิดๆ หน่อยๆ น่ะ\"/pause 500/question fork1 \"ไปเมืองซูซูเป็นเพื่อนเลวิสไหม?#ไป#ไม่ไป\"/fork noZuzu/pause 300/emote Lewis 16/speak Lewis \"เยี่ยมไปเลย! มาสิ @!$h\"/globalFade/viewport -1000 -1000/changeLocation Town/viewport -1000 -1000/warp farmer 66 86/warp Lewis 69 84/faceDirection farmer 0/faceDirection Lewis 3/viewport 66 86 true/pause 500/faceDirection Lewis 2/speak Lewis \"เอาสิ ขึ้นมาเลย!$h\"/pause 300/emote farmer 8/pause 300/speak Lewis \"ห้ะ? เธอไม่คิดว่าเจ้านี่จะวิ่งได้หรอ?#$b#เจ้าคุณปู่นี่ ไม่ได้มีไว้โชว์ซักหน่อย!$h\"/pause 300/faceDirection Lewis 3/speak Lewis \"ทีนี่ก็ ไปกันเล้ยย! เราไม่อยากจะเจอ รถติดตอนเช้ากันหรอก!$h\"/globalFade/viewport -1000 -1000/changeToTemporaryMap zuzuInn/viewport -1000 -1000/warp farmer 9 7/faceDirection farmer 1/warp Lewis 10 7/faceDirection Lewis 2/playSound busDriveOff/pause 2000/viewport 13 7 true/playMusic jaunty/pause 1000/emote Lewis 40/pause 300/emote farmer 8/pause 500/faceDirection Lewis 3/speak Lewis \"อ่า ไม่มีอะไร... พวกเค้าก็แค่ยัดเราไว้ ในห้องที่มีแค่เตียงเดียว! ฉันย้ายที่พักให้เราได้นะ...$7\"/speak Lewis \"$q -1 null#ฉันย้ายห้องพักให้ได้นะ...#$r -1 0 event_relocate1#ดีเลย งั้นย้ายห้องกันเถอะ#$r -1 0 event_relocate2#ไว้เราคุยเรื่องนี้กันทีหลังก็ได้#$r -1 0 event_relocate3#เตียงหลังนี้มันก็ดูจะ กว้างพอสำหรับเราทั้งคู่นะ\"/pause 500/globalFade/viewport -1000 -1000/changeToTemporaryMap meetingRoom/viewport -1000 -1000/warp farmer 7 8/faceDirection farmer 0/warp Lewis 5 8/faceDirection Lewis 0/addTemporaryActor Khari 16 32 5 5 2 true/addTemporaryActor Lin 16 32 7 5 2 true/addTemporaryActor James 16 32 3 7 2 true/addTemporaryActor Hank 16 32 9 7 2 true/viewport 6 5 true/pause 500/speak Khari \"ยินดีต้อนรับทุกท่านเข้าสู่ การประชุมผู้นำประจำปี ในเมืองซูซูของเรา#$b#พวกเรามาแนะนำตัว กันหน่อยดีไหม?#$b#กระผมชื่อคาริ นายกเทศมนตรี ของเมืองซูซู\"/speak Lin \"ฉันคือนายกลิน แห่งเมืองทิวลิป\"/speak Hank \"ผมชื่อแฮงค์ นายกของเมืองรอคกี้พอยท์\"/speak James \"ผมคือนายกเจมส์ จากเมืองสการ์เลตเบิร์ก\"/speak Lewis \"ผมคือเลวิส นายกเทศมตรี ของเมืองเพลิแกน#$b#บุคคลที่มาร่วมกับ พวกเราในวันนี้คือคุณ @ เขาก็อาศัยอยู่ใน เมืองเพลิแกนเหมือนกัน$h^บุคคลที่มาร่วมกับ พวกเราในวันนี้คือคุณ @ เขาก็อาศัยอยู่ใน เมืองเพลิแกนเหมือนกัน$h\"/pause 200/speak Khari \"ยินดีที่ได้รู้จักนะ @#$b#เอาล่ะ ทีนี้ก็มาเริ่มประชุมกันเถอะ\"/pause 500/globalFade/viewport -1000 -1000/changeToTemporaryMap meetingRoom2/viewport -1000 -1000/warp farmer 8 8/faceDirection farmer 1/warp Lewis 9 8/faceDirection Lewis 3/warp Hank -100 -100/warp James -101 -101/warp Khari -102 -102/warp Lin 10 5/showFrame Lin 1/viewport 6 5 true/pause 500/speak Lewis \"เห้อออ! เป็นการประชุมที่สนุกสนานดี ใช่มั้ยล่ะ @?\"/pause 100/emote farmer 28/pause 300/speak Lewis \"เอาล่ะ ฉันคิดว่าเราน่าจะ ไปหาอะไรกินกันซักหน่อย แล้วกลับไปที่ห้องพักนะ\"/pause 500/move Lewis 1 0 2/speak Lin \"อ้ะ เลวิส! ดีใจจังที่เจอคุณ\"/pause 200/faceDirection Lewis 0/emote Lewis 8/move Lewis 0 -2 0/speak Lewis \"อ้ะ! มีอะไรที่ผมจะช่วยได้หรอครับ คุณลิน?$h\"/move farmer 2 0 0/speak Lin \"ฉันดีใจที่เจอคุณนะ การประชุมที่ไม่มีคุณ เมื่อปีที่แล้วมันน่าเบื่อมากเลย!\"/pause 200/speak Lewis \"จริงหรอครับ? ผมก็ดีใจนะที่ได้เจอคุณ ไม่ได้เจอกันมาซักพัก แล้วนี่เนอะ$h\"/pause 200/speak Lin \"ตามนั้นนั่นแหละ ดีใจนะที่คุณก็ คิดแบบนั้นเหมือนกัน\"/pause 500/speak Lin \"อ่า ที่จริงแล้ว เลวิส... เอานี่ อยากจะเอาอันนี้ให้คุณน่ะ\"/pause 200/emote Lewis 16/speak Lewis \"มะ... มันคืออะไรครับเนี่ย? กุญแจ?$7\"/emote Lin 56/speak Lin \"มันคือกุญแจสำรอง ที่พักของฉันในเมืองซูซูน่ะ ทำไมคุณไม่มาหาฉัน ซักหน่อยหลังจาก ช่วงมื้อค่ำล่ะ?$1\"/pause 300/emote Lewis 28/pause 500/emote farmer 40/question fork1 \"แทรกเข้าไปดีไหมนะ...?#พูดอะไรซักหน่อย#อยู่เงียบๆ\"/fork keepKey/move farmer 0 -1 1/move farmer 1 0 0/move farmer 0 -2 3/emote Lin 16/speak Lin \"เลวิส ผู้ช่วยของคุณ กำลังทำอะไรน่ะ?$2\"/question fork1 \"พูดอะไรดีนะ...?#จะบอกอะไรให้นะ เห็นชัดๆ ว่าเขาไม่ได้สนใจ#ฉันไม่ใช่ผู้ช่วยของเลวิสซักหน่อย เราเดทกันอยู่ต่างหาก ถอยไปเลยนะ\"/fork lewisRelationship/emote Lewis 16/speak Lewis \"ตามนั้นนะคุณลิน ผมไม่ไป พวกเราไปนะ ราตรีสวัสดิ์ครับ$a\"/move Lewis 0 4 2/warp Lewis -222 -222/playSound doorClose/speak Lin \"โอ๊ย! ไม่อยากเจอเชื่อเลย!$2\"/pause 100/move farmer 0 4 3/move farmer -1 0 2/move farmer 0 1 2/warp farmer -223 -223/playSound doorClose/emote Lin 12/pause 1500/globalFade/viewport -1000 -1000/changeToTemporaryMap zuzuInn/viewport -1000 -1000/warp Lin -121 -121/warp Lewis 11 5/faceDirection Lewis 3/warp farmer 12 5/faceDirection farmer 3/viewport 13 7 true/pause 2000/speak Lewis \"@...\"/faceDirection Lewis 1/speak Lewis \"ขอบคุณที่คอยอยู่ เคียงข้างฉันนะ มันมีความหมายต่อฉันมากเลย\"/pause 500/speak Lewis \"ลินกับฉัน... เมื่อก่อนเราเคยคุยๆ กันน่ะ... แค่ขำๆ แหละ แต่เธอก็ไม่เคยลืมมันเลย$s\"/pause 300/emote farmer 8/pause 500/speak Lewis \"พวกเราไม่เคยทำอะไรกันเลย แม้แต่ออกเดตก็ไม่เคย$7\"/pause 500/speak Lewis \"อา... @... ฉันดีใจจังที่เธออยู่ด้วย ฉ-ฉัน จริงๆ แล้ว...$7\"/pause 300/emote farmer 8/speak Lewis \"เธอคือเหตุผลที่ฉันปฏิเสธลิน$7\"/emote farmer 8/pause 1000/speak Lewis \"@ ฉันชอบเธอนะ ฉันรู้ว่าฉันแก่กว่าเธอ แต่... ฉันก็แก่มากพอที่จะรู้ว่า ฉันต้องการอะไรกันแน่$7#$b#และคำตอบของหัวใจของฉันก็คือ... เธอ$4\"/emote farmer 56/pause 300/emote Lewis 56/pause 500/speak Lewis \"@ ฉันดีใจนะที่เธอ มากับฉันน่ะ$h#$b#ทีนี้ พวกเราก็ไปทานมื้อค่ำกันเถอะ? เดตแรกของเรา?$4\"/emote farmer 32/pause 2000/globalFade/viewport -1000 -1000/changeLocation Farm/viewport -1000 -1000/friendship Lewis 50/end position 64 16",
 						"noZuzu": "pause 500/speak Lewis \"โอ้... ฉันคาดหวังจะให้มันเป็น การแจ้งข่าวน่ะนะ เอาล่ะ ยังไงก็ยังมีปีหน้าเสมอ...#$b#...$s\"/pause 500/speak Lewis \"เอาล่ะ ขอให้มีวันที่ดีนะ @ กลับจากเมืองซูซูแล้ว ฉันจะมาหาเธอนะ$s\"/friendship Lewis -250/end position 64 16",
 			},
 			"When": {
@@ -1104,7 +1148,7 @@
 			"Entries": {
 						"282815623/D Willy/f Willy 2000/t 600 1700/w rainy/n fishingInvite": "continue/30 30/farmer -10 -10 0 Willy -11 -11 2/skippable/changeLocation FishShop/viewport 5 5 true/pause 1500/playSound doorClose/warp farmer 5 9/pause 1000/emote farmer 8/pause 1000/move farmer 0 -3 0/pause 200/emote farmer 8/pause 800/message \"มีกระดาษโน้ตบนเคาเตอร์\"/pause 1000/emote farmer 40/pause 500/message \"ร้านปิดวันนึง ป่วยเป็นหวัด -วิลลี่\"/pause 500/emote farmer 16/pause 1000/speak Willy \"*แค่กๆ*$s\"/pause 600/emote farmer 8/pause 1000/message \"คุณได้ยินเสียงไอมาจากชั้นบน\"/pause 500/question fork1 \"ขึ้นไปข้างบนดีมั้ย?#ไปสิ#ไม่ล่ะ\"/fork leaveWilly/pause 500/globalFade/viewport -1000 -1000/changeToTemporaryMap WillyRoom/warp farmer 4 5/faceDirection farmer 2/warp Willy 1 5/positionOffset Willy 10 0/viewport 5 5 true/pause 200/emote Willy 16/pause 300/faceDirection farmer 3/pause 300/speak Willy \"กัปตัน! เธอได้จดหมายฉันสินะ?\"/pause 600/speak Willy \"ก็นะ ฉันไม่อยู่ในสภาพ ที่จะไปตกปลาไหว นั่นชัดเจนล่ะ$s\"/pause 300/emote farmer 60/pause 800/speak Willy \"อา ไม่ต้องห่วงนะ กัปตัน ฉันกลับมาเดินเหินสะดวก ก่อนเธอจะทันสังเกตแน่! แค่หวัดนิดหน่อยน่ะ\"/move farmer -1 0 3/faceDirection Willy 1/pause 300/emote Willy 60/pause 400/speak Willy \"โทษนะที่ให้เธอ ตั้งความหวังเก้อ เรื่องไปตกปลาวันนี้น่ะ$s\"/pause 500/question fork1 \"ตอบว่าอะไรดี?#อย่าคิดมากเลย คิดเรื่องหายป่วยเถอะ!#นี่ฉันก็เตรียมตัวมาซะพร้อมเลย...\"/fork allReady/pause 500/emote Willy 32/pause 300/speak Willy \"ไม่อยากจะเชื่อเลยว่า ฉันต้องรับคำสั่ง จากกัปตันของฉันแล้ว!$h#$b#...แค่ครั้งนี้นะ$4\"/pause 1000/emote farmer 32/pause 400/emote Willy 32/pause 2000/speak Willy \"เฮ้... ขอบใจที่มานะ กัปตัน ฉันดีใจที่มีคนมาเยี่ยม$4\"/pause 1000/emote farmer 56/pause 2000/globalFade/viewport -1000 -1000/changeLocation FishShop/friendship Willy 25/end dialogue Willy \"ฉันรู้สึกดีขึ้นนิดหน่อยละ$h\"",
 						"leaveWilly": "pause 1000/message \"บางทีปล่อยเขาพักคนเดียวดีกว่า...\"/pause 1000/friendship Willy -50/end warpOut",
-    					"282815625/D Willy/f Willy 2500/t 600 1700/w rainy/e 282815623/n fishingTrip": "continue/30 30/farmer -10 -10 0 Willy 6 4 2/changeLocation FishShop/viewport 5 5 true/pause 1500/playSound doorClose/warp farmer 5 9/pause 500/emote Willy 16/pause 100/speak Willy \"ว่าไง กัปตัน! พร้อมลุยมั้ย?\"/pause 500/question fork1 \"ไปตกปลากับวิลลี่มั้ย?#ไปสิ#ไม่เอาล่ะ\"/fork noFishing/pause 600/speak Willy \"เจ๋ง! ให้ฉันเตรียมเจ้าเรือเก่าๆ นี่ ให้พร้อมก่อน เดี๋ยวเราก็ได้ออกสู่ทะเลกว้าง ก่อนจะทันรู้ตัวแล้ว!$h\"/pause 400/emote farmer 32/pause 500/emote Willy 32/pause 1500/globalFade/viewport -1000 -1000/changeToTemporaryMap ElliottSea/viewport -1000 -1000/pause 1000/playMusic rain/warp farmer 26 20/positionOffset farmer 0 8/faceDirection farmer 2/warp Willy 26 20/positionOffset Willy 0 60/showFrame Willy 51/viewport 26 21 true/pause 2000/emote Willy 32/pause 1000/speak Willy \"อ้า ฉันดีใจที่เธอมาตกปลา ด้วยกันวันนี้นะ กัปตัน$h\"/pause 500/emote farmer 32/pause 1000/speak Willy \"กัปตัน... มีใครเคยบอกเธอมั้ย ว่าเธอหล่อบาดใจขนาดไหน?$4^กัปตัน... มีใครเคยบอกเธอมั้ย ว่าเธอสวยกระชากใจ ขนาดไหน?$4\"/pause 500/speak Willy \"กลางทะเลนี่... เปียกจากฝนและละอองคลื่น...#$b#เธอทำให้ใจฉันเมาเรือ$4\"/pause 1000/question fork1 \"ตอบว่าอะไรดี?#ฉันก็เมารักในตัวคุณไม่ต่างกันเลย#ไม่เห็นจะเมาอะไรทั้งนั้นอะ\"/fork rejectWilly/pause 1000/emote Willy 32/pause 500/speak Willy \"ฉันดีใจจัง ฉันอยากให้เธอเป็นกัปตัน ของฉันตลอดไปนะ @$4\"/pause 1000/emote farmer 32/emote Willy 20/pause 2000/emote Willy 28/pause 500/speak Willy \"จับอะไรไม่ค่อยได้เลยสินะ พวกเราน่ะ$h\"/pause 500/emote farmer 28/pause 1500/speak Willy \"ตราบใดที่มีเธอ ฉันไม่สนหรอกว่า เราจะจับอะไรได้$h\"/pause 500/emote farmer 20/pause 400/emote Willy 20/pause 2000/globalFade/viewport -1000 -1000/pause 1000/changeLocation FishShop/end position 6 6",
+    					"282815625/D Willy/f Willy 2500/t 600 1700/w rainy/e 282815623/n fishingTrip": "continue/30 30/farmer -10 -10 0 Willy 6 4 2/changeLocation FishShop/viewport 5 5 true/pause 1500/playSound doorClose/warp farmer 5 9/pause 500/emote Willy 16/pause 100/speak Willy \"ว่าไง กัปตัน! พร้อมลุยมั้ย?\"/pause 500/question fork1 \"ไปตกปลากับวิลลี่มั้ย?#ไปสิ#ไม่เอาล่ะ\"/fork noFishing/pause 600/speak Willy \"เจ๋ง! ให้ฉันเตรียมเจ้าเรือเก่าๆ นี่ ให้พร้อมก่อน เดี๋ยวเราก็ได้ออกสู่ทะเลกว้าง ก่อนจะทันรู้ตัวแล้ว!$h\"/pause 400/emote farmer 32/pause 500/emote Willy 32/pause 1500/globalFade/viewport -1000 -1000/changeToTemporaryMap ElliottSea/viewport -1000 -1000/pause 1000/playMusic rain/warp farmer 26 20/positionOffset farmer 0 8/faceDirection farmer 2/warp Willy 26 20/positionOffset Willy 0 60/showFrame Willy 51/viewport 26 21 true/pause 2000/emote Willy 32/pause 1000/speak Willy \"อ้า ฉันดีใจที่เธอมาตกปลา ด้วยกันวันนี้นะ กัปตัน$h\"/pause 500/emote farmer 32/pause 1000/speak Willy \"กัปตัน... มีใครเคยบอกเธอมั้ย ว่าเธอหล่อบาดใจขนาดไหน?$4^กัปตัน... มีใครเคยบอกเธอมั้ย ว่าเธอสวยกระชากใจ ขนาดไหน?$4\"/pause 500/speak Willy \"กลางทะเลนี่... เปียกจากฝนและละอองคลื่น...#$b#เธอทำให้ใจฉันเมาเรือ$4\"/pause 1000/question fork1 \"ตอบว่าอะไรดี?#ฉันก็เมารักในตัวคุณไม่ต่างกันเลย#ไม่เห็นจะเมาอะไรทั้งนั้นอะ\"/fork rejectWilly/pause 1000/emote Willy 32/pause 500/speak Willy \"ฉันดีใจจัง ฉันอยากให้เธอเป็นกัปตัน ของฉันตลอดไปนะ @$4\"/pause 1000/emote farmer 32/emote Willy 20/pause 2000/emote Willy 28/pause 500/speak Willy \"จับอะไรไม่ค่อยได้เลยสินะ พวกเราน่ะ$h\"/pause 500/emote farmer 28/pause 1500/speak Willy \"ตราบใดที่มีเธอ ฉันไม่สนหรอกว่า เราจะจับอะไรได้$h\"/pause 500/emote farmer 20/pause 400/emote Willy 20/pause 2000/globalFade/viewport -1000 -1000/pause 1000/changeLocation FishShop/end position 30 35",
 						"noFishing": "pause 500/speak Willy \"โอ้... ยุ่งมากสินะ? ฉันเข้าใจ$s\"/pause 1000/speak Willy \"งั้นไว้คราวหลังแล้วกัน ไว้เจอกัน กัปตัน$s\"/pause 1500/friendship Willy -250/end warpOut",
 			},
 			"When": {
@@ -1127,7 +1171,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/ManorHouse",
 			"Entries": {
-						"282815608/D Lewis/f Lewis 2000/t 1400 1800/k 282815607": "continue/7 6/farmer -100 -100 0 Lewis 6 5 0 Marnie -100 -100 0/skippable/pause 500/move Lewis 2 0 0/pause 1500/move Lewis -1 0 0/pause 1000/warp Marnie 5 11 0/playSound doorClose/move Marnie 0 -4 0/emote Lewis 16/faceDirection Lewis 2/pause 100/speak Lewis \"โอ้... มานี เธอนี่เอง เธอทำฉันตกใจหมดเลยนะ#$b#ฉันไม่รู้เลยนะเนี่ย ว่าเธอจะมา$h\"/pause 800/speak Marnie \"อันที่จริงแล้ว เลวิส มีอยู่เรื่องนึง ที่อยากคุยด้วยน่ะ$s\"/pause 300/emote Lewis 8/move Lewis 0 2 3/move Lewis -1 0 3/faceDirection Marnie 1/speak Lewis \"เรื่องอะไรหรอ? มีอะไรรึเปล่า?$s\"/pause 500/warp farmer 5 11 0/playSound doorClose/speak Marnie \"เลวิส... ฉันว่า... เราควรเลิกมาเจอกัน ได้แล้วนะ$s\"/emote farmer 16/emote Lewis 16/speak Lewis \"อะไรนะ? ทำไมเธอถึงพูดแบบนั้นล่ะ?$s#$b#...เธอก็มีความสุขดี ไม่ใช่หรอ?$s\"/move farmer -1 0 0/move farmer 0 -1 3/move farmer -2 0 1/speak Marnie \"ช่วงนี้... คุณน่ะทำตัวห่างเหินนะ คิดว่าฉันไม่รู้สึกตัวรึไง?$s\"/pause 500/faceDirection Marnie 2/emote Marnie 12/speak Marnie \"ถ้าคุณมีคนอื่นอยู่ล่ะก็ ฉันก็แค่อยาก ให้คุณบอกฉัน$5\"/pause 1000/emote Lewis 60/speak Lewis \"มานี... เธอก็รู้ว่าฉันน่ะ ไม่เคยนอกใจเธอเลยนะ... เธอก็รู้ดีใช่มั้ยล่ะ?$s\"/pause 1000/faceDirection Marnie 1/pause 500/speak Marnie \"ฉันรู้... เลวิส... ฉันรู้ดี ว่าคุณน่ะเป็นคนที่ จะไม่ทำแบบนั้นแน่ๆ$s#$b#แต่คุณก็มีใจให้เขาคนนั้น ไม่ใช่รึไงกัน?$s^แต่คุณน่ะ ก็มีใจให้เธอคนนั้น ไม่ใช่รึไงกัน?$s\"/emote farmer 16/pause 500/faceDirection Lewis 1/pause 1500/speak Lewis \"มานี... ฉันขอโทษ!$6\"/pause 1500/speak Marnie \"...$s\"/pause 1500/faceDirection Lewis 3/pause 500/speak Lewis \"ก็มัน...ช่วยไม่ได้หนิ ฉ-ฉันไม่เคยนอกใจเธอเลยนะ แต่ว่า..แต่ฉันน่ะ$s#$b#ฉันรักเขาคนนั้น$6^ฉันรักเธอคนนั้น$6\"/pause 2000/faceDirection Marnie 3/pause 1000/speak Marnie \"คุณน่ะ... คิดจะให้ความหวังฉัน ไปถึงเมื่อไหร่กัน?$s\"/pause 1000/speak Lewis \"...$6\"/pause 500/emote Marnie 12/speak Marnie \"ฉันขอโทษนะเลวิส แต่เราจบกันตรงนี้แหละ$s\"/pause 500/speak Lewis \"ฉ- ฉัน... เข้าใจแล้ว... ขอโทษนะมานี$6\"/pause 1500/move Marnie 0 4 3/warp Marnie -100 -100/playSound doorClose/pause 2000/move Lewis 2 0 1/move Lewis 0 -1 1/move Lewis 1 0 1/pause 500/emote Lewis 40/pause 2000/move farmer 3 0 0/move farmer 0 -4 1/move farmer 3 0 1/emote Lewis 16/faceDirection Lewis 3/speak Lewis \"อ- โอ้ @...$6#$b#น- นี่มัน มันไม่ใช่เวลาที่ดีเลย$6\"/question fork1 \"#คุณเป็นอะไรมั้ย?#โอเค เดี๋ยวฉันไว้มาอีกทีก็ได้\"/fork noComfortLewis/pause 500/speak Lewis \"ฉัน... ไม่$6#$b#เธอน่ะ ได้ยินทุกอย่างเลยสินะ ใช่มั้ย?$6\"/pause 1500/speak Lewis \"ฉันรู้สึกแย่มากเลยล่ะ @...$6#$b#ฉันน่ะ เป็นคนที่โหดร้าย ฉันไม่อยากจะเชื่อเลยว่า ฉันจะตกหลุมรักคนอื่น ระหว่างที่ฉัน กำลังคบกับมานีอยู่...$6\"/speak Lewis \"$q -1 null#ฉันนี่มันแย่จริงๆ...#$r -1 0 event_lewisBreakup1#คุณไม่ใช่คนที่แย่ขนาดนั้น หรอกนะ... คุณก็แค่ควบคุมความรูสึก ไม่ได้แค่นั้นเอง#$r -1 0 event_lewisBreakup2#มานีก็แค่คนบ้าคนนึง ใครจะไปอยากได้ผู้หญิง แบบนั้นกันล่ะ?#$r -1 0 event_lewisBreakup3#สงสัยจัง... คุณตกหลุมรักใครกันนะ?\"/pause 1500/emote Lewis 60/pause 800/speak Lewis \"@... อยู่กับฉันซักพักนึงจะได้มั้ย? ฉันยังไม่อยากอยู่คนเดียว...$6\"/pause 2000/globalFade/viewport -1000 -1000/pause 3000/friendship Marnie -250/end dialogue Lewis \"ขอบคุณนะ @... ฉันรู้สึกดีขึ้นมานิดหน่อยแล้วล่ะ$4\"/",
+						"282815608/D Lewis/f Lewis 2000/t 1400 1800/k 282815607": "AbigailFlute/7 6/farmer -100 -100 0 Lewis 6 5 0 Marnie -100 -100 0/skippable/pause 500/move Lewis 2 0 0/pause 1500/move Lewis -1 0 0/pause 1000/warp Marnie 5 11 0/playSound doorClose/move Marnie 0 -4 0/emote Lewis 16/faceDirection Lewis 2/pause 100/speak Lewis \"โอ้... มานี เธอนี่เอง เธอทำฉันตกใจหมดเลยนะ#$b#ฉันไม่รู้เลยนะเนี่ย ว่าเธอจะมา$h\"/pause 800/speak Marnie \"อันที่จริงแล้ว เลวิส มีอยู่เรื่องนึง ที่อยากคุยด้วยน่ะ$s\"/pause 300/emote Lewis 8/move Lewis 0 2 3/move Lewis -1 0 3/faceDirection Marnie 1/speak Lewis \"เรื่องอะไรหรอ? มีอะไรรึเปล่า?$s\"/pause 500/warp farmer 5 11 0/playSound doorClose/speak Marnie \"เลวิส... ฉันว่า... เราควรเลิกมาเจอกัน ได้แล้วนะ$s\"/emote farmer 16/emote Lewis 16/speak Lewis \"อะไรนะ? ทำไมเธอถึงพูดแบบนั้นล่ะ?$s#$b#...เธอก็มีความสุขดี ไม่ใช่หรอ?$s\"/move farmer -1 0 0/move farmer 0 -1 3/move farmer -2 0 1/speak Marnie \"ช่วงนี้... คุณน่ะทำตัวห่างเหินนะ คิดว่าฉันไม่รู้สึกตัวรึไง?$s\"/pause 500/faceDirection Marnie 2/emote Marnie 12/speak Marnie \"ถ้าคุณมีคนอื่นอยู่ล่ะก็ ฉันก็แค่อยาก ให้คุณบอกฉัน$5\"/pause 1000/emote Lewis 60/speak Lewis \"มานี... เธอก็รู้ว่าฉันน่ะ ไม่เคยนอกใจเธอเลยนะ... เธอก็รู้ดีใช่มั้ยล่ะ?$s\"/pause 1000/faceDirection Marnie 1/pause 500/speak Marnie \"ฉันรู้... เลวิส... ฉันรู้ดี ว่าคุณน่ะเป็นคนที่ จะไม่ทำแบบนั้นแน่ๆ$s#$b#แต่คุณก็มีใจให้เขาคนนั้น ไม่ใช่รึไงกัน?$s^แต่คุณน่ะ ก็มีใจให้เธอคนนั้น ไม่ใช่รึไงกัน?$s\"/emote farmer 16/pause 500/faceDirection Lewis 1/pause 1500/speak Lewis \"มานี... ฉันขอโทษ!$6\"/pause 1500/speak Marnie \"...$s\"/pause 1500/faceDirection Lewis 3/pause 500/speak Lewis \"ก็มัน...ช่วยไม่ได้หนิ ฉ-ฉันไม่เคยนอกใจเธอเลยนะ แต่ว่า..แต่ฉันน่ะ$s#$b#ฉันรักเขาคนนั้น$6^ฉันรักเธอคนนั้น$6\"/pause 2000/faceDirection Marnie 3/pause 1000/speak Marnie \"คุณน่ะ... คิดจะให้ความหวังฉัน ไปถึงเมื่อไหร่กัน?$s\"/pause 1000/speak Lewis \"...$6\"/pause 500/emote Marnie 12/speak Marnie \"ฉันขอโทษนะเลวิส แต่เราจบกันตรงนี้แหละ$s\"/pause 500/speak Lewis \"ฉ- ฉัน... เข้าใจแล้ว... ขอโทษนะมานี$6\"/pause 1500/move Marnie 0 4 3/warp Marnie -100 -100/playSound doorClose/pause 2000/move Lewis 2 0 1/move Lewis 0 -1 1/move Lewis 1 0 1/pause 500/emote Lewis 40/pause 2000/move farmer 3 0 0/move farmer 0 -4 1/move farmer 3 0 1/emote Lewis 16/faceDirection Lewis 3/speak Lewis \"อ- โอ้ @...$6#$b#น- นี่มัน มันไม่ใช่เวลาที่ดีเลย$6\"/question fork1 \"#คุณเป็นอะไรมั้ย?#โอเค เดี๋ยวฉันไว้มาอีกทีก็ได้\"/fork noComfortLewis/pause 500/speak Lewis \"ฉัน... ไม่$6#$b#เธอน่ะ ได้ยินทุกอย่างเลยสินะ ใช่มั้ย?$6\"/pause 1500/speak Lewis \"ฉันรู้สึกแย่มากเลยล่ะ @...$6#$b#ฉันน่ะ เป็นคนที่โหดร้าย ฉันไม่อยากจะเชื่อเลยว่า ฉันจะตกหลุมรักคนอื่น ระหว่างที่ฉัน กำลังคบกับมานีอยู่...$6\"/speak Lewis \"$q -1 null#ฉันนี่มันแย่จริงๆ...#$r -1 0 event_lewisBreakup1#คุณไม่ใช่คนที่แย่ขนาดนั้น หรอกนะ... คุณก็แค่ควบคุมความรูสึก ไม่ได้แค่นั้นเอง#$r -1 0 event_lewisBreakup2#มานีก็แค่คนบ้าคนนึง ใครจะไปอยากได้ผู้หญิง แบบนั้นกันล่ะ?#$r -1 0 event_lewisBreakup3#สงสัยจัง... คุณตกหลุมรักใครกันนะ?\"/pause 1500/emote Lewis 60/pause 800/speak Lewis \"@... อยู่กับฉันซักพักนึงจะได้มั้ย? ฉันยังไม่อยากอยู่คนเดียว...$6\"/pause 2000/globalFade/viewport -1000 -1000/pause 3000/friendship Marnie -250/end dialogue Lewis \"ขอบคุณนะ @... ฉันรู้สึกดีขึ้นมานิดหน่อยแล้วล่ะ$4\"/",
 						"noComfortLewis": "pause 500/move farmer -1 0 1/move Lewis -1 0 2/move Lewis 0 4 1/move Lewis 8 0 0/playSound doorClose/warp Lewis 12 4 3/friendship Lewis -250/end warpOut",
 			},
 			"When": {
@@ -1157,6 +1201,23 @@
 			},
 			"When": {
 				"Date Linus": "true",
+			},
+		},
+///// Add compatibility with linus treehouse mod
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Mountain",
+			"Entries": {	
+						"282815613/D Linus/f Linus 2000/w sunny/t 1400 2100": "continue/29 9/farmer 23 20 0 Linus 30 9 3 Jas -100 -100 1 Vincent -101 -101 1/specificTemporarySprite linusCampfire/pause 1000/move farmer 0 -11 0/emote Linus 16/speak Linus \"โอ้ @! ดีใจที่ได้เจอนะ$h\"/faceDirection farmer 1/emote farmer 32/pause 500/speak Linus \"ทานมื้อเย็นมารึยังล่ะ? ฉันกำลังทำเมนูปลาน่ะ มีเยอะด้วยนะ ถ้าคุณอยากจะค้างล่ะก็...$h\"/question fork1 \"#เอาสิ#ฉันกำลังยุ่งอยู่น่ะ ขอโทษนะ\"/fork noDinner/pause 200/speak Linus \"จริงหรอ? เยี่ยมเลย!$h#$b#อาหารใกล้สุกแล้วล่ะ... ทำไมคุณไม่ไปรอข้างในเต็นท์ ของฉันก่อนล่ะ?$h\"/pause 200/emote farmer 32/move farmer 5 0 0/move farmer 0 -1 1/move farmer 1 0 0/move farmer 0 -1 0/warp farmer 5 5/globalFade/viewport -1000 -1000/changeLocation Tent/viewport -1000 -1000/warp Linus -103 -103/faceDirection farmer 3/viewport 6 6 true/pause 1500/emote farmer 40/pause 2000/faceDirection Linus 0/warp Linus 2 5/move Linus 2 0 1/speak Linus \"ขอโทษที่ให้รอ! ถึงจะช้าแต่ ฉันว่ามันคุ้มค่านะ!$h#$b#ปลาย่างสดๆ!$h\"/pause 500/emote farmer 32/pause 1000/speak Linus \"$q -1 null#เป็นยังไงบ้างล่ะ?#$r -1 0 event_dinner1#มันอร่อยมาเลยล่ะ!#$r -1 0 event_dinner2#ฉันเคยกินที่อร่อยกว่านี้ มาแล้วน่ะ\"/pause 2000/speak Linus \"@ คุณรู้อะไรมั้ย ฉ- ฉันน่ะ\"/playSound drumkit1/playSound drumkit1/pause 200/playSound drumkit1/playSound drumkit1/emote Linus 16/playSound drumkit1/playSound drumkit1/playSound drumkit1/message \"คุณได้ยินเสียงของหิน ที่กระทบกับเต็นท์\"/emote farmer 16/playSound drumkit1/playSound drumkit1/playSound drumkit1/speed farmer 4/move farmer 0 1 2/speed farmer 4/move farmer -2 0 3/warp farmer 29 7/globalFade/viewport -1000 -1000/changeLocation Mountain/viewport -1000 -1000/faceDirection farmer 2/warp Jas 23 8/faceDirection Jas 1/warp Vincent 24 7/faceDirection Vincent 1/viewport 27 9 true/move farmer 0 1 3/move farmer -2 0 3/emote Jas 16/emote Vincent 16/pause 200/speak Vincent \"พี่ @? อ-อ่าว ผู้ชายในเต็นท์ที่น่ากลัวๆ ไปไหนแล้ว?!$3^พี่ @? อ-อ่าว ผู้ชายในเต็นท์ที่น่ากลัวๆ ไปไหนแล้ว?!$3\"/speak Jas \"ด- ได้โปรดอย่าบอก ป้ามานีเลยนะคะ พี่ @! วินเซนท์เขาบอกให้หนูทำ!$2^ด- ได้โปรอย่าบอก ป้ามานีเลยนะคะ พี่ @! วินเซนท์เขาบอกให้หนูทำ!$2\"/speak Vincent \"ม- ไม่ใช่ผมนะ!!$2\"/pause 500/warp Linus 29 7/move Linus 0 1 3/move Linus -1 0 2/move Linus 0 1 3/move Linus -3 0 0/emote Vincent 16/emote Jas 16/speak Vincent \"ชายตัวขน น่ากลัว!!!$3\"/speak Jas \"เขาจะมาทำร้ายเราแล้ว วิ่งดิวินเซนท์! วิ่ง!$2\"/question fork1 \"ฉันควรพูดว่าอะไรดี...?#นี่มันแย่มากเลยนะ ลีนัสน่ะเขาเป็นคนดีนะ แล้วพวกเธอก็มาสร้างปัญหา แบบนี้มันถูกแล้วหรอ?#ไม่พูดอะไรดีกว่า\"/fork terroristsWin/pause 200/speak Jas \"ก็ได้! พวกหนูขอโทษค่ะ คุณลีนัส ใช่มั้ยวินเซนท์?$2\"/speak Vincent \"ครับ! ขอโทษจริงๆ ครับ!$2#$b#เราไปกันดีกว่านะแจส หนีเร็ว!!$2\"/speed Jas 4/move Jas -10 0 3/warp Jas -110 -100/speed Vincent 5/move Vincent -11 0 3/warp Vincent -111 -100/pause 2000/speed farmer 3/move farmer 0 1 3/move farmer -1 0 3/pause 500/faceDirection Linus 1/speak Linus \"ฉันขอโทษที่ทำให้คุณ ต้องมาเจออะไรแบบนี้ @$s\"/pause 500/speak Linus \"แต่... ที่คุณทำแบบนั้นเพื่อฉันน่ะ สำหรับฉัน มันมีความหมายมากเลยนะ#$b#คุณน่ะเป็นคนเดียว ที่ไม่ได้มองฉันเป็น ตัวประหลาด$s\"/pause 2000/speak Linus \"@... ขอบคุณที่ยังอยู่ตรงนี้นะ คุณเป็นเพื่อนที่ดีจริงๆ#$b#เอาล่ะ... ไปทานข้าวกันเถอะ?$h\"/emote farmer 32/pause 1500/globalFade/viewport -1000 -1000/end position 23 9",
+						"noDinner": "pause 200/speak Linus \"โอ้... งั้นหรอ... งั้นเอาไว้คราวหลังก็ได้#$b#ไว้แวะมาอีกนะ$h\"/pause 1000/end position 23 9",
+						"terroristsWin": "speed Jas 4/move Jas -10 0 3/warp Jas -110 -100/speed Vincent 5/move Vincent -11 0 3/warp Vincent -111 -100/speak Linus \"...$s\"/pause 2000/speak Linus \"ฉันต้องขอโทษ เกี่ยวกับเรื่องนั้น ด้วยนะ @$s#$b#มัน... ไม่ได้เกิดขึ้นบ่อยหรอก แต่ว่า...$s\"/pause 1500/move Linus 3 0 1/speak Linus \"ขอโทษด้วยนะ @... ฉันขออยู่คนเดียวซักพัก$s\"/pause 500/speak Linus \"เดี๋ยวฉันก็ดีขึ้นเอง...$s\"/end warpOut",
+						"282815614/D Linus/f Linus 2500/e 282815615/w sunny/t 1700 2100/n linusSleepover": "nightTime/29 9/farmer 23 20 0 Linus 30 9 3/specificTemporarySprite linusCampfire/pause 1000/move farmer 0 -11 1/emote Linus 16/speak Linus \"@! คุณมา!$h\"/emote farmer 32/move farmer 5 0 1/emote Linus 32/speak Linus \"ฉันคิดว่าไว้เรา ค่อยมาทานมื้อเย็น กันอีกทีนะ... แบบที่ไม่มีใครมากวนน่ะ$h\"/question fork1 \"#เอาสิ#ขอโทษนะ ช่วงนี้ยุ่งมากจริงๆ\"/fork noSleepover/emote Linus 56/speak Linus \"ดีเลย!$h#$b#กับข้าวพึ่งสุกล่ะ... มานั่งกินด้วยกันมั้ย?$h\"/pause 100/emote farmer 32/emote Linus 32/playSound crafting/pause 1000/playSound crafting/pause 500/speak Linus \"มื้อนี้ฉันลองสูตรใหม่น่ะ หวังว่าคุณจะชอบนะ...$h\"/message \"ลีนัสยื่นสปาเก็ตตี้ให้คุณ\"/pause 500/emote farmer 56/message \"มันอร่อยมากเลย!\"/pause 500/speak Linus \"ฉันดีใจนะที่คุณชอบ ฉันไม่ได้ทำเมนูพวกนี้บ่อยๆ หรอกนะ แต่ฉันดีใจนะ ที่ฉันได้ทำอาหารที่คุณชอบ!$h\"/pause 300/emote farmer 32/emote Linus 32/globalFade/viewport -1000 -1000/ambientLight 0 0 0/warp farmer 29 10/faceDirection farmer 0/viewport 29 9 true/pause 2000/speak Linus \"ฉันดีใจนะที่คุณแวะมาอีก หลังจากเรื่องคราวที่แล้วน่ะ @$h\"/pause 100/emote farmer 8/pause 500/speak Linus \"ฉันไม่ค่อยแน่ใจเหมือนกัน ว่ายังมีคนที่อยากทำ แบบนี้อยู่มั้ย...$s#$b#ฉันน่ะไม่ได้เกลียด ที่ตัวเองใช้ชีวิตแบบนี้ หรอกนะ... แต่ถูกคนอื่นๆ เหยียดน่ะ ขนาดเด็กๆ ยังเหยียดฉันเลย นี่มันน่าอายมากๆ เลยนะ...$s\"/speak Linus \"$q -1 null#มันน่าอายนะนั่น...#$r -1 0 event_embarrassing1#มันไม่ได้น่าอายซักหน่อย พวกเขาต่างหากล่ะที่ผิด#$r -1 0 event_embarrassing2#มันไม่สำคัญหรอก ฉันจะอยู่ข้างคุณ แล้วเราจะฝ่าฟันทุกอย่าง ไปด้วยกัน\"/pause 1000/speak Linus \"มันต้องเป็นโชคชะตาแน่ๆ ที่ทำให้ฉัน มีคนอย่างคุณอยู่ในชีวิต @$h\"/pause 500/speak Linus \"ฉ- ฉัน... ฉันรักคุณนะ$4\"/pause 100/emote farmer 16/pause 200/question fork1 \"#ฉันก็รักคุณเหมือนกัน#ขอโทษนะ แต่ฉันไม่ได้รู้สึกแบบนั้น\"/fork rejectLinus/speak Linus \"จริงหรอ? ดีใจจัง$4\"/pause 2000/speak Linus \"ค่ำคืนนี้ยังอีกยาวนาน ใช่มั้ยล่ะ?$4#$b#นอนกันเถอะ...$4\"/globalFade/viewport -1000 -1000/changeToTemporaryMap Tent2/viewport -1000 -1000/warp farmer 2 3/faceDirection farmer 1/warp Linus 4 3/faceDirection Linus 3/viewport 2 3 true/pause 500/speak Linus \"ฉันเตรียมถุงนอน ไว้ให้แล้วนะ$h#$b#มันไม่ได้นอนสบายเหมือนกับ เตียงที่บ้านของคุณหรอก แต่ว่า...$h\"/pause 100/move farmer 1 0 1/emote farmer 32/emote Linus 32/pause 2000/globalFade/viewport -1000 -1000/changeLocation Mountain/viewport -1000 -1000/end position 29 8",
+						"noSleepover": "pause 200/speak Linus \"โอ้...$s#$b#งั้นครั้งหน้าละกันนะ$s\"/pause 1000/friendship Linus -125/end warpOut",
+						"rejectLinus": "pause 500/speak Linus \"...$s\"/pause 500/speak Linus \"โอ้.$s\"/pause 1000/speak Linus \"@... บางที... มันก็คงดีกว่าที่คุณจะไป$s\"/pause 2000/friendship Linus -250/end warpOut",
+			},
+			"When": {
+				"Date Linus": "true",
+				"HasMod:Leadenbrain.LinusTreehouse": true
 			},
 		},
 		{
