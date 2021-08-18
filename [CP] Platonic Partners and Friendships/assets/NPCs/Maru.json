@@ -18,7 +18,7 @@
                 "NPC.cs.3963": "อยากใช้เวลาด้วยกัน ให้มากกว่านี้งั้นเหรอ? ใจตรงกันเลย! มีอะไรหลายอย่าง ที่อยากจะโชว์ให้เธอดู อีกเพียบเลย!$l",
                 "NPC.cs.3985": "ได้ข่าวว่าวันนี้ให้ของขวัญ {0} ไปงั้นเหรอจ๊ะ#$e#เธอนี่เป็นเพื่อนที่ น่ารักและใจดีจริง ๆ เลยนะ!$h",
                 "NPC.cs.4425": "ที่เห็นได้ชัดเลยคือ ชีวิตของพวกเราเปลี่ยนไป ตั้งแต่เริ่มที่จะเป็น {{RelationshipLabel}} กัน...$s",
-                "NPC.cs.4001": "ฉันเจอเจ้านี่ถูกห่อ แล้ววางทิ้งไว้ในห้อง... MarILDA จะหยุดทำแบบนี้สักทีมั้ยนะ?#$b#ฉันให้เธอ เพราะอยากจะให้เธอรับรู้ว่า ฉันรักการที่ได้อยู่กับเธอแบบนี้ มากขนาดไหน$l#$b#เราทั้งสองคนก็มีอะไร ที่แตกต่างกันพอสมควร... เอาตามตรงเลย ฉันคิดว่าคนอื่น ๆ คงไม่ได้คิดว่าเราทั้งสองคน เป็นเพื่อนกันหรอก But I think our differences enrich us both.$u#$b#You've changed a lot of the preconceptions I had about the farming lifestyle... And I got you to look up from the soil and out at the stars. We complement each other.$l#$b#What I'm saying is... I love you, @. You've made me a better scientist and a happier person.",
+                "NPC.cs.4001": "ฉันเจอเจ้านี่ถูกห่อ แล้ววางทิ้งไว้ในห้อง... MarILDA จะหยุดทำแบบนี้สักทีมั้ยนะ?#$b#ฉันให้เธอ เพราะอยากจะให้เธอรับรู้ว่า ฉันรักการที่ได้อยู่กับเธอแบบนี้ มากขนาดไหน$l#$b#เราทั้งสองคนก็มีอะไร ที่แตกต่างกันพอสมควร... เอาตามตรงเลย ฉันคิดว่าคนอื่น ๆ คงไม่ได้คิดว่าเราทั้งสองคน เป็นเพื่อนกันหรอก แต่ก็เพราะความแตกต่าง ถึงทำให้เรามีความสุขได้$u#$b#เธอทำให้ทัศนคติของฉัน เกี่ยวกับการทำงานในฟาร์มต่าง ๆ เปลี่ยนไปเยอะเลยนะ... ได้ดูเธอทำในสิ่งที่ชอบ ก็พลอยทำให้ฉันน่ะนะ มีความสุขไปด้วยตลอด$l#$b#ที่จะพูดก็สั้น ๆ เลย ว่ารักเธอนะ @ นักสร้างความสุขที่ดีของฉัน",
                 "NPC.cs.4507": "@",
                 "NPC.cs.4508": "@",
                 "NPC.cs.4509": "@",
@@ -29,12 +29,12 @@
                 "NPC.cs.4514": "{{TermofEndearment}}",
                 "NPC.cs.4515": "{{TermofEndearment}}",
                 "NPC.cs.4516": "{{TermofEndearment}}",
-                "NPC.cs.4517": "'Esteemed colleague'",
-                "NPC.cs.4518": "'Esteemed colleague'",
-                "NPC.cs.4519": "Best friend",
-                "NPC.cs.4522": "Best friend",
-                "NPC.cs.4523": "Best friend",
-                "Event.cs.1736": "$q -1 null#Hmm?#$r -1 0 danceAsk#(Ask Maru to be your dance partner)#$r -1 0 null#Nevermind...",
+                "NPC.cs.4517": "'เพื่อนร่วมงานที่ดี'",
+                "NPC.cs.4518": "'เพื่อนร่วมงานที่ดี'",
+                "NPC.cs.4519": "เพื่อนสนิท",
+                "NPC.cs.4522": "เพื่อนสนิท",
+                "NPC.cs.4523": "เพื่อนสนิท",
+                "Event.cs.1736": "$q -1 null#หืมมม?#$r -1 0 danceAsk#(ขอให้มาเป็นคู่เต้นด้วยกัน)#$r -1 0 null#ไม่เป็นไรดีกว่าจ้ะ...",
             },
         },
         {
@@ -42,13 +42,13 @@
             "Target": "Characters/Dialogue/Maru",
             "Entries":
             {
-                "NPC.cs.4442": "I feel a little nauseated this morning...I'm sure I filled out the adoption paperwork correctly, but I'm still nervous.$s",
-                "NPC.cs.4446": "I just feel like sleeping today. I stayed up too late refreshing my email...$s#$b#I hope the adoption agency gets back to us soon.",
-                "NPC.cs.4443": "I'm tired... can't you make your own breakfast?$s",
-                "NPC.cs.4444": "{{TermofEndearment}}, I'm so excited that we're adopting. Raising a child can't be that much harder than building an AI, can it?$h",
-                "NPC.cs.4447": "{{TermofEndearment}}, I'm so excited that we're adopting. Raising a child can't be that much harder than building an AI, can it?$h",
-                "NPC.cs.4445": "{{TermofEndearment}}, I'm feeling optimistic about the adoption.",
-                "NPC.cs.4448": "{{TermofEndearment}}, I can tell you're going to be a great parent.",
+                "NPC.cs.4442": "รู้สึกเหมือนจะคลื่นใส้ ยังไงไม่รู้... ฉันมั่นใจแล้วนะว่ากรอก เอกสารรับเลี้ยงบุตรบุญธรรม ถูกต้องทุกส่วนหมดเลย แต่ก็อดจะกังวลไม่ได้สักที$s",
+                "NPC.cs.4446": "วันนี้รู้สึกอยากนอน ตลอดทั้งวันเลย มัวแต่เช็ค Inbox ของเมลล์นะจ้ะ...$s#$b#หวังว่าหน่วยงานที่ดูแล จะติดต่อกลับมาหาพวกเราเร็ว ๆ นี้นะ",
+                "NPC.cs.4443": "ฉันเหนื่อยมากเลย... วันนี้พอจะทำอาหารเช้าเองก่อน ได้มั้ยจ๊ะ?$s",
+                "NPC.cs.4444": "{{TermofEndearment}} ตื่นเต้นมาก ๆ เลย ที่พวกเรารับเลี้ยงเด็ก การเลี้ยงเด็กคงจะไม่ยาก ไปกว่าการสร้าง AI ใช่มั้ยนะ?$h",
+                "NPC.cs.4447": "{{TermofEndearment}} ตื่นเต้นมาก ๆ เลย ที่พวกเรารับเลี้ยงเด็ก การเลี้ยงเด็กคงจะไม่ยาก ไปกว่าการสร้าง AI ใช่มั้ยนะ?$h",
+                "NPC.cs.4445": "{{TermofEndearment}} ฉันรู้สึกมั่นใจและเชื่อว่า จะต้องมีแต่เรื่องดี ๆ เกี่ยวกับการ รับเลี้ยงบุตรบุญธรรมครั้งนี้ เอามาก ๆ เลยล่ะ",
+                "NPC.cs.4448": "{{TermofEndearment}} ฉันบอกได้เลยล่ะ ว่าเธอจะเป็นพ่อแม่ที่ดี ได้แน่นอน",
             },
             "When":
             {
@@ -60,8 +60,8 @@
             "Target": "Data/EngagementDialogue",
             "Entries":
             {
-                "Maru0": "I'm really excited.$h#$b#We're going to be {{RelationshipLabel}}. Hehe.$l",
-                "Maru1": "I need to get mentally prepared for living on a farm.",
+                "Maru0": "ตื่นเต้นจังเลย$h#$b#พวกเราจะเป็น {{RelationshipLabel}} กันแล้วเหรอเนี่ย ฮ่าฮ่า.$l",
+                "Maru1": "ฉันคงจะต้องเตรียมตัว และเตรียมพร้อมสำหรับการ ใช้ชีวิตในฟาร์มให้เรียบร้อย.",
             },
         },
         {
@@ -69,8 +69,8 @@
             "Target": "Characters/Dialogue/Maru",
             "Entries":
             {
-                "NPC.cs.3965": "I already said yes! Do you need replicate data?$h",
-                "NPC.cs.3966": "Hmm... We'll call mine the experimental pendant, and that one the control.$u",
+                "NPC.cs.3965": "ฉันตอบตกลงไปแล้วนะ! อยากจะให้ฉันทำให้ดู อีกรอบมั้ยล่ะ?$h",
+                "NPC.cs.3966": "อืมมม... เราจะถือว่าเจ้าเครื่องรางนี่ มันเป็นตัวทดลองละกันนะ และเจ้านี่ก็เป็นตัวควบคุม$u",
             },
             "When":
             {
