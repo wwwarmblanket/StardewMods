@@ -1,0 +1,1859 @@
+// This Mod For Thai language Transalation and release some bug from FroggyWizard LFL original Version.
+// For Thai User Who has language barrier or the one who want to enjoy Mods with Thai native language.
+// Again, Very thanks to FroggyWizard and  sivolobwho.
+
+{
+"Format": "1.10.0",
+	
+	"ConfigSchema": {
+		"Date Clint": {
+			"AllowValues": "true, false" ,"Default": "true"
+			},
+		"Clint Looks Sprites": {
+			"AllowValues": "Vanilla, Update, Other",  "Default": "Vanilla"
+			},
+		"Clint Looks Portraits": {
+			"AllowValues": "Vanilla, Update, Other", "Default": "Vanilla"
+			},
+		"Date Gus": {
+			"AllowValues": "true, false" ,"Default": "true"
+			},
+		"Gus Looks Sprites": {
+			"AllowValues": "Vanilla, Update, Other" , "Default": "Vanilla"
+			},		
+		"Gus Looks Portraits": {
+			"AllowValues": "Vanilla, Update, Other" , "Default": "Vanilla"
+			},		
+		"Date Lewis": {
+			"AllowValues": "true, false" ,"Default": "true"
+			},
+		"Lewis Looks Sprites": {
+			"AllowValues": "Vanilla, Update, Other" , "Default": "Vanilla"
+			},
+		"Lewis Looks Portraits": {
+			"AllowValues": "Vanilla, Update, Other" , "Default": "Vanilla"
+			},
+		"Date Linus": {
+			"AllowValues": "true, false" ,"Default": "true"
+			},
+		"Linus Looks Sprites": { 
+			"AllowValues": "Vanilla, Update, Other" , "Default": "Vanilla"
+			},		
+		"Linus Looks Portraits": {
+			"AllowValues": "Vanilla, Update, Other" , "Default": "Vanilla"
+			},		
+		"Date Marnie": {
+			"AllowValues": "true, false" ,"Default": "true"
+			},
+		"Marnie Looks Sprites": {
+			"AllowValues": "Vanilla, Update, Other"  , "Default": "Vanilla"
+			},
+		"Marnie Looks Portraits": {
+			"AllowValues": "Vanilla, Update, Other" , "Default": "Vanilla"
+			},
+		"Date Pam": { 
+			"AllowValues": "true, false" ,"Default": "true"
+			},
+		"Pam Looks Sprites": {
+			"AllowValues": "Vanilla, Update, Other" , "Default": "Vanilla"
+			},		
+		"Pam Looks Portraits": { 
+			"AllowValues": "Vanilla, Update, Other" , "Default": "Vanilla"
+			},		
+		"Date Sandy": {
+			"AllowValues": "true, false" ,"Default": "true"
+			},
+		"Sandy Looks Sprites": {
+			"AllowValues": "Vanilla, Update, Other" , "Default": "Vanilla"
+			},
+		"Sandy Looks Portraits": {
+			"AllowValues": "Vanilla, Update, Other"  , "Default": "Vanilla"
+			},
+		"Date Willy": {
+			"AllowValues": "true, false" ,"Default": "true"
+			},
+		"Willy Looks Sprites": {
+			"AllowValues": "Vanilla, Update, Other" , "Default": "Vanilla"
+			},	
+		"Willy Looks Portraits": {
+			"AllowValues": "Vanilla, Update, Other" , "Default": "Vanilla"
+			},	
+		"Date Wizard": {
+			"AllowValues": "true, false" ,"Default": "true"
+			},
+		"Wizard Looks Sprites": {
+			"AllowValues": "Vanilla, Update, Other" , "Default": "Vanilla"
+			},
+		"Wizard Looks Portraits": {
+			"AllowValues": "Vanilla, Update, Other" , "Default": "Vanilla"
+			},
+		},
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Characters/Buttercup",
+			"FromFile": "assets/Characters/Buttercup.png",
+			"When": {
+				"Date Marnie": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Hank",
+			"FromFile": "assets/Characters/Hank.png",
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/Hank",
+			"FromFile": "assets/Portraits/Hank.png",
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/James",
+			"FromFile": "assets/Characters/James.png",
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/James",
+			"FromFile": "assets/Portraits/James.png",
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Khari",
+			"FromFile": "assets/Characters/Khari.png",
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/Khari",
+			"FromFile": "assets/Portraits/Khari.png",
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Lin",
+			"FromFile": "assets/Characters/Lin.png",
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/Lin",
+			"FromFile": "assets/Portraits/Lin.png",
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Clint",
+			"FromFile": "assets/Characters/Clint.png",
+			"When": {
+				"Date Clint": "true",
+				"Clint Looks Sprites": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Clint",
+			"FromFile": "assets/Portraits/Clint.png",
+			"When": {
+				"Date Clint": "true",
+				"Clint Looks Portraits": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Clint",
+			"FromFile": "assets/Characters/VanillaClint.png",
+			"When": {
+				"Date Clint": "true",
+				"Clint Looks Sprites": "Vanilla",
+			},
+		},
+/////// fix clint disappear while kissing but his head will show up when process geodes	
+		{
+			"LogName": "Clint_fix",
+			"Action": "EditImage",
+			"Target": "Characters/Clint",
+			"FromFile": "assets/Characters/VanillaClint_Kiss.png",
+			"When": {
+				"Relationship:Clint": "Married",
+			},
+		},
+		{
+			"LogName": "Clint_Goede",
+			"Action": "EditImage",
+			"Target": "Characters/Clint",
+			"FromFile": "assets/Characters/VanillaClint.png",
+			"When": {
+				"Relationship:Clint": "Married",
+				"LocationName" : "Blacksmith"
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Clint",
+			"FromFile": "assets/Portraits/VanillaClint.png",
+			"When": {
+				"Date Clint": "true",
+				"Clint Looks Portraits": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Willy",
+			"FromFile": "assets/Characters/Willy.png",
+			"When": {
+				"Date Willy": "true",
+				"Willy Looks Sprites": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Willy",
+			"FromFile": "assets/Portraits/Willy.png",
+			"When": {
+				"Date Willy": "true",
+				"Willy Looks Portraits": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Willy",
+			"FromFile": "assets/Characters/VanillaWilly.png",
+			"When": {
+				"Date Willy": "true",
+				"Willy Looks Sprites": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Willy",
+			"FromFile": "assets/Portraits/VanillaWilly.png",
+			"When": {
+				"Date Willy": "true",
+				"Willy Looks Portraits": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Gus",
+			"FromFile": "assets/Characters/Gus.png",
+			"When": {
+				"Date Gus": "true",
+				"Gus Looks Sprites": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Gus",
+			"FromFile": "assets/Portraits/Gus.png",
+			"When": {
+				"Date Gus": "true",
+				"Gus Looks Portraits": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Gus",
+			"FromFile": "assets/Characters/VanillaGus.png",
+			"When": {
+				"Date Gus": "true",
+				"Gus Looks Sprites": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Gus",
+			"FromFile": "assets/Portraits/VanillaGus.png",
+			"When": {
+				"Date Gus": "true",
+				"Gus Looks Portraits": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Lewis",
+			"FromFile": "assets/Characters/Lewis.png",
+			"When": {
+				"Date Lewis": "true",
+				"Lewis Looks Sprites": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Lewis",
+			"FromFile": "assets/Portraits/Lewis.png",
+			"When": {
+				"Date Lewis": "true",
+				"Lewis Looks Portraits": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Lewis",
+			"FromFile": "assets/Characters/VanillaLewis.png",
+			"When": {
+				"Date Lewis": "true",
+				"Lewis Looks Sprites": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Lewis",
+			"FromFile": "assets/Portraits/VanillaLewis.png",
+			"When": {
+				"Date Lewis": "true",
+				"Lewis Looks Portraits": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Linus",
+			"FromFile": "assets/Characters/Linus.png",
+			"When": {
+				"Date Linus": "true",
+				"Linus Looks Sprites": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Linus",
+			"FromFile": "assets/Portraits/Linus.png",
+			"When": {
+				"Date Linus": "true",
+				"Linus Looks Portraits": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Linus",
+			"FromFile": "assets/Characters/VanillaLinus.png",
+			"When": {
+				"Date Linus": "true",
+				"Linus Looks Sprites": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Linus",
+			"FromFile": "assets/Portraits/VanillaLinus.png",
+			"When": {
+				"Date Linus": "true",
+				"Linus Looks Portraits": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Marnie",
+			"FromFile": "assets/Characters/Marnie.png",
+			"When": {
+				"Date Marnie": "true",
+				"Marnie Looks Sprites": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Marnie",
+			"FromFile": "assets/Portraits/Marnie.png",
+			"When": {
+				"Date Marnie": "true",
+				"Marnie Looks Portraits": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Marnie",
+			"FromFile": "assets/Characters/VanillaMarnie.png",
+			"When": {
+				"Date Marnie": "true",
+				"Marnie Looks Sprites": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Marnie",
+			"FromFile": "assets/Portraits/VanillaMarnie.png",
+			"When": {
+				"Date Marnie": "true",
+				"Marnie Looks Portraits": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Pam",
+			"FromFile": "assets/Characters/Pam.png",
+			"When": {
+				"Date Pam": "true",
+				"Pam Looks Sprites": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Pam",
+			"FromFile": "assets/Portraits/Pam.png",
+			"When": {
+				"Date Pam": "true",
+				"Pam Looks Portraits": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Pam",
+			"FromFile": "assets/Characters/VanillaPam.png",
+			"When": {
+				"Date Pam": "true",
+				"Pam Looks Sprites": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Pam",
+			"FromFile": "assets/Portraits/VanillaPam.png",
+			"When": {
+				"Date Pam": "true",
+				"Pam Looks Portraits": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Wizard",
+			"FromFile": "assets/Characters/Wizard.png",
+			"When": {
+				"Date Wizard": "true",
+				"Wizard Looks Sprites": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Wizard",
+			"FromFile": "assets/Portraits/Wizard.png",
+			"When": {
+				"Date Wizard": "true",
+				"Wizard Looks Portraits": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Wizard",
+			"FromFile": "assets/Characters/VanillaWizard.png",
+			"When": {
+				"Date Wizard": "true",
+				"Wizard Looks Sprites": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Wizard",
+			"FromFile": "assets/Portraits/VanillaWizard.png",
+			"When": {
+				"Date Wizard": "true",
+				"Wizard Looks Portraits": "Vanilla",
+			},
+		},
+//// Load Wizard Sleep Animation		
+		{
+			"Action": "EditData",
+			"Target": "Data/animationDescriptions",
+			"Entries": {
+				"wizard_sleep": "51/51/51"  
+				},				
+			"When": {
+				"Date Wizard": "true"
+			}
+		},		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Sandy",
+			"FromFile": "assets/Characters/Sandy.png",
+			"When": {
+				"Date Sandy": "true",
+				"Sandy Looks Sprites": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Sandy",
+			"FromFile": "assets/Portraits/Sandy.png",
+			"When": {
+				"Date Sandy": "true",
+				"Sandy Looks Portraits": "Update",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Sandy",
+			"FromFile": "assets/Characters/VanillaSandy.png",
+			"When": {
+				"Date Sandy": "true",
+				"Sandy Looks Sprites": "Vanilla",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Sandy",
+			"FromFile": "assets/Portraits/VanillaSandy.png",
+			"When": {
+				"Date Sandy": "true",
+				"Sandy Looks Portraits": "Vanilla",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/ClubZuzu",
+			"FromFile": "assets/Maps/ClubZuzu.tbin",
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/forestEvent",
+			"FromFile": "assets/Maps/forestEvent.tbin",
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/gusPicnic",
+			"FromFile": "assets/Maps/gusPicnic.tbin",
+			"When": {
+			"Date Gus": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/MarnieBarn",
+			"FromFile": "assets/Maps/MarnieBarn.tbin",
+			"When": {
+				"Date Marnie": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/meetingRoom",
+			"FromFile": "assets/Maps/meetingRoom.tbin",
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/meetingRoom2",
+			"FromFile": "assets/Maps/meetingRoom2.tbin",
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/niceTrailer",
+			"FromFile": "assets/Maps/niceTrailer.tbin",
+			"When": {
+				"Date Pam": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/SandyHouse",
+			"FromFile": "assets/Maps/SandyHouse.tbin",
+			"When": {
+				"Date Sandy": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Tent2",
+			"FromFile": "assets/Maps/Tent2.tbin",
+			"When": {
+				"Date Linus": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/WillyRoom",
+			"FromFile": "assets/Maps/WillyRoom.tbin",
+			"When": {
+				"Date Willy": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/WizardHouseBasement",
+			"FromFile": "assets/Maps/WizardHouseBasement.tbin",
+			"When": {
+				"Date Wizard": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/zuzuInn",
+			"FromFile": "assets/Maps/zuzuInn.tbin",
+		},
+		{
+            "Action": "Load",
+            "Target": "Characters/schedules/Clint",
+            "FromFile": "assets/Characters/schedules/Clint.json",
+			"When": {
+				"Date Clint": "true",
+			},
+		},
+//// add new Event map Blacksmith		
+		{
+            "Action": "Load",
+            "Target": "Data/Events/Blacksmith",
+            "FromFile": "assets/Data/Events/Blacksmith.xnb",
+			"When": {
+				"Date Clint": "true",
+			},
+		},
+		{
+            "Action": "Load",
+            "Target": "Characters/schedules/Gus",
+            "FromFile": "assets/Characters/schedules/Gus.json",
+			"When": {
+				"Date Gus": "true",
+			},
+		},
+		{
+            "Action": "Load",
+            "Target": "Characters/schedules/Lewis",
+            "FromFile": "assets/Characters/schedules/Lewis.json",
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+            "Action": "Load",
+            "Target": "Characters/schedules/Linus",
+            "FromFile": "assets/Characters/schedules/Linus.json",
+			"When": {
+				"Date Linus": "true",
+			},
+		},
+		{
+            "Action": "Load",
+            "Target": "Characters/schedules/Marnie",
+            "FromFile": "assets/Characters/schedules/Marnie.json",
+			"When": {
+				"Date Marnie": "true",
+			},
+		},
+		{
+            "Action": "Load",
+            "Target": "Characters/schedules/Pam",
+            "FromFile": "assets/Characters/schedules/Pam.json",
+			"When": {
+				"Date Pam": "true",
+			},
+		},
+		{
+            "Action": "Load",
+            "Target": "Characters/schedules/Sandy",
+            "FromFile": "assets/Characters/schedules/Sandy.json",
+			"When": {
+				"Date Sandy": "true",
+			},
+		},
+		{
+            "Action": "Load",
+            "Target": "Characters/schedules/Willy",
+            "FromFile": "assets/Characters/schedules/Willy.json",
+			"When": {
+				"Date Willy": "true",
+			},
+		},
+		{
+            "Action": "Load",
+            "Target": "Characters/schedules/Wizard",
+            "FromFile": "assets/Characters/schedules/Wizard.json",
+			"When": {
+				"Date Wizard": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+				"Clint": {
+					5: "datable",
+				}
+			},
+			"When": {
+				"Date Clint": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+			    "Willy": {
+					5: "datable",
+				},
+			},
+			"When": {
+				"Date Willy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+				"Gus": {
+					5: "datable",
+				},
+			},
+			"When": {
+				"Date Gus": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+				"Lewis": {
+					5: "datable",
+				},
+			},
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+				"Linus": {
+					5: "datable",
+				},
+			},
+			"When": {
+				"Date Linus": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+				"Marnie": {
+					5: "datable",
+				},
+			},
+			"When": {
+				"Date Marnie": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+				"Pam": {
+					5: "datable"
+				},
+			},
+			"When": {
+				"Date Pam": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+			    "Wizard": {
+					5: "datable",
+				},
+			},
+			"When": {
+				"Date Wizard": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+			    "Wizard": { 
+					11: "Magnus",
+				},
+			},
+			"When": {
+				"Date Wizard": "true",
+				"HasSeenEvent": "282815631",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+				"Sandy": {
+					5: "datable",
+				},
+			},
+			"When": {
+				"Date Sandy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"Entries": {
+				"Sandy": "˕ÒäʲàËÃÍ? à˕¹ʻÍ¹ËÒ äˑãʺ·Ò§¢Í§ĉ¹ˉÐчģ¡ á˅ɤàʔ¡æ à˕¹ʁÊȹ¡Ƥ¹Ð"
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": {
+				"Sandy": "ĉ¹ģ¡à·È¡ÒÅ׉! ´Í¡ä́ à˵¹œÒ äˑƱÍÐäÃчäˑˉÒªÍºàÅÂ!$h#$e#ƫË˹Òĉ¹¨Ð¡ĥºÁÒáˉ¹Í¹!$h"
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": {
+				"Sandy": "¾Ç¡Ȥ³¨Ð˵Áȫ»... º¹ªÒÂËÒ´... ¡ÅÒ§Ë˹Ò̃Í¹ ä˴ âÍà¤"
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"Entries": {
+				"Sandy": "ĉ¹ҥ¹à˵¹ч¨Ðɤ¾Ç¡ġ¹¹Ð àÃÒäˑƱáÁ§¡ÃÐ¾Ƀ¹ч˺Ò¹ˉÐ Í˒Ò˗Òá˅áÁ§¡ÃÐ¾Ƀ¹чÊÇÂæ àÅÂ!$h"
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": {
+				"Sandy": "ÍÍ¡ÁÒ¨Ò¡·ÐàÅ·ÃÒÂˉÐ àʛ¹àҳÍ§žàÈÉàÊÁÍ á˅ƭȑÍ˒Ò§¢Í§āÊ˕ÐàËÃÍ?#$b#áʴàҮÍÁÒš¹ ʁلÁч¨ÐàŴ¹·Ò§ÁÒá̅Ç˕Ð"
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"Entries": {
+				"Sandy": "ڝÇÇ! щˉÒ¡ĥÇƤ¹Ð Êȹ¡Ĉ§!$h"
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"Entries": {
+				"Sandy": "ġ¹Ë¹ÒÇˉÐ! ч˺Ò¹äˑà¤ÂË¹ÒÇ¢¹Ò´׉àÅÂ!#$e#Ĉº»ÅÒĕÇãËʽæ ÁÒã̋ĉ¹˴ÇÂ¹Ð ä˴ՁÂ?$h"
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": {
+				"Sandy": "щġ¹ˉÒģ¡ÁÒ¡àÅÂ чģ¡ ǖ§ġ¹¨ÐË¹ÒÇÁÒ¡ á˅ĉ¹ړǪ¡ä˴ǖ§ ¤ÇÒÁÍºӭ¹¢Í§ Է§ȪÁª¹àÅÂ˕Ð"
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+				    "Clint0": "¾Ç¡àÃÒ¨Ðä˴á˅§§Ò¹ā¹...$4#$e#ˉÒҥ¹à˵¹ãʺՁÂ˕Ð... чģ¡?$h",
+					"Clint1": "¼Á... ¼ÁĪ­­Ò˗Ò ¨ÐŇÒã̋Ȥ³Ʊ¤ÇÒÁɊ¢ ã̋ÁÒ¡чɊ´ @!$4#$e#Ȥ³ä̇ã¨¼Áä˴àÅÂ$h",
+			},
+			"When": {
+				"Date Clint": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+					"Gus0": "ʺÒ§ˉÒ»ÃÐËÅÒ´ã¨! ªÒÇä˓Í˒Ò§Ȥ³ āººÒΓà·¹à´ÍΓÍ˒Ò§¼Á...#$e#¼Áړ¤ģº˗Ò¾Ç¡àÃÒ ¨Ðä»ā¹ä˴Ƥáˉ¹Í¹!$h",
+					"Gus1": "¼Á¨ÐŇÒÍÒËÒÃϔÒÍ˓ÍÂæ ã̋Ȥ³ȷ¡Ǵ¹àÅÂ¤ģº!#$e#¨ÐäˑƱرÍÍÒËÒÃ чˉÒàҪÍƽ¡˅Íä» ¾ÍàÃÒá˅§§Ò¹ā¹á̅Ç!$h",
+			},
+			"When": {
+				"Date Gus": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+					"Lewis0": "¼ÁÍÒ¨¨Ðàʛ¹à·ÈÁ¹µƳ¢Í§àȑÍ§ á˅Ȥ³ä˴ÁÒàʛ¹à·ÈÁ¹µƳ ¢Í§ã¨¼Áá̅Ç¹Ð¤ģº @$h",
+					"Lewis1": "¼ÁɊ¢̅¹ä»àÅÂ!$h#$e#¼ÁʺÇÂäˑä˴ч¨Ð ä˴á˅Ê§ĪÂ˗Ò... á̅Çã¤Ã¨Ðàʛ¹¤¹ ńÒàŹ¹žƨ˕ÐƧ׉?",
+			},
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+					"Linus0": "µÍ¹áÃ¡¼Á Ǚ¡˗ÒȤ³̅Íà˕¹...$s#$e#á˅Ȥ³àʛ¹¤¹žàÈÉ @ ¼Áړ˗ÒȤ³¨ÐäˑŇÒ áººԹ¹ËÃÍ¡$h#$e#¼ÁàҚÍã¨Ȥ³¤ģº áÅÐ¼ÁƱ¤ÇÒÁɊ¢ чȤ³ÍÂÒ¡¨Ðã˪ƚƇµ ˓ÇÁāº¼Á$4",
+					"Linus1": "Ȥ³ʺÒ§¡̅ÒËÒ­ @#$e#Ȥ³äˑ¡ĥÇ˗Ò ªÒÇàȑÍ§¤¹ҽ¹æ ¨Ðɮ´ā¹˗Òä§ ι¹Ʊ¤ÇÒÁËÁÒÂÁÒ¡àÅÂ¤ģº$h",
+			},
+			"When": {
+				"Date Linus": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+					"Marnie0": "à¸ÍÍÂÒ¡á˅§§Ò¹ āºĉ¹àËÃÍ...!#$e#à¸Íщá»Å¡ÁÒ¡¹Ð @ á˅ĉ¹ÃÍàʛ¹ÀÃÃÂÒ ¢Í§à¸ÍäˑäËÇá̅Ç$4",
+					"Marnie1": "àª¹µ¡Å§ч¨ÐɤáÅ¿ÒΓÁ āºá̘Êá̅Ç˕Ð#$e#ȷ¡æ Í˒Ò§ıÒĥ§àˢÒч... áʴƽ¡ÊÍ§ÊÒÁħ¹àˇÒԹ¹!$h",
+			},
+			"When": {
+				"Date Marnie": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+					"Pam0": "à¸Íщàʛ¹ àʔ¡»ÃÐËÅÒ´àƺÂ¨ƃ§... ÍÂÒ¡á˅§§Ò¹āºËŭ§áʱæ Í˒Ò§ĉ¹àËÃÍ#$e#ÍÐäÃ? ĉ¹äˑä˴ˊ¹ÍÐäÃ¹Ð!$h",
+					"Pam1": "à¾¹ƩˉÐɤáÅĕÇàÍ§ä˴... à¸Íàʛ¹àʔ¡ģºż´ªÍº#$e#à¸Í¾̃ÍÁ¨Ðàʛ¹ ڌ»¡¤ÃÍ§Ⱥ­¸ÃÃÁËȓÍĢ§?$h",
+			},
+			"When": {
+				"Date Pam": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+					"Sandy0": "ĉ¹ ä»ÍԒч¿ÒΓÁ... ˉÒҥ¹à˵¹ÍÐäÃÍ˒Ò§׉!$1#$e#áÅÐ§Ò¹á˅§Т§ãËʽ...#$e#ĉ¹ÃÍäˑäËÇá̅Ç$1",
+					"Sandy1": "â̍ @ ĉ¹Ʊ¤ÇÒÁɊ¢àËȕÍàš¹!$6#$e#¾Ç¡àÃÒ¨Ð˵Í§àʛ¹ӴчƤáˉ$6",
+			},
+			"When": {
+				"Date Sandy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+					"Willy0": "à¸ÍÍÂÒ¡á˅§ āºªÒÂ»ÃÐÁ§áʱæ ¤¹׉àËÃÍ?#$e#Ƥ! à¢ÒʁÍÂÒ¡á˅§§Ò¹āºà¸Í àËȑÍ¹ā¹$h",
+					"Willy1": "Ʊ»ÅÒÁÒ¡ÁÒÂã¹·ÐàÅ...#$e#ĉ¹Ƥã¨чàÃÒËÒā¹à¨Í¹Ð »ÅÒ˹ÍÂ$h" ,
+			},
+			"When": {
+				"Date Willy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+					"Wizard0": "ÊÒƱ¢Í§ªÒÇä˓... ι¹àʛ¹ƚƇµчá»Å¡ ŚÒËģº¤¹áººˢÒáˉ˕Ð#$e#á˅äˑ˵Í§ā§ÇÅä» чģ¡ ˢÒƱàƮÂ§¤ÇÒÁړǪ¡ ҥ¹à˵¹ āº¤ÇÒÁŤ´ι¹àˇÒԹ¹$7",
+					"Wizard1": "ˢÒˉÐäˑ˵Í§Ʊžƨ¢Í§ ˝Ò... žƨ ʁä˴¹Ð$s#$e#á˅àҮÍà˨Òá̅Ç чģ¡ ˢÒ¨Ð·¹á̅Çā¹#$e#á˅Í˒Ò˗ÒàÅÂ¹Ð ˶ÒˢÒ¢Íã˚˼Ò¤ɅÁ ˢÒäˑÍÂÒ¡ã̋¤¹àʫ¹ â´ÂäˑƱġ¹ˉÐ" ,
+			},
+			"When": {
+				"Date Wizard": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/ExtraDialogue",
+			"Entries": {
+					    "Mines_PlayerKilled_Clint_NotSpouse": "...¼Áà¨ÍȤ³ËÁ´Êŵ ÍԒ¡ÅÒ§àËȑÍ§ ¼Á˗ÒËĥ§¼Áà´ÒÐá̅Ç µÍ¹ÅÒ¡Ȥ³ÁÒǖ§º¹щ#$b#¤Ճ§Ë˹ÒʁÃÐħ§ËˉÍÂ˕Ð µ¡Å§ՁÂ?$s",
+						"Mines_PlayerKilled_Clint_Spouse": "...¼Á¾ºȤ³ËÁ´Êŵ ÍԒ¡ÅÒ§àËȑÍ§ˉÐ áˡÇµÒ¢Í§¼Á...$s#$b#¼Áàʛ¹˛Ç§ÁÒ¡àÅÂ! ä˴â»Ã´ÃÐħ§ĕÇÁÒ¡¡˗Ò׉ à¶ÍÐ¹Ð...$s",
+			},
+			"When": {
+				"Date Clint": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/ExtraDialogue",
+			"Entries": {
+						"Mines_PlayerKilled_Linus_NotSpouse": "...¼Áà¨ÍȤ³ËÁ´Êŵ ÍԒ¡ÅÒ§àËȑÍ§ Ȥ³âª¤ƤÁÒ¡àÅÂ¹Ð ч¼ÁˌÒ¹ä»µÃ§Թ¹¾ÍƤ!#$b#¤Ճ§Ë˹ÒʁÃÐħ§ËˉÍÂ˕Ð µ¡Å§ՁÂ?$s",
+						"Mines_PlayerKilled_Linus_Spouse": "...¼Á¾ºȤ³ËÁ´Êŵ ÍԒ¡ÅÒ§àËȑÍ§ˉÐ Ȥ³ËÁ´Êŵä»¹Ò¹ÁÒ¡àÅÂ¹Ð ¼ÁĊ¡àУÁ¨Ðàʛ¹˛Ç§ «Ðá̅ÇƊ.$s#$b#¤Ճ§Ë˹ÒʁÃÐħ§ĕÇ ã̋ÁÒ¡¡˗Ò׉˴ÇÂ˕Ð...$s",
+			},
+			"When": {
+				"Date Linus": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				    "linusSleepover": "@^˶ÒȤ³ƱàÇÅÒ˗Ò§ áÇÐÁÒàђÂÁ¼ÁǴ¹׉ä˴¹Ð^¼ÁŤ´˗Ò ¼Á¨ÐàµƳÂÁرÍàʢ¹ áÅÐàÃÒʁÁÒι§ȤÂā¹^Ȥ³ÁÒ¹Í¹ˤÒ§Ǵ¹ä˴¹Ð ˶ÒËÒ¡˗Ȥ³ÍÂÒ¡˕Ðʁ¹Ð^˶ÒÊ¹ã¨ ã̋ÁÒà¨Í¼Á»ÃÐÁÒ³ 6 âÁ§àʢ¹ ä̇¼Á¨ÐÃÍ¹Ð!^   -ƵęÊ",
+			},
+			"When": {
+				"Date Linus": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+					"pennyDinner": "ǖ§ @^ĉ¹ړ˗ÒƱƱºÒ§Í˒Ò§á»Å¡ä»ÃÐË˗Ò§àÃÒ Ե§á˅ĉ¹ړàҳÍ§àбÂÇāºȤ³áÅÐáˑ¢Í§ĉ¹ʴÐ ĉ¹¢Íâ·ÉчâÁâËã˚¾Ç¡Ȥ³ä»µÍ¹Թ¹ ĉ¹ÍÂÒ¡¨Ð»ģº¤ÇÒÁàˢÒã¨āºȤ³^ÁÒËÒĉ¹чÃ¶˺Ò¹ã¹ħ¹׉¹Ð¤Ð Ʊà«ÍΓä¾ÃΚÃÍȤ³ÍԒ˴ÇÂ˕ÐʴÐ!^^   ˴ÇÂģ¡^   à¾¹Ʃ",
+			},
+			"When": {
+				"Date Pam": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+					"sandyDancing": "@!^^A little birdie told me you've never been dancing in Zuzu City before! I think we should change that tonight!^Meet me at my shop around 9 and we'll go out!^^  Love,^  Sandy^^P.S. Don't forget to wear something cute!! :)",
+					"morningAfter": "@,^^Thank you for taking care of me last night. My memory's a little foggy, but I do remember how you tucked me in when we were back at my place.^I meant what I said when I told you I love you. It wasn't just drunk rambling! Really.^I'll see you next time you come by (make it soon!!!).^^Love,^ Sandy",
+			},
+			"When": {
+				"Date Sandy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+					"fishingInvite": "@^ġ¹àʛ¹ħ¹ÊÁɪÃ΃áººŚÒËģº¡ÒÃàŴ¹·Ò§ä»µ¡»ÅÒàÅÂ!^àÍÒɍ»¡Ã΃ā¹½¹ÁÒà¨Íĉ¹ч¡ÃÐˇÍÁµÍ¹¾̃ÍÁ¨Ðä»˴ÇÂ˕Ð! á̅Ç¨ÐÃÍ¹Ð!^^-ƇÅѕ",
+					"fishingTrip": "@^ä»µ¡»ÅÒā¹à¶ÍÐ... Ī­­Ò˗Ò¨ÐäˑˋÇÂÅÐ¤ÃÒÇ׉!^áÇÐÁÒч̃Ò¹ĉ¹àÅÂ¹Ð˶Ò¾̃ÍÁá̅Ç^^-ƇÅѕ",
+			},
+			"When": {
+				"Date Willy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+					"CF_Fish": "ǖ§ @ ā»ĕ¹чģ¡¢Í§¼Á ^ ė¡ÉÐµ¡»ÅÒ¢Í§à¸Í ƤТ§¡˗Ò¢Í§µÒáʱ¢Í§ĉ¹á̅Ç˴ÇÂ՛Ò... ĉ¹»ÃÐėºã¨¹Ð^ ÊµÒΓ´ÃÍ»щµ¡·Í´ÁÒ¨Ò¡ƇÅѕƛàƩÂΓ ԚƇÅÅÃÒɘàƩÂΓ ÁÒ... â̍ ¡ÃÃÁ Ğ¹¡˗Òƫä˴á̅ÇՁ§^àʫ¹˗ÒäË¹æ àÃÒʁá˅§§Ò¹ā¹á̅ÇÍÐäÃáººԹ¹... ĉ¹ÍÂÒ¡ã̋à¸Íàʁºä̇ˉÐ^^ -ƇÅѕ   ^  %item object 434 1 %%"
+			},
+			"When": {
+				"Spouse": "Willy",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+					"wizardNap": "ǖ§ @^^ˢÒ¢ÍÍĠÂÍ˒Ò§¨ƃ§ã¨ чÊÀÒ¾ˢÒчà˨Ò¾ºàұÍħ¹ʱÍ¹ ºÒ§¤Ճ§ˢÒʁŇÒ§Ò¹¨¹ȕÁч¨Ð¹Í¹¤Ճ§ÅÐËÅÒÂħ¹ ǖ§á́¨Ðàʛ¹ˢÒ ι¹ʁĢ§ŇÒÅÒÂɊ¢ÀÒ¾Т§ę¡...^ι¹ǈ§àʛ¹àËȵ¼ÅчˢÒàƒÂ¹ÁÒ: àҮÍ¢ÍºȤ³à˨ÒÍ˒Ò§¨ƃ§Ĉ§áÅÐ¨ƃ§ã¨ ŚÒËģºЪ§чà˨ÒŇÒ ˢÒäˑà¤ÂƱ¤¹ÁÒÊ¹ã¨˗Òàʛ¹Ģ§ä§Í˒Ò§¨ƃ§Ĉ§ÁÒʱÍ¹ ˢÒ¾º˗Òġ¹ˉÒµ¡ã¨ á˅ʁˉÒÍºӭ¹ã¨Í˒Ò§»ÃÐËÅÒ´àʺ¹ā¹ ˶ÒˢÒµÍºá·¹à˨Ò äˑ˗Ò·Ò§äË¹ʁµÒÁ Í˒Òĥ§àÅч¨ÐºÍ¡ˢÒ˕Ð^^ƽ¡¤Ճ§ @ ¢ÍºȤ³ÁÒ¡ á̅Ç¾ºā¹àʣÇæ ׉^^ ˴ÇÂ¤ÇÒÁ¨ƃ§ã¨^ àʭÁ. ÃÒÊâÁàƤÂÊ",
+					"teachMagic": "ǖ§ @^^ˢÒړ˗Òġ¹¡ÃÐė¹ī¹ä»ËˉÍÂ á˅ˢÒÊ§ĪÂ˗Ò à˨Ò¨ÐÁÒàˢÒ˓ÇÁ Ԫ¹àƳÂ¹ÊÍ¹àÇ·Á¹µΓ ŇÒ¹Í§Թ¹ āºˢÒħ¹׉ä˴ËȓÍäˑ Ʊ¤Ò¶ÒчˢÒàҚÍ˗Ò à˨Ò¨ÐàÊ¡ä˴áˉ ˶ÒԵ§ÊÁÒŸƤæ^á˅˶Òà˨ÒӢ§ ˢÒʁàˢÒã¨¹Ð á˅˶Òäˑ ÁÒà¨ÍˢÒчˋÒǥ¡ĥº ·Ò§àËȉÍ¢Í§¡ÃÐˇÍÁˢÒ¹Ð^^ ˴ÇÂ¤ÇÒÁ¨ƃ§ã¨^ àʭÁ. ÃÒÊâÁàƤÂÊ",
+			},
+			"When": {
+				"Date Wizard": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/AnimalShop",
+			"Entries": {
+					   "282815607/D Marnie/f Marnie 2000/t 1400 1800/k 282815608": "continue/24 15/farmer -100 -100 0 Marnie 24 15 0 Lewis 15 18 1/skippable/pause 500/move Marnie 2 0 0/pause 1500/move Marnie -2 0 0/pause 1000/move Lewis 5 0 0/emote Marnie 16/faceDirection Marnie 2/pause 100/speak Marnie \"â̍ à·ÈÁ¹µƳàÅƇÊ Ȥ³щàÍ§ µ¡ã¨ËÁ´àÅÂ¹ÐàщÂ#$b# ĉ¹äˑړàÅÂ¹ÐàщÂ ˗ÒȤ³¨ÐÁÒ$h\"/move Lewis 0 -2 1/speak Lewis \"àÍÒµÒÁµÃ§àÅÂ¹Ð... ÁÒƩ Ʊ... ºÒ§àҳÍ§чĉ¹ÍÂÒ¡ ¨ÐȤÂ˴ÇÂˉÐ$s\"/pause 300/emote Marnie 8/move Marnie 0 1 3/move Marnie -3 0 3/speak Marnie \"ÍÐäÃËÃÍ? ƱàҳÍ§ÍÐäÃ?$s\"/faceDirection Lewis 2/pause 500/speak Lewis \"ÁÒƩ... ĉ¹˗ÒàÃÒäˑ¤ÇÃ ч¨Ðà¨Íā¹ÁÒá̅Ç˕Ð$s\"/emote Marnie 16/speak Marnie \"ÍÐäÃ¹Ð? ŇÒäÁǖ§ɮ´Í˒Ò§Թ¹˕Ð?$s#$b#...Ȥ³ʁɤƱ¤ÇÒÁɊ¢ƤäˑãʺËÃÍ?$s\"/pause 500/faceDirection Lewis 1/pause 500/speak Lewis \"Ğ¡׉à¸ÍŇÒĕÇ˛Ò§àƋ¹¹Ð Ť´˗Òĉ¹äˑړǪ¡ĕÇǣä§?$s\"/pause 500/faceDirection Lewis 2/emote Lewis 12/speak Lewis \"˶Òà¸ÍƱ¤¹ҽ¹á̅ÇˉÐ ĉ¹ʁÍÂÒ¡ã̋à¸ÍºÍ¡ĉ¹$3\"/pause 1000/emote Marnie 60/speak Marnie \"щàÅƇÊ... Ȥ³ʁړËŹ ĉ¹ˉÐ äˑà¤Â¹Í¡ã¨Ȥ³àÅÂ¹Ð... Ȥ³ʁړãʺՁÂ?$s\"/pause 1000/faceDirection Lewis 1/pause 500/speak Lewis \"ĉ¹ړ... ÁÒƩ... ĉ¹ړƤ˗Òà¸Íàʛ¹¤¹чƤÁÒ¡$s#$b#á˅... à¸ÍʁƱã¨ã̋à¢Ò äˑãʺǣä§?$s^á˅... à¸ÍʁƱã¨ã̋Ë˕Í¹ äˑãʺǣä§?$s\"/pause 500/faceDirection Marnie 1/pause 1500/speak Marnie \"àÅƇÊ... ĉ¹¢Íâ·É!$8\"/pause 1500/speak Lewis \"...$s\"/pause 1500/faceDirection Marnie 3/pause 500/speak Marnie \"ġ¹ʺÇÂäˑä˴ËŹ ĉ¹... ĉ¹äˑà¤Â¹Í¡ã¨¹ÒÂàÅÂ á˅ĉ¹... ĉ¹...$s#$b#ĉ¹ªÍºà¢Ò$8^ĉ¹ªÍºà¢Ò$8\"/pause 2000/faceDirection Lewis 3/pause 1000/speak Lewis \"à¸Í¨Ðã̋¤ÇÒÁËħ§ āºĉ¹ä»ǖ§àұÍäË˓ā¹?$s\"/pause 1000/speak Marnie \"...$8\"/pause 500/emote Lewis 12/speak Lewis \"ĉ¹¢Íâ·É¹ÐÁÒƩ á˅àÃÒ¨ºā¹µÃ§׉áËÅÐ$s\"/pause 500/speak Marnie \"ĉ¹... àˢÒã¨á̅Ç ¢Íâ·É¹Ð àÅƇÊ...$8\"/pause 1500/move Lewis 0 2 3/move Lewis -7 0 3/warp Lewis -100 -100/pause 2000/move Marnie 4 0 1/pause 500/emote Marnie 40/warp farmer 13 18 1/pause 2000/move farmer 7 0 0/emote Marnie 16/faceDirection Marnie 3/speak Marnie \"Í- â̍... @...$8#$b#¹- щ... щġ¹äˑãʺàÇÅÒчƤàÅÂ...$8\"/question fork1 \"#à¸ÍâÍà¤ՁÂ?#ԧ¹... à݋ÂÇä̇ÁÒƽ¡ƧÅÐā¹\"/fork noComfortMarnie/pause 500/speak Marnie \"ĉ¹... äˑ$8#$b#Ȥ³ˉÐ... ä˴Ƃ¹ȷ¡Í˒Ò§... àÅÂƊ¹Ð?$8\"/pause 300/move farmer 0 -2 1/move farmer 4 0 1/pause 500/speak Marnie \"ĉ¹ړǪ¡á˒ÁÒ¡àÅÂ @.$8#$b#ĉ¹ġ¹àʛ¹¤¹ч äˑƤàÍÒ«ÐàÅÂ... ĉ¹äˑÍÂÒ¡¨ÐàҚÍàÅÂ˗Òĉ¹ ĉ¹¨Ðµ¡ËɅÁģ¡¤¹ҽ¹ ÃÐË˗Ò§ч¤ºāºà·ÈÁ¹µƳàÅƇÊ...$8\"/speak Marnie \"$q -1 null#ĉ¹щġ¹á˒¨ƃ§æ...#$r -1 0 event_marnieBreakup1#à¸Íäˑä˴àʛ¹Í˒Ò§Թ¹¹Ð à¸Íʁáʴ¤ÇºȤÁĕÇàÍ§äˑä˴ áʴԹ¹àÍ§#$r -1 0 event_marnieBreakup2#ˇÒ¹à·ÈÁ¹µƳġ¹˺Ò ã¤Ã¨Ðä»˵Í§¡ÒÃ ڌªÒÂÍ˒Ò§à¢Òā¹˕Ð?#$r -1 0 event_marnieBreakup3#Ê§ĪÂĈ§àÅÂ˹ÒÒÒÒÒ... µ¡ËɅÁģ¡ã¤Ãà˝ÂÂÂ?\"/pause 1500/emote Marnie 60/pause 800/speak Marnie \"@... ʺÇÂÍԒāºĉ¹ċ¡Ğ¡ä˴ՁÂ? ĉ¹äˑÍÂÒ¡ÍԒ¤¹àƤÂÇ...$8\"/pause 2000/globalFade/viewport -1000 -1000/pause 3000/friendship Lewis -250/end dialogue Marnie \"¢ÍºȤ³¹Ð @... ĉ¹ړǪ¡Ƥע¹Ź´ËˉÍÂ á̅Ç˕Ð...$4\"/",
+					   "noComfortMarnie": "pause 500/move Marnie -2 0 2/move Marnie 0 2 3/move Marnie -2 0 3/move farmer 0 -1 2/move Marnie -8 0 0/warp Marnie 12 4 3/friendship Marnie -250/end warpOut",
+			},	
+			"When": {
+				"Date Marnie": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Blacksmith",
+			"Entries": {
+					    "282815601/D Clint/f Clint 2000/t 900 1700": "continue/7 13/farmer 5 18 0 Clint 3 13 2 Emily 5 15 0/skippable/move Emily 0 -2 3/speak Emily \"ä§̘Ð ¤ƅ¹·! ĉ¹à¨Í¼ǥ¡à͈§æ щº¹à¢Òħ¹ʱÍ¹˴ÇÂ˕Ð#$b#Ť´˗Ò¹ÒÂ¨ÐàŻ´ġ¹ ã̋ĉ¹ä˴ՁÂ? ĉ¹ҥ¹à˵¹¨ÐµÒÂá̅Ç ч¨Ðړ˗Òġ¹ƱÍÐäÃˢÒ§ã¹!$h\"/faceDirection Clint 1/speak Clint \"â̍ à˝Í... ä˴áˉ¹Í¹ àÍƁѕ ä˴ÍԒá̅Ç\"/move Clint 0 -1 1/move Clint 5 0 2/faceDirection Emily 1/move Clint 0 1 1/move Clint 3 0 1/pause 1000/speak Clint \"ġ¹ǴÍÍÐ¤ÇÒÁÒƳ¹ˉÐ\"/move Emily 5 0 1/speak Emily \"̇ÒÇ! ÊÇÂÁÒ¡àÅÂ!\"/faceDirection Clint 2/speak Clint \"˝Ò ãʺá̅Ç!... ġ¹ʁÊÇÂÍԒáËÅÐ...$s\"/pause 100/speak Emily \"ĉ¹ŵ´¹ÒÂàˇÒäË˓àËÃÍ? 25G?$h\"/speak Clint \"à˝Í... äˑ˵Í§Ť´ÁÒ¡àҳÍ§Թ¹ËÃÍ¡ µ¡Å§ՁÂ? ¼ÁäˑŤ´àŧ¹$4\"/speak Emily \"¨ƃ§àËÃÍ?! â̍ ¤ƅ¹·! ¹ÒÂàʛ¹àҮÍ¹чƤчɊ´ чڌËŭ§¤¹Ǚ§¨ÐƱä˴àÅÂ!$h\"/faceDirection Clint 1/speak Clint \"̍Í... ÁÐ-äˑ äˑ¢¹Ò´Թ¹ËÃÍ¡ Í˒Òɮ´ǖ§ġ¹àÅÂ$8#$b#ŇÒä˴ȷ¡Í˒Ò§áËÅÐàҮÍ... àҮÍ¹$s\"/speak Emily \"à̂! ĉ¹˵Í§àÍÒä»ã̋àÎƵΒɤá̅Ç à¸Í˵Í§»صÁÁÒ¡áˉ!$h#$b#ä̇à¨Íā¹¹Ð ¤ƅ¹·! Ǵ¹׉áÇÐÁÒàђÂÁч«Òɵ¹ ˴ÇÂ¹Ð!\"/faceDirection Clint 2/move Emily -5 0 2/move Emily 0 4 2/speak Emily \"â̍! @! Ƥã¨чä˴à¨Í¹Ð!$h#$b#ÁÒàђÂÁ¤ƅ¹·àËÃÍ?\"/speak Clint \"â̍... Ëħ´Ƥ @$s\"/faceDirection Emily 0/move Clint -3 0 0/move Clint 0 -1 3/move Clint -5 0 2/move Clint 0 1 2/pause 100/faceDirection Emily 2/speak Emily \"ĉ¹ä»ÅÐ¹Ð ä̇à¨Íà¸ÍÊÍ§¤¹ãËˑ¹Ð!$h\"/move farmer 1 0 3/move Emily 0 2 2/warp Emily -100 -100/pause 100/speak Clint \"à˝Í... â·ÉƧ¹ÐàҳÍ§Թ¹ @$s\"/move farmer -3 0 0/move farmer 0 -3 0/speak Clint \"$q -1 null#ã̋ʺÇÂÍÐäÃՁÂ?$s#$r -1 0 event_blacksmith1#ĉ¹Ʊ¼ǥ¡ÁÒ#$r -1 0 event_blacksmith2#ĉ¹ÁÒĭ¾à¡Ã´à¤ҳÍ§ȑÍ#$r -1 0 event_blacksmith3#ĉ¹ÁÒËÒȤ³ˉÐ\"/pause 100/speak Clint \"â·ÉƧ¹Ðчã̋ÃÍ ÅÐ-áÅÐ àҳÍ§ʱÍ¹Ë˹ÒԹ¹˴ÇÂ àҳÍ§àÍƁѕˉÐ\"/faceDirection Clint 1/speak Clint \"ġ¹ÂÒ¡ч¨Ð»ůàÊ¸àҮÍ¹ˉÐ ړՁÂ?$s\"/question fork1 \"#ÍÒËÐ#àƺÂã¨˴ÇÂ¹Ð\"/fork sadClint/faceDirection Clint 2/speak Clint \"˗Òá˅... ¡ĥºàˢÒàҳÍ§à¶ÍÐ$s\"/friendship Clint -100/end",
+						"sadClint": "pause 300/speak Clint \"Í˒ÒàƺÂã¨àÅÂ @... äˑƱÍÐäÃ˵Í§àʫ¹ã¨ËÃÍ¡#$b#¼ÁʁáʴàҮÍ¹ŚÒËģºà¸ÍˉÐ à¸Íäˑä˴Ť´ÍÐäÃàš¹àÅÂ ¡˗ÒԹ¹$s\"/faceDirection Clint 1/pause 100/speak Clint \"$q -1 null#¼Áړ˗Ò ¼Á˵Í§ŇÒã¨ÂÍÁģºġ¹ á˅... ġ¹ʁÂÒ¡ˉÐ$s#$r -1 0 event_sadclint1#ĉ¹ÍԒµÃ§׉¹Ð ˶ÒȤ³˵Í§¡ÒÃ#$r -1 0 event_sadclint2#ĉ¹àˢÒã¨¤ÇÒÁړǪ¡Թ¹¹Ð\"/pause 100/speak Clint \"¼ÁƤã¨чȤ³ÍԒµÃ§׉¹Ð @ ƽ¡Í˒Ò§ ƱàҮÍ¹Í˒Ò§Ȥ³ ã¤Ã¨Ð˵Í§¡ÒÃÊÒÇā¹?$h#$b#à˝Í ĉ¹ËÁÒÂǖ§...$8\"/end dialogue Clint \"...ʺÒ§ġ¹à¶ÍÐ ι¹ġ¹зàʷÒªÐġ´$8\"",
+						"282815603/D Clint/e 282815602/f Clint 2500/t 900 1700": "continue/7 13/farmer 5 19 0 Clint 3 13 2/skippable/move farmer 0 -4 3/move farmer -2 0 0/speak Clint \"ÍÐ-̍Í @ Ȥ³ÁÒщ$4\"/move Clint 0 -1 1/move Clint 5 0 2/move Clint 0 3 1/move Clint 4 0 1/pause 1000/move farmer 6 0 1/pause 1000/speak Clint \"¼Á à˝Í... ¼ÁºÍ¡Ȥ³˗Ò¼Ð-¼Á ƱÍÐäÃ¨Ðã̋ãʺՁÂ?$8\"/faceDirection Clint 3/speak Clint \"ʁ ˝Ò... ¨ƃ§æ á̅Ç¼ÁƱ¢Í§¨Ðã̋Ȥ³ ÊÍ§Í˒Ò§˴ÇÂā¹ˉÐ\"/move Clint -2 0 3/pause 1500/speak Clint \"@... ¼Ð-¼Á à˝Í... ¼ÁŇÒщÁÒã̋Ȥ³ ÁÐ-ġ¹ǴÍáËÇ¹\"/message \"¤ƅ¹·ã̋áËÇ¹àŧ¹ĭ¹ÊÇÂ§ÒÁáʱȤ³\"/pause 1200/speak Clint \"¼Ð-¼Áړ ˗Òġ¹äˑä˴ÁÒ¡ÁÒÂÍÐäÃ á˅... ¼ÁËħ§¨ƃ§æ ¹Ð ˗ÒȤ³¨ÐªÍºġ¹$4\"/faceDirection Clint 1/pause 500/faceDirection Clint 3/speak Clint \"@ ¼Áړ˗Òġ¹¤§ŇÒã̋ Ȥ³¢¹Ʌ¡áˉàÅÂ á˅...$8#$b#¼Áäˑà¤ÂړǪ¡áºº׉ āºã¤ÃàÅÂ äˑá́á˅āºàÍƁѕ$8#$b#¼-¼-¼Á Ť´˗Ò ¼-¼Á... ģ¡Ȥ³àˢÒá̅Ç @$8\"/pause 500/question fork1 \"#ĉ¹ʁړǪ¡àËȑÍ¹ā¹#ĉ¹àƺÂã¨¹Ð... á˅ĉ¹äˑä˴Ť´áººԹ¹\"/fork rejectClint/pause 300/speak Clint \"¨Ð-¨ƃ§àËÃÍ?! Ȥ³... Ȥ³Ť´āº¼ÁáººàƤÂÇā¹àËÃÍ ?$4#$b#¼Á-ġ¹á»Å¡ˉÐ... àËȑÍ¹˗Ò¼ÁäˑړĕÇ˴ÇÂ՛Ò ˗ÒƱÍÐäÃàš´ע¹... µÐ-á˅á̅Ç... ¼ÁʁÁÒǖ§Ȩ´׉$4\"/faceDirection Clint 2/pause 500/faceDirection Clint 3/speak Clint \"Í-̍Í ˝Ò... ˚Ç¹¢Í§¢ħ­֊¹чÊÍ§...$4\"/showFrame Clint 42/pause 1500/showFrame Clint 12/pause 500/speak Clint \"¼-¼ÁËħ§˗Òι¹ġ¹âÍà¤¹Ð$4\"/pause 300/speak Clint \"Ȥ³à͈§чɊ´àÅÂ @ ¼ÁƤã¨àËȕÍàš¹чä˴à¨ÍȤ³$h\"/pause 1000/end dialogue Clint \"¼ÁƤã¨ÁÒ¡àÅÂчȤ³ Ť´àËȑÍ¹ā¹ щàʛ¹¤ÇÒÁɊ¢чɊ´ ч¼Áà¤ÂړǪ¡àÅÂ$4\"",
+						"rejectClint": "pause 500/speak Clint \"...Í-̍Í ȝÁ$8#$b#¼-¼Á¢Íâ·É¹Ð @ ¼Á... ¼ÁŤ´˗Ò...$8#$b#ʺÒ§ġ¹à¶ÍÐ...$8\"/pause 300/speak Clint \"à˝Í... ȕÁä»˗Ò¼Áɮ´ÍÐäÃ¹Ð... ä˴â»Ã´?$s#$b#Ȥ³... Ȥ³àʁºáËÇ¹ä̇à¶ÍÐ$s\"/move Clint 0 -2 3/move Clint -5 0 0/move Clint 0 -1 3/move Clint -2 0 2/move Clint 0 1 2/pause 500/friendship Clint -500/end dialogue Clint \"ȝÁ... ¢Íâ·É¹Ð @ ¼-¼Á ÍÂÒ¡ÍԒ¤¹àƤÂÇĪ¡Ğ¡...$s\"",
+			},
+			"When": {
+				"Date Clint": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"Entries": {
+						"282815606/D Gus/e 282815605/f Gus 2500/t 1800 2200/w sunny": "continue/64 15/farmer 64 15 2 Gus 64 16 0/emote Gus 16/speak Gus \"â̍ Ȥ³ÍԒ˺Ò¹! àђÂÁàÅÂ$h#$b#¼Ááʞ¤ÍÒËÒÃ¾Ç¡׉ÁÒˉÐ... Ȥ³Ê¹ã¨ä»Ż´Ź¡˴ÇÂā¹ āº¼ÁՁÂ¤ģº?$4\"/question fork1 \"#ğ§ɤàђÂÁä»àÅÂ! àÍÒƊ ĉ¹ä»˴ÇÂ#äˑ˕Ð ¢Íºã¨\"/fork noPicnic/emote Gus 56/speak Gus \"àђÂÁàÅÂ¤ģº! ä»ā¹à¶ÍÐ ġ¹àŴ¹ä»äˑä¡Å¨Ò¡щ... ɁÁâ»Ã´¢Í§¼Á ã¹ɋºà¢Ò׉ˉÐ¤ģº$h\"/pause 500/globalFade/viewport -1000 -1000/changeToTemporaryMap gusPicnic/viewport -1000 -1000/warp farmer 15 13/warp Gus 14 13/playMusic gusviolin/faceDirection farmer 2/faceDirection Gus 2/viewport 14 12 true/pause 2000/speak Gus \"ɁÁ׉ÊÇÂɊ´ÂÍ´ä»àÅÂ ãʺՁÂ˕Ð¤ģº? ¼ÁäˑŤ´˗ÒƱ¤¹ړàÂÍÐËÃÍ¡\"/pause 1000/speak Gus \"щ¤ģº ·Ò¹Ĝ´¾ƃ¡ÊÐٔ§֥¹ (pepper poppers) àОÁËˉÍÂƊ¤ģº\"/faceDirection Gus 1/pause 1000/faceDirection Gus 2/pause 1500/speak Gus \"ģºäÇΉàОÁËˉÍÂՁÂ¤ģº?$h#$b#Ɋ´˷ÒÂ¼ÁŇÒàʛ¹ äÇΉáºʥ¡àºÍΓѓˉÐ¤ģº Ëĥ§¨Ò¡ŕÒºÒ¡āºàªÍΓѓ ÊµÍΓàºÍΓѓÍԒԵ§¹Ò¹...\"/emote farmer 32/pause 1000/speak Gus \"̍Ò... ¼ÁàУÁЭÁá̅Ç˕Ð¤ģº$h\"/pause 1500/emote Gus 60/faceDirection Gus 1/pause 500/speak Gus \"@... ¢ÍºȤ³¹Ð¤ģº чÁÒāº¼ÁǴ¹׉ ġ¹Ʊ¤ÇÒÁËÁÒÂÁÒ¡àÅÂ чȤ³ÁÒчщ#$b#áˉ¹Í¹¤ģº ÃÇÁǖ§чȤ³ªÍºÍÒËÒÃ˴ÇÂ$h\"/faceDirection farmer 3/pause 1000/speak Gus \"¼ÁÍÂÒ¡¾ÒȤ³ÁÒчщà¾ÃÒÐ ... Ȥ³ƱʴÒàËȑÍ¹âÅ¡Է§ãº ¢Í§¼ÁˉÐ¤ģº#$b#Ȥ³àʛ¹àҮÍ¹чƤ ¢Í§¼ÁÁÒµÅÍ´ @...$5#$b#...á˅...$s\"/faceDirection Gus 3/emote Gus 60/pause 1500/faceDirection Gus 1/showFrame Gus 23/pause 800/showFrame Gus 4/pause 1500/emote Gus 60/emote farmer 60/pause 600/speak Gus \"@... ¤ÇÒÁړǪ¡¢Í§¼Á чƱ˅ÍȤ³ ġ¹ÁÒ¡¡˗ÒĴÒ˗ÒàҮÍ¹ ä»á̅Ç˕Ð¤ģº$4\"/question fork1 \"#ĉ¹ʁړǪ¡áººàƤÂÇā¹#ĉ¹¢Íâ·É¹Ð... ĉ¹äˑä˴ړǪ¡āºȤ³áººԹ¹\"/fork rejectGus/speak Gus \"¼Áʁ¾Íà´Òä˴á̅Ç˕Ð¤ģº á˅... ¼ÁÍÂÒ¡áˉã¨$4\"/pause 1500/speak Gus \"Ȥ³ŇÒã̋¼Áàʛ¹ڌªÒÂ чƱ¤ÇÒÁɊ¢ÁÒ¡àÅÂ¤ģº @$4\"/emote Gus 20/emote farmer 20/pause 2000/faceDirection farmer 2/faceDirection Gus 2/pause 3000/globalFade/viewport -1000 -1000/changeLocation Farm/end position 64 16",
+						"noPicnic": "pause 500/speak Gus \"...â̍ àˢÒã¨˕Ð¤ģº$s#$b#ԧ¹ºÒ§Ƨä̇âÍ¡ÒÊË˹Ò...$s\"/pause 500/move Gus 0 1 1/move Gus 4 0 1/pause 1000/faceDirection Gus 3/speak Gus \"¢Íã̋ƱϔÒǴ¹чƤ¹Ð¤ģº @$s\"/pause 300/move Gus 11 0 1/warp Gus -100 -100/friendship Gus -250/end",
+			},
+			"When": {
+				"Date Gus": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"Entries": {
+						"282815611/D Lewis/f Lewis 2500/t 600 1000/d Mon Tue Wed Thu Fri/w sunny": "continue/64 15/farmer 64 15 2 Lewis 65 16 0/emote Lewis 16/speak Lewis \"Oh! Good morning, @. Sorry if I'm here a bit early.$h\"/pause 200/emote farmer 32/pause 200/speak Lewis \"Actually, I was wondering... I know it's a little last-minute, but would you like to accompany me on a bit of a trip?$h\"/pause 300/emote farmer 8/pause 200/speak Lewis \"Well, you see... Every few years, I meet with the mayors of the neighboring towns to discuss business.#$b#Things like trade, travel, and construction... boring stuff, you know?$h\"/pause 500/speak Lewis \"Anyhow... I was wondering if perhaps you would like to join me? The meeting will be in Zuzu City this year, today and tomorrow.#$b#They would accomodate us with a nice inn, and we could do some sight-seeing.$h\"/pause 300/emote Lewis 16/speak Lewis \"But, of course, if you're uncomfortable with that, don't feel obligated! It's simply an invitation.\"/pause 500/question fork1 \"Accompany Lewis to Zuzu City?#Yes#No\"/fork noZuzu/pause 300/emote Lewis 16/speak Lewis \"Wonderful! Come along, @!$h\"/globalFade/viewport -1000 -1000/changeLocation Town/viewport -1000 -1000/warp farmer 66 86/warp Lewis 69 84/faceDirection farmer 0/faceDirection Lewis 3/viewport 66 86 true/pause 500/faceDirection Lewis 2/speak Lewis \"Well, hop in!$h\"/pause 300/emote farmer 8/pause 300/speak Lewis \"What? You didn't think it runs?#$b#This old thing isn't just for show!$h\"/pause 300/faceDirection Lewis 3/speak Lewis \"Now, let's get going! We don't want to hit the morning traffic!$h\"/globalFade/viewport -1000 -1000/changeToTemporaryMap zuzuInn/viewport -1000 -1000/warp farmer 9 7/faceDirection farmer 1/warp Lewis 10 7/faceDirection Lewis 2/playSound busDriveOff/pause 2000/viewport 13 7 true/playMusic jaunty/pause 1000/emote Lewis 40/pause 300/emote farmer 8/pause 500/faceDirection Lewis 3/speak Lewis \"Ah, nothing... They just stuck us in a room with just one bed! I can have us relocated...$7\"/speak Lewis \"$q -1 null#I can have us relocated...#$r -1 0 event_relocate1#Yes, please do.#$r -1 0 event_relocate2#We can worry about it later.#$r -1 0 event_relocate3#The bed looks big enough for both of us.\"/pause 500/globalFade/viewport -1000 -1000/changeToTemporaryMap meetingRoom/viewport -1000 -1000/warp farmer 7 8/faceDirection farmer 0/warp Lewis 5 8/faceDirection Lewis 0/addTemporaryActor Khari 16 32 5 5 2 true/addTemporaryActor Lin 16 32 7 5 2 true/addTemporaryActor James 16 32 3 7 2 true/addTemporaryActor Hank 16 32 9 7 2 true/viewport 6 5 true/pause 500/speak Khari \"I'd like to welcome you all to Zuzu City for our annual town leadership meeting.#$b#Let's all introduce ourselves, shall we?#$b#My name is Khari, and I'm the mayor of Zuzu City.\"/speak Lin \"I am Mayor Lin of Tulip Town.\"/speak Hank \"M'name's Hank. I'm mayor o' Rocky Point.\"/speak James \"I'm Mayor James from Scarlettsburg.\"/speak Lewis \"My name is Lewis, and I'm the mayor of Pelican Town.#$b#Joining us is Mr. @. He also lives in Pelican Town.$h^Joining us is Ms. @. She also lives in Pelican Town.$h\"/pause 200/speak Khari \"Good to meet you, @.#$b#Now, let's start the meeting.\"/pause 500/globalFade/viewport -1000 -1000/changeToTemporaryMap meetingRoom2/viewport -1000 -1000/warp farmer 8 8/faceDirection farmer 1/warp Lewis 9 8/faceDirection Lewis 3/warp Hank -100 -100/warp James -101 -101/warp Khari -102 -102/warp Lin 10 5/showFrame Lin 1/viewport 6 5 true/pause 500/speak Lewis \"Whew! That sure was a lively meeting, eh, @?\"/pause 100/emote farmer 28/pause 300/speak Lewis \"Well, I suppose we'd better go get a bite to eat and figure out our inn room.\"/pause 500/move Lewis 1 0 2/speak Lin \"Ah, Lewis! I'm glad I caught you.\"/pause 200/faceDirection Lewis 0/emote Lewis 8/move Lewis 0 -2 0/speak Lewis \"Ah! What can I do for you, Lin?$h\"/move farmer 2 0 0/speak Lin \"I'm glad to see you here. Last year's meeting was so dull without you!\"/pause 200/speak Lewis \"Is that so? Well, I'm glad we'll get to catch up. It's been a while.$h\"/pause 200/speak Lin \"Indeed it has. I'm glad you feel the same way.\"/pause 500/speak Lin \"Ah, actually, Lewis... Here, I want you to have this.\"/pause 200/emote Lewis 16/speak Lewis \"Wh... what is this? A key?$7\"/emote Lin 56/speak Lin \"It's a spare key to my room at the Zuzu Inn. Why don't you pay me a visit after dinner?$1\"/pause 300/emote Lewis 28/pause 500/emote farmer 40/question fork1 \"Should I step in...?#Say something#Say nothing\"/fork keepKey/move farmer 0 -1 1/move farmer 1 0 0/move farmer 0 -2 3/emote Lin 16/speak Lin \"Lewis, what is your assistant doing?$2\"/question fork1 \"What do I say...?#I'm standing up for him. He's clearly not interested.#I'm not his assistant - we're dating. Back off.\"/fork lewisRelationship/emote Lewis 16/speak Lewis \"That's right, Lin, I'm not. We're leaving. Have a good night.$a\"/move Lewis 0 4 2/warp Lewis -222 -222/playSound doorClose/speak Lin \"Ugh! I can't believe this!$2\"/pause 100/move farmer 0 4 3/move farmer -1 0 2/move farmer 0 1 2/warp farmer -223 -223/playSound doorClose/emote Lin 12/pause 1500/globalFade/viewport -1000 -1000/changeToTemporaryMap zuzuInn/viewport -1000 -1000/warp Lin -121 -121/warp Lewis 11 5/faceDirection Lewis 3/warp farmer 12 5/faceDirection farmer 3/viewport 13 7 true/pause 2000/speak Lewis \"@...\"/faceDirection Lewis 1/speak Lewis \"Thank you for sticking up for me. It means a lot to me.\"/pause 500/speak Lewis \"Lin and I... We've flirted in the past... a little bit. For fun. But she's never been that forward.$s\"/pause 300/emote farmer 8/pause 500/speak Lewis \"We never did anything. Not even a date.$7\"/pause 500/speak Lewis \"Ah... @... I'm glad you were there. I-I, actually...$7\"/pause 300/emote farmer 8/speak Lewis \"You're the reason I didn't want to accept Lin's invitation.$7\"/emote farmer 8/pause 1000/speak Lewis \"@, I like you. I know I'm older than you are, but... I'm old enough to know what I want.$7#$b#And it's you.$4\"/emote farmer 56/pause 300/emote Lewis 56/pause 500/speak Lewis \"@, I'm so glad you came with me.$h#$b#Now, how about we go get some dinner? Our first date?$4\"/emote farmer 32/pause 2000/globalFade/viewport -1000 -1000/changeLocation Farm/viewport -1000 -1000/friendship Lewis 50/end position 64 16",
+						"noZuzu": "pause 500/speak Lewis \"Oh... I suppose it was short notice. Well, there's always next year...#$b#...$s\"/pause 500/speak Lewis \"Well, have a productive day, @. I'll see you when I'm back from Zuzu City.$s\"/friendship Lewis -250/end position 64 16",
+			},
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"Entries": {
+						"282815615/D Linus/f Linus 2500/e 282815613/w sunny/x linusSleepover" : "null",
+			},
+			"When": {
+				"Date Linus": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"Entries": {
+						"282815617/D Pam/f Pam 2500/e 282815616/x pennyDinner": "null",
+			},
+			"When": {
+				"Date Pam": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"Entries": {
+						"282815620/D Sandy/f Sandy 2500/x sandyDancing": "null",
+			},
+			"When": {
+				"Date Sandy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"Entries": {
+						"282815622/D Willy/f Willy 2000/w rainy/x fishingInvite": "null",
+						"282815624/D Willy/f Willy 2500/w rainy/e 282815623/x fishingTrip": "null",	
+			},
+			"When": {
+				"Date Willy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"Entries": {
+						"282815627/D Wizard/f Wizard 2500/x teachMagic": "null",	
+			},
+			"When": {
+				"Date Wizard": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Beach",
+			"Entries": {
+						"282815623/D Willy/f Willy 2000/t 600 1700/w rainy/n fishingInvite": "continue/30 30/farmer -10 -10 0 Willy -11 -11 2/skippable/changeLocation FishShop/viewport 5 5 true/pause 1500/playSound doorClose/warp farmer 5 9/pause 1000/emote farmer 8/pause 1000/move farmer 0 -3 0/pause 200/emote farmer 8/pause 800/message \"Ʊ¡ÃÐ´ÒÉâ˹µº¹à¤ÒàµÍΓ\"/pause 1000/emote farmer 40/pause 500/message \"̃Ò¹Ż´ħ¹Ǚ§ ˋÇÂàʛ¹Ëħ´ -ƇÅѕ\"/pause 500/emote farmer 16/pause 1000/speak Willy \"*áʴ¡æ*$s\"/pause 600/emote farmer 8/pause 1000/message \"Ȥ³ä˴Ƃ¹àƺÂ§äÍÁÒ¨Ò¡Ԫ¹º¹\"/pause 500/question fork1 \"ע¹ä»ˢÒ§º¹ƤՁÂ?#ä»Ɗ#äˑ˕Ð\"/fork leaveWilly/pause 500/globalFade/viewport -1000 -1000/changeToTemporaryMap WillyRoom/warp farmer 4 5/faceDirection farmer 2/warp Willy 1 5/positionOffset Willy 10 0/viewport 5 5 true/pause 200/emote Willy 16/pause 300/faceDirection farmer 3/pause 300/speak Willy \"ā»ĕ¹! à¸Íä˴¨´ËÁÒÂĉ¹Ɗ¹Ð?\"/pause 600/speak Willy \"ʁ¹Ð ĉ¹äˑÍԒã¹ÊÀÒ¾ ч¨Ðä»µ¡ËÅÒäËÇ ι¹Ċ´à¨¹˕Ð$s\"/pause 300/emote farmer 60/pause 800/speak Willy \"ÍÒ äˑ˵Í§˛Ç§¹Ð ā»ĕ¹ ĉ¹¡ĥºÁÒàŴ¹àƋ¹ÊÐ´Ç¡ ʱÍ¹à¸Í¨Ðė¹Ī§à¡µáˉ! áʴËħ´Ź´ËˉÍÂˉÐ\"/move farmer -1 0 3/faceDirection Willy 1/pause 300/emote Willy 60/pause 400/speak Willy \"â·É¹Ðчã̋à¸Í Ե§¤ÇÒÁËħ§àˡÍ àҳÍ§ä»µ¡»ÅÒħ¹׉ˉÐ$s\"/pause 500/question fork1 \"µÍº˗ÒÍÐäÃƤ?#Í˒ÒŤ´ÁÒ¡àÅÂ Ť´àҳÍ§ËÒÂˋÇÂà¶ÍÐ!#щĉ¹ʁàµƳÂÁĕÇÁÒ«Ð¾̃ÍÁàÅÂ...\"/fork allReady/pause 500/emote Willy 32/pause 300/speak Willy \"äˑÍÂÒ¡¨ÐàҚÍàÅÂ˗Òĉ¹˵Í§ģºĴÒϊ§¨Ò¡ā»ĕ¹¢Í§ĉ¹á̅Ç!$h#$b#...áʴ¤Ճ§׉¹Ð$4\"/pause 1000/emote farmer 32/pause 400/emote Willy 32/pause 2000/speak Willy \"à̎... ¢Íºã¨чÁÒ¹Ð ā»ĕ¹ ĉ¹Ƥã¨чƱ¤¹ÁÒàђÂÁ$4\"/pause 1000/emote farmer 56/pause 2000/globalFade/viewport -1000 -1000/changeLocation FishShop/friendship Willy 25/end dialogue Willy \"ĉ¹ړǪ¡Ƥע¹Ź´ËˉÍÂÅÐ$h\"",
+						"leaveWilly": "pause 1000/message \"ºÒ§Ƨ»˕ÍÂà¢ÒĞ¡¤¹àƤÂÇƤ¡˗Ò...\"/pause 1000/friendship Willy -50/end warpOut",
+    					"282815625/D Willy/f Willy 2500/t 600 1700/w rainy/e 282815623/n fishingTrip": "continue/30 30/farmer -10 -10 0 Willy 6 4 2/changeLocation FishShop/viewport 5 5 true/pause 1500/playSound doorClose/warp farmer 5 9/pause 500/emote Willy 16/pause 100/speak Willy \"˗Òä§ ā»ĕ¹! ¾̃ÍÁɅÂՁÂ?\"/pause 500/question fork1 \"ä»µ¡»ÅÒāºƇÅѕՁÂ?#ä»Ɗ#äˑàÍÒ˕Ð\"/fork noFishing/pause 600/speak Willy \"à͈§! ã̋ĉ¹àµƳÂÁà˨ÒàȓÍªÃÒ ã̋¾̃ÍÁʱÍ¹ à݋ÂÇàÃÒʁä˴ÍÍ¡Ԛ·ÐàÅ¡̇Ò§ ʱÍ¹¨Ðė¹ړĕÇá̅Ç!$h\"/pause 400/emote farmer 32/pause 500/emote Willy 32/pause 1500/globalFade/viewport -1000 -1000/changeToTemporaryMap ElliottSea/viewport -1000 -1000/pause 1000/playMusic rain/warp farmer 26 20/positionOffset farmer 0 8/faceDirection farmer 2/warp Willy 26 20/positionOffset Willy 0 60/showFrame Willy 51/viewport 26 21 true/pause 2000/emote Willy 32/pause 1000/speak Willy \"̍Ò ĉ¹Ƥã¨чà¸ÍÁÒµ¡»ÅÒ ˴ÇÂā¹ħ¹׉¹Ð ā»ĕ¹$h\"/pause 500/emote farmer 32/pause 1000/speak Willy \"ā»ĕ¹... Ʊã¤Ãà¤ÂºÍ¡à¸ÍՁÂ ˗Òà¸ÍË˕ÍºÒ´ã¨¢¹Ò´äË¹?$4^ā»ĕ¹... Ʊã¤Ãà¤ÂºÍ¡à¸ÍՁÂ ˗Òà¸ÍÊÇÂ¡ÃÐªÒ¡ã¨ ¢¹Ò´äË¹?$4\"/pause 500/speak Willy \"¡ÅÒ§·ÐàÅщ... àƫÂ¨Ò¡½¹áÅÐÅÐÍÍ§¤ҵ¹...#$b#à¸ÍŇÒã̋ã¨ĉ¹àÁÒàȓÍ$4\"/pause 1000/question fork1 \"µÍº˗ÒÍÐäÃƤ?#ĉ¹ʁàÁÒã¹Ȥ³äˑ˅Ò§ā¹àÅÂ#äˑàÁÒÍÐäÃԷ§Թ¹ÍÐ\"/fork rejectWilly/pause 1000/emote Willy 32/pause 500/speak Willy \"ĉ¹Ƥã¨Ĉ§ ĉ¹ÍÂÒ¡ã̋à¸Íàʛ¹ā»ĕ¹ ¢Í§ĉ¹µÅÍ´ä»¹Ð @$4\"/pause 1000/emote farmer 32/emote Willy 20/pause 2000/emote Willy 28/pause 500/speak Willy \"ĈºÍÐäÃäˑʴÍÂä˴àÅÂƊ¹Ð ¾Ç¡àÃÒˉÐ$h\"/pause 500/emote farmer 28/pause 1500/speak Willy \"µÃÒºã´чƱà¸Í ĉ¹äˑÊ¹ËÃÍ¡˗Ò àÃÒ¨ÐĈºÍÐäÃä˴$h\"/pause 500/emote farmer 20/pause 400/emote Willy 20/pause 2000/globalFade/viewport -1000 -1000/pause 1000/changeLocation FishShop/end position 6 6",
+						"noFishing": "pause 500/speak Willy \"â̍... Ӣ§ÁÒ¡Ɗ¹Ð? ĉ¹àˢÒã¨$s\"/pause 1000/speak Willy \"ԧ¹ä̇¤ÃÒÇËĥ§á̅Çā¹ ä̇à¨Íā¹ ā»ĕ¹$s\"/pause 1500/friendship Willy -250/end warpOut",
+			},
+			"When": {
+				"Date Willy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Forest",
+			"Entries": {
+						"282815609/e 282815608/D Marnie/f Marnie 2000/t 800 1200/w sunny": "jaunty/84 18/farmer 68 16 1 Marnie 84 16 0/skippable/pause 2000/move farmer 10 0 1/pause 100/emote Marnie 16/faceDirection Marnie 3/pause 1000/speak Marnie \"â̍ ÍɃ³ÊħÊڴ˨Ð Ȥ³ @$h^â̍ ÍɃ³ÊħÊڴ˨Ð Ȥ³ @$h\"/move farmer 5 0 1/speak Marnie \"ÅÁÍÐäÃËÍºÁÒá˅à˪Ò̘Ð?$h\"/speak Marnie \"$q -1 null#ÅÁÍÐäÃËÍºÁÒá˅à˪Ò̘Ð?#$r -1 0 event_marnieMorning1#áʴˌÒ¹ÁÒˉÐ#$r -1 0 event_marnieMorning2#ÁÒà¨ÍȤ³#$r -1 0 event_marnieMorning3#â·ÉƧ¹Ð Ģ§ȤÂäˑä˴ ƳºˉÐ\"/pause 1000/speak Marnie \"ĉ¹ړ˗Òщàʛ¹īÇˢÍч ʴÍ¹ˢÒ§ªÇ¹ǭ´ĭ´ á˅... ĉ¹áʴ...#$b#ĉ¹äˑÍÂÒ¡Ż´Ě§Ȥ³ˉÐ @$s^ĉ¹äˑÍÂÒ¡Ż´Ě§Ȥ³ˉÐ @$s\"/faceDirection Marnie 2/pause 1500/speak Marnie \"Ȥ³ړ˗Ò ĉ¹āºˇÒ¹àÅƇÊàƅ¡ā¹ äˑ¹Ò¹ÁÒ׉ ãʺՁÂ̘Ð?$s\"/pause 2000/faceDirection Marnie 3/speak Marnie \"чàÃÒàƅ¡ā¹ʁà¾ÃÒÐ... ˝Ò...\"/pause 800/speak Marnie \"ĉ¹Ť´˗ÒˇÒ¹àÅƇÊ µ¡ËɅÁģ¡Ȥ³ˉÐ Ȥ³ @$s^ĉ¹Ť´˗ÒˇÒ¹àÅƇÊ µ¡ËɅÁģ¡Ȥ³ˉÐ Ȥ³  @$s\"/pause 1000/speak Marnie \"Ȥ³ÊÍ§¤¹ɤä»ā¹ä˴Ƥ ÁÒ¡àÅÂʺÇ§׉ áÅÐˇÒ¹àÅƇÊʁɤ˛Ò§àƋ¹ àÇÅÒÍԒāºĉ¹$s\"/question fork1 \"#â̍... ĉ¹¢Íâ·É¹Ð#Թ¹ġ¹äˑ¨ƃ§àÅÂ ¾Ç¡àÃÒäˑà¤ÂÊŹ·ā¹¢¹Ò´Թ¹\"/fork notThatCloseB/pause 1000/speak Marnie \"...äˑàʛ¹äÃËÃÍ¡˨Ð àҳÍ§ġ¹àʛ¹ÍƤµä»á̅ÇˉÐ$s\"/pause 500/speak Marnie \"á˅... ĉ¹Ť´˗ÒȤ³ÊÍ§¤¹ ¤§Å§àÍÂā¹...#$b#áÅÐĉ¹ÍÂÒ¡¨ºġ¹ ʱÍ¹чġ¹¨ÐĪ¹Ê¹ ä»ÁÒ¡¡˗ÒԹ¹ˉÐʸÐ$s\"/pause 500/speak Marnie \"à¾ÃÒÐԧ¹... ĉ¹àÅÂÍÂÒ¡¶ÒÁ#$b#Ȥ³āºˇÒ¹àÅƇÊ ģ¡ā¹ËȓÍà»˕Ò̘Ð?$s\"/pause 100/speak Marnie \"$q -1 null#Ȥ³āºˇÒ¹àÅƇÊ ģ¡ā¹ËȓÍà»˕Ò̘Ð?#$r -1 0 event_loveLewis1#ãʺ á˅ʁäˑà¤ÂǴºË˹Òä»äË¹àÅÂ#$r -1 0 event_loveLewis2#ãʺ á˅¾Ç¡àÃÒäˑä˴¤ºā¹á̅Ç#$r -1 0 event_loveLewis3#ãʺ áÅÐàÃÒĢ§ģ¡ā¹ÍԒ#$r -1 0 event_loveLewis4#äˑãʺ ¾Ç¡àÃÒáʴàʛ¹àҮÍ¹чƤ˅Íā¹\"/pause 1500/faceDirection Marnie 1/pause 2000/faceDirection Marnie 3/pause 500/speak Marnie \"˝Ò @... ¢ÍºȤ³чʺÇÂŇÒã̋ àҳÍ§¡ÃÐʸÒ§¹Ð̘Ð ĉ¹Ƥã¨чä˴ړ˗Ò ĉ¹äˑä˴˺Òä»¤¹àƤÂÇ...\"/pause 1000/speak Marnie \"...¨ƃ§æ ¹Ð @ ¢ÍºȤ³ ġ¹Ʊ¤ÇÒÁËÁÒÂāºĉ¹ÁÒ¡ чà¸ÍºÍ¡¤ÇÒÁ¨ƃ§āºĉ¹ á́˗Òġ¹¨ÐˉÒǭ´ĭ´Ź´ËˉÍÂ#$b#ĉ¹Ƥã¨ÁÒ¡ чƱȤ³àʛ¹àҮÍ¹$4\"/pause 500/speak Marnie \"àÍÒ˕Ð... Í˒Òã̋ĉ¹Ճ§Ȥ³ÁÒ¡¡˗Ò׉àÅÂ àÃÒԷ§ӴƱ§Ò¹ ч˵Í§¡ĥºä»ŇÒƊ¹Ð$h\"/friendship Marnie 50/end warpOut",
+						"notThatCloseB": "emote Marnie 12/pause 1000/speak Marnie \"...â̍ Í˒Ò§Թ¹ĉ¹ ʁàˢÒã¨ż´á˅áÃ¡ˉÐƊ...$s#$b#щġ¹ˉÒǭ´ĭ´Ĉ§...$s\"/pause 1500/speak Marnie \"¢ÍºȤ³чɮ´µÃ§æ ¹Ð @$s^¢ÍºȤ³чɮ´µÃ§æ ¹Ð @$s#$b#Í˒Òã̋ĉ¹Ճ§Ȥ³ä̇àÅÂ ¢Íã̋Ʊħ¹чƤ¹Ð$s\"/friendship Marnie -50/end warpOut",
+						"282815612/D Marnie/f Marnie 2500/t 2000 2400": "nightTime/-1000 -1000/farmer 119 25 3 Marnie -100 -100 1/viewport -1000 -1000/changeToTemporaryMap forestEvent/viewport -1000 -1000/pause 500/viewport 99 19 true/move farmer -20 0 3/pause 1000/faceDirection farmer 0/emote farmer 8/pause 500/move farmer 0 -2 0/playSound cow/pause 1000/emote farmer 16/speed farmer 5/move farmer 0 -7 0/warp farmer -101 -101/playSound doorClose/pause 500/globalFade/viewport -1000 -1000/changeToTemporaryMap MarnieBarn/viewport -1000 -1000/warp Marnie 5 5/faceDirection Marnie 3/addTemporaryActor Buttercup 32 32 3 5 2 true/viewport 8 5 true/pause 1000/playSound cow/emote Marnie 28/pause 1500/warp farmer 11 13/move farmer 0 -5 3/move farmer -3 0 0/emote Marnie 16/faceDirection Marnie 2/speak Marnie \"â̍! Ȥ³ @! ĚµàµÍΓƁÅͱˉÐ ħÇ¢Í§ĉ¹... à¸ÍıÒĥ§¨Ð¤ÅÍ´^â̍! Ȥ³ @! ĚµàµÍΓƁÅͱˉÐ ħÇ¢Í§ĉ¹... à¸ÍıÒĥ§¨Ð¤ÅÍ´\"/emote farmer 16/move farmer 0 -3 3/move farmer -1 0 3/pause 500/speak Marnie \"à¸ÍÊºÒÂƤ äˑ˵Í§ā§ÇÅä»$h#$b#ĉ¹áʴá»Å¡ã¨ Ź´ËˉÍÂˉÐʸÐ! ĉ¹äˑړ˗Òà¸Í˷Í§ÍԒ ħÇĕÇڌĪ¡ĕÇ¤§ËɅ´ àˢÒÁÒã¹׉â´ÂĚ§àƍ­...$2\"/faceDirection Marnie 3/pause 2000/faceDirection Marnie 1/speak Marnie \"Ȥ³ @... ĉ¹ړ˗ÒȤ³Ģ§äˑʴÍÂ Ʊ»ÃÐÊº¡ÒÃ΃āºħÇę¡ á˅ĉ¹àҚÍã¨Ȥ³¹Ð^Ȥ³ @... ĉ¹ړ˗ÒȤ³Ģ§äˑʴÍÂ Ʊ»ÃÐÊº¡ÒÃ΃āºħÇę¡ á˅ĉ¹àҚÍã¨Ȥ³¹Ð#$b#Ȥ³¨ÐʺÇÂĉ¹ä˴ՁÂ...?\"/pause 500/speak Marnie \"»¡ŵá̅Ç ĉ¹¤§ä»µÒÁàª¹ á˅ĉ¹˗Òà¢Ò¤§Ģ§ÍԒчºÒΓ...$s\"/question fork1 \"ʺÇÂÁÒΓƩ āºĚµàµÍΓƁÅͱՁÂ?#ʺÇÂ#äˑʺÇÂ\"/fork noButtermilk/emote Marnie 56/speak Marnie \"ƤĈ§àÅÂ! áʴÁÒȒ¹µÃ§׉¹Ð$h\"/pause 500/speed farmer 3/move farmer 0 -1 3/move farmer -1 0 3/faceDirection Marnie 3/pause 300/emote Buttercup 20/playSound cow/speak Marnie \"à¸ÍƤã¨чȤ³ÍԒàʛ¹àҮÍ¹˕Ð Ȥ³ @$h^à¸ÍƤã¨чȤ³ÍԒàʛ¹àҮÍ¹˕Ð Ȥ³ @$h#$b#ĉ¹ʁ˴ÇÂ$h\"/pause 2000/globalFade/viewport -1000 -1000/playSound cow/speak Marnie \"â̽ÐâÍ... Ȥ³ @ ËƂº˼Òι¹ÁÒƧ!$7^â̽ÐâÍ... Ȥ³ @ ËƂº˼Òι¹ÁÒƧ!$7\"/pause 1000/playSound cow/pause 2000/showFrame Buttercup 1/viewport 8 5 true/emote Buttercup 20/emote Marnie 56/emote farmer 56/faceDirection Marnie 0/speak Marnie \"ʺÒ§àʛ¹ɵ¡ħÇ чˉÒģ¡ÍÐäÃÍ˒Ò§׉... àÃÒàƳÂ¡à¢Ò˗Ò @ ɘàƩÂΓ ƤՁÂ?$h^ʺÒ§àʛ¹ɵ¡ħÇ чˉÒģ¡ÍÐäÃÍ˒Ò§׉... àÃÒàƳÂ¡à¸Í˗Ò @ ɘàƩÂΓ ƤՁÂ?$h\"/faceDirection farmer 2/emote farmer 28/speak Marnie \"ĉ¹̅Íà˕¹ˉÐ ä̇ĉ¹¨ÐŤ´ҚÍã̋ à˨ÒĕÇàʥ¡ƧËĥ§àÍ§ʸÐ$h\"/move Marnie 2 0 0/move Marnie 0 -1 3/faceDirection farmer 1/emote farmer 8/speak Marnie \"Ȥ³ @... ĉ¹Ƥã¨ÁÒ¡ чȤ³ÍԒµÃ§׉˴ÇÂ ĉ¹ʺÇÂ¤ÅÍ´ÁÒËÅÒÂĕÇá̅Ç á˅Ʊã¤ÃÍԒ˴ÇÂ ʁʺÇÂä˴àÂÍÐàÅÂ^Ȥ³ @... ĉ¹Ƥã¨ÁÒ¡ чȤ³ÍԒµÃ§׉˴ÇÂ ĉ¹ʺÇÂ¤ÅÍ´ÁÒËÅÒÂĕÇá̅Ç á˅Ʊã¤ÃÍԒ˴ÇÂ ʁʺÇÂä˴àÂÍÐàÅÂ#$b#ǖ§á́˗Ò¤¹Թ¹ ¨ÐŇÒĖ§թÒËɅ´ȑÍ áÅÐàǱÍºàʛ¹ÅÁ¾Íàʫ¹àȕÍ´ ʁµÒÁ$h\"/emote farmer 28/pause 500/speak Marnie \"˞Ò ˞Ò Ȥ³à͈§ÁÒ¡àÅÂ Ȥ³ @$h^˞Ò ˞Ò Ȥ³à͈§ÁÒ¡àÅÂ Ȥ³ @$h#$b#¨ƃ§æ ¹Ð$4\"/pause 2000/speak Marnie \"Ȥ³ @... Ëĥ§¨Ò¡àҳÍ§ÃÐË˗Ò§àÃÒ àбÂÇāºˇÒ¹àÅƇÊ áÅÐԷ§ËÁ´ι¹...^Ȥ³ @... Ëĥ§¨Ò¡àҳÍ§ÃÐË˗Ò§àÃÒ àбÂÇāºˇÒ¹àÅƇÊ áÅÐԷ§ËÁ´ι¹...#$b#ĉ¹ړǪ¡˗Ò¾Ç¡àÃÒ ÊŹ·ā¹ע¹ÁÒ¡àÅÂ ˗ÒՁÂ?$4\"/pause 500/speak Marnie \"Ȥ³... Ȥ³ړ˗Òĉ¹¾ÂÒÂÒÁ ¨Ðɮ´ÍÐäÃãʺՁÂ?$h#$b#ĉ¹ªÍºȤ³¹Ð @... áººÁÒ¡¡˗ÒàҮÍ¹$6\"/question fork1 \"ĉ¹¨ÐµÍº˗ÒÍÐäÃƤ...?#ĉ¹ʁàËȑÍ¹ā¹#ĉ¹¢Íâ·É¹Ð...\"/fork rejectMarnie/speak Marnie \"¨ƃ§æ ¹Ð...?! â̍ ĉ¹Ʊ¤ÇÒÁɊ¢àËȕÍàš¹!$4\"/emote farmer 56/emote Marnie 56/speak Marnie \"ĉ¹Ƥã¨àËȕÍàš¹чà¸ÍÍԒщ Ȥ³ @... äˑƊ @!$6^ĉ¹Ƥã¨àËȕÍàš¹чà¸ÍÍԒщ Ȥ³ @... äˑƊ @!$6#$b#äˑ˵Í§·Ò§¡ÒÃá̅Çà¹ÍÐ$4\"/pause 1000/playSound cow/emote Buttercup 20/pause 200/speak Marnie \"â̍ ĚµàµÍΓƁÅͱ... àÃÒ¨Ðäˑ¡Ç¹á̅ÇʸÐ ĉ¹ړ˗Òà¸Í¤§à¾ƵÂÁÒ¡$h\"/pause 500/speak Marnie \"àÍÒ˕Ð... ÃÒµƳÊħÊڴ¹Ð̘Ð @ Ëħ§˗Ò¾ӣ§׉ ¨Ðä˴à¨Íā¹¹Ð̘Ð$h\"/emote farmer 56/emote Marnie 20/pause 2000/globalFade/viewport -1000 -1000/changeLocation Forest/viewport -1000 -1000/friendship Marnie 50/end position 99 23",
+			},
+			"When": {
+				"Date Marnie": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/ManorHouse",
+			"Entries": {
+						"282815608/D Lewis/f Lewis 2000/t 1400 1800/k 282815607": "continue/7 6/farmer -100 -100 0 Lewis 6 5 0 Marnie -100 -100 0/skippable/pause 500/move Lewis 2 0 0/pause 1500/move Lewis -1 0 0/pause 1000/warp Marnie 5 11 0/playSound doorClose/move Marnie 0 -4 0/emote Lewis 16/faceDirection Lewis 2/pause 100/speak Lewis \"â̍... ÁÒƩ à¸ÍщàÍ§ à¸ÍŇÒĉ¹µ¡ã¨ËÁ´àÅÂ¹Ð#$b#ĉ¹äˑړàÅÂ¹ÐàщÂ ˗Òà¸Í¨ÐÁÒ$h\"/pause 800/speak Marnie \"ĭ¹ч¨ƃ§á̅Ç àÅƇÊ ƱÍԒàҳÍ§Ǚ§ чÍÂÒ¡ȤÂ˴ÇÂˉÐ$s\"/pause 300/emote Lewis 8/move Lewis 0 2 3/move Lewis -1 0 3/faceDirection Marnie 1/speak Lewis \"àҳÍ§ÍÐäÃËÃÍ? ƱÍÐäÃǣà»˕Ò?$s\"/pause 500/warp farmer 5 11 0/playSound doorClose/speak Marnie \"àÅƇÊ... ĉ¹˗Ò... àÃÒ¤ÇÃàƅ¡ÁÒà¨Íā¹ ä˴á̅Ç¹Ð$s\"/emote farmer 16/emote Lewis 16/speak Lewis \"ÍÐäÃ¹Ð? ŇÒäÁà¸Íǖ§ɮ´áººԹ¹˕Ð?$s#$b#...à¸ÍʁƱ¤ÇÒÁɊ¢Ƥ äˑãʺËÃÍ?$s\"/move farmer -1 0 0/move farmer 0 -1 3/move farmer -2 0 1/speak Marnie \"ʺÇ§׉... ¹ÒÂˉÐŇÒĕÇ˛Ò§àƋ¹¹Ð Ť´˗Òĉ¹äˑړǪ¡ĕÇǣä§?$s\"/pause 500/faceDirection Marnie 2/emote Marnie 12/speak Marnie \"˶Ò¹ÒÂƱ¤¹ҽ¹ÍԒ˕Ðʁ ĉ¹ʁáʴÍÂÒ¡ ã̋¹ÒÂºÍ¡ĉ¹$5\"/pause 1000/emote Lewis 60/speak Lewis \"ÁÒƩ... à¸Íʁړ˗Ò¼ÁˉÐ äˑà¤Â¹Í¡ã¨Ȥ³àÅÂ¹Ð... Ȥ³ʁړƤãʺՁÂ˕Ð?$s\"/pause 1000/faceDirection Marnie 1/pause 500/speak Marnie \"ĉ¹ړ... àÅƇÊ... ĉ¹ړƤ ˗Ò¹ÒÂˉÐàʛ¹¤¹ч ¨ÐäˑŇÒáººԹ¹áˉ æ $s#$b#á˅¹ÒÂʁƱã¨ã̋à¢Ò äˑãʺǣä§ā¹?$s^á˅¹ÒÂˉÐ ʁƱã¨ã̋à¸Í¤¹Թ¹ äˑãʺǣä§ā¹?$s\"/emote farmer 16/pause 500/faceDirection Lewis 1/pause 1500/speak Lewis \"ÁÒƩ... ¼Á¢Íâ·É!$6\"/pause 1500/speak Marnie \"...$s\"/pause 1500/faceDirection Lewis 3/pause 500/speak Lewis \"ʁġ¹...ʺÇÂäˑä˴ËŹ ¼-¼Áäˑà¤Â¹Í¡ã¨Ȥ³àÅÂ¹Ð á˅˗Ò..á˅¼ÁˉÐ$s#$b#¼Áģ¡à¢Ò$6^¼Áģ¡à¸Í¤¹Թ¹$6\"/pause 2000/faceDirection Marnie 3/pause 1000/speak Marnie \"¹ÒÂˉÐ... Ť´¨Ðã̋¤ÇÒÁËħ§ĉ¹ ä»ǖ§àұÍäË˓ā¹?$s\"/pause 1000/speak Lewis \"...$6\"/pause 500/emote Marnie 12/speak Marnie \"ĉ¹¢Íâ·É¹ÐàÅƇÊ á˅àÃÒ¨ºā¹µÃ§׉áËÅÐ$s\"/pause 500/speak Lewis \"¼- ¼Á... àˢÒã¨á̅Ç... ¢Íâ·É¹ÐÁÒƩ$6\"/pause 1500/move Marnie 0 4 3/warp Marnie -100 -100/playSound doorClose/pause 2000/move Lewis 2 0 1/move Lewis 0 -1 1/move Lewis 1 0 1/pause 500/emote Lewis 40/pause 2000/move farmer 3 0 0/move farmer 0 -4 1/move farmer 3 0 1/emote Lewis 16/faceDirection Lewis 3/speak Lewis \"Í- â̍ @...$6#$b#¹- щġ¹ ġ¹äˑãʺàÇÅÒчƤàÅÂ$6\"/question fork1 \"#Ȥ³àʛ¹ÍÐäÃՁÂ?#âÍà¤ à݋ÂÇ¼Áä̇Ʊƽ¡Ƨʁä˴\"/fork noComfortLewis/pause 500/speak Lewis \"ĉ¹... äˑ$6#$b#Ȥ³ˉÐ ä˴Ƃ¹ȷ¡Í˒Ò§àÅÂƊ¹Ð ãʺՁÂ?$6\"/pause 1500/speak Lewis \"ĉ¹ړǪ¡áÂÒÁÒ¡àÅÂ˕Ð @...$6#$b#ĉ¹ˉÐ àʛ¹¤¹чâË´̃ÒÂ ĉ¹äˑÍÂÒ¡¨ÐàҚÍàÅÂ˗Ò ĉ¹¨Ðµ¡ËɅÁģ¡¤¹ҽ¹ ÃÐË˗Ò§чĉ¹ ıÒĥ§¤ºāºÁÒƩÍԒ...$6\"/speak Lewis \"$q -1 null#ĉ¹щġ¹á˒¨ƃ§æ...#$r -1 0 event_lewisBreakup1#Ȥ³äˑãʺ¤¹чá˒¢¹Ò´Թ¹ ËÃÍ¡¹Ð... Ȥ³ʁáʴ¤ÇºȤÁ¤ÇÒÁɳǪ¡ äˑä˴áʴԹ¹àÍ§#$r -1 0 event_lewisBreakup2#ÁÒƩġ¹ʁáʴ¤¹˺Ò¤¹Ǚ§ ã¤Ã¨Ðä»ÍÂÒ¡ä˴ɬËŭ§ áººԹ¹ā¹˕Ð?#$r -1 0 event_lewisBreakup3#Ê§ĪÂĈ§... Ȥ³µ¡ËɅÁģ¡ã¤Ãā¹¹Ð?\"/pause 1500/emote Lewis 60/pause 800/speak Lewis \"@... ÍԒāºĉ¹ċ¡Ğ¡Ǚ§¨Ðä˴ՁÂ? ĉ¹Ģ§äˑÍÂÒ¡ÍԒ¤¹àƤÂÇ...$6\"/pause 2000/globalFade/viewport -1000 -1000/pause 3000/friendship Marnie -250/end dialogue Lewis \"¢ÍºȤ³¹Ð @... ĉ¹ړǪ¡Ƥע¹ÁÒŹ´ËˉÍÂá̅Ç˕Ð$4\"/",
+						"noComfortLewis": "pause 500/move farmer -1 0 1/move Lewis -1 0 2/move Lewis 0 4 1/move Lewis 8 0 0/playSound doorClose/warp Lewis 12 4 3/friendship Lewis -250/end warpOut",
+			},
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Mountain",
+			"Entries": {	
+						"282815602/D Clint/f Clint 2500/w sunny/t 1600 2300": "nightTime/79 9/farmer 62 12 1 Clint 86 5 3/skippable/pause 1000/move Clint -7 0 0/move Clint 0 -2 0/move farmer 10 0 1/faceDirection Clint 2/pause 1500/showFrame Clint 35/emote Clint 16/jump Clint/showFrame Clint 0/move farmer 6 0 1/move farmer 0 -6 0/speak Clint \"̍ÒÇ! @... ÁÒŇÒÍ-ÍÐäÃá¶Ç׉˕Ð?\"/pause 1500/speak Clint \"ÍÐäÃ¹Ð? ¼-¼ÁàËÃÍ?$s\"/speak Clint \"$q -1 null#àËʥ¡¼-¼ÁËÁ´ µÍ¹ıÒĥ§ŇÒ§Ò¹ˉÐƊ ¼ÁàÅÂ... ¼ÁàÅÂÁÒËÒàОÁчщ#$r -1 0 event_iron1#ĉ¹äˑړ˗ÒȤ³ʁÅ§àËȑÍ§˴ÇÂ#$r -1 0 event_iron2#¨ƃ§àËÃÍ? àʛ¹ä§˺Ò§˕Ð?#$r -1 0 event_iron3#ĉ¹äˑàҚÍËÃÍ¡\"/pause 1000/speak Clint \"ÇÐ-˗Òá˅... ˝Ò...\"/move Clint 0 2 2/speak Clint \"ä̇¼-¼Á à¨ÍȤ³ãËˑ¹Ð @\"/move farmer 0 -1 0/move Clint 0 6 0/move farmer 0 1 2/pause 500/speak Clint \"à˝Í... @?\"/pause 1000/faceDirection Clint 3/pause 500/faceDirection Clint 0/pause 300/speak Clint \"áÇÐÁÒ̃Ò¹¼Á¾ӣ§׉ËˉÍÂƊ ¼Á à˝Í...$8#$b#¼-¼-¼Á Ʊ¢Í§¨Ðã̋ˉÐ$8\"/move Clint -15 0 3/showFrame Clint 43/end",
+			},
+			"When": {
+				"Date Clint": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Mountain",
+			"Entries": {	
+						"282815613/D Linus/f Linus 2000/w sunny/t 1400 2100": "continue/29 9/farmer 23 20 0 Linus 30 9 3 Jas -100 -100 1 Vincent -101 -101 1/specificTemporarySprite linusCampfire/pause 1000/move farmer 0 -11 0/emote Linus 16/speak Linus \"â̍ @! Ƥã¨чä˴à¨Í¹Ð$h\"/faceDirection farmer 1/emote farmer 32/pause 500/speak Linus \"·Ò¹رÍàʢ¹ÁÒǣĢ§˕Ð? ¼ÁıÒĥ§ŇÒàÁɩ»ÅÒˉÐ ƱàÂÍÐ˴ÇÂ¹Ð ˶ÒȤ³ÍÂÒ¡¨ÐˤÒ§˕Ðʁ...$h\"/question fork1 \"#àÍÒƊ#ĉ¹ıÒĥ§Ӣ§ÍԒˉÐ ¢Íâ·É¹Ð\"/fork noDinner/pause 200/speak Linus \"¨ƃ§ËÃÍ? àђÂÁàÅÂ!$h#$b#ÍÒËÒÃã¡̅Ɋ¡á̅Ç˕Ð... ŇÒäÁȤ³äˑä»ÃÍˢÒ§ã¹àʕ¹· ¢Í§¼ÁʱÍ¹˕Ð?$h\"/pause 200/emote farmer 32/move farmer 5 0 0/move farmer 0 -1 1/move farmer 1 0 0/move farmer 0 -1 0/warp farmer 2 3/globalFade/viewport -1000 -1000/changeLocation Tent/viewport -1000 -1000/warp Linus -103 -103/faceDirection farmer 2/viewport 2 3 true/pause 1500/emote farmer 40/pause 2000/faceDirection Linus 0/warp Linus 2 5/move Linus 0 -1 0/speak Linus \"¢Íâ·Éчã̋ÃÍ! ǖ§¨Ð˪Òá˅ ¼Á˗Òġ¹لÁʴÒ¹Ð!$h#$b#»ÅÒ˒Ò§Ê´æ!$h\"/pause 500/emote farmer 32/pause 500/move Linus 1 0 0/move Linus 0 -1 2/pause 1000/speak Linus \"$q -1 null#àʛ¹Ģ§ä§˺Ò§˕Ð?#$r -1 0 event_dinner1#ġ¹Í˓ÍÂÁÒàÅÂ˕Ð!#$r -1 0 event_dinner2#ĉ¹à¤Âš¹чÍ˓ÍÂ¡˗Ò׉ ÁÒá̅ÇˉÐ\"/pause 2000/speak Linus \"@ Ȥ³ړÍÐäÃՁÂ ¼- ¼ÁˉÐ\"/playSound drumkit1/playSound drumkit1/pause 200/playSound drumkit1/playSound drumkit1/emote Linus 16/playSound drumkit1/playSound drumkit1/playSound drumkit1/message \"Ȥ³ä˴Ƃ¹àƺÂ§¢Í§Ƌ¹ ч¡ÃÐ·ºāºàʕ¹·\"/emote farmer 16/playSound drumkit1/playSound drumkit1/playSound drumkit1/speed farmer 4/move farmer 0 2 2/warp farmer 29 7/globalFade/viewport -1000 -1000/changeLocation Mountain/viewport -1000 -1000/faceDirection farmer 2/warp Jas 23 8/faceDirection Jas 1/warp Vincent 24 7/faceDirection Vincent 1/viewport 27 9 true/move farmer 0 1 3/move farmer -2 0 3/emote Jas 16/emote Vincent 16/pause 200/speak Vincent \"Ȥ³ @? Í-˝ÒÇ ڌªÒÂã¹àʕ¹·чˉÒ¡ĥÇæ ä»äË¹á̅Ç?!$3^Ȥ³ @? Í-˝ÒÇ ڌªÒÂã¹àʕ¹·чˉÒ¡ĥÇæ ä»äË¹á̅Ç?!$3\"/speak Jas \"´- ä˴â»ÃÍ˒ÒºÍ¡ ˻ÒÁÒƩàÅÂ¹Ð¤Ð Ȥ³ @! Ƈ¹à«¹·à¢ÒºÍ¡ã̋ËɩŇÒ!$2^´- ä˴â»ÃÍ˒ÒºÍ¡ ˻ÒÁÒƩàÅÂ¹Ð¤Ð Ȥ³ @! Ƈ¹à«¹·à¢ÒºÍ¡ã̋ËɩŇÒ!$2\"/speak Vincent \"Á- äˑãʺ¼Á¹Ð!!$2\"/pause 500/warp Linus 29 7/move Linus 0 1 3/move Linus -1 0 2/move Linus 0 1 3/move Linus -3 0 0/emote Vincent 16/emote Jas 16/speak Vincent \"ªÒÂĕÇ¢¹ ˉÒ¡ĥÇ!!!$3\"/speak Jas \"à¢Ò¨ÐÁÒŇÒ̃ÒÂàÃÒá̅Ç Ч§ŴƇ¹à«¹·! Ч§! $2\"/question fork1 \"ĉ¹¤ÇÃɮ´˗ÒÍÐäÃƤ...?#щġ¹á˒ÁÒ¡àÅÂ¹Ð ƵęÊˉÐà¢Òàʛ¹¤¹Ƥ¹Ð á̅Ç¾Ç¡à¸ÍʁÁÒỄÒ§ě­ËÒ áºº׉ġ¹ɦ¡á̅ÇËÃÍ?#äˑɮ´ÍÐäÃƤ¡˗Ò\"/fork terroristsWin/pause 200/speak Jas \"ʁä˴! ¾Ç¡Ëɩ¢Íâ·ÉʴÐ Ȥ³ƵęÊ ãʺՁÂƇ¹à«¹·?$2\"/speak Vincent \"¤ģº! ¢Íâ·É¨ƃ§æ¤ģº!$2#$b#àÃÒä»ā¹Ƥ¡˗Ò¹Ðá¨Ê ËƩàʣÇ!!$2\"/speed Jas 4/move Jas -10 0 3/warp Jas -110 -100/speed Vincent 5/move Vincent -11 0 3/warp Vincent -111 -100/pause 2000/speed farmer 3/move farmer 0 1 3/move farmer -1 0 3/pause 500/faceDirection Linus 1/speak Linus \"¼Á¢Íâ·ÉчŇÒã̋Ȥ³ ˵Í§ÁÒà¨ÍÍÐäÃáºº׉ @$s\"/pause 500/speak Linus \"á˅... чȤ³ŇÒáººԹ¹àҮÍ¼ÁˉÐ ŚÒËģº¼Á ġ¹Ʊ¤ÇÒÁËÁÒÂÁÒ¡àÅÂ¹Ð#$b#Ȥ³ˉÐàʛ¹¤¹àƤÂÇ чäˑä˴ÁÍ§¼Áàʛ¹ ĕÇ»ÃÐËÅÒ´$s\"/pause 2000/speak Linus \"@... ¢ÍºȤ³чĢ§ÍԒµÃ§׉¹Ð Ȥ³àʛ¹àҮÍ¹чƤ¨ƃ§æ#$b#àÍÒ˕Ð... ä»·Ò¹ˢÒÇā¹à¶ÍÐ?$h\"/emote farmer 32/pause 1500/globalFade/viewport -1000 -1000/end position 23 9",
+						"noDinner": "pause 200/speak Linus \"â̍... ԧ¹ËÃÍ¤ģº... ԧ¹àÍÒä̇¤ÃÒÇËĥ§ʁä˴#$b#ä̇áÇÐÁÒƽ¡¹Ð¤ģº$h\"/pause 1000/end position 23 9",
+						"terroristsWin": "speed Jas 4/move Jas -10 0 3/warp Jas -110 -100/speed Vincent 5/move Vincent -11 0 3/warp Vincent -111 -100/speak Linus \"...$s\"/pause 2000/speak Linus \"¼Á˵Í§¢Íâ·É àбÂÇāºàҳÍ§Թ¹ ˴ÇÂ¹Ð¤ģº @$s#$b#ġ¹... äˑä˴àš´ע¹ˊÍÂËÃÍ¤ģº á˅˗Ò...$s\"/pause 1500/move Linus 3 0 1/speak Linus \"¢Íâ·É˴ÇÂ¹Ð¤ģº @... ¼Á¢ÍÍԒ¤¹àƤÂÇċ¡Ğ¡ ¹Ð¤ģº$s\"/pause 500/speak Linus \"à݋ÂÇ¼ÁʁƤע¹àÍ§...$s\"/end warpOut",
+						"282815614/D Linus/f Linus 2500/e 282815615/w sunny/t 1700 2100/n linusSleepover": "nightTime/29 9/farmer 23 20 0 Linus 30 9 3/specificTemporarySprite linusCampfire/pause 1000/move farmer 0 -11 1/emote Linus 16/speak Linus \"@! Ȥ³ÁÒ!$h\"/emote farmer 32/move farmer 5 0 1/emote Linus 32/speak Linus \"¼ÁŤ´˗Òä̇àÃÒ ʴÍÂÁÒ·Ò¹رÍàʢ¹ ā¹ƽ¡Ƨ¹Ð¤ģº... áººчäˑƱã¤ÃÁÒ¡Ç¹ˉÐ¹Ð$h\"/question fork1 \"#àÍÒƊ#¢Íâ·É¹Ð ʺÇ§׉Ӣ§ÁÒ¡¨ƃ§æ\"/fork noSleepover/emote Linus 56/speak Linus \"ƤàÅÂ!$h#$b#āºˢÒÇѾ§Ɋ¡˕Ð... ÁÒι§š¹˴ÇÂā¹ՁÂ?$h\"/pause 100/emote farmer 32/emote Linus 32/playSound crafting/pause 1000/playSound crafting/pause 500/speak Linus \"رÍ׉¼ÁÅÍ§ɺµÃãËˑˉÐ Ëħ§˗ÒȤ³¨ÐªÍº¹Ð... Ëħ§˗ÒȤ³¨ÐªÍº¹Ð$h\"/message \"ƵęÊҲ¹Ê»Òàʁµׅã̋Ȥ³\"/pause 500/emote farmer 56/message \"ġ¹Í˓ÍÂÁÒ¡àÅÂ!\"/pause 500/speak Linus \"¼ÁƤã¨¹ÐчȤ³ªÍº ¼Áäˑä˴ŇÒ àÁɩ¾Ç¡׉ˊÍÂæ ËÃÍ¡¹Ð á˅¼ÁƤã¨¹Ð ч¼Áä˴ŇÒÍÒËÒÃчȤ³ªÍº!$h\"/pause 300/emote farmer 32/emote Linus 32/globalFade/viewport -1000 -1000/ambientLight 0 0 0/warp farmer 29 10/faceDirection farmer 0/viewport 29 9 true/pause 2000/speak Linus \"¼ÁƤã¨¹ÐчȤ³áÇÐÁÒƽ¡ Ëĥ§¨Ò¡àҳÍ§¤ÃÒÇчá̅ÇˉÐ @$h\"/pause 100/emote farmer 8/pause 500/speak Linus \"¼ÁäˑʴÍÂáˉã¨àËȑÍ¹ā¹ ˗ÒĢ§Ʊ¤¹чÍÂÒ¡ŇÒ áºº׉ÍԒՁÂ...$s#$b#¼ÁˉÐäˑä˴à¡ƵÂ´ чĕÇàÍ§ã˪ƚƇµáºº׉ ËÃÍ¡¹Ð... á˅ɦ¡¤¹ҽ¹æàËƲÂ´ˉÐ ¢¹Ò´àʔ¡æĢ§àËƲÂ´¼ÁàÅÂ щġ¹ˉÒÍÒÂÁÒ¡æàÅÂ¹Ð...$s\"/speak Linus \"$q -1 null#ġ¹ˉÒÍÒÂ¹Ðι¹...#$r -1 0 event_embarrassing1#ġ¹äˑä˴ˉÒÍÒÂċ¡ËˉÍÂ ¾Ç¡à¢Ò˅Ò§ËÒ¡˕Ðчż´#$r -1 0 event_embarrassing2#ġ¹äˑŚÒĄ­ËÃÍ¡ ĉ¹¨ÐÍԒˢÒ§Ȥ³ á̅ÇàÃÒ¨ÐˍÒğ¹ȷ¡Í˒Ò§ ä»˴ÇÂā¹\"/pause 1000/speak Linus \"ġ¹˵Í§àʛ¹âª¤ªÐµÒáˉæ чŇÒã̋¼Á Ʊ¤¹Í˒Ò§ÍԒÍԒã¹ƚƇµ @$h\"/pause 500/speak Linus \"¼- ¼Á... ¼Áģ¡Ȥ³¹Ð$4\"/pause 100/emote farmer 16/pause 200/question fork1 \"#ĉ¹ʁģ¡Ȥ³àËȑÍ¹ā¹#¢Íâ·É¹Ð á˅ĉ¹äˑä˴ړǪ¡áººԹ¹\"/fork rejectLinus/speak Linus \"¨ƃ§ËÃÍ? Ƥã¨Ĉ§$4\"/pause 2000/speak Linus \"ϔÒǴ¹׉Ģ§ƽ¡ÂÒÇ¹Ò¹ ãʺՁÂ˕Ð?$4#$b#¹Í¹ā¹à¶ÍÐ...$4\"/globalFade/viewport -1000 -1000/changeToTemporaryMap Tent2/viewport -1000 -1000/warp farmer 2 3/faceDirection farmer 1/warp Linus 4 3/faceDirection Linus 3/viewport 2 3 true/pause 500/speak Linus \"¼ÁàµƳÂÁȶ§¹Í¹ ä̇ã̋á̅Ç¹Ð$h#$b#ġ¹äˑä˴¹Í¹ÊºÒÂàËȑÍ¹āº àƥÂ§ч˺Ò¹¢Í§Ȥ³ËÃÍ¡ á˅˗Ò...$h\"/pause 100/move farmer 1 0 1/emote farmer 32/emote Linus 32/pause 2000/globalFade/viewport -1000 -1000/changeLocation Mountain/viewport -1000 -1000/end position 29 8",
+						"noSleepover": "pause 200/speak Linus \"â̍...$s#$b#ԧ¹¤Ճ§Ë˹ÒÅÐā¹¹Ð$s\"/pause 1000/friendship Linus -125/end warpOut",
+						"rejectLinus": "pause 500/speak Linus \"...$s\"/pause 500/speak Linus \"Oh.$s\"/pause 1000/speak Linus \"@... ºÒ§Ƨ... ġ¹ʁ¤§Ƥ¡˗ÒчȤ³¨Ðä»$s\"/pause 2000/friendship Linus -250/end warpOut",
+			},
+			"When": {
+				"Date Linus": "true",
+			},
+		},
+///// add compatible with linus treehouse		
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Mountain",
+			"Entries": {	
+						"282815613/D Linus/f Linus 2000/w sunny/t 1400 2100": "continue/29 9/farmer 23 20 0 Linus 30 9 3 Jas -100 -100 1 Vincent -101 -101 1/specificTemporarySprite linusCampfire/pause 1000/move farmer 0 -11 0/emote Linus 16/speak Linus \"â̍ @! Ƥã¨чä˴à¨Í¹Ð$h\"/faceDirection farmer 1/emote farmer 32/pause 500/speak Linus \"·Ò¹رÍàʢ¹ÁÒǣĢ§˕Ð? ¼ÁıÒĥ§ŇÒàÁɩ»ÅÒˉÐ ƱàÂÍÐ˴ÇÂ¹Ð ˶ÒȤ³ÍÂÒ¡¨ÐˤÒ§˕Ðʁ...$h\"/question fork1 \"#àÍÒƊ#ĉ¹ıÒĥ§Ӣ§ÍԒˉÐ ¢Íâ·É¹Ð\"/fork noDinner/pause 200/speak Linus \"¨ƃ§ËÃÍ? àђÂÁàÅÂ!$h#$b#ÍÒËÒÃã¡̅Ɋ¡á̅Ç˕Ð... ŇÒäÁȤ³äˑä»ÃÍˢÒ§ã¹àʕ¹· ¢Í§¼ÁʱÍ¹˕Ð?$h\"/pause 200/emote farmer 32/move farmer 5 0 0/move farmer 0 -1 1/move farmer 1 0 0/move farmer 0 -1 0/warp farmer 5 5/globalFade/viewport -1000 -1000/changeLocation Tent/viewport -1000 -1000/warp Linus -103 -103/faceDirection farmer 3/viewport 6 6 true/pause 1500/emote farmer 40/pause 2000/faceDirection Linus 0/warp Linus 2 5/move Linus 2 0 1/speak Linus \"¢Íâ·Éчã̋ÃÍ! ǖ§¨Ð˪Òá˅ ¼Á˗Òġ¹لÁʴÒ¹Ð!$h#$b#»ÅÒ˒Ò§Ê´æ!$h\"/pause 500/emote farmer 32/pause 1000/speak Linus \"$q -1 null#àʛ¹Ģ§ä§˺Ò§˕Ð?#$r -1 0 event_dinner1#ġ¹Í˓ÍÂÁÒàÅÂ˕Ð!#$r -1 0 event_dinner2#ĉ¹à¤Âš¹чÍ˓ÍÂ¡˗Ò׉ ÁÒá̅ÇˉÐ\"/pause 2000/speak Linus \"@ Ȥ³ړÍÐäÃՁÂ ¼- ¼ÁˉÐ\"/playSound drumkit1/playSound drumkit1/pause 200/playSound drumkit1/playSound drumkit1/emote Linus 16/playSound drumkit1/playSound drumkit1/playSound drumkit1/message \"Ȥ³ä˴Ƃ¹àƺÂ§¢Í§Ƌ¹ ч¡ÃÐ·ºāºàʕ¹·\"/emote farmer 16/playSound drumkit1/playSound drumkit1/playSound drumkit1/speed farmer 4/move farmer 0 1 2/speed farmer 4/move farmer -2 0 3/warp farmer 29 7/globalFade/viewport -1000 -1000/changeLocation Mountain/viewport -1000 -1000/faceDirection farmer 2/warp Jas 23 8/faceDirection Jas 1/warp Vincent 24 7/faceDirection Vincent 1/viewport 27 9 true/move farmer 0 1 3/move farmer -2 0 3/emote Jas 16/emote Vincent 16/pause 200/speak Vincent \"Ȥ³ @? Í-˝ÒÇ ڌªÒÂã¹àʕ¹·чˉÒ¡ĥÇæ ä»äË¹á̅Ç?!$3^Ȥ³ @? Í-˝ÒÇ ڌªÒÂã¹àʕ¹·чˉÒ¡ĥÇæ ä»äË¹á̅Ç?!$3\"/speak Jas \"´- ä˴â»ÃÍ˒ÒºÍ¡ ˻ÒÁÒƩàÅÂ¹Ð¤Ð Ȥ³ @! Ƈ¹à«¹·à¢ÒºÍ¡ã̋ËɩŇÒ!$2^´- ä˴â»ÃÍ˒ÒºÍ¡ ˻ÒÁÒƩàÅÂ¹Ð¤Ð Ȥ³ @! Ƈ¹à«¹·à¢ÒºÍ¡ã̋ËɩŇÒ!$2\"/speak Vincent \"Á- äˑãʺ¼Á¹Ð!!$2\"/pause 500/warp Linus 29 7/move Linus 0 1 3/move Linus -1 0 2/move Linus 0 1 3/move Linus -3 0 0/emote Vincent 16/emote Jas 16/speak Vincent \"ªÒÂĕÇ¢¹ ˉÒ¡ĥÇ!!!$3\"/speak Jas \"à¢Ò¨ÐÁÒŇÒ̃ÒÂàÃÒá̅Ç Ч§ŴƇ¹à«¹·! Ч§! $2\"/question fork1 \"ĉ¹¤ÇÃɮ´˗ÒÍÐäÃƤ...?#щġ¹á˒ÁÒ¡àÅÂ¹Ð ƵęÊˉÐà¢Òàʛ¹¤¹Ƥ¹Ð á̅Ç¾Ç¡à¸ÍʁÁÒỄÒ§ě­ËÒ áºº׉ġ¹ɦ¡á̅ÇËÃÍ?#äˑɮ´ÍÐäÃƤ¡˗Ò\"/fork terroristsWin/pause 200/speak Jas \"ʁä˴! ¾Ç¡Ëɩ¢Íâ·ÉʴÐ Ȥ³ƵęÊ ãʺՁÂƇ¹à«¹·?$2\"/speak Vincent \"¤ģº! ¢Íâ·É¨ƃ§æ¤ģº!$2#$b#àÃÒä»ā¹Ƥ¡˗Ò¹Ðá¨Ê ËƩàʣÇ!!$2\"/speed Jas 4/move Jas -10 0 3/warp Jas -110 -100/move Vincent 0 -1 2/speed Vincent 5/move Vincent -11 0 3/warp Vincent -111 -100/pause 2000/speed farmer 3/move farmer 0 1 3/move farmer -1 0 3/pause 500/faceDirection Linus 1/speak Linus \"¼Á¢Íâ·ÉчŇÒã̋Ȥ³ ˵Í§ÁÒà¨ÍÍÐäÃáºº׉ @$s\"/pause 500/speak Linus \"á˅... чȤ³ŇÒáººԹ¹àҮÍ¼ÁˉÐ ŚÒËģº¼Á ġ¹Ʊ¤ÇÒÁËÁÒÂÁÒ¡àÅÂ¹Ð#$b#Ȥ³ˉÐàʛ¹¤¹àƤÂÇ чäˑä˴ÁÍ§¼Áàʛ¹ ĕÇ»ÃÐËÅÒ´$s\"/pause 2000/speak Linus \"@... ¢ÍºȤ³чĢ§ÍԒµÃ§׉¹Ð Ȥ³àʛ¹àҮÍ¹чƤ¨ƃ§æ#$b#àÍÒ˕Ð... ä»·Ò¹ˢÒÇā¹à¶ÍÐ?$h\"/emote farmer 32/pause 1500/globalFade/viewport -1000 -1000/end position 23 9",
+						"noDinner": "pause 200/speak Linus \"â̍... ԧ¹ËÃÍ¤ģº... ԧ¹àÍÒä̇¤ÃÒÇËĥ§ʁä˴#$b#ä̇áÇÐÁÒƽ¡¹Ð¤ģº$h\"/pause 1000/end position 23 9",
+						"terroristsWin": "speed Jas 4/move Jas -10 0 3/warp Jas -110 -100/speed Vincent 5/move Vincent -11 0 3/warp Vincent -111 -100/speak Linus \"...$s\"/pause 2000/speak Linus \"¼Á˵Í§¢Íâ·É àбÂÇāºàҳÍ§Թ¹ ˴ÇÂ¹Ð¤ģº @$s#$b#ġ¹... äˑä˴àš´ע¹ˊÍÂËÃÍ¤ģº á˅˗Ò...$s\"/pause 1500/move Linus 3 0 1/speak Linus \"¢Íâ·É˴ÇÂ¹Ð¤ģº @... ¼Á¢ÍÍԒ¤¹àƤÂÇċ¡Ğ¡ ¹Ð¤ģº$s\"/pause 500/speak Linus \"à݋ÂÇ¼ÁʁƤע¹àÍ§...$s\"/end warpOut",
+						"282815614/D Linus/f Linus 2500/e 282815615/w sunny/t 1700 2100/n linusSleepover": "nightTime/29 9/farmer 23 20 0 Linus 30 9 3/specificTemporarySprite linusCampfire/pause 1000/move farmer 0 -11 1/emote Linus 16/speak Linus \"@! Ȥ³ÁÒ!$h\"/emote farmer 32/move farmer 5 0 1/emote Linus 32/speak Linus \"¼ÁŤ´˗Òä̇àÃÒ ʴÍÂÁÒ·Ò¹رÍàʢ¹ ā¹ƽ¡Ƨ¹Ð¤ģº... áººчäˑƱã¤ÃÁÒ¡Ç¹ˉÐ¹Ð$h\"/question fork1 \"#àÍÒƊ#¢Íâ·É¹Ð ʺÇ§׉Ӣ§ÁÒ¡¨ƃ§æ\"/fork noSleepover/emote Linus 56/speak Linus \"ƤàÅÂ!$h#$b#āºˢÒÇѾ§Ɋ¡˕Ð... ÁÒι§š¹˴ÇÂā¹ՁÂ?$h\"/pause 100/emote farmer 32/emote Linus 32/playSound crafting/pause 1000/playSound crafting/pause 500/speak Linus \"رÍ׉¼ÁÅÍ§ɺµÃãËˑˉÐ Ëħ§˗ÒȤ³¨ÐªÍº¹Ð... Ëħ§˗ÒȤ³¨ÐªÍº¹Ð$h\"/message \"ƵęÊҲ¹Ê»Òàʁµׅã̋Ȥ³\"/pause 500/emote farmer 56/message \"ġ¹Í˓ÍÂÁÒ¡àÅÂ!\"/pause 500/speak Linus \"¼ÁƤã¨¹ÐчȤ³ªÍº ¼Áäˑä˴ŇÒ àÁɩ¾Ç¡׉ˊÍÂæ ËÃÍ¡¹Ð á˅¼ÁƤã¨¹Ð ч¼Áä˴ŇÒÍÒËÒÃчȤ³ªÍº!$h\"/pause 300/emote farmer 32/emote Linus 32/globalFade/viewport -1000 -1000/ambientLight 0 0 0/warp farmer 29 10/faceDirection farmer 0/viewport 29 9 true/pause 2000/speak Linus \"¼ÁƤã¨¹ÐчȤ³áÇÐÁÒƽ¡ Ëĥ§¨Ò¡àҳÍ§¤ÃÒÇчá̅ÇˉÐ @$h\"/pause 100/emote farmer 8/pause 500/speak Linus \"¼ÁäˑʴÍÂáˉã¨àËȑÍ¹ā¹ ˗ÒĢ§Ʊ¤¹чÍÂÒ¡ŇÒ áºº׉ÍԒՁÂ...$s#$b#¼ÁˉÐäˑä˴à¡ƵÂ´ чĕÇàÍ§ã˪ƚƇµáºº׉ ËÃÍ¡¹Ð... á˅ɦ¡¤¹ҽ¹æàËƲÂ´ˉÐ ¢¹Ò´àʔ¡æĢ§àËƲÂ´¼ÁàÅÂ щġ¹ˉÒÍÒÂÁÒ¡æàÅÂ¹Ð...$s\"/speak Linus \"$q -1 null#ġ¹ˉÒÍÒÂ¹Ðι¹...#$r -1 0 event_embarrassing1#ġ¹äˑä˴ˉÒÍÒÂċ¡ËˉÍÂ ¾Ç¡à¢Ò˅Ò§ËÒ¡˕Ðчż´#$r -1 0 event_embarrassing2#ġ¹äˑŚÒĄ­ËÃÍ¡ ĉ¹¨ÐÍԒˢÒ§Ȥ³ á̅ÇàÃÒ¨ÐˍÒğ¹ȷ¡Í˒Ò§ ä»˴ÇÂā¹\"/pause 1000/speak Linus \"ġ¹˵Í§àʛ¹âª¤ªÐµÒáˉæ чŇÒã̋¼Á Ʊ¤¹Í˒Ò§ÍԒÍԒã¹ƚƇµ @$h\"/pause 500/speak Linus \"¼- ¼Á... ¼Áģ¡Ȥ³¹Ð$4\"/pause 100/emote farmer 16/pause 200/question fork1 \"#ĉ¹ʁģ¡Ȥ³àËȑÍ¹ā¹#¢Íâ·É¹Ð á˅ĉ¹äˑä˴ړǪ¡áººԹ¹\"/fork rejectLinus/speak Linus \"¨ƃ§ËÃÍ? Ƥã¨Ĉ§$4\"/pause 2000/speak Linus \"ϔÒǴ¹׉Ģ§ƽ¡ÂÒÇ¹Ò¹ ãʺՁÂ˕Ð?$4#$b#¹Í¹ā¹à¶ÍÐ...$4\"/globalFade/viewport -1000 -1000/changeToTemporaryMap Tent2/viewport -1000 -1000/warp farmer 2 3/faceDirection farmer 1/warp Linus 4 3/faceDirection Linus 3/viewport 2 3 true/pause 500/speak Linus \"¼ÁàµƳÂÁȶ§¹Í¹ ä̇ã̋á̅Ç¹Ð$h#$b#ġ¹äˑä˴¹Í¹ÊºÒÂàËȑÍ¹āº àƥÂ§ч˺Ò¹¢Í§Ȥ³ËÃÍ¡ á˅˗Ò...$h\"/pause 100/move farmer 1 0 1/emote farmer 32/emote Linus 32/pause 2000/globalFade/viewport -1000 -1000/changeLocation Mountain/viewport -1000 -1000/end position 29 8",
+						"noSleepover": "pause 200/speak Linus \"â̍...$s#$b#ԧ¹¤Ճ§Ë˹ÒÅÐā¹¹Ð$s\"/pause 1000/friendship Linus -125/end warpOut",
+						"rejectLinus": "pause 500/speak Linus \"...$s\"/pause 500/speak Linus \"Oh.$s\"/pause 1000/speak Linus \"@... ºÒ§Ƨ... ġ¹ʁ¤§Ƥ¡˗ÒчȤ³¨Ðä»$s\"/pause 2000/friendship Linus -250/end warpOut",
+			},
+			"When": {
+				"Date Linus": "true",
+				"HasMod:Leadenbrain.LinusTreehouse": true
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Saloon",
+			"Entries": {	
+						"282815604/D Gus/f Gus 2000/t 1200 1630": "gusviolin/32 7/farmer 31 15 0 Gus 35 7 1 Harvey -100 -100 0/skippable/showFrame Gus 40/animate Gus false false 100 40 40 40 40 40 40 41 41 41 42 42 42 43 43 42 42 42 42/move farmer 0 -6 0/pause 1000/showFrame Gus 4/pause 500/showFrame Gus 12/speak Gus \"â̍ @... â·ÉƧ¤ģº! Ȥ³à¨Í¼ÁµÍ¹Ĉ§ËÇÐäˑƤàÅÂ$5\"/move farmer 0 -2 1/move farmer 3 0 1/pause 1500/emote farmer 16/message \"ȑÍ¢ÇÒ¢Í§āÊâª¡ä»˴ÇÂàȕÍ´\"/pause 800/speak Gus \"̍Í щˉÐàËÃÍ...? ¼ÁÊºÒÂƤ¤ģº...$s#$b#¼ÁıÒĥ§ ËƂºà¤ҳÍ§áˡÇ¨Ò¡чàʁº á̅Çġ¹µ¡ÁÒáµ¡ˉÐ ġ¹¤§ºÒ´¼ÁàˢÒâ´ÂĚ§àƍ­...$s\"/pause 1500/message \"ÃÍÂºÒ´ɤǥ¡ÁÒ¡\"/pause 500/question fork1 \"#ġ¹ǥ¡¹Ð ã̋ĉ¹¾ÒȤ³ä»ËÒËÁÍÎÒΓƷΒà¶ÍÐ#ġ¹ɤá˒¹Ð Ȥ³¤ÇÃä»ËÒËÁÍ\"/fork doctorAlone/pause 500/showFrame Gus 0/pause 300/showFrame Gus 12/pause 500/speak Gus \"¼Á... ˗Ò¤§äˑàʛ¹äÃ ˶Òã̋ËÁÍɤĪ¡ËˉÍÂ$5#$b#áˉã¨àËÃÍ ˗ÒȤ³ƱàÇÅÒ¾Ò¼Áä»àÍ§...?$s\"/globalFade/viewport -1000 -1000/changeToTemporaryMap Hospital/viewport -1000 -1000/warp farmer 20 11 2/warp Gus 20 12 1/warp Harvey 21 12 3/playMusic Hospital_Ambient/faceDirection farmer 2/showFrame Gus 4/faceDirection Harvey 3/viewport 20 10 true/pause 1500/speak Harvey \"˝Ò āÊ щ¤§äˑãʺàҳÍ§ чȤ³ÍÂÒ¡àƺÂàÇÅÒ ÂÒÁˊÒÂŇÒƊ¹Ð?$h#$b#âª¤ƤчàʢºáʴњàʂÁ Í˒ÒȕÁã̋á¼Å ÊÐÍÒ´áÅÐá̋§˕Ð ƽ¡ÊÍ§Ī»´ÒΛ ¡ĥºÁÒĕ´äËÁ¹Ð\"/pause 300/move Harvey 0 -1 3/faceDirection farmer 1/speak Harvey \"¢ÍºȤ³¹Ð¤ģº ч¾Òà¢ÒÁÒчщ @ ÃÍÂºÒ´á˒¡˗Òчàʫ¹ˉÐ¤ģº\"/move Harvey 1 0 2/speak Harvey \"¤ÃÒÇË˹Ò ÃÐħ§áˡÇáµ¡ÁÒ¡æ ¹Ð āÊ ġ¹ĭ¹µÃÒÂä˴¹Ð\"/faceDirection farmer 2/move Harvey 0 -3 3/move Harvey -7 0 0/move Harvey 0 -1 3/move Harvey -5 0 2/move Harvey 0 3 3/showFrame Gus 8/move Harvey -5 0 0/move Gus 1 0 0/move Gus 0 -1 3/faceDirection farmer 1/speak Gus \"@... ¢ÍºȤ³¹Ð¤ģº ч¾Ò¼ÁÁÒщ#$b#ġ¹ƤÁÒ¡àÅÂ чƱ¤¹ÁÒɤáÅ$4#$b#äˑ˵Í§˛Ç§¹Ð... ¤Ճ§Ë˹Ò¼Á¨ÐÃÐħ§¡˗Ò׉ ¼ÁĪ­­Ò\"/emote Gus 32/pause 500/speak Gus \"Ƨ׉... àÃÒ¡ĥº«Òɵ¹ā¹ á̅ÇȤ³ʁʺÇÂ¼ÁàʁºáˡÇ ƤՁÂ¤ģº?$h\"/emote farmer 28/globalFade/viewport -1000 -1000/end warpOut",
+						"doctorAlone": "pause 500/speak Gus \"¼Á... áˉã¨˗Ò ¼Áäˑàʛ¹ÍÐäÃËÃÍ¡ ¼Á¨ÐàʁºáˡÇщã̋àÊʣ¨ á̅ÇÍÒ¨¨Ðä»ËÒËÁÍ ƧËĥ§á̅Çā¹¤ģº$5#$b#¢ÍºȤ³чáÇÐÁÒ¹Ð¤ģº @ ä̇à¨Íā¹¤ģº$s\"/showFrame Gus 4/animate Gus false false 100 40 40 40 40 40 40 41 41 41 42 42 42 43 43 42 42 42 42/end warpOut",
+						"282815605/D Gus/f Gus 2500/t 1200 1600": "jaunty/14 18/farmer -100 -100 0 Gus 17 18 2/skippable/animate Gus false false 100 18 18 19 19 20 20 19 19/playSound doorClose/warp farmer 14 24 0/move farmer 0 -3 1/move farmer 3 0 0/move farmer 0 -1 0/emote Gus 16/speak Gus \"â̍ @! ¼ÁıÒĥ§Ǚ¡ǖ§¾ÍƤàÅÂ¤ģº$h\"/emote farmer 8/pause 500/speak Gus \"¼ÁƱĴÒ¶ÒÁ¨Ð¶ÒÁˉÐ¤ģº! Ȥ³ªÍºÍÐäÃÁÒ¡¡˗Òā¹¤ģº ÃÐË˗Ò§ÊµÍΓàºÍΓѓ āºàªÍΓѓ?\"/speak Gus \"$q -1 null#Ȥ³ªÍºÍÐäÃÁÒ¡¡˗Òā¹ ÊµÍΓàºÍΓѓ ËȓÍàªÍΓѓ?#$r -1 0 event_fruit1#ÊµÍΓàºÍΓѓ#$r -1 0 event_fruit2#àªÍΓѓ#$r -1 0 event_fruit3#ĉ¹àȕÍ¡äˑä˴ÍÐ! ªÍºԷ§ӴàÅÂ#$r -1 0 event_fruit4#ĉ¹äˑªÍºԷ§ӴàÅÂ\"/speak Gus \"¼Á¨ÐĸÒä̇¹Ð¤ģº\"/emote Gus 56/pause 500/speak Gus \"¼ÁıÒĥ§ÇÒ§á¼¹ ŇÒÍÐäÃžàÈÉÍԒˉÐ¤ģº Ȥ³¨Ðä˴ړàʣÇæ ׉áËÅÐ¤ģº!$h\"/pause 500/speak Gus \"ÃÐË˗Ò§׉ ã̋¼ÁàוÂ§ˢÒÇ¡ÅÒ§ħ¹ àҮÍµÍºá·¹чáÇÐÁÒ àђÂÁ¼Áá·¹ä˴ՁÂ¤ģº?$h\"/end dialogue Gus \"äˑ˵Í§˛Ç§ËÃÍ¡¤ģº Ȥ³¨Ð˵Í§ªÍº ч¼ÁàµƳÂÁä̇áˉæ... á˅ġ¹àʛ¹à«ÍΓä¾ÃΚ¹Ð¤ģº!$h\"/",
+			},
+			"When": {
+				"Date Gus": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/SandyHouse",
+			"Entries": {
+						"282815619/D Sandy/f Sandy 2000/t 1500 2000": "gusviolin/23 6/farmer 8 4 1 Sandy 25 5 0/skippable/pause 1500/playSound dwop/pause 500/playSound dwop/pause 200/move Sandy -3 0 0/pause 200/playSound crafting/pause 500/playSound crafting/pause 200/move Sandy 1 0 0/pause 400/playSound clank/pause 300/playSound clank/pause 1000/move Sandy 1 0 0/playSound dwop/pause 1000/move farmer 11 0 1/faceDirection Sandy 3/emote Sandy 16/pause 300/speak Sandy \"â̍ ÊħÊƤ˨Ò @#$b#¢Íâ·ÉƧ ĉ¹äˑä˴ÍԒˢÒ§Ë˹Ò ħ¹׉ȸÃš¨¢Í§ĉ¹äˑʴÍÂƤˉÐ ʁàÅÂŻ´̃Ò¹äÇËˉÍÂ á̅ÇÁÒËÒÍÐäÃš¹«ÐàÅÂ\"/pause 200/speak Sandy \"Ȥ³äˑä˴˵Í§¡ÒÃÍÐäÃ ãʺǣà»˕Ò?\"/pause 300/question fork1 \"#äˑщ! áʴÁÒËÒà¸ÍàˇÒԹ¹áËÅÐ#¨ƃ§æ á̅Ç ĉ¹ÍÂÒ¡¨Ð؛Í¢Í§ċ¡ËˉÍÂ\"/fork sandyShop/pause 400/speak Sandy \"àͭ à¸Íàʛ¹¤¹қÍĪµΒ¤¹Ëѹ§ äˑãʺǣä§̘Ð#$b#Ƥã¨Ĉ§! ÍԒµÃ§׉ʱÍ¹¹Ð ĉ¹¨Ðáˊ§ã̋$h\"/pause 300/emote farmer 32/move farmer 1 0 2/move farmer 0 1 1/move farmer 2 0 2/move farmer 0 2 0/faceDirection Sandy 2/pause 500/emote Sandy 56/pause 500/faceDirection Sandy 0/playSound dwop/pause 500/move Sandy 1 0 0/pause 300/playSound dwop/pause 200/move Sandy -3 0 0/pause 200/playSound crafting/pause 500/playSound crafting/pause 200/move Sandy 1 0 0/pause 400/playSound clank/pause 300/playSound clank/pause 1000/move Sandy 1 0 0/playSound dwop/pause 1000/speak Sandy \"Ȥ³ʁړ @... ĉ¹˗Ò¨ÐŻ´̃Ò¹àʣÇæ ׉áËÅÐ$s\"/pause 500/emote farmer 8/pause 300/speak Sandy \"Ëĥ§æ ÁÒ׉̃Ò¹ 'âÍàÍūÊ¢Í§á«¹ׄ' ˤÒ¢ÒÂäˑʴÍÂƤ ĉ¹ړ˗Òчщġ¹ʁ àʛ¹áºº׉µÅÍ´ι¹áËÅÐ á˅ʺÇ§Ëĥ§æ ÁÒ׉ġ¹á˒Å§¡˗ÒàŴÁƽ¡...$s\"/move Sandy -1 0 0/pause 100/playSound clank/pause 500/speak Sandy \"¨ƃ§æ á̅Çĉ¹ÍÒ¨¨Ð̂ÒÂä»ч àȑÍ§à¾ƅá¡¹\"/pause 500/emote farmer 8/pause 500/speak Sandy \"àÍƁƵºÍ¡˗Ò à¸ÍáÅÐàÎƵΒÊÒÁÒÃ¶ ɤáÅĉ¹ä˴ċ¡Ğ¡Ëѹ§ Í˒Ò§˹ÍÂʁ¨¹¡˗Òĉ¹¨Ð Ʊчё·Ò§àʛ¹¢Í§ĕÇàÍ§ ã¹àȑÍ§Թ¹ˉÐ¹Ð\"/pause 1000/playSound dwop/pause 500/speak Sandy \"Ģ§ä§ʁµÒÁ... ġ¹ʁàʛ¹áʴÍÐäÃчʺÇ§׉ ĉ¹Ť´ÍԒ˕Ð¹Ð Ȥ³äˑ˵Í§àʁºä»Ť´ÁÒ¡ʁä˴$h\"/pause 200/speak Sandy \"ä̇ĉ¹ĕ´Ɗ¹ã¨ä˴¨ƃ§æ á̅Ç ĉ¹¨ÐºÍ¡Ȥ³¹Ð\"/move Sandy 1 0 0/pause 200/playSound crafting/pause 600/playSound dwop/pause 800/faceDirection Sandy 2/emote Sandy 56/speak Sandy \"щ @ ¢ÍºȤ³¹Ðчģºğ§ ĉ¹Ƥã¨¹ÐчȤ³áÇÐÁÒ$h\"/pause 400/emote farmer 32/pause 400/speak Sandy \"á̅Çʁ... ĉ¹ŇÒÍÒËÒÃàʢ¹äË́ä»á̅Ç ϊ§ÁÒš¹˴ÇÂā¹á·¹ÅÐā¹¹Ð?$h\"/pause 400/emote farmer 28/pause 2000/globalFade/viewport -1000 -1000/end warpOut",
+						"sandyShop": "pause 500/speak Sandy \"Ah, sure... let me get this mess cleaned up and I'll meet you up front in a lick.$s\"/pause 1500/friendship Sandy -25/end position 2 7",
+						"282815621/D Sandy/f Sandy 2500/t 2000 2350/n sandyDancing": "50s/4 6/farmer -10 -10 0 Sandy 2 5 2/pause 500/playSound doorClose/warp farmer 4 9/pause 200/emote Sandy 16/pause 400/speak Sandy \"Oh, hey there, @!\"/pause 300/move farmer 0 -2 3/move farmer -2 0 0/pause 500/speak Sandy \"You all ready for our big night out?$h\"/question fork1 \"#Sure am!#Not tonight, sorry.\"/fork notTonight/pause 500/emote Sandy 56/pause 500/speak Sandy \"Great!$h#$b#Let me close up the shop and we'll hop on the bus!$h\"/emote farmer 32/pause 1500/globalFade/viewport -1000 -1000/pause 1000/playSound busDriveOff/pause 1000/changeToTemporaryMap ClubZuzu/viewport -1000 -1000/warp farmer 10 10/faceDirection farmer 1/warp Sandy 11 10/faceDirection Sandy 3/playMusic poppy/viewport 12 9 true/ambientLight 0 0 0/pause 1500/emote Sandy 56/pause 500/speak Sandy \"Isn't this place fun?$h\"/pause 500/emote farmer 28/pause 1000/speak Sandy \"I love this song!$h#$b#@, let's dance!$h\"/pause 1000/globalFade/viewport -1000 -1000/pause 1500/warp farmer 18 6/warp Sandy 17 6/faceDirection farmer 3/faceDirection Sandy 1/viewport 17 7 true/playMusic poppy/pause 1500/emote Sandy 56/pause 500/message \"It's only been half an hour and Sandy has already had several drinks.\"/pause 800/emote Sandy 56/pause 500/speak Sandy \"Back to the dance floor, Mister!$4^Back to the dance floor, Missy!$4#$b#My body just wants to DANCE!$4\"/pause 1000/emote farmer 28/message \"Sandy can barely stand up by herself...\"/pause 1500/speak Sandy \"Well, aren't we going to DANCE?$7\"/pause 1000/question fork1 \"Should we stay?#Take Sandy home#Stay at Club Zuzu\"/fork stayAtClub/pause 1000/globalFade/viewport -1000 -1000/message \"You decide to take her home.\"/pause 500/playSound busDriveOff/pause 500/changeLocation SandyHouse/warp Sandy 32 7/showFrame Sandy 16/positionOffset Sandy 8 0 0/warp farmer 34 7/faceDirection farmer 3/playMusic none/ambientLight 0 0 0/viewport 34 6 true/pause 500/message \"You helped tuck Sandy in to bed.\"/pause 1000/emote Sandy 24/pause 500/message \"You should let her get some sleep.\"/pause 1500/speak Sandy \"Wait... @?$s\"/pause 500/emote farmer 8/pause 1500/speak Sandy \"...Thank you for bringing me home. What would I do without you...?$h\"/pause 1000/emote farmer 28/pause 1500/speak Sandy \"Hey... I love you.$4\"/pause 1000/question fork1 \"#I love you, too.#...You're drunk. Get some rest.\"/fork getRest/pause 1000/emote Sandy 24/pause 1000/message \"It's about time to head home. She'll be fine in the morning.\"/pause 1000/globalFade/viewport -1000 -1000/pause 500/mail morningAfter/end warpOut",
+						"notTonight": "pause 500/speak Sandy \"...Why'd you bother coming all the way out here if you were busy? Did you need to buy something?$s\"/pause 500/friendship Sandy -250/end dialogue Sandy \"What can I help you with...?$s\"",
+						"getRest": "pause 500/emote Sandy 12/pause 300/speak Sandy \"...$s\"/pause 1000/emote Sandy 24/pause 1000/message \"It's about time to head home. She'll be fine in the morning.\"/pause 1000/globalFade/viewport -1000 -1000/pause 500/friendship Sandy -250/end warpOut",
+			},
+			"When": {
+				"Date Sandy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Temp",
+			"Entries": {
+						"rejectGus": "pause 500/speak Gus \"ÍÐ...ÍÐäÃ¹Ð? Ȥ³äˑ...?$s\"/pause 1500/speak Gus \"...˝Í$s\"/faceDirection Gus 2/pause 2000/emote Gus 40/pause 500/speak Gus \"ºÒ§Ƨ¤§Ƥ¡˗Ò ˶ÒàÃÒ¨ºǴ¹׉àˇÒ׉¹Ð @ ¼Á... ¼ÁړǪ¡äˑʴÍÂƤ ¢Íâ·É˴ÇÂ$s\"/pause 2000/globalFade/viewport -1000 -1000/changeLocation Farm/friendship Gus -500/end position 64 16",
+			},
+			"When": {
+				"Date Gus": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Temp",
+			"Entries": {
+						"keepKey": "pause 500/emote Lewis 60/speak Lewis \"Lin, I can't take this.$s\"/pause 300/speak Lin \"Sure you can. I'm in room 23.$1\"/pause 300/speak Lewis \"No, Lin. Take it back. I'm sorry.$s\"/pause 500/emote Lin 12/speak Lin \"Why can't you take it? I know you're not married, Lewis.$2\"/pause 500/emote Lewis 40/speak Lewis \"I'm interested in somebody else.$7\"/speak Lin \"You mean you have a kindergarten crush on somebody? It's not that fat old farmer lady you used to swoon over, is it?$2\"/emote Lewis 12/speak Lewis \"It's absolutely none of your business, Mayor Lin.$a\"/move Lewis 0 1 2/move farmer -1 0 1/move Lewis 0 3 2/warp Lewis -200 -200/move farmer 1 0 2/pause 500/emote farmer 40/speak Lin \"No way... He's not... He can't be... like THAT...$2^No way... I can't believe he's fallen for another woman... UGH!$2\"/pause 100/faceDirection farmer 0/emote farmer 28/pause 1000/globalFade/viewport -1000 -1000/changeToTemporaryMap zuzuInn/viewport -1000 -1000/warp Lin -111 -111/warp Lewis 11 5/faceDirection Lewis 1/viewport 13 7 true/pause 300/emote Lewis 12/pause 1000/faceDirection farmer 0/warp farmer 11 13/playSound doorClose/pause 2000/emote Lewis 40/pause 1000/move farmer 0 -7 0/pause 2000/faceDirection Lewis 2/speak Lewis \"I'm sorry you had to hear that, @.$s\"/pause 500/speak Lewis \"She's sort of an old friend... We've flirted in the past, but...$s\"/emote Lewis 40/speak Lewis \"It used to be in good fun. She's never been so pushy before.$a\"/pause 2000/speak Lewis \"$q -1 null#Anyhow... let's not to let that ruin our evening... eh?#$r -1 0 event_ruin1#Definitely! I'm starving.#$r -1 0 event_ruin2#I could use a drink after that...#$r -1 0 event_ruin3#Are you sure you're okay?\"/pause 2000/globalFade/viewport -1000 -1000/changeLocation Farm/viewport -1000 -1000/end position 64 16",
+						"lewisRelationship": "emote Lewis 16/speak Lewis \"That's right, Lin, we are. And we're leaving. Have a good night.$a\"/move Lewis 0 4 2/warp Lewis -222 -222/playSound doorClose/speak Lin \"Ugh! I can't believe this!$2\"/pause 100/move farmer 0 4 3/move farmer -1 0 2/move farmer 0 1 2/warp farmer -223 -223/playSound doorClose/emote Lin 12/pause 1500/globalFade/viewport -1000 -1000/changeToTemporaryMap zuzuInn/viewport -1000 -1000/warp Lin -121 -121/warp Lewis 11 5/faceDirection Lewis 3/warp farmer 12 5/faceDirection farmer 3/viewport 13 7 true/pause 1000/faceDirection Lewis 1/speak Lewis \"Thank you for sticking up for me, @... Even if you had to use that excuse.$7\"/pause 2000/emote Lewis 40/pause 500/speak Lewis \"Actually, @... I have a confession.$7#$b#You're the reason I didn't want to take Lin's offer...$7\"/emote farmer 16/speak Lewis \"@, I like you. I know I'm older than you are, but... I'm old enough to know what I want.$7#$b#And it's you.$4\"/emote farmer 56/pause 300/emote Lewis 56/pause 500/speak Lewis \"@, I'm so glad you came with me.$h#$b#Now, how about we go get some dinner? Our first date?$4\"/emote farmer 32/pause 2000/globalFade/viewport -1000 -1000/changeLocation Farm/viewport -1000 -1000/friendship Lewis 60/end position 64 16",
+			},
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Temp",
+			"Entries": {
+						"noButtermilk": "pause 500/emote Marnie 40/pause 500/speak Marnie \"Ȥ³ɮ´ɦ¡ ĉ¹äˑ¤ÇÃ¢Íã̋ ¤¹»ÃÐÊº¡ÒÃ΃˹ÍÂ ÁÒʺÇÂàÅÂ...$s\"/pause 1500/playSound cow/emote Marnie 16/faceDirection Marnie 3/speak Marnie \"äˑàʛ¹äÃ¹ÐÊÒÇ˹ÍÂ ĉ¹ÍԒщá̅Ç$s\"/pause 500/playSound cow/emote farmer 40/globalFade/viewport -1000 -1000/changeLocation Forest/viewport -1000 -1000/friendship Marnie -250/end position 99 23",
+						"rejectMarnie": "pause 1000/emote Marnie 40/pause 500/speak Marnie \"...â̍ äˑ ĉ¹˅Ò§ËÒ¡ч˵Í§¢Íâ·É...$3#$b#ĉ¹äˑ¤ÇÃÊɃ»àÍÒàÍ§...$s\"/pause 1500/playSound cow/emote Marnie 16/move Marnie 0 1 3/move Marnie -1 0 3/speak Marnie \"äˑàʛ¹äÃ¹ÐÊÒÇ˹ÍÂ... ĉ¹ÍԒщá̅Ç$s\"/pause 2000/speak Marnie \"Ȥ³ @... ĉ¹¢Íâ·É¹Ð á˅Ȥ³¡ĥºä»ʱÍ¹ ÍÒ¨¨ÐƤчɊ´$8^Ȥ³ @... ĉ¹¢Íâ·É¹Ð á˅Ȥ³¡ĥºä»ʱÍ¹ ÍÒ¨¨ÐƤчɊ´$8\"/pause 500/emote farmer 40/globalFade/viewport -1000 -1000/changeLocation Forest/viewport -1000 -1000/friendship Marnie -250/end position 99 23",
+			},
+			"When": {
+				"Date Marnie": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Temp",
+			"Entries": {
+						"tooRomantic": "pause 500/emote Pam 40/pause 500/speak Pam \"I think that was the point, eh...?$s\"/pause 1000/speak Pam \"Y'got a problem with it...?$s\"/pause 500/emote farmer 60/pause 300/faceDirection Pam 1/emote Pam 12/pause 200/speak Pam \"Well... I guess I'll get this mess cleaned up then.$5\"/pause 500/speak Pam \"Well, what're you waiting for? Get out if you don't wanna be here.$5\"/emote farmer 28/pause 1000/friendship Pam -500/friendship Penny -250/end warpOut",
+			},
+			"When": {
+				"Date Pam": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Temp",
+			"Entries": {
+						"stayAtClub": "pause 500/globalFade/viewport -1000 -1000/playMusic none/pause 1000/message \"You danced with Sandy for a while longer, practically holding her up the entire time.\"/pause 500/warp farmer 10 10/faceDirection farmer 1/warp Sandy 11 10/faceDirection Sandy 3/viewport 12 9 true/playMusic shimmeringbastion/pause 1000/speak Sandy \"Y'know, @, I've been thinking...$7\"/pause 300/emote farmer 8/pause 500/emote Sandy 40/pause 1000/emote farmer 8/pause 300/speed Sandy 4/move Sandy 0 3 2/warp Sandy -10 -10/emote farmer 16/speed farmer 4/move farmer 1 0 2/speed farmer 4/move farmer 0 3 2/warp farmer -11 -11/pause 1000/speak Sandy \"*barf*$s\"/pause 1000/globalFade/viewport -1000 -1000/playMusic none/message \"Sandy threw up all over the sidewalk outside...\"/pause 1000/message \"You decide to take her home.\"/pause 1000/playSound busDriveOff/pause 1000/changeLocation SandyHouse/warp Sandy 32 7/showFrame Sandy 16/positionOffset Sandy 8 0 0/warp farmer 34 7/faceDirection farmer 3/playMusic none/ambientLight 0 0 0/viewport 34 6 true/pause 1500/message \"You helped her get clean and tucked her in.\"/pause 1500/emote Sandy 24/pause 1500/message \"You should let her get some sleep.\"/pause 1500/globalFade/viewport -1000 -1000/pause 500/pause 1000/end warpOut",
+			},
+			"When": {
+				"Date Sandy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Temp",
+			"Entries": {
+						"allReady": "pause 300/speak Willy \"Í˒ÒÁÒŇÒàʛ¹ړƤËˉÒ ā»ĕ¹$h\"/pause 500/emote farmer 32/pause 400/emote Willy 32/pause 2000/speak Willy \"à̎... ¢Íºã¨чáÇÐÁÒ¹Ð ā»ĕ¹ ĉ¹Ƥã¨чƱ¤¹ÁÒàђÂÁ\"/pause 1000/emote farmer 56/pause 2000/globalFade/viewport -1000 -1000/changeLocation FishShop/end warpOut",
+						"rejectWilly": "pause 2000/speak Willy \"...â̍ ā»ĕ¹... ©Ð-ĉ¹ËÁÒÂǖ§ @...$s\"/pause 1500/speak Willy \"ĉ¹¢Íâ·ÉƧ ĉ¹Ǚ¡˗Ò...$s\"/pause 1500/speak Willy \"...Á-ġ¹ äˑƱÍÐäÃËÃÍ¡$s\"/pause 2000/speak Willy \"...¾Ç¡àÃÒĈºÍÐäÃäˑʴÍÂä˴àÅÂƊ¹Ð...?$s\"/emote farmer 28/pause 1500/speak Willy \"...ĉ¹¨Ð¾ÒàÃÒ¡ĥºˇÒá̅Çā¹$s\"/pause 2000/globalFade/viewport -1000 -1000/pause 1000/changeLocation FishShop/end warpOut",
+			},
+			"When": {
+				"Date Willy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"Entries": {
+						"282815610/D Lewis/e 282815607/f Lewis 2000/t 800 1159/w sunny": "jaunty/61 88/farmer 51 82 1 Lewis 65 86 3/skippable/showFrame Lewis 16/pause 2000/move farmer 3 0 2/move farmer 0 6 1/emote Lewis 16/showFrame Lewis 12/pause 300/speak Lewis \"Oh, good morning, @.\"/move Lewis 0 2 3/move farmer 10 0 1/speak Lewis \"What brings you here so early?$h\"/speak Lewis \"$q -1 null#What brings you here so early?#$r -1 0 event_lewisMorning1#I was just passing through.#$r -1 0 event_lewisMorning2#I came to see you.#$r -1 0 event_lewisMorning3#Sorry, I can't talk right now. I'm in a hurry.\"/pause 1000/speak Lewis \"I know this is kind of an awkward topic, but... I just...#$b#I want to be honest with you, @.$s\"/faceDirection Lewis 2/pause 1500/speak Lewis \"You knew that Marnie and I separated a while ago, correct?$s\"/pause 2000/faceDirection Lewis 3/speak Lewis \"The reason it happened was... well...\"/pause 800/speak Lewis \"I thought that Marnie had fallen in love with you, @.$s\"/pause 1000/speak Lewis \"You two had seemed to be getting along well lately, and Marnie seemed distant whenever she was with me.$s\"/question fork1 \"#Oh... I'm sorry.#That's not true. We were never that close.\"/fork notThatClose/pause 1000/speak Lewis \"...It's alright. It's in the past.$s\"/pause 500/speak Lewis \"But... I thought that the two of you might end up together...#$b#And I wanted to call it off before things got even more confusing.$s\"/pause 500/speak Lewis \"So... I wanted to ask.#$b#Were you and Marnie in love?$s\"/pause 100/speak Lewis \"$q -1 null#Were you and Marnie in love?#$r -1 0 event_loveMarnie1#Yes, but nothing ever came of it.#$r -1 0 event_loveMarnie2#Yes, but we stopped seeing each other.#$r -1 0 event_loveMarnie3#Yes, and we still are.#$r -1 0 event_loveMarnie4#No. We were just good friends.\"/pause 1500/faceDirection Lewis 1/pause 2000/faceDirection Lewis 3/pause 500/speak Lewis \"Well, @... Thank you for helping me piece together the truth. I'm glad to know I wasn't entirely crazy...\"/pause 1000/speak Lewis \"...Really, @. Thank you. It means a lot that you're honest with me, even when it's a little awkward.#$b#I'm very glad to have you as a friend.$4\"/pause 500/speak Lewis \"Now... don't let me hold you up any longer. We both have work to get back to.$h\"/friendship Lewis 50/end warpOut",
+						"notThatClose": "emote Lewis 12/pause 1000/speak Lewis \"...Oh. So I was wrong to begin with...$s#$b#This is awkward...$s\"/pause 1500/speak Lewis \"Well, thank you for being honest, @.$s#$b#Don't let me hold you up any longer. Have a nice day.$s\"/friendship Lewis -50/end warpOut",
+			},
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Trailer",
+			"Entries": {
+						"282815616/D Pam/f Pam 2000/t 1400 1800": "continue/14 6/farmer -30 30 0 Penny -40 -40 0 Pam 15 7 2/skippable/playSound doorClose/warp farmer 12 9/pause 100/emote Pam 16/faceDirection Pam 3/pause 200/speak Pam \"Oh! Hey there, @!$h\"/pause 200/emote farmer 32/move farmer 0 -2 1/move farmer 2 0 1/speak Pam \"I'm just fiddlin' with the antenna... Picture's not comin' in clear.\"/faceDirection Pam 2/pause 2000/playSound clank/speak Pam \"Ah, there we go. Nice 'n' clear.$h\"/faceDirection Pam 3/speak Pam \"So, what brings ya here to see an old girl like me?$h\"/pause 500/emote farmer 32/speak Pam \"Just visiting, eh? Great! Let me get us some coffee.$h\"/move farmer 0 -1 2/move Pam -4 0 0/move farmer 0 1 3/move farmer -1 0 3/pause 2000/emote Pam 12/speak Pam \"Stupid coffee maker's not plugged in...$5\"/pause 1000/emote Pam 12/speak Pam \"@, come reach around me and plug in that cord, will ya? I can't quite reach the outlet...\"/pause 300/move farmer -1 0 3/pause 500/faceDirection farmer 0/pause 2000/faceDirection Pam 1/faceDirection farmer 3/speak Pam \"Phew! That was more trouble than it shoulda' been!$h#$b#Penny musta' unplugged it this mornin' before she left...\"/pause 1000/emote Pam 40/speak Pam \"You're... standin' a little close to me, eh, @?$7\"/question fork1 \"#Stay close#Step back\"/fork tooClose/pause 500/speak Pam \"You're not scared, eh?$7#$b#Weird kid.$4\"/pause 1000/playSound doorClose/warp Penny 12 9/emote Penny 16/speak Penny \"Oh... Hi, mom. Hi, @...$2\"/faceDirection Pam 2/faceDirection farmer 2/pause 200/speak Pam \"What'sa matter, Penny?$s\"/pause 200/speak Penny \"...$5\"/pause 100/speak Pam \"Penny! The hell's the matter with you?$5\"/pause 1000/emote Penny 12/pause 1000/speak Penny \"Mom, this is so awkward! I can't handle it anymore!$s\"/emote Pam 8/speak Pam \"The hell're you talkin' about?$5\"/pause 1000/speak Penny \"This... this whole... whatever this is... with @!$s\"/pause 200/emote farmer 28/pause 500/speak Pam \"What the...? What do you think is goin' on here?$3\"/pause 100/speak Penny \"I already know.$s#$b#Mom, don't you think it's even a LITTLE bit weird that you're seeing someone the same age as your daughter?$s\"/pause 1000/emote farmer 28/pause 1000/speak Pam \"...$s\"/pause 1000/faceDirection Pam 1/speak Pam \"@... Sorry... maybe it's best if I stop by later.$s\"/pause 100/emote farmer 40/question fork1 \"What should I say?#Penny, you should respect your mom's decision.#Penny, you've got it all wrong.\"/fork wrongPenny1/faceDirection Pam 2/pause 1000/speak Penny \"...!$s\"/pause 1000/speed Penny 4/move Penny 0 -1 3/speed Penny 4/move Penny -6 0 0/speed Penny 4/move Penny 0 -3 3/speed Penny 4/move Penny -4 0 0/pause 500/speak Pam \"...$s#$b#I should probably go talk to 'er...$s\"/pause 100/emote farmer 60/pause 500/speak Pam \"Hey... it'll be okay. It's hard for kids to see their parents...#$b#...dating.$4\"/pause 1000/speak Pam \"So... I'll see ya later.$4\"/pause 2000/end warpOut",
+						"tooClose": "move farmer -1 0 3/pause 1000/speak Pam \"You didn't have to back up all quick like that, y'know...#$b#I was just kiddin'.\"/pause 200/playSound doorClose/warp Penny 12 9/emote Penny 16/speak Penny \"Oh... Hi, mom. Hi, @.\"/faceDirection Pam 2/faceDirection farmer 2/pause 200/speak Pam \"How was work, hun?\"/speak Penny \"Fine. I've got some papers to grade, though.\"/pause 100/speak Pam \"Well, don't let us stop ya.$h\"/speak Penny \"Nice to see you, @.\"/move Penny 0 -1 3/move Penny -6 0 0/move Penny 0 -3 3/move Penny -4 0 0/pause 500/speak Pam \"Well, I'll stop by the farm later, @.#$b#Gonna cook up some dinner for me 'n' the kiddo.#$b#See ya later.\"/pause 1200/end warpOut",
+						"wrongPenny1": "pause 500/faceDirection Pam 2/speak Penny \"...$s\"/pause 1000/speak Penny \"Do you think I'm stupid...?$s\"/faceDirection Penny 1/pause 2000/faceDirection Penny 0/speak Penny \"I guess it's none of my business anyways.$s\"/speed Penny 4/move Penny 0 -1 3/move Penny -6 0 0/move Penny 0 -3 3/move Penny -4 0 0/pause 1000/speak Pam \"...$s#$b#I should probably go talk to 'er...$s\"/pause 100/emote farmer 60/pause 500/speak Pam \"I'll see ya later, eh?$s\"/pause 1000/friendship Pam -100/end warpOut",
+						"282815618/D Pam/f Pam 2500/t 1200 2000/n pennyDinner": "musicboxsong/-1000 -1000/farmer -30 -30 0 Pam 12 8 0/skippable/changeToTemporaryMap niceTrailer/viewport 13 7 true/pause 500/playSound doorClose/warp farmer 12 9/emote Pam 16/faceDirection Pam 2/pause 200/speak Pam \"...That Penny, huh?$4#$b#Look at all this...$4\"/pause 500/move Pam 1 0 0/move Pam 0 -2 1/move farmer 0 -1 1/move farmer 1 0 0/move farmer 0 -1 1/pause 500/speak Pam \"Yep, that's my girl's work. No doubt about it.#$b#Frozen pizza. She can't cook for nothin'.$h\"/pause 500/faceDirection Pam 2/speak Pam \"Not bad though, eh? I'm glad she came around after all.#$b#I really like you, @. I wanna keep ya around.$4\"/faceDirection farmer 0/pause 500/question fork1 \"#I like you, too.#This seems kind of romantic...\"/fork tooRomantic/pause 500/emote Pam 20/pause 200/speak Pam \"I'm glad you're all mine, y'know that?$4#$b#I'm yours too, of course...$4\"/pause 300/emote farmer 56/pause 500/speak Pam \"We make a good pair.$h#$b#Now whaddya say let's eat? Looks like Penny brought out the good wine.$h\"/pause 1500/globalFade/viewport -1000 -1000/changeLocation Trailer/friendship Penny 150/end warpOut",
+			},
+			"When": {
+				"Date Pam": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/WizardHouse",
+			"Entries": {
+						"282815630/D Wizard/f Wizard 2000/t 1000 2000": "WizardSong/7 17/farmer 9 24 0 Wizard 3 19 2/skippable/pause 1000/speed Wizard 4/move Wizard 0 -1 1/speed Wizard 4/move Wizard 5 0 1/pause 300/emote Wizard 40/pause 1000/speed Wizard 4/move Wizard 0 -3 1/speed Wizard 4/move Wizard 3 0 1/pause 800/emote Wizard 12/pause 1000/faceDirection Wizard 2/pause 500/emote Wizard 40/pause 1000/speed Wizard 4/move Wizard -3 0 2/speed Wizard 4/move Wizard 0 5 1/speed Wizard 4/move Wizard 1 0 2/pause 500/emote Wizard 40/pause 1000/emote Wizard 36/pause 1000/move farmer 0 -2 0/emote farmer 8/pause 500/message \"àËȑÍ¹ā¹˗Òà¢Òäˑä˴Ī§à¡µàʫ¹Ȥ³˴ÇÂ՛Ò...\"/pause 1000/move farmer -1 0 0/move farmer 0 -2 1/faceDirection Wizard 3/emote Wizard 16/pause 500/speak Wizard \"̍Í áʴà˨ÒàÍ§ËÃÍ¡ËȓÍ$10\"/pause 400/speak Wizard \"â·ÉƧ... à˨ÒÁÒà¨ÍˢÒµÍ¹ıÒĥ§ ŇÒÍÐäÃÍԒ¾ÍƤàÅÂƊ¹Ð$10\"/pause 400/emote farmer 8/pause 500/speed Wizard 4/move Wizard 0 -1 3/speed Wizard 4/move Wizard -6 0 2/faceDirection farmer 3/pause 500/emote farmer 40/pause 500/message \"à¢ÒɤÍÒÃÁ΃λ¹ˋÇ¹\"/pause 1000/emote Wizard 12/pause 1000/move farmer -2 0 0/move farmer 0 -1 3/move farmer -2 0 3/pause 500/emote Wizard 40/faceDirection Wizard 1/pause 500/speak Wizard \"à˨ÒĢ§ÍԒƽ¡àËÃÍ?$10\"/pause 1000/faceDirection Wizard 2/pause 500/message \"à¢ÒɤàËȑÍ¹¤¹Í´¹Í¹ÁÒËÅÒÂħ¹...\"/pause 500/question fork1 \"#ÍԒ˅Í#»˕ÍÂà¢Òä̇\"/fork leaveWizard/pause 1000/emote Wizard 40/pause 500/speak Wizard \"@ à˨Ò¢ÇÒ§·Ò§ˢÒÍԒ$10\"/pause 200/emote farmer 28/pause 500/move farmer 0 -3 2/speed Wizard 4/move Wizard 0 -1 1/speed Wizard 4/move Wizard 5 0 1/pause 300/emote Wizard 40/pause 1000/speed Wizard 4/move Wizard 0 -3 1/speed Wizard 4/move Wizard 3 0 1/pause 800/emote Wizard 12/pause 1000/faceDirection Wizard 2/pause 500/emote Wizard 40/pause 1000/speed Wizard 4/move Wizard -3 0 2/speed Wizard 4/move Wizard 0 5 1/speed Wizard 4/move Wizard 1 0 2/pause 500/emote Wizard 40/pause 1000/emote Wizard 36/pause 1500/speak Wizard \"$q -1 null#à¢Ò˵Í§¹Í¹àʫ¹æ... ºÍ¡à¢ÒĢ§ä§Ƥ¹Ð?#$r -1 0 event_sleep1#Ȥ³ŇÒ§Ò¹ÁÒ¹Ò¹áʴäË¹á̅Ç? Ȥ³ɤàËҩÍÂÁÒ¡àÅÂ¹Ð#$r -1 0 event_sleep2#Ȥ³ɤá˒ÁÒ¡ ÁÒщà¶ÍÐ ĉ¹¨Ð¾Òä»¹Í¹àÍ§#$r -1 0 event_sleep3#Ȥ³ŇÒÍÐäÃÍԒˉÐ? ɤˉÒÊ¹ã¨¹Ð\"/pause 1000/emote Wizard 12/pause 1500/speak Wizard \"ŇÒäÁǖ§äˑä˴¼Å¹Ð...?$11\"/pause 1000/speed Wizard 4/move Wizard 0 -1 3/speed Wizard 4/move Wizard -6 0 2/pause 1500/emote Wizard 40/pause 1000/speed Wizard 4/move Wizard 0 -1 1/speed Wizard 4/move Wizard 5 0 1/pause 300/emote Wizard 40/pause 1000/speed Wizard 4/move Wizard 0 -3 1/speed Wizard 4/move Wizard 3 0 1/pause 800/emote Wizard 12/pause 1000/faceDirection Wizard 2/pause 500/emote Wizard 40/pause 1000/question fork1 \"#Ëɂ´à¢Ò#ËƩä»\"/fork leaveWizard/pause 1000/move farmer 0 -1 1/move farmer 6 0 1/faceDirection Wizard 3/emote Wizard 8/pause 1000/emote Wizard 40/pause 1500/speak Wizard \"...ʁä˴... ˢÒ¨ÐĞ¡Ī¡ÊÍ§ÊÒÁ¹ÒƧ á̅Çā¹\"/pause 300/emote farmer 32/pause 1000/globalFade/viewport -1000 -1000/changeLocation WizardHouseBasement/viewport -1000 -1000/warp Wizard 9 15/showFrame Wizard 51/positionOffset Wizard -10 0 0/warp farmer 7 15/faceDirection farmer 1/ambientLight 0 0 0/viewport 8 15 true/pause 2000/emote Wizard 24/pause 1500/emote farmer 40/pause 1500/message \"...ã¹чɊ´ à¢Òʁ¹Í¹«ÐƧ\"/pause 2000/emote Wizard 24/pause 1500/message \"Ëĥ§ҥ¹á̅Çà¢Ò¤§äˑàʛ¹äÃ\"/pause 2000/globalFade/viewport -1000 -1000/changeLocation WizardHouse/viewport -1000 -1000/mail wizardNap/friendship Wizard 50/end warpOut",
+						"leaveWizard": "pause 1000/message \"...ºÒ§Ƨ»˕ÍÂà¢Òä̇¤¹àƤÂÇˉÒ¨ÐƤчɊ´\"/pause 500/emote Wizard 12/pause 400/speak Wizard \"ã̋ÊÒ»µÒÂƊ!$11\"/pause 300/emote farmer 40/pause 1500/end dialogue Wizard \"ˢÒÊºÒÂƤ »˕ÍÂˢÒŇÒ§Ò¹à¶ÍÐ$11\"",
+						"282815631/D Wizard/f Wizard 2250/t 1000 2000": "moonlightJellies/7 17/farmer 9 24 0 Wizard 3 19 2/skippable/pause 200/move Wizard 6 0 2/speak Wizard \"̍Ò @ à˨ÒÁÒá̅Ç#$b#àђÂÁàÅÂ! ˢÒıÒĥ§ÍÂÒ¡ȤÂāºà˨Ò¾ÍƤ$7\"/pause 300/move farmer 0 -2 0/move Wizard 0 2 2/speak Wizard \"ˢÒŤ´˗Òǖ§àÇÅÒá̅Ç чà˨Ò¨Ðä˴ړҚÍ¨ƃ§¢Í§ˢÒ à˨ÒŤ´˗Òԧ¹ՁÂ?$3\"/pause 400/move Wizard 0 -3 0 true/speak Wizard \"àʭÁ. ÃÒÊâÁàƤÂÊ ι¹àʛ¹ҚÍчˢÒ ºÍ¡ä»µÍ¹áÃ¡ áÅÐġ¹àʛ¹ҚÍ¢Í§ˢÒ Í˒Ò§á˷¨ƃ§áˉ¹Í¹$9\"/pause 400/move Wizard 1 0 1/speak Wizard \"á˅ġ¹äˑãʺҚÍàʕÁ¢Í§ˢÒ$8\"/move Wizard 0 4 3 true/speak Wizard \"ҚÍƱ¾ĥ§ à˨Ò¤§àˢÒã¨¹Ð ˢÒàÅÂÃÐħ§Í˒Ò§ÁÒ¡ ч¨Ðäˑã̋ã¤ÃʁµÒÁ ч¨Ðã˪ġ¹ż´æ ړ$5\"/faceDirection farmer 1/pause 400/speak Wizard \"ˢÒàҚÍã¨à˨ÒÁÒ¡¾Í ч¨ÐºÍ¡¹Ð$6\"/faceDirection Wizard 2/speak Wizard \"áʡ¡ęÊ ҚÍ¢Í§ˢÒǴÍáʡ¡ęÊ$4\"/faceDirection Wizard 3/speak Wizard \"¢Í̃Í§˕Ð ¨Ò¡׉ä» àÇÅÒчÍԒā¹ÊÍ§¤¹ à˨Ò¨ÐàƳÂ¡ˢÒáººԹ¹ä˴ՁÂ?$6\"/end dialogue Wizard \"ˢÒäˑà¤ÂŤ´àÅÂ˗Ò ¨ÐƱã¤ÃчˢÒä̇ã¨ ä˴ÁÒ¡¢¹Ò´׉ƽ¡$4\"",
+						},
+			"When": {
+				"Date Wizard": "true",
+			},
+		},
+				{
+			"Action": "EditData",
+			"Target": "Data/Events/Woods",
+			"Entries": {
+						"282815628/D Wizard/f Wizard 2500/t 800 1700/n teachMagic": "Crystal Bells/10 10/Wizard 7 8 2 farmer 22 13 3/pause 500/viewport 9 9 true/pause 2000/move farmer -6 0 0/move farmer 0 -2 3/move farmer -7 0 0/move farmer 0 -3 3/faceDirection Wizard 1/pause 500/speak Wizard \"̍Ò @ ˢÒƤã¨чàʫ¹à˨ÒÁÒ àÃÒÁÒàУÁā¹àÅÂՁÂ?\"/pause 500/question fork1 \"#ä˴àÅÂ! ĉ¹¾̃ÍÁá̅Ç#¢Íâ·É¹Ð á˅ĉ¹Ӣ§ÁÒ¡\"/fork noMagic/pause 500/speak Wizard \"Ƥ!$7#$b#ˢÒàµƳÂÁȷ¡Í˒Ò§ ч¾Ç¡àÃÒ˵Í§ã˪ÁÒá̅Ç\"/pause 500/emote farmer 8/pause 500/speak Wizard \"Í˒Òā§ÇÅä» ġ¹¨Ð»ÃÐʸÒ§Ċ´àÍ§$7\"/pause 1000/playMusic sweet/speed Wizard 2/move Wizard 1 0 1/pause 1000/speak Wizard \"@... щàʛ¹¤Ò¶ÒчÂÒ¡ÁÒ¡ ч¨Ð˓ÒÂä˴ŚÒàʣ¨...\"/pause 500/speak Wizard \"...á˅ˢÒàҚÍ˗Ò à˨Ò˓ÒÂġ¹ä»á̅Ç Í˒Ò§äˑړĕÇ\"/pause 500/emote farmer 8/pause 1000/speak Wizard \"¤Ð... ¤Ò¶Ò ¤ÃÍ§ã¨ˢÒ$4\"/pause 400/emote farmer 16/pause 1000/speak Wizard \"ˢÒäˑáˉã¨˗Òà˨ÒŇÒä˴Ģ§ä§ á˅ġ¹áʂ§á¡˓§¡˗Ò¤Ò¶Òã´æ чˢÒà¤Âàʫ¹$4\"/pause 500/speak Wizard \"@... ġ¹ŇÒã̋ˢÒړǪ¡āºà˨Ò Í˒Ò§чäˑä˴ړǪ¡ ÁÒ¹Ò¹ÁÒ¡á̅Ç... ËȓÍäˑà¤ÂàÅÂ˴ÇÂ՛Ò$4\"/pause 1000/speak Wizard \"ˢÒµ¡ËɅÁģ¡à˨Ò ËÁ´ã¨¨ƃ§æ$4\"/pause 1500/question fork1 \"#ĉ¹ʁړǪ¡àËȑÍ¹ā¹ ʁĉ¹àʛ¹¤¹˓ÒÂ¤Ò¶Òщ¹Ð ãʺՁÂ?#ĉ¹¢Íâ·É¹Ð...\"/fork rejectWizard/pause 1500/speak Wizard \"ãʺá̅Ç... ʁ¤§Í˒Ò§Թ¹áËÅÐ$6\"/pause 1000/emote farmer 32/pause 2000/speak Wizard \"щàʛ¹ччˢÒġ¡¨ÐÁÒŇÒÊÁÒŸ ÃÇºÃÇÁ¤ÇÒÁԵ§ã¨...\"/pause 2000/speak Wizard \"à˨ÒÍԒàʛ¹àҮÍ¹ˢÒ чщĪ¡Ğ¡ä˴ՁÂ @ ...?$4\"/pause 1000/emote farmer 56/pause 3000/globalFade/viewport -1000 -1000/end dialogue Wizard \"...ˢÒäˑŤ´˗Ò à˨Ò¨Ð˓ÒÂÁ¹µΓä˴¨ƃ§æ ËÃÍ¡ @ ¢Íâ·É˴ÇÂчËÅÍ¡à˨Ò$4\"",
+						"noMagic": "pause 1000/emote Wizard 40/pause 500/speak Wizard \"̍Ò... àˢÒã¨˕Ð ˢÒ˗ÒˢÒàˢÒã¨¹Ð ˢÒàÍ§ʁӢ§ÁÒ¡àËȑÍ¹ā¹$8#$b#ä̇âÍ¡ÒÊË˹Òá̅Çā¹$s\"/pause 1000/frienship Wizard -100/end warpOut",
+						"rejectWizard": "pause 1500/faceDirection Wizard 2/pause 1500/speak Wizard \"...àˢÒã¨˕Ð äˑĸÒàʛ¹˵Í§¢Íâ·ÉËÃÍ¡ щġ¹àʛ¹...$4\"/pause 1500/speak Wizard \"...äˑƱÍÐäÃËÃÍ¡$4\"/pause 2000/speak Wizard \"ˢÒ... Ť´˗Ò¤§à¨Íà˨Òħ¹Ëĥ§¹Ð @$s\"/pause 2000/globalFade/viewport -1000 -1000/warp Wizard -10 -10/pause 1000/viewport 9 9 true/pause 1000/end warpOut",
+			},
+			"When": {
+				"Date Wizard": "true",
+			},
+		},
+				{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Clint",
+			"Entries": {
+						"danceRejection": "äˑ˕Ð ¢ÍºȤ³",
+						"Mon8": "â̍ Ƥã¨чä˴à¨ÍȤ³¹Ð @!$h",
+						"Mon10": "ÊħÊƤ @! ġ¹... ġ¹Ƥчä˴à¨ÍȤ³¹Ð!$4",
+						"Tue10": "â̍... ƤчȤ³áÇÐÁÒ¹Ð @$h#$e#äˑËÃÍ¡ ¼Áäˑä˴Ӣ§ÍÐäÃ... Ī»´ÒΛ׉äˑʴÍÂƱÍÐäÃˉÐ",
+						"Wed8": "â̍! à˝Í... ÊħÊƤ @ ¼Áäˑä˴Ƃ¹Ȥ³àˢÒÁÒˉÐ$4#$e#Ȥ³˗ÒÍÒ¡ÒÈʺÇ§׉ àʛ¹Ģ§ä§˺Ò§...?",
+						"Wed10": "˵Í§¡ÒÃĭ¾à¡Ãµ à¤ҳÍ§ȑÍàËÃÍ?#$e#äˑãʺ...? â̍... Ȥ³áʴáÇÐÁÒė¡·ÒÂàËÃÍ?$4",
+						"Thu10": "Ëħ´Ƥ @! ¼ÁƤã¨чȤ³ÁÒщ$h#$e#ÍԒ¤¹àƤÂÇã¹׉ ġ¹àУÁàË§Òæ ˉÐ",
+						"Fri8": "à˝Í... Ɋ´Ī»´ÒΛ׉Ʊá¼¹ÍÐäÃՁÂ @?$4",
+						"Fri10": "ħ¹Ɉ¡Γá̅Ç... àʛ¹àҳÍ§Ƥ˕Ð!#$e#ħ¹Ëɂ´ˉÐƤàÊÁÍ...$h",
+						"Sat10": "ħ¹Ëɂ´Ȥ³ʁáÇÐÁÒ˴ÇÂ...$s#$e#¢Íâ·É¹Ð... ¼ÁáʴäˑàˢÒã¨ˉÐ˗ÒŇÒäÁ$4",
+						"Sun10": "àÍÒ˕Ð ¾ӣ§׉ʁàʛ¹ƽ¡Ī»´ÒΛчӢ§ƽ¡á̅Ç#$e#âª¤Ƥ¹Ð @$h",
+						"event_blacksmith1": "ȝÁ âÍà¤ àђÂÁ â·ÉƧ¹Ð ã̋àÇÅÒ¼Áá»»Ǚ§...$s",
+						"event_blacksmith2": "¨ƃ§æ àËÃÍ? àђÂÁàÅÂ ÃÍ¼ÁËƂº¡ÃÐ´ÒÉÍÍà´ÍΓ á»»Ǚ§¹Ð...",
+						"event_blacksmith3": "...̍Í$8#$b#...¨ƃ§àËÃÍ?$4",
+						"event_sadclint1": "Í-̍Í ¢ÍºȤ³¹Ð @ ι¹... ι¹Ʊ¤ÇÒÁËÁÒÂÁÒ¡àÅÂ$4",
+						"event_sadclint2": "Ȥ³ʁ˴ÇÂàËÃÍ?$s#$b#˝Ò... ºÒ§ƧàÃÒ¤§àÈ̃Òá̅ÇʁàË§Òä»˴ÇÂā¹ä˴$h",
+						"event_iron1": "ÍÐ-à˝Í ¼Áäˑä˴ÁÒчщˊÍÂˉÐ...$s",
+						"event_iron2": "à˝Í ¼Á à˝Í... ¼ÁàО§ŇÒàÊʣ¨...$s#$b#ԏÇ! ËÁ´áÃ§àÅÂ...$h",
+						"event_iron3": "ÍÐ-ÍÐ-ÍÐäÃ¹Ð? ŇÒäÁ... ŇÒäÁ¨Ðäˑ˕Ð?$s",
+						"divorced": "...Ȥ³˵Í§¡ÒÃÍÐäÃ?$s",
+			},
+			"When": {
+				"Date Clint": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogueClint",
+			"FromFile": "assets/MarriageDialogueClint.json",
+			"When": {
+				"Date Clint": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Clint",
+			"Entries": {
+				"marriage_Mon.000": "̍ÒÇ! ÊħÊƤчģ¡ ħ¹׉¼ÁŇÒ§Ò¹¹ˉÐ á˅à݋ÂÇʁ¡ĥº˺Ò¹á̅Ç",
+				"marriage_Wed.000": "ä§̘Ð ÂÍ´´Ç§ã¨ ÍÂÒ¡ĭ¾à¡Ãµ à¤ҳÍ§ȑÍàËÃÍ̘Ð?",
+				"marriage_Fri.000": "¢ÍºȤ³¹Ðчģ¡ чÁÒàђÂÁ¼ÁчŇÒ§Ò¹ ġ¹Ʊ¤ÇÒÁËÁÒÂÁÒ¡àÅÂ!",
+			},
+			"When": {
+				"Date Clint": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			"Entries": {
+						"danceRejection": "̍Ò äˑ˕Ð¤ģº ¢ÍºȤ³¹ÐчÁÒªÇ¹",
+						"Mon8": "Ƥ¤ģº @!#$e#Ƥã¨чà¨ÍȤ³чщ àÊÁÍàÅÂ¹Ð¤ģº" ,
+						"Mon10": "ħ¹Ĉ¹·ΓˉÐ ã¡̅àƔÂ§āºħ¹Ëɂ´ чɊ´á̅ÇŚÒËģº ºÒΓà·¹à´ÍΓ#$e#à¾ÃÒÐԧ¹¢ÍºȤ³ч áÇÐÁÒËÒ¹Ð¤ģº ºÒ§¤Ճ§ġ¹ʁàË§ÒˉÐ$h" ,
+						"Tue10": "Ȥ³ŇÒ§Ò¹ Ëę¡ÁÒ¡àÅÂãʺՁÂ¤ģº @?#$e#¨ƃ§áËÅÐ¤ģº ч¼ÁʁŇÒ§Ò¹Ëę¡ á˅˚Ç¹ãËʽáʴʺÇ§ »ÅÒÂĪ»´ÒΛˉÐ¤ģº$h" ,
+						"Wed8": "¼ÁËħ§˗Ò¼Á¨ÐàŻ´ ̃Ò¹ÍÒËÒÃã¹àȑÍ§à¾ƅá¡¹ ä˴Է§ħ¹ˉÐ¤ģº#$e#ºÒΓà·¹à´ÍΓʁÊȹ¡Ƥ¹Ð¤ģº á˅¡ÒÃŇÒÍÒËÒÃˉÐ ǴÍЪ§ч¼ÁËÅ§ãËÅ¨ƃ§æ ˉÐ¤ģº$5" ,
+						"Wed10": "¼ÁÊ§ĪÂĈ§ ˗ÒŇÒ§Ò¹ã¹¿ÒΓÁ àʛ¹Ģ§ä§...$5#$e#äˑáˉã¨àËȑÍ¹ā¹˗Ò ¼Á¨ÐŇÒä˴ƤáʴäË¹ ˓Ò§¡ÒÂ¼Á äˑä˴ƱáÃ§àÂÍÐˉÐ$s" ,
+						"Thu10": "àÍƁѕˉÐ ºÍ¡ã̋¼ÁƳºæ á˅§§Ò¹ä˴á̅ÇÍԒàҳÍÂ...$5#$e#ºÒ§Ƨ¼ÁÍÒ¨¨Ðá˅§ʁä˴$h" ,
+						"Fri8": "ºÒ§¤Ճ§ ¼ÁړǪ¡Ģ§āº˗Ò ã˪àÇÅÒԷ§ÍÒŷµΒ àµƳÂÁ¾̃ÍÁŚÒËģº Ǵ¹ħ¹Ɉ¡ΓàÅÂ¤ģº$5" ,
+						"Fri10": "äˑãʺ˗Ò¼ÁŤ´ˊÍÂËÃÍ¡¹Ð á˅...#$e#ã¹àұÍ¼ÁÍԒ«Òɵ¹Է§ħ¹ ġ¹ʁÂÒ¡ч¨ÐŤ´àҳÍ§ ¢Íã¤ÃĪ¡¤¹ÍÍ¡à´µˉÐ$5#$e#àÃÒ¨Ðä»äË¹ā¹ä˴ ã¹Ǵ¹ħ¹Ɉ¡Γ чäˑãʺчщā¹˕Ð?$s#$e#¶ÒÁ˗ÒŇÒäÁ¼Áǖ§ ɮ´àҳÍ§׉ע¹ÁÒˉÐàËÃÍ?#$e#...áʴŤ´à©Âæ ˉÐ$4" ,
+						"Sat10": "˶Òħ¹Ǚ§¼Áá˅§§Ò¹¨ƃ§ Ȥ³áˉã¨ä˴àÅÂ˗Ò ÊÒƱ¼Á¨ÐäˑƱħ¹ƋÇâ«áˉ¹Í¹$h^˶Òħ¹Ǚ§¼Áá˅§§Ò¹¨ƃ§ Ȥ³áˉã¨ä˴àÅÂ˗Ò ÀÃÃÂÒ¼Á¨ÐäˑƱħ¹ ƋÇâ«áˉ¹Í¹$h" ,
+						"Sun10": "ȝÁÁ...$5#$e#щ Ȥ³à¤Âµ¡ËɅÁģ¡ՁÂ¤ģº @?#$e#ġ¹ړǪ¡Ģ§ä§àËÃÍ?$4" ,
+						"event_fruit1": "ÊµÍΓàºÍΓѓàËÃÍ? ¾Ç¡ġ¹Í˓ÍÂàËÒÐàÅÂ˕Ð$h" ,		
+						"event_fruit2": "àªÍΓѓàËÃÍ? ÃÐħ§àʡ´ġ¹˴ÇÂ˕Ð$h" ,
+						"event_fruit3": "Í˒Ò§Թ¹àËÃÍ? àђÂÁä»àÅÂ ¼Áäˑáˉã¨˗Ò ¨ÐàȕÍ¡ä˴àÍ§ˉÐ¤ģº!$h" ,
+						"event_fruit4": "â̍ ι¹ʁá˒ËˉÍÂ¹Ð$s" ,
+						"divorced": "¼ÁËħ§˗ÒȤ³¨ÐäˑÁÒчщ¹Ð$a" ,						
+			},
+			"When": {
+				"Date Gus": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Gus",
+			"Entries": {
+				"marriage_Fri.000": "â̍Ç ÊħÊƤ¤ģº чģ¡ ¼ÁàµƳÂÁчщ ã̋¾̃ÍÁŚÒËģºǴ¹׉ÍԒˉÐ",
+				"marriage_Fri.001": "ıÒĥ§àУÁ¤ǣ¡¤س¹àÅÂ ŇÒäÁäˑÍԒ˅Í ƽ¡Ī¡ËˉÍÂ˕Ð чģ¡?$h",
+				"marriage_Sat.000": "ħ¹àÊÒΓ¤¹äˑʴÍÂÁÒ Í˒Ò§ˉÒ»ÃÐËÅÒ´ã¨àÅÂ ˚Ç¹ãËʽ¼ÁàÅÂ áʴŇÒ¤ÇÒÁÊÐÍÒ´ ¢Í§àұÍǴ¹ˉÐ",
+				"marriage_Sun.000": "ħ¹׉á»»àƤÂÇ чģ¡ à݋ÂÇ¼Áʁ¡ĥº˺Ò¹á̅Ç!",
+				"marriage_Mon.000": "ä§¤ģº чģ¡ ¼ÁıÒĥ§ä»؛Í¢Í§ àˢÒ«Òɵ¹ˉÐ$h",
+				"marriage_Mon.001": "чщġ¹ºƃËÒÃàÍ§äˑä˴ˉÐƊ ä̇à¨Íā¹Ǵ¹׉¹Ð",
+			},
+			"When": {
+				"Date Gus": "true",
+			},
+		},		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			"Entries": {
+						"Mon_inlaw_Pam": "Ե§á˅Ȥ³āºá¾Á¤ºā¹ ¼Áà¨Íà¸Íчщ ˹ÍÂÅ§àÂÍÐàÅÂ¤ģº#$e#»¡ŵ¼Á¤§àÈ̃Òã¨á̅Ç чàƺÂɵ¡ˤÒ¤¹ŚÒĄ­ á˅¼ÁƂ¹Ƥчàʫ¹à¸Í Ʊ¤ÇÒÁɊ¢ˉÐ¤ģº$h" ,
+			},
+			"When": {
+				"Date Pam": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogueGus",
+			"FromFile": "assets/MarriageDialogueGus.json",
+			"When": {
+				"Date Gus": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Lewis",
+			"Entries": {		
+						"danceRejection": "¼ÁŇÒäˑä˴ ¼Áàʛ¹ڌģºż´ªÍºƽà̇¹·׉",
+					    "Mon8": "â̍ @ ÊħÊƤ#$e#ħ¹׉àʛ¹ħ¹чƤŚÒËģº ¡ÒÃŻ¡Ź¡¹Ð Ȥ³äˑŤ´ԧ¹àËÃÍ?" ,
+						"Mon10": "àʛ¹Ģ§ä§˺Ò§ @?#$e#¼Áà¨ÍȤ³ˊÍÂÁÒ¡ á˅¼ÁĸÒäˑä˴á̅Ç˗Ò ¨Ð¶ÒÁÍÐäÃ$h" ,
+						"Tue10": "ÍÒ ˶ÒȤ³äˑä˴àʛ¹ªÒÇä˓˕Ð @#$e#Íѹ§$h#$e#Ȥ³ƱȸÃš¨чÍÂÒ¡ŇÒ˺Ò§äËÁ?" ,
+						"Wed8": "Ƥã¨чä˴à¨ÍȤ³¹Ð @#$e#¾Ç¡àÃÒà¨Íā¹ʴÍ¹ˢÒ§ˊÍÂ ˗ÒՁÂ?$h" ,
+						"Wed10": "ġ¹àʛ¹àҳÍ§Ě§àƍ­чàÃÒġ¡¨Ðà¨Íā¹чщ...?$s" ,
+						"Thu8": "ÍÒ... ¼Áäˑáˉã¨˗ÒȤ³ړՁÂ á˅˗ÒÁÒƩáÅÐ¼ÁˉÐ... àÃÒà¤Â¤ºā¹ÁÒʱÍ¹#$e#àÃÒáÂ¡·Ò§ā¹á̅Ç$s" ,
+						"Thu10": "ħ¹׉Ȥ³ɤƤÁÒ¡àÅÂ Mr. @$4^ħ¹׉Ȥ³ɤƤÁÒ¡àÅÂ Miss @$4" ,
+						"Fri8": "ºÒ§ħ¹¡ÒÃàʛ¹à·ÈÁ¹µƳ ړǪ¡ä˴˗ÒلÁʴÒÁÒ¡#$e#˚Ç¹ħ¹ҽ¹æ... ʁƤ ¼Á¾ÂÒÂÒÁäˑŤ´ǖ§ħ¹àË˕ÒԹ¹$s" ,
+						"Fri10": "ªÒÇàȑÍ§Է§ËÁ´¨ÐÍԒч«Òɵ¹ ã¹Ǵ¹׉#$e#¼Á¨Ð؛Íà¤ҳÍ§ҤÁã̋Ȥ³ ˶ÒȤ³áÇÐä»$4" ,
+						"Sat10": "àұÍǴ¹ġ¹äˑ¸ÃÃÁ´ÒàÅÂ ãʺՁÂ˕Ð?$h#$e#«Òɵ¹ˉÐ¤ǣ¡¤س¹µÅÍ´áËÅÐ ã¹ħ¹Ɉ¡Γ$h" ,
+						"Sun10": "Ȥ³ŇÒä˴ƤÁÒ¡ @#$e#¼ÁɰƁã¨ã¹§Ò¹чȤ³ŇÒчщ ÁÒ¡чɊ´ã¹àȑÍ§à¾ƅá¡¹$h#$e#áÅÐ... ¼Á¾Íã¨ч¨ÐàƳÂ¡Ȥ³˗Ò àҮÍ¹ģ¡¢Í§¼Á˴ÇÂ$4" ,
+						"event_lewisBreakup1": "¼Á... ¼Áړ But I shouldn't have let myself get so close to y-- that person...$6" ,
+						"event_lewisBreakup2": "...ÍÒ¨¨Ðàʥ¡˹ÍÂ$4#$b#Ģ§... äˑƱã¤ÃÊÁ¤ÇÃä˴ģºЪ§Թ¹$s" ,
+						"event_lewisBreakup3": "ȝÁ... ġ¹... ġ¹äˑŚÒĄ­ ºÒ§Ƨ¼ÁÍÒ¨¨ÐºÍ¡Ȥ³ ƧËĥ§...$s" ,
+						"event_lewisMorning1": "Oh, well it's nice to see you! Actually, it's strange you happened by...#$b#I was just thinking about how I wanted to speak to you." ,
+						"event_lewisMorning2": "Oh! Is that so?$4#$b#Well... actually, now that you're here, there's something I wanted to talk to you about." ,
+						"event_lewisMorning3": "Oh... could you spare just a moment? There's actually something I wanted to talk to you about.$s" ,
+						"event_loveMarnie1": "Oh... well, I'm sorry to hear that.$s" ,
+						"event_loveMarnie2": "Ah... so we've both experienced heartache from the same woman, eh?#$b#I'm sorry to hear that, @. Really.$s" ,
+						"event_loveMarnie3": "I-Is that so?$s#$b#Well... I'm glad to hear that.$a" ,
+						"event_loveMarnie4": "I'm not sure Marnie felt the same way...$s" ,
+						"event_relocate1": "Um, yes... We'll get it sorted out when we head down to the front desk.$s#$b#Well, let's get going, then." ,
+						"event_relocate2": "Certainly.#$b#For now we should head out! We can unpack this evening once we're back from the first round of meetings... And dinner, of course.$h" ,
+						"event_relocate3": "O-oh. I suppose you're right... No need to cause the staff extra trouble on our account.$4#$b#Well... let's head out, shall we? We don't want to be late...$7" ,
+						"event_ruin1": "I'm hungry, too. Let's get going, then. What are you in the mood for?" ,
+						"event_ruin2": "Me too...$s#$b#Well, I know some decent bars here, at least. Let's go." ,
+						"event_ruin3": "Huh...? Am I okay...?$s#$b#I... I'm just a little taken aback by Lin's behavior.$s#$b#I'll be fine, though...#$b#@... Thank you for being here with me. Let's go get a good dinner.$h" ,
+						"divorced": "Here on business, eh?$s" ,
+			},
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Lewis",
+			"Entries": {
+				"marriage_Mon.000": "ÊħÊƤ чģ¡ ĉ¹áÇÐÁÒė¡ÁÒÂƫáÍΓ... áÅÐ؛Í¢Í§Ź´æ ËˉÍÂæ$h",
+				"marriage_Mon.001": "ȸÃš¨¢Í§âÃź¹àүÍ§ɯ µÒÁà¤Â",
+				"marriage_Wed.000": "â̍ ÊħÊƤ чģ¡! ¼ÁÁÒчщàҮÍɤš¨¡ÒÃ¢Í§ÁÒƩˉÐ",
+				"marriage_Wed.001": "̃Ò¹ˤÒ¢Í§ƇÅѕáˉ¹Í¹˗ÒÍԒã¹Ê¶Ò¹ччàƗÂºÊ§º$h",
+				"marriage_Fri.000": "¼ÁªÍºÁÒɤ̋Í§ÊɁ´ ġ¹àʛ¹Ê¶Ò¹ччƤáÅÐàƗÂºÊ§º",
+				"marriage_Fri.001": "¼ÁÁÒàʁºÀÒƹȸÃš¨ ¨Ò¡¤ƅ¹·ˉÐ",
+				"marriage_Fri.002": "¼ÁƤã¨Ĉ§àÅÂчȤ³ÍԒчщ чģ¡¢Í§¼Á! ËƂºÁÒċ¡áˡÇ á̅Çä»à˵¹ā¹à¶ÍÐ$h",
+			},
+			"When": {
+				"Date Lewis": "true",
+			},
+		},		
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogueLewis",
+			"FromFile": "assets/MarriageDialogueLewis.json",
+			"When": {
+				"Date Lewis": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Linus",
+			"Entries": {				
+						"danceRejection": "¼ÁƤã¨чà¸ÍªÇ¹¹Ð @ á˅ġ¹¨ÐàÂÍÐä»ˉÐ ¢Íâ·É¹Ð¤ģº$s" ,
+						"Mon8": "@!$h#$e#ƤĈ§àÅÂчä˴à¨ÍȤ³ ÍԒċ¡á»»Ɗ¤ģº$h" ,
+						"Mon10": "ÊħÊƤ¤ģº @$h#$e#Ȥ³ˉÒ¨ÐÁÒ·Ò¹رÍϔÒ ˴ÇÂā¹˺Ò§¹Ð$7" ,
+						"Tue8": "¿ÒΓÁàʛ¹Ģ§ä§˺Ò§ @?" ,
+						"Tue10": "¡ÒÃã˪ƚƇµã¹¿ÒΓÁ щɤ¨Ðρ¹¤§Ĉ§¹Ð#$e#äˑàËȑÍ¹āº àʕ¹·¢Í§¼Á á˅...$h" ,
+						"Wed8": "à˕ÒàҳÍ§¢Í§Ȥ³ã̋¼Á ğ§ÁÒ¡¡˗Ò׉ËˉÍÂƊ @#$e#Ȥ³àʛ¹¤¹чˉÒÊ¹ã¨¨ƃ§æ$h" ,
+						"Wed10": "ċ¡ħ¹Ǚ§¼Á¤§¨Ð Ʊ¤ÇÒÁɊ¢ч ä˴ÍÒĨÂÍԒã¹¿ÒΓÁ...$6#$e#...áʴŤ´ˉÐ$4" ,
+						"Thu8": "¼ÁàҚÍã¨Ȥ³¹Ð @ Ȥ³àʛ¹àҮÍ¹чƤ$h" ,
+						"Thu10": "Ȥ³žàÈÉÁÒ¡ @ ¼Áäˑà¤Âà¨Íã¤Ãч žàÈÉàËȑÍ¹Ȥ³ ÁÒ¡ʱÍ¹àÅÂ$4" ,
+						"Fri8": "Ȥ³ä˴áÊ´§¤ÇÒÁã¨Ƥ ¢Í§Ȥ³ã̋¼Áàʫ¹á̅Ç @#$e#¼ÁäˑƱħ¹ã˪Ǵ¹ã̋Ȥ³ ä˴ËÁ´áˉ¹Í¹ á˅щǴÍЪ§á·¹ ĴÒ¢ÍºȤ³¢Í§¼Á [226 212 228 202 728]" ,
+						"Fri10": "Ǵ¹׉Ȥ³¨ÐŇÒÍÐäÃËÃÍ @?#$e#˶ÒÍÂÒ¡¨ÐÁÒàђÂÁ¼Á ʁÁÒ¹Ð$h" ,
+						"Sat8": "àұÍʱÍ¹¼Áà¤Âɮ´˗Ò ¼ÁƱ¤ÇÒÁɊ¢āºĕÇàÍ§ á˅¼ÁƤã¨чƱȤ³àʛ¹àҮÍ¹¹Ð @.$h" ,
+						"Sun8": "¼ÁÁÒÍԒчàȑÍ§à¾ƅá¡¹ ċ¡Ğ¡Ëѹ§á̅Ç˕Ð$6#$e#¤§¨Ðã¡̅ǖ§àÇÅÒ ч˵Í§¨Ò¡ä»á̅ÇáËÅÐ...$s" ,
+						"Sun10": "¼ÁıÒĥ§Ť´àбÂÇāº ¡ÒÃ̂ÒÂàʕ¹·¢Í§¼Á...$6#$e#äˑä¡Åä»¨Ò¡àŴÁ àˇÒäË˓ËÃÍ¡ äˑ˵Í§ā§ÇÅ!$h#$e#¼ÁŤ´ÁÒµÅÍ´àÅÂ˗Ò ¡ÒÃä˴ã˪ƚƇµÍԒã¡̅æ ªÒÂËÒ´¨Ð˵Í§àђÂÁÂÍ´ ÁÒ¡áˉæ " ,
+						"summer_Mon10": "¼ÁäˑŤ´¹Ð˗Ò¤¹ËәÁÊÒÇ Í˒Ò§Ȥ³¨Ðá˅§§Ò¹á̅Ç...?#$e#áʴÊ§ĪÂˉÐ$4" ,
+						"summer_Fri10": "Ȥ³à¤Âµ¡ËɅÁģ¡ËȓÍà»˕Ò @?#$e#¤ÇÒÁģ¡àʛ¹Ъ§ч ÊÇÂ§ÒÁÁÒ¡àÅÂ˕Ð ¨§Ƥã¨«Ð¹Ð ˶ÒȤ³à¤Ââª¤Ƥ ä˴¾ºà¨Íāº¤ÇÒÁģ¡ àˢÒˉÐ$h" ,
+						"summer_Sat8": "ʺÇ§׉Ȥ³ä˴µ¡»ÅÒ˺Ò§äËÁ?#$e#¡ÒÃµ¡»ÅÒàʛ¹ ƇƨˌÍ¹¤ÅÒÂчƤ¹Ð á̅Çʁàʛ¹âÍ¡ÒÊчƤã¹¡ÒÃ ã˪àÇÅÒāºã¤Ãċ¡¤¹˴ÇÂ$h" ,
+						"summer_Sun8": "Äɤãºä́˓Ç§ıÒĥ§ÁÒ...$s#$e#¼ÁړǪ¡¢ÍºȤ³ã¹ ¤ÇÒÁ¡Ƀ³Ò¢Í§¸ÃÃÁªÒŵ¹Ð á˅ÍÒ¡ÒÈË¹ÒÇàËʙº ŇÒã̋¼ÁŕÒºÒ¡" ,
+						"summer_Sun10": "Äɤ̃Í¹àʛ¹ʺÇ§àÇÅчƤ ŚÒËģº¡ÒÃÍÒºթÒã¹áˑթÒ#$e#á˅˵Í§áˉã¨¹Ð˗Ò äˑƱã¤ÃÍԒÃÍºæ ˉÐ" ,
+						"fall_Tue8": "ÄɤË¹ÒÇÍԒ˛Ò§ÍÍ¡ä» ƽ¡äˑÁÒ¡á̅Ç ŇÒã̋ĕÇàÍ§Íºӭ¹àˢÒä̇¹Ð @" ,
+						"fall_Wed8": "µÍ¹чÍÒ¡Èàʢ¹Å§ ¼ÁÍÍ¡¨Ò¡àʕ¹·˹ÍÂÅ§ áÅÐ˹ÍÂÅ§$s" ,
+						"fall_Wed10": "ÊħÊƤ @ ¼ÁËħ§˗ÒȤ³¨Ð àµƳÂÁĕÇŚÒËģº Ë˹ÒË¹ÒÇá̅Ç¹Ð#$e#ġ¹ˉÒ¨Ðàʛ¹ʺÇ§ч ŕÒºÒ¡ƧàƤÂÇ$s" ,
+						"fall_Fri10": "¾Ç¡àÃÒˉÒ¨ÐÍÍ¡ä» Ż¡Ź¡ā¹˺Ò§¹Ð àҮÍч¨Ðà©ƅÁ©ÅÍ§ ã̋āº¤ÇÒÁ¡Ƀ³Ò чâÂºÐã̋àÃÒã¹Äɤãºä́˓Ç§#$e#Í˒ÒȕÁ àË̅ÒÍӇ¹Ê´ãËˑ˕Ð$h" ,
+						"winter_Mon8": "...$s#$e#â̍ ÊħÊƤ @ " ,
+						"winter_Wed10": "âÂºÐʺÒ§àؽÍÒ·Ã á˅s...#$e#ºÒ§¤Ճ§¼ÁʁÊ§ĪÂ˗Ò ˶ÒƱã¤Ãċ¡¤¹ÍԒÍԒ˴ÇÂā¹ ã¹ǴÍĭ¹ÂÒÇ¹Ò¹¢Í§ÄɤË¹ÒÇ ¨Ðàʛ¹Ģ§ä§$s" ,
+						"winter_Fri8": "Ƥ¨ƃ§æ ¼ÁĢ§äˑáʂ§µÒÂ ã¹àʕ¹·¢Í§¼Á$h" ,
+						"winter_Sat10": "ºÒ§Ƨàʕ¹·¢Í§¼ÁʁàƗÂºàË§Ò ¨ÐáÇÐÁÒàұÍäË˓ʁä˴àÅÂ¹Ð @$h" ,
+						"event_dinner1": "¼ÁƤã¨Ĉ§àÅÂчȤ³ªÍºġ¹! ¼Áã˪áʴà¡ȕÍ»Ƀ§ġ¹àˇÒԹ¹ - à¤ʥ´ĥºʁǴÍ¡ÒÃã˪»ÅÒÊ´æ чàО§ĈºÁÒˉÐ!$h" ,
+						"event_dinner2": "ʁ¹Ð... ¼Áʁäˑãʺàª¿̋Ò´ÒÇ... á˅¼Á¾ÂÒÂÒÁ$s" ,
+						"event_embarrassing1": "¼ÁړÍԒá̅Ç˕Ð... á˅¢ÍºȤ³¹Ð @ ºÒ§¤Ճ§¼Áʁ˵Í§¡ÒÃ ¤¹¤ÍÂàȅÍ¹$h" ,
+						"event_embarrassing2": "¨ƃ§˝Ð...? ι¹Ʊ¤ÇÒÁËÁÒÂāº¼ÁÁÒ¡àÅÂ @$4" ,
+						"divorced": "äˑƱàËȵ¼ÅÍÐäÃã̋Ȥ³ÍԒчщ$a" ,
+			},
+			"When": {
+				"Date Linus": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogueLinus",
+			"FromFile": "assets/MarriageDialogueLinus.json",
+			"When": {
+				"Date Linus": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Linus",
+			"Entries": {
+				"marriage_Wed.000": "ɰà¢ÒŤ´ǖ§¼Áá̅Ç˕Ð ¾Ç¡àÃÒà¤ÂÍԒчι¹ àҮÍā¹áÅÐā¹ ÁÒ¹Ò¹ËÅÒÂƫ",
+				"marriage_Wed.001": "¡Í§ä¿àʱÒæ ¡Í§Թ¹¢Í§¼ÁĢ§ŵ´ÍԒàÅÂ",
+				"marriage_Sat.000": "ˋÒàʛ¹Ê¶Ò¹ч чƤ¹Ð µÍ¹ч¼ÁĢ§ÍԒº¹ɰà¢Ò ¼ÁäˑʴÍÂä˴ÁÒ ŚÒÃÇ¨ġ¹àˇÒäË˓",
+				"marriage_Sat.001": "Í˒Ò¡ĥÇä»àÅÂ¤ģº чģ¡¢Í§¼Á ¼Á¨ÐƳº¡ĥº˺Ò¹¹Ð¤ģº",
+			},
+			"When": {
+				"Date Linus": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Marnie",
+			"Entries": {	
+						"danceRejection": "â̍... ĉ¹¢Íâ·É¹Ð̘Ð Ȥ³ @... á˅äˑƤ¡˗Ò˨Ð ¢ÍºȤ³$s^â̍... ĉ¹¢Íâ·É¹Ð̘Ð Ȥ³ @... á˅äˑƤ¡˗Ò˨Ð ¢ÍºȤ³$s" ,
+						"Mon8": "à¸ÍɤáÅĪµΗ˅Ò§æ ¢Í§à¸ÍƤĈ§àÅÂ @#$e#àҚÍĉ¹à¶ÍÐ˨Ð... ĉ¹ړä˴ˉÐ!" ,
+						"Mon10": "à¸Í... à¸ÍĢ§âÊ´ÍԒãʺՁÂ̘Ð @?$4#$e#áʴÍÂÒ¡ړˉÐʸÐ!$4" ,
+					    "Tue8": "ħ¹׉àʛ¹ħ¹чƤà¹ÍÐ @?$h" ,
+						"Tue10": "¢Íºã¨чÁÒàђÂÁā¹¹Ð @!#$e#ġ¹ƤàÊÁÍàÅÂчä˴à¨Íà¸Í$4" ,	
+					    "Wed8": "ĪµΗ¢Í§à¸Í àʛ¹ä§ā¹˺Ò§̘Ð?" ,
+						"Wed10": "Ƥ˨Ð @! ÁÒËÒàª¹àËÃÍ̘Ð?#$e#...â̍ ÁÒËÒĉ¹àËÃÍ?$4" ,
+						"Fri8": "Ɋ¢Ī¹΅ħ¹Ɉ¡ΓʸÐ @! Ɋ´Ī»´ÒΛ׉Ʊá¼¹ÍÐäÃՁÂ?" ,
+					    "Fri10": "Ǵ¹׉ĉ¹¨ÐÍԒч«Òɵ¹¹Ð ˶ÒÍÂÒ¡ÁÒà¨Í$h" ,
+						"event_marnieBreakup1": "ĉ¹... ĉ¹ړ á˅ĉ¹äˑ¤ÇÃ»˕ÍÂã̋ĕÇàÍ§ã¡̅Ū´āºà-- ¤¹Թ¹àÅÂ...$8" ,
+						"event_marnieBreakup2": "...ÍÒ¨¨ÐŹ´ËˉÍÂˉÐ$4#$b#ǖ§Í˒Ò§Թ¹... ʁäˑƱã¤ÃÊÁ¤ÇÃâ´¹ áººԹ¹ËÃÍ¡¹Ð$s" ,
+						"event_marnieBreakup3": "à˝Í... ġ¹... ġ¹äˑŚÒĄ­ËÃÍ¡ʸÐ ÍÒ¨¨Ðä̇ºÍ¡ƧËĥ§¹Ð...$s" ,
+						"event_marnieMorning1": "â̍ ƤĈ§чà¨Íà¸Í! ¨ƃ§æ á̅Ç ġ¹á»Å¡Ĉ§чà¸ÍáÇÐÁÒ...#$b#ĉ¹àО§Ǚ¡˗Ò ÍÂÒ¡¨ÐȤÂāºà¸ÍÍԒàÅÂ" ,
+						"event_marnieMorning2": "â̍! Í˒Ò§Թ¹àÍ§àËÃÍ̘Ð?$4#$b#˝Ò... ¨ƃ§æ á̅Ç ã¹àұÍà¸ÍʁÍԒщá̅Ç ĉ¹ƱàҳÍ§ ÍÂÒ¡¨ÐȤÂ˴ÇÂˉÐʸÐ" ,
+						"event_marnieMorning3": "˝Ò... ƱàÇÅÒĪ¡à݋ÂÇՁÂ̘Ð? ¨ƃ§æ á̅Ç ĉ¹ƱàҳÍ§ºÒ§Í˒Ò§ ÍÂÒ¡¨ÐȤÂ˴ÇÂˉÐʸÐ$s" ,
+						"event_loveLewis1": "â̍... ĉ¹àƺÂã¨ чä˴Ƃ¹Í˒Ò§Թ¹¹Ð̘Ð$s" ,
+						"event_loveLewis2": "̍Ò... ԧ¹àÃÒԷ§Ӵ ʁɦ¡ªÒÂ¤¹àƤÂÇā¹ ī¡Í¡Ɗ¹ÐàщÂ?#$b#ĉ¹àƺÂã¨ чä˴Ƃ¹Í˒Ò§Թ¹¹Ð̘Ð Ȥ³ @ ¨ƃ§æ ¹Ð$s^ĉ¹àƺÂã¨ чä˴Ƃ¹Í˒Ò§Թ¹¹Ð̘Ð Ȥ³ @ ¨ƃ§æ ¹Ð$s" ,
+						"event_loveLewis3": "Í-Í˒Ò§Թ¹ËȓÍ̘Ð?$s#$b#˝Ò... Ƥã¨чä˴Ƃ¹Í˒Ò§Թ¹¹Ð$a" ,
+						"event_loveLewis4": "ĉ¹äˑáˉã¨˗Ò Ȥ³àÅƇÊړǪ¡áººàƤÂÇā¹ËȓÍà»˕Ò...$s" ,
+						"divorced": "̍ÒÇ... ƱȸÃÐÍÐäÃчщËȓÍà»˕Ò̘Ð ...?$s" ,
+			},
+			"When": {
+				"Date Marnie": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogueMarnie",
+			"FromFile": "assets/MarriageDialogueMarnie.json",
+			"When": {
+				"Date Marnie": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Marnie",
+			"Entries": {
+				"marriage_Mon.000": "ÊħÊƤ˨Ð чģ¡ ȷ¡Í˒Ò§ä»ä˴Ƥч̃Ò¹˕Ð... â˕§Í¡ä»Ƨ!",
+				"marriage_Wed.000": "@! ƤĈ§ƧÁÒàђÂÁ Í˒Ò˛Ç§àÅÂ! ĉ¹¨Ð¡ĥº˺Ò¹ė¹ ̋ÒâÁ§áˉ¹Í¹˨Ð",
+				"marriage_Fri.000": "â̍ чģ¡! Ǵ¹׉ä»«Òɵ¹ā¹¹Ð̘Ð! ĉ¹¨ÐŻ´̃Ò¹̋ÒâÁ§",
+				"marriage_Fri.001": "äÇΉʺÒ§àʛ¹ƇƨˌÍ¹¤ÅÒÂ Ëĥ§ŇÒ§Ò¹чƤĈ§àÅÂ¹Ð",
+			},
+			"When": {
+				"Date Marnie": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pam",
+			"Entries": {
+						"danceRejection": "à¸Í¨Ð¢Íã̋Ëŭ§ªÃÒÍ˒Ò§ĉ¹ à˵¹ԧ¹àËÃÍ? Ť´˗Òĉ¹àʛ¹Ģ§ä§?$a",
+						"Mon8": "ĉ¹ã̋ıÒàŹ´à¾¹ƩԵ§á˅ Ģ§àʛ¹ÊÒÇÊÇÂ... ĉ¹Ƥã¨чà¸Í¡ÅÒÂÁÒàʛ¹ ¤¹чƤ$s" ,
+						"Mon10": "à̎ Ɋ´Ë˕Í$h^à̎ Ɋ´ÊÇÂ$h" ,
+						"Tue8": "ˎÍ¢Í§à¾¹Ʃ...?$s#$e#...àҳÍ§ġ¹ÂÒÇ àÃÒȷ¡¤¹ŇÒЪ§чâʷ àұÍàÃÒĢ§àʔ¡ ãʺՁÂ?$s" ,
+						"Wed8": "â̍ @... ˵Í§¡ÒÃÍÐäÃǣà»˕Ò?#$e#äˑ...?$s" ,
+						"Wed10": "à̎ @ ÁÒàђÂÁªÁчщԧ¹àËÃÍ?$h" ,
+						"Thu8": "ĉ¹äˑړ˗ÒŇÒäÁà¸Íǖ§ÁÒ àƺÂàÇÅÒɮ´ȤÂāºáˑÁ´áʱ Í˒Ò§ĉ¹...$s" ,
+						"Fri8": "à¸Í˵Í§¡ÒÃÍÐäÃ...?" ,
+						"Fri10": "à¸Íщġ¹¨ƃ§æàÅÂ¹Ð à¸ÍʁړãʺՁÂ @?" ,
+						"Sat8": "à¾¹Ʃäˑà¤ÂÍÍ¡ä»ч«Òɵ¹...#$e#ĉ¹Ƥã¨ ڌËŭ§ч©ÅÒ´áººà¸Í ƱЪ§чƤ¡˗Ò˵Í§ŇÒ Ƥ¡˗ÒÍÍ¡ä»ˢÒ§¹Í¡ áÅÐҤÁàËȑÍ¹»ÅÒȷ¡Ǵ¹$s" ,
+						"Sat10": "à̎ Ƥã¨чà¸ÍÍԒчщ$h#$e#ÍԒƽ¡Ī¡Ğ¡¹Ð" ,
+						"Sun8": "à˝Í... ¾ӣ§׉àʛ¹ħ¹¨¹·Γ..." ,
+						"Sun10": "à̎... ÁÒàђÂÁĉ¹ã¹ħ¹¾ӣ§׉¹Ð à¾¹ƩËɂ´ÊÍ¹¾Ç¡àʔ¡æ#$e#¾Ç¡àÃÒԷ§ËÁ´ÊÒÁÒÃ¶ ÍԒ˴ÇÂā¹µÒÁŕÒĞ§ä˴$7" ,
+						"divorced": "äÊīÇÍÍ¡ä»«Ð$a" ,			
+			},
+			"When": {
+				"Date Pam": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialoguePam",
+			"FromFile": "assets/MarriageDialoguePam.json",
+			"When": {
+				"Date Pam": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Pam",
+			"Entries": {
+				"marriage_Sun.000": "ĉ¹Ť´˗Òĉ¹¨ÐÁÒė¡·ÒÂāºà¾¹Ʃ",
+				"marriage_Fri.000": "à̎ ĕÇàÍ§ ĉÂ˗Ò¨ÐáÇÐä»ė¡ µÒɅ§āÊËˉÍÂ",
+				"marriage_Tue.000": "Ƥ˨Ò Ɋ´ģ¡Ɋ´´Ç§ã¨ ĉ¹ÁÒ؛Í¢Í§Ź´ËˉÍÂˉÐ",
+				"marriage_Tue.001": "ÍÂÒ¡ä˴ÍÐäÃËȓÍà»˕Ò̘Ð ËÇÒ¹ã¨?",
+				"marriage_Tue.002": "à̎ ÃÍĉ¹ÍԒËÃÍ̘Ð ËÇÒ¹ã¨ ã¡̅àÊʣ¨á̅ÇáËÅÐ á»»Ǚ§¹Ð",
+				"marriage_Tue.003": "à݋ÂÇʸÒÂĕ§àÊʣ¨ ʁ¨Ð¡ĥº˺Ò¹á̅Ç˨Ò à¨Íā¹ч˺Ò¹¹Ð ĕÇàÍ§",
+				"marriage_Mon.000": "à̎ ĕÇàÍ§ ¨Ðä»·ÐàÅ·ÃÒÂËÃÍ̘Ð?",
+				"marriage_Wed.000": "Ƥ˨Ò Ɋ´ģ¡Ɋ´´Ç§ã¨ ħ¹ŇÒ§Ò¹ƽ¡ħ¹Ǚ§áËÅÐ... ĉ¹¨ÐƳº¡ĥº˺Ò¹ ÁÒʱÍ¹à¸Í¨ÐŤ´ǖ§¹Ð",
+			},
+			"When": {
+				"Date Pam": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": {
+						"danceRejection": "¢Íâ·É¹Ð чģ¡ ºÒ§ƫÍÒ¨¨Ðàʛ¹ƫË˹Ò$h" ,
+						"Mon4": "à̎ @!$h#$e#à¸Í˗Òч·ÐàÅ·ÃÒÂ щàʛ¹Ģ§ä§˺Ò§?" ,
+						"Mon8": "ÊħÊƤ˨Ðчģ¡ à¸ÍÁÒчщˊÍÂƤĈ§!$h" ,
+						"Tue2": "ÍÒ ħ¹׉ʺÒ§áÊ¹Ê§ºɊ¢...$h" ,
+						"Tue6": "Ī»´ÒΛ׉¢Í§Ȥ³ àʛ¹Ģ§ä§˺Ò§̘Ð чģ¡?#$e#à˕Òã̋ĉ¹ğ§ËˉÍÂƊ" ,
+						"Wed4": "¾¡ÍÐäÃ¨Ò¡¿ÒΓÁ¢Í§Ȥ³ ÁÒã̋ĉ¹˺Ò§Ɗ @! ĉ¹ړ˗Ò¿ÒΓÁ¢Í§à¸ÍˉÐ Ʊ¢Í§Ƥæ àʕÁä»ËÁ´$h" ,
+						"Wed8": "ġ¹äˑà»ȕÍ§àŧ¹ËÃÍ ÁÒ·ÐàÅ·ÃÒÂˊÍÂæ áºº׉ˉÐ?#$e#à¸Í¨Ð˵Í§ ªÍºÁÒËÒĉ¹ÁÒ¡æ àÅÂ¹ÐàщÂ ãʺ́Ò? ػÁÁÁÁ... $h" ,
+						"Thu8": "ĉ¹¾ę¹˗Òà¸ÍÍÂÒ¡¨Ð ړҚÍ¨ƃ§æ ¢Í§ĉ¹ãʺäËÁ˕Ð?$h" ,
+						"Fri6": "Ɋ¢Ī¹΅ħ¹Ɉ¡Γ˨Ò @!$h#$e#â̍... ªÒÇä˓äˑʴÍÂҥ¹à˵¹ÍÐäÃāº Ɋ´Ī»´ÒΛщ¹Ò ãʺäËÁ?$3" ,
+						"Fri10": "̽Ð @ ħ¹׉à¸ÍɤË˕ÍĈ§àÅÂ^̽Ð @ ħ¹׉à¸ÍɤˉÒģ¡Ĉ§àÅÂ" ,
+						"Sat2": "@! ƤĈ§àÅÂчä˴à¨ÍȤ³! ƚƇµã¹ɋºà¢Òàʛ¹Ģ§ä§˺Ò§?" ,
+						"Sat6": "â̍ ÊħÊƤ˨Ð чģ¡!$h#$e#Ɋ´Ī»´ÒΛÁÒ˪ÒàÊÁÍàÅÂ... ä˴à¨Í¤¹ړĈ¡щƤĈ§˹Ò!" ,
+						"Sat8": "ħ¹׉ħ¹àÊÒΓ... Ȥ³¡ĥºä»Ƥ¡˗Ò¹Ð! ĉ¹ρ¹ã¨˗ÒǴ¹׉ ËәÁË˕ÍÍ˒Ò§à¸Í ˵Í§Ʊà´µáˉæ !^ħ¹׉ħ¹àÊÒΓ... à¸Í¡ĥºä»Ƥ¡˗Ò¹Ð! ĉ¹ρ¹ã¨˗ÒǴ¹׉ ÊÒÇÊÇÂÍ˒Ò§à¸Í ˵Í§Ʊà´µáˉæ !" ,
+						"Sat10": "µÍºËˉÍÂƊ чģ¡ à¤¹Ť´¨Ð̂ÒÂÁÒÍԒч ·ÐàÅ·ÃÒÂ˺Ò§äËÁ? ġ¹àʛ¹Ê¶Ò¹ч чƤ¹Ð$h" ,
+						"Sun4": "ʺÇ§׉Ȥ³ä˴à¨ÍàÍƁѕ˺Ò§äËÁ?#$e#¾Ç¡àÃÒړĈ¡ā¹ÁÒ¹Ò¹á̅Ç˕Ð$h#$e#¨ƃ§æ á̅ÇȪ´¢Í§ĉ¹ʁä˴à¸Í ÍÍ¡áººã̋щáËÅÐ!" ,
+						"Sun10": "Ȥ³ŇÒ§Ò¹Ëę¡ÁÒ¡àÅÂ ãʺËȓÍà»˕Ò˕Ð?#$e#ĉ¹ړ¹Ð$7" ,
+						"divorced": "...ĉ¹ʺÇÂÍÐäÃȤ³ä˴˺Ò§¤Ð?$s" ,
+			},
+			"When": {
+				"Date Sandy": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogueSandy",
+			"FromFile": "assets/MarriageDialogueSandy.json",
+			"When": {
+				"Date Sandy": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Strings/schedules/Sandy",
+			"FromFile": "assets/Sandy.json",
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Willy",
+			"Entries": {
+						"danceRejection": "äˑ˕Ð ā»ĕ¹ ¡ÒÂ׉ä̇µ¡»ÅÒ äˑãʺä̇à˵¹ˉÐ",
+						"Mon8": "ĉ¹àО§»Ƀ§»ÅÒàұÍÇÒ¹àÊʣ¨#$e#щ áˊ§ä»Ɗ! ºÍ¡˴ÇÂ˕Ð˗ÒŤ´˗Òä§ [198 209 214 219]" ,
+						"Mon10": "ä̇ÍÍ¡ä»µ¡»ÅÒā¹ @#$e#á̅Ç¨ÐºÍ¡à¤ʥ´ĥºã̋ğ§$h" ,
+						"Tue10": "à˨Ò¡ÃÐˇÍÁªÃÒ¢Í§ĉ¹ ºÒ§ƧʁàË§Ò#$e#Ƥчà¸ÍÁÒàђÂÁ¹Ð ā»ĕ¹$4" ,
+						"Wed8": "ĉ¹ä˴Ƃ¹˗ÒƱ»ÅÒ¡ÅÒÂĞ¹ۨ чĈºä˴ã¹ˇÍÃÐºÒÂթÒ˴ÇÂ#$e#á˒áËÐчˇÍġ¹Ż´ä»á̅Ç$h" ,
+						"Wed10": "ǖ§à¸Í¨Ðà¡ƵÂ´¡ÒÃµ¡»ÅÒ á˅ĉ¹ʁĢ§ÍÂÒ¡Ʊà¸Í àʛ¹àҮÍ¹¹Ð ā»ĕ¹$h" ,
+						"Thu10": "ä˴¡Х¹¾ÒɂԵ§àˤÒáËÐ...#$e#˶Òà¸Í˵Í§ŵ´½¹ħ¹äË¹ ʁÁÒËÅºã¹¡ÃÐˇÍÁĉ¹ä˴¹Ð$h" ,
+						"Fri8": "ºÒ§Ƨĉ¹ʁáÇÐ«Òɵ¹ µÍ¹Ǵ¹ħ¹Ɉ¡Γ#$e#ĉ¹äˑʴÍÂҤÁËÃÍ¡ á˅̃Ò¹ġ¹àƗÂºàš¹ ʺÇ§ħ¹ŇÒ§Ò¹ˉÐ" ,
+						"Fri10": "à¸Íɤáʂ§áÃ§¹Ð... ˵Í§àʛ¹à¾ÃÒÐ §Ò¹ŇÒ¿ÒΓÁáˉæ$4#$e#¾ę¹àÅÂ˗Òà¸ÍàËїÂ§àʚ´ ä˴ä¡Åàʛ¹äÁΕáˉæ$4" ,
+						"Sat10": "à¸Í˗Ò ¡ÐÅÒƺáʱæáººĉ¹ Ģ§ƱËħ§ч¨Ðà¨Íģ¡ՁÂ?$4" ,
+						"Sun7": "ħ¹½¹µ¡ˉÐƤчɊ´ ŚÒËģº·ƃ»µ¡»ÅÒ#$b#ä̇ä»ā¹Ī¡ħ¹ՁÂ ā»ĕ¹?$h" ,
+						"divorced": "...$s" ,
+			},
+			"When": {
+				"Date Willy": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogueWilly",
+			"FromFile": "assets/MarriageDialogueWilly.json",
+			"When": {
+				"Date Willy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Willy",
+			"Entries": {
+				"marriage_Tue.000": "ÍÐÎÍÂ »ÅÒ¡Ð¾§˹ÍÂ¢Í§ĉ¹ ÍÂÒ¡ä˴ÍÐäÃՁÂ?$h",
+				"marriage_Thu.000": "ħ¹׉ĉ¹¡ĥºàʣÇ¹Ð »ÅÒ˹ÍÂ Í˒ÒŤ´ǖ§ĉ¹àš¹ä»˕Ð",
+				"marriage_Fri.000": "àÊʣ¨щá̅Çĉ¹¨Ðä»«Òɵ¹ˉÐ ā»ĕ¹ à¸Í¤ÇÃÁÒ˴ÇÂā¹¹Ð",
+				"marriage_Fri.001": "̍Ò ˌÍ¹¤ÅÒÂƤÍÐäÃÍ˒Ò§׉ Ƥã¨чà¸ÍÁÒ¹Ð ā»ĕ¹$h",
+			},
+			"When": {
+				"Date Willy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+						"danceRejection": "à˵¹œÒ? āºà˨ÒàËÃÍ...?$u#$e#ˢÒ¤§˵Í§»ůàÊ¸ ˢÒá·ºà˵¹äˑàʛ¹àÅÂ˴ÇÂ՛Ò$8" ,
+						"Mon2": "µÍ¹׉ à˨ÒàУÁ¨ÐړĈ¡ªÒÇàȑÍ§ Ƥע¹á̅ÇƊ¹Ð#$e#µÅ¡Ƥ чà˨Òɤ¨ÐŤ´˗ÒˢÒ ʁàʛ¹Ëѹ§ã¹Թ¹˴ÇÂ$s" ,
+						"Mon6": "à˨ÒäˑƱÍ˒Ò§ҽ¹ŇÒ чƤ¡˗ÒÁÒĂ´¢ÇÒ§¡ÒÃˤ¹¤̇Ò ¢Í§ˢÒá̅ÇËȓÍ?" ,
+						"Mon10": "̍Ò ħ¹á˛§Ī»´ÒΛãËˑ ÁÒËħ§˗Òġ¹¨Ðàʛ¹Ȩ´àУÁ˵¹ á˛§¤ÇÒÁŚÒàʣ¨ā¹à¶ÍÐ$7" ,
+						"Tue8": "˶Ò¨Ð˗ÒµÒÁ¨ƃ§¹Ð ˢÒäˑģ§àƑÂ¨ч¨ÐÍԒчщËÃÍ¡#$e#ġ¹àʛ¹ччàƗÂºÊ§º á̅ÇĢ§Ʊ¾ĥ§§Ò¹àÇ·Á¹µΓ ã̋àʁºàбÂÇä˴̅¹àËȕÍƽ¡" ,
+						"Tue10": "̍Ò @ ˢÒƤã¨чà˨ÒÁÒ#$e#ˢÒ¾ºЪ§׉ã¹ˋÒàұÍÇÒ¹ Ť´˗Òà˨ÒÍÒ¨¨Ðã˪ġ¹ä˴ [404 709 280]" ,
+						"Wed2": "ÊħÊƤ @ ˹ÍÂ" ,
+						"Wed6": "à˨Òà¤ÂŤ´ ¨ÐàƳÂ¹àÇ·Á¹µΓ˺Ò§ՁÂ @?#$e#ˢÒáʴÊ§ĪÂˉÐ Ģ§ä§ˢÒʁäˑáˉã¨˗Ò à˨Ò¨ÐàƳÂ¹ä˴ÍԒá̅Ç" ,
+						"Wed10": "Ëħ´Ƥ чģ¡$7#$e#à˝Í @ â·ÉƧ...$4" ,
+						"Thu4": "̍ÒÇ @ ƱʲÒÇˉÒÊ¹ã¨ ÍÐäÃÁÒ˺Ò§ËȓÍà»˕Ò?" ,
+						"Thu8": "ˢÒäˑŤ´˗Òà˨ÒƱàËȵ¼Å чÁÒчщˊÍÂàËȕÍàš¹ ËÃÍ¡ãʺՁÂ...$s" ,
+						"Fri2": "ˢÒ¢Íã̋à˨Ò ʺÇÂ»˕ÍÂˢÒä̇à¶ÍÐ ˢÒƱ§Ò¹˵Í§ŇÒÁÒ¡ÁÒÂ äˑä˴ģ§àƑÂ¨ËÃÍ¡¹Ð" ,
+						"Fri4": "ÍÒ¡ÒÈħ¹׉ ¡Х¹àËȑÍ¹àÇ·Á¹µΓàÅÂ Ƥ¨ƃ§æ$9" ,
+						"Fri10": "à˨ÒʺÒ§àʛ¹¤¹ֲÊ§ĪÂ¨ƃ§æ @#$e#ˢÒäˑà¨Íã¤ÃàËȑÍ¹à˨Ò ÁÒËÅÒÂƫá̅Ç" ,
+						"Sat4": "à˨Òä˴·Ò§Å§ä» ̋Í§ã˵Ŵ¹¢Í§ˢÒá̅Çщ  à˨ÒĢ§˵Í§¡ÒÃÍÐäÃ ¨Ò¡ˢÒƽ¡?$s" ,
+						"Sat8": "ɋºà¢Òщàʛ¹ч чàђÂÁÂÍ´¨ƃ§æ ŚÒËģº¡ÒÃǨ¡ÉÒàÇ·Á¹µΓ$9" ,
+						"Sat10": "à݋ÂÇ׉à˨ÒÁÒàђÂÁˢÒˊÍÂ¹Ð ... à¾ÃÒÐÍÐäÃàËÃÍ?$3" ,
+						"Sun4": "ˢÒäˑ˵Í§ƱàҮÍ¹ÁȹÉΒËÃÍ¡ ÇÒ§ã¨ä˴#$e#á˅ʁ¢Íºã¨¹Ðчàʛ¹˛Ç§" ,
+						"Sun8": "ˢÒËħ§¨Ò¡ã¨¨ƃ§˗Ò à˨Ò¨Ðà¨Íã¹Ъ§чµÒÁËÒ¹Ð @" ,
+						"Sun10": "ˢÒ... Ƥã¨чä˴à˨Òàʛ¹ÊËÒÂ¹Ð @ à˨ÒäˑàËȑÍ¹ ªÒÇàȑÍ§¤¹ҽ¹æ$4" ,
+						"event_sleep1": "...ˢÒäˑáˉã¨ ˉÒ¨Ð»ÃÐÁÒ³ 3 ħ¹? µÍ¹׉ʁàˢÒħ¹ч 4 á̅Ç¡ÃÐġ§?$11#$b#äˑŚÒĄ­ËÃÍ¡ ˢÒ˵Í§¡ÒÃ¹Í¹ ˹ÍÂ¡˗Òà˨ÒàÂÍÐ$10" ,
+						"event_sleep2": "ÍÐäÃŇÒã̋à˨ÒŤ´˗Ò ˢÒɤáÅĕÇàÍ§äˑä˴ā¹?$11#$b#ˢÒ˵Í§¡ÒÃ¹Í¹ ˹ÍÂ¡˗Ò¤¹Í˒Ò§à˨ÒàÂÍÐ$10" ,
+						"event_sleep3": "ˢÒäˑáˉã¨˗Ò à˨Ò¨ÐÊÒÁÒÃ¶àˢÒã¨ ǖ§ˢÒ¨Ð¾ÂÒÂÒÁÍŸºÒÂ ¤ÇÒÁċº˫Í¹¢Í§žƨ¡ÃÃÁ чˢÒ˵Í§ŇÒщËÃÍ¡$11" ,
+						"divorced": "чщäˑƱȸÃÐÍÐäÃ¢Í§à˨Ò »˕ÍÂˢÒä̇à¶ÍÐ$a" ,
+			},
+			"When": {
+				"Date Wizard": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogueWizard",
+			"FromFile": "assets/MarriageDialogueWizard.json",
+			"When": {
+				"Date Wizard": "true",
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Strings/schedules/Wizard",
+			"FromFile": "assets/Wizard.json",
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"FishShop.1": "ˢÒ§º¹àʛ¹Í¾ÒΓµà́¹·¢Í§ƇÅѕ ĉ¹äˑ˵Í§ע¹ä»µÍ¹׉",
+			},
+			"When": {
+				"Date Willy": "true",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+				"Utility.cs.5371": "@... %spouse... #$b# ã¹°Ò¹Ðà·ÈÁ¹µƳ á˛§àȑÍ§à¾ƅá¡¹ áÅÐڌȆÍµÃÒ¼Ǚ¡¡ÒÃÊÁÃÊ á˛§ɰƁÀÒ¤ ¢Í»ÃÐ¡ÒÈã̋Է§ÊÍ§ àʛ¹ÊÒƱÀÃÃÂÒā¹!$h",
+				"Utility.cs.5377": "@... %spouse... #$b# ã¹°Ò¹Ðà·ÈÁ¹µƳ á˛§àȑÍ§à¾ƅá¡¹ áÅÐڌȆÍµÃÒ¼Ǚ¡¡ÒÃÊÁÃÊ á˛§ɰƁÀÒ¤ ¢Í»ÃÐ¡ÒÈã̋Է§ÊÍ§ àʛ¹ÀÃÃÂÒáÅÐ... ʁ¹Ð ÀÃÃÂÒā¹!$h",
+				},
+			"When": {
+				"Spouse": "Marnie, Pam, Sandy"
+				},
+			},
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"Spouseroom.1": "àµÒËÅÍÁŇÒã̋̋Í§׉̃Í¹ע¹Ź´ËˉÍÂ...",
+				"Spouseroom.2": "ġ¹ĭ´áˉ¹ä»˴ÇÂŅÒÃÒŇÒÍÒËÒÃ",
+				"Spouseroom.3": "µÃ§˚Ç¹׉ɤàËȑÍ¹¨Ðàʛ¹ÇÃÃ³¡ÃÃÁ¤ÅÒÊƊ¡",
+				"Spouseroom.4": "щàÅƇÊĢ§ã˪à¤ҳÍ§žÁΎƤ´ÍԒ¨ƃ§æ ËÃÍ...?",
+				"Spouseroom.5": "̋Í§׉ġ¹â˕§¨ƃ§æ ...",
+				"Spouseroom.6": "Ëę§ȚÍàбÂÇāºĪµΗÁÒ¡ÁÒÂ",
+				"Spouseroom.7": "µÃ§׉àʛ¹ºƃàÇ³чá¾ÁàʁºàغÍ˼Ò¢Í§à¸Í",
+				"Spouseroom.8": "µÍ¹׉Ż´ä»á̅Ç á˅ɤàËȑÍ¹˗ÒʱÍ¹Ë˹Ò׉á¾ÁàˢÒä»ɤà¾¨¢ÒÂ¢Í§ÍÍ¹äÅΉ",
+				"Spouseroom.9": "µÃ§׉àʛ¹ºƃàÇ³чá«¹ׄàʁºàغÍ˼Ò (ĸÒ¹Ç¹ÁÒ¡) ¢Í§à¸Í",
+				"Spouseroom.10": "ŇÒäÁã¹׉ǖ§äˑƱ»ÅÒàÅÂċ¡ĕÇ...?",
+				"Spouseroom.11": "âÁà´ÅàȓÍĸÒÅÍ§чɤċº˫Í¹áÅÐá¾§",
+				"Spouseroom.12": "˚Ç¹ãËʽ¢Í§à˨Ò¾Ç¡׉ɦ¡àƒÂ¹˴ÇÂÀÒÉÒчȤ³äˑړĈ¡...",
+				"Spouseroom.13": "ġ¹ǴÍËę§ȚÍĴÒÊÒ»á˅˗Òġ¹ɤ¤̅ÒÂæ ŅÒÃÒÍÒËÒÃĢ§ä§ʁäˑړ...",
+				"Spouseroom.14": "...ι¹ġ¹ǴÍŹÂÒÂâÃáÁ¹ŵ¡ԧ¹ËÃÍ?!",
+				"Spouseroom.15": "à˨Ò¾Ç¡׉ġ¹Ʊä̇ŇÒÍÐäÃàщÂ...? ĉ¹¡ĥÇàš¹¡˗Ò¨Ð¶ÒÁ...",
+			},
+		}
+	]
+}
