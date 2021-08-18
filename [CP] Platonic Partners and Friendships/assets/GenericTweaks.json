@@ -112,7 +112,7 @@
                 "Bad_5": "You used to be so caring... what happened?$s#$e#It feels like I'm not a priority to you anymore.$s",
                 "Bad_7": "You used to make time for me... now it feels like you don't even want to be around me.$s",
                 "Bad_9": "I wonder if I'd be better off somewhere else.$s",
-                "summer_1": "Make sure you don't get a heat stroke, @.#$e#Drink plenty of water and don't overwork yourself.",
+                "summer_1": "Make sure you don't get heatstroke, @.#$e#Drink plenty of water and don't overwork yourself.",
                 "summer_8": "Ugh, I was sweating all night in the heat.",
                 "winter_28": "Thanks for a great year, @. I'm excited to tackle next year together.$h",
                 "NoBed_3": "Where am I supposed to sleep?$s"
@@ -124,6 +124,18 @@
         },
         {
             "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Spouse}}",
+            "Entries":
+            {
+		"NPC.cs.3985": "I heard you gave one of your friends a gift today.#$b#That was really nice of you!$h",
+            },
+            "When":
+            {
+                "PlatonicNPCs |contains={{Spouse}}": "false",
+            }
+        },
+        {
+            "Action": "EditData",
             "Target": "Characters/Dialogue/MarriageDialogue",
             "Entries":
             {
@@ -131,6 +143,7 @@
             },
             "When":
             {
+                "Spouse": "{{PlatonicNPCs}}",
                 "HasMod |contains=gizzymo.canonfriendlyexpansion": "false"
             }
         },
@@ -139,24 +152,51 @@
             "Target": "Strings/StringsFromCSFiles",
             "Entries":
             {
-                "NPC.cs.3955": "You can't deepen your relationship with {0}",
+                "NPC.cs.3955": "You can't deepen your relationship with {0} this way.",
                 "NPC.cs.3969": "{0} doesn't want to make a lifelong commitment with you right now.",
                 "NPC.cs.3972": "Oh!! ... #$b#@... I'm sorry, but no. I can't make the kind of commitment you want right now.$s",
                 "Wilted_Bouquet_Effect": "You've distanced yourself from {0}.",
-                "SocialPage.cs.11636": "({{SocialMenuLabel}})",
-                "SocialPage.cs.11637": "({{SocialMenuLabel}})",
                 "SocialPage.cs.11639": "(loved one)",
                 "SocialPage.cs.11640": "(loved one)",
-                "SocialPage.cs.11642": "(ex-{{SocialMenuLabel}})",
-                "SocialPage.cs.11643": "(ex-{{SocialMenuLabel}})",
-                "Event.cs.1831": "And now... It's dark, and I see you talking with a young man. He looks happy to be with you.",
-                "Event.cs.1832": "And now... It's dark, and I see you talking with a young man. He looks eager to spend time with you.",
-                "Event.cs.1833": "And now... It's dark, and I see you talking with a young lady. She looks happy to be with you.",
-                "Event.cs.1834": "And now... It's dark, and I see you talking with a young lady. She looks eager to spend time with you.",
+                "Event.cs.1831": "And now... It's dark, and I see you talking with a certain young person. They look happy to be with you.",
+                "Event.cs.1832": "And now... It's dark, and I see you talking with a certain young person. They look eager to spend time with you.",
+                "Event.cs.1833": "And now... It's dark, and I see you talking with a certain young person. They look happy to be with you.",
+                "Event.cs.1834": "And now... It's dark, and I see you talking with a certain young person. They look eager to spend time with you.",
                 "Event.cs.1845": "Now I see you, middle-aged, relaxing at home by yourself. You seem content.",
                 "Event.cs.1825": "Hmm... I see you sitting alone in a plush chair by the fire, surrounded by luxury.",
                 "Event.cs.1826": "Ah... It seems more than a few people are better off for having known you. You must have a lot of love in your heart...",
                 "TriedToMarryButKrobus": "You can't ask someone to move in with you while living with a housemate."
+            },
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries":
+            {
+                "SocialPage.cs.11636": "({{SocialMenuLabel}})",
+                "SocialPage.cs.11637": "({{SocialMenuLabel}})",
+                "SocialPage.cs.11642": "(ex-{{SocialMenuLabel}})",
+                "SocialPage.cs.11643": "(ex-{{SocialMenuLabel}})",
+            },
+            "When":
+            {
+                "Spouse": "{{PlatonicNPCs}}",
+            },
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries":
+            {
+                "SocialPage.cs.11636": "({{SocialMenuLabel}})",
+                "SocialPage.cs.11637": "({{SocialMenuLabel}})",
+                "SocialPage.cs.11642": "(ex-{{SocialMenuLabel}})",
+                "SocialPage.cs.11643": "(ex-{{SocialMenuLabel}})",
+            },
+            "When":
+            {
+                "PlatonicNPCs |contains={{Spouse}}": "false",
+                "HasMod |contains=aedenthorn.MultipleSpouses": "true",
             },
         },
         {
@@ -236,7 +276,7 @@
                 "Spouse": "{{PlatonicNPCs}}"
             }
         },
-        {
+        {//Blocks the vanilla Haleyhouse jealousy event; slight rewrite of rabbit's foot version unless this would overwrite SVE or FF rabbit's foot events
             "Action": "EditData",
             "Target": "Data/Events/HaleyHouse",
             "Entries":
@@ -248,9 +288,37 @@
             {
                 "PlatonicNPCs": "Abigail, Emily, Haley, Leah, Maru, Penny",
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false",
+                "HasMod |contains=SystemWorks.Flex": "false",
             }
         },
-        {
+        {//Blocks the Flexible Frameworks Haleyhouse jealousy event if platonic with any of the NPCs involved
+            "Action": "EditData",
+            "Target": "Data/Events/HaleyHouse",
+            "Entries":
+            {
+		"195012/f Haley 2500/f Emily 2500/f Penny 2500/f Harvey 2500/f Alex 2500/f Maru 2500/o Abigail/o Penny/o Leah/o Emily/o Maru/o Haley/o Shane/o Harvey/o Sebastian/o Sam/o Elliott/o Alex/e 38/e 2123343/e 10/e 901756/e 54/e 15/k 195019": null,
+            },
+            "When":
+            {
+                "PlatonicNPCs": "Haley, Emily, Penny, Harvey, Alex, Maru",
+                "HasMod |contains=SystemWorks.Flex": "true",
+            }
+        },
+        {//Blocks the Flexible Frameworks SVE-compatible Haleyhouse jealousy event if platonic with any of the vanilla NPCs involved
+            "Action": "EditData",
+            "Target": "Data/Events/HaleyHouse",
+            "Entries":
+            {
+		"195012/f Haley 2500/f Emily 2500/f Penny 2500/f Harvey 2500/f Alex 2500/f Sophia 2500/f Claire 2500/f Maru 2500/o Claire/o Olivia/o Victor/o Sophia/o Abigail/o Penny/o Leah/o Emily/o Maru/o Haley/o Shane/o Harvey/o Sebastian/o Sam/o Elliott/o Alex/e 38/e 2123343/e 10/e 901756/e 54/e 15/k 195019": null,
+            },
+            "When":
+            {
+                "PlatonicNPCs": "Haley, Emily, Penny, Harvey, Alex, Maru",
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
+                "HasMod |contains=SystemWorks.Flex": "true",
+            }
+        },
+        {//Blocks the vanilla Saloon jealousy event; slight rewrite of rabbit's foot version unless this would overwrite SVE or FF rabbit's foot events
             "Action": "EditData",
             "Target": "Data/Events/Saloon",
             "Entries":
@@ -262,6 +330,34 @@
             {
                 "PlatonicNPCs": "Alex, Elliott, Harvey, Sam, Sebastian, Shane",
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false",
+                "HasMod |contains=SystemWorks.Flex": "false",
+            }
+        },
+        { //Blocks the Flexible Frameworks saloon jealousy event if platonic with any of the NPCs involved
+            "Action": "EditData",
+            "Target": "Data/Events/Saloon",
+            "Entries":
+            {
+		"195013/f Shane 2500/f Sebastian 2500/f Sam 2500/f Abigail 2500/f Leah 2500/f Elliott 2500/o Abigail/o Penny/o Leah/o Emily/o Maru/o Haley/o Shane/o Harvey/o Sebastian/o Sam/o Elliott/o Alex/e 911526/e 528052/e 9581348/e 43/e 384882/e 233104/k 195099": null,
+            },
+            "When":
+            {
+                "PlatonicNPCs": "Shane, Sebastian, Sam, Abigail, Leah, Elliott",
+                "HasMod |contains=SystemWorks.Flex": "true",
+            }
+        },
+        { //Blocks the Flexible Frameworks SVE-compatible saloon jealousy event if platonic with any of the vanilla NPCs involved
+            "Action": "EditData",
+            "Target": "Data/Events/Saloon",
+            "Entries":
+            {
+		"195013/f Shane 2500/f Sebastian 2500/f Sam 2500/f Abigail 2500/f Leah 2500/f Elliott 2500/f Victor 2500/f Olivia 2500/o Claire/o Olivia/o Victor/o Sophia/o Abigail/o Penny/o Leah/o Emily/o Maru/o Haley/o Shane/o Harvey/o Sebastian/o Sam/o Elliott/o Alex/e 911526/e 528052/e 9581348/e 43/e 384882/e 233104/k 195099": null,
+            },
+            "When":
+            {
+                "PlatonicNPCs": "Shane, Sebastian, Sam, Abigail, Leah, Elliott",
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
+                "HasMod |contains=SystemWorks.Flex": "true",
             }
         },
         {
@@ -307,8 +403,19 @@
             "Entries":
             {
                 "AlreadyDatingBouquet": "You already gave a bouquet to {0}.",
+            },
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/UI",
+            "Entries":
+            {
                 "Calendar_Wedding": "{0} and {1}'s Commitment Ceremony",
             },
+            "When":
+            {
+                "Spouse": "{{PlatonicNPCs}}"
+            }
         },
         {
             "Action": "EditImage",
@@ -353,7 +460,7 @@
             "Target": "Characters/Dialogue/Vincent",
             "Entries":
             {
-                "summer_Tue": "Hey Mister @.^Hey Miss @.#$e#Is there anyone in town who you like?#$e#Yeah, like... LIKE like.$h#$e#Nobody? Okay, I believe you. Miss Penny says some grownups don't ever feel that way about anyone.",
+                "summer_Tue": "Hey Farmer @.#$e#Is there anyone in town who you like?#$e#Yeah, like... LIKE like.$h#$e#Nobody? Okay, I believe you. Miss Penny says some grownups don't ever feel that way about anyone.",
             },
             "When":
             {
@@ -369,7 +476,8 @@
                 "PlatonicNPCs": "Sam",
                 "PlatonicNPCs": "Sebastian",
                 "PlatonicNPCs": "Shane",
-                "HasMod |contains=gizzymo.canonfriendlyexpansion": "true"
+                "HasMod |contains=gizzymo.canonfriendlyexpansion": "true",
+                "HasMod |contains=Amaranthacyan.PlatonicRidgeside": "false",
             },
         },
         {
@@ -381,6 +489,7 @@
             },
             "When":
             {
+                "Spouse": "{{PlatonicNPCs}}",
                 "HasMod |contains=gizzymo.canonfriendlyexpansion": "true"
             },
         },

@@ -7,7 +7,7 @@
             {
                 "breakUp": "*gulp* Oh... I guess I should've seen this coming. I'm as worthless as a friend as I am at everything else...$s#$b#I'll... uh... guess I'll see you at the Saloon.",
                 "event_stadium1": "Oh yeah? I guess that makes sense.$6#$b#Me? I get bored with Pelican Town sometimes.#$b#But... I like that you're different. We balance each other out.$6",
-                "NPC.cs.3985": "I heard you gave {0} a gift today.#$e#You're a really thoughtful person, you know that?",
+                "NPC.cs.3985": "I heard you gave someone a gift today.#$e#You're a really thoughtful person, you know that?",
                 "NPC.cs.4425": "Life sure is different since we've been {{RelationshipLabel}}...$s",
                 "NPC.cs.4507": "@",
                 "NPC.cs.4508": "@",

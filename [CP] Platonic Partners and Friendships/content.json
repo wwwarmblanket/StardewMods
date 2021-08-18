@@ -1,5 +1,5 @@
 {
-    "Format": "1.20.0",
+    "Format": "1.23.0",
     "ConfigSchema":
     {
         "PlatonicNPCs":
@@ -18,7 +18,7 @@
         "SocialMenuLabel":
         {
             "Default": "partner",
-            "Description": "How you would like the person/people you're married or platonically partnered to to be labeled in the social menu, e.g. 'partner,' 'wife,' 'spouse,' 'best bud'."
+            "Description": "How you would like the person you're platonically partnered to to be labeled in the social menu, e.g. 'partner,' 'wife,' 'spouse,' 'best bud'. Affects all housemates if using Multiple Spouses."
         },
         "TermofEndearment":
         {
