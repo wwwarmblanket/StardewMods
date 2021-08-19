@@ -70,7 +70,7 @@
             "Entries":
             {
                 "NPC.cs.3965": "ฉันตอบตกลงไปแล้วนะ! อยากจะให้ฉันทำให้ดู อีกรอบมั้ยล่ะ?$h",
-                "NPC.cs.3966": "อืมมม... เราจะถือว่าเจ้าเครื่องรางนี่ มันเป็นตัวทดลองละกันนะ และเจ้านี่ก็เป็นตัวควบคุม$u",
+                "NPC.cs.3966": "อืมมม... เราจะถือซะว่าเจ้าเครื่องราง ในรอบนี้ใช้เป็นตัวทดลอง ละกันนะจ๊ะ$u",
             },
             "When":
             {
@@ -82,8 +82,8 @@
             "Target": "Characters/Dialogue/Maru",
             "Entries":
             {
-                "NPC.cs.3967": "Where did you find another pendant, anyway? They're supposed to be pretty rare.",
-                "NPC.cs.3968": "That's the 'control' pendant, right? Hmm, I don't see any physical differences between that one and mine.$u",
+                "NPC.cs.3967": "ไปเอาเจ้าเครื่องราง มาจากไหนอีกน่ะจ๊ะ? น่าจะหายากน่าดูเลย",
+                "NPC.cs.3968": "นั่นมันเจ้าเคื่องราง อันนั้นนี่ใช่มั้ย? หืมมม ไม่เห็นว่าจะส่งผล อะไรเลยนะเนี่ย $u",
             },
             "When":
             {
@@ -151,7 +151,7 @@
             "Target": "Characters/Dialogue/MarriageDialogueMaru",
             "Entries":
             {
-                "Indoor_Day_4": "With all the time you spend working outside, I hope you're careful about sun protection. I want you to stay healthy!",
+                "Indoor_Day_4": "เวลาที่ทำงานอยู่ข้างนอก คอยระวังเรื่องอันตรายจาก แสงแดดไว้ด้วยนะจ๊ะ ฉันอยากมั่นใจว่าเธอจะ แข็งแรงอยู่ตลอดเวลา!",
             },
             "When":
             {
@@ -190,9 +190,9 @@
             "Target": "Strings/schedules/Maru",
             "Entries":
             {
-		"marriage_Mon.002": "I hope Penny finds a partner in life someday.",
-		"marriageJob.000": "I'm at work, {{Lowercase:{{TermofEndearment}}}}! Don't let the doctor see.",
-		"marriageJob.002": "I'm almost off work. I'll see you soon!$h",
+		"marriage_Mon.002": "หวังว่าเพนนีจะได้ เจอใครสักคนที่จะมาช่วย เติมเต็มชีวิตของเธอเร็ว ๆ นี้นะ",
+		"marriageJob.000": "ฉันกำลังทำงานอยู่นะ {{Lowercase:{{TermofEndearment}}}}! อย่าให้คุณหมอเห็นเข้าล่ะ",
+		"marriageJob.002": "ใกล้เสร็จงานแล้วล่ะจ้ะ ไว้เจอกันนะ!$h",
             },
             "When":
             {
@@ -205,9 +205,9 @@
             "Target": "Strings/schedules/Maru",
             "Entries":
             {
-		"marriage_Mon.002": "I hope Penny finds a partner in life someday.",
-		"marriageJob.000": "I'm at work, {{TermofEndearment}}! Don't let the doctor see.",
-		"marriageJob.002": "I'm almost off work. I'll see you soon!$h",
+		"marriage_Mon.002": "หวังว่าเพนนีจะได้ เจอใครสักคนที่จะมาช่วย เติมเต็มชีวิตของเธอเร็ว ๆ นี้นะ",
+		"marriageJob.000": "ฉันกำลังทำงานอยู่นะ {{TermofEndearment}}! อย่าให้คุณหมอเห็นเข้าล่ะ",
+		"marriageJob.002": "ใกล้เสร็จงานแล้วล่ะจ้ะ ไว้เจอกันนะ!$h",
             },
             "When":
             {
@@ -219,7 +219,7 @@
             "Target": "Strings/Characters",
             "Entries":
             {
-                "MovieInvite_Spouse_Maru": "Oh! You planned a night out for us? $h#$b#I'd love to go! I'll see you at the theater.$h",
+                "MovieInvite_Spouse_Maru": "โอ้โห! วางแพลนสำหรับคืนนี้ เอาไว้ด้วยเหรอเนี่ย? $h#$b#ได้แน่นอน! ไว้เจอกันที่โรงหนังนะ$h",
             },
         },
         {
@@ -227,7 +227,7 @@
             "Target": "Strings/SpeechBubbles",
             "Entries":
             {
-                "Hospital_Maru_Spouse": "Hi, {{Lowercase:{{TermofEndearment}}}}!",
+                "Hospital_Maru_Spouse": "ว่าไงจ๊ะ {{Lowercase:{{TermofEndearment}}}}!",
             },
             "When":
             {
@@ -240,7 +240,7 @@
             "Target": "Strings/SpeechBubbles",
             "Entries":
             {
-                "Hospital_Maru_Spouse": "Hi, {{TermofEndearment}}!",
+                "Hospital_Maru_Spouse": "ว่าไงจ๊ะ {{TermofEndearment}}!",
             },
             "When":
             {
@@ -488,7 +488,7 @@
 		"Action": "EditData",
 		"Target": "Strings/schedules/Maru",
 		"Entries": {
-			"marriage_p3": "It's getting a little chilly.$s#$b#Let's go home soon and warm up.$l",
+			"marriage_p3": "อากาศเริ่มเย็นแล้ว$s#$b#รีบกลับบ้านกันดีกว่า$l",
    	    },
 		"When": {
 			"EnableAsexuality": "true",
