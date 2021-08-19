@@ -172,7 +172,7 @@
             "Target": "Characters/Dialogue/Kent",
             "Entries":
             {
-                "fall_12": "เมื่อวานเป็นวันเกิดภรรยาฉันล่ะ ได้เห็นแซมทำอะไรพิเศษเพื่อเธอแล้ว ก็ทำให้รู้สึกดีขึ้นนิดนึง เรื่องที่ฉันไม่ได้มา ในวันเกิดปีก่อนๆ ของเธอนั่น"
+                "fall_12": "เมื่อวานเป็นวันเกิดภรรยาผมล่ะ ได้เห็นแซมทำอะไรพิเศษเพื่อเธอแล้ว ก็ทำให้รู้สึกดีขึ้นนิดนึง เรื่องที่ผมพลาดวันเกิด ของเธอบ่อยๆ"
             },
             "When":
             {
@@ -198,7 +198,7 @@
             "Entries":
             {
                 "Sam0": "ฉันดีใจมากเลยที่เราจะได้เป็น {{RelationshipLabel}} กันน่ะ @#$e#ฉันตื่นเต้นอ่ะ$h",
-                "Sam1": "ฉันไม่ฝันเลยว่าจะได้มีวันนี้ ฉันนี่โชคดีชะมัด#$e#ันรอให้ถึงวันพิธี ไม่ไหวแล้ว ว่าแล้วก็ลืมไปเลย ว่าฉันต้องดูกำหนดการ เรื่องดนตรีทั้งหมดอีกนี่นา!$8",
+                "Sam1": "ฉันไม่ฝันเลยว่าจะได้มีวันนี้ ฉันนี่โชคดีชะมัด#$e#ฉันรอให้ถึงวันพิธี ไม่ไหวแล้ว ว่าแล้วก็ลืมไปเลย ว่าฉันต้องดูกำหนดการ เรื่องดนตรีทั้งหมดอีกนี่นา!$8",
             },
             "When":
             {
@@ -217,7 +217,7 @@
             },
             "When":
             {
-                "Relationship:Sam": "หมั้นแล้ว, แต่งงานแล้ว"
+                "Relationship:Sam": "Engaged, Married"
             }
         },
         {
@@ -225,10 +225,10 @@
             "Target": "Characters/Dialogue/Jodi",
             "Entries":
             {
-                "NPC.cs.3965": "...Is this a comment on my parenting style? I know I've babied Sam a little, but do you really think I'd try to follow him to your house?$3",
-                "NPC.cs.3966": "Um... I already have a house. I might even get to sleep in the biggest bedroom once I clear Sam's things out of it...$4",
-                "NPC.cs.3967": "...Is this a comment on my parenting style? I know I used to baby Sam a little, but do you really think I'd try to follow him to your house?$3",
-                "NPC.cs.3968": "Um... I already have a house. I might even get to sleep in the biggest bedroom, if I ever get around to clearing Sam's things out of it...$4",
+                "NPC.cs.3965": "...นี่วิจารณ์วิธีเลี้ยงลูก ฉันอยู่เหรอ? ฉันรู้ว่าอาจจะโอ๋ แซมไปหน่อย แต่เธอคิดจริงๆ เหรอว่าฉันจะถึงขั้น ตามเขามาถึงบ้านเธอน่ะ?$3",
+                "NPC.cs.3966": "อืม... ฉันมีบ้านอยู่แล้วนะ ฉันอาจจะได้นอนห้องที่ ใหญ่ที่สุดเลยด้วยซ้ำ หลังจัดการของของแซม ออกมาแล้วน่ะ...$4",
+                "NPC.cs.3967": "...นี่วิจารณ์วิธีเลี้ยงลูก ฉันอยู่เหรอ? ฉันรู้ว่าฉันก็เคยโอ๋แซม มานิดหน่อย แต่เธอคิดจริงๆ เหรอว่าฉันจะถึงขั้น พยายามตามเขา มาถึงบ้านเธอน่ะ?$3",
+                "NPC.cs.3968": "อืม... ฉันมีบ้านอยู่แล้วนะ ฉันอาจจะได้นอนห้องที่ ใหญ่ที่สุดเลยด้วยซ้ำ ถ้าฉันทำใจย้าย ของของแซมออกมาได้...$4",
             },
             "When":
             {
@@ -240,11 +240,11 @@
             "Target": "Characters/Dialogue/Kent",
             "Entries":
             {
-                "NPC.cs.3965": "...Are you implying I should spend more time with my son? Sam's a grown man. If he wants to get a beer with me, he can tell me himself.$2",
-                "NPC.cs.3966": "No, I am not going to leave my wife and young son to move in with you and Sam. Why would you even ask that?",
-                "NPC.cs.3967": "...Are you implying I should spend more time with my son? Sam's a grown man. If he wants to get a beer with me, he can tell me himself.$2",
-                "NPC.cs.3968": "No, I am not going to leave my wife and young son to move in with you and Sam. Why would you even ask that?",
-                "Thu_inlaw_Sam": "Hey, @. How are you and Sam doing?",
+                "NPC.cs.3965": "...คุณจะบอกว่า ผมควรใช้เวลากับลูกมากกว่านี้เหรอ? แซมโตเป็นหนุ่มเต็มตัวแล้ว ถ้าเขาอยากมาดื่มเบียร์กับผม เขาก็มาบอกผมเองได้$2",
+                "NPC.cs.3966": "ไม่ล่ะ ผมจะไม่ทิ้งภรรยา และลูกน้อย เพื่อย้ายมาอยู่กับคุณ และแซมหรอก ต้องถามด้วยเหรอ?",
+                "NPC.cs.3967": "...คุณจะบอกว่า ผมควรใช้เวลากับลูกมากกว่านี้เหรอ? แซมโตเป็นหนุ่มเต็มตัวแล้ว ถ้าเขาอยากมาดื่มเบียร์กับผม เขาก็มาบอกผมเองได้$2",
+                "NPC.cs.3968": "ไม่ล่ะ ผมจะไม่ทิ้งภรรยา และลูกน้อย เพื่อย้ายมาอยู่กับคุณ และแซมหรอก ต้องถามด้วยเหรอ?",
+                "Thu_inlaw_Sam": "ไง @ คุณกับแซมเป็นไงบ้าง?",
             },
             "When":
             {
@@ -256,7 +256,7 @@
             "Target": "Strings/StringsFromCSFiles",
             "Entries":
             {
-                "Game1.cs.2782": "What an awesome ceremony. Did you see how stoked Vincent was to be pendant-bearer?$h#$e#Well, time to kick back and relax!",
+                "Game1.cs.2782": "เป็นพิธีที่เจ๋งอะไรขนาดนี้ คุณเห็นมั้ยว่าวินเซนท์ ดีใจแค่ไหนที่ได้เป็น ผู้ถือจี้?$h#$e#เอาล่ะ ถึงเวลาพักผ่อนแล้ว!",
             },
             "When":
             {
@@ -268,13 +268,13 @@
             "Target": "Characters/Dialogue/MarriageDialogueSam",
             "Entries":
             {
-                "Good_1": "Do you ever think about that night you came to see the band perform? That's a really good memory for me.$l",
-                "Good_2": "You know, I think I had a feeling we'd have a life together from the very beginning. There's just something special between us.$l",
-                "Good_3": "You look great today. Did you do something with your hair?",
-                "Good_4": "{{TermofEndearment}}, I was just gonna write you a song on the guitar. But now you're here and I feel relaxed.#$e#I mainly feel like playing guitar when I'm lonely.",
-                "Good_5": "{{TermofEndearment}}, talk to me! I'm always interested to hear about your day.",
-                "spring_23": "Oh... tomorrow's the flower dance, isn't it? You sure you don't want to skip it?#$e#Well, it's worth going if it makes you happy.",
-                "TwoKids_0": "I woke up early, fed the kids and changed their diapers! We're all set. You can just focus on raking in that sweet money.$h#$e#I'm just kidding... I didn't move in with you for the money.",
+                "Good_1": "เธอเคยนึกถึง คืนที่คุณมาดูวงเล่นบ้างมั้ย? นั่นเป็นความทรงจำ ที่ดีมากเลยสำหรับฉันน่ะ$l",
+                "Good_2": "รู้ปะ ฉันว่าฉันรู้สึกได้ตั้งแต่แรกเลยนะ ว่าเราจะได้มาใช้ชีวิตด้วยกัน ระหว่างเรา มันมีอะไรพิเศษน่ะ$l",
+                "Good_3": "วันนี้ดูดีอ่ะ นี่ทำผมเป็นพิเศษเลยใช่ป่าว?",
+                "Good_4": "{{TermofEndearment}} ฉันกำลังจะแต่งเพลงให้ จากกีต้าร์พอดีเลย แต่พอเธออยู่นี่ ฉันก็รู้สึกดีขึ้นน่ะ#$e#ปกติฉันจะรู้สึก อยากเล่นกีต้าร์ เวลาเหงาน่ะ",
+                "Good_5": "{{TermofEndearment}} มาคุยกับฉันสิ! ฉันสนใจ อยากฟังเรื่องวันของเธอ เสมอแหละ",
+                "spring_23": "โอ้... พรุ่งนี้เป็นงานเต้นรำ เทศกาลดอกไม้ใช่ปะ? แน่ใจเหรอว่าไม่อยากโดด?#$e#ก็ได้ ถ้าเธอแฮปปี้ก็น่าไป",
+                "TwoKids_0": "ฉันตื่นแต่เช้า มาให้อาหารลูกๆ แล้วก็เปลี่ยนผ้าอ้อมแล้วนะ! พวกเราพร้อมไปได้เลยล่ะ เธอแค่โฟกัส เรื่องหาเงินให้ได้เยอะๆ ก็พอ$h#$e#ฉันล้อเล่น... ฉันไม่ได้ย้ายเข้ามาอยู่ด้วย เพราะเรื่องเงินหรอก",
             },
             "When":
             {
@@ -286,13 +286,13 @@
             "Target": "Characters/Dialogue/MarriageDialogueSam",
             "Entries":
             {
-                "Good_1": "Do you ever think about that night you came to see the band perform? That's a really good memory for me.$u",
-                "Good_2": "You know, I think I had a feeling we'd have a life together from the very beginning. There's just something special between us.",
-                "Good_3": "You look great today. Did you do something with your hair?",
-                "Good_4": "{{TermofEndearment}}, I was just gonna write you a song on the guitar. But now you're here and I feel relaxed.#$e#I mainly feel like playing guitar when I'm lonely.",
-                "Good_5": "{{TermofEndearment}}, talk to me! I'm always interested to hear about your day.",
-                "spring_23": "Oh... tomorrow's the flower dance, isn't it? You sure you don't want to skip it?#$e#Well, it's worth going if it makes you happy.",
-                "TwoKids_0": "I woke up early, fed the kids and changed their diapers! We're all set. You can just focus on raking in that sweet money.$h#$e#I'm just kidding... I didn't move in with you for the money.",
+                "Good_1": "เธอเคยนึกถึง คืนที่คุณมาดูวงเล่นบ้างมั้ย? นั่นเป็นความทรงจำ ที่ดีมากเลยสำหรับฉันน่ะ$u",
+                "Good_2": "รู้ปะ ฉันว่าฉันรู้สึกได้ตั้งแต่แรกเลยนะ ว่าเราจะได้มาใช้ชีวิตด้วยกัน ระหว่างเรา มันมีอะไรพิเศษน่ะ",
+                "Good_3": "วันนี้ดูดีอ่ะ นี่ทำผมเป็นพิเศษเลยใช่ป่าว?",
+                "Good_4": "{{TermofEndearment}}ฉันกำลังจะแต่งเพลงให้ จากกีต้าร์พอดีเลย แต่พอเธออยู่นี่ ฉันก็รู้สึกดีขึ้นน่ะ#$e#ปกติฉันจะรู้สึก อยากเล่นกีต้าร์ เวลาเหงาน่ะ",
+                "Good_5": "{{TermofEndearment}} มาคุยกับฉันสิ! ฉันสนใจ อยากฟังเรื่องวันของเธอ เสมอแหละ",
+                "spring_23": "โอ้... พรุ่งนี้เป็นงานเต้นรำ เทศกาลดอกไม้ใช่ปะ? แน่ใจเหรอว่าไม่อยากโดด?#$e#ก็ได้ ถ้าเธอแฮปปี้ก็น่าไป",
+                "TwoKids_0": "ฉันตื่นแต่เช้า มาให้อาหารลูกๆ แล้วก็เปลี่ยนผ้าอ้อมแล้วนะ! พวกเราพร้อมไปได้เลยล่ะ เธอแค่โฟกัส เรื่องหาเงินให้ได้เยอะๆ ก็พอ$h#$e#ฉันล้อเล่น... ฉันไม่ได้ย้ายเข้ามาอยู่ด้วย เพราะเรื่องเงินหรอก",
             },
             "When":
             {
@@ -304,11 +304,11 @@
             "Target": "Characters/Dialogue/MarriageDialogueSam",
             "Entries":
             {
-                "Rainy_Day_1": "Do you think Sebastian and Abby will ever hook up?#$e#Sebastian is definitely into her, but I think she'd have to make the first move.",
-                "Indoor_Day_2": "Hey. I know I joke around a lot, but I want you to know that you'll always be my best friend. I seriously love you, @.$l",
-                "Indoor_Night_4": "Ready to hit the hay?",
-                "Outdoor_4": "Ha, you're all muddy. You're really selling the classic farmer look!$h",
-                "OneKid_3": "I think we should adopt another kid. Vincent keeps asking when he gets to be a 'double uncle.'$h",
+                "Rainy_Day_1": "เธอว่าเซบาสเตียนกับแอ๊บบี้ จะมีวันลงเอยกันปะ?#$e#เซบาสเตียนน่ะชอบเธอชัวร์ๆ แต่เธอคงต้องจีบเขาก่อน",
+                "Indoor_Day_2": "นี่ ฉันรู้ว่า ฉันชอบพูดเล่นไปเรื่อย แต่อยากให้รู้ว่า เธอจะเป็นเพื่อนซี้ที่สุด ของฉันเสมอนะ ฉันรักเธอจริงๆ นะ @$l",
+                "Indoor_Night_4": "พร้อมนอนยัง?",
+                "Outdoor_4": "ฮ่าๆ เธอเปื้อนโคลนไปหมดเลย นี่ตรงปกชาวสวน ขนานแท้เลย!$h",
+                "OneKid_3": "ฉันว่าเราควร รับเลี้ยงเด็กอีกคนนะ วิทเซนท์ถามอยู่นั่นแหละว่า เมื่อไหร่เขาจะได้เป็น 'ลุงคูณสอง'$h",
             },
             "When":
             {
@@ -321,11 +321,11 @@
             "Target": "Characters/Dialogue/MarriageDialogueSam",
             "Entries":
             {
-                "Rainy_Day_1": "Do you think Sebastian and Abby will ever hook up?#$e#Sebastian is definitely into her, but I think she'd have to make the first move.",
-                "Indoor_Day_2": "Hey. I know I joke around a lot, but I want you to know that you'll always be my best friend. I seriously love you, @.",
-                "Indoor_Night_4": "Ready to hit the hay?",
-                "Outdoor_4": "Ha, you're all muddy. You're really selling the classic farmer look!$h",
-                "OneKid_3": "I think we should adopt another kid. Vincent keeps asking when he gets to be a 'double uncle.'$h",
+                "Rainy_Day_1": "เธอว่าเซบาสเตียนกับแอ๊บบี้ จะมีวันลงเอยกันปะ?#$e#เซบาสเตียนน่ะชอบเธอชัวร์ๆ แต่เธอคงต้องจีบเขาก่อน",
+                "Indoor_Day_2": "นี่ ฉันรู้ว่า ฉันชอบพูดเล่นไปเรื่อย แต่อยากให้รู้ว่า เธอจะเป็นเพื่อนซี้ที่สุด ของฉันเสมอนะ ฉันรักเธอจริงๆ นะ @",
+                "Indoor_Night_4": "พร้อมนอนยัง?",
+                "Outdoor_4": "ฮ่าๆ เธอเปื้อนโคลนไปหมดเลย นี่ตรงปกชาวสวน ขนานแท้เลย!$h",
+                "OneKid_3": "ฉันว่าเราควร รับเลี้ยงเด็กอีกคนนะ วิทเซนท์ถามอยู่นั่นแหละว่า เมื่อไหร่เขาจะได้เป็น 'ลุงคูณสอง'$h",
             },
             "When":
             {
@@ -338,7 +338,7 @@
             "Target": "Characters/Dialogue/MarriageDialogueSam",
             "Entries":
             {
-                "Indoor_Night_0": "Hey, you look tired. Let me help you relax tonight, okay? Can I get you anything?",
+                "Indoor_Night_0": "ไง เธอดูเหนื่อยนะ ให้ฉันช่วยทำให้เธอ ผ่อนคลายดีมั้ยคืนนี้? อยากให้ฉันเอาอะไร มาให้มั้ย?",
             },
             "When":
             {
@@ -351,7 +351,7 @@
             "Target": "Characters/Dialogue/MarriageDialogueSam",
             "Entries":
             {
-                "Indoor_Day_1": "Hey, look what I made for you! [194 211]$h#$e#Sorry... I only know how to cook instant pancakes and eggs.$10#$e#But at least I learned my fried egg technique from a master!",
+                "Indoor_Day_1": "นี่ ดูสิฉันทำอะไรมาให้! [194 211]$h#$e#โทษทีนะ... ฉันรู้แต่วิธีทำแพนเค้กสำเร็จรูป กับไข่น่ะ$10#$e#แต่อย่างน้อยเทคนิดทอดไข่นี่ ฉันก็เรียนมาจาก ปรมาจารย์เลยนะ!",
             },
             "When":
             {
@@ -364,8 +364,8 @@
             "Target": "Characters/Dialogue/MarriageDialogue",
             "Entries":
             {
-                "Outdoor_Sam": "Hey, look at those puffy clouds in the sky, {{Lowercase:{{TermofEndearment}}}}!$h#$e#I'm going to watch those for a while, if you don't mind.",
-                "winter_Sam": "I still care about music, but our household comes first. I don't want to put everything on you like I used to do with my mom.",
+                "Outdoor_Sam": "นั่น ดูเมฆปุกปุยบนท้องฟ้า พวกนั้นสิ {{Lowercase:{{TermofEndearment}}}}!$h#$e#ถ้าเธอไม่ว่าอะไร ฉันจะขอดูต่อสักหน่อยนะ",
+                "winter_Sam": "ฉันยังแคร์เรื่องดนตรีอยู่แหละ แต่บ้านเราต้องมาก่อน ฉันไม่อยากทิ้งภาระ ไว้ให้เธอคนเดียว แบบที่เคยทำกับแม่",
             },
             "When":
             {
@@ -378,8 +378,8 @@
             "Target": "Characters/Dialogue/MarriageDialogue",
             "Entries":
             {
-                "Outdoor_Sam": "Hey, look at those puffy clouds in the sky, {{TermofEndearment}}!$h#$e#I'm going to watch those for a while, if you don't mind.",
-                "winter_Sam": "I still care about music, but our household comes first. I don't want to put everything on you like I used to do with my mom.",
+                "Outdoor_Sam": "นั่น ดูเมฆปุกปุยบนท้องฟ้า พวกนั้นสิ {{TermofEndearment}}!$h#$e#ถ้าเธอไม่ว่าอะไร ฉันจะขอดูต่อสักหน่อยนะ",
+                "winter_Sam": "ฉันยังแคร์เรื่องดนตรีอยู่แหละ แต่บ้านเราต้องมาก่อน ฉันไม่อยากทิ้งภาระ ไว้ให้เธอคนเดียว แบบที่เคยทำกับแม่",
             },
             "When":
             {
@@ -391,7 +391,7 @@
             "Target": "Strings/schedules/Sam",
             "Entries":
             {
-		"marriage_Fri.001": "Sorry, {{Lowercase:{{TermofEndearment}}}}. I'm trying to concentrate here... $7",
+		"marriage_Fri.001": "โทษที {{Lowercase:{{TermofEndearment}}}} ฉันกำลังพยายาม ตั้งสมาธิอยู่... $7",
             },
             "When":
             {
@@ -404,7 +404,7 @@
             "Target": "Strings/schedules/Sam",
             "Entries":
             {
-		"marriage_Fri.001": "Sorry, {{TermofEndearment}}. I'm trying to concentrate here... $7",
+		"marriage_Fri.001": "โทษที {{TermofEndearment}} ฉันกำลังพยายาม ตั้งสมาธิอยู่... $7",
             },
             "When":
             {
@@ -416,7 +416,7 @@
             "Target": "Data/ExtraDialogue",
             "Entries":
             {
-                "SummitEvent_Dialogue3_Sam": "I feel like I've changed a lot from when we first met... you know?#$b#...you might call it 'maturity'... hehe.$10#$b#But I'm at a place, now, where I'm actually really excited about our future together...$l#$b#Even if that means just doing normal stuff, like... uh... buying groceries and taking the trash out... hah...$10",
+                "SummitEvent_Dialogue3_Sam": "ฉันรู้สึกเหมือน ฉันเปลี่ยนไปมากเลย จากตอนเราเจอกันทีแรก... เธอรู้มั้ย?#$b#...เธอจะเรียกว่า 'เป็นผู้ใหญ่' ก็ได้... อิอิ$10#$b#แต่ตอนนี้ฉันอยู่ในจุดที่ ฉันตื่นเต้นจริงๆ เรื่องอนาคตที่พวกเรา จะได้อยู่ด้วยกัน...$l#$b#ถึงอนาคตนั่น จะเป็นแค่ทำเรื่องพื้นๆ อย่าง... เอ่อ... ซื้อของเข้าบ้าน แล้วก็ทิ้งขยะก็ตาม... แหะๆ...$10",
             },
             "When":
             {
@@ -428,7 +428,7 @@
             "Target": "Data/ExtraDialogue",
             "Entries":
             {
-                "SummitEvent_Dialogue3_Sam": "I feel like I've changed a lot from when we first met... you know?#$b#...you might call it 'maturity'... hehe.$10#$b#But I'm at a place, now, where I'm actually really excited about our future together...#$b#Even if that means just doing normal stuff, like... uh... buying groceries and taking the trash out... hah...$10",
+                "SummitEvent_Dialogue3_Sam": "ันรู้สึกเหมือน ฉันเปลี่ยนไปมากเลย จากตอนเราเจอกันทีแรก... เธอรู้มั้ย?#$b#...เธอจะเรียกว่า 'เป็นผู้ใหญ่' ก็ได้... อิอิ$10#$b#แต่ตอนนี้ฉันอยู่ในจุดที่ ฉันตื่นเต้นจริงๆ เรื่องอนาคตที่พวกเรา จะได้อยู่ด้วยกัน...#$b#ึงอนาคตนั่น จะเป็นแค่ทำเรื่องพื้นๆ อย่าง... เอ่อ... ซื้อของเข้าบ้าน แล้วก็ทิ้งขยะก็ตาม... แหะๆ...$10",
             },
             "When":
             {
@@ -440,7 +440,7 @@
             "Target": "Strings/StringsFromCSFiles",
             "Entries":
             {
-                "Event.cs.1625": "Aw, I gotta put on that dorky suit again?$8#$b#...Well, if you're double daring me, I have no choice.$n",
+                "Event.cs.1625": "เห้อ ฉันต้องใส่สูทเชยๆ นั่นอีกแล้วเหรอเนี่ย?$8#$b#...แต่นะ ถ้าเธอท้าฉันคูณสอง ขนาดนี้แล้ว ฉันก็ไม่มีทางเลือก$n",
             },
         },
         {
@@ -448,7 +448,7 @@
             "Target": "Data/mail",
             "Entries":
             {
-                "samMessage": "{{Lowercase:@}},^i need your help with something. meet me at my house sometime between 10 and 5? ^   -Sam[#]Sam's Note",
+                "samMessage": "{{Lowercase:@}}^อยากให้ช่วยไรหน่อยดิ มาเจอฉันที่บ้านสัก ระหว่างสิบโมงถึงห้าโมงได้ปะ? ^   -แซม[#]Sam's Note",
             },
         },
         {
